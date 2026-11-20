@@ -1,0 +1,776 @@
+{
+  "schemaVersion": 1,
+  "prototypeAccepted": false,
+  "productionApproved": false,
+  "wardrobeVerified": false,
+  "crossCharacterVerified": false,
+  "mobileVerified": false,
+  "status": "candidate_reviewed_not_accepted",
+  "boneCount": 12,
+  "slotCount": 7,
+  "meshCount": 4,
+  "spineVersion": "4.2.00",
+  "duration": 0.6666666666666666,
+  "cycleSampleCount": 193,
+  "meshGeometry": {
+    "leg_far": {
+      "flips": 0,
+      "collapsed": 0,
+      "minAreaRatio": 0.14365460938968208,
+      "maxAreaRatio": 2.597380529520877,
+      "minPrincipalStretch": 0.07350251475559746,
+      "maxPrincipalStretch": 3.0983596543526706
+    },
+    "leg_near": {
+      "flips": 12,
+      "collapsed": 0,
+      "minAreaRatio": -0.10098178638726249,
+      "maxAreaRatio": 2.694763540552916,
+      "minPrincipalStretch": 0.00842998463645799,
+      "maxPrincipalStretch": 8.076098596676701
+    },
+    "arm_far": {
+      "flips": 0,
+      "collapsed": 0,
+      "minAreaRatio": 0.1599920759239364,
+      "maxAreaRatio": 2.288916116931317,
+      "minPrincipalStretch": 0.08467804316254915,
+      "maxPrincipalStretch": 2.624763454874419
+    },
+    "arm_near": {
+      "flips": 0,
+      "collapsed": 0,
+      "minAreaRatio": 0.15933661779655545,
+      "maxAreaRatio": 3.135933237330424,
+      "minPrincipalStretch": 0.05997867128235202,
+      "maxPrincipalStretch": 3.631135961374958
+    }
+  },
+  "weightOptimization": {
+    "leg_far": {
+      "beforeOptimizationFlips": 586,
+      "beforeMinAreaRatio": -0.7273218136541835,
+      "attempted": true,
+      "solver": "scipy sparse least_squares static softmax weights",
+      "nfev": 140,
+      "finalCost": 2.138402239578643,
+      "targetsOrAnglesReduced": false,
+      "optimizedVertexCount": 87
+    },
+    "leg_near": {
+      "beforeOptimizationFlips": 2096,
+      "beforeMinAreaRatio": -1.6946706439905699,
+      "attempted": true,
+      "solver": "scipy sparse least_squares static softmax weights",
+      "nfev": 180,
+      "finalCost": 756.1713979911306,
+      "targetsOrAnglesReduced": false,
+      "optimizedVertexCount": 110
+    },
+    "arm_far": {
+      "beforeOptimizationFlips": 244,
+      "beforeMinAreaRatio": -0.3050365831024212,
+      "attempted": true,
+      "solver": "scipy sparse least_squares static softmax weights",
+      "nfev": 70,
+      "finalCost": 0.00023619163528786603,
+      "targetsOrAnglesReduced": false,
+      "optimizedVertexCount": 79
+    },
+    "arm_near": {
+      "beforeOptimizationFlips": 1903,
+      "beforeMinAreaRatio": -0.8603940075765477,
+      "attempted": true,
+      "solver": "scipy sparse least_squares static softmax weights",
+      "nfev": 117,
+      "finalCost": 0.0022212049809234957,
+      "targetsOrAnglesReduced": false,
+      "optimizedVertexCount": 143
+    }
+  },
+  "setupWeightedReconstruction": {
+    "leg_far": {
+      "maxReconstructionErrorPx": 1.1718571004216928e-13,
+      "maxWeightSumError": 2.220446049250313e-16,
+      "finiteNonnegativeWeights": true
+    },
+    "leg_near": {
+      "maxReconstructionErrorPx": 1.2710574864626038e-13,
+      "maxWeightSumError": 2.220446049250313e-16,
+      "finiteNonnegativeWeights": true
+    },
+    "arm_far": {
+      "maxReconstructionErrorPx": 1.6077746776921858e-13,
+      "maxWeightSumError": 2.220446049250313e-16,
+      "finiteNonnegativeWeights": true
+    },
+    "arm_near": {
+      "maxReconstructionErrorPx": 1.4210854715202004e-13,
+      "maxWeightSumError": 2.220446049250313e-16,
+      "finiteNonnegativeWeights": true
+    }
+  },
+  "firstLastMeshMaxErrorPx": {
+    "leg_far": 0.0,
+    "leg_near": 0.0,
+    "arm_far": 0.0,
+    "arm_near": 0.0
+  },
+  "meshNoFlipsPassed": false,
+  "numericalChecksPassed": false,
+  "allSevenStablePartsHashVerified": true,
+  "stableManifestUnchanged": true,
+  "protectedOldFilesUnchanged": true,
+  "protectedOldFileCount": 265,
+  "sourceVideoSHAAnd17DecodedFramesVerified": true,
+  "profileBindEqualsRuntime": true,
+  "fixedLimbLengths": true,
+  "noLimbTranslationOrScaleTimelines": true,
+  "noDeformTimeline": true,
+  "visibleTargetFit": {
+    "maxResidualPx": 36.64144073161964,
+    "rmsResidualPx": 13.930356582919742,
+    "withinMappedManualUncertainty11_6Px": false,
+    "maxResidualExample": {
+      "part": "leg_far",
+      "frame": 74,
+      "time": 0.25,
+      "visibleTarget": true,
+      "videoPoint": [
+        509,
+        426
+      ],
+      "mappedTarget": [
+        505.7,
+        629.7
+      ],
+      "inferredRoot": [
+        439.9,
+        563.4
+      ],
+      "inferredJoint": [
+        465.09453478750015,
+        584.6893263595033
+      ],
+      "projectedBoneEndpoint": [
+        479.8888410905553,
+        603.6927076641917
+      ],
+      "fixedLengthProjectionResidualPx": 36.64144073161972,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        479.8888410905553,
+        603.6927076641919
+      ],
+      "materialResidualPx": 36.64144073161964,
+      "videoEquivalentResidualPx": 25.269959125254925
+    }
+  },
+  "videoFitPassed": false,
+  "videoLoopCandidateAccepted": false,
+  "closureResiduals": {
+    "arm_near": {
+      "videoPointDeltaPx": 1.0,
+      "mappedTargetDeltaPx": 1.4499999999999886,
+      "rawProjectedEndpointDeltaPx": 1.4499999999999886,
+      "distributedAngleCorrectionDegrees": [
+        -1.4657778518484719,
+        1.4608631811437647
+      ],
+      "finalMaterialResidualAt84Px": 1.4499999999999886,
+      "finalMaterialLoopErrorPx": 0.0
+    },
+    "arm_far": {
+      "videoPointDeltaPx": 1.4142135623730951,
+      "mappedTargetDeltaPx": 2.0506096654409314,
+      "rawProjectedEndpointDeltaPx": 2.0506096654408914,
+      "distributedAngleCorrectionDegrees": [
+        2.536774133862906,
+        -6.856211610559498
+      ],
+      "finalMaterialResidualAt84Px": 2.0506096654409314,
+      "finalMaterialLoopErrorPx": 0.0
+    },
+    "leg_near": {
+      "videoPointDeltaPx": 1.0,
+      "mappedTargetDeltaPx": 1.4500000000000455,
+      "rawProjectedEndpointDeltaPx": 0.567944605855751,
+      "distributedAngleCorrectionDegrees": [
+        -0.44888985212306665,
+        0.0
+      ],
+      "finalMaterialResidualAt84Px": 11.980246210525456,
+      "finalMaterialLoopErrorPx": 0.0
+    },
+    "leg_far": {
+      "videoPointDeltaPx": 1.0,
+      "mappedTargetDeltaPx": 1.4500000000000455,
+      "rawProjectedEndpointDeltaPx": 1.4499999999999318,
+      "distributedAngleCorrectionDegrees": [
+        -0.7888245313104782,
+        3.800584920876446
+      ],
+      "finalMaterialResidualAt84Px": 1.4500000000000455,
+      "finalMaterialLoopErrorPx": 0.0
+    }
+  },
+  "officialSpineImportVerified": false,
+  "shoulderAndLegRootGapFree": false,
+  "visualReview": {
+    "status": "actually_reviewed_candidate_failed_video_match",
+    "inspectedWith": "ViewImage",
+    "file": "review.png",
+    "sha256": "f1ff355e369532e0fa58614ec0172b15aed7e1a5df4a44d51e638b6cc5d43282",
+    "scope": "7主姿态含68/72/76/80/84及10过渡的真实导出图，蓝色骨链/红色目标与原视频对照。",
+    "observations": [
+      "动作已由视频可见点驱动而非旧小摆幅；胸前收臂与换脚有明显变化。",
+      "原图肩根/腿根及侧臂纹理不足，视频转面与胸前圆手轮廓不能仅凭当前静态四mesh完整复现。",
+      "最终193相位仍有近腿12个三角×相位翻转，最小面积比-0.1009817864；74–77过渡腿口/肩根切口和轮廓扭曲可见。",
+      "最大可见材料点残差36.6414px（视频等价25.2700px），出现在f74 leg_far；数值循环误差0并不代表视频复现通过。",
+      "更强权重及反向膝弯分支已实际试验，反向分支造成更明显腿根拉脱，最终保留原分支较优失败候选。"
+    ],
+    "passed": false
+  },
+  "limitations": [
+    "七件纹理均为稳定静态原图素材；body保留既有4095px AI供体搭接，本构建不新增纹理、不从视频裁片、不补全隐藏面。",
+    "肩、肘、髋、膝为语义双骨链推断，不是自动关节提取或直接观测；near/far不确立解剖左右或跨帧身份。",
+    "采用单一1.45倍映射，固定原图骨长和纹理比例，AI视频的转面/扁脚/逐帧比例变化没有照搬；误差逐点如实保留。",
+    "原侧臂可见纹理弯到胸前有隐藏轮廓缺失和切口外露风险；数值无翻转不能替代造型匹配。",
+    "68/84只是候选周期；81–84分布角度闭环修正使数值循环成立，不等于视频闭环成立。",
+    "CPU导出解算未通过Spine官方运行时、换装、跨角色、移动端或生产验收。"
+  ],
+  "meshRasterSamples": {
+    "68": {
+      "leg_far": {
+        "minAreaRatio": 0.14365460938968208,
+        "maxAreaRatio": 1.8235751432667278,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 178
+      },
+      "leg_near": {
+        "minAreaRatio": 0.21754917821097464,
+        "maxAreaRatio": 2.1652362862907513,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_far": {
+        "minAreaRatio": 0.3074098041786206,
+        "maxAreaRatio": 1.8529076743310442,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_near": {
+        "minAreaRatio": 0.1595583284738878,
+        "maxAreaRatio": 1.9931289504705432,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 45
+      }
+    },
+    "69": {
+      "leg_far": {
+        "minAreaRatio": 0.15572605260841124,
+        "maxAreaRatio": 1.797234048737466,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 19
+      },
+      "leg_near": {
+        "minAreaRatio": 0.2848526114595554,
+        "maxAreaRatio": 2.165330461545849,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_far": {
+        "minAreaRatio": 0.24479529008750023,
+        "maxAreaRatio": 1.887156763888013,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_near": {
+        "minAreaRatio": 0.16095370966729416,
+        "maxAreaRatio": 2.2211137133983057,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 7
+      }
+    },
+    "70": {
+      "leg_far": {
+        "minAreaRatio": 0.8304953400938979,
+        "maxAreaRatio": 1.1486774039472527,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "leg_near": {
+        "minAreaRatio": 0.3932907955652148,
+        "maxAreaRatio": 2.1652564896841393,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_far": {
+        "minAreaRatio": 0.20143780561293373,
+        "maxAreaRatio": 1.9382517545428128,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_near": {
+        "minAreaRatio": 0.16000265880963696,
+        "maxAreaRatio": 2.963738286395314,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      }
+    },
+    "71": {
+      "leg_far": {
+        "minAreaRatio": 0.6285285946734599,
+        "maxAreaRatio": 1.3950485221821731,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "leg_near": {
+        "minAreaRatio": 0.4294735993023149,
+        "maxAreaRatio": 2.1650230691197367,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_far": {
+        "minAreaRatio": 0.16962917377503786,
+        "maxAreaRatio": 1.974695057313873,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 3
+      },
+      "arm_near": {
+        "minAreaRatio": 0.17365965027397087,
+        "maxAreaRatio": 3.0714844477249446,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      }
+    },
+    "72": {
+      "leg_far": {
+        "minAreaRatio": 0.37816977025865095,
+        "maxAreaRatio": 1.6260961677939263,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "leg_near": {
+        "minAreaRatio": 0.4493352164490418,
+        "maxAreaRatio": 2.1648738869348483,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_far": {
+        "minAreaRatio": 0.16000004688301284,
+        "maxAreaRatio": 1.9840589725464404,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 64
+      },
+      "arm_near": {
+        "minAreaRatio": 0.17623310744003742,
+        "maxAreaRatio": 3.0818371129834206,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      }
+    },
+    "73": {
+      "leg_far": {
+        "minAreaRatio": 0.20504351035632484,
+        "maxAreaRatio": 1.788162707787502,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "leg_near": {
+        "minAreaRatio": 0.1998679255917258,
+        "maxAreaRatio": 2.164492012232944,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_far": {
+        "minAreaRatio": 0.1606445177566656,
+        "maxAreaRatio": 2.271597949678743,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 5
+      },
+      "arm_near": {
+        "minAreaRatio": 0.16719754874493614,
+        "maxAreaRatio": 3.1290406278286103,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 4
+      }
+    },
+    "74": {
+      "leg_far": {
+        "minAreaRatio": 0.1599996512935336,
+        "maxAreaRatio": 1.830671064994123,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "leg_near": {
+        "minAreaRatio": -0.050018460603949856,
+        "maxAreaRatio": 2.3682328007992894,
+        "flips": 1,
+        "collapsed": 0,
+        "interiorOverlapPixels": 987
+      },
+      "arm_far": {
+        "minAreaRatio": 0.1599997933505787,
+        "maxAreaRatio": 2.269305050133038,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 6
+      },
+      "arm_near": {
+        "minAreaRatio": 0.1599901740841215,
+        "maxAreaRatio": 3.135933237330424,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 7
+      }
+    },
+    "75": {
+      "leg_far": {
+        "minAreaRatio": 0.31292004088222464,
+        "maxAreaRatio": 1.6869430136468986,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "leg_near": {
+        "minAreaRatio": 0.1410784538305639,
+        "maxAreaRatio": 2.2998166645164653,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 1152
+      },
+      "arm_far": {
+        "minAreaRatio": 0.16030931487204356,
+        "maxAreaRatio": 2.2704547455813824,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 4
+      },
+      "arm_near": {
+        "minAreaRatio": 0.17065751758956604,
+        "maxAreaRatio": 3.125022402446296,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 1
+      }
+    },
+    "76": {
+      "leg_far": {
+        "minAreaRatio": 0.4338209968937993,
+        "maxAreaRatio": 1.5744126371948237,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "leg_near": {
+        "minAreaRatio": 0.13983939484185612,
+        "maxAreaRatio": 2.2576619316011795,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 1121
+      },
+      "arm_far": {
+        "minAreaRatio": 0.16222571168083502,
+        "maxAreaRatio": 2.2759461394641867,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 3
+      },
+      "arm_near": {
+        "minAreaRatio": 0.1869842039403351,
+        "maxAreaRatio": 3.1007220659800923,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      }
+    },
+    "77": {
+      "leg_far": {
+        "minAreaRatio": 0.5903379988049967,
+        "maxAreaRatio": 1.430055011405517,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "leg_near": {
+        "minAreaRatio": 0.12042353783974272,
+        "maxAreaRatio": 2.0063754677705194,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 756
+      },
+      "arm_far": {
+        "minAreaRatio": 0.16398790070586508,
+        "maxAreaRatio": 2.2794646026606267,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 2
+      },
+      "arm_near": {
+        "minAreaRatio": 0.17505549242060245,
+        "maxAreaRatio": 3.076523754087079,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      }
+    },
+    "78": {
+      "leg_far": {
+        "minAreaRatio": 0.8283172911546777,
+        "maxAreaRatio": 1.212270032208166,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "leg_near": {
+        "minAreaRatio": 0.10408959371014764,
+        "maxAreaRatio": 2.2274283376632313,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 227
+      },
+      "arm_far": {
+        "minAreaRatio": 0.7218677189158699,
+        "maxAreaRatio": 1.4079386131897331,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_near": {
+        "minAreaRatio": 0.1669685364158697,
+        "maxAreaRatio": 2.798053664362657,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      }
+    },
+    "79": {
+      "leg_far": {
+        "minAreaRatio": 0.7359280999300355,
+        "maxAreaRatio": 1.3350910718775693,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "leg_near": {
+        "minAreaRatio": 0.26351178192277963,
+        "maxAreaRatio": 2.165312457266626,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_far": {
+        "minAreaRatio": 0.5909003192684832,
+        "maxAreaRatio": 1.4076834845448838,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_near": {
+        "minAreaRatio": 0.17160546754505562,
+        "maxAreaRatio": 2.338249819384343,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      }
+    },
+    "80": {
+      "leg_far": {
+        "minAreaRatio": 0.8779984467241487,
+        "maxAreaRatio": 1.139605152056135,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "leg_near": {
+        "minAreaRatio": 0.1849267279892214,
+        "maxAreaRatio": 2.1651442175604334,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_far": {
+        "minAreaRatio": 0.3365016711775477,
+        "maxAreaRatio": 1.5542509691768698,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_near": {
+        "minAreaRatio": 0.16210199280869725,
+        "maxAreaRatio": 2.0610290612625426,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      }
+    },
+    "81": {
+      "leg_far": {
+        "minAreaRatio": 0.18083757519102708,
+        "maxAreaRatio": 2.385029038533661,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "leg_near": {
+        "minAreaRatio": 0.14312806952469279,
+        "maxAreaRatio": 2.325293018979461,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_far": {
+        "minAreaRatio": 0.20971072641860003,
+        "maxAreaRatio": 1.683332417143166,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_near": {
+        "minAreaRatio": 0.16000095921146762,
+        "maxAreaRatio": 1.9857010844458074,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 26
+      }
+    },
+    "82": {
+      "leg_far": {
+        "minAreaRatio": 0.1596771988072995,
+        "maxAreaRatio": 2.571853532686279,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 2
+      },
+      "leg_near": {
+        "minAreaRatio": 0.13654901694972554,
+        "maxAreaRatio": 2.359443944254549,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_far": {
+        "minAreaRatio": 0.16000091131055455,
+        "maxAreaRatio": 1.7378184145120803,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_near": {
+        "minAreaRatio": 0.15933661779655545,
+        "maxAreaRatio": 1.988642649207101,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 34
+      }
+    },
+    "83": {
+      "leg_far": {
+        "minAreaRatio": 0.15130442646262796,
+        "maxAreaRatio": 2.597380529520877,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 8
+      },
+      "leg_near": {
+        "minAreaRatio": 0.1541341205059248,
+        "maxAreaRatio": 2.2698963436530892,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_far": {
+        "minAreaRatio": 0.19965132714185932,
+        "maxAreaRatio": 1.6940987494553545,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_near": {
+        "minAreaRatio": 0.15948609567983252,
+        "maxAreaRatio": 1.9744892997492405,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 8
+      }
+    },
+    "84": {
+      "leg_far": {
+        "minAreaRatio": 0.14365460938968208,
+        "maxAreaRatio": 1.8235751432667278,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 178
+      },
+      "leg_near": {
+        "minAreaRatio": 0.21754917821097464,
+        "maxAreaRatio": 2.1652362862907513,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_far": {
+        "minAreaRatio": 0.3074098041786206,
+        "maxAreaRatio": 1.8529076743310442,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_near": {
+        "minAreaRatio": 0.1595583284738878,
+        "maxAreaRatio": 1.9931289504705432,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 45
+      }
+    }
+  },
+  "firstLastRenderMismatchPixels": 0,
+  "reviewPoseFrames": [
+    68,
+    70,
+    72,
+    76,
+    77,
+    80,
+    84
+  ],
+  "reviewTransitionFrames": [
+    69,
+    71,
+    73,
+    74,
+    75,
+    78,
+    79,
+    81,
+    82,
+    83
+  ]
+}

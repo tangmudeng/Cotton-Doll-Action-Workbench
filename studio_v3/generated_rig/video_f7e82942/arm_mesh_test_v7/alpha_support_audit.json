@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "status": "audited_samples_only_not_production",
+  "production": false,
+  "approvedForBinding": false,
+  "scope": {
+    "script": "../../test_arm_mesh.py",
+    "study": "study.json",
+    "checks": "checks.json",
+    "primaryCandidate": "linear_12_94",
+    "persistenceNote": "将前轮已实际完成的只读内存审计结果持久化；本次保存未重新运行全部几何计算。",
+    "fileChanges": "本次仅新建 alpha_support_audit.json，不修改脚本或其他产物。"
+  },
+  "method": {
+    "execution": "此前通过 python -B 和 runpy.run_path 以非主入口载入源码，在内存中重算；未调用会写产物的 run_bounded_weight_study。",
+    "geometry": "Shapely 2.2.0 float64 三角多边形相交，STRtree 筛选候选，保留 i<j；不排除共享边或共享顶点的三角对。",
+    "positiveOverlapAreaTolerancePx2": 0.00001,
+    "sourceTriangleAlphaCoverage": "源三角重心包含测试计算真实三角内 alpha>0、alpha>128 像素中心数；以真实三角与对应像素中心各侧0.5px的像素方格求交计算覆盖面积，不以AABB替代。",
+    "overlapAlphaSupport": "每个交多边形分别通过两个三角的逆仿射映射回源纹理；检查同一交区内点的双线性alpha，并求整个交区两侧双线性alpha正支持的交集。正支持用alpha>0像素中心各侧1px的双线性支持方格与逆像求交后映回目标域；面积结论不依赖单个采样点。",
+    "linearPathScan": "对三路各65个已记录姿态的全部三角对独立复算，共195个路径采样；不是连续参数区间证明。",
+    "localGeometryAndStable": "五候选三路主采样重新计算变形、局部仿射映射、SVD、condition、有向面积比及稳定域误差；四个翻面候选两路各49点首翻加密记录也已核对。",
+    "neutral": "实际调用render_mesh执行source_over_top_left光栅化，与源臂及落盘neutral比较；未以源图替代渲染。",
+    "areaMeaning": "pairAreaSum为三角对交面积之和，不是几何union面积。",
+    "indexing": "三角及采样索引均从0开始。"
+  },
+  "linearChestOverlap": {
+    "pose": "chest_fixed",
+    "positiveOverlapPairCount": 8,
+    "pairAreaSumPx2NotUnion": 19.54774074391062,
+    "maximumPairAreaPx2": 7.434574102511691,
+    "maximumPair": [97, 481],
+    "allPairsShareNoVertexOrEdge": true,
+    "pairSummedBothBilinearAlphaPositiveAreaPx2": 0.0,
+    "pairs": [
+      {"triangles": [80, 496], "areaPx2": 0.46652334848805266, "sharedVertexCount": 0, "sharedEdge": false, "interiorProbeAlpha255": [0.0, 0.0], "bothBilinearAlphaPositiveAreaPx2": 0.0},
+      {"triangles": [81, 496], "areaPx2": 2.2512086360900536, "sharedVertexCount": 0, "sharedEdge": false, "interiorProbeAlpha255": [0.0, 0.0], "bothBilinearAlphaPositiveAreaPx2": 0.0},
+      {"triangles": [81, 481], "areaPx2": 0.11489309366950141, "sharedVertexCount": 0, "sharedEdge": false, "interiorProbeAlpha255": [188.49192874675992, 0.0], "bothBilinearAlphaPositiveAreaPx2": 0.0},
+      {"triangles": [96, 496], "areaPx2": 3.0927877094889347, "sharedVertexCount": 0, "sharedEdge": false, "interiorProbeAlpha255": [0.0, 0.0], "bothBilinearAlphaPositiveAreaPx2": 0.0},
+      {"triangles": [96, 481], "areaPx2": 2.290692355876587, "sharedVertexCount": 0, "sharedEdge": false, "interiorProbeAlpha255": [0.0, 0.0], "bothBilinearAlphaPositiveAreaPx2": 0.0},
+      {"triangles": [97, 496], "areaPx2": 2.8159473104018713, "sharedVertexCount": 0, "sharedEdge": false, "interiorProbeAlpha255": [0.0, 0.0], "bothBilinearAlphaPositiveAreaPx2": 0.0},
+      {"triangles": [97, 481], "areaPx2": 7.434574102511691, "sharedVertexCount": 0, "sharedEdge": false, "interiorProbeAlpha255": [0.0, 0.0], "bothBilinearAlphaPositiveAreaPx2": 0.0},
+      {"triangles": [112, 481], "areaPx2": 1.0811141873839285, "sharedVertexCount": 0, "sharedEdge": false, "interiorProbeAlpha255": [0.0, 0.0], "bothBilinearAlphaPositiveAreaPx2": 0.0}
+    ],
+    "sourceTriangleCoverage": [
+      {"triangle": 80, "alphaGt0CenterCount": 6, "alphaGt128CenterCount": 6, "alphaGt0PixelCellAreaPx2": 5.9339286257083845, "alphaGt128PixelCellAreaPx2": 5.9339286257083845},
+      {"triangle": 81, "alphaGt0CenterCount": 18, "alphaGt128CenterCount": 18, "alphaGt0PixelCellAreaPx2": 18.066369283499924, "alphaGt128PixelCellAreaPx2": 18.066369283499924},
+      {"triangle": 96, "alphaGt0CenterCount": 16, "alphaGt128CenterCount": 16, "alphaGt0PixelCellAreaPx2": 17.31239782101163, "alphaGt128PixelCellAreaPx2": 17.31239782101163},
+      {"triangle": 97, "alphaGt0CenterCount": 7, "alphaGt128CenterCount": 7, "alphaGt0PixelCellAreaPx2": 6.528277125771472, "alphaGt128PixelCellAreaPx2": 6.528277125771472},
+      {"triangle": 112, "alphaGt0CenterCount": 6, "alphaGt128CenterCount": 6, "alphaGt0PixelCellAreaPx2": 6.255549657053153, "alphaGt128PixelCellAreaPx2": 6.255549657053153},
+      {"triangle": 481, "alphaGt0CenterCount": 3, "alphaGt128CenterCount": 3, "alphaGt0PixelCellAreaPx2": 2.389146310336951, "alphaGt128PixelCellAreaPx2": 2.389146310336951},
+      {"triangle": 496, "alphaGt0CenterCount": 1, "alphaGt128CenterCount": 1, "alphaGt0PixelCellAreaPx2": 1.3263104573669346, "alphaGt128PixelCellAreaPx2": 1.3263104573669346}
+    ],
+    "interpretation": "这8对是透明护边绕回形成的真实网格几何相交，不是有效双皮肤重叠。部分交区上臂侧有alpha，但下臂481或496侧整个交区逆像无双线性alpha正支持。源三角本身带皮肤不能推出其相交部分带皮肤。"
+  },
+  "linearPaths195": {
+    "sampleCount": 195,
+    "sampleCountEachPath": 65,
+    "locallyFlippedSampleCount": 0,
+    "minimumSignedAreaRatio": 0.03232120138271279,
+    "positiveOverlapPathSampleCount": 7,
+    "bothAlphaPositiveOverlapPathSampleCount": 0,
+    "alphaAreaPositiveDecisionTolerancePx2": 0.0000000001,
+    "paths": {
+      "elbow_isolated": {
+        "positiveOverlapSamples": [62, 63, 64],
+        "overlapPairCounts": [2, 4, 8],
+        "pairAreaSumsPx2NotUnion": [0.345829119228207, 6.69257114957783, 19.547740743912417],
+        "maximumPairAreaPx2": 7.434574102512055,
+        "bothAlphaPositiveSamples": []
+      },
+      "shoulder_isolated": {
+        "positiveOverlapSamples": [],
+        "maximumOverlapPairCount": 0,
+        "maximumPairAreaSumPx2NotUnion": 0.0,
+        "bothAlphaPositiveSamples": []
+      },
+      "open_to_chest_fixed": {
+        "positiveOverlapSamples": [61, 62, 63, 64],
+        "overlapPairCounts": [2, 4, 8, 8],
+        "pairAreaSumsPx2NotUnion": [0.6756142934200893, 4.344080190736914, 10.826892310983302, 19.54774074391062],
+        "maximumPairAreaPx2": 7.434574102511691,
+        "bothAlphaPositiveSamples": []
+      }
+    },
+    "interpretation": "局部无翻面不等于全局网格无相交；已检出的正面积相交没有检出双方alpha同时为正的面积。"
+  },
+  "linearVisibleCompression": {
+    "extremaScope": "三路195个主采样",
+    "path": "open_to_chest_fixed",
+    "sample": 64,
+    "triangle": 257,
+    "singularValuesDescending": [0.6849023723113843, 0.04719096135356686],
+    "minimumSigma": 0.04719096135356686,
+    "maximumCondition": 14.513422754410934,
+    "sourceAlphaGt128CenterCount": 5,
+    "sourceAlphaGt128PixelCellAreaPx2": 4.60294010415634,
+    "sourceTriangleAreaPx2": 10.573865926187697,
+    "targetTriangleAreaPx2": 0.3417600499941176,
+    "targetLongestEdgePx": 5.97273134546839,
+    "targetMinimumAltitudePx": 0.11444012135366395,
+    "materialSRangeApproxPx": [51.02, 53.52],
+    "materialNRangeApproxPx": [-29.41, -20.95],
+    "interpretation": "三角257确实覆盖可见皮肤，最压缩方向仅余约4.72%，形成严重局部压扁与细长；不能因零采样翻面或透明护边重叠而批准绑定。"
+  },
+  "stableAndNeutral": {
+    "candidateCount": 5,
+    "verticesEach": 360,
+    "trianglesEach": 624,
+    "weightsReconstructedExactly": true,
+    "weightHashesMatch": true,
+    "weightsFinite": true,
+    "weightRange": [0.0, 1.0],
+    "maximumWeightSumError": 0.0,
+    "actualP1MonotoneAlongS": true,
+    "wholeP1StableDomainsPureBone": true,
+    "upperStableDomain": "s<=12",
+    "foreStableDomain": "s>=94",
+    "maximumStableVertexRigidErrorPx": 0.0,
+    "stableMaterialProbeCount": 136,
+    "maximumStableMaterialProbeErrorPx": 2.8421709430404007e-13,
+    "newFourCandidatesUpperPureBoneGuardEndsAtS": 15.519750529242293,
+    "newFourCandidatesForePureBoneGuardStartsAtS": 89.51975052924229,
+    "newFourCandidatesEffectiveP1TransitionWidthPx": 74.0,
+    "neutralAllFive": {
+      "actuallyRasterized": true,
+      "sourceImageSubstituted": false,
+      "sourceVisibleUncoveredPixels": 0,
+      "coverageOverlapPixels": 0,
+      "rgbaMismatchPixels": 0,
+      "alphaMismatchPixels": 0,
+      "maximumRgbaError": 0,
+      "diskRenderMismatchPixels": 0
+    },
+    "recomputedMainGeometryFinite": true,
+    "studyAndChecksContainNoNonfiniteNumbers": true,
+    "sourceFiniteSampleFlagNote": "源码finiteSample=True是常量标记，不是有限性断言；上述有限性来自独立检查。"
+  },
+  "integrityPreviouslyVerified": {
+    "scriptSha256": "6959385f021577e6fb7220355746656d9a38c56bf7db6dcd2abe2b7d73d9c3b3",
+    "studySha256": "4a8f286371e671b02037339dcc0fce2ea23d61d5cf8ca162392bf84a8f4b674c",
+    "checksSha256": "ece62799afe8adc55f9f8a587e1a6051dcbdf78ff9895e8c5203dbe390d27d4d",
+    "scriptAndRecordedLegacyPrefixHashesMatch": true,
+    "v6ManifestSourceImageSourceArmAndPartHashesMatch": true,
+    "historicallyTrackedFilesChecked": 189,
+    "historicallyTrackedHashMismatchCount": 0,
+    "generatedImagesVerifiedDecodable": 80,
+    "imagesReproducedInMemory": 78,
+    "reproducedImageMismatchCount": 0,
+    "imagesNotPixelReproduced": ["weights.png", "review.png"],
+    "selectedExactIntersectionsIndependentlyRecomputed": 52,
+    "selectedExactIntersectionMismatchCount": 0,
+    "sourceAndExistingV7HashesUnchangedDuringPriorAudit": true,
+    "imageHistoricalHashManifestAvailable": false
+  },
+  "limitations": [
+    "195点仅是有限姿态采样，未做采样之间连续参数区间的无自交证明；首翻49点加密也不是连续临界证明。",
+    "完整195点全局相交扫描只对linear执行；其他四候选核验了关键姿态及selected intersections，不能声称它们全路径全局扫描均已完成。",
+    "几何正面积判据为1e-5 px2，不能将此阈值以下的微小交叠也声称全部排除。alpha正支持面积判定及几何运算受float64精度和实现容差限制。",
+    "v7图片清单没有历史图片SHA；可报告当前解码、78张重现一致及审计期间SHA未变，不能伪称历史图片SHA全部验证。",
+    "linear没有首翻，未生成首翻邻域49点加密。",
+    "其他候选首翻加密内检出了比65点主采样更差的sigma与condition；主采样选出的最坏条件图不涵盖全部加密极值。",
+    "人工权重profile不是解剖测量；没有既定形变质量阈值，也未完成生产绑定批准。"
+  ],
+  "conclusion": {
+    "linearPassesSampledLocalNoFlip": true,
+    "linearPassesWholeMeshNoGlobalIntersection": false,
+    "linearChestEightPairsAreEffectiveDoubleSkinOverlap": false,
+    "linearSampledPathsHaveDetectedDoubleSkinOverlap": false,
+    "linearHasSevereVisibleCompression": true,
+    "allCandidatesQualified": false,
+    "production": false,
+    "summary": "严格全网格无自交标准下linear不通过；其chest八对与已检出路径相交属于透明护边问题，不应误报为已证实皮肤互穿。可见肘区严重压扁仍是独立质量问题；不批准生产绑定，也不称全部合格。"
+  }
+}

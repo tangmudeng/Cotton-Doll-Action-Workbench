@@ -1,0 +1,505 @@
+{
+  "sourceAndV1V2V3V4Unchanged": true,
+  "sourceHashes": {
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\arm_far.png": "d8e783debe155efbb7fdb52f0d9415de60af3e199cc861e36a4f9528c5847490",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\arm_near.png": "7cd90180cb6c851def01c5195286a93ffc9420f8a76c6115c811436430597874",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\body.png": "fc310a95f186d884c1d10ae17392085339fc801e8ef9dbc86b4b139839df729c",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\body_assembly_review.png": "2d6c9fec6852df7af58f7e57715815e7bab0490bffc4e4555d686b93ff60b691",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\body_interfaces_review.png": "bd5e954f80482dcb6830c0aa8c08f343fdf54ff739f9a22ec8f550abf3a11a25",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\body_repair_mask.png": "6bcb6ab40ee20e8051d2452081dba10def9004bd83b0e1b4cbdaa83c828e59cd",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\body_visible_mask.png": "9db9d413fb7cc22402bddb9dd6df07ed72e1d7aafc05b82fcd6ceed8b7f09e96",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\head.png": "4f3950e1575f962212adca60486ebe441dadc9e2d8ae65c46d5f6779579e0555",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\leg_far.png": "2ca541c17028ac69356a403c8c753178cb146e46ff7b407bfd6ef81ef8caa548",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\leg_near.png": "d9b5b9b00c647abe4a47b41c968a3999d4211530e926022c43353b4021dca72e",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\manifest.json": "c928c89c6f64864359a89e429bc80f5518a3e5149e4dbc5990478c60a243569b",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\review.png": "90e370a8a0c3bed645fb58282df98062881623b030956a853320b16a77db6727",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\shorts.png": "3632fa898f75da728218456fd8e8b7346988f7dfd649737edb82eb8a9a72ba03",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\shorts_review.png": "7f743e084040fc947986208c9399e6937b8992871abd843da377d7d92d32237d",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\source_reference.png": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\source_shorts_detail.png": "91238feaaac8ecd4f07066c51f2452d9feedbdced43202e610ed3d707a941eb5",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\checks.json": "40a42c2be10e0eba056d45ae3ebd58dedb901a532a4e23c71927f4815c19ca42",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\chest_arm.png": "985772c6f6d0b76b6b78b10dbef1ded4bec6273ecf3df94662bc30f244fc944a",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\chest_assembly.png": "01e3c62bfd01e50891f1554cf2d20784cde92d2e0a4f23fdbe27d7ecdd8b1121",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\chest_mesh_overlay.png": "7037c2a504ba09c480653467d8345581dc9f7a618e3ed0d282bc26100db08f18",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\chest_neutral_domain_exposure.png": "2cb29e5a3366cb81d11547dc352c17c70b43c6d9d16932f4c95b1cf2bf5baddf",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\mesh.json": "2c7fb5bc5abfa9e1aa1f551d57f599629a2e9ae980cf7ee7c48e4213bc14d40b",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\neutral_arm.png": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\neutral_assembly.png": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\neutral_mesh_diff_x8.png": "b978218354b7e56382c542dfd08fd72658743721f0f59c29722ff163ee998c68",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\neutral_mesh_overlay.png": "d95ae33041ce7d14a604b7f9be4298025f6bf2c68e8d723dc71395ff3b3713c6",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\neutral_neutral_domain_exposure.png": "b978218354b7e56382c542dfd08fd72658743721f0f59c29722ff163ee998c68",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\open_arm.png": "5d53ed871015466ee4bb8f589ceb50be681cefe9fa28a2e773e69481da099b3d",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\open_assembly.png": "1cf8201c5df2da9f47294307567f78918024247dd7e757217fa1f8e41815a021",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\open_mesh_overlay.png": "dbddb2479913141c22930145aa417fe33aee1f41b341a601db0446c075f7a872",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\open_neutral_domain_exposure.png": "3d671d43d7a2b4a99fbb9f7e815660cc38a776d0761f21f44e1c1248d47d9a3a",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\review.png": "fee7b481f2f8fc27b02457258ecf5c7f345f380421fe4a787b6733cb97db1813",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis180_fixed_chest_fixed_arm.png": "b565b4f48e959c84b63ca6b961cdf46e3826502a7590f750293d3b9def1cf17d",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis180_fixed_chest_fixed_assembly.png": "bcffcc13556d37787c179a8bdd6d211aa4c29c58374067a2f569250b4494d717",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis180_fixed_chest_fixed_mesh.png": "9f930f64c024888f610323d21c30fda95744ac3ebd5325a620d0a807c7264fcd",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis180_fixed_open_arm.png": "f30842c8abd01793e4af16d41ed70a019dfb9c645a3d6bcc6353531609d1420b",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis180_fixed_open_assembly.png": "60cc7a7b7f3bfb5b9cf34fa6c410647a40439fd6211a806efa933046f4960597",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis180_fixed_open_mesh.png": "330c2856bcc4c1e9e09d0ecdc89097f2601f1a04cf79b82103874466b703bc4d",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_chest_arm.png": "034d7c31537367c5ccfc6eeb09c61c202633fa1710f6d03af48f2d2a619d8b29",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_chest_assembly.png": "9fc9b28fdc804ff07918dc5ec01d8d15c8c091e6c59064400a5824f418518c23",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_chest_mesh.png": "acf18bc032b813c705c1f7ab9cdfac6e7ded4cc6a19ab2a020ff0ba5985b399d",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_fixed_chest_fixed_arm.png": "91085e0868d286af35c0a2d87bd8cf10c324a8ba0d2a05f37f4124dbb1cbf1cc",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_fixed_chest_fixed_assembly.png": "bf97675ee82a01e6de7bed25f2271db33ffa1edbe7e03a9d676c865b8f2ed2d1",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_fixed_chest_fixed_mesh.png": "5320d108c1c0100fc7a6ee721d5b1b5b18f821226e4aa2db497d9450323b5394",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_fixed_open_arm.png": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_fixed_open_assembly.png": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_fixed_open_mesh.png": "f8b487ee411c8f5b6c933b7e20aa7cdc04321051a34b742019fbc6eefba5e9a2",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_open_arm.png": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_open_assembly.png": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_open_mesh.png": "f8b487ee411c8f5b6c933b7e20aa7cdc04321051a34b742019fbc6eefba5e9a2",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\checks.json": "dc4df970e7cfde4b40adb9a8a84520f35a2f97099eb10e2d9eb25ed805daa486",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\review.png": "432f8e99c71a579b247645c1703f84a8af1c0f9f233aa574fd982ca9f92df510",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\study.json": "94284ab5d8be56f1c7e0af3ea4b4f6ad4f7f48d29d77889e3d35a5979d1fed07",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\v1_baseline_chest_arm.png": "985772c6f6d0b76b6b78b10dbef1ded4bec6273ecf3df94662bc30f244fc944a",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\v1_baseline_chest_assembly.png": "01e3c62bfd01e50891f1554cf2d20784cde92d2e0a4f23fdbe27d7ecdd8b1121",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\v1_baseline_chest_mesh.png": "7037c2a504ba09c480653467d8345581dc9f7a618e3ed0d282bc26100db08f18",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\v1_baseline_open_arm.png": "5d53ed871015466ee4bb8f589ceb50be681cefe9fa28a2e773e69481da099b3d",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\v1_baseline_open_assembly.png": "1cf8201c5df2da9f47294307567f78918024247dd7e757217fa1f8e41815a021",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\v1_baseline_open_mesh.png": "dbddb2479913141c22930145aa417fe33aee1f41b341a601db0446c075f7a872",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\checks.json": "6f82a90552d7eaf309991befb01ef6bb949d4cc81fce0c101df3a64119691c45",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\interpolation_worst_assembly.png": "9b7e89e69dcadfaecaf0f7f7e5e1e7dcee0bfb6eccb7089edababa09221d8199",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\interpolation_worst_mesh.png": "25293ca2092a6e86c7492334c6a8d279d84e5e95ca475cc7384ebead68755a3e",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_00_arm.png": "649358e6e3fcddbb44ddccd126ff2d6d7197991408657bd83f86f39ca96b8909",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_00_assembly.png": "8e93b325882322d5df3c28f5a4ac8f6d1be41b00c085660cb4466566fa74731b",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_00_mesh.png": "f8ee82bd8fa5065c8b2e748e5c0f4adbca32821405e8265395c13ed5d6aeddf5",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_01_arm.png": "6e6130ce85c91b160ee758e732dad38f9535a8e637f4c1e65d7f32bba0844e4d",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_01_assembly.png": "7dd0fd8f8eabccc01a9b4dc7d1d76bdc496922d26033c7dfe7c2f0ca83f9aade",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_01_mesh.png": "f1eaef8deb15f9db9ff18f7083e8f55d4c3a7d2c58f8782a25480f7b9fdb6116",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_02_arm.png": "f9d40ff949f28d1f3b1ba1438fc8ba80176ec43e87eec21800ab467fd04c32fd",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_02_assembly.png": "7283d3b9a7a4a295d74c732942a301f05f47ca9d887c2b02ba23e838225e6a00",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_02_mesh.png": "d6c87d5a8e595e3b974f385638039cb5c7b7788bb0324ad087a3f1cb525c0a34",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_03_arm.png": "5f12fead8d96ebf800665a1200f4fcafc7559fb0ca670aff4733d60afdd39ef9",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_03_assembly.png": "410415cc7fb5dbc8f312e5ae8edd0acbaf16aecce85089f41f897a1c3c3626e2",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_03_mesh.png": "58c06e9507e182e2beb3cfa5d5667be29c9d46527f003ce0663aa72a7fceeaec",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_04_arm.png": "dacc8bb31b299c4e0c0aa18ef365a17c5fcb7614664795f8fb20c73bffbd11b0",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_04_assembly.png": "190a5a12b98ceb1567ea0e0348fb385164efdcf07bec62a7fa8e69e3ccc6db37",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_04_mesh.png": "333ca43f7c0164f53ccd3bc646c140fe33f6531b1c791fa1233870aa52f74a22",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_05_arm.png": "1b44d54e9e40cb033c2dd73c435f577d0296c2d9263a7582df2355fcaca69dc0",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_05_assembly.png": "76d3596627a064426252c73147958bec3cdb5dcf7bd034058f8c7921b2431607",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_05_mesh.png": "ad21751f495d83fa2b7af61d9001a08043f1886a406b1cc5dc3aff6a8d1101d0",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_06_arm.png": "260085cd8ef5d375161382e8e68d7a3ef438ae813939d08e2d1ca7f56ea31fd9",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_06_assembly.png": "e286b0abaa7ee64edb9ce4cb6b3d95b4ee56db16003e04557261f33a5b8b8917",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_06_mesh.png": "891cd5a0f566f8a5d5d59b22b27a016faab558c4d54afd1b78c4f30b4fab902c",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_07_arm.png": "4d6dff1da1b6e00f923ad1a1e2db896d1dd4afb80194a8a5f290f1a0668638bd",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_07_assembly.png": "6ba78f78ad8f8499f92b7aeb68bb9643ed44d1e9aea1d8e4d05bb0c747ba42ff",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_07_mesh.png": "9da763ff7044c50771e7fe538083c1ca24ea35d2348b0894675cde25a605a6b0",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_08_arm.png": "3beb6bc31331090968fcf0654154372b9a2f1b588222246f9dbfbb2d67ae5768",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_08_assembly.png": "e7fd64dc0a0e6f2491f2ad712be3cf10644cef552eae0b2c791d6b2dd9cd02ed",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_08_mesh.png": "699cabc6a6ee8453408043281787a0f68b104d9ec4915ad26eabe40f2c6edae6",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\review.png": "643cd3a07597974269f0d9985004b406835672dc9682854f111b7745898c7bc6",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\study.json": "84ab1a3e95c184f20996671bd5a507bb56b98084f14bf3249e3e8a4a818c135d",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_chest_arm.png": "1b5837f3905a37c774c51b09eae5474e06f2a9b88af3098fb636be9d7250ff3a",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_chest_assembly.png": "666cbd68c1df80884b5c5d96f94499977306f9a8262c552158eb1a772fc86982",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_chest_fixed_arm.png": "20868a442221a9f7f9a4dd75a7d6af20e323615a6159336f3db09eab18ecb337",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_chest_fixed_assembly.png": "cec94183f89552a8dae379138e3d8152df60b335d84693312254bcf966592979",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_chest_fixed_mesh.png": "caf9b119ea410d27a2738e7a96685cd82a9843e2e0c58d27f3e5f8f167197b2d",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_chest_mesh.png": "fc11f68b13b7d13ef7ea63545d27def31c583c5bc2c467e4851d3def9950a9dd",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_neutral_arm.png": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_neutral_assembly.png": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_neutral_mesh.png": "6d2a1f86209136c8865cd3fd64f9c433914b7d2039d27dda9eb98d7066fdfc51",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_open_arm.png": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_open_assembly.png": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_open_mesh.png": "65818992e5c1952e582184d10686916809c53f676e67ae13f3cb729fd1181beb",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\checks.json": "2ab7ae21b68539f14008cb4b7dfc1c016b37828516751ad349f2ee26ffdb91f2",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_chest_arm.png": "034d7c31537367c5ccfc6eeb09c61c202633fa1710f6d03af48f2d2a619d8b29",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_chest_assembly.png": "9fc9b28fdc804ff07918dc5ec01d8d15c8c091e6c59064400a5824f418518c23",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_chest_fixed_arm.png": "91085e0868d286af35c0a2d87bd8cf10c324a8ba0d2a05f37f4124dbb1cbf1cc",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_chest_fixed_assembly.png": "bf97675ee82a01e6de7bed25f2271db33ffa1edbe7e03a9d676c865b8f2ed2d1",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_chest_fixed_mesh.png": "5320d108c1c0100fc7a6ee721d5b1b5b18f821226e4aa2db497d9450323b5394",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_chest_mesh.png": "acf18bc032b813c705c1f7ab9cdfac6e7ded4cc6a19ab2a020ff0ba5985b399d",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_neutral_arm.png": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_neutral_assembly.png": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_neutral_mesh.png": "9369c90e3c026e0fbaaaa47ef9c7251f337b8fc263240cc22e7eb7922d05d5b7",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_open_arm.png": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_open_assembly.png": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_open_mesh.png": "f8b487ee411c8f5b6c933b7e20aa7cdc04321051a34b742019fbc6eefba5e9a2",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\review.png": "30ac52e024c9d084e0c1de04c5e537216ae7b4b14ccf4bc83256300dc5c5e51d",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\study.json": "916f284005bcb79c0262b92a35ccd1dcdce43e56d14afceeac50b4680ccc5af9"
+  },
+  "scriptSha256": "4990e0c146168fa084b199bc7cc1dd9d986002e71be3a35cb38c85a2a975e676",
+  "sourceManifestSha256": "c928c89c6f64864359a89e429bc80f5518a3e5149e4dbc5990478c60a243569b",
+  "taskId": "comfy_f7e82942-05e3-4c7e-8e30-e974e2a233fa",
+  "renderMetrics": {
+    "rectangle": {
+      "neutral": {
+        "geometryUnchanged": true,
+        "geometry": {
+          "flippedTriangles": 0,
+          "collapsedTriangles": 0,
+          "signedAreaRatioMin": 0.9999999999999937,
+          "signedAreaRatioMax": 1.0000000000000142
+        },
+        "raster": {
+          "flippedTriangles": 0,
+          "collapsedTriangles": 0,
+          "flippedTrianglesWithSourceAlphaInAabb": 0,
+          "collapsedTrianglesWithSourceAlphaInAabb": 0,
+          "collapseDoubleAreaThresholdPx2": 0.001,
+          "absoluteTriangleAreaRatioMin": 0.9999999999999937,
+          "absoluteTriangleAreaRatioMax": 1.0000000000000142,
+          "texturedTriangleAreaRatioMin": 0.9999999999999937,
+          "texturedTriangleAreaRatioMax": 1.0000000000000127,
+          "overlappingTriangleInteriorRasterPixels": 0,
+          "rasterPolicy": "整数像素中心/半开top-left边界；预乘alpha source-over；共享边单次归属；几何自交仍按索引层叠，未修复"
+        },
+        "changedVsLegacyRgbaPixels": 0,
+        "legacyTransparentBecameVisiblePixels": 0,
+        "alphaAreaRatioToSource": 1.0,
+        "neutralRgbaMismatchPixels": 0
+      },
+      "open": {
+        "geometryUnchanged": true,
+        "geometry": {
+          "flippedTriangles": 0,
+          "collapsedTriangles": 0,
+          "signedAreaRatioMin": 0.16128303574998967,
+          "signedAreaRatioMax": 1.5595543950354847
+        },
+        "raster": {
+          "flippedTriangles": 0,
+          "collapsedTriangles": 0,
+          "flippedTrianglesWithSourceAlphaInAabb": 0,
+          "collapsedTrianglesWithSourceAlphaInAabb": 0,
+          "collapseDoubleAreaThresholdPx2": 0.001,
+          "absoluteTriangleAreaRatioMin": 0.16128303574998967,
+          "absoluteTriangleAreaRatioMax": 1.5595543950354847,
+          "texturedTriangleAreaRatioMin": 0.40259753438292656,
+          "texturedTriangleAreaRatioMax": 1.4374665869620855,
+          "overlappingTriangleInteriorRasterPixels": 0,
+          "rasterPolicy": "整数像素中心/半开top-left边界；预乘alpha source-over；共享边单次归属；几何自交仍按索引层叠，未修复"
+        },
+        "changedVsLegacyRgbaPixels": 0,
+        "legacyTransparentBecameVisiblePixels": 0,
+        "alphaAreaRatioToSource": 0.9916675909192725
+      },
+      "chest": {
+        "geometryUnchanged": true,
+        "geometry": {
+          "flippedTriangles": 21,
+          "collapsedTriangles": 0,
+          "signedAreaRatioMin": -0.9774039674608639,
+          "signedAreaRatioMax": 1.7622114836113407
+        },
+        "raster": {
+          "flippedTriangles": 21,
+          "collapsedTriangles": 0,
+          "flippedTrianglesWithSourceAlphaInAabb": 6,
+          "collapsedTrianglesWithSourceAlphaInAabb": 0,
+          "collapseDoubleAreaThresholdPx2": 0.001,
+          "absoluteTriangleAreaRatioMin": 0.020072757483267627,
+          "absoluteTriangleAreaRatioMax": 1.7622114836113407,
+          "texturedTriangleAreaRatioMin": 0.020072757483267627,
+          "texturedTriangleAreaRatioMax": 1.5275450857435862,
+          "overlappingTriangleInteriorRasterPixels": 1031,
+          "rasterPolicy": "整数像素中心/半开top-left边界；预乘alpha source-over；共享边单次归属；几何自交仍按索引层叠，未修复"
+        },
+        "changedVsLegacyRgbaPixels": 396,
+        "legacyTransparentBecameVisiblePixels": 378,
+        "alphaAreaRatioToSource": 0.8250373506788363
+      },
+      "chest_fixed": {
+        "geometryUnchanged": true,
+        "geometry": {
+          "flippedTriangles": 20,
+          "collapsedTriangles": 0,
+          "signedAreaRatioMin": -0.9459470134205262,
+          "signedAreaRatioMax": 1.8122249029875395
+        },
+        "raster": {
+          "flippedTriangles": 20,
+          "collapsedTriangles": 0,
+          "flippedTrianglesWithSourceAlphaInAabb": 5,
+          "collapsedTrianglesWithSourceAlphaInAabb": 0,
+          "collapseDoubleAreaThresholdPx2": 0.001,
+          "absoluteTriangleAreaRatioMin": 0.007284525949343386,
+          "absoluteTriangleAreaRatioMax": 1.8122249029875395,
+          "texturedTriangleAreaRatioMin": 0.007284525949343386,
+          "texturedTriangleAreaRatioMax": 1.620861545371318,
+          "overlappingTriangleInteriorRasterPixels": 947,
+          "rasterPolicy": "整数像素中心/半开top-left边界；预乘alpha source-over；共享边单次归属；几何自交仍按索引层叠，未修复"
+        },
+        "changedVsLegacyRgbaPixels": 367,
+        "legacyTransparentBecameVisiblePixels": 348,
+        "alphaAreaRatioToSource": 0.9068309879064265
+      }
+    },
+    "alpha_occupied": {
+      "neutral": {
+        "geometryUnchanged": true,
+        "geometry": {
+          "flippedTriangles": 0,
+          "collapsedTriangles": 0,
+          "signedAreaRatioMin": 0.9999999999999937,
+          "signedAreaRatioMax": 1.0000000000000127
+        },
+        "raster": {
+          "flippedTriangles": 0,
+          "collapsedTriangles": 0,
+          "flippedTrianglesWithSourceAlphaInAabb": 0,
+          "collapsedTrianglesWithSourceAlphaInAabb": 0,
+          "collapseDoubleAreaThresholdPx2": 0.001,
+          "absoluteTriangleAreaRatioMin": 0.9999999999999937,
+          "absoluteTriangleAreaRatioMax": 1.0000000000000127,
+          "texturedTriangleAreaRatioMin": 0.9999999999999937,
+          "texturedTriangleAreaRatioMax": 1.0000000000000127,
+          "overlappingTriangleInteriorRasterPixels": 0,
+          "rasterPolicy": "整数像素中心/半开top-left边界；预乘alpha source-over；共享边单次归属；几何自交仍按索引层叠，未修复"
+        },
+        "changedVsLegacyRgbaPixels": 0,
+        "legacyTransparentBecameVisiblePixels": 0,
+        "alphaAreaRatioToSource": 1.0,
+        "neutralRgbaMismatchPixels": 0
+      },
+      "open": {
+        "geometryUnchanged": true,
+        "geometry": {
+          "flippedTriangles": 0,
+          "collapsedTriangles": 0,
+          "signedAreaRatioMin": 0.3719856540211947,
+          "signedAreaRatioMax": 1.5186561953535171
+        },
+        "raster": {
+          "flippedTriangles": 0,
+          "collapsedTriangles": 0,
+          "flippedTrianglesWithSourceAlphaInAabb": 0,
+          "collapsedTrianglesWithSourceAlphaInAabb": 0,
+          "collapseDoubleAreaThresholdPx2": 0.001,
+          "absoluteTriangleAreaRatioMin": 0.3719856540211947,
+          "absoluteTriangleAreaRatioMax": 1.5186561953535171,
+          "texturedTriangleAreaRatioMin": 0.40259753438292656,
+          "texturedTriangleAreaRatioMax": 1.4374665869620855,
+          "overlappingTriangleInteriorRasterPixels": 0,
+          "rasterPolicy": "整数像素中心/半开top-left边界；预乘alpha source-over；共享边单次归属；几何自交仍按索引层叠，未修复"
+        },
+        "changedVsLegacyRgbaPixels": 0,
+        "legacyTransparentBecameVisiblePixels": 0,
+        "alphaAreaRatioToSource": 0.9916675909192725
+      },
+      "chest": {
+        "geometryUnchanged": true,
+        "geometry": {
+          "flippedTriangles": 9,
+          "collapsedTriangles": 0,
+          "signedAreaRatioMin": -0.5450673743130328,
+          "signedAreaRatioMax": 1.5275450857435862
+        },
+        "raster": {
+          "flippedTriangles": 9,
+          "collapsedTriangles": 0,
+          "flippedTrianglesWithSourceAlphaInAabb": 6,
+          "collapsedTrianglesWithSourceAlphaInAabb": 0,
+          "collapseDoubleAreaThresholdPx2": 0.001,
+          "absoluteTriangleAreaRatioMin": 0.020072757483267627,
+          "absoluteTriangleAreaRatioMax": 1.5275450857435862,
+          "texturedTriangleAreaRatioMin": 0.020072757483267627,
+          "texturedTriangleAreaRatioMax": 1.5275450857435862,
+          "overlappingTriangleInteriorRasterPixels": 546,
+          "rasterPolicy": "整数像素中心/半开top-left边界；预乘alpha source-over；共享边单次归属；几何自交仍按索引层叠，未修复"
+        },
+        "changedVsLegacyRgbaPixels": 122,
+        "legacyTransparentBecameVisiblePixels": 103,
+        "alphaAreaRatioToSource": 0.8250373506788363
+      },
+      "chest_fixed": {
+        "geometryUnchanged": true,
+        "geometry": {
+          "flippedTriangles": 8,
+          "collapsedTriangles": 0,
+          "signedAreaRatioMin": -0.49392948509076123,
+          "signedAreaRatioMax": 1.620861545371318
+        },
+        "raster": {
+          "flippedTriangles": 8,
+          "collapsedTriangles": 0,
+          "flippedTrianglesWithSourceAlphaInAabb": 5,
+          "collapsedTrianglesWithSourceAlphaInAabb": 0,
+          "collapseDoubleAreaThresholdPx2": 0.001,
+          "absoluteTriangleAreaRatioMin": 0.007284525949343386,
+          "absoluteTriangleAreaRatioMax": 1.620861545371318,
+          "texturedTriangleAreaRatioMin": 0.007284525949343386,
+          "texturedTriangleAreaRatioMax": 1.620861545371318,
+          "overlappingTriangleInteriorRasterPixels": 476,
+          "rasterPolicy": "整数像素中心/半开top-left边界；预乘alpha source-over；共享边单次归属；几何自交仍按索引层叠，未修复"
+        },
+        "changedVsLegacyRgbaPixels": 99,
+        "legacyTransparentBecameVisiblePixels": 81,
+        "alphaAreaRatioToSource": 0.9068309879064265
+      }
+    }
+  },
+  "rectangleVsAlphaOccupiedNewCompositing": {
+    "neutral": {
+      "rgbaMismatchPixelsInVisibleUnion": 0,
+      "alphaMismatchPixels": 0
+    },
+    "open": {
+      "rgbaMismatchPixelsInVisibleUnion": 0,
+      "alphaMismatchPixels": 0
+    },
+    "chest": {
+      "rgbaMismatchPixelsInVisibleUnion": 0,
+      "alphaMismatchPixels": 0
+    },
+    "chest_fixed": {
+      "rgbaMismatchPixelsInVisibleUnion": 0,
+      "alphaMismatchPixels": 0
+    }
+  },
+  "legacyV4PixelReproduced": true,
+  "generatedImages": [
+    {
+      "file": "alpha_occupied_chest_arm.png",
+      "sha256": "f58bd5d9c2b26702614629f8ca845680d308f2e5bc16c92d3aab89544d279f2a",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "alpha_occupied_chest_assembly.png",
+      "sha256": "a1d7a18f10414de37d222dea74d84489bd9079b2bcdccbb0f930891d6671f3e7",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "alpha_occupied_chest_fixed_arm.png",
+      "sha256": "c8f92b537392cd25fa02ce4228c20e84779e288a2ce38055e38f006386668e76",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "alpha_occupied_chest_fixed_assembly.png",
+      "sha256": "b61569644c33359e08d66bf64e425e433c2751a665438277e6e9c3a735dbeb90",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "alpha_occupied_neutral_arm.png",
+      "sha256": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "alpha_occupied_neutral_assembly.png",
+      "sha256": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "alpha_occupied_open_arm.png",
+      "sha256": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "alpha_occupied_open_assembly.png",
+      "sha256": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "rectangle_chest_arm.png",
+      "sha256": "f58bd5d9c2b26702614629f8ca845680d308f2e5bc16c92d3aab89544d279f2a",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "rectangle_chest_assembly.png",
+      "sha256": "a1d7a18f10414de37d222dea74d84489bd9079b2bcdccbb0f930891d6671f3e7",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "rectangle_chest_fixed_arm.png",
+      "sha256": "c8f92b537392cd25fa02ce4228c20e84779e288a2ce38055e38f006386668e76",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "rectangle_chest_fixed_assembly.png",
+      "sha256": "b61569644c33359e08d66bf64e425e433c2751a665438277e6e9c3a735dbeb90",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "rectangle_neutral_arm.png",
+      "sha256": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "rectangle_neutral_assembly.png",
+      "sha256": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "rectangle_open_arm.png",
+      "sha256": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "rectangle_open_assembly.png",
+      "sha256": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "review.png",
+      "sha256": "041424a4d864060ed7fc018ace9ebb097c0b950708c055c2fa5887072b135613",
+      "size": [
+        1740,
+        1730
+      ]
+    }
+  ],
+  "logicalParts": 7,
+  "attachmentsAdded": 0,
+  "bonesAdded": 0,
+  "hiddenComplete": false,
+  "bindingValidated": false,
+  "promotedToRuntime": false,
+  "videoFitted": false,
+  "costumeTested": false,
+  "limitations": [
+    "改合成只修显示，几何自交仍按三角索引层叠，未修正。",
+    "alpha比例为透明臂alpha总和/源alpha总和，不是体积或视频误差。",
+    "遮挡域/肩根未补，不因显示修复宣称接口通过。",
+    "半开边界实验不是GPU runtime逐像素匹配保证，正式Spine/Unity待独立验证。"
+  ]
+}

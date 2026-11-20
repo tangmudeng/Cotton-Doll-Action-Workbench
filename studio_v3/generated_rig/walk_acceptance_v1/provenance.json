@@ -1,0 +1,30 @@
+{
+  "source": {
+    "taskId": "local_9c08a83ca165e9c8",
+    "characterId": null,
+    "videoSha": "9c08a83ca165e9c86c8fa0559cb9495b90efca0f20980834ce3033560b44e8fc",
+    "imageSha": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+    "clipStart": 66,
+    "clipEnd": 88,
+    "fps": 24,
+    "frameCount": 107
+  },
+  "method": "manual video landmarks; estimated occluded joints; seven inherited visible crops with local hidden-root completion",
+  "productionApproved": false,
+  "acceptance": "editable Spine and runtime validation passed; visual acceptance pending",
+  "partSha256": {
+    "head": "4f3950e1575f962212adca60486ebe441dadc9e2d8ae65c46d5f6779579e0555",
+    "body": "aa811d4fe0343c2f468e81986ad9c3c149dab3ef31286571fd0fda498d5e08d1",
+    "shorts": "5ded88f28a976d9539f8b87e848ad15ef1fe76f2443b52f115f875ba0f157155",
+    "arm_near": "7cd90180cb6c851def01c5195286a93ffc9420f8a76c6115c811436430597874",
+    "arm_far": "d8e783debe155efbb7fdb52f0d9415de60af3e199cc861e36a4f9528c5847490",
+    "leg_near": "841b1997259bd859822241bb64c559ed214d3487b1f4fa26717ba0400ed1432c",
+    "leg_far": "41685b76cffd5b2a7165509370bb28c102991b933b079b44fb3400842d258664"
+  },
+  "spineVersion": "4.2.43",
+  "cycleFrames": [
+    66,
+    88
+  ],
+  "duration": 0.9166666666666666
+}

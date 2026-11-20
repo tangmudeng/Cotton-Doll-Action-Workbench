@@ -1,0 +1,19 @@
+{
+  "verticesBefore": 10143,
+  "verticesAfter": 6072,
+  "simplifiedRootAttachments": 69,
+  "atlasBefore": [
+    4096,
+    4096
+  ],
+  "atlasAfter": [
+    2048,
+    2048
+  ],
+  "pixelPreserving": true,
+  "attachmentCount": 161,
+  "poseCount": 23,
+  "artApproval": "previous candidate broadly matches reference; this optimization pending review",
+  "maxPlanarGeometryError": 8.526512829121202e-14,
+  "bonesConstraintsAnimationUnchanged": true
+}

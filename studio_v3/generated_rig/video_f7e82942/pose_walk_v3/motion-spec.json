@@ -1,0 +1,3652 @@
+{
+  "schemaVersion": 1,
+  "candidateId": "pose_walk_v3",
+  "prototypeAccepted": false,
+  "productionApproved": false,
+  "videoFit": false,
+  "videoFitPassed": false,
+  "videoLoopCandidateAccepted": false,
+  "wardrobeVerified": false,
+  "crossCharacterVerified": false,
+  "mobileVerified": false,
+  "method": "人工四姿态与有限过渡；视频仅作事件节奏参考。手臂为手填局部旋转；腿只将人工脚底材料目标投影到原角色可达范围，不追踪视频轮廓。",
+  "durationSeconds": 0.6666666666666666,
+  "fpsReference": 24,
+  "mainPoseFrames": [
+    68,
+    72,
+    76,
+    80
+  ],
+  "referenceEvents": [
+    {
+      "frame": 68,
+      "event": "展开、近脚接触"
+    },
+    {
+      "frame": 70,
+      "event": "上臂前带、手收胸右"
+    },
+    {
+      "frame": 72,
+      "event": "近臂收胸、passing高位"
+    },
+    {
+      "frame": 76,
+      "event": "远脚接触、收胸低位"
+    },
+    {
+      "frame": 77,
+      "event": "手开始下降"
+    },
+    {
+      "frame": 78,
+      "event": "开始外展"
+    },
+    {
+      "frame": 80,
+      "event": "另一passing高位"
+    },
+    {
+      "frame": 84,
+      "event": "回到68"
+    }
+  ],
+  "bodyYUpOffsetsPx": [
+    0,
+    -1,
+    7,
+    -2,
+    -3,
+    1,
+    7,
+    0
+  ],
+  "manualFootOffsetsFromSourceMaterialPx": {
+    "leg_near": [
+      [
+        5,
+        -4
+      ],
+      [
+        5,
+        -4
+      ],
+      [
+        -4,
+        -12
+      ],
+      [
+        -8,
+        -13
+      ],
+      [
+        -4,
+        -12
+      ],
+      [
+        1,
+        -13
+      ],
+      [
+        6,
+        -15
+      ],
+      [
+        5,
+        -4
+      ]
+    ],
+    "leg_far": [
+      [
+        -5,
+        -15
+      ],
+      [
+        -12,
+        -17
+      ],
+      [
+        -14,
+        -13
+      ],
+      [
+        4,
+        -4
+      ],
+      [
+        4,
+        -4
+      ],
+      [
+        4,
+        -4
+      ],
+      [
+        -6,
+        -15
+      ],
+      [
+        -5,
+        -15
+      ]
+    ]
+  },
+  "contactIntervalsSeconds": {
+    "leg_near": [
+      0,
+      0.08333333333333333
+    ],
+    "leg_far": [
+      0.3333333333333333,
+      0.4166666666666667
+    ]
+  },
+  "footProjection": {
+    "leg_near": [
+      {
+        "time": 0.0,
+        "referenceFrame": 68.0,
+        "designedMaterialTarget": [
+          372.0,
+          658.5
+        ],
+        "reachableProjectedMaterial": [
+          372.000000000001,
+          658.5000000000009
+        ],
+        "projectionDistancePx": 1.368970808788651e-12,
+        "absoluteLocalAngles": [
+          -107.67139653195275,
+          38.33591263146258
+        ]
+      },
+      {
+        "time": 0.006944444444444444,
+        "referenceFrame": 68.16666666666667,
+        "designedMaterialTarget": [
+          372.0,
+          658.5
+        ],
+        "reachableProjectedMaterial": [
+          372.0000000000002,
+          658.5000000000002
+        ],
+        "projectionDistancePx": 3.2155493553843715e-13,
+        "absoluteLocalAngles": [
+          -107.70792781018487,
+          38.401122612701336
+        ]
+      },
+      {
+        "time": 0.013888888888888888,
+        "referenceFrame": 68.33333333333333,
+        "designedMaterialTarget": [
+          372.0,
+          658.5
+        ],
+        "reachableProjectedMaterial": [
+          372.0000000000002,
+          658.5000000000003
+        ],
+        "projectionDistancePx": 4.0990372275064023e-13,
+        "absoluteLocalAngles": [
+          -107.80866544749385,
+          38.580953155024325
+        ]
+      },
+      {
+        "time": 0.020833333333333332,
+        "referenceFrame": 68.5,
+        "designedMaterialTarget": [
+          372.0,
+          658.5
+        ],
+        "reachableProjectedMaterial": [
+          372.0000000000009,
+          658.5000000000006
+        ],
+        "projectionDistancePx": 1.0725194820289065e-12,
+        "absoluteLocalAngles": [
+          -107.96012593099647,
+          38.85135656164264
+        ]
+      },
+      {
+        "time": 0.027777777777777776,
+        "referenceFrame": 68.66666666666667,
+        "designedMaterialTarget": [
+          372.0,
+          658.5
+        ],
+        "reachableProjectedMaterial": [
+          372.0000000000008,
+          658.5000000000006
+        ],
+        "projectionDistancePx": 9.779711566628324e-13,
+        "absoluteLocalAngles": [
+          -108.14878592896581,
+          39.18821522787444
+        ]
+      },
+      {
+        "time": 0.03472222222222222,
+        "referenceFrame": 68.83333333333333,
+        "designedMaterialTarget": [
+          372.0,
+          658.5
+        ],
+        "reachableProjectedMaterial": [
+          372.00000000000216,
+          658.5000000000014
+        ],
+        "projectionDistancePx": 2.5547939292487434e-12,
+        "absoluteLocalAngles": [
+          -108.36130191458926,
+          39.56772581977017
+        ]
+      },
+      {
+        "time": 0.041666666666666664,
+        "referenceFrame": 69.0,
+        "designedMaterialTarget": [
+          372.0,
+          658.5
+        ],
+        "reachableProjectedMaterial": [
+          372.00000000000193,
+          658.5000000000036
+        ],
+        "projectionDistancePx": 4.1194814302783556e-12,
+        "absoluteLocalAngles": [
+          -108.58465235773366,
+          39.966648184962736
+        ]
+      },
+      {
+        "time": 0.048611111111111105,
+        "referenceFrame": 69.16666666666667,
+        "designedMaterialTarget": [
+          372.0,
+          658.5
+        ],
+        "reachableProjectedMaterial": [
+          372.0000000000015,
+          658.5000000000049
+        ],
+        "projectionDistancePx": 5.1070577331338885e-12,
+        "absoluteLocalAngles": [
+          -108.80620673686306,
+          40.36242637784705
+        ]
+      },
+      {
+        "time": 0.05555555555555555,
+        "referenceFrame": 69.33333333333333,
+        "designedMaterialTarget": [
+          372.0,
+          658.5
+        ],
+        "reachableProjectedMaterial": [
+          372.0000000000048,
+          658.5000000000064
+        ],
+        "projectionDistancePx": 7.958078640513122e-12,
+        "absoluteLocalAngles": [
+          -109.01373007331676,
+          40.73319691302463
+        ]
+      },
+      {
+        "time": 0.0625,
+        "referenceFrame": 69.5,
+        "designedMaterialTarget": [
+          372.0,
+          658.5
+        ],
+        "reachableProjectedMaterial": [
+          372.0000000000026,
+          658.5000000000109
+        ],
+        "projectionDistancePx": 1.1222797020273938e-11,
+        "absoluteLocalAngles": [
+          -109.19533278562149,
+          41.057701267774235
+        ]
+      },
+      {
+        "time": 0.06944444444444443,
+        "referenceFrame": 69.66666666666667,
+        "designedMaterialTarget": [
+          372.0,
+          658.5
+        ],
+        "reachableProjectedMaterial": [
+          372.0000000000035,
+          658.5000000000161
+        ],
+        "projectionDistancePx": 1.6523747324013848e-11,
+        "absoluteLocalAngles": [
+          -109.33937426899573,
+          41.31511723892586
+        ]
+      },
+      {
+        "time": 0.07638888888888888,
+        "referenceFrame": 69.83333333333333,
+        "designedMaterialTarget": [
+          372.0,
+          658.5
+        ],
+        "reachableProjectedMaterial": [
+          372.00000000000887,
+          658.5000000000174
+        ],
+        "projectionDistancePx": 1.952403879117134e-11,
+        "absoluteLocalAngles": [
+          -109.4343255252147,
+          41.48481841021928
+        ]
+      },
+      {
+        "time": 0.08333333333333333,
+        "referenceFrame": 70.0,
+        "designedMaterialTarget": [
+          372.0,
+          658.5
+        ],
+        "reachableProjectedMaterial": [
+          372.0000000000104,
+          658.5000000000155
+        ],
+        "projectionDistancePx": 1.8635020581734965e-11,
+        "absoluteLocalAngles": [
+          -109.46859188933027,
+          41.5460635519373
+        ]
+      },
+      {
+        "time": 0.09027777777777778,
+        "referenceFrame": 70.16666666666667,
+        "designedMaterialTarget": [
+          371.82291666666663,
+          658.3425925925926
+        ],
+        "reachableProjectedMaterial": [
+          371.8229166666778,
+          658.3425925926043
+        ],
+        "projectionDistancePx": 1.6202368758493735e-11,
+        "absoluteLocalAngles": [
+          -109.64190026825037,
+          41.63327794158545
+        ]
+      },
+      {
+        "time": 0.09722222222222221,
+        "referenceFrame": 70.33333333333333,
+        "designedMaterialTarget": [
+          371.33333333333337,
+          657.9074074074074
+        ],
+        "reachableProjectedMaterial": [
+          371.3333333333385,
+          657.9074074074172
+        ],
+        "projectionDistancePx": 1.1034653193790002e-11,
+        "absoluteLocalAngles": [
+          -110.1174510382729,
+          41.86760275369401
+        ]
+      },
+      {
+        "time": 0.10416666666666667,
+        "referenceFrame": 70.5,
+        "designedMaterialTarget": [
+          370.59375,
+          657.25
+        ],
+        "reachableProjectedMaterial": [
+          370.5937500000015,
+          657.2500000000042
+        ],
+        "projectionDistancePx": 4.45849572113902e-12,
+        "absoluteLocalAngles": [
+          -110.825889362248,
+          42.20284639136354
+        ]
+      },
+      {
+        "time": 0.1111111111111111,
+        "referenceFrame": 70.66666666666667,
+        "designedMaterialTarget": [
+          369.66666666666663,
+          656.4259259259259
+        ],
+        "reachableProjectedMaterial": [
+          369.6666666666664,
+          656.4259259259271
+        ],
+        "projectionDistancePx": 1.2710574864626038e-12,
+        "absoluteLocalAngles": [
+          -111.6971815883394,
+          42.59170804365967
+        ]
+      },
+      {
+        "time": 0.11805555555555554,
+        "referenceFrame": 70.83333333333333,
+        "designedMaterialTarget": [
+          368.61458333333337,
+          655.4907407407408
+        ],
+        "reachableProjectedMaterial": [
+          368.61458333333564,
+          655.4907407407434
+        ],
+        "projectionDistancePx": 3.4651181190675223e-12,
+        "absoluteLocalAngles": [
+          -112.66359590615781,
+          42.99144337704978
+        ]
+      },
+      {
+        "time": 0.125,
+        "referenceFrame": 71.0,
+        "designedMaterialTarget": [
+          367.5,
+          654.5
+        ],
+        "reachableProjectedMaterial": [
+          367.49999999999955,
+          654.500000000001
+        ],
+        "projectionDistancePx": 1.1196854986560656e-12,
+        "absoluteLocalAngles": [
+          -113.66171064534569,
+          43.367564551168506
+        ]
+      },
+      {
+        "time": 0.13194444444444445,
+        "referenceFrame": 71.16666666666667,
+        "designedMaterialTarget": [
+          366.38541666666663,
+          653.5092592592592
+        ],
+        "reachableProjectedMaterial": [
+          366.38541666666663,
+          653.5092592592592
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -114.63353462370937,
+          43.69574388959511
+        ]
+      },
+      {
+        "time": 0.13888888888888887,
+        "referenceFrame": 71.33333333333333,
+        "designedMaterialTarget": [
+          365.33333333333337,
+          652.5740740740741
+        ],
+        "reachableProjectedMaterial": [
+          365.33333333333337,
+          652.5740740740741
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -115.52682651864494,
+          43.96214732465105
+        ]
+      },
+      {
+        "time": 0.14583333333333334,
+        "referenceFrame": 71.5,
+        "designedMaterialTarget": [
+          364.40625,
+          651.75
+        ],
+        "reachableProjectedMaterial": [
+          364.40625,
+          651.7500000000003
+        ],
+        "projectionDistancePx": 3.410605131648481e-13,
+        "absoluteLocalAngles": [
+          -116.29465643838029,
+          44.16237673358257
+        ]
+      },
+      {
+        "time": 0.15277777777777776,
+        "referenceFrame": 71.66666666666667,
+        "designedMaterialTarget": [
+          363.66666666666663,
+          651.0925925925926
+        ],
+        "reachableProjectedMaterial": [
+          363.6666666666829,
+          651.0925925926194
+        ],
+        "projectionDistancePx": 3.1371181974577174e-11,
+        "absoluteLocalAngles": [
+          -116.89420074610233,
+          44.29911233863415
+        ]
+      },
+      {
+        "time": 0.1597222222222222,
+        "referenceFrame": 71.83333333333333,
+        "designedMaterialTarget": [
+          363.1770833333333,
+          650.6574074074074
+        ],
+        "reachableProjectedMaterial": [
+          363.17708333333326,
+          650.6574074074074
+        ],
+        "projectionDistancePx": 5.684341886080802e-14,
+        "absoluteLocalAngles": [
+          -117.28472816252508,
+          44.378463502947035
+        ]
+      },
+      {
+        "time": 0.16666666666666666,
+        "referenceFrame": 72.0,
+        "designedMaterialTarget": [
+          363.0,
+          650.5
+        ],
+        "reachableProjectedMaterial": [
+          363.0,
+          650.5
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -117.42473435797673,
+          44.404982021679466
+        ]
+      },
+      {
+        "time": 0.17361111111111108,
+        "referenceFrame": 72.16666666666667,
+        "designedMaterialTarget": [
+          362.9797453703704,
+          650.4949363425926
+        ],
+        "reachableProjectedMaterial": [
+          362.9797453703703,
+          650.4949363425926
+        ],
+        "projectionDistancePx": 5.684341886080802e-14,
+        "absoluteLocalAngles": [
+          -117.52905059416685,
+          44.55885992501541
+        ]
+      },
+      {
+        "time": 0.18055555555555555,
+        "referenceFrame": 72.33333333333333,
+        "designedMaterialTarget": [
+          362.9212962962963,
+          650.480324074074
+        ],
+        "reachableProjectedMaterial": [
+          362.92129629629625,
+          650.480324074074
+        ],
+        "projectionDistancePx": 5.684341886080802e-14,
+        "absoluteLocalAngles": [
+          -117.82883335609178,
+          45.000498573661396
+        ]
+      },
+      {
+        "time": 0.1875,
+        "referenceFrame": 72.5,
+        "designedMaterialTarget": [
+          362.828125,
+          650.45703125
+        ],
+        "reachableProjectedMaterial": [
+          362.828125,
+          650.45703125
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -118.3029901697846,
+          45.69727940281792
+        ]
+      },
+      {
+        "time": 0.19444444444444442,
+        "referenceFrame": 72.66666666666667,
+        "designedMaterialTarget": [
+          362.7037037037037,
+          650.4259259259259
+        ],
+        "reachableProjectedMaterial": [
+          362.7037037037037,
+          650.4259259259259
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -118.92937125526159,
+          46.61445854525465
+        ]
+      },
+      {
+        "time": 0.20138888888888887,
+        "referenceFrame": 72.83333333333333,
+        "designedMaterialTarget": [
+          362.5515046296296,
+          650.3878761574074
+        ],
+        "reachableProjectedMaterial": [
+          362.5515046296297,
+          650.3878761574074
+        ],
+        "projectionDistancePx": 5.684341886080802e-14,
+        "absoluteLocalAngles": [
+          -119.68560579801361,
+          47.71673411858941
+        ]
+      },
+      {
+        "time": 0.20833333333333334,
+        "referenceFrame": 73.0,
+        "designedMaterialTarget": [
+          362.375,
+          650.34375
+        ],
+        "reachableProjectedMaterial": [
+          362.3750000000074,
+          650.3437500000185
+        ],
+        "projectionDistancePx": 1.9950015579159775e-11,
+        "absoluteLocalAngles": [
+          -120.54976879836654,
+          48.96950757192832
+        ]
+      },
+      {
+        "time": 0.21527777777777776,
+        "referenceFrame": 73.16666666666667,
+        "designedMaterialTarget": [
+          362.177662037037,
+          650.2944155092592
+        ],
+        "reachableProjectedMaterial": [
+          362.17766203703695,
+          650.2944155092592
+        ],
+        "projectionDistancePx": 5.684341886080802e-14,
+        "absoluteLocalAngles": [
+          -121.50084297591701,
+          50.33977910546709
+        ]
+      },
+      {
+        "time": 0.2222222222222222,
+        "referenceFrame": 73.33333333333333,
+        "designedMaterialTarget": [
+          361.962962962963,
+          650.2407407407408
+        ],
+        "reachableProjectedMaterial": [
+          361.9629629629634,
+          650.2407407407418
+        ],
+        "projectionDistancePx": 1.097828767105282e-12,
+        "absoluteLocalAngles": [
+          -122.51898351932833,
+          51.79669180241406
+        ]
+      },
+      {
+        "time": 0.22916666666666666,
+        "referenceFrame": 73.5,
+        "designedMaterialTarget": [
+          361.734375,
+          650.18359375
+        ],
+        "reachableProjectedMaterial": [
+          361.7343749999999,
+          650.18359375
+        ],
+        "projectionDistancePx": 1.1368683772161603e-13,
+        "absoluteLocalAngles": [
+          -123.58561882454319,
+          53.31178264064342
+        ]
+      },
+      {
+        "time": 0.23611111111111108,
+        "referenceFrame": 73.66666666666667,
+        "designedMaterialTarget": [
+          361.4953703703704,
+          650.1238425925926
+        ],
+        "reachableProjectedMaterial": [
+          361.49537037037044,
+          650.1238425925926
+        ],
+        "projectionDistancePx": 5.684341886080802e-14,
+        "absoluteLocalAngles": [
+          -124.6834295966677,
+          54.85901413404464
+        ]
+      },
+      {
+        "time": 0.24305555555555555,
+        "referenceFrame": 73.83333333333333,
+        "designedMaterialTarget": [
+          361.2494212962963,
+          650.0623553240741
+        ],
+        "reachableProjectedMaterial": [
+          361.4688271906282,
+          650.480675564291
+        ],
+        "projectionDistancePx": 0.47236719810193806,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          55.35608113387415
+        ]
+      },
+      {
+        "time": 0.25,
+        "referenceFrame": 74.0,
+        "designedMaterialTarget": [
+          361.0,
+          650.0
+        ],
+        "reachableProjectedMaterial": [
+          361.5310413483704,
+          651.0091893356895
+        ],
+        "projectionDistancePx": 1.1403806509005925,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          55.43301542524874
+        ]
+      },
+      {
+        "time": 0.2569444444444444,
+        "referenceFrame": 74.16666666666667,
+        "designedMaterialTarget": [
+          360.7505787037037,
+          649.9376446759259
+        ],
+        "reachableProjectedMaterial": [
+          361.59485424622545,
+          651.5367523527358
+        ],
+        "projectionDistancePx": 1.8082993540154884,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          55.51198324016068
+        ]
+      },
+      {
+        "time": 0.2638888888888889,
+        "referenceFrame": 74.33333333333333,
+        "designedMaterialTarget": [
+          360.5046296296296,
+          649.8761574074074
+        ],
+        "reachableProjectedMaterial": [
+          361.65940603129894,
+          652.0559989428846
+        ],
+        "projectionDistancePx": 2.466823394092869,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          55.591923928626
+        ]
+      },
+      {
+        "time": 0.2708333333333333,
+        "referenceFrame": 74.5,
+        "designedMaterialTarget": [
+          360.265625,
+          649.81640625
+        ],
+        "reachableProjectedMaterial": [
+          361.72374141120514,
+          652.5596201781316
+        ],
+        "projectionDistancePx": 3.106658353298743,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          55.67165545440421
+        ]
+      },
+      {
+        "time": 0.27777777777777773,
+        "referenceFrame": 74.66666666666667,
+        "designedMaterialTarget": [
+          360.037037037037,
+          649.7592592592592
+        ],
+        "reachableProjectedMaterial": [
+          361.78681035563534,
+          653.0403644462041
+        ],
+        "projectionDistancePx": 3.718515552512179,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          55.749874759088755
+        ]
+      },
+      {
+        "time": 0.2847222222222222,
+        "referenceFrame": 74.83333333333333,
+        "designedMaterialTarget": [
+          359.822337962963,
+          649.7055844907408
+        ],
+        "reachableProjectedMaterial": [
+          361.84746634114794,
+          653.4910390449206
+        ],
+        "projectionDistancePx": 4.293112056526252,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          55.825155222278454
+        ]
+      },
+      {
+        "time": 0.2916666666666667,
+        "referenceFrame": 75.0,
+        "designedMaterialTarget": [
+          359.625,
+          649.65625
+        ],
+        "reachableProjectedMaterial": [
+          361.9044721623244,
+          653.9045073480811
+        ],
+        "projectionDistancePx": 4.821170380139753,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          55.895953710948724
+        ]
+      },
+      {
+        "time": 0.2986111111111111,
+        "referenceFrame": 75.16666666666667,
+        "designedMaterialTarget": [
+          359.4484953703704,
+          649.6121238425926
+        ],
+        "reachableProjectedMaterial": [
+          361.9565101428984,
+          654.273683052757
+        ],
+        "projectionDistancePx": 5.293417834356824,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          55.960623385470456
+        ]
+      },
+      {
+        "time": 0.3055555555555555,
+        "referenceFrame": 75.33333333333333,
+        "designedMaterialTarget": [
+          359.2962962962963,
+          649.5740740740741
+        ],
+        "reachableProjectedMaterial": [
+          362.0022008056285,
+          654.5915191774554
+        ],
+        "projectionDistancePx": 5.700585459325147,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          56.01743738793383
+        ]
+      },
+      {
+        "time": 0.3125,
+        "referenceFrame": 75.5,
+        "designedMaterialTarget": [
+          359.171875,
+          649.54296875
+        ],
+        "reachableProjectedMaterial": [
+          362.0401307730567,
+          654.8509912536963
+        ],
+        "projectionDistancePx": 6.033406507058798,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          56.06462445024649
+        ]
+      },
+      {
+        "time": 0.3194444444444444,
+        "referenceFrame": 75.66666666666667,
+        "designedMaterialTarget": [
+          359.0787037037037,
+          649.519675925926
+        ],
+        "reachableProjectedMaterial": [
+          362.0688809050053,
+          655.0450795135075
+        ],
+        "projectionDistancePx": 6.2826144638074695,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          56.10040526301943
+        ]
+      },
+      {
+        "time": 0.3263888888888889,
+        "referenceFrame": 75.83333333333333,
+        "designedMaterialTarget": [
+          359.0202546296296,
+          649.5050636574074
+        ],
+        "reachableProjectedMaterial": [
+          362.0870706425262,
+          655.1667415092603
+        ],
+        "projectionDistancePx": 6.438940639198408,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          56.12304944314295
+        ]
+      },
+      {
+        "time": 0.3333333333333333,
+        "referenceFrame": 76.0,
+        "designedMaterialTarget": [
+          359.0,
+          649.5
+        ],
+        "reachableProjectedMaterial": [
+          362.0934031211492,
+          655.208883667062
+        ],
+        "projectionDistancePx": 6.493111395470016,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          56.13093380525375
+        ]
+      },
+      {
+        "time": 0.34027777777777773,
+        "referenceFrame": 76.16666666666667,
+        "designedMaterialTarget": [
+          359.2962962962963,
+          649.5740740740741
+        ],
+        "reachableProjectedMaterial": [
+          362.3536831279994,
+          655.1409670175466
+        ],
+        "projectionDistancePx": 6.351213370904392,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          56.4555119137228
+        ]
+      },
+      {
+        "time": 0.34722222222222215,
+        "referenceFrame": 76.33333333333333,
+        "designedMaterialTarget": [
+          360.037037037037,
+          649.7592592592592
+        ],
+        "reachableProjectedMaterial": [
+          362.9938518669491,
+          654.9687046865344
+        ],
+        "projectionDistancePx": 5.99008143501787,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          57.25817596951312
+        ]
+      },
+      {
+        "time": 0.3541666666666667,
+        "referenceFrame": 76.5,
+        "designedMaterialTarget": [
+          361.0,
+          650.0
+        ],
+        "reachableProjectedMaterial": [
+          363.80370282960484,
+          654.7401590791936
+        ],
+        "projectionDistancePx": 5.50725500161342,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          58.28285185271717
+        ]
+      },
+      {
+        "time": 0.3611111111111111,
+        "referenceFrame": 76.66666666666667,
+        "designedMaterialTarget": [
+          361.962962962963,
+          650.2407407407408
+        ],
+        "reachableProjectedMaterial": [
+          364.58851016564097,
+          654.5073772199427
+        ],
+        "projectionDistancePx": 5.009758972160896,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          59.28628809537859
+        ]
+      },
+      {
+        "time": 0.3680555555555555,
+        "referenceFrame": 76.83333333333333,
+        "designedMaterialTarget": [
+          362.7037037037037,
+          650.4259259259259
+        ],
+        "reachableProjectedMaterial": [
+          365.17538642375075,
+          654.3260461491462
+        ],
+        "projectionDistancePx": 4.617375144403119,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          60.04376246157794
+        ]
+      },
+      {
+        "time": 0.375,
+        "referenceFrame": 77.0,
+        "designedMaterialTarget": [
+          363.0,
+          650.5
+        ],
+        "reachableProjectedMaterial": [
+          365.40608132902025,
+          654.2530715008215
+        ],
+        "projectionDistancePx": 4.4581131717508775,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          60.343253779954146
+        ]
+      },
+      {
+        "time": 0.3819444444444444,
+        "referenceFrame": 77.16666666666667,
+        "designedMaterialTarget": [
+          363.3703703703704,
+          650.4259259259259
+        ],
+        "reachableProjectedMaterial": [
+          365.5810008108576,
+          653.8441435010382
+        ],
+        "projectionDistancePx": 4.070761395023685,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          60.57100692593095
+        ]
+      },
+      {
+        "time": 0.38888888888888884,
+        "referenceFrame": 77.33333333333333,
+        "designedMaterialTarget": [
+          364.29629629629625,
+          650.2407407407408
+        ],
+        "reachableProjectedMaterial": [
+          366.0043549514304,
+          652.8267004978165
+        ],
+        "projectionDistancePx": 3.099137337162414,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          61.1246791089897
+        ]
+      },
+      {
+        "time": 0.3958333333333333,
+        "referenceFrame": 77.5,
+        "designedMaterialTarget": [
+          365.5,
+          650.0
+        ],
+        "reachableProjectedMaterial": [
+          366.5265401069229,
+          651.5143076198337
+        ],
+        "projectionDistancePx": 1.8294567933153756,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          61.81251717657315
+        ]
+      },
+      {
+        "time": 0.40277777777777773,
+        "referenceFrame": 77.66666666666667,
+        "designedMaterialTarget": [
+          366.70370370370375,
+          649.7592592592592
+        ],
+        "reachableProjectedMaterial": [
+          367.01912330735354,
+          650.2133061400328
+        ],
+        "projectionDistancePx": 0.5528544983147258,
+        "absoluteLocalAngles": [
+          -124.99999999999999,
+          62.466531782445905
+        ]
+      },
+      {
+        "time": 0.40972222222222215,
+        "referenceFrame": 77.83333333333333,
+        "designedMaterialTarget": [
+          367.6296296296296,
+          649.5740740740741
+        ],
+        "reachableProjectedMaterial": [
+          367.6296296296395,
+          649.5740740740889
+        ],
+        "projectionDistancePx": 1.778354330930005e-11,
+        "absoluteLocalAngles": [
+          -124.30506364352664,
+          62.07952413163343
+        ]
+      },
+      {
+        "time": 0.4166666666666667,
+        "referenceFrame": 78.0,
+        "designedMaterialTarget": [
+          368.0,
+          649.5
+        ],
+        "reachableProjectedMaterial": [
+          368.0,
+          649.5
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -123.66916065825856,
+          61.47031729193766
+        ]
+      },
+      {
+        "time": 0.4236111111111111,
+        "referenceFrame": 78.16666666666667,
+        "designedMaterialTarget": [
+          368.0983796296296,
+          649.4606481481482
+        ],
+        "reachableProjectedMaterial": [
+          368.09837962977645,
+          649.4606481483487
+        ],
+        "projectionDistancePx": 2.4854730783454667e-10,
+        "absoluteLocalAngles": [
+          -123.47377964784845,
+          61.26180570949208
+        ]
+      },
+      {
+        "time": 0.4305555555555555,
+        "referenceFrame": 78.33333333333333,
+        "designedMaterialTarget": [
+          368.3703703703704,
+          649.3518518518518
+        ],
+        "reachableProjectedMaterial": [
+          368.3703703703712,
+          649.3518518518531
+        ],
+        "projectionDistancePx": 1.482295011829285e-12,
+        "absoluteLocalAngles": [
+          -122.93221061637615,
+          60.68120756448732
+        ]
+      },
+      {
+        "time": 0.4375,
+        "referenceFrame": 78.5,
+        "designedMaterialTarget": [
+          368.78125,
+          649.1875
+        ],
+        "reachableProjectedMaterial": [
+          368.78125,
+          649.1875
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -122.11004742178064,
+          59.79239912688031
+        ]
+      },
+      {
+        "time": 0.4444444444444444,
+        "referenceFrame": 78.66666666666667,
+        "designedMaterialTarget": [
+          369.2962962962963,
+          648.9814814814815
+        ],
+        "reachableProjectedMaterial": [
+          369.2962962962963,
+          648.9814814814815
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -121.07214261907029,
+          58.657634753523645
+        ]
+      },
+      {
+        "time": 0.45138888888888884,
+        "referenceFrame": 78.83333333333333,
+        "designedMaterialTarget": [
+          369.880787037037,
+          648.7476851851852
+        ],
+        "reachableProjectedMaterial": [
+          369.88078703706714,
+          648.7476851852215
+        ],
+        "projectionDistancePx": 4.714728995899198e-11,
+        "absoluteLocalAngles": [
+          -119.88367079625233,
+          57.34082261736832
+        ]
+      },
+      {
+        "time": 0.4583333333333333,
+        "referenceFrame": 79.0,
+        "designedMaterialTarget": [
+          370.5,
+          648.5
+        ],
+        "reachableProjectedMaterial": [
+          370.5000000000033,
+          648.5000000000048
+        ],
+        "projectionDistancePx": 5.802485318406455e-12,
+        "absoluteLocalAngles": [
+          -118.61114500382413,
+          55.91027005531453
+        ]
+      },
+      {
+        "time": 0.46527777777777773,
+        "referenceFrame": 79.16666666666667,
+        "designedMaterialTarget": [
+          371.119212962963,
+          648.2523148148148
+        ],
+        "reachableProjectedMaterial": [
+          371.1192129629638,
+          648.2523148148156
+        ],
+        "projectionDistancePx": 1.12544227438453e-12,
+        "absoluteLocalAngles": [
+          -117.32340880192027,
+          54.44094503636362
+        ]
+      },
+      {
+        "time": 0.47222222222222215,
+        "referenceFrame": 79.33333333333333,
+        "designedMaterialTarget": [
+          371.7037037037037,
+          648.0185185185185
+        ],
+        "reachableProjectedMaterial": [
+          371.7037037037038,
+          648.0185185185187
+        ],
+        "projectionDistancePx": 2.5421149729252077e-13,
+        "absoluteLocalAngles": [
+          -116.0925176867066,
+          53.016126510843776
+        ]
+      },
+      {
+        "time": 0.4791666666666667,
+        "referenceFrame": 79.5,
+        "designedMaterialTarget": [
+          372.21875,
+          647.8125
+        ],
+        "reachableProjectedMaterial": [
+          372.2187500000001,
+          647.8125000000001
+        ],
+        "projectionDistancePx": 1.6077746776921858e-13,
+        "absoluteLocalAngles": [
+          -114.99430299823244,
+          51.72811469099429
+        ]
+      },
+      {
+        "time": 0.4861111111111111,
+        "referenceFrame": 79.66666666666667,
+        "designedMaterialTarget": [
+          372.6296296296296,
+          647.6481481481482
+        ],
+        "reachableProjectedMaterial": [
+          372.6296296296297,
+          647.6481481481483
+        ],
+        "projectionDistancePx": 1.2710574864626038e-13,
+        "absoluteLocalAngles": [
+          -114.10829308162326,
+          50.67746684999717
+        ]
+      },
+      {
+        "time": 0.4930555555555555,
+        "referenceFrame": 79.83333333333333,
+        "designedMaterialTarget": [
+          372.9016203703704,
+          647.5393518518518
+        ],
+        "reachableProjectedMaterial": [
+          372.9016203703704,
+          647.5393518518518
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -113.51660627306994,
+          49.97011196662877
+        ]
+      },
+      {
+        "time": 0.5,
+        "referenceFrame": 80.0,
+        "designedMaterialTarget": [
+          373.0,
+          647.5
+        ],
+        "reachableProjectedMaterial": [
+          373.0,
+          647.5
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -113.3015307111924,
+          49.7118569209683
+        ]
+      },
+      {
+        "time": 0.5069444444444444,
+        "referenceFrame": 80.16666666666667,
+        "designedMaterialTarget": [
+          372.9949363425926,
+          647.5557002314815
+        ],
+        "reachableProjectedMaterial": [
+          372.99493634259255,
+          647.5557002314815
+        ],
+        "projectionDistancePx": 5.684341886080802e-14,
+        "absoluteLocalAngles": [
+          -113.2763493237594,
+          49.65977971161139
+        ]
+      },
+      {
+        "time": 0.5138888888888888,
+        "referenceFrame": 80.33333333333333,
+        "designedMaterialTarget": [
+          372.9803240740741,
+          647.7164351851852
+        ],
+        "reachableProjectedMaterial": [
+          372.9803240740741,
+          647.7164351851852
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -113.20352630819245,
+          49.50924291397332
+        ]
+      },
+      {
+        "time": 0.5208333333333334,
+        "referenceFrame": 80.5,
+        "designedMaterialTarget": [
+          372.95703125,
+          647.97265625
+        ],
+        "reachableProjectedMaterial": [
+          372.95703125,
+          647.97265625
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -113.08695735887298,
+          49.26848343903848
+        ]
+      },
+      {
+        "time": 0.5277777777777778,
+        "referenceFrame": 80.66666666666667,
+        "designedMaterialTarget": [
+          372.9259259259259,
+          648.3148148148148
+        ],
+        "reachableProjectedMaterial": [
+          372.92592592592587,
+          648.3148148148148
+        ],
+        "projectionDistancePx": 5.684341886080802e-14,
+        "absoluteLocalAngles": [
+          -112.93035098541262,
+          48.94542986002895
+        ]
+      },
+      {
+        "time": 0.5347222222222222,
+        "referenceFrame": 80.83333333333333,
+        "designedMaterialTarget": [
+          372.8878761574074,
+          648.7333622685185
+        ],
+        "reachableProjectedMaterial": [
+          372.8878761574074,
+          648.7333622685185
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -112.73729685970699,
+          48.54781314170552
+        ]
+      },
+      {
+        "time": 0.5416666666666666,
+        "referenceFrame": 81.0,
+        "designedMaterialTarget": [
+          372.84375,
+          649.21875
+        ],
+        "reachableProjectedMaterial": [
+          372.84375,
+          649.21875
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -112.51132693319735,
+          48.083265689253714
+        ]
+      },
+      {
+        "time": 0.548611111111111,
+        "referenceFrame": 81.16666666666666,
+        "designedMaterialTarget": [
+          372.79441550925924,
+          649.7614293981482
+        ],
+        "reachableProjectedMaterial": [
+          372.79441550925924,
+          649.7614293981482
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -112.25597113761427,
+          47.55941193457312
+        ]
+      },
+      {
+        "time": 0.5555555555555555,
+        "referenceFrame": 81.33333333333333,
+        "designedMaterialTarget": [
+          372.74074074074076,
+          650.3518518518518
+        ],
+        "reachableProjectedMaterial": [
+          372.74074074074076,
+          650.3518518518518
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -111.97480897690696,
+          46.98395276816644
+        ]
+      },
+      {
+        "time": 0.5625,
+        "referenceFrame": 81.5,
+        "designedMaterialTarget": [
+          372.68359375,
+          650.98046875
+        ],
+        "reachableProjectedMaterial": [
+          372.68359375,
+          650.98046875
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -111.67151789697945,
+          46.364745366007156
+        ]
+      },
+      {
+        "time": 0.5694444444444444,
+        "referenceFrame": 81.66666666666667,
+        "designedMaterialTarget": [
+          372.6238425925926,
+          651.6377314814815
+        ],
+        "reachableProjectedMaterial": [
+          372.6238425925926,
+          651.6377314814815
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -111.34991893440902,
+          45.709879268181545
+        ]
+      },
+      {
+        "time": 0.5763888888888888,
+        "referenceFrame": 81.83333333333333,
+        "designedMaterialTarget": [
+          372.5623553240741,
+          652.3140914351852
+        ],
+        "reachableProjectedMaterial": [
+          372.562355324074,
+          652.3140914351852
+        ],
+        "projectionDistancePx": 5.684341886080802e-14,
+        "absoluteLocalAngles": [
+          -111.01401975756762,
+          45.02774887395375
+        ]
+      },
+      {
+        "time": 0.5833333333333334,
+        "referenceFrame": 82.0,
+        "designedMaterialTarget": [
+          372.5,
+          653.0
+        ],
+        "reachableProjectedMaterial": [
+          372.5,
+          653.0
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -110.66805479318202,
+          44.3271217735405
+        ]
+      },
+      {
+        "time": 0.5902777777777778,
+        "referenceFrame": 82.16666666666667,
+        "designedMaterialTarget": [
+          372.4376446759259,
+          653.6859085648148
+        ],
+        "reachableProjectedMaterial": [
+          372.437644675926,
+          653.6859085648148
+        ],
+        "projectionDistancePx": 5.684341886080802e-14,
+        "absoluteLocalAngles": [
+          -110.3165216552846,
+          43.617201500165436
+        ]
+      },
+      {
+        "time": 0.5972222222222222,
+        "referenceFrame": 82.33333333333333,
+        "designedMaterialTarget": [
+          372.3761574074074,
+          654.3622685185185
+        ],
+        "reachableProjectedMaterial": [
+          372.3761574074074,
+          654.3622685185185
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -109.96421254792001,
+          42.90768233281055
+        ]
+      },
+      {
+        "time": 0.6041666666666666,
+        "referenceFrame": 82.5,
+        "designedMaterialTarget": [
+          372.31640625,
+          655.01953125
+        ],
+        "reachableProjectedMaterial": [
+          372.3164062500329,
+          655.0195312500502
+        ],
+        "projectionDistancePx": 6.006864915505426e-11,
+        "absoluteLocalAngles": [
+          -109.61623869818429,
+          42.20879271091586
+        ]
+      },
+      {
+        "time": 0.611111111111111,
+        "referenceFrame": 82.66666666666666,
+        "designedMaterialTarget": [
+          372.25925925925924,
+          655.6481481481482
+        ],
+        "reachableProjectedMaterial": [
+          372.25925925927226,
+          655.6481481481746
+        ],
+        "projectionDistancePx": 2.951465549641574e-11,
+        "absoluteLocalAngles": [
+          -109.27804521560668,
+          41.53132267729718
+        ]
+      },
+      {
+        "time": 0.6180555555555555,
+        "referenceFrame": 82.83333333333333,
+        "designedMaterialTarget": [
+          372.20558449074076,
+          656.2385706018518
+        ],
+        "reachableProjectedMaterial": [
+          372.2055844907461,
+          656.2385706018613
+        ],
+        "projectionDistancePx": 1.0843841291407825e-11,
+        "absoluteLocalAngles": [
+          -108.95541311718098,
+          40.886629632230665
+        ]
+      },
+      {
+        "time": 0.625,
+        "referenceFrame": 83.0,
+        "designedMaterialTarget": [
+          372.15625,
+          656.78125
+        ],
+        "reachableProjectedMaterial": [
+          372.1562500000026,
+          656.7812500000076
+        ],
+        "projectionDistancePx": 8.053330360974014e-12,
+        "absoluteLocalAngles": [
+          -108.65444471344057,
+          40.28661574522255
+        ]
+      },
+      {
+        "time": 0.6319444444444444,
+        "referenceFrame": 83.16666666666667,
+        "designedMaterialTarget": [
+          372.1121238425926,
+          657.2666377314815
+        ],
+        "reachableProjectedMaterial": [
+          372.112123842594,
+          657.266637731485
+        ],
+        "projectionDistancePx": 3.779125595109386e-12,
+        "absoluteLocalAngles": [
+          -108.38152824875637,
+          39.74366986091279
+        ]
+      },
+      {
+        "time": 0.6388888888888888,
+        "referenceFrame": 83.33333333333333,
+        "designedMaterialTarget": [
+          372.0740740740741,
+          657.6851851851852
+        ],
+        "reachableProjectedMaterial": [
+          372.07407407407595,
+          657.6851851851849
+        ],
+        "projectionDistancePx": 1.9065862296939056e-12,
+        "absoluteLocalAngles": [
+          -108.14327784333273,
+          39.27056701770467
+        ]
+      },
+      {
+        "time": 0.6458333333333334,
+        "referenceFrame": 83.5,
+        "designedMaterialTarget": [
+          372.04296875,
+          658.02734375
+        ],
+        "reachableProjectedMaterial": [
+          372.0429687500005,
+          658.0273437500009
+        ],
+        "projectionDistancePx": 1.0435064581705444e-12,
+        "absoluteLocalAngles": [
+          -107.94644560394232,
+          38.880320138817545
+        ]
+      },
+      {
+        "time": 0.6527777777777778,
+        "referenceFrame": 83.66666666666667,
+        "designedMaterialTarget": [
+          372.0196759259259,
+          658.2835648148148
+        ],
+        "reachableProjectedMaterial": [
+          372.01967592592587,
+          658.2835648148152
+        ],
+        "projectionDistancePx": 4.582862941503293e-13,
+        "absoluteLocalAngles": [
+          -107.79780445896975,
+          38.58598140616448
+        ]
+      },
+      {
+        "time": 0.6597222222222222,
+        "referenceFrame": 83.83333333333333,
+        "designedMaterialTarget": [
+          372.0050636574074,
+          658.4442997685185
+        ],
+        "reachableProjectedMaterial": [
+          372.0050636574083,
+          658.4442997685193
+        ],
+        "projectionDistancePx": 1.2085076619694803e-12,
+        "absoluteLocalAngles": [
+          -107.70400292618051,
+          38.40039545349495
+        ]
+      },
+      {
+        "time": 0.6666666666666666,
+        "referenceFrame": 84.0,
+        "designedMaterialTarget": [
+          372.0,
+          658.5
+        ],
+        "reachableProjectedMaterial": [
+          372.000000000001,
+          658.5000000000009
+        ],
+        "projectionDistancePx": 1.368970808788651e-12,
+        "absoluteLocalAngles": [
+          -107.67139653195275,
+          38.33591263146258
+        ]
+      }
+    ],
+    "leg_far": [
+      {
+        "time": 0.0,
+        "referenceFrame": 68.0,
+        "designedMaterialTarget": [
+          437.5,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.3349800610064,
+          633.2575907710334
+        ],
+        "projectionDistancePx": 2.1086480921847675,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -74.68059447637292
+        ]
+      },
+      {
+        "time": 0.006944444444444444,
+        "referenceFrame": 68.16666666666667,
+        "designedMaterialTarget": [
+          437.36226851851853,
+          631.4606481481482
+        ],
+        "reachableProjectedMaterial": [
+          436.205456676836,
+          633.1910450851433
+        ],
+        "projectionDistancePx": 2.081462754079238,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -74.9058416515212
+        ]
+      },
+      {
+        "time": 0.013888888888888888,
+        "referenceFrame": 68.33333333333333,
+        "designedMaterialTarget": [
+          436.9814814814815,
+          631.3518518518518
+        ],
+        "reachableProjectedMaterial": [
+          435.85012768184225,
+          633.0051008055992
+        ],
+        "projectionDistancePx": 2.003295665403642,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -75.52684768683635
+        ]
+      },
+      {
+        "time": 0.020833333333333332,
+        "referenceFrame": 68.5,
+        "designedMaterialTarget": [
+          436.40625,
+          631.1875
+        ],
+        "reachableProjectedMaterial": [
+          435.3212025510626,
+          632.718962578768
+        ],
+        "projectionDistancePx": 1.8768872093475333,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -76.45989662123674
+        ]
+      },
+      {
+        "time": 0.027777777777777776,
+        "referenceFrame": 68.66666666666667,
+        "designedMaterialTarget": [
+          435.68518518518516,
+          630.9814814814815
+        ],
+        "reachableProjectedMaterial": [
+          434.6718822113102,
+          632.3519779424338
+        ],
+        "projectionDistancePx": 1.7044188060293437,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -77.620289873571
+        ]
+      },
+      {
+        "time": 0.03472222222222222,
+        "referenceFrame": 68.83333333333333,
+        "designedMaterialTarget": [
+          434.86689814814815,
+          630.7476851851852
+        ],
+        "reachableProjectedMaterial": [
+          433.9540052115444,
+          631.925361154711
+        ],
+        "projectionDistancePx": 1.4900651673331355,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -78.9237923189968
+        ]
+      },
+      {
+        "time": 0.041666666666666664,
+        "referenceFrame": 69.0,
+        "designedMaterialTarget": [
+          434.0,
+          630.5
+        ],
+        "reachableProjectedMaterial": [
+          433.2161010514201,
+          631.4630095583586
+        ],
+        "projectionDistancePx": 1.2417266088293324,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -80.28807707952744
+        ]
+      },
+      {
+        "time": 0.048611111111111105,
+        "referenceFrame": 69.16666666666667,
+        "designedMaterialTarget": [
+          433.13310185185185,
+          630.2523148148148
+        ],
+        "reachableProjectedMaterial": [
+          432.5019832665133,
+          630.9914723473046
+        ],
+        "projectionDistancePx": 0.971938540544674,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -81.63404645390159
+        ]
+      },
+      {
+        "time": 0.05555555555555555,
+        "referenceFrame": 69.33333333333333,
+        "designedMaterialTarget": [
+          432.31481481481484,
+          630.0185185185185
+        ],
+        "reachableProjectedMaterial": [
+          431.85007757440474,
+          630.5393112214035
+        ],
+        "projectionDistancePx": 0.6980012478515415,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -82.88675993948888
+        ]
+      },
+      {
+        "time": 0.0625,
+        "referenceFrame": 69.5,
+        "designedMaterialTarget": [
+          431.59375,
+          629.8125
+        ],
+        "reachableProjectedMaterial": [
+          431.2936470511021,
+          630.1362020479562
+        ],
+        "projectionDistancePx": 0.44141227417037826,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -83.97565049606943
+        ]
+      },
+      {
+        "time": 0.06944444444444443,
+        "referenceFrame": 69.66666666666667,
+        "designedMaterialTarget": [
+          431.0185185185185,
+          629.6481481481482
+        ],
+        "reachableProjectedMaterial": [
+          430.8619179565315,
+          629.8120685875454
+        ],
+        "projectionDistancePx": 0.22670166842528724,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -84.83389326187738
+        ]
+      },
+      {
+        "time": 0.07638888888888888,
+        "referenceFrame": 69.83333333333333,
+        "designedMaterialTarget": [
+          430.63773148148147,
+          629.5393518518518
+        ],
+        "reachableProjectedMaterial": [
+          430.610648210077,
+          629.767345005884
+        ],
+        "projectionDistancePx": 0.22959612774495172,
+        "absoluteLocalAngles": [
+          -50.17937073449796,
+          -84.99999999999999
+        ]
+      },
+      {
+        "time": 0.08333333333333333,
+        "referenceFrame": 70.0,
+        "designedMaterialTarget": [
+          430.5,
+          629.5
+        ],
+        "reachableProjectedMaterial": [
+          430.46722188881415,
+          629.7697893539148
+        ],
+        "projectionDistancePx": 0.27177325118318485,
+        "absoluteLocalAngles": [
+          -50.33217775781318,
+          -84.99999999999999
+        ]
+      },
+      {
+        "time": 0.09027777777777778,
+        "referenceFrame": 70.16666666666667,
+        "designedMaterialTarget": [
+          430.46064814814815,
+          629.5787037037037
+        ],
+        "reachableProjectedMaterial": [
+          430.4567053337532,
+          629.611103190572
+        ],
+        "projectionDistancePx": 0.03263851305864921,
+        "absoluteLocalAngles": [
+          -50.34338407627574,
+          -84.99999999999999
+        ]
+      },
+      {
+        "time": 0.09722222222222221,
+        "referenceFrame": 70.33333333333333,
+        "designedMaterialTarget": [
+          430.35185185185185,
+          629.7962962962963
+        ],
+        "reachableProjectedMaterial": [
+          430.3518518518518,
+          629.7962962962964
+        ],
+        "projectionDistancePx": 1.2710574864626038e-13,
+        "absoluteLocalAngles": [
+          -51.252759157489756,
+          -83.48624364570064
+        ]
+      },
+      {
+        "time": 0.10416666666666667,
+        "referenceFrame": 70.5,
+        "designedMaterialTarget": [
+          430.1875,
+          630.125
+        ],
+        "reachableProjectedMaterial": [
+          430.1875,
+          630.125
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -52.716082492463094,
+          -81.03289927711205
+        ]
+      },
+      {
+        "time": 0.1111111111111111,
+        "referenceFrame": 70.66666666666667,
+        "designedMaterialTarget": [
+          429.98148148148147,
+          630.5370370370371
+        ],
+        "reachableProjectedMaterial": [
+          429.9814814814814,
+          630.537037037037
+        ],
+        "projectionDistancePx": 1.2710574864626038e-13,
+        "absoluteLocalAngles": [
+          -54.59097376503342,
+          -77.86664792407933
+        ]
+      },
+      {
+        "time": 0.11805555555555554,
+        "referenceFrame": 70.83333333333333,
+        "designedMaterialTarget": [
+          429.7476851851852,
+          631.0046296296296
+        ],
+        "reachableProjectedMaterial": [
+          429.7476851851835,
+          631.0046296296341
+        ],
+        "projectionDistancePx": 4.8567038364339685e-12,
+        "absoluteLocalAngles": [
+          -56.782791192929864,
+          -74.13481436802445
+        ]
+      },
+      {
+        "time": 0.125,
+        "referenceFrame": 71.0,
+        "designedMaterialTarget": [
+          429.5,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          429.5,
+          631.5
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -59.194314906186015,
+          -69.99411172475628
+        ]
+      },
+      {
+        "time": 0.13194444444444445,
+        "referenceFrame": 71.16666666666667,
+        "designedMaterialTarget": [
+          429.2523148148148,
+          631.9953703703704
+        ],
+        "reachableProjectedMaterial": [
+          429.25231481480625,
+          631.9953703703877
+        ],
+        "projectionDistancePx": 1.9269499790000036e-11,
+        "absoluteLocalAngles": [
+          -61.71890283202458,
+          -65.6236605703084
+        ]
+      },
+      {
+        "time": 0.13888888888888887,
+        "referenceFrame": 71.33333333333333,
+        "designedMaterialTarget": [
+          429.01851851851853,
+          632.4629629629629
+        ],
+        "reachableProjectedMaterial": [
+          429.01851851851853,
+          632.4629629629629
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -64.23117789630791,
+          -61.241708690016985
+        ]
+      },
+      {
+        "time": 0.14583333333333334,
+        "referenceFrame": 71.5,
+        "designedMaterialTarget": [
+          428.8125,
+          632.875
+        ],
+        "reachableProjectedMaterial": [
+          428.8125,
+          632.875
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -66.57549648434252,
+          -57.12590887243868
+        ]
+      },
+      {
+        "time": 0.15277777777777776,
+        "referenceFrame": 71.66666666666667,
+        "designedMaterialTarget": [
+          428.64814814814815,
+          633.2037037037037
+        ],
+        "reachableProjectedMaterial": [
+          428.64814814814815,
+          633.2037037037037
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -68.55504063826184,
+          -53.632119321048414
+        ]
+      },
+      {
+        "time": 0.1597222222222222,
+        "referenceFrame": 71.83333333333333,
+        "designedMaterialTarget": [
+          428.53935185185185,
+          633.4212962962963
+        ],
+        "reachableProjectedMaterial": [
+          428.5393518518452,
+          633.4212962963036
+        ],
+        "projectionDistancePx": 9.857540451608924e-12,
+        "absoluteLocalAngles": [
+          -69.9302563582503,
+          -51.19574341894188
+        ]
+      },
+      {
+        "time": 0.16666666666666666,
+        "referenceFrame": 72.0,
+        "designedMaterialTarget": [
+          428.5,
+          633.5
+        ],
+        "reachableProjectedMaterial": [
+          428.49999999999716,
+          633.5000000000034
+        ],
+        "projectionDistancePx": 4.43961293735052e-12,
+        "absoluteLocalAngles": [
+          -70.44226375287225,
+          -50.28682700833207
+        ]
+      },
+      {
+        "time": 0.17361111111111108,
+        "referenceFrame": 72.16666666666667,
+        "designedMaterialTarget": [
+          428.5911458333333,
+          633.5455729166666
+        ],
+        "reachableProjectedMaterial": [
+          428.59114583333076,
+          633.545572916666
+        ],
+        "projectionDistancePx": 2.6473414941835967e-12,
+        "absoluteLocalAngles": [
+          -70.33904027431292,
+          -50.331524882553495
+        ]
+      },
+      {
+        "time": 0.18055555555555555,
+        "referenceFrame": 72.33333333333333,
+        "designedMaterialTarget": [
+          428.85416666666663,
+          633.6770833333334
+        ],
+        "reachableProjectedMaterial": [
+          428.854166666663,
+          633.6770833333384
+        ],
+        "projectionDistancePx": 6.1852326820078106e-12,
+        "absoluteLocalAngles": [
+          -70.04259763268966,
+          -50.4576461887611
+        ]
+      },
+      {
+        "time": 0.1875,
+        "referenceFrame": 72.5,
+        "designedMaterialTarget": [
+          429.2734375,
+          633.88671875
+        ],
+        "reachableProjectedMaterial": [
+          429.27343749999807,
+          633.8867187500044
+        ],
+        "projectionDistancePx": 4.8367035983989465e-12,
+        "absoluteLocalAngles": [
+          -69.57443193732404,
+          -50.649945506412884
+        ]
+      },
+      {
+        "time": 0.19444444444444442,
+        "referenceFrame": 72.66666666666667,
+        "designedMaterialTarget": [
+          429.83333333333337,
+          634.1666666666666
+        ],
+        "reachableProjectedMaterial": [
+          429.8333333333244,
+          634.1666666666754
+        ],
+        "projectionDistancePx": 1.2541673068446119e-11,
+        "absoluteLocalAngles": [
+          -68.9576052352475,
+          -50.890126094456946
+        ]
+      },
+      {
+        "time": 0.20138888888888887,
+        "referenceFrame": 72.83333333333333,
+        "designedMaterialTarget": [
+          430.51822916666663,
+          634.5091145833334
+        ],
+        "reachableProjectedMaterial": [
+          430.5182291666546,
+          634.509114583347
+        ],
+        "projectionDistancePx": 1.8202679311457755e-11,
+        "absoluteLocalAngles": [
+          -68.21601885719879,
+          -51.15836292108775
+        ]
+      },
+      {
+        "time": 0.20833333333333334,
+        "referenceFrame": 73.0,
+        "designedMaterialTarget": [
+          431.3125,
+          634.90625
+        ],
+        "reachableProjectedMaterial": [
+          431.31249999998215,
+          634.9062500000231
+        ],
+        "projectionDistancePx": 2.917524121084876e-11,
+        "absoluteLocalAngles": [
+          -67.3737850591393,
+          -51.43462017300105
+        ]
+      },
+      {
+        "time": 0.21527777777777776,
+        "referenceFrame": 73.16666666666667,
+        "designedMaterialTarget": [
+          432.20052083333337,
+          635.3502604166666
+        ],
+        "reachableProjectedMaterial": [
+          432.20052083331495,
+          635.3502604167039
+        ],
+        "projectionDistancePx": 4.15894981892865e-11,
+        "absoluteLocalAngles": [
+          -66.45469896316688,
+          -51.699744741141735
+        ]
+      },
+      {
+        "time": 0.2222222222222222,
+        "referenceFrame": 73.33333333333333,
+        "designedMaterialTarget": [
+          433.16666666666663,
+          635.8333333333334
+        ],
+        "reachableProjectedMaterial": [
+          433.1666666666421,
+          635.8333333333718
+        ],
+        "projectionDistancePx": 4.560245342902722e-11,
+        "absoluteLocalAngles": [
+          -65.48180319509653,
+          -51.936340344901545
+        ]
+      },
+      {
+        "time": 0.22916666666666666,
+        "referenceFrame": 73.5,
+        "designedMaterialTarget": [
+          434.1953125,
+          636.34765625
+        ],
+        "reachableProjectedMaterial": [
+          434.1953124999792,
+          636.347656250029
+        ],
+        "projectionDistancePx": 3.568281949715283e-11,
+        "absoluteLocalAngles": [
+          -64.47703198716069,
+          -52.129442477534724
+        ]
+      },
+      {
+        "time": 0.23611111111111108,
+        "referenceFrame": 73.66666666666667,
+        "designedMaterialTarget": [
+          435.27083333333337,
+          636.8854166666666
+        ],
+        "reachableProjectedMaterial": [
+          435.27083333332564,
+          636.885416666685
+        ],
+        "projectionDistancePx": 1.997397179311071e-11,
+        "absoluteLocalAngles": [
+          -63.46092018115384,
+          -52.26702175533608
+        ]
+      },
+      {
+        "time": 0.24305555555555555,
+        "referenceFrame": 73.83333333333333,
+        "designedMaterialTarget": [
+          436.37760416666663,
+          637.4388020833334
+        ],
+        "reachableProjectedMaterial": [
+          436.37760416666464,
+          637.4388020833389
+        ],
+        "projectionDistancePx": 5.915267208321753e-12,
+        "absoluteLocalAngles": [
+          -62.45236466049263,
+          -52.34034405109353
+        ]
+      },
+      {
+        "time": 0.25,
+        "referenceFrame": 74.0,
+        "designedMaterialTarget": [
+          437.5,
+          638.0
+        ],
+        "reachableProjectedMaterial": [
+          437.4999999999997,
+          638.0
+        ],
+        "projectionDistancePx": 2.8421709430404007e-13,
+        "absoluteLocalAngles": [
+          -61.46842995660837,
+          -52.34421216362377
+        ]
+      },
+      {
+        "time": 0.2569444444444444,
+        "referenceFrame": 74.16666666666667,
+        "designedMaterialTarget": [
+          438.62239583333337,
+          638.5611979166666
+        ],
+        "reachableProjectedMaterial": [
+          438.6223958333333,
+          638.5611979166667
+        ],
+        "projectionDistancePx": 1.2710574864626038e-13,
+        "absoluteLocalAngles": [
+          -60.52419489758576,
+          -52.277107659065706
+        ]
+      },
+      {
+        "time": 0.2638888888888889,
+        "referenceFrame": 74.33333333333333,
+        "designedMaterialTarget": [
+          439.72916666666663,
+          639.1145833333334
+        ],
+        "reachableProjectedMaterial": [
+          439.72916666666663,
+          639.1145833333334
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -59.63264231550838,
+          -52.141244235694444
+        ]
+      },
+      {
+        "time": 0.2708333333333333,
+        "referenceFrame": 74.5,
+        "designedMaterialTarget": [
+          440.8046875,
+          639.65234375
+        ],
+        "reachableProjectedMaterial": [
+          440.8046875,
+          639.6523437500001
+        ],
+        "projectionDistancePx": 1.1368683772161603e-13,
+        "absoluteLocalAngles": [
+          -58.80459851132035,
+          -51.94253620372214
+        ]
+      },
+      {
+        "time": 0.27777777777777773,
+        "referenceFrame": 74.66666666666667,
+        "designedMaterialTarget": [
+          441.83333333333337,
+          640.1666666666666
+        ],
+        "reachableProjectedMaterial": [
+          441.8333333333154,
+          640.1666666667152
+        ],
+        "projectionDistancePx": 5.176098173303945e-11,
+        "absoluteLocalAngles": [
+          -58.04873321464123,
+          -51.69047768903376
+        ]
+      },
+      {
+        "time": 0.2847222222222222,
+        "referenceFrame": 74.83333333333333,
+        "designedMaterialTarget": [
+          442.79947916666663,
+          640.6497395833334
+        ],
+        "reachableProjectedMaterial": [
+          442.79947916666663,
+          640.6497395833334
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -57.37163415812496,
+          -51.39792008474561
+        ]
+      },
+      {
+        "time": 0.2916666666666667,
+        "referenceFrame": 75.0,
+        "designedMaterialTarget": [
+          443.6875,
+          641.09375
+        ],
+        "reachableProjectedMaterial": [
+          443.6875,
+          641.09375
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -56.777973082428154,
+          -51.08072739024691
+        ]
+      },
+      {
+        "time": 0.2986111111111111,
+        "referenceFrame": 75.16666666666667,
+        "designedMaterialTarget": [
+          444.48177083333337,
+          641.4908854166666
+        ],
+        "reachableProjectedMaterial": [
+          444.4817708333334,
+          641.4908854166666
+        ],
+        "projectionDistancePx": 5.684341886080802e-14,
+        "absoluteLocalAngles": [
+          -56.27078172592112,
+          -50.75728223647566
+        ]
+      },
+      {
+        "time": 0.3055555555555555,
+        "referenceFrame": 75.33333333333333,
+        "designedMaterialTarget": [
+          445.16666666666663,
+          641.8333333333334
+        ],
+        "reachableProjectedMaterial": [
+          445.16666666666663,
+          641.8333333333334
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -55.85185650613224,
+          -50.447811124576596
+        ]
+      },
+      {
+        "time": 0.3125,
+        "referenceFrame": 75.5,
+        "designedMaterialTarget": [
+          445.7265625,
+          642.11328125
+        ],
+        "reachableProjectedMaterial": [
+          445.7265624999998,
+          642.1132812500005
+        ],
+        "projectionDistancePx": 5.084229945850415e-13,
+        "absoluteLocalAngles": [
+          -55.522308046211556,
+          -50.17349805630122
+        ]
+      },
+      {
+        "time": 0.3194444444444444,
+        "referenceFrame": 75.66666666666667,
+        "designedMaterialTarget": [
+          446.1458333333333,
+          642.3229166666666
+        ],
+        "reachableProjectedMaterial": [
+          446.1458333333318,
+          642.322916666674
+        ],
+        "projectionDistancePx": 7.547341993495883e-12,
+        "absoluteLocalAngles": [
+          -55.283265119624524,
+          -49.9553639072498
+        ]
+      },
+      {
+        "time": 0.3263888888888889,
+        "referenceFrame": 75.83333333333333,
+        "designedMaterialTarget": [
+          446.4088541666667,
+          642.4544270833334
+        ],
+        "reachableProjectedMaterial": [
+          446.4088541666217,
+          642.454427083485
+        ],
+        "projectionDistancePx": 1.581831424905121e-10,
+        "absoluteLocalAngles": [
+          -55.136730901572996,
+          -49.812906540848346
+        ]
+      },
+      {
+        "time": 0.3333333333333333,
+        "referenceFrame": 76.0,
+        "designedMaterialTarget": [
+          446.5,
+          642.5
+        ],
+        "reachableProjectedMaterial": [
+          446.4999999999139,
+          642.5000000003154
+        ],
+        "projectionDistancePx": 3.269140532283451e-10,
+        "absoluteLocalAngles": [
+          -55.086572704406855,
+          -49.76252339662036
+        ]
+      },
+      {
+        "time": 0.34027777777777773,
+        "referenceFrame": 76.16666666666667,
+        "designedMaterialTarget": [
+          446.5,
+          642.5
+        ],
+        "reachableProjectedMaterial": [
+          446.5,
+          642.5
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -54.92037918870838,
+          -50.045532956578604
+        ]
+      },
+      {
+        "time": 0.34722222222222215,
+        "referenceFrame": 76.33333333333333,
+        "designedMaterialTarget": [
+          446.5,
+          642.5
+        ],
+        "reachableProjectedMaterial": [
+          446.49999999999994,
+          642.5
+        ],
+        "projectionDistancePx": 5.684341886080802e-14,
+        "absoluteLocalAngles": [
+          -54.508343583377616,
+          -50.74641017648018
+        ]
+      },
+      {
+        "time": 0.3541666666666667,
+        "referenceFrame": 76.5,
+        "designedMaterialTarget": [
+          446.5,
+          642.5
+        ],
+        "reachableProjectedMaterial": [
+          446.5,
+          642.5
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -53.979770362923006,
+          -51.64388689011726
+        ]
+      },
+      {
+        "time": 0.3611111111111111,
+        "referenceFrame": 76.66666666666667,
+        "designedMaterialTarget": [
+          446.5,
+          642.5
+        ],
+        "reachableProjectedMaterial": [
+          446.5,
+          642.5
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -53.45878256072889,
+          -52.52666616946577
+        ]
+      },
+      {
+        "time": 0.3680555555555555,
+        "referenceFrame": 76.83333333333333,
+        "designedMaterialTarget": [
+          446.5,
+          642.5
+        ],
+        "reachableProjectedMaterial": [
+          446.5000000000002,
+          642.5000000000005
+        ],
+        "projectionDistancePx": 5.084229945850415e-13,
+        "absoluteLocalAngles": [
+          -53.062925737102226,
+          -53.1961975082173
+        ]
+      },
+      {
+        "time": 0.375,
+        "referenceFrame": 77.0,
+        "designedMaterialTarget": [
+          446.5,
+          642.5
+        ],
+        "reachableProjectedMaterial": [
+          446.4999999999997,
+          642.5000000000008
+        ],
+        "projectionDistancePx": 8.450381726173933e-13,
+        "absoluteLocalAngles": [
+          -52.90573252027967,
+          -53.46177043412047
+        ]
+      },
+      {
+        "time": 0.3819444444444444,
+        "referenceFrame": 77.16666666666667,
+        "designedMaterialTarget": [
+          446.5,
+          642.5
+        ],
+        "reachableProjectedMaterial": [
+          446.5,
+          642.5
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -53.53845761818415,
+          -52.39177995072886
+        ]
+      },
+      {
+        "time": 0.38888888888888884,
+        "referenceFrame": 77.33333333333333,
+        "designedMaterialTarget": [
+          446.5,
+          642.5
+        ],
+        "reachableProjectedMaterial": [
+          446.49999999993554,
+          642.5000000002332
+        ],
+        "projectionDistancePx": 2.419177371770477e-10,
+        "absoluteLocalAngles": [
+          -55.16997230433632,
+          -49.62043559902074
+        ]
+      },
+      {
+        "time": 0.3958333333333333,
+        "referenceFrame": 77.5,
+        "designedMaterialTarget": [
+          446.5,
+          642.5
+        ],
+        "reachableProjectedMaterial": [
+          446.50000000000006,
+          642.5
+        ],
+        "projectionDistancePx": 5.684341886080802e-14,
+        "absoluteLocalAngles": [
+          -57.416246825093125,
+          -45.77689469850692
+        ]
+      },
+      {
+        "time": 0.40277777777777773,
+        "referenceFrame": 77.66666666666667,
+        "designedMaterialTarget": [
+          446.5,
+          642.5
+        ],
+        "reachableProjectedMaterial": [
+          446.49999999999994,
+          642.5
+        ],
+        "projectionDistancePx": 5.684341886080802e-14,
+        "absoluteLocalAngles": [
+          -59.8435398976276,
+          -41.589123349753415
+        ]
+      },
+      {
+        "time": 0.40972222222222215,
+        "referenceFrame": 77.83333333333333,
+        "designedMaterialTarget": [
+          446.5,
+          642.5
+        ],
+        "reachableProjectedMaterial": [
+          446.4999999999863,
+          642.5000000001176
+        ],
+        "projectionDistancePx": 1.1834773869593e-10,
+        "absoluteLocalAngles": [
+          -61.87385871456475,
+          -38.06023569687836
+        ]
+      },
+      {
+        "time": 0.4166666666666667,
+        "referenceFrame": 78.0,
+        "designedMaterialTarget": [
+          446.5,
+          642.5
+        ],
+        "reachableProjectedMaterial": [
+          446.4999999999989,
+          642.5000000000192
+        ],
+        "projectionDistancePx": 1.9243407363549998e-11,
+        "absoluteLocalAngles": [
+          -62.73652161531086,
+          -36.55398385380311
+        ]
+      },
+      {
+        "time": 0.4236111111111111,
+        "referenceFrame": 78.16666666666667,
+        "designedMaterialTarget": [
+          446.3032407407407,
+          642.2835648148148
+        ],
+        "reachableProjectedMaterial": [
+          446.30324074073746,
+          642.2835648148321
+        ],
+        "projectionDistancePx": 1.7581532536376836e-11,
+        "absoluteLocalAngles": [
+          -62.53220637764093,
+          -37.199047143053214
+        ]
+      },
+      {
+        "time": 0.4305555555555555,
+        "referenceFrame": 78.33333333333333,
+        "designedMaterialTarget": [
+          445.7592592592593,
+          641.6851851851852
+        ],
+        "reachableProjectedMaterial": [
+          445.7592592592583,
+          641.6851851851902
+        ],
+        "projectionDistancePx": 5.105792200285036e-12,
+        "absoluteLocalAngles": [
+          -62.00678278924234,
+          -38.91482541734044
+        ]
+      },
+      {
+        "time": 0.4375,
+        "referenceFrame": 78.5,
+        "designedMaterialTarget": [
+          444.9375,
+          640.78125
+        ],
+        "reachableProjectedMaterial": [
+          444.9375,
+          640.7812499999999
+        ],
+        "projectionDistancePx": 1.1368683772161603e-13,
+        "absoluteLocalAngles": [
+          -61.310941245362415,
+          -41.340496118014244
+        ]
+      },
+      {
+        "time": 0.4444444444444444,
+        "referenceFrame": 78.66666666666667,
+        "designedMaterialTarget": [
+          443.9074074074074,
+          639.6481481481482
+        ],
+        "reachableProjectedMaterial": [
+          443.9074074074074,
+          639.6481481481482
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -60.58099112426884,
+          -44.14301384961756
+        ]
+      },
+      {
+        "time": 0.45138888888888884,
+        "referenceFrame": 78.83333333333333,
+        "designedMaterialTarget": [
+          442.738425925926,
+          638.3622685185186
+        ],
+        "reachableProjectedMaterial": [
+          442.7384259259028,
+          638.3622685185798
+        ],
+        "projectionDistancePx": 6.541292083657447e-11,
+        "absoluteLocalAngles": [
+          -59.91485399527586,
+          -47.057153673041924
+        ]
+      },
+      {
+        "time": 0.4583333333333333,
+        "referenceFrame": 79.0,
+        "designedMaterialTarget": [
+          441.5,
+          637.0
+        ],
+        "reachableProjectedMaterial": [
+          441.5,
+          637.0
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -59.3697364031693,
+          -49.88669612893702
+        ]
+      },
+      {
+        "time": 0.46527777777777773,
+        "referenceFrame": 79.16666666666667,
+        "designedMaterialTarget": [
+          440.261574074074,
+          635.6377314814814
+        ],
+        "reachableProjectedMaterial": [
+          440.26157407407396,
+          635.6377314814814
+        ],
+        "projectionDistancePx": 5.684341886080802e-14,
+        "absoluteLocalAngles": [
+          -58.96839076892147,
+          -52.4908911210525
+        ]
+      },
+      {
+        "time": 0.47222222222222215,
+        "referenceFrame": 79.33333333333333,
+        "designedMaterialTarget": [
+          439.0925925925926,
+          634.3518518518518
+        ],
+        "reachableProjectedMaterial": [
+          439.0925925925926,
+          634.351851851852
+        ],
+        "projectionDistancePx": 1.1368683772161603e-13,
+        "absoluteLocalAngles": [
+          -58.70703137067525,
+          -54.769078454272254
+        ]
+      },
+      {
+        "time": 0.4791666666666667,
+        "referenceFrame": 79.5,
+        "designedMaterialTarget": [
+          438.0625,
+          633.21875
+        ],
+        "reachableProjectedMaterial": [
+          438.0624999999827,
+          633.2187500000271
+        ],
+        "projectionDistancePx": 3.2104808705696364e-11,
+        "absoluteLocalAngles": [
+          -58.56295488184396,
+          -56.64716569355793
+        ]
+      },
+      {
+        "time": 0.4861111111111111,
+        "referenceFrame": 79.66666666666667,
+        "designedMaterialTarget": [
+          437.2407407407407,
+          632.3148148148148
+        ],
+        "reachableProjectedMaterial": [
+          437.2407407407407,
+          632.3148148148148
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -58.502028163563494,
+          -58.0657068967872
+        ]
+      },
+      {
+        "time": 0.4930555555555555,
+        "referenceFrame": 79.83333333333333,
+        "designedMaterialTarget": [
+          436.6967592592593,
+          631.7164351851852
+        ],
+        "reachableProjectedMaterial": [
+          436.6967592592593,
+          631.7164351851852
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -58.486794160404976,
+          -58.968163207763354
+        ]
+      },
+      {
+        "time": 0.5,
+        "referenceFrame": 80.0,
+        "designedMaterialTarget": [
+          436.5,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.50000000000006,
+          631.5
+        ],
+        "projectionDistancePx": 5.684341886080802e-14,
+        "absoluteLocalAngles": [
+          -58.48606375981929,
+          -59.28767096383668
+        ]
+      },
+      {
+        "time": 0.5069444444444444,
+        "referenceFrame": 80.16666666666667,
+        "designedMaterialTarget": [
+          436.5050636574074,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.5050636574074,
+          631.5
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -58.416678145349366,
+          -59.40399312332251
+        ]
+      },
+      {
+        "time": 0.5138888888888888,
+        "referenceFrame": 80.33333333333333,
+        "designedMaterialTarget": [
+          436.5196759259259,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.5196759259259,
+          631.5
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -58.21704302420501,
+          -59.73848171960206
+        ]
+      },
+      {
+        "time": 0.5208333333333334,
+        "referenceFrame": 80.5,
+        "designedMaterialTarget": [
+          436.54296875,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.54296875,
+          631.5
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -57.90059691495241,
+          -60.26810144282658
+        ]
+      },
+      {
+        "time": 0.5277777777777778,
+        "referenceFrame": 80.66666666666667,
+        "designedMaterialTarget": [
+          436.5740740740741,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.57407407407413,
+          631.5
+        ],
+        "projectionDistancePx": 5.684341886080802e-14,
+        "absoluteLocalAngles": [
+          -57.48133271407179,
+          -60.96868684691765
+        ]
+      },
+      {
+        "time": 0.5347222222222222,
+        "referenceFrame": 80.83333333333333,
+        "designedMaterialTarget": [
+          436.6121238425926,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.6121238425926,
+          631.5
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -56.973428225136324,
+          -61.8156661660652
+        ]
+      },
+      {
+        "time": 0.5416666666666666,
+        "referenceFrame": 81.0,
+        "designedMaterialTarget": [
+          436.65625,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.6562499999999,
+          631.5
+        ],
+        "projectionDistancePx": 1.1368683772161603e-13,
+        "absoluteLocalAngles": [
+          -56.39093683649798,
+          -62.78466996794751
+        ]
+      },
+      {
+        "time": 0.548611111111111,
+        "referenceFrame": 81.16666666666666,
+        "designedMaterialTarget": [
+          436.70558449074076,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.7055844907407,
+          631.5
+        ],
+        "projectionDistancePx": 5.684341886080802e-14,
+        "absoluteLocalAngles": [
+          -55.747552556368966,
+          -63.8519991302433
+        ]
+      },
+      {
+        "time": 0.5555555555555555,
+        "referenceFrame": 81.33333333333333,
+        "designedMaterialTarget": [
+          436.75925925925924,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.75925925925867,
+          631.500000000002
+        ],
+        "projectionDistancePx": 2.123845398758636e-12,
+        "absoluteLocalAngles": [
+          -55.05645109858792,
+          -64.99494943690107
+        ]
+      },
+      {
+        "time": 0.5625,
+        "referenceFrame": 81.5,
+        "designedMaterialTarget": [
+          436.81640625,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.81640624998863,
+          631.5000000000207
+        ],
+        "projectionDistancePx": 2.3608571250626054e-11,
+        "absoluteLocalAngles": [
+          -54.33019999692399,
+          -66.19200593649921
+        ]
+      },
+      {
+        "time": 0.5694444444444444,
+        "referenceFrame": 81.66666666666667,
+        "designedMaterialTarget": [
+          436.8761574074074,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.8761574072072,
+          631.5000000003197
+        ],
+        "projectionDistancePx": 3.772016375140209e-10,
+        "absoluteLocalAngles": [
+          -53.58072596766775,
+          -67.42292878674805
+        ]
+      },
+      {
+        "time": 0.5763888888888888,
+        "referenceFrame": 81.83333333333333,
+        "designedMaterialTarget": [
+          436.9376446759259,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.93764467592587,
+          631.5
+        ],
+        "projectionDistancePx": 5.684341886080802e-14,
+        "absoluteLocalAngles": [
+          -52.81932619088078,
+          -68.66875499349935
+        ]
+      },
+      {
+        "time": 0.5833333333333334,
+        "referenceFrame": 82.0,
+        "designedMaterialTarget": [
+          437.0,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          437.0,
+          631.5
+        ],
+        "projectionDistancePx": 0.0,
+        "absoluteLocalAngles": [
+          -52.05671080862683,
+          -69.91173914851584
+        ]
+      },
+      {
+        "time": 0.5902777777777778,
+        "referenceFrame": 82.16666666666667,
+        "designedMaterialTarget": [
+          437.0623553240741,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          437.0623553240288,
+          631.5000000000725
+        ],
+        "projectionDistancePx": 8.551836861219436e-11,
+        "absoluteLocalAngles": [
+          -51.30306568224606,
+          -71.13525288983405
+        ]
+      },
+      {
+        "time": 0.5972222222222222,
+        "referenceFrame": 82.33333333333333,
+        "designedMaterialTarget": [
+          437.1238425925926,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          437.12384259259017,
+          631.5000000000042
+        ],
+        "projectionDistancePx": 4.865013002195067e-12,
+        "absoluteLocalAngles": [
+          -50.56812671499677,
+          -72.32365852538874
+        ]
+      },
+      {
+        "time": 0.6041666666666666,
+        "referenceFrame": 82.5,
+        "designedMaterialTarget": [
+          437.18359375,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          437.1431224435448,
+          631.564401987854
+        ],
+        "projectionDistancePx": 0.07606275491813946,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -73.28811064447129
+        ]
+      },
+      {
+        "time": 0.611111111111111,
+        "referenceFrame": 82.66666666666666,
+        "designedMaterialTarget": [
+          437.24074074074076,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          437.0024777748031,
+          631.875634637443
+        ],
+        "projectionDistancePx": 0.4448265075109095,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -73.52889519009652
+        ]
+      },
+      {
+        "time": 0.6180555555555555,
+        "referenceFrame": 82.83333333333333,
+        "designedMaterialTarget": [
+          437.29441550925924,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.86829564212235,
+          632.1658683203719
+        ],
+        "projectionDistancePx": 0.7905433329323018,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -73.75921558216513
+        ]
+      },
+      {
+        "time": 0.625,
+        "referenceFrame": 83.0,
+        "designedMaterialTarget": [
+          437.34375,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.74315066328893,
+          632.4307918074308
+        ],
+        "projectionDistancePx": 1.1077422769028822,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -73.97455911447544
+        ]
+      },
+      {
+        "time": 0.6319444444444444,
+        "referenceFrame": 83.16666666666667,
+        "designedMaterialTarget": [
+          437.3878761574074,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.62972114212823,
+          632.6662091657174
+        ],
+        "projectionDistancePx": 1.3909862851215529,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -74.17019535671649
+        ]
+      },
+      {
+        "time": 0.6388888888888888,
+        "referenceFrame": 83.33333333333333,
+        "designedMaterialTarget": [
+          437.4259259259259,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.5307566332816,
+          632.8680100136502
+        ],
+        "projectionDistancePx": 1.6348637435396496,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -74.34123857900394
+        ]
+      },
+      {
+        "time": 0.6458333333333334,
+        "referenceFrame": 83.5,
+        "designedMaterialTarget": [
+          437.45703125,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.4490517603547,
+          633.0321388102001
+        ],
+        "projectionDistancePx": 1.833977095076971,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -74.48270361015105
+        ]
+      },
+      {
+        "time": 0.6527777777777778,
+        "referenceFrame": 83.66666666666667,
+        "designedMaterialTarget": [
+          437.4803240740741,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.3873895889081,
+          633.154539125646
+        ],
+        "projectionDistancePx": 1.9829285179144756,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -74.58961870030936
+        ]
+      },
+      {
+        "time": 0.6597222222222222,
+        "referenceFrame": 83.83333333333333,
+        "designedMaterialTarget": [
+          437.4949363425926,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.3484962382854,
+          633.2311003931079
+        ],
+        "projectionDistancePx": 2.076302840093965,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -74.65712308926618
+        ]
+      },
+      {
+        "time": 0.6666666666666666,
+        "referenceFrame": 84.0,
+        "designedMaterialTarget": [
+          437.5,
+          631.5
+        ],
+        "reachableProjectedMaterial": [
+          436.3349800610064,
+          633.2575907710334
+        ],
+        "projectionDistancePx": 2.1086480921847675,
+        "absoluteLocalAngles": [
+          -50.00000000000001,
+          -74.68059447637292
+        ]
+      }
+    ]
+  },
+  "sourceVideo": {
+    "file": "../source.mp4",
+    "sha256": "8fc0f8406d6a258640b65d34c5ad7fb0e35f231131d7eec945781dd9d93343e5"
+  },
+  "decodedReferenceFrames": [
+    {
+      "frame": 68,
+      "file": "../video_parts_v1/cycle_review/source_068.png",
+      "sha256": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 69,
+      "file": "../video_parts_v1/cycle_review/source_069.png",
+      "sha256": "115df477d07ff9a3416690b06122db913e4fc0383baed5254ff53bbc15d854ee",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 70,
+      "file": "../video_parts_v1/cycle_review/source_070.png",
+      "sha256": "9c2e989facc35d66e2b5163a6cac4815f68a8ebb4f6f2d15fa115467074e983e",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 71,
+      "file": "../video_parts_v1/cycle_review/source_071.png",
+      "sha256": "434509573a59694e6b90b9927e14fd090777ca24c7cd2d52c0dcaeff5d16a99e",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 72,
+      "file": "../video_parts_v1/cycle_review/source_072.png",
+      "sha256": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 73,
+      "file": "../video_parts_v1/cycle_review/source_073.png",
+      "sha256": "ea3c8193870a44d9a98b0a995e5cc2519b825dae961bc1e013f4a0fcb88994ca",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 74,
+      "file": "../video_parts_v1/cycle_review/source_074.png",
+      "sha256": "3200f67af977d20903f69f2109dc05385f18fbe2f3e54086fda34a3e7e32d912",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 75,
+      "file": "../video_parts_v1/cycle_review/source_075.png",
+      "sha256": "030f04baccecbbaa3a1351109e2733537e956c2968873c0c7e94ebc6ebec176a",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 76,
+      "file": "../video_parts_v1/cycle_review/source_076.png",
+      "sha256": "ca0676580e05720d1f927d733d944c930c776d7c33ac2f4a2a1fb325dfb9bae9",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 77,
+      "file": "../video_parts_v1/cycle_review/source_077.png",
+      "sha256": "c3d8a2bdfeec6a45f85650813bf63a52f899187dec62d1d77d9ec0e0f207842a",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 78,
+      "file": "../video_parts_v1/cycle_review/source_078.png",
+      "sha256": "63fed24423a2afbf759e8794c4c716609a85647154f070ad7efac0b42ff353ac",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 79,
+      "file": "../video_parts_v1/cycle_review/source_079.png",
+      "sha256": "c2e238fb4a36f536be0a78c1524590ee23a1f6ef7ab145616afb3914acfc1dfd",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 80,
+      "file": "../video_parts_v1/cycle_review/source_080.png",
+      "sha256": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 81,
+      "file": "../video_parts_v1/cycle_review/source_081.png",
+      "sha256": "b46b02660221465c152edd5274260066093216e1a6cc5da01137fae3d5c91b0f",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 82,
+      "file": "../video_parts_v1/cycle_review/source_082.png",
+      "sha256": "c1e35a74624862d33b2d484d1de836195fabc2c50e4749c995a9b740776e24e2",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 83,
+      "file": "../video_parts_v1/cycle_review/source_083.png",
+      "sha256": "8d0a84da923ab2316c52bc0cb40616885eac163ea55e5873f72966a727fe50f2",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 84,
+      "file": "../video_parts_v1/cycle_review/source_084.png",
+      "sha256": "3fe5ab53f1fa27ad7d2ad6a87429196ddae7fd06df45dbfce0e2ae64a6835a25",
+      "decodedPixelsExact": true
+    }
+  ],
+  "bindSource": "../video_guided_walk_v2/profile_walk.json",
+  "profileCopiedByteExact": true,
+  "boneLengths": {
+    "root": 0,
+    "body": 60,
+    "head": 40,
+    "shorts": 40,
+    "arm_near_upper": 56.64803615307419,
+    "arm_near_lower": 42.05948168962618,
+    "arm_far_upper": 40.718546143004666,
+    "arm_far_lower": 35.510561809129406,
+    "leg_near_upper": 38.07886552931954,
+    "leg_near_lower": 34.713109915419565,
+    "leg_far_upper": 32.984845004941285,
+    "leg_far_lower": 24.08318915758459
+  },
+  "interpolation": "人工事件键之间smoothstep，97个烘焙角度键；导出线性插值。84显式复制68，既有局部x/y和骨长不变。",
+  "limitations": [
+    "近远命名只指v2屏幕层，不代表解剖身份。",
+    "原角色长躯干短四肢，不照搬视频转面和扁脚；脚底目标不一定全部可达，投影距离逐键保留。",
+    "肩髋隐藏图与v2静态权重冻结；可能发生压缩、翻转和轮廓切口，不因数值失败削到不可见。",
+    "接触滑动按真实mesh脚底材料点测量，不等于地面物理或接触区域验收。",
+    "CPU解算并非Spine官方运行时、换装、跨角色或生产验收。"
+  ],
+  "armAngleCoordinateContract": "motion-spec内键为相对body的上下臂绝对方向；动画lower通道先转为相对upper局部角，再减bind局部角。",
+  "manualAbsoluteArmDirectionsRelativeToBodyDegrees": {
+    "arm_near": [
+      [
+        -108,
+        -100
+      ],
+      [
+        -56,
+        -2
+      ],
+      [
+        -39,
+        35
+      ],
+      [
+        -37,
+        37
+      ],
+      [
+        -54,
+        9
+      ],
+      [
+        -78,
+        -50
+      ],
+      [
+        -111,
+        -101
+      ],
+      [
+        -108,
+        -100
+      ]
+    ],
+    "arm_far": [
+      [
+        -70,
+        -32
+      ],
+      [
+        -96,
+        -64
+      ],
+      [
+        -104,
+        -76
+      ],
+      [
+        -100,
+        -70
+      ],
+      [
+        -90,
+        -57
+      ],
+      [
+        -78,
+        -41
+      ],
+      [
+        -65,
+        -24
+      ],
+      [
+        -70,
+        -32
+      ]
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "bindingSource": "approved walk screenshot RIGHT panel only",
+  "standingReference": "approved stand screenshot RIGHT panel only",
+  "oldRejectedAttachmentsUsed": false,
+  "files": {
+    "approved_walk.png": "ef424586cac077b88cfe7b89c48474d29c7757e33b0c72537f01f9be2fd562c1",
+    "approved_stand.png": "f44e9f0183710987b7f7cf384ec3fe612e0452a64ef658b257b200aebbd18dd7"
+  },
+  "visualApproved": false,
+  "bodyAndShorts": "continuous hidden_body_shorts.png repaint, explicit user acceptance of local texture variation",
+  "farArm": "approved standing screenshot",
+  "preservedVisibleParts": [
+    "head",
+    "arm_near",
+    "leg_near",
+    "leg_far"
+  ],
+  "repaintSHA256": "6bbce72540da40646d62f852943c9efd85c1e9828156dfa49ad2da94330e6ca9",
+  "guiPlaybackVerified": true
+}

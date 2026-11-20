@@ -1,0 +1,1043 @@
+{
+  "schema": "walulu-video-rig-draft/1",
+  "source": {
+    "taskId": "local_9c08a83ca165e9c8",
+    "characterId": null,
+    "videoSha": "9c08a83ca165e9c86c8fa0559cb9495b90efca0f20980834ce3033560b44e8fc",
+    "imageSha": "d23d5d1f19016060a92661beda66779e83de62e739412371bb0146a9f2532127",
+    "clipStart": 66,
+    "clipEnd": 88,
+    "fps": 24,
+    "frameCount": 107
+  },
+  "fps": 24,
+  "duration": 0.9166666666666666,
+  "productionApproved": false,
+  "parts": [
+    {
+      "id": "head",
+      "name": "头部",
+      "bbox": [
+        149,
+        62,
+        617,
+        449
+      ],
+      "parent": "body",
+      "pivot": [
+        402.2,
+        443.2
+      ],
+      "order": 6,
+      "visible": true,
+      "texture": "legacy",
+      "polygon": [],
+      "keys": [
+        {
+          "time": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "angle": -1.0,
+          "bend": 0.0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.16666666666666666,
+          "x": 0,
+          "y": 0,
+          "angle": 0,
+          "bend": 0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.3333333333333333,
+          "x": 0,
+          "y": 0,
+          "angle": 1,
+          "bend": 0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.5,
+          "x": 0,
+          "y": 0,
+          "angle": 2,
+          "bend": 0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.6666666666666666,
+          "x": 0,
+          "y": 0,
+          "angle": 3,
+          "bend": 0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.8333333333333334,
+          "x": 0,
+          "y": 0,
+          "angle": 0,
+          "bend": 0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.9166666666666666,
+          "x": 0.0,
+          "y": 0.0,
+          "angle": -1.0,
+          "bend": 0.0,
+          "interpolation": "linear"
+        }
+      ],
+      "evidence": [
+        {
+          "frame": 66,
+          "visibility": "visible",
+          "note": "附件可见像素重新提取自视频第 66 帧；根部小范围延展为隐藏搭接，躯干隐藏区使用本轮 AI 补图。",
+          "points": [
+            [
+              260,
+              15
+            ],
+            [
+              601,
+              15
+            ],
+            [
+              608,
+              245
+            ],
+            [
+              554,
+              272
+            ],
+            [
+              530,
+              284
+            ],
+            [
+              510,
+              289
+            ],
+            [
+              484,
+              286
+            ],
+            [
+              454,
+              289
+            ],
+            [
+              422,
+              287
+            ],
+            [
+              401,
+              282
+            ],
+            [
+              382,
+              285
+            ],
+            [
+              346,
+              284
+            ],
+            [
+              310,
+              264
+            ],
+            [
+              266,
+              238
+            ]
+          ],
+          "origin": "review_candidate"
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "name": "躯干",
+      "bbox": [
+        323,
+        433,
+        481,
+        584
+      ],
+      "parent": null,
+      "pivot": [
+        402.2,
+        565.0
+      ],
+      "order": 3,
+      "visible": true,
+      "texture": "legacy",
+      "polygon": [],
+      "keys": [
+        {
+          "time": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "angle": 0.0,
+          "bend": 0.0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.16666666666666666,
+          "x": 0,
+          "y": 0,
+          "angle": 0,
+          "bend": 0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.3333333333333333,
+          "x": 0,
+          "y": 0,
+          "angle": 0,
+          "bend": 0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.5,
+          "x": 0,
+          "y": 0,
+          "angle": 0,
+          "bend": 0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.6666666666666666,
+          "x": 0,
+          "y": 0,
+          "angle": 0,
+          "bend": 0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.8333333333333334,
+          "x": 0,
+          "y": 0,
+          "angle": 0,
+          "bend": 0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.9166666666666666,
+          "x": 0.0,
+          "y": 0.0,
+          "angle": 0.0,
+          "bend": 0.0,
+          "interpolation": "linear"
+        }
+      ],
+      "evidence": [
+        {
+          "frame": 82,
+          "visibility": "visible",
+          "note": "附件可见像素重新提取自视频第 82 帧；根部小范围延展为隐藏搭接，躯干隐藏区使用本轮 AI 补图。",
+          "points": [],
+          "origin": "review_candidate"
+        }
+      ]
+    },
+    {
+      "id": "shorts",
+      "name": "短裤",
+      "bbox": [
+        302,
+        534,
+        485,
+        636
+      ],
+      "parent": "body",
+      "pivot": [
+        402.2,
+        565.0
+      ],
+      "order": 4,
+      "visible": true,
+      "texture": "legacy",
+      "polygon": [],
+      "keys": [
+        {
+          "time": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "angle": 0.0,
+          "bend": 0.0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.16666666666666666,
+          "x": 0,
+          "y": 0,
+          "angle": 0,
+          "bend": 0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.3333333333333333,
+          "x": 0,
+          "y": 0,
+          "angle": 0,
+          "bend": 0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.5,
+          "x": 0,
+          "y": 0,
+          "angle": 0,
+          "bend": 0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.6666666666666666,
+          "x": 0,
+          "y": 0,
+          "angle": 0,
+          "bend": 0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.8333333333333334,
+          "x": 0,
+          "y": 0,
+          "angle": 0,
+          "bend": 0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.9166666666666666,
+          "x": 0.0,
+          "y": 0.0,
+          "angle": 0.0,
+          "bend": 0.0,
+          "interpolation": "linear"
+        }
+      ],
+      "evidence": [
+        {
+          "frame": 82,
+          "visibility": "visible",
+          "note": "附件可见像素重新提取自视频第 82 帧；根部小范围延展为隐藏搭接，躯干隐藏区使用本轮 AI 补图。",
+          "points": [
+            [
+              378,
+              377
+            ],
+            [
+              396,
+              361
+            ],
+            [
+              416,
+              367
+            ],
+            [
+              443,
+              371
+            ],
+            [
+              471,
+              368
+            ],
+            [
+              491,
+              362
+            ],
+            [
+              500,
+              356
+            ],
+            [
+              501,
+              376
+            ],
+            [
+              496,
+              394
+            ],
+            [
+              483,
+              408
+            ],
+            [
+              464,
+              423
+            ],
+            [
+              459,
+              414
+            ],
+            [
+              449,
+              401
+            ],
+            [
+              431,
+              392
+            ],
+            [
+              410,
+              389
+            ],
+            [
+              391,
+              390
+            ],
+            [
+              378,
+              398
+            ]
+          ],
+          "origin": "review_candidate"
+        }
+      ]
+    },
+    {
+      "id": "arm_near",
+      "name": "近侧手臂",
+      "bbox": [
+        249,
+        448,
+        372,
+        589
+      ],
+      "parent": "body",
+      "pivot": [
+        344.8,
+        469.8
+      ],
+      "joint": [
+        291.6,
+        514.6
+      ],
+      "tip": [
+        269.2,
+        556.6
+      ],
+      "order": 5,
+      "visible": true,
+      "texture": "legacy",
+      "polygon": [],
+      "keys": [
+        {
+          "time": 0.0,
+          "x": -4.9,
+          "y": -23.8,
+          "angle": -40.97872,
+          "bend": 14.20752,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.16666666666666666,
+          "x": -2.8,
+          "y": -21.0,
+          "angle": -65.36031,
+          "bend": 19.6954,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.3333333333333333,
+          "x": -2.8,
+          "y": -18.2,
+          "angle": -52.56209,
+          "bend": 13.95042,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.5,
+          "x": -2.8,
+          "y": -4.199999999999999,
+          "angle": -24.43575,
+          "bend": 14.79821,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.6666666666666666,
+          "x": 0.0,
+          "y": 0.0,
+          "angle": 0.0,
+          "bend": 0.0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.8333333333333334,
+          "x": 1.4,
+          "y": -7.0,
+          "angle": -21.19314,
+          "bend": 6.79196,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.9166666666666666,
+          "x": -4.9,
+          "y": -23.8,
+          "angle": -40.97872,
+          "bend": 14.20752,
+          "interpolation": "linear"
+        }
+      ],
+      "evidence": [
+        {
+          "frame": 82,
+          "visibility": "visible",
+          "note": "附件可见像素重新提取自视频第 82 帧；根部小范围延展为隐藏搭接，躯干隐藏区使用本轮 AI 补图。",
+          "points": [
+            [
+              399,
+              292
+            ],
+            [
+              414,
+              293
+            ],
+            [
+              425,
+              306
+            ],
+            [
+              423,
+              323
+            ],
+            [
+              411,
+              345
+            ],
+            [
+              396,
+              366
+            ],
+            [
+              381,
+              383
+            ],
+            [
+              366,
+              390
+            ],
+            [
+              353,
+              391
+            ],
+            [
+              342,
+              385
+            ],
+            [
+              336,
+              375
+            ],
+            [
+              336,
+              361
+            ],
+            [
+              344,
+              343
+            ],
+            [
+              357,
+              327
+            ],
+            [
+              375,
+              310
+            ],
+            [
+              389,
+              298
+            ]
+          ],
+          "origin": "review_candidate"
+        }
+      ],
+      "blend": 60
+    },
+    {
+      "id": "arm_far",
+      "name": "远侧手臂",
+      "bbox": [
+        445,
+        451,
+        541,
+        567
+      ],
+      "parent": "body",
+      "pivot": [
+        462.4,
+        468.4
+      ],
+      "joint": [
+        508.6,
+        504.8
+      ],
+      "tip": [
+        521.2,
+        535.6
+      ],
+      "order": 2,
+      "visible": true,
+      "texture": "legacy",
+      "polygon": [],
+      "keys": [
+        {
+          "time": 0.0,
+          "x": -1.4,
+          "y": -19.6,
+          "angle": 35.06693,
+          "bend": -24.50728,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.16666666666666666,
+          "x": 0.0,
+          "y": -15.399999999999999,
+          "angle": 53.81158,
+          "bend": -40.30872,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.3333333333333333,
+          "x": 0.0,
+          "y": -16.799999999999997,
+          "angle": 47.82099,
+          "bend": -31.47811,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.5,
+          "x": 0.0,
+          "y": -8.399999999999999,
+          "angle": 18.07611,
+          "bend": -8.8217,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.6666666666666666,
+          "x": 0.0,
+          "y": 0.0,
+          "angle": 0.0,
+          "bend": 0.0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.8333333333333334,
+          "x": 0.0,
+          "y": -8.399999999999999,
+          "angle": 19.93873,
+          "bend": -11.18544,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.9166666666666666,
+          "x": -1.4,
+          "y": -19.6,
+          "angle": 35.06693,
+          "bend": -24.50728,
+          "interpolation": "linear"
+        }
+      ],
+      "evidence": [
+        {
+          "frame": 82,
+          "visibility": "uncertain",
+          "note": "附件可见像素重新提取自视频第 82 帧；根部小范围延展为隐藏搭接，躯干隐藏区使用本轮 AI 补图。",
+          "points": [
+            [
+              482,
+              294
+            ],
+            [
+              501,
+              302
+            ],
+            [
+              518,
+              316
+            ],
+            [
+              532,
+              331
+            ],
+            [
+              540,
+              345
+            ],
+            [
+              544,
+              357
+            ],
+            [
+              541,
+              367
+            ],
+            [
+              533,
+              373
+            ],
+            [
+              522,
+              376
+            ],
+            [
+              507,
+              375
+            ],
+            [
+              500,
+              370
+            ],
+            [
+              499,
+              352
+            ],
+            [
+              493,
+              329
+            ]
+          ],
+          "origin": "review_candidate"
+        }
+      ],
+      "blend": 60
+    },
+    {
+      "id": "leg_near",
+      "name": "近侧腿脚",
+      "bbox": [
+        304,
+        560,
+        449,
+        697
+      ],
+      "parent": "shorts",
+      "pivot": [
+        356.0,
+        581.8
+      ],
+      "joint": [
+        391.0,
+        626.6
+      ],
+      "tip": [
+        403.6,
+        667.2
+      ],
+      "order": 1,
+      "visible": true,
+      "texture": "legacy",
+      "polygon": [],
+      "keys": [
+        {
+          "time": 0.0,
+          "x": 1.4,
+          "y": 0.7,
+          "angle": 48.30259,
+          "bend": -31.06114,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.16666666666666666,
+          "x": 1.4,
+          "y": -2.8,
+          "angle": 75.87372,
+          "bend": -53.43783,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.3333333333333333,
+          "x": -1.4,
+          "y": -1.4,
+          "angle": 65.2983,
+          "bend": -38.59452,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.5,
+          "x": -1.4,
+          "y": 0.0,
+          "angle": 29.38308,
+          "bend": -24.23638,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.6666666666666666,
+          "x": 0.0,
+          "y": 0.0,
+          "angle": 0.0,
+          "bend": 0.0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.8333333333333334,
+          "x": 1.4,
+          "y": -2.8,
+          "angle": 24.37174,
+          "bend": -5.34037,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.9166666666666666,
+          "x": 1.4,
+          "y": 0.7,
+          "angle": 48.30259,
+          "bend": -31.06114,
+          "interpolation": "linear"
+        }
+      ],
+      "evidence": [
+        {
+          "frame": 82,
+          "visibility": "visible",
+          "note": "附件可见像素重新提取自视频第 82 帧；根部小范围延展为隐藏搭接，躯干隐藏区使用本轮 AI 补图。",
+          "points": [
+            [
+              377,
+              394
+            ],
+            [
+              389,
+              389
+            ],
+            [
+              405,
+              387
+            ],
+            [
+              421,
+              389
+            ],
+            [
+              438,
+              395
+            ],
+            [
+              451,
+              405
+            ],
+            [
+              458,
+              417
+            ],
+            [
+              462,
+              431
+            ],
+            [
+              472,
+              438
+            ],
+            [
+              477,
+              449
+            ],
+            [
+              473,
+              458
+            ],
+            [
+              461,
+              464
+            ],
+            [
+              442,
+              469
+            ],
+            [
+              425,
+              467
+            ],
+            [
+              414,
+              461
+            ],
+            [
+              407,
+              452
+            ],
+            [
+              403,
+              440
+            ],
+            [
+              394,
+              429
+            ],
+            [
+              385,
+              415
+            ]
+          ],
+          "origin": "review_candidate"
+        }
+      ],
+      "blend": 60
+    },
+    {
+      "id": "leg_far",
+      "name": "远侧腿脚",
+      "bbox": [
+        409,
+        550,
+        531,
+        679
+      ],
+      "parent": "shorts",
+      "pivot": [
+        447.0,
+        570.6
+      ],
+      "joint": [
+        473.6,
+        611.2
+      ],
+      "tip": [
+        487.6,
+        643.4
+      ],
+      "order": 0,
+      "visible": true,
+      "texture": "legacy",
+      "polygon": [],
+      "keys": [
+        {
+          "time": 0.0,
+          "x": 0.0,
+          "y": 1.4,
+          "angle": 28.21209,
+          "bend": -7.68111,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.16666666666666666,
+          "x": 0.0,
+          "y": 0.0,
+          "angle": 0.0,
+          "bend": 0.0,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.3333333333333333,
+          "x": 0.0,
+          "y": 1.4,
+          "angle": 13.09541,
+          "bend": 6.58908,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.5,
+          "x": 0.0,
+          "y": 1.4,
+          "angle": 67.824,
+          "bend": -34.20076,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.6666666666666666,
+          "x": 0.0,
+          "y": 1.4,
+          "angle": 67.824,
+          "bend": -35.57927,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.8333333333333334,
+          "x": 0.0,
+          "y": 1.4,
+          "angle": 52.88554,
+          "bend": -33.96089,
+          "interpolation": "linear"
+        },
+        {
+          "time": 0.9166666666666666,
+          "x": 0.0,
+          "y": 1.4,
+          "angle": 28.21209,
+          "bend": -7.68111,
+          "interpolation": "linear"
+        }
+      ],
+      "evidence": [
+        {
+          "frame": 70,
+          "visibility": "uncertain",
+          "note": "附件可见像素重新提取自视频第 70 帧；根部小范围延展为隐藏搭接，躯干隐藏区使用本轮 AI 补图。",
+          "points": [
+            [
+              459,
+              394
+            ],
+            [
+              473,
+              384
+            ],
+            [
+              492,
+              373
+            ],
+            [
+              498,
+              389
+            ],
+            [
+              502,
+              407
+            ],
+            [
+              515,
+              414
+            ],
+            [
+              529,
+              420
+            ],
+            [
+              536,
+              432
+            ],
+            [
+              533,
+              442
+            ],
+            [
+              521,
+              449
+            ],
+            [
+              505,
+              455
+            ],
+            [
+              488,
+              457
+            ],
+            [
+              477,
+              453
+            ],
+            [
+              470,
+              441
+            ],
+            [
+              461,
+              423
+            ],
+            [
+              452,
+              409
+            ]
+          ],
+          "origin": "review_candidate"
+        }
+      ],
+      "blend": 60
+    }
+  ],
+  "assetRevision": "video-parts-v3"
+}

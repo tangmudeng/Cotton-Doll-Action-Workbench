@@ -1,0 +1,146 @@
+[
+  {
+    "name": "near_arm_front",
+    "label": "近侧手前摆",
+    "frame": 70,
+    "time": 2.9166666666666665,
+    "box": [
+      382,
+      288,
+      454,
+      405
+    ],
+    "file": "source_candidates/near_arm_front.png",
+    "limitations": "手形完整，肩根仍被头部遮挡",
+    "pixelExact": true,
+    "sha256": "5c1488892a1d3eb6d723c49d3fc07beb1385237912ae5e6cd06454602d5f20fa"
+  },
+  {
+    "name": "near_arm_back",
+    "label": "近侧手后摆",
+    "frame": 82,
+    "time": 3.4166666666666665,
+    "box": [
+      332,
+      288,
+      429,
+      394
+    ],
+    "file": "source_candidates/near_arm_back.png",
+    "limitations": "保留侧边轮廓，不与前摆手强行拼成单张",
+    "pixelExact": true,
+    "sha256": "328479da5a9c6c21397aa872e283983161e90ec85dee9d8ce48816f39d511909"
+  },
+  {
+    "name": "far_arm_open",
+    "label": "远侧手展开",
+    "frame": 63,
+    "time": 2.625,
+    "box": [
+      482,
+      292,
+      535,
+      381
+    ],
+    "file": "source_candidates/far_arm_open.png",
+    "limitations": "躯干侧的肩根和上臂内缘不可见",
+    "pixelExact": true,
+    "sha256": "fd3c13eca2aa2dc5df41087de3d968b0c305f3294ab76ed4a198fc5461bae634"
+  },
+  {
+    "name": "far_arm_back",
+    "label": "远侧手另一摆姿",
+    "frame": 82,
+    "time": 3.4166666666666665,
+    "box": [
+      484,
+      290,
+      546,
+      380
+    ],
+    "file": "source_candidates/far_arm_back.png",
+    "limitations": "可作为姿态替换，不能据此虚构被遮挡上臂",
+    "pixelExact": true,
+    "sha256": "1c29fe3b472037ed3d918d5b6fb657310b25dcb50df8ddf252d685d13bfd0d56"
+  },
+  {
+    "name": "shorts_open",
+    "label": "裤衩迈步",
+    "frame": 70,
+    "time": 2.9166666666666665,
+    "box": [
+      366,
+      347,
+      505,
+      419
+    ],
+    "file": "source_candidates/shorts_open.png",
+    "limitations": "近侧手遮住左腰部分；裆部及裤口取原像素",
+    "pixelExact": true,
+    "sha256": "bd1b311f8c1a4b1ac62a705ff0ef92f9798481beb28e3e6fbd737976337c7494"
+  },
+  {
+    "name": "shorts_cross",
+    "label": "裤衩交叉步",
+    "frame": 82,
+    "time": 3.4166666666666665,
+    "box": [
+      370,
+      353,
+      508,
+      418
+    ],
+    "file": "source_candidates/shorts_cross.png",
+    "limitations": "保留原帧轮廓；左腰仍被手臂遮挡",
+    "pixelExact": true,
+    "sha256": "78797bb4cf597e6b4737d897b84f9bb28fb0c20934c2734572148fae7bb7e7b2"
+  },
+  {
+    "name": "near_leg_open",
+    "label": "近腿迈步",
+    "frame": 70,
+    "time": 2.9166666666666665,
+    "box": [
+      352,
+      379,
+      439,
+      466
+    ],
+    "file": "source_candidates/near_leg_open.png",
+    "limitations": "上腿根在裤衩下，不能称为完整拆件",
+    "pixelExact": true,
+    "sha256": "3b5dde8a3308854bbd0fed68585e7975d1115bd6c35b02304239fde8da3fe413"
+  },
+  {
+    "name": "far_leg_open",
+    "label": "远腿迈步",
+    "frame": 70,
+    "time": 2.9166666666666665,
+    "box": [
+      448,
+      374,
+      540,
+      459
+    ],
+    "file": "source_candidates/far_leg_open.png",
+    "limitations": "完整脚形可见；髋根遮挡",
+    "pixelExact": true,
+    "sha256": "9114939334403eb8ed62c5bca5281d6dfe1e6a171321c2d48405a44b629121cb"
+  },
+  {
+    "name": "feet_cross",
+    "label": "交叉步双脚",
+    "frame": 82,
+    "time": 3.4166666666666665,
+    "box": [
+      383,
+      384,
+      496,
+      470
+    ],
+    "file": "source_candidates/feet_cross.png",
+    "limitations": "远脚部分遮挡，只作遮挡关系参考",
+    "pixelExact": true,
+    "sha256": "b03198d5357d50ea62fb534c2adf733ed33f913230ed59c3fa18e97a77b83bff"
+  }
+]

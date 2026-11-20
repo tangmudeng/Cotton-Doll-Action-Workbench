@@ -1,0 +1,253 @@
+{
+  "candidate": "continuous_donor_setup",
+  "variant": "continuous_donor_setup_hinge36",
+  "hingeSpanSourcePx": 36,
+  "prototypeAccepted": false,
+  "productionApproved": false,
+  "geometry": {
+    "17": {
+      "sampleCount": 17,
+      "flipsTriangleSamples": 46,
+      "collapseTriangleSamples": 0,
+      "samplesWithFlips": 10,
+      "minAreaRatio": -0.6319120237295244,
+      "texturedFlipsTriangleSamples": 46,
+      "texturedCollapseTriangleSamples": 0,
+      "texturedMinAreaRatio": -0.6319120237295244,
+      "texturedMinSingularValue": 0.00474541226919109,
+      "texturedMaxSingularValue": 2.3510255934807986,
+      "maxAreaRatio": 1.9389237275855613,
+      "minSingularValue": 0.00474541226919109,
+      "maxSingularValue": 2.3510255934807986,
+      "worstAreaTime": 0.0,
+      "maxMaterialResidualPx": 13.504239547813228,
+      "rmsMaterialResidualPx": 5.894230594320243,
+      "candidate": "continuous_donor_setup",
+      "variant": "continuous_donor_setup_hinge36",
+      "hingeSpanSourcePx": 36,
+      "prototypeAccepted": false,
+      "productionApproved": false,
+      "maxBoneEndpointResidualPx": 13.504646375493522,
+      "rmsBoneEndpointResidualPx": 5.894388353417373,
+      "numericalGeometryPassed": false
+    },
+    "193": {
+      "sampleCount": 193,
+      "flipsTriangleSamples": 451,
+      "collapseTriangleSamples": 0,
+      "samplesWithFlips": 108,
+      "minAreaRatio": -0.6319120237295244,
+      "texturedFlipsTriangleSamples": 451,
+      "texturedCollapseTriangleSamples": 0,
+      "texturedMinAreaRatio": -0.6319120237295244,
+      "texturedMinSingularValue": 0.00041090006408205435,
+      "texturedMaxSingularValue": 2.3510255934807986,
+      "maxAreaRatio": 1.9389237275855613,
+      "minSingularValue": 0.00041090006408205435,
+      "maxSingularValue": 2.3510255934807986,
+      "worstAreaTime": 0.0,
+      "maxMaterialResidualPx": 13.504239547813228,
+      "rmsMaterialResidualPx": 6.010130980156697,
+      "candidate": "continuous_donor_setup",
+      "variant": "continuous_donor_setup_hinge36",
+      "hingeSpanSourcePx": 36,
+      "prototypeAccepted": false,
+      "productionApproved": false,
+      "maxBoneEndpointResidualPx": 13.504646375493522,
+      "rmsBoneEndpointResidualPx": 6.010198785653876,
+      "numericalGeometryPassed": false
+    },
+    "1537": {
+      "sampleCount": 1537,
+      "flipsTriangleSamples": 3561,
+      "collapseTriangleSamples": 1,
+      "samplesWithFlips": 857,
+      "minAreaRatio": -0.6319120237295244,
+      "texturedFlipsTriangleSamples": 3561,
+      "texturedCollapseTriangleSamples": 1,
+      "texturedMinAreaRatio": -0.6319120237295244,
+      "texturedMinSingularValue": 7.077221707525882e-06,
+      "texturedMaxSingularValue": 2.3510255934807986,
+      "maxAreaRatio": 1.9389237275855613,
+      "minSingularValue": 7.077221707525882e-06,
+      "maxSingularValue": 2.3510255934807986,
+      "worstAreaTime": 0.0,
+      "maxMaterialResidualPx": 13.504239547813228,
+      "rmsMaterialResidualPx": 6.021902127785111,
+      "candidate": "continuous_donor_setup",
+      "variant": "continuous_donor_setup_hinge36",
+      "hingeSpanSourcePx": 36,
+      "prototypeAccepted": false,
+      "productionApproved": false,
+      "maxBoneEndpointResidualPx": 13.504646375493522,
+      "rmsBoneEndpointResidualPx": 6.021970053590288,
+      "numericalGeometryPassed": false
+    }
+  },
+  "numericalGeometryPassed": false,
+  "sameAbsoluteBoneAngleMaxWorldDelta": 0.0,
+  "weightedSetupReconstructionMaxErrorPx": 8.038873388460929e-14,
+  "weightContinuity": {
+    "nearestSegmentUsed": false,
+    "sameSectionMaxWeightRange": 4.6629367034256575e-15,
+    "transverseShift37PxMaxWeightDelta": 1.1102230246251565e-15,
+    "analyticMaxWeightDerivativePerSourcePx": 0.041666666666666664
+  },
+  "failureWitness": {
+    "time": 0.0,
+    "texturedTriangleIndex": 167,
+    "minTexturedAreaRatio": -0.6319120237295244,
+    "triangleIndices": [
+      103,
+      109,
+      104
+    ],
+    "flipsAtTime": 6,
+    "texturedFlipsAtTime": 6
+  },
+  "raster": [
+    {
+      "frame": 68,
+      "minAreaRatio": -0.6319120237295243,
+      "maxAreaRatio": 1.9389237275855673,
+      "flips": 6,
+      "collapsed": 0,
+      "interiorOverlapPixels": 197
+    },
+    {
+      "frame": 69,
+      "minAreaRatio": -0.5487756515493897,
+      "maxAreaRatio": 1.924995040423481,
+      "flips": 4,
+      "collapsed": 0,
+      "interiorOverlapPixels": 142
+    },
+    {
+      "frame": 70,
+      "minAreaRatio": -0.2637089134365445,
+      "maxAreaRatio": 1.8376775912191499,
+      "flips": 4,
+      "collapsed": 0,
+      "interiorOverlapPixels": 32
+    },
+    {
+      "frame": 71,
+      "minAreaRatio": 0.3179744174414435,
+      "maxAreaRatio": 1.5475987043993127,
+      "flips": 0,
+      "collapsed": 0,
+      "interiorOverlapPixels": 0
+    },
+    {
+      "frame": 72,
+      "minAreaRatio": 0.8054674550011238,
+      "maxAreaRatio": 1.179244701429881,
+      "flips": 0,
+      "collapsed": 0,
+      "interiorOverlapPixels": 0
+    },
+    {
+      "frame": 73,
+      "minAreaRatio": 0.8054674550011183,
+      "maxAreaRatio": 1.1792447014298812,
+      "flips": 0,
+      "collapsed": 0,
+      "interiorOverlapPixels": 0
+    },
+    {
+      "frame": 74,
+      "minAreaRatio": 0.8054674550011249,
+      "maxAreaRatio": 1.1792447014298852,
+      "flips": 0,
+      "collapsed": 0,
+      "interiorOverlapPixels": 0
+    },
+    {
+      "frame": 75,
+      "minAreaRatio": 0.8054674550011208,
+      "maxAreaRatio": 1.1792447014298857,
+      "flips": 0,
+      "collapsed": 0,
+      "interiorOverlapPixels": 0
+    },
+    {
+      "frame": 76,
+      "minAreaRatio": 0.8054674550011248,
+      "maxAreaRatio": 1.179244701429887,
+      "flips": 0,
+      "collapsed": 0,
+      "interiorOverlapPixels": 0
+    },
+    {
+      "frame": 77,
+      "minAreaRatio": 0.45889790826808613,
+      "maxAreaRatio": 1.4517826192642374,
+      "flips": 0,
+      "collapsed": 0,
+      "interiorOverlapPixels": 0
+    },
+    {
+      "frame": 78,
+      "minAreaRatio": -0.32224528336240477,
+      "maxAreaRatio": 1.8550246822186225,
+      "flips": 4,
+      "collapsed": 0,
+      "interiorOverlapPixels": 45
+    },
+    {
+      "frame": 79,
+      "minAreaRatio": -0.2935180426318173,
+      "maxAreaRatio": 1.8468644330247521,
+      "flips": 4,
+      "collapsed": 0,
+      "interiorOverlapPixels": 37
+    },
+    {
+      "frame": 80,
+      "minAreaRatio": -0.49521759858189435,
+      "maxAreaRatio": 1.911730821913969,
+      "flips": 4,
+      "collapsed": 0,
+      "interiorOverlapPixels": 114
+    },
+    {
+      "frame": 81,
+      "minAreaRatio": -0.6036420966214855,
+      "maxAreaRatio": 1.9352502713508986,
+      "flips": 4,
+      "collapsed": 0,
+      "interiorOverlapPixels": 176
+    },
+    {
+      "frame": 82,
+      "minAreaRatio": -0.6159448696554563,
+      "maxAreaRatio": 1.9369989928513267,
+      "flips": 6,
+      "collapsed": 0,
+      "interiorOverlapPixels": 185
+    },
+    {
+      "frame": 83,
+      "minAreaRatio": -0.5570330353011704,
+      "maxAreaRatio": 1.9267725497402957,
+      "flips": 4,
+      "collapsed": 0,
+      "interiorOverlapPixels": 146
+    },
+    {
+      "frame": 84,
+      "minAreaRatio": -0.6319120237295243,
+      "maxAreaRatio": 1.9389237275855673,
+      "flips": 6,
+      "collapsed": 0,
+      "interiorOverlapPixels": 197
+    }
+  ],
+  "worstRaster": {
+    "minAreaRatio": -0.6319120237295243,
+    "maxAreaRatio": 1.9389237275855673,
+    "flips": 6,
+    "collapsed": 0,
+    "interiorOverlapPixels": 197
+  }
+}

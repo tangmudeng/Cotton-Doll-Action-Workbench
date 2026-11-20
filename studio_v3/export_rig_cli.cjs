@@ -1,0 +1,11 @@
+const fs=require('node:fs'),path=require('node:path');
+const E=require('./rig-spine-export.js');
+const [input,out,reference]=process.argv.slice(2);
+const config=JSON.parse(fs.readFileSync(reference,'utf8'));
+const project=JSON.parse(fs.readFileSync(input,'utf8'));
+const result=E.build(project,config.source);
+fs.mkdirSync(out,{recursive:true});
+fs.writeFileSync(path.join(out,'walulu_walk.json'),JSON.stringify(result.skeleton,null,2));
+fs.writeFileSync(path.join(out,'walulu_walk.atlas'),result.atlas);
+fs.writeFileSync(path.join(out,'packing.json'),JSON.stringify(result.packing,null,2));
+console.log(JSON.stringify({bones:result.skeleton.bones.length,slots:result.skeleton.slots.length,duration:project.duration}));

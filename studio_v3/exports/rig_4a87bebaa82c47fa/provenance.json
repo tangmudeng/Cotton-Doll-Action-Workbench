@@ -1,0 +1,30 @@
+{
+  "source": {
+    "taskId": "local_9c08a83ca165e9c8",
+    "characterId": null,
+    "videoSha": "9c08a83ca165e9c86c8fa0559cb9495b90efca0f20980834ce3033560b44e8fc",
+    "imageSha": "d23d5d1f19016060a92661beda66779e83de62e739412371bb0146a9f2532127",
+    "clipStart": 66,
+    "clipEnd": 88,
+    "fps": 24,
+    "frameCount": 107
+  },
+  "method": "manual video landmarks; estimated occluded joints; video frame 66 head; frame 82 arms, near leg, shorts, visible torso; frame 70 far leg; new AI completion blended only into occluded/seam regions",
+  "productionApproved": false,
+  "acceptance": "editable Spine and runtime validation passed; visual acceptance pending",
+  "partSha256": {
+    "head": "b6c9b5939859c8a8ae7069306dc5051887ceb326722e0dadc186eaecd3f45976",
+    "body": "1e22da57a000f8ff62102fd6ce69d2729de772a03ac39d89ea58b3d386534c84",
+    "shorts": "6c89131246d951872be849b50d013ed4b37c3eb5e38534486b8070fff3e055b2",
+    "arm_near": "fd5677a221a93fd63dc9646fec45b1e4d685ecc77471bc6b3b4d024425a11a56",
+    "arm_far": "cc1fb3f084a2e32cfb093c87f9ad17c42c3f56d8d3b95cfe24de5103d2780ad6",
+    "leg_near": "8d4c4bc48168280a44a8f16dffa5bcfa71444ade44faa34530bf73cf0e911749",
+    "leg_far": "28d950e847a9e3d6c1ea687b74349a833dea8b47b1753f796238811da12da806"
+  },
+  "spineVersion": "4.2.43",
+  "cycleFrames": [
+    66,
+    88
+  ],
+  "duration": 0.9166666666666666
+}

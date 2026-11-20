@@ -1,0 +1,11 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
+const root=path.resolve(__dirname,'..'),c=JSON.parse(fs.readFileSync(path.join(root,'generated_rig/right_front_import_9c08a83c/reference.json'),'utf8'));
+const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+assert.equal(hash(path.join(root,c.base,'source.mp4')),c.source.videoSha);
+assert.equal(c.frames.length,107);for(const f of c.frames)assert.equal(hash(path.join(root,c.base,f.file)),f.sha256);
+assert.equal(hash(path.join(root,c.assetBase,'source_reference.png')),c.source.imageSha);
+for(const p of c.parts)assert.equal(hash(path.join(root,c.assetBase,p.file)),p.sha256);
+const M=require('../rig-studio-model.js');const p={schema:'walulu-video-rig-draft/1',source:c.source,fps:c.source.fps,duration:(c.source.clipEnd-c.source.clipStart)/c.source.fps,productionApproved:false,parts:c.parts.map((p,i)=>({id:p.id,name:p.label,bbox:p.bbox,pivot:[p.bbox[0]+10,p.bbox[1]+10],order:i,visible:true,texture:'legacy',polygon:[],keys:[],evidence:c.observations[p.id]}))};
+assert.doesNotThrow(()=>M.validate(p,c.source));
+console.log('PASS: exact imported MP4, 107 reference PNG hashes, inherited artwork hashes, observation draft validation');

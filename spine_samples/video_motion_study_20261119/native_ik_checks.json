@@ -1,0 +1,10 @@
+{
+  "bones": 15,
+  "nativeIKConstraints": 4,
+  "frames": 23,
+  "maxTargetError": 0.009758856561840973,
+  "maxJointDifferenceVsAnalyticSolver": 0.004853120242444332,
+  "maxBoneLengthError": 8.127613000397105e-7,
+  "motionAccuracyValidated": false,
+  "groundContactsValidated": false
+}

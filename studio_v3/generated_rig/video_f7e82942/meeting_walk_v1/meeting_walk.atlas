@@ -1,0 +1,55 @@
+meeting_walk.png
+size: 418,1051
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pma: false
+head
+  rotate: false
+  xy: 4,4
+  size: 410,347
+  orig: 410,347
+  offset: 0,0
+  index: -1
+body
+  rotate: false
+  xy: 4,359
+  size: 139,129
+  orig: 139,129
+  offset: 0,0
+  index: -1
+shorts
+  rotate: false
+  xy: 4,496
+  size: 131,74
+  orig: 131,74
+  offset: 0,0
+  index: -1
+arm_near
+  rotate: false
+  xy: 4,578
+  size: 90,138
+  orig: 90,138
+  offset: 0,0
+  index: -1
+arm_far
+  rotate: false
+  xy: 4,724
+  size: 53,104
+  orig: 53,104
+  offset: 0,0
+  index: -1
+leg_near
+  rotate: false
+  xy: 4,836
+  size: 90,103
+  orig: 90,103
+  offset: 0,0
+  index: -1
+leg_far
+  rotate: false
+  xy: 4,947
+  size: 79,100
+  orig: 79,100
+  offset: 0,0
+  index: -1

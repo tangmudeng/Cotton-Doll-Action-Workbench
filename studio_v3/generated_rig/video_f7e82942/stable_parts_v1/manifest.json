@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 2,
+  "taskId": "comfy_f7e82942-05e3-4c7e-8e30-e974e2a233fa",
+  "sourceVideoSha256": "8fc0f8406d6a258640b65d34c5ad7fb0e35f231131d7eec945781dd9d93343e5",
+  "characterId": null,
+  "promotedToRuntime": false,
+  "status": "stable_parts_work_in_progress_not_rig",
+  "direction": "right_front_3q",
+  "sourceImage": {
+    "file": "../../right_front_walk/source768.png",
+    "sha256": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+    "width": 768,
+    "height": 768
+  },
+  "sourceReference": {
+    "file": "source_reference.png",
+    "sha256": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+    "width": 768,
+    "height": 768,
+    "role": "source_reference"
+  },
+  "review": {
+    "file": "review.png",
+    "sha256": "90e370a8a0c3bed645fb58282df98062881623b030956a853320b16a77db6727",
+    "width": 1280,
+    "height": 1030,
+    "role": "candidate_contact_sheet"
+  },
+  "bodyReview": {
+    "file": "body_assembly_review.png",
+    "sha256": "2d6c9fec6852df7af58f7e57715815e7bab0490bffc4e4555d686b93ff60b691",
+    "width": 1536,
+    "height": 600,
+    "role": "body_static_assembly_review"
+  },
+  "assets": [
+    {
+      "file": "source_reference.png",
+      "sha256": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+      "width": 768,
+      "height": 768,
+      "role": "source_reference"
+    },
+    {
+      "file": "review.png",
+      "sha256": "90e370a8a0c3bed645fb58282df98062881623b030956a853320b16a77db6727",
+      "width": 1280,
+      "height": 1030,
+      "role": "candidate_contact_sheet"
+    },
+    {
+      "file": "source_shorts_detail.png",
+      "sha256": "91238feaaac8ecd4f07066c51f2452d9feedbdced43202e610ed3d707a941eb5",
+      "width": 948,
+      "height": 564,
+      "role": "source_shorts_zoom_nearest_6x"
+    },
+    {
+      "file": "shorts_review.png",
+      "sha256": "7f743e084040fc947986208c9399e6937b8992871abd843da377d7d92d32237d",
+      "width": 1294,
+      "height": 460,
+      "role": "shorts_source_comparison_nearest_4x"
+    },
+    {
+      "file": "body_visible_mask.png",
+      "sha256": "9db9d413fb7cc22402bddb9dd6df07ed72e1d7aafc05b82fcd6ceed8b7f09e96",
+      "width": 768,
+      "height": 768,
+      "role": "body_original_visible_mask"
+    },
+    {
+      "file": "body_repair_mask.png",
+      "sha256": "6bcb6ab40ee20e8051d2452081dba10def9004bd83b0e1b4cbdaa83c828e59cd",
+      "width": 768,
+      "height": 768,
+      "role": "body_ai_overlap_mask"
+    },
+    {
+      "file": "body_assembly_review.png",
+      "sha256": "2d6c9fec6852df7af58f7e57715815e7bab0490bffc4e4555d686b93ff60b691",
+      "width": 1536,
+      "height": 600,
+      "role": "body_static_assembly_review"
+    },
+    {
+      "file": "body_interfaces_review.png",
+      "sha256": "bd5e954f80482dcb6830c0aa8c08f343fdf54ff739f9a22ec8f550abf3a11a25",
+      "width": 1440,
+      "height": 510,
+      "role": "body_interface_detail_review"
+    }
+  ],
+  "parts": [
+    {
+      "id": "head",
+      "label": "头部",
+      "file": "head.png",
+      "sha256": "4f3950e1575f962212adca60486ebe441dadc9e2d8ae65c46d5f6779579e0555",
+      "width": 410,
+      "height": 347,
+      "bbox": [
+        179,
+        104,
+        589,
+        451
+      ],
+      "status": "source_visible_candidate",
+      "hiddenComplete": false,
+      "approvedForBinding": false,
+      "sourcePixelOnly": true,
+      "reason": "来自旧originalFile原始可见裁片；仅当前视角头部，颈部切口与遮挡面未完整提供。",
+      "repairNeeded": [
+        "复核颈部切口和毛发边缘；隐藏侧头部及颈部连接未补全，不能视为完整绑定头部。"
+      ],
+      "evidenceFrames": [],
+      "source": {
+        "file": "../../right_front_walk/parts/original/head.png",
+        "sha256": "4f3950e1575f962212adca60486ebe441dadc9e2d8ae65c46d5f6779579e0555",
+        "method": "byte_exact_original_visible_copy"
+      }
+    },
+    {
+      "id": "body",
+      "label": "躯干",
+      "file": "body.png",
+      "sha256": "fc310a95f186d884c1d10ae17392085339fc801e8ef9dbc86b4b139839df729c",
+      "bbox": [
+        345,
+        434,
+        484,
+        563
+      ],
+      "width": 139,
+      "height": 129,
+      "status": "source_preserved_ai_overlap_candidate",
+      "hiddenComplete": false,
+      "approvedForBinding": false,
+      "sourcePixelOnly": false,
+      "reason": "从旧original混合件仅保留裤腰以上可见躯干，原RGBA不改；已生成Image2 v5供体仅在原姿态被不透明上层遮挡的局部补足搭接。",
+      "repairNeeded": [
+        "肩颈、腋下和腰髋仅局部搭接，非完整隐藏结构；接缝颜色、动态露缝和换装覆盖仍待验收。"
+      ],
+      "evidenceFrames": [],
+      "source": {
+        "method": "source_visible_preserved_ai_donor_hidden_overlap",
+        "visibleMaskFile": "body_visible_mask.png",
+        "repairMaskFile": "body_repair_mask.png",
+        "donor": {
+          "file": "../image2_repairs/body_candidate_v5.png",
+          "sha256": "f2bf1a8c97d669ba7f0a11d24e5d4f5bda696521886e5701f52ebfa1019ae2c6"
+        },
+        "counts": {
+          "visiblePixels": 9196,
+          "repairPixels": 4095,
+          "visibleRgbaMismatchPixels": 0,
+          "repairOutsideOpaqueOccluders": 0,
+          "sourceVisibleAssemblyRgbaMismatchPixels": 0,
+          "sourceForegroundUncoveredPixels": 0,
+          "sourceForegroundNotCoveredByCandidatesPixels": 0,
+          "alphaUnionMismatchPixels": 0,
+          "boundaryMaskOverlapPixels": 0,
+          "bodyMaskOverlapPixels": 0,
+          "repairOutsideFinalUpperOpaqueSafeDomain": 0
+        },
+        "waistCutPolyline": [
+          [
+            338,
+            526
+          ],
+          [
+            357,
+            532
+          ],
+          [
+            366,
+            535
+          ],
+          [
+            382,
+            538
+          ],
+          [
+            398,
+            539
+          ],
+          [
+            415,
+            538
+          ],
+          [
+            431,
+            535
+          ],
+          [
+            447,
+            531
+          ],
+          [
+            459,
+            526
+          ],
+          [
+            467,
+            520
+          ],
+          [
+            469,
+            519
+          ],
+          [
+            471,
+            522
+          ],
+          [
+            478,
+            514
+          ]
+        ],
+        "donorMapping": {
+          "crop": [
+            254,
+            196,
+            1029,
+            1096
+          ],
+          "size": [
+            182,
+            211
+          ],
+          "topLeft": [
+            316,
+            407
+          ],
+          "alphaCutoff": 8
+        },
+        "localColorMedianShift": [
+          -2.0,
+          -10.0,
+          -13.0
+        ],
+        "geometry": "manual waist cut + distance<=24px + eroded opaque occluders; not hidden anatomy reconstruction"
+      }
+    },
+    {
+      "id": "shorts",
+      "label": "短裤",
+      "file": "shorts.png",
+      "sha256": "3632fa898f75da728218456fd8e8b7346988f7dfd649737edb82eb8a9a72ba03",
+      "width": 131,
+      "height": 74,
+      "bbox": [
+        345,
+        519,
+        476,
+        593
+      ],
+      "status": "coarse_clothing_candidate",
+      "hiddenComplete": false,
+      "approvedForBinding": false,
+      "sourcePixelOnly": true,
+      "reason": "仅用原图可见短裤像素按手描多边形裁出透明轮廓；腰线、手臂遮挡边和腿口仍是粗边界待审。",
+      "repairNeeded": [
+        "逐像素审阅裤腰、近侧手臂遮挡边、两侧裤口及裆部描边；被手臂与身体遮挡的衣物未补全。"
+      ],
+      "evidenceFrames": [],
+      "source": {
+        "file": "../../right_front_walk/source768.png",
+        "method": "manual_binary_polygon_visible_pixels",
+        "polygon": [
+          [
+            357,
+            532
+          ],
+          [
+            366,
+            535
+          ],
+          [
+            382,
+            538
+          ],
+          [
+            398,
+            539
+          ],
+          [
+            415,
+            538
+          ],
+          [
+            431,
+            535
+          ],
+          [
+            447,
+            531
+          ],
+          [
+            459,
+            526
+          ],
+          [
+            467,
+            520
+          ],
+          [
+            469,
+            519
+          ],
+          [
+            471,
+            522
+          ],
+          [
+            472,
+            528
+          ],
+          [
+            473,
+            536
+          ],
+          [
+            475,
+            545
+          ],
+          [
+            466,
+            552
+          ],
+          [
+            456,
+            561
+          ],
+          [
+            445,
+            571
+          ],
+          [
+            434,
+            580
+          ],
+          [
+            422,
+            587
+          ],
+          [
+            412,
+            591
+          ],
+          [
+            404,
+            592
+          ],
+          [
+            400,
+            584
+          ],
+          [
+            392,
+            577
+          ],
+          [
+            382,
+            570
+          ],
+          [
+            371,
+            565
+          ],
+          [
+            358,
+            561
+          ],
+          [
+            345,
+            559
+          ],
+          [
+            350,
+            551
+          ],
+          [
+            354,
+            541
+          ]
+        ]
+      }
+    },
+    {
+      "id": "arm_near",
+      "label": "近屏幕层手臂（暂定）",
+      "file": "arm_near.png",
+      "sha256": "7cd90180cb6c851def01c5195286a93ffc9420f8a76c6115c811436430597874",
+      "width": 90,
+      "height": 138,
+      "bbox": [
+        287,
+        443,
+        377,
+        581
+      ],
+      "status": "source_visible_boundary_reassignment",
+      "hiddenComplete": false,
+      "approvedForBinding": false,
+      "sourcePixelOnly": true,
+      "reason": "保留original可见手臂裁片，并加入原图左上缺口沿手臂遮挡轮廓边线的人工归属候选；未获正式美术批准，肩根隐藏面仍不完整。",
+      "repairNeeded": [
+        "缺肩根与腋下遮挡面及旋转重叠余量；需复核斜切口，未补画。"
+      ],
+      "evidenceFrames": [],
+      "source": {
+        "file": "../../right_front_walk/source768.png",
+        "sha256": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+        "method": "source_visible_boundary_reassignment",
+        "baseOriginalFile": "../../right_front_walk/parts/original/arm_near.png",
+        "baseOriginalSha256": "badf519973eeb2a8c9be55e34ac378ac2290e8bb4740863a89c2ddf1460379b5",
+        "baseOriginalBbox": [
+          287,
+          443,
+          377,
+          581
+        ],
+        "oldMixedBodyFile": "../../right_front_walk/parts/original/body.png",
+        "oldMixedBodySha256": "5d304a26264c8c0c8fa6cb15e7a43b2c76cd59d8297d4264e6078da267c88854",
+        "oldMixedBodyBbox": [
+          338,
+          434,
+          478,
+          594
+        ],
+        "supportCondition": "source alpha>0 and all current layers alpha==0 and old mixed body alpha>0",
+        "assignmentBasis": "按已查看原图提出的人工可见边线归属候选；arm_near沿手臂遮挡轮廓边线；不使用最近距离推断语义。",
+        "sourceCoordinateCondition": "y<561 and x<420",
+        "addedPixelCount": 100,
+        "boundaryAssignmentApproved": false
+      }
+    },
+    {
+      "id": "arm_far",
+      "label": "远屏幕层手臂（暂定）",
+      "file": "arm_far.png",
+      "sha256": "d8e783debe155efbb7fdb52f0d9415de60af3e199cc861e36a4f9528c5847490",
+      "width": 53,
+      "height": 104,
+      "bbox": [
+        452,
+        450,
+        505,
+        554
+      ],
+      "status": "visible_incomplete_candidate",
+      "hiddenComplete": false,
+      "approvedForBinding": false,
+      "sourcePixelOnly": true,
+      "reason": "仅复制original可见窄条手臂；内侧与肩根被躯干遮挡，非完整手臂。",
+      "repairNeeded": [
+        "缺肩根、内侧手臂与腋下隐藏轮廓及旋转重叠余量，未补画。"
+      ],
+      "evidenceFrames": [],
+      "source": {
+        "file": "../../right_front_walk/parts/original/arm_far.png",
+        "sha256": "d8e783debe155efbb7fdb52f0d9415de60af3e199cc861e36a4f9528c5847490",
+        "method": "byte_exact_original_visible_copy"
+      }
+    },
+    {
+      "id": "leg_near",
+      "label": "近屏幕层腿（暂定）",
+      "file": "leg_near.png",
+      "sha256": "d9b5b9b00c647abe4a47b41c968a3999d4211530e926022c43353b4021dca72e",
+      "width": 90,
+      "height": 103,
+      "bbox": [
+        316,
+        561,
+        406,
+        664
+      ],
+      "status": "source_visible_boundary_reassignment",
+      "hiddenComplete": false,
+      "approvedForBinding": false,
+      "sourcePixelOnly": true,
+      "reason": "保留original可见腿裁片，并加入原图左下缺口的人工归属候选；髋根被短裤遮挡，旧分区切口可能带裤口描边，不等于完整裸腿，未获正式美术批准。",
+      "repairNeeded": [
+        "缺短裤下的髋根和上腿隐藏连接；需审阅裤口描边归属，未使用旧补底或延伸像素。"
+      ],
+      "evidenceFrames": [],
+      "source": {
+        "file": "../../right_front_walk/source768.png",
+        "sha256": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+        "method": "source_visible_boundary_reassignment",
+        "baseOriginalFile": "../../right_front_walk/parts/original/leg_near.png",
+        "baseOriginalSha256": "d382bd96d71dbbaaaefcf0ede411ecb6fcfac097f6c7531099594c0a2da291bf",
+        "baseOriginalBbox": [
+          316,
+          564,
+          406,
+          664
+        ],
+        "oldMixedBodyFile": "../../right_front_walk/parts/original/body.png",
+        "oldMixedBodySha256": "5d304a26264c8c0c8fa6cb15e7a43b2c76cd59d8297d4264e6078da267c88854",
+        "oldMixedBodyBbox": [
+          338,
+          434,
+          478,
+          594
+        ],
+        "supportCondition": "source alpha>0 and all current layers alpha==0 and old mixed body alpha>0",
+        "assignmentBasis": "按已查看原图提出的人工可见边线归属候选；arm_near沿手臂遮挡轮廓边线；不使用最近距离推断语义。",
+        "sourceCoordinateCondition": "y>=561 and x<420",
+        "addedPixelCount": 488,
+        "boundaryAssignmentApproved": false
+      }
+    },
+    {
+      "id": "leg_far",
+      "label": "远屏幕层腿（暂定）",
+      "file": "leg_far.png",
+      "sha256": "2ca541c17028ac69356a403c8c753178cb146e46ff7b407bfd6ef81ef8caa548",
+      "width": 79,
+      "height": 100,
+      "bbox": [
+        400,
+        548,
+        479,
+        648
+      ],
+      "status": "source_visible_boundary_reassignment",
+      "hiddenComplete": false,
+      "approvedForBinding": false,
+      "sourcePixelOnly": true,
+      "reason": "保留original可见腿裁片，并加入原图右侧缺口的人工归属候选；髋根与内侧上腿被短裤和近侧腿遮挡，旧切口可能带裤口描边，未获正式美术批准。",
+      "repairNeeded": [
+        "缺髋根、内侧上腿与重叠余量；需审阅裤口描边归属，未使用旧补底或延伸像素。"
+      ],
+      "evidenceFrames": [],
+      "source": {
+        "file": "../../right_front_walk/source768.png",
+        "sha256": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+        "method": "source_visible_boundary_reassignment",
+        "baseOriginalFile": "../../right_front_walk/parts/original/leg_far.png",
+        "baseOriginalSha256": "73e79758331f3b7352fbe8a44936f6e1c916a458ff941201c31d06b842514d65",
+        "baseOriginalBbox": [
+          400,
+          552,
+          479,
+          648
+        ],
+        "oldMixedBodyFile": "../../right_front_walk/parts/original/body.png",
+        "oldMixedBodySha256": "5d304a26264c8c0c8fa6cb15e7a43b2c76cd59d8297d4264e6078da267c88854",
+        "oldMixedBodyBbox": [
+          338,
+          434,
+          478,
+          594
+        ],
+        "supportCondition": "source alpha>0 and all current layers alpha==0 and old mixed body alpha>0",
+        "assignmentBasis": "按已查看原图提出的人工可见边线归属候选；arm_near沿手臂遮挡轮廓边线；不使用最近距离推断语义。",
+        "sourceCoordinateCondition": "x>=420",
+        "addedPixelCount": 69,
+        "boundaryAssignmentApproved": false
+      }
+    }
+  ],
+  "boundaryReview": {
+    "count": 3,
+    "gapPixelCountBefore": 657,
+    "addedPixelCount": 657,
+    "assignments": {
+      "arm_near": 100,
+      "leg_near": 488,
+      "leg_far": 69
+    },
+    "boundaryAssignmentApproved": false,
+    "status": "pending_manual_art_review",
+    "sourceVisibleAssemblyRgbaMismatchPixels": 0,
+    "sourceForegroundUncoveredPixels": 0,
+    "sourceForegroundNotCoveredByCandidatesPixels": 0,
+    "note": "按已查看原图的可见区域及边线提出人工候选归属；不以最近距离推断语义，未获正式美术批准。新生成review由主线程视觉审阅；该记录不是新asset。"
+  },
+  "assemblyLayerOrder": [
+    "leg_far",
+    "leg_near",
+    "body",
+    "shorts",
+    "arm_far",
+    "arm_near",
+    "head"
+  ],
+  "bboxConvention": "源图像素坐标，左上包含、右下不包含：[x0,y0,x1,y1]；缺件为null，尺寸为0。",
+  "layerSemantics": {
+    "nearFar": "仅当前静态视角暂定屏幕层，不代表解剖左右或已验证视频身份。",
+    "anatomicalLeftRight": "unknown"
+  },
+  "provenance": {
+    "oldManifest": {
+      "file": "../../right_front_walk/manifest.json",
+      "sha256": "611e2cb0a78712dd9d14fda5b96e4d07bcb059873db043f8e4d5b1c42ba57d81"
+    },
+    "sourceVideoHashRole": "任务引用标识；本脚本未读取或校验视频，不据此声称原图角色归属。",
+    "evidenceFrames": "全部为空：本批候选来自静态原图，不捏造视频帧证据。",
+    "methods": [
+      "head和arm_far逐字节复制旧originalFile；arm_near及两腿保留原裁片并加入原图可见边界像素的人工归属候选；拒绝旧runtime与补底裁片。",
+      "短裤二值多边形仅裁出原图RGBA，未重采样或改变保留像素透明度。",
+      "body保留裤腰以上旧original可见RGBA；已有Image2 v5纹理仅用于不透明上层遮挡内的局部搭接，做色彩中位数平移；没有新生图、程序inpaint或运行时提升。",
+      "review及放大参考仅供查看，不是候选部件的像素来源。"
+    ],
+    "visualReview": {
+      "status": "coarse_candidate_pending_art_review",
+      "sourceDetailBox": [
+        328,
+        510,
+        486,
+        604
+      ],
+      "inspectedWith": "ViewImage",
+      "inspectedFiles": [
+        "source_shorts_detail.png",
+        "shorts_review.png",
+        "review.png"
+      ],
+      "observations": [
+        "已实际查看完整原图、短裤六倍放大参考、四倍左右对照图及七件审阅图。",
+        "短裤为沿腰线、手臂遮挡边、两侧裤口和裆部的独立透明轮廓，不是带手臂皮肤的矩形截图。",
+        "放大可见多边形边界有锯齿及描边裁切近似，仍需美术逐像素审阅；不据此断言边缘完全准确。",
+        "头部颈下有原分区残片，四肢有明显切口，腿部带原裤口附近描边；均未修补。"
+      ],
+      "shortsAcceptedForBinding": false
+    }
+  },
+  "checks": {
+    "parts": {
+      "head": {
+        "visiblePixels": 95187,
+        "transparentPixels": 47083,
+        "partialAlphaPixels": 1961,
+        "visibleRgbMismatchPixels": 0,
+        "visibleAlphaMismatchPixels": 0,
+        "newVisiblePixelsOutsideSource": 0
+      },
+      "shorts": {
+        "visiblePixels": 4749,
+        "transparentPixels": 4945,
+        "partialAlphaPixels": 0,
+        "visibleRgbMismatchPixels": 0,
+        "visibleAlphaMismatchPixels": 0,
+        "newVisiblePixelsOutsideSource": 0
+      },
+      "arm_near": {
+        "visiblePixels": 7326,
+        "transparentPixels": 5094,
+        "partialAlphaPixels": 226,
+        "visibleRgbMismatchPixels": 0,
+        "visibleAlphaMismatchPixels": 0,
+        "newVisiblePixelsOutsideSource": 0
+      },
+      "arm_far": {
+        "visiblePixels": 2864,
+        "transparentPixels": 2648,
+        "partialAlphaPixels": 144,
+        "visibleRgbMismatchPixels": 0,
+        "visibleAlphaMismatchPixels": 0,
+        "newVisiblePixelsOutsideSource": 0
+      },
+      "leg_near": {
+        "visiblePixels": 7443,
+        "transparentPixels": 1827,
+        "partialAlphaPixels": 217,
+        "visibleRgbMismatchPixels": 0,
+        "visibleAlphaMismatchPixels": 0,
+        "newVisiblePixelsOutsideSource": 0
+      },
+      "leg_far": {
+        "visiblePixels": 5350,
+        "transparentPixels": 2550,
+        "partialAlphaPixels": 213,
+        "visibleRgbMismatchPixels": 0,
+        "visibleAlphaMismatchPixels": 0,
+        "newVisiblePixelsOutsideSource": 0
+      },
+      "body": {
+        "visiblePixels": 9196,
+        "repairPixels": 4095,
+        "visibleRgbaMismatchPixels": 0,
+        "repairOutsideOpaqueOccluders": 0,
+        "sourceVisibleAssemblyRgbaMismatchPixels": 0,
+        "sourceForegroundUncoveredPixels": 0,
+        "sourceForegroundNotCoveredByCandidatesPixels": 0,
+        "alphaUnionMismatchPixels": 0,
+        "boundaryMaskOverlapPixels": 0,
+        "bodyMaskOverlapPixels": 0,
+        "repairOutsideFinalUpperOpaqueSafeDomain": 0
+      }
+    },
+    "copiedOriginalFilesByteExact": false,
+    "copiedOriginalPartIds": [
+      "head",
+      "arm_far"
+    ],
+    "sourceVisibleCandidateRgbaExact": true,
+    "sourceReferenceByteExact": true,
+    "allOriginalVisiblePixelsMatchSourceRgba": true,
+    "aiDonorOverlapPixels": 4095,
+    "newAiGenerationThisBuild": false,
+    "bindingValidated": false,
+    "boundaryReview": {
+      "count": 3,
+      "addedPixelCount": 657,
+      "assignments": {
+        "arm_near": 100,
+        "leg_near": 488,
+        "leg_far": 69
+      },
+      "status": "pending_manual_art_review",
+      "note": "三处是按原图可见边线提出的人工候选归属，不是正式美术批准，也不是新asset。"
+    },
+    "maskNonOverlapping": true,
+    "alphaUnionValidated": true,
+    "donorValidated": true
+  }
+}

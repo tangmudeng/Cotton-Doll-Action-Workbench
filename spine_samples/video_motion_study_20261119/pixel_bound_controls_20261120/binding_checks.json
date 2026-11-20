@@ -1,0 +1,136 @@
+{
+  "bones": 16,
+  "IK": 4,
+  "attachments": 161,
+  "referenceKeyMaxDifferencePx": 0.0069702108353103896,
+  "referenceMidpointMaxDifferencePx": 0.505239132339422,
+  "binding": {
+    "arm_far": [
+      "arm_far_upper",
+      "arm_far_lower"
+    ],
+    "arm_near": [
+      "arm_near_upper",
+      "arm_near_lower"
+    ],
+    "head": [
+      "head_control"
+    ],
+    "leg_far": [
+      "leg_far_upper",
+      "leg_far_lower"
+    ],
+    "leg_near": [
+      "leg_near_upper",
+      "leg_near_lower"
+    ],
+    "shorts": [
+      "pelvis"
+    ],
+    "torso": [
+      "torso"
+    ]
+  },
+  "tests": [
+    {
+      "animation": "test_head",
+      "expectedSlot": "head",
+      "attachmentSwitches": 0,
+      "maxMovementPx": {
+        "arm_far": 0,
+        "leg_far": 0,
+        "leg_near": 0,
+        "torso": 0,
+        "shorts": 0,
+        "arm_near": 0,
+        "head": 28.793204293593867
+      }
+    },
+    {
+      "animation": "test_torso",
+      "expectedSlot": "torso",
+      "attachmentSwitches": 0,
+      "maxMovementPx": {
+        "arm_far": 0,
+        "leg_far": 0,
+        "leg_near": 0,
+        "torso": 5.812190781874864,
+        "shorts": 0,
+        "arm_near": 0,
+        "head": 17.279429752275085
+      }
+    },
+    {
+      "animation": "test_shorts",
+      "expectedSlot": "shorts",
+      "attachmentSwitches": 0,
+      "maxMovementPx": {
+        "arm_far": 0,
+        "leg_far": 0,
+        "leg_near": 0,
+        "torso": 0,
+        "shorts": 6.868994966117567,
+        "arm_near": 0,
+        "head": 0
+      }
+    },
+    {
+      "animation": "test_near_hand",
+      "expectedSlot": "arm_near",
+      "attachmentSwitches": 0,
+      "maxMovementPx": {
+        "arm_far": 0,
+        "leg_far": 0,
+        "leg_near": 0,
+        "torso": 0,
+        "shorts": 0,
+        "arm_near": 6.1216509998633,
+        "head": 0
+      }
+    },
+    {
+      "animation": "test_far_hand",
+      "expectedSlot": "arm_far",
+      "attachmentSwitches": 0,
+      "maxMovementPx": {
+        "arm_far": 6.0072910387927365,
+        "leg_far": 0,
+        "leg_near": 0,
+        "torso": 0,
+        "shorts": 0,
+        "arm_near": 0,
+        "head": 0
+      }
+    },
+    {
+      "animation": "test_near_foot",
+      "expectedSlot": "leg_near",
+      "attachmentSwitches": 0,
+      "maxMovementPx": {
+        "arm_far": 0,
+        "leg_far": 0,
+        "leg_near": 10.152455500839162,
+        "torso": 0,
+        "shorts": 0,
+        "arm_near": 0,
+        "head": 0
+      }
+    },
+    {
+      "animation": "test_far_foot",
+      "expectedSlot": "leg_far",
+      "attachmentSwitches": 0,
+      "maxMovementPx": {
+        "arm_far": 0,
+        "leg_far": 10.927127766470385,
+        "leg_near": 0,
+        "torso": 0,
+        "shorts": 0,
+        "arm_near": 0,
+        "head": 0
+      }
+    }
+  ],
+  "arbitraryPoseSupported": false,
+  "visualAcceptancePending": true
+}

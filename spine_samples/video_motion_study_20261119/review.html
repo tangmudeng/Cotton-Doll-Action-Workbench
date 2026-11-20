@@ -1,0 +1,48 @@
+<!doctype html><html lang="zh"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>视频动作标定 · 原像素验证</title><style>
+*{box-sizing:border-box}body{margin:0;background:#edf1f2;color:#233940;font:15px system-ui}main{max-width:1420px;margin:24px auto;padding:0 20px}h1{font-size:25px;margin-bottom:8px}p{line-height:1.6}header small{color:#576d72}.toolbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding:14px;background:#fff;border-radius:12px;margin:18px 0}button,select{font:inherit;padding:7px 12px;border:1px solid #afc4cb;border-radius:7px;background:white;cursor:pointer}input[type=range]{flex:1;min-width:200px}.views{display:grid;grid-template-columns:1fr 1fr;gap:16px}article{background:white;padding:15px;border-radius:12px}h2{font-size:18px;margin:0 0 12px}canvas{width:100%;display:block;background:#fafafa}.legend{display:flex;gap:20px;flex-wrap:wrap;font-size:13px}.notice{background:#fff7df;border-left:4px solid #d89825;padding:12px;margin:14px 0}.muted{color:#61767c}.sources{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.sources img{height:155px;max-width:100%;object-fit:contain;image-rendering:auto}.tag{background:#e4f1ef;color:#14786c;padding:3px 7px;border-radius:4px;font-size:12px}a{color:#147b90}.editing{border:1px solid #c0d5d9;padding:10px;border-radius:8px}details{margin:12px 0}code{font-size:12px}@media(max-width:800px){.views,.sources{grid-template-columns:1fr}}
+</style><main><header><h1>先验证动作，再绑定原始美术</h1><small>第一轮标定候选 · 源视频 864×480 / 24 fps · 第 63–85 帧 · 未使用补画</small></header>
+<div class="notice">圆点：按画面人工标注的手脚中心；空心点：被遮挡或无法直接观察的推定位置。膝肘由 IK 求解，不是检测出的真实关节。地面不可见，暂不锁脚。</div>
+<div class="toolbar"><button id="play">暂停</button><button id="prev">上一帧</button><button id="next">下一帧</button><input id="seek" type="range" min="63" max="85" step="1" value="63"><strong id="frame"></strong><select id="speed" aria-label="播放速度"><option value=".5">半速</option><option value="1" selected>原速</option></select><label><input id="overlay" type="checkbox" checked>骨架叠加</label><label><input id="zoom" type="checkbox" checked>放大身体</label></div>
+<div class="views"><article><h2>原始帧 + 关节标注</h2><canvas id="source" width="864" height="480"></canvas><p class="legend"><span style="color:#008c9c">● 近侧（画面左侧）</span><span style="color:#d46a28">● 远侧（画面右侧）</span><span>○ 推定 / 遮挡</span><span>短横线：可见脚底轮廓</span></p></article><article><h2>固定骨长的两段 IK 色块（已验证 Spine 约束）</h2><canvas id="rig" width="864" height="480"></canvas><p class="muted">色块只验证运动与关节走向，不代表最终角色外形。十字标记是原帧目标；实线是 IK 结果。</p></article></div>
+<p id="contact"></p><div class="editing"><label><input type="checkbox" id="edit">调整标注（勾选后暂停；在左图拖动端点或肩髋）</label> <button id="download">下载修订标注</button> <button id="reset">恢复本次初稿</button><p class="muted" id="editHint">修改仅保留在当前页面内存中；下载 JSON 后才能保存。不会修改原始图像。</p></div>
+<details><summary>本轮能确认什么，仍不能确认什么</summary><p>能够检查手脚目标是否贴合原帧、IK 是否可达、骨长是否固定，以及动作中的遮挡变化。目标拟合误差为零只说明求解器到达了手工标注点，不代表标注准确。</p><p>源视频没有明确地面，不能仅凭脚底高度断定支撑阶段；当前接触说明是候选。第 85 帧仍保留源帧差异，播放会回到第 63 帧，尚未做无缝循环修正。</p><p>当前肩髋位置及遮挡手的轨迹含推定，尚未用户验收。原始像素附件绑定在动作确认后进行。</p></details>
+<h2 style="margin-top:26px">多关键帧取材表：只裁原像素，不补画</h2><p class="muted">以下是取材候选窗口，不是已经拆好的透明附件。每张与对应源帧裁剪区域逐像素一致；遮挡区域明确保留为缺失。</p><section id="sources" class="sources"></section>
+<p><a href="motion_annotations.json">标注数据</a> · <a href="asset_sources.json">取材清单</a> · <a href="checks.json">技术检查</a> · <a href="native_ik_checks.json">Spine 原生 IK 验证</a> · <a href="video_ik_study.spine">Spine 色块工程</a></p></main>
+<script>
+(async()=>{
+const $=id=>document.getElementById(id),data=await (await fetch('motion_annotations.json')).json(),assets=await(await fetch('asset_sources.json')).json(),original=JSON.stringify(data);
+let index=0,playing=true,last=performance.now(),acc=0,drag=null;const imgs={};
+await Promise.all(data.samples.map(s=>new Promise(resolve=>{let im=new Image();im.onload=()=>{imgs[s.frame]=im;resolve()};im.src='frames/'+String(s.frame).padStart(4,'0')+'.png'})));
+const palette={near:'#008b9b',far:'#c96b35'};
+function solve(a,b,len,side){let dx=b[0]-a[0],dy=b[1]-a[1],raw=Math.hypot(dx,dy),d=Math.min(len[0]+len[1]-.00001,Math.max(Math.abs(len[0]-len[1])+.00001,raw)),ux=dx/Math.max(raw,.00001),uy=dy/Math.max(raw,.00001),q=(len[0]**2-len[1]**2+d*d)/(2*d),h=Math.sqrt(Math.max(0,len[0]**2-q*q));return {joint:[a[0]+ux*q-uy*h*side,a[1]+uy*q+ux*h*side],end:[a[0]+ux*d,a[1]+uy*d],error:Math.abs(raw-d)}}
+function view(c){c.setTransform(1,0,0,1,0,0);c.clearRect(0,0,864,480);if($('zoom').checked)c.setTransform(2,0,0,2,-440,-480)}
+function line(c,points,color,width,dash=[]){c.strokeStyle=color;c.lineWidth=width;c.setLineDash(dash);c.beginPath();points.forEach((p,i)=>i?c.lineTo(...p):c.moveTo(...p));c.stroke();c.setLineDash([])}
+function node(c,p,color,inferred){c.beginPath();c.arc(...p,3,0,Math.PI*2);c.fillStyle=inferred?'white':color;c.fill();c.strokeStyle=color;c.lineWidth=1.2;c.stroke()}
+function draw(){
+const s=data.samples[index],a=$('source').getContext('2d'),b=$('rig').getContext('2d');view(a);view(b);a.drawImage(imgs[s.frame],0,0);
+line(b,[s.points.neck,s.points.pelvis],'#b9c9cb',35);
+line(b,[s.points.hip_near,s.points.hip_far],'#879d9f',12);
+if($('overlay').checked)line(a,[s.points.neck,s.points.pelvis],'#658477',1.2,[4,3]);
+let maxErr=0;
+for(const [name,ch] of Object.entries(s.chains).sort(([a],[b])=>Number(a.endsWith('near'))-Number(b.endsWith('near')))){
+ const root=s.points[ch.root],target=s.points[ch.target],sol=solve(root,target,ch.lengths,ch.bend),color=palette[name.endsWith('near')?'near':'far'];maxErr=Math.max(maxErr,sol.error);
+ line(b,[root,sol.joint,sol.end],color,name.startsWith('leg')?15:10);
+ node(b,root,color,true);node(b,sol.joint,color,true);node(b,sol.end,color,s.inferred.includes(ch.target));
+ line(b,[[target[0]-5,target[1]],[target[0]+5,target[1]]],'#152b35',1);line(b,[[target[0],target[1]-5],[target[0],target[1]+5]],'#152b35',1);
+ if(name.startsWith('leg')){b.save();b.translate(...sol.end);b.fillStyle=color;b.beginPath();b.ellipse(0,3,14,6,0,0,7);b.fill();b.restore()}
+ if($('overlay').checked){line(a,[root,sol.joint,target],color,1.5,[4,2]);node(a,root,color,true);node(a,sol.joint,color,true);node(a,target,color,s.inferred.includes(ch.target))}
+}
+for(const [side,sole] of Object.entries(s.soleContours||{})){if(sole.visible&&$('overlay').checked){let [x,y]=sole.point;line(a,[[x-8,y],[x+8,y]],palette[side],2)}}
+$('frame').textContent=s.frame+'帧 · '+(s.frame/24).toFixed(3)+'s';$('seek').value=s.frame;$('contact').textContent=s.contactHypothesis+'。IK 不可达距离 '+maxErr.toFixed(2)+' px（不是视频动作误差）。';
+}
+function play(v){playing=v;$('play').textContent=v?'暂停':'播放';acc=0}
+$('play').onclick=()=>play(!playing);$('prev').onclick=()=>{play(false);index=Math.max(0,index-1);draw()};$('next').onclick=()=>{play(false);index=Math.min(22,index+1);draw()};$('seek').oninput=()=>{play(false);index=+$('seek').value-63;draw()};$('zoom').onchange=$('overlay').onchange=draw;$('edit').onchange=()=>{if($('edit').checked)play(false)};
+function coord(ev){const rect=$('source').getBoundingClientRect();let x=(ev.clientX-rect.left)*864/rect.width,y=(ev.clientY-rect.top)*480/rect.height;return $('zoom').checked?[(x+440)/2,(y+480)/2]:[x,y]}
+$('source').onpointerdown=ev=>{if(!$('edit').checked)return;play(false);let p=coord(ev),s=data.samples[index],closest=Object.entries(s.points).sort((a,b)=>Math.hypot(a[1][0]-p[0],a[1][1]-p[1])-Math.hypot(b[1][0]-p[0],b[1][1]-p[1]))[0];if(Math.hypot(closest[1][0]-p[0],closest[1][1]-p[1])<12){drag=closest[0];$('source').setPointerCapture(ev.pointerId)}};
+$('source').onpointermove=ev=>{if(!drag)return;data.samples[index].points[drag]=coord(ev).map(x=>Math.round(x*10)/10);$('editHint').textContent='已修改 '+data.samples[index].frame+'帧 / '+drag+'；下载 JSON 保存。';draw()};$('source').onpointerup=()=>drag=null;
+$('download').onclick=()=>{for(const s of data.samples)for(const ch of Object.values(s.chains)){let sol=solve(s.points[ch.root],s.points[ch.target],ch.lengths,ch.bend);ch.joint=sol.joint;ch.solvedTarget=sol.end;ch.reachError=sol.error}let a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));a.download='motion_annotations_reviewed.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};
+$('reset').onclick=()=>{data.samples=JSON.parse(original).samples;draw()};
+for(const item of assets){let article=document.createElement('article');article.innerHTML='<h2>'+item.label+'</h2><span class="tag">原帧 '+item.frame+' / '+item.time.toFixed(3)+'s</span><p><img src="'+item.file+'" alt="'+item.label+'"></p><p>'+item.limitations+'</p><small class="muted">裁剪框 '+item.box.join(', ')+' · 原像素一致</small>'; $('sources').appendChild(article)}
+function tick(now){if(playing){acc+=(now-last)*+$('speed').value;while(acc>=1000/24){index=(index+1)%22;acc-=1000/24}draw()}last=now;requestAnimationFrame(tick)}draw();requestAnimationFrame(tick);window.motionStudyReady=true;
+})();
+</script></html>

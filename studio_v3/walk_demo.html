@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>05 · meeting walk 骨骼演示</title>
+<style>
+:root{color-scheme:light;--ink:#26343a;--muted:#68777c;--line:#d9e2e2;--panel:#fff;--bg:#f3f6f5;--accent:#ba5d3d;--accent-soft:#fff5ef;--ok:#3f7b61;--error:#a64235}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI","Microsoft YaHei",sans-serif}button,input,select{font:inherit}.shell{max-width:1440px;margin:0 auto;padding:22px}.top{display:flex;justify-content:space-between;align-items:flex-start;gap:22px;margin-bottom:17px}.eyebrow{font-size:12px;letter-spacing:.08em;color:var(--accent);font-weight:700}.title{margin:5px 0 4px;font-size:28px;line-height:1.2}.sub{margin:0;color:var(--muted);font-size:14px}.badge{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end}.badge span{padding:6px 9px;border:1px solid #e4c9bd;background:var(--accent-soft);color:#8d4d38;border-radius:4px;font-size:12px;white-space:nowrap}.top-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:12px}.top-actions a,.top-actions button,.controls button,.speed button,.keyframes button{border:1px solid #cbd6d5;background:#fff;color:var(--ink);border-radius:4px;padding:7px 11px;text-decoration:none;cursor:pointer}.top-actions a:hover,.top-actions button:hover,.controls button:hover,.speed button:hover,.keyframes button:hover{border-color:var(--accent)}.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:7px;overflow:hidden;box-shadow:0 2px 9px #3340440d}.panel-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 16px;border-bottom:1px solid var(--line)}.panel-head h2{font-size:16px;margin:0}.panel-head small{color:var(--muted);text-align:right}.stage{position:relative;overflow:hidden}.video-stage{background:#ebe7e4;aspect-ratio:16/9}.video-stage img{width:100%;height:100%;object-fit:contain;display:block}[hidden]{display:none!important}.canvas-stage{background:#edf1ee;aspect-ratio:16/10;min-height:330px}.canvas-stage canvas{display:block;width:100%;height:100%;object-fit:contain}.empty{position:absolute;inset:0;display:grid;place-items:center;color:var(--muted);font-size:13px;background:#edf1eecc}.empty.error{color:var(--error);padding:24px;text-align:center}.stage-label{position:absolute;left:12px;top:10px;padding:5px 7px;background:#ffffffdb;border:1px solid #d6dfdd;border-radius:4px;font-size:11px;color:var(--muted);z-index:1}.controls{padding:12px 16px;border-top:1px solid var(--line);display:flex;align-items:center;gap:9px;flex-wrap:wrap}.controls button.primary{background:var(--ink);color:#fff;border-color:var(--ink)}.controls button:disabled,.top-actions button:disabled{opacity:.45;cursor:not-allowed}.controls input[type=range]{flex:1;min-width:120px;accent-color:var(--accent)}.time{min-width:100px;color:var(--muted);font-size:12px;text-align:right}.check{display:inline-flex;align-items:center;gap:6px;color:var(--muted);font-size:13px}.check input{accent-color:var(--accent)}.speed{display:inline-flex;gap:4px;border-left:1px solid var(--line);padding-left:9px}.speed button{padding:5px 8px;font-size:12px}.speed button.active{background:var(--accent-soft);border-color:#d9987e;color:#8d4d38}.keyframes{display:flex;gap:7px;align-items:center;padding:9px 16px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}.keyframes button{padding:3px 7px;font-size:11px}.meta{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border-top:1px solid var(--line)}.metric{min-width:0;background:#fbfcfc;padding:10px 12px}.metric b{display:block;font-size:11px;color:var(--muted);font-weight:600;margin-bottom:4px}.metric span{display:block;font-size:13px;overflow-wrap:anywhere}.state{color:var(--ok)}.state.error{color:var(--error)}.notice{margin-top:16px;padding:12px 14px;background:#fffaf6;border:1px solid #ead9d0;border-left:3px solid var(--accent);color:#5e504b;font-size:13px;line-height:1.65}.notice b{color:#7e4837}.footer{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:13px;color:var(--muted);font-size:12px}.footer a{color:#8d4d38}.source-line{margin-top:10px;color:var(--muted);font-size:12px;overflow-wrap:anywhere}@media(max-width:900px){.shell{padding:14px}.top{display:block}.badge{justify-content:flex-start;margin-top:12px}.top-actions{justify-content:flex-start}.grid{grid-template-columns:1fr}.canvas-stage{min-height:280px}.panel-head{align-items:flex-start;flex-direction:column}.panel-head small{text-align:left}.meta{grid-template-columns:1fr 1fr}.metric:last-child{grid-column:1/-1}}@media(max-width:480px){.title{font-size:24px}.controls{padding:11px 12px}.time{min-width:84px}.meta{grid-template-columns:1fr}.metric:last-child{grid-column:auto}}
+</style>
+</head>
+<body>
+<main class="shell" id="presentation">
+  <header class="top">
+    <div>
+      <div class="eyebrow">05 · SPINE 骨骼动画</div>
+      <h1 class="title">meeting walk · 右前¾演示</h1>
+      <p class="sub">动作参考与骨骼运行并列播放，首屏自动进入会议演示区间。</p>
+    </div>
+    <div>
+      <div class="badge"><span>会议演示样件</span><span>7逻辑件</span><span>右前¾</span><span>未用于生产换装</span></div>
+      <div class="top-actions"><button id="syncPlay" class="primary" disabled>同步播放</button><button id="syncReset" disabled>同步重置</button><button id="fullscreen">全屏演示</button><a href="./index.html#spineRig">打开05工作台</a></div>
+    </div>
+  </header>
+  <section class="grid">
+    <article class="panel">
+      <div class="panel-head"><h2>源视频抽帧对照 · 24fps</h2><small id="referenceStatus">抽帧加载中 · 0/17</small></div>
+      <div class="stage video-stage"><span class="stage-label">video_f7e82942 · 真实 PNG 抽帧参考</span><img id="referenceFrame" src="./generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_068.png" alt="源视频 68 帧抽帧参考"><div id="videoLoadState" class="empty">正在加载参考抽帧 PNG…</div></div>
+      <div class="controls"><input id="videoSeek" type="range" min="68" max="84" value="68" step="1" disabled><span id="videoTime" class="time">68帧 / 84帧</span><a href="./generated_rig/video_f7e82942/source.mp4" target="_blank" rel="noopener">打开原MP4</a></div>
+      <div class="keyframes"><span>关键帧</span><button data-frame="68">68</button><button data-frame="76">76</button><button data-frame="83">83</button></div>
+      <div class="meta"><div class="metric"><b>区间</b><span>68 → 84帧</span></div><div class="metric"><b>用途</b><span>动作与遮挡证据</span></div><div class="metric"><b>边界</b><span>未自动标定关节</span></div></div>
+    </article>
+    <article class="panel">
+      <div class="panel-head"><h2>Spine 骨骼运行预览</h2><small id="rigAnimationLabel">walk · 读取中</small></div>
+      <div class="stage canvas-stage"><span class="stage-label">meeting_walk_v1 · region attachment</span><canvas id="spineCanvas" width="768" height="480"></canvas><div id="loadState" class="empty">正在加载运行数据…</div></div>
+      <div class="controls"><input id="rigSeek" type="range" min="0" max="1" value="0" step="0.001" disabled><span id="rigTime" class="time">0.00 / 0.00 s</span><span class="speed"><button type="button" data-speed="0.5">0.5×</button><button type="button" data-speed="1" class="active">1×</button></span><label class="check"><input id="showBones" type="checkbox" disabled>骨骼覆盖</label></div>
+      <div class="meta"><div class="metric"><b>逻辑件</b><span>7件 · 不按帧拆碎</span></div><div class="metric"><b>实际骨数</b><span id="boneCount">读取中</span></div><div class="metric"><b>状态</b><span id="runtimeState" class="state">加载中</span></div></div>
+    </article>
+  </section>
+  <div class="notice"><b>演示边界：</b>右侧始终是 Spine 骨骼驱动的 meeting_walk_v1 运行样件（7逻辑件 / 8 bones / 7 slots），不是序列帧替代；左侧是源视频真实抽帧对照，摆幅受参考限制，不是自动关节拟合。当前未验证生产换装、mesh/weights、IK/脚锁、跨角色复用与手机性能，不将旧六件或正弦样件作为成品。</div>
+  <div class="source-line">来源：<span>./generated_rig/video_f7e82942/meeting_walk_v1/meeting_walk.json</span> · <span>meeting_walk.atlas</span> · <a href="./generated_rig/video_f7e82942/meeting_walk_v1/meeting_walk.zip">导出 ZIP</a></div>
+  <footer class="footer"><span>首屏自动播放 · 周期 16/24 s；统一时钟控制抽帧与骨骼播放、暂停、重置。</span><span id="loadDetail">等待 runtime</span></footer>
+</main>
+<script src="/runtime/spine-canvas.js"></script>
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const frameImage = $('referenceFrame');
+  const frameSeek = $('videoSeek');
+  const frameTime = $('videoTime');
+  const referenceStatus = $('referenceStatus');
+  const rigSeek = $('rigSeek');
+  const rigTime = $('rigTime');
+  const canvas = $('spineCanvas');
+  const ctx = canvas.getContext('2d');
+  const syncPlay = $('syncPlay');
+  const syncReset = $('syncReset');
+  const loadState = $('loadState');
+  const frameLoadState = $('videoLoadState');
+  const stateText = $('runtimeState');
+  const detail = $('loadDetail');
+  const startFrame = 68;
+  const endFrame = 84;
+  const fps = 24;
+  const sampleCount = 64;
+  const cycleFrames = endFrame - startFrame;
+  const jsonPath = './generated_rig/video_f7e82942/meeting_walk_v1/meeting_walk.json';
+  const atlasPath = './generated_rig/video_f7e82942/meeting_walk_v1/meeting_walk.atlas';
+  const framePaths = Array.from({ length: endFrame - startFrame + 1 }, (_, index) =>
+    `./generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_${String(startFrame + index).padStart(3, '0')}.png`
+  );
+  let state = null;
+  let skeleton = null;
+  let renderer = null;
+  let entry = null;
+  const duration = cycleFrames / fps;
+  const frameStates = framePaths.map(() => 'loading');
+  const frameImages = [];
+  let currentFrameIndex = 0;
+  let phase = 0;
+  let speed = 1;
+  let playing = false;
+  let rigReady = false;
+  let framesReady = 0;
+  let viewBounds = null;
+  let lastTimestamp = null;
+
+  const setStatus = (text, error = false) => {
+    stateText.textContent = text;
+    stateText.classList.toggle('error', error);
+  };
+  const updateButtons = () => {
+    syncPlay.disabled = !rigReady;
+    syncReset.disabled = !rigReady;
+    frameSeek.disabled = !rigReady;
+    rigSeek.disabled = !rigReady;
+    $('showBones').disabled = !rigReady;
+    document.querySelectorAll('[data-speed]').forEach((button) => { button.disabled = !rigReady; });
+    document.querySelectorAll('[data-frame]').forEach((button) => { button.disabled = !rigReady; });
+  };
+  const updateReferenceStatus = () => {
+    const failed = framePaths.filter((_, index) => frameStates[index] === 'error');
+    referenceStatus.classList.toggle('error', failed.length > 0);
+    referenceStatus.textContent = failed.length
+      ? `PNG失败 ${failed.length}张 · 已加载 ${framesReady}/17 · ${failed.map((path) => path.split('/').pop()).join('、')}`
+      : framesReady === framePaths.length ? '17张抽帧已就绪 · 24fps' : `抽帧加载中 · ${framesReady}/17`;
+    const currentState = frameStates[currentFrameIndex];
+    frameLoadState.hidden = currentState === 'ready';
+    frameLoadState.classList.toggle('error', currentState === 'error');
+    frameLoadState.textContent = currentState === 'error'
+      ? `参考PNG加载失败：${framePaths[currentFrameIndex].split('/').pop()}（右侧骨骼不受影响）`
+      : `正在加载参考PNG · ${framesReady}/17（右侧骨骼不受影响）`;
+  };
+  const formatTime = () => {
+    rigTime.textContent = `${phase.toFixed(2)} / ${duration.toFixed(2)} s`;
+    rigSeek.value = String(phase);
+    const index = Math.min(cycleFrames, Math.floor(phase * fps + 1e-8));
+    frameSeek.value = String(startFrame + index);
+    frameTime.textContent = `${startFrame + index}帧 / ${endFrame}帧`;
+    if (index !== currentFrameIndex) {
+      currentFrameIndex = index;
+      frameImage.src = framePaths[index];
+      frameImage.alt = `源视频 ${startFrame + index} 帧抽帧参考`;
+      updateReferenceStatus();
+    }
+  };
+  const applyRigPose = (phase) => {
+    if (!state || !skeleton || !entry) return;
+    entry.trackTime = phase;
+    state.update(0);
+    state.apply(skeleton);
+    skeleton.updateWorldTransform(spine.Physics.update);
+  };
+  const resetBoth = () => {
+    playing = false;
+    lastTimestamp = null;
+    phase = 0;
+    applyRigPose(phase);
+    formatTime();
+    drawRig();
+    syncPlay.textContent = '同步播放';
+    setStatus('已就绪');
+  };
+  const toggleBoth = () => {
+    if (!rigReady) return;
+    playing = !playing;
+    lastTimestamp = null;
+    syncPlay.textContent = playing ? '同步暂停' : '同步播放';
+    setStatus(playing ? '播放中' : '已暂停');
+  };
+  const seekBoth = (time) => {
+    if (!rigReady) return;
+    playing = false;
+    lastTimestamp = null;
+    phase = Math.max(0, Math.min(duration, time));
+    applyRigPose(phase);
+    formatTime();
+    drawRig();
+    syncPlay.textContent = '同步播放';
+    setStatus('已暂停');
+  };
+  const drawGroundShadow = (groundY) => {
+    ctx.save();
+    ctx.fillStyle = 'rgba(38,52,58,.14)';
+    ctx.beginPath();
+    ctx.ellipse(canvas.width / 2, Math.min(canvas.height - 20, groundY + 8), Math.min(120, canvas.width * .18), 10, 0, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.restore();
+  };
+  const drawBones = () => {
+    if (!$('showBones').checked || !skeleton) return;
+    ctx.save();
+    ctx.strokeStyle = '#ba5d3d';
+    ctx.fillStyle = '#fff5ef';
+    ctx.lineWidth = 1.4 / Math.max(1, canvas.width / 768);
+    for (const bone of skeleton.bones) {
+      if (!bone.active) continue;
+      const endX = bone.worldX + bone.a * bone.data.length;
+      const endY = bone.worldY + bone.c * bone.data.length;
+      ctx.beginPath();
+      ctx.moveTo(bone.worldX, bone.worldY);
+      ctx.lineTo(endX, endY);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.arc(bone.worldX, bone.worldY, 2.8 / Math.max(1, canvas.width / 768), 0, Math.PI * 2);
+      ctx.fill();
+      ctx.stroke();
+    }
+    ctx.restore();
+  };
+  const drawRig = () => {
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = '#edf1ee';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    if (!renderer || !skeleton || !viewBounds) return;
+    const margin = 34;
+    const scale = Math.min((canvas.width - margin * 2) / Math.max(1, viewBounds.width), (canvas.height - margin * 2) / Math.max(1, viewBounds.height));
+    const tx = canvas.width / 2 - (viewBounds.x + viewBounds.width / 2) * scale;
+    const ty = canvas.height / 2 + (viewBounds.y + viewBounds.height / 2) * scale;
+    drawGroundShadow(ty - viewBounds.y * scale);
+    ctx.setTransform(scale, 0, 0, -scale, tx, ty);
+    renderer.draw(skeleton);
+    drawBones();
+  };
+  const render = (timestamp) => {
+    if (lastTimestamp === null) lastTimestamp = timestamp;
+    if (playing && rigReady) {
+      phase = (phase + (timestamp - lastTimestamp) / 1000 * speed) % duration;
+      applyRigPose(phase);
+      formatTime();
+    }
+    lastTimestamp = timestamp;
+    drawRig();
+    requestAnimationFrame(render);
+  };
+
+  const markFrame = (index, status) => {
+    if (frameStates[index] === 'ready') framesReady -= 1;
+    frameStates[index] = status;
+    if (status === 'ready') framesReady += 1;
+    updateReferenceStatus();
+  };
+  framePaths.forEach((path, index) => {
+    const image = new Image();
+    frameImages.push(image);
+    image.onload = () => {
+      if (image.naturalWidth !== 864 || image.naturalHeight !== 480) {
+        markFrame(index, 'error');
+        return;
+      }
+      markFrame(index, 'ready');
+    };
+    image.onerror = () => markFrame(index, 'error');
+    image.src = path;
+  });
+  if (frameImage.complete) {
+    markFrame(0, frameImage.naturalWidth === 864 && frameImage.naturalHeight === 480 ? 'ready' : 'error');
+  }
+  frameSeek.addEventListener('input', () => seekBoth((Number(frameSeek.value) - startFrame) / fps));
+  rigSeek.addEventListener('input', () => seekBoth(Number(rigSeek.value)));
+  $('showBones').addEventListener('change', drawRig);
+  document.querySelectorAll('[data-speed]').forEach((button) => button.addEventListener('click', () => {
+    speed = Number(button.dataset.speed);
+    document.querySelectorAll('[data-speed]').forEach((item) => item.classList.toggle('active', item === button));
+  }));
+  document.querySelectorAll('[data-frame]').forEach((button) => button.addEventListener('click', () => {
+    seekBoth((Number(button.dataset.frame) - startFrame) / fps);
+  }));
+  syncPlay.addEventListener('click', toggleBoth);
+  syncReset.addEventListener('click', resetBoth);
+  $('fullscreen').addEventListener('click', async () => {
+    if (document.fullscreenElement) await document.exitFullscreen();
+    else await $('presentation').requestFullscreen();
+  });
+
+  const loadRig = async () => {
+    try {
+      const assets = new spine.AssetManager();
+      await assets.loadJsonAsync(jsonPath);
+      await assets.loadTextureAtlasAsync(atlasPath);
+      const json = assets.get(jsonPath);
+      const atlas = assets.get(atlasPath);
+      if (!json || !atlas) throw new Error('meeting_walk JSON 或 atlas 未进入 AssetManager');
+      const data = new spine.SkeletonJson(new spine.AtlasAttachmentLoader(atlas)).readSkeletonData(json);
+      const animation = data.findAnimation('walk');
+      if (!animation) throw new Error('运行数据中未找到 walk 动作');
+      if (data.bones.length !== 8 || data.slots.length !== 7) {
+        throw new Error(`会议样件结构不匹配：${data.bones.length} bones / ${data.slots.length} slots`);
+      }
+      skeleton = new spine.Skeleton(data);
+      skeleton.setToSetupPose();
+      state = new spine.AnimationState(new spine.AnimationStateData(data));
+      entry = state.setAnimation(0, 'walk', true);
+      renderer = new spine.SkeletonRenderer(ctx);
+      renderer.debugRendering = false;
+      let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+      for (let i = 0; i < sampleCount; i += 1) {
+        applyRigPose(duration * i / sampleCount);
+        const bounds = skeleton.getBoundsRect();
+        minX = Math.min(minX, bounds.x);
+        minY = Math.min(minY, bounds.y);
+        maxX = Math.max(maxX, bounds.x + bounds.width);
+        maxY = Math.max(maxY, bounds.y + bounds.height);
+      }
+      viewBounds = { x: minX, y: minY, width: maxX - minX, height: maxY - minY };
+      applyRigPose(0);
+      rigReady = true;
+      rigSeek.max = String(duration);
+      $('boneCount').textContent = `${data.bones.length} bones · ${data.slots.length} slots`;
+      $('rigAnimationLabel').textContent = `walk · ${duration.toFixed(2)}s循环`;
+      loadState.remove();
+      detail.textContent = `runtime 已加载 · ${data.bones.length} bones · ${data.slots.length} slots · cycle64 union bounds`;
+      setStatus('已就绪');
+      updateButtons();
+      toggleBoth();
+    } catch (error) {
+      console.error(error);
+      loadState.textContent = `运行数据加载失败：${error.message || error}`;
+      loadState.classList.add('error');
+      detail.textContent = '请确认本地服务、meeting_walk.json、meeting_walk.atlas 及 atlas 图片均可访问';
+      setStatus('运行数据失败', true);
+      updateButtons();
+    }
+  };
+  updateButtons();
+  requestAnimationFrame(render);
+  loadRig();
+})();
+</script>
+</body>
+</html>

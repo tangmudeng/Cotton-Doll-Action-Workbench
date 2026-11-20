@@ -1,0 +1,6416 @@
+{
+  "schemaVersion": 1,
+  "status": "meeting_demo_only",
+  "characterId": null,
+  "hiddenComplete": false,
+  "productionApproved": false,
+  "promotedToRuntime": false,
+  "method": "轮廓参考的有限手工角度与质心小幅位移；region真实骨骼时间线；不是自动拟合",
+  "characterAsset": {
+    "stableManifest": "generated_rig/video_f7e82942/stable_parts_v1/manifest.json",
+    "manifestSha256": "c928c89c6f64864359a89e429bc80f5518a3e5149e4dbc5990478c60a243569b",
+    "parts": [
+      {
+        "id": "head",
+        "file": "generated_rig/video_f7e82942/stable_parts_v1/head.png",
+        "expectedSha256": "4f3950e1575f962212adca60486ebe441dadc9e2d8ae65c46d5f6779579e0555",
+        "actualSha256": "4f3950e1575f962212adca60486ebe441dadc9e2d8ae65c46d5f6779579e0555"
+      },
+      {
+        "id": "body",
+        "file": "generated_rig/video_f7e82942/stable_parts_v1/body.png",
+        "expectedSha256": "fc310a95f186d884c1d10ae17392085339fc801e8ef9dbc86b4b139839df729c",
+        "actualSha256": "fc310a95f186d884c1d10ae17392085339fc801e8ef9dbc86b4b139839df729c"
+      },
+      {
+        "id": "shorts",
+        "file": "generated_rig/video_f7e82942/stable_parts_v1/shorts.png",
+        "expectedSha256": "3632fa898f75da728218456fd8e8b7346988f7dfd649737edb82eb8a9a72ba03",
+        "actualSha256": "3632fa898f75da728218456fd8e8b7346988f7dfd649737edb82eb8a9a72ba03"
+      },
+      {
+        "id": "arm_near",
+        "file": "generated_rig/video_f7e82942/stable_parts_v1/arm_near.png",
+        "expectedSha256": "7cd90180cb6c851def01c5195286a93ffc9420f8a76c6115c811436430597874",
+        "actualSha256": "7cd90180cb6c851def01c5195286a93ffc9420f8a76c6115c811436430597874"
+      },
+      {
+        "id": "arm_far",
+        "file": "generated_rig/video_f7e82942/stable_parts_v1/arm_far.png",
+        "expectedSha256": "d8e783debe155efbb7fdb52f0d9415de60af3e199cc861e36a4f9528c5847490",
+        "actualSha256": "d8e783debe155efbb7fdb52f0d9415de60af3e199cc861e36a4f9528c5847490"
+      },
+      {
+        "id": "leg_near",
+        "file": "generated_rig/video_f7e82942/stable_parts_v1/leg_near.png",
+        "expectedSha256": "d9b5b9b00c647abe4a47b41c968a3999d4211530e926022c43353b4021dca72e",
+        "actualSha256": "d9b5b9b00c647abe4a47b41c968a3999d4211530e926022c43353b4021dca72e"
+      },
+      {
+        "id": "leg_far",
+        "file": "generated_rig/video_f7e82942/stable_parts_v1/leg_far.png",
+        "expectedSha256": "2ca541c17028ac69356a403c8c753178cb146e46ff7b407bfd6ef81ef8caa548",
+        "actualSha256": "2ca541c17028ac69356a403c8c753178cb146e46ff7b407bfd6ef81ef8caa548"
+      }
+    ],
+    "pivotsSourcePixelsTopLeft": {
+      "body": [
+        390,
+        532
+      ],
+      "head": [
+        398,
+        439
+      ],
+      "shorts": [
+        410,
+        554
+      ],
+      "arm_near": [
+        350,
+        456
+      ],
+      "arm_far": [
+        468,
+        463
+      ],
+      "leg_near": [
+        359,
+        576
+      ],
+      "leg_far": [
+        437,
+        575
+      ]
+    },
+    "pivotAdjustments": [],
+    "clothingPivotAdditional": {
+      "shorts": [
+        410,
+        554
+      ]
+    },
+    "semanticGroups": {
+      "character": [
+        "body",
+        "head",
+        "arm_near",
+        "arm_far",
+        "leg_near",
+        "leg_far"
+      ],
+      "clothing": [
+        "shorts"
+      ]
+    },
+    "defaultSkinPreserved": true,
+    "fakeClothingAdded": false,
+    "bodyTexture": "仅使用SHA核验的stable body；其既有4095px局部供体搭接不扩大，未替换旧混合body",
+    "newSupportOrDonorPixels": 0,
+    "newImageGeneration": false
+  },
+  "motionReference": {
+    "video": "generated_rig/video_f7e82942/source.mp4",
+    "sha256": "8fc0f8406d6a258640b65d34c5ad7fb0e35f231131d7eec945781dd9d93343e5",
+    "fps": 24.0,
+    "frameRangeInclusive": [
+      68,
+      84
+    ],
+    "duration": 0.6666666666666666,
+    "tracksFile": "generated_rig/video_f7e82942/tracks.json",
+    "tracksSha256": "33e2d3ef42269a4e515ff0b2f85684fbd4a0233a21e20dcf0ce3b5188f5cd923",
+    "polygonManifest": "generated_rig/video_f7e82942/video_parts_v1/manifest.json",
+    "polygonManifestSha256": "e894efb958168c4e6a4fdea29484c7b5b02774b9dc65a809a344d71de1084147",
+    "identityConfidence": "low",
+    "crossFrameIdentityEstablished": false,
+    "anatomicalLeftRight": "unknown",
+    "mappingAssumption": "轮廓A参考near节奏，B/遮挡参考far；不是身份确认",
+    "keyNotes": [
+      {
+        "sourceFrame": 68,
+        "animationTime": 0.0,
+        "trackBbox": {
+          "x": 276,
+          "y": 50,
+          "width": 320,
+          "height": 408
+        },
+        "trackCentroid": {
+          "x": 436.59,
+          "y": 237.37
+        },
+        "armPolygonRelativeCentroidX": -55.149389408733384,
+        "bodyBobRule": "centroid向上差*0.10，上限1.6px；横向差*0.18限±0.3px",
+        "legRule": "有限手工角度表+脚底候选的刚体旋转位移补偿，非自动关节拟合",
+        "valuesBeforeLoopClosure": {
+          "body": {
+            "angle": 0.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "head": {
+            "angle": 0.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "shorts": {
+            "angle": 0.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "arm_near": {
+            "angle": -1.8546007252598746,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "arm_far": {
+            "angle": 1.6691406527338872,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "leg_near": {
+            "angle": -1,
+            "x": 1.5020492399334477,
+            "y": 0.11779483172928451
+          },
+          "leg_far": {
+            "angle": 1,
+            "x": -1.238359332829086,
+            "y": 2.9019243239173704
+          }
+        },
+        "nearFootTargetOffset": [
+          0,
+          0
+        ],
+        "farFootTargetOffset": [
+          0,
+          3
+        ]
+      },
+      {
+        "sourceFrame": 70,
+        "animationTime": 0.08333333333333333,
+        "trackBbox": {
+          "x": 295,
+          "y": 44,
+          "width": 291,
+          "height": 412
+        },
+        "trackCentroid": {
+          "x": 438.24,
+          "y": 229.66
+        },
+        "armPolygonRelativeCentroidX": -17.510841106965188,
+        "bodyBobRule": "centroid向上差*0.10，上限1.6px；横向差*0.18限±0.3px",
+        "legRule": "有限手工角度表+脚底候选的刚体旋转位移补偿，非自动关节拟合",
+        "valuesBeforeLoopClosure": {
+          "body": {
+            "angle": 0.0,
+            "x": 0.29700000000000615,
+            "y": 0.7710000000000008
+          },
+          "head": {
+            "angle": 0.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "shorts": {
+            "angle": 0.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "arm_near": {
+            "angle": 0.1355305320401219,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "arm_far": {
+            "angle": -0.1219774788361097,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "leg_near": {
+            "angle": -4,
+            "x": 5.720326365046089,
+            "y": -0.4573181245741864
+          },
+          "leg_far": {
+            "angle": 4,
+            "x": -8.237529887132023,
+            "y": 3.7072651997268906
+          }
+        },
+        "nearFootTargetOffset": [
+          0,
+          0
+        ],
+        "farFootTargetOffset": [
+          -3,
+          5
+        ]
+      },
+      {
+        "sourceFrame": 72,
+        "animationTime": 0.16666666666666666,
+        "trackBbox": {
+          "x": 294,
+          "y": 36,
+          "width": 290,
+          "height": 420
+        },
+        "trackCentroid": {
+          "x": 437.6,
+          "y": 225.2
+        },
+        "armPolygonRelativeCentroidX": 8.421360314783556,
+        "bodyBobRule": "centroid向上差*0.10，上限1.6px；横向差*0.18限±0.3px",
+        "legRule": "有限手工角度表+脚底候选的刚体旋转位移补偿，非自动关节拟合",
+        "valuesBeforeLoopClosure": {
+          "body": {
+            "angle": 0.0,
+            "x": 0.1818000000000086,
+            "y": 1.2170000000000016
+          },
+          "head": {
+            "angle": 0.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "shorts": {
+            "angle": 0.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "arm_near": {
+            "angle": 1.5066908702723247,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "arm_far": {
+            "angle": -1.3560217832450923,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "leg_near": {
+            "angle": -6,
+            "x": 8.848733625756141,
+            "y": -0.904153523821094
+          },
+          "leg_far": {
+            "angle": 6,
+            "x": -12.575930368844771,
+            "y": 0.8714122548091439
+          }
+        },
+        "nearFootTargetOffset": [
+          0,
+          0
+        ],
+        "farFootTargetOffset": [
+          -5,
+          3
+        ]
+      },
+      {
+        "sourceFrame": 74,
+        "animationTime": 0.25,
+        "trackBbox": {
+          "x": 280,
+          "y": 42,
+          "width": 315,
+          "height": 414
+        },
+        "trackCentroid": {
+          "x": 437.75,
+          "y": 233.05
+        },
+        "armPolygonRelativeCentroidX": 21.533635734604445,
+        "bodyBobRule": "centroid向上差*0.10，上限1.6px；横向差*0.18限±0.3px",
+        "legRule": "有限手工角度表+脚底候选的刚体旋转位移补偿，非自动关节拟合",
+        "valuesBeforeLoopClosure": {
+          "body": {
+            "angle": 0.0,
+            "x": 0.20880000000000448,
+            "y": 0.43199999999999933
+          },
+          "head": {
+            "angle": 0.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "shorts": {
+            "angle": 0.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "arm_near": {
+            "angle": 2.2,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "arm_far": {
+            "angle": -1.9800000000000002,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "leg_near": {
+            "angle": -2,
+            "x": 5.797125513771861,
+            "y": 1.7773573489109822
+          },
+          "leg_far": {
+            "angle": 2,
+            "x": -2.683618400973052,
+            "y": -0.6497487651567155
+          }
+        },
+        "nearFootTargetOffset": [
+          3,
+          2
+        ],
+        "farFootTargetOffset": [
+          0,
+          0
+        ]
+      },
+      {
+        "sourceFrame": 76,
+        "animationTime": 0.3333333333333333,
+        "trackBbox": {
+          "x": 279,
+          "y": 51,
+          "width": 319,
+          "height": 405
+        },
+        "trackCentroid": {
+          "x": 437.82,
+          "y": 235.37
+        },
+        "armPolygonRelativeCentroidX": 7.659966955803384,
+        "bodyBobRule": "centroid向上差*0.10，上限1.6px；横向差*0.18限±0.3px",
+        "legRule": "有限手工角度表+脚底候选的刚体旋转位移补偿，非自动关节拟合",
+        "valuesBeforeLoopClosure": {
+          "body": {
+            "angle": 0.0,
+            "x": 0.22140000000000326,
+            "y": 0.2
+          },
+          "head": {
+            "angle": 0.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "shorts": {
+            "angle": 0.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "arm_near": {
+            "angle": 1.4664323376993273,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "arm_far": {
+            "angle": -1.3197891039293947,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "leg_near": {
+            "angle": 3,
+            "x": 1.2879862524475243,
+            "y": 4.289620317071268
+          },
+          "leg_far": {
+            "angle": -3,
+            "x": 3.50130521947614,
+            "y": -0.03562325121053789
+          }
+        },
+        "nearFootTargetOffset": [
+          6,
+          5
+        ],
+        "farFootTargetOffset": [
+          0,
+          0
+        ]
+      },
+      {
+        "sourceFrame": 78,
+        "animationTime": 0.4166666666666667,
+        "trackBbox": {
+          "x": 294,
+          "y": 45,
+          "width": 292,
+          "height": 409
+        },
+        "trackCentroid": {
+          "x": 438.67,
+          "y": 228.0
+        },
+        "armPolygonRelativeCentroidX": -32.88580258093731,
+        "bodyBobRule": "centroid向上差*0.10，上限1.6px；横向差*0.18限±0.3px",
+        "legRule": "有限手工角度表+脚底候选的刚体旋转位移补偿，非自动关节拟合",
+        "valuesBeforeLoopClosure": {
+          "body": {
+            "angle": 0.0,
+            "x": 0.3,
+            "y": 0.9370000000000005
+          },
+          "head": {
+            "angle": 0.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "shorts": {
+            "angle": 0.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "arm_near": {
+            "angle": -0.6774177029399635,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "arm_far": {
+            "angle": 0.6096759326459672,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "leg_near": {
+            "angle": 6,
+            "x": -6.24836205628025,
+            "y": 3.8079195271641026
+          },
+          "leg_far": {
+            "angle": -6,
+            "x": 7.14891141516203,
+            "y": -0.8033031125143282
+          }
+        },
+        "nearFootTargetOffset": [
+          3,
+          6
+        ],
+        "farFootTargetOffset": [
+          0,
+          0
+        ]
+      },
+      {
+        "sourceFrame": 80,
+        "animationTime": 0.5,
+        "trackBbox": {
+          "x": 293,
+          "y": 36,
+          "width": 291,
+          "height": 418
+        },
+        "trackCentroid": {
+          "x": 437.05,
+          "y": 223.03
+        },
+        "armPolygonRelativeCentroidX": -51.63839196862381,
+        "bodyBobRule": "centroid向上差*0.10，上限1.6px；横向差*0.18限±0.3px",
+        "legRule": "有限手工角度表+脚底候选的刚体旋转位移补偿，非自动关节拟合",
+        "valuesBeforeLoopClosure": {
+          "body": {
+            "angle": 0.0,
+            "x": 0.08280000000000655,
+            "y": 1.4340000000000004
+          },
+          "head": {
+            "angle": 0.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "shorts": {
+            "angle": 0.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "arm_near": {
+            "angle": -1.6689573871098196,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "arm_far": {
+            "angle": 1.5020616483988376,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "leg_near": {
+            "angle": 4,
+            "x": -6.063587118943464,
+            "y": 0.8333347692639421
+          },
+          "leg_far": {
+            "angle": -4,
+            "x": 7.882089384533768,
+            "y": 2.7418299371681343
+          }
+        },
+        "nearFootTargetOffset": [
+          0,
+          3
+        ],
+        "farFootTargetOffset": [
+          3,
+          4
+        ]
+      },
+      {
+        "sourceFrame": 82,
+        "animationTime": 0.5833333333333334,
+        "trackBbox": {
+          "x": 278,
+          "y": 41,
+          "width": 315,
+          "height": 415
+        },
+        "trackCentroid": {
+          "x": 435.26,
+          "y": 232.56
+        },
+        "armPolygonRelativeCentroidX": -61.68178632376873,
+        "bodyBobRule": "centroid向上差*0.10，上限1.6px；横向差*0.18限±0.3px",
+        "legRule": "有限手工角度表+脚底候选的刚体旋转位移补偿，非自动关节拟合",
+        "valuesBeforeLoopClosure": {
+          "body": {
+            "angle": 0.0,
+            "x": -0.23939999999999712,
+            "y": 0.48100000000000026
+          },
+          "head": {
+            "angle": 0.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "shorts": {
+            "angle": 0.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "arm_near": {
+            "angle": -2.2,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "arm_far": {
+            "angle": 1.9800000000000002,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "leg_near": {
+            "angle": 1,
+            "x": -1.2603646672793198,
+            "y": -0.6249912648299727
+          },
+          "leg_far": {
+            "angle": -1,
+            "x": 3.47928238126517,
+            "y": 4.595448388290208
+          }
+        },
+        "nearFootTargetOffset": [
+          0,
+          0
+        ],
+        "farFootTargetOffset": [
+          2,
+          5
+        ]
+      },
+      {
+        "sourceFrame": 84,
+        "animationTime": 0.6666666666666666,
+        "trackBbox": {
+          "x": 276,
+          "y": 50,
+          "width": 320,
+          "height": 408
+        },
+        "trackCentroid": {
+          "x": 436.31,
+          "y": 237.63
+        },
+        "armPolygonRelativeCentroidX": -55.1243252436596,
+        "bodyBobRule": "centroid向上差*0.10，上限1.6px；横向差*0.18限±0.3px",
+        "legRule": "有限手工角度表+脚底候选的刚体旋转位移补偿，非自动关节拟合",
+        "valuesBeforeLoopClosure": {
+          "body": {
+            "angle": 0.0,
+            "x": -0.05039999999999509,
+            "y": -0.025999999999999093
+          },
+          "head": {
+            "angle": 0.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "shorts": {
+            "angle": 0.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "arm_near": {
+            "angle": -1.8532754621824694,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "arm_far": {
+            "angle": 1.6679479159642225,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "leg_near": {
+            "angle": -1,
+            "x": 1.552449239933443,
+            "y": 0.14379483172928076
+          },
+          "leg_far": {
+            "angle": 1,
+            "x": -1.1879593328290907,
+            "y": 2.9279243239173667
+          }
+        },
+        "nearFootTargetOffset": [
+          0,
+          0
+        ],
+        "farFootTargetOffset": [
+          0,
+          3
+        ]
+      }
+    ],
+    "evidenceFrames": [
+      {
+        "frame": 68,
+        "time": 2.8333333333333335,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_068.png",
+        "sourceSha256": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871",
+        "decodedVideoPixelsExact": true,
+        "track": {
+          "index": 68,
+          "time": 2.83333,
+          "bbox": {
+            "x": 276,
+            "y": 50,
+            "width": 320,
+            "height": 408
+          },
+          "centroid": {
+            "x": 436.59,
+            "y": 237.37
+          },
+          "areaPx": 70032,
+          "landmarks": {
+            "foregroundCentroid": {
+              "x": 436.59,
+              "y": 237.37,
+              "confidence": "high"
+            },
+            "screenLeftFootCandidate": {
+              "x": 427.5,
+              "y": 457.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenRightFootCandidate": {
+              "x": 441.5,
+              "y": 457.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenLeftHandCandidate": {
+              "x": 351.0,
+              "y": 344.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "screenRightHandCandidate": {
+              "x": 545.0,
+              "y": 326.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "hand_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "hand_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            }
+          }
+        },
+        "parts": [
+          {
+            "id": "f068_arm_A_visible",
+            "kind": "arm",
+            "pose": "extended_visible",
+            "bbox": [
+              353,
+              301,
+              416,
+              369
+            ],
+            "polygonSourcePixels": [
+              [
+                387.5,
+                301.5
+              ],
+              [
+                371.5,
+                313.5
+              ],
+              [
+                359.0,
+                329.5
+              ],
+              [
+                353.5,
+                344.0
+              ],
+              [
+                356.0,
+                357.0
+              ],
+              [
+                363.0,
+                365.0
+              ],
+              [
+                375.0,
+                367.5
+              ],
+              [
+                383.0,
+                365.5
+              ],
+              [
+                389.0,
+                368.5
+              ],
+              [
+                395.5,
+                362.0
+              ],
+              [
+                399.0,
+                347.5
+              ],
+              [
+                405.0,
+                337.5
+              ],
+              [
+                415.5,
+                332.0
+              ]
+            ],
+            "polygonCentroid": [
+              381.4406105912666,
+              337.55999966097096
+            ],
+            "fragmentSha256": "eea49d23d4cabd7ac65b2f64c40c41613aa9df621a9c174ee2a2f3bce9868399",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f068_arm_B_visible",
+            "kind": "arm",
+            "pose": "extended_visible",
+            "bbox": [
+              490,
+              307,
+              544,
+              352
+            ],
+            "polygonSourcePixels": [
+              [
+                490.5,
+                309.0
+              ],
+              [
+                504.5,
+                307.5
+              ],
+              [
+                517.0,
+                309.5
+              ],
+              [
+                530.0,
+                316.5
+              ],
+              [
+                539.5,
+                326.0
+              ],
+              [
+                543.0,
+                337.5
+              ],
+              [
+                538.5,
+                346.5
+              ],
+              [
+                528.0,
+                351.0
+              ],
+              [
+                516.0,
+                351.5
+              ],
+              [
+                504.0,
+                348.0
+              ],
+              [
+                497.0,
+                341.5
+              ]
+            ],
+            "polygonCentroid": [
+              515.9297731989327,
+              329.91103369898207
+            ],
+            "fragmentSha256": "118dd52ada7718dc0997b21916b4cd45ab074c371187fa647dcd224ca180a56a",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f068_leg_A_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              399,
+              384,
+              464,
+              454
+            ],
+            "polygonSourcePixels": [
+              [
+                399.0,
+                397.0
+              ],
+              [
+                409.5,
+                388.0
+              ],
+              [
+                422.5,
+                384.0
+              ],
+              [
+                436.0,
+                385.0
+              ],
+              [
+                449.5,
+                389.5
+              ],
+              [
+                458.0,
+                397.5
+              ],
+              [
+                460.0,
+                408.5
+              ],
+              [
+                458.0,
+                419.5
+              ],
+              [
+                459.0,
+                428.5
+              ],
+              [
+                463.5,
+                438.0
+              ],
+              [
+                462.0,
+                446.0
+              ],
+              [
+                455.0,
+                450.5
+              ],
+              [
+                443.5,
+                453.5
+              ],
+              [
+                429.0,
+                453.5
+              ],
+              [
+                417.0,
+                449.0
+              ],
+              [
+                408.5,
+                440.5
+              ],
+              [
+                405.0,
+                429.5
+              ],
+              [
+                405.5,
+                418.5
+              ]
+            ],
+            "polygonCentroid": [
+              432.1309986097128,
+              418.7748034421592
+            ],
+            "fragmentSha256": "e68e998140892545af5ca0d42c3825c67a7daa035db73bc8bcb9e5fc30956d98",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          }
+        ]
+      },
+      {
+        "frame": 69,
+        "time": 2.875,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_069.png",
+        "sourceSha256": "115df477d07ff9a3416690b06122db913e4fc0383baed5254ff53bbc15d854ee",
+        "decodedVideoPixelsExact": true,
+        "track": null,
+        "parts": [
+          {
+            "id": "f069_arm_A_visible",
+            "kind": "arm",
+            "pose": "extended_visible",
+            "bbox": [
+              366,
+              302,
+              423,
+              378
+            ],
+            "polygonSourcePixels": [
+              [
+                391.5,
+                302.0
+              ],
+              [
+                380.0,
+                314.5
+              ],
+              [
+                371.0,
+                330.0
+              ],
+              [
+                366.5,
+                344.5
+              ],
+              [
+                367.5,
+                359.0
+              ],
+              [
+                374.5,
+                369.5
+              ],
+              [
+                386.0,
+                376.5
+              ],
+              [
+                397.5,
+                377.5
+              ],
+              [
+                407.0,
+                373.5
+              ],
+              [
+                410.0,
+                365.0
+              ],
+              [
+                410.5,
+                353.0
+              ],
+              [
+                415.0,
+                343.0
+              ],
+              [
+                422.5,
+                336.5
+              ]
+            ],
+            "polygonCentroid": [
+              391.7519405580586,
+              343.1238479171607
+            ],
+            "fragmentSha256": "8745c86663573b74521714adb73e9b69194fefe38c40851439ecfa1e901f5405",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f069_arm_B_visible",
+            "kind": "arm",
+            "pose": "extended_visible",
+            "bbox": [
+              494,
+              316,
+              535,
+              357
+            ],
+            "polygonSourcePixels": [
+              [
+                494.5,
+                316.5
+              ],
+              [
+                507.5,
+                317.0
+              ],
+              [
+                519.5,
+                323.0
+              ],
+              [
+                529.5,
+                330.5
+              ],
+              [
+                534.0,
+                341.0
+              ],
+              [
+                533.0,
+                350.0
+              ],
+              [
+                524.5,
+                355.5
+              ],
+              [
+                512.5,
+                356.5
+              ],
+              [
+                502.5,
+                353.5
+              ]
+            ],
+            "polygonCentroid": [
+              513.9220169707892,
+              337.3393406923481
+            ],
+            "fragmentSha256": "afd2820b89149fb974fc0bd33e0bfd9adc008ed40c4007ca2d10d1a02f5131ca",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f069_leg_A_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              397,
+              385,
+              458,
+              454
+            ],
+            "polygonSourcePixels": [
+              [
+                397.5,
+                397.5
+              ],
+              [
+                407.0,
+                389.5
+              ],
+              [
+                420.0,
+                385.5
+              ],
+              [
+                434.0,
+                387.0
+              ],
+              [
+                447.0,
+                392.0
+              ],
+              [
+                456.0,
+                400.0
+              ],
+              [
+                457.5,
+                410.5
+              ],
+              [
+                455.0,
+                422.0
+              ],
+              [
+                453.5,
+                432.0
+              ],
+              [
+                454.5,
+                443.0
+              ],
+              [
+                449.5,
+                449.5
+              ],
+              [
+                437.5,
+                453.5
+              ],
+              [
+                423.0,
+                453.5
+              ],
+              [
+                410.5,
+                448.5
+              ],
+              [
+                402.0,
+                441.0
+              ],
+              [
+                397.0,
+                432.0
+              ],
+              [
+                397.5,
+                420.5
+              ]
+            ],
+            "polygonCentroid": [
+              426.85929279705186,
+              419.4230065216864
+            ],
+            "fragmentSha256": "997cd20480d361995710b144c4b6947f41b4785c403a972dad33a46159016578",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          }
+        ]
+      },
+      {
+        "frame": 70,
+        "time": 2.9166666666666665,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_070.png",
+        "sourceSha256": "9c2e989facc35d66e2b5163a6cac4815f68a8ebb4f6f2d15fa115467074e983e",
+        "decodedVideoPixelsExact": true,
+        "track": {
+          "index": 70,
+          "time": 2.91667,
+          "bbox": {
+            "x": 295,
+            "y": 44,
+            "width": 291,
+            "height": 412
+          },
+          "centroid": {
+            "x": 438.24,
+            "y": 229.66
+          },
+          "areaPx": 66102,
+          "landmarks": {
+            "foregroundCentroid": {
+              "x": 438.24,
+              "y": 229.66,
+              "confidence": "high"
+            },
+            "screenLeftFootCandidate": {
+              "x": 417.88,
+              "y": 455.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenRightFootCandidate": {
+              "x": 457.5,
+              "y": 453.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenLeftHandCandidate": {
+              "x": 382.0,
+              "y": 363.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "screenRightHandCandidate": {
+              "x": 507.0,
+              "y": 334.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "hand_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "hand_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            }
+          }
+        },
+        "parts": [
+          {
+            "id": "f070_arm_A_chest_visible",
+            "kind": "arm",
+            "pose": "chest_crossing",
+            "bbox": [
+              392,
+              307,
+              454,
+              372
+            ],
+            "polygonSourcePixels": [
+              [
+                403.5,
+                307.5
+              ],
+              [
+                395.5,
+                325.5
+              ],
+              [
+                392.5,
+                339.5
+              ],
+              [
+                393.5,
+                350.5
+              ],
+              [
+                400.5,
+                360.5
+              ],
+              [
+                411.0,
+                368.0
+              ],
+              [
+                422.0,
+                371.5
+              ],
+              [
+                433.0,
+                369.5
+              ],
+              [
+                443.0,
+                363.0
+              ],
+              [
+                450.5,
+                352.5
+              ],
+              [
+                453.5,
+                341.5
+              ],
+              [
+                450.5,
+                333.0
+              ],
+              [
+                442.0,
+                327.5
+              ],
+              [
+                431.0,
+                324.0
+              ],
+              [
+                429.0,
+                315.0
+              ]
+            ],
+            "polygonCentroid": [
+              420.7291588930348,
+              341.39917599502485
+            ],
+            "fragmentSha256": "890070b5df72ddb1b1a829fffc6bc88a19231d597ac6611ee952baf9709830dd",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f070_leg_A_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              382,
+              377,
+              445,
+              453
+            ],
+            "polygonSourcePixels": [
+              [
+                388.5,
+                377.0
+              ],
+              [
+                403.5,
+                378.0
+              ],
+              [
+                420.5,
+                384.0
+              ],
+              [
+                435.5,
+                394.0
+              ],
+              [
+                444.0,
+                404.0
+              ],
+              [
+                441.5,
+                415.0
+              ],
+              [
+                435.5,
+                425.5
+              ],
+              [
+                435.0,
+                437.5
+              ],
+              [
+                430.0,
+                446.5
+              ],
+              [
+                422.0,
+                451.0
+              ],
+              [
+                410.5,
+                452.0
+              ],
+              [
+                398.5,
+                448.5
+              ],
+              [
+                389.0,
+                442.0
+              ],
+              [
+                383.5,
+                431.5
+              ],
+              [
+                382.5,
+                420.0
+              ],
+              [
+                385.0,
+                409.5
+              ]
+            ],
+            "polygonCentroid": [
+              410.79319819491957,
+              414.95950093408055
+            ],
+            "fragmentSha256": "14ae0fbb06ee49be573341fdf7a3eea818858274e004315ff72cabe0a8afe474",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f070_leg_B_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              445,
+              369,
+              510,
+              429
+            ],
+            "polygonSourcePixels": [
+              [
+                488.5,
+                370.5
+              ],
+              [
+                497.5,
+                369.0
+              ],
+              [
+                504.0,
+                376.5
+              ],
+              [
+                509.0,
+                387.0
+              ],
+              [
+                508.5,
+                398.5
+              ],
+              [
+                503.0,
+                409.0
+              ],
+              [
+                492.0,
+                419.0
+              ],
+              [
+                482.5,
+                427.5
+              ],
+              [
+                472.0,
+                428.5
+              ],
+              [
+                461.0,
+                423.5
+              ],
+              [
+                450.0,
+                416.0
+              ],
+              [
+                445.5,
+                409.5
+              ],
+              [
+                448.5,
+                399.0
+              ],
+              [
+                460.0,
+                393.0
+              ],
+              [
+                471.0,
+                386.0
+              ]
+            ],
+            "polygonCentroid": [
+              480.1805165839268,
+              400.7314465069429
+            ],
+            "fragmentSha256": "1fb1d7187a354b5575ed39ac08c9a59598fcc8657eac0aaf0ba88e9524375b0f",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          }
+        ]
+      },
+      {
+        "frame": 71,
+        "time": 2.9583333333333335,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_071.png",
+        "sourceSha256": "434509573a59694e6b90b9927e14fd090777ca24c7cd2d52c0dcaeff5d16a99e",
+        "decodedVideoPixelsExact": true,
+        "track": null,
+        "parts": [
+          {
+            "id": "f071_arm_A_chest_visible",
+            "kind": "arm",
+            "pose": "chest_crossing",
+            "bbox": [
+              402,
+              299,
+              476,
+              362
+            ],
+            "polygonSourcePixels": [
+              [
+                409.0,
+                299.0
+              ],
+              [
+                403.0,
+                317.0
+              ],
+              [
+                402.5,
+                330.5
+              ],
+              [
+                406.5,
+                342.5
+              ],
+              [
+                416.0,
+                351.5
+              ],
+              [
+                427.0,
+                356.5
+              ],
+              [
+                439.5,
+                361.0
+              ],
+              [
+                451.5,
+                361.5
+              ],
+              [
+                463.5,
+                358.0
+              ],
+              [
+                472.5,
+                351.0
+              ],
+              [
+                475.5,
+                341.0
+              ],
+              [
+                474.5,
+                330.0
+              ],
+              [
+                468.5,
+                321.0
+              ],
+              [
+                460.0,
+                318.0
+              ],
+              [
+                445.0,
+                317.5
+              ],
+              [
+                440.5,
+                308.0
+              ]
+            ],
+            "polygonCentroid": [
+              437.0124271613747,
+              332.87407671674526
+            ],
+            "fragmentSha256": "3696dfa73d7fa7eb48d86f5286629434269f29306dc1e04a3f35c09b9936001d",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f071_leg_A_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              375,
+              371,
+              440,
+              451
+            ],
+            "polygonSourcePixels": [
+              [
+                385.0,
+                371.0
+              ],
+              [
+                400.0,
+                373.0
+              ],
+              [
+                416.0,
+                379.0
+              ],
+              [
+                430.5,
+                387.5
+              ],
+              [
+                439.5,
+                397.5
+              ],
+              [
+                435.0,
+                409.0
+              ],
+              [
+                427.5,
+                421.0
+              ],
+              [
+                425.5,
+                434.0
+              ],
+              [
+                419.5,
+                445.5
+              ],
+              [
+                409.5,
+                450.5
+              ],
+              [
+                398.5,
+                448.5
+              ],
+              [
+                388.5,
+                441.5
+              ],
+              [
+                380.5,
+                431.5
+              ],
+              [
+                375.5,
+                420.5
+              ],
+              [
+                375.5,
+                409.0
+              ],
+              [
+                380.0,
+                395.5
+              ]
+            ],
+            "polygonCentroid": [
+              404.5911760160717,
+              409.9732831686934
+            ],
+            "fragmentSha256": "64e1d8741c1309367d6b12141e52a57aa17e6df675b29f9638dccd6931544926",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f071_leg_B_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              454,
+              353,
+              516,
+              431
+            ],
+            "polygonSourcePixels": [
+              [
+                495.0,
+                353.5
+              ],
+              [
+                505.0,
+                361.5
+              ],
+              [
+                512.0,
+                373.0
+              ],
+              [
+                515.0,
+                385.0
+              ],
+              [
+                510.5,
+                398.0
+              ],
+              [
+                504.0,
+                408.0
+              ],
+              [
+                501.5,
+                419.5
+              ],
+              [
+                495.0,
+                428.5
+              ],
+              [
+                484.5,
+                430.0
+              ],
+              [
+                473.5,
+                425.0
+              ],
+              [
+                463.0,
+                417.0
+              ],
+              [
+                456.0,
+                406.5
+              ],
+              [
+                454.5,
+                396.0
+              ],
+              [
+                460.5,
+                385.5
+              ],
+              [
+                472.5,
+                374.0
+              ],
+              [
+                483.5,
+                364.0
+              ]
+            ],
+            "polygonCentroid": [
+              486.1435407382013,
+              393.97188178493883
+            ],
+            "fragmentSha256": "94eaf5950e514cd30697c44153514919f9c1a23ffdf145c9b20d6e3347ec065a",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          }
+        ]
+      },
+      {
+        "frame": 72,
+        "time": 3.0,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_072.png",
+        "sourceSha256": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93",
+        "decodedVideoPixelsExact": true,
+        "track": {
+          "index": 72,
+          "time": 3.0,
+          "bbox": {
+            "x": 294,
+            "y": 36,
+            "width": 290,
+            "height": 420
+          },
+          "centroid": {
+            "x": 437.6,
+            "y": 225.2
+          },
+          "areaPx": 65984,
+          "landmarks": {
+            "foregroundCentroid": {
+              "x": 437.6,
+              "y": 225.2,
+              "confidence": "high"
+            },
+            "screenLeftFootCandidate": {
+              "x": 405.0,
+              "y": 455.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenRightFootCandidate": {
+              "x": 464.1,
+              "y": 453.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenLeftHandCandidate": {
+              "x": 381.0,
+              "y": 359.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "screenRightHandCandidate": {
+              "x": 513.0,
+              "y": 362.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "hand_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "hand_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            }
+          }
+        },
+        "parts": [
+          {
+            "id": "f072_arm_A_chest_visible",
+            "kind": "arm",
+            "pose": "chest_crossing",
+            "bbox": [
+              409,
+              292,
+              487,
+              353
+            ],
+            "polygonSourcePixels": [
+              [
+                414.5,
+                292.5
+              ],
+              [
+                409.0,
+                308.0
+              ],
+              [
+                409.0,
+                322.5
+              ],
+              [
+                413.0,
+                334.0
+              ],
+              [
+                422.0,
+                343.0
+              ],
+              [
+                432.5,
+                349.0
+              ],
+              [
+                444.0,
+                352.0
+              ],
+              [
+                457.5,
+                352.5
+              ],
+              [
+                470.5,
+                350.5
+              ],
+              [
+                480.5,
+                344.5
+              ],
+              [
+                485.5,
+                335.5
+              ],
+              [
+                486.5,
+                326.0
+              ],
+              [
+                484.5,
+                316.5
+              ],
+              [
+                478.5,
+                309.0
+              ],
+              [
+                470.5,
+                306.5
+              ],
+              [
+                460.0,
+                308.5
+              ],
+              [
+                452.0,
+                309.5
+              ],
+              [
+                447.5,
+                302.0
+              ]
+            ],
+            "polygonCentroid": [
+              446.0213603147836,
+              324.99009431016174
+            ],
+            "fragmentSha256": "3f604ad37908a87e8dc0f7eeaf9441e92729ac0cfdfa61e832ab1ec1a9fee4cd",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f072_leg_A_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              369,
+              370,
+              438,
+              448
+            ],
+            "polygonSourcePixels": [
+              [
+                384.0,
+                370.0
+              ],
+              [
+                398.5,
+                373.0
+              ],
+              [
+                414.0,
+                380.0
+              ],
+              [
+                428.0,
+                387.5
+              ],
+              [
+                437.5,
+                397.0
+              ],
+              [
+                431.5,
+                407.5
+              ],
+              [
+                424.0,
+                418.5
+              ],
+              [
+                419.5,
+                429.5
+              ],
+              [
+                416.5,
+                441.5
+              ],
+              [
+                409.5,
+                446.5
+              ],
+              [
+                398.5,
+                447.0
+              ],
+              [
+                389.0,
+                443.0
+              ],
+              [
+                380.0,
+                435.0
+              ],
+              [
+                374.0,
+                425.0
+              ],
+              [
+                369.5,
+                413.5
+              ],
+              [
+                369.5,
+                402.0
+              ],
+              [
+                374.5,
+                394.0
+              ],
+              [
+                379.0,
+                382.0
+              ]
+            ],
+            "polygonCentroid": [
+              400.16360994549746,
+              408.268002701008
+            ],
+            "fragmentSha256": "85c000ef637604f0e7994b055a1b23e54ed2f9de445bb1238738eeea8d0dbc9d",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f072_leg_B_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              461,
+              361,
+              519,
+              432
+            ],
+            "polygonSourcePixels": [
+              [
+                504.5,
+                361.0
+              ],
+              [
+                512.5,
+                371.0
+              ],
+              [
+                517.5,
+                384.0
+              ],
+              [
+                518.0,
+                396.0
+              ],
+              [
+                515.0,
+                406.0
+              ],
+              [
+                514.0,
+                415.0
+              ],
+              [
+                516.0,
+                423.0
+              ],
+              [
+                510.5,
+                428.5
+              ],
+              [
+                500.5,
+                431.0
+              ],
+              [
+                489.0,
+                431.0
+              ],
+              [
+                478.0,
+                427.5
+              ],
+              [
+                469.0,
+                421.5
+              ],
+              [
+                464.0,
+                413.5
+              ],
+              [
+                461.5,
+                403.0
+              ],
+              [
+                464.0,
+                394.5
+              ],
+              [
+                471.5,
+                385.0
+              ],
+              [
+                483.5,
+                374.0
+              ],
+              [
+                494.5,
+                365.5
+              ]
+            ],
+            "polygonCentroid": [
+              492.5317428848357,
+              399.6350339236937
+            ],
+            "fragmentSha256": "418e4a3c5bc69f20768af939efd107cc48fe2749ec827f91f7680c689520c50e",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          }
+        ]
+      },
+      {
+        "frame": 73,
+        "time": 3.0416666666666665,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_073.png",
+        "sourceSha256": "ea3c8193870a44d9a98b0a995e5cc2519b825dae961bc1e013f4a0fcb88994ca",
+        "decodedVideoPixelsExact": true,
+        "track": null,
+        "parts": [
+          {
+            "id": "f073_arm_A_chest_visible",
+            "kind": "arm",
+            "pose": "chest_crossing",
+            "bbox": [
+              412,
+              290,
+              499,
+              350
+            ],
+            "polygonSourcePixels": [
+              [
+                415.5,
+                290.5
+              ],
+              [
+                412.0,
+                304.5
+              ],
+              [
+                412.0,
+                318.0
+              ],
+              [
+                416.5,
+                330.0
+              ],
+              [
+                427.0,
+                339.0
+              ],
+              [
+                439.5,
+                345.5
+              ],
+              [
+                451.5,
+                349.5
+              ],
+              [
+                464.5,
+                349.0
+              ],
+              [
+                477.5,
+                345.5
+              ],
+              [
+                489.5,
+                339.0
+              ],
+              [
+                496.0,
+                330.0
+              ],
+              [
+                498.5,
+                320.0
+              ],
+              [
+                495.5,
+                309.0
+              ],
+              [
+                487.5,
+                301.5
+              ],
+              [
+                479.0,
+                300.0
+              ],
+              [
+                467.5,
+                302.0
+              ],
+              [
+                455.5,
+                306.0
+              ],
+              [
+                450.5,
+                300.0
+              ]
+            ],
+            "polygonCentroid": [
+              453.625054593936,
+              321.201037859458
+            ],
+            "fragmentSha256": "dbc63260507fdcdae793c83fcf2357509eb5dd8cdafe0260a5cd12f3379bd127",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f073_leg_A_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              361,
+              370,
+              435,
+              441
+            ],
+            "polygonSourcePixels": [
+              [
+                379.5,
+                370.5
+              ],
+              [
+                394.5,
+                374.0
+              ],
+              [
+                410.5,
+                381.5
+              ],
+              [
+                426.0,
+                390.5
+              ],
+              [
+                434.5,
+                399.5
+              ],
+              [
+                426.5,
+                407.0
+              ],
+              [
+                416.0,
+                414.0
+              ],
+              [
+                408.5,
+                420.5
+              ],
+              [
+                406.0,
+                430.0
+              ],
+              [
+                398.0,
+                437.0
+              ],
+              [
+                386.5,
+                440.5
+              ],
+              [
+                375.5,
+                438.0
+              ],
+              [
+                368.0,
+                430.5
+              ],
+              [
+                363.5,
+                421.0
+              ],
+              [
+                361.0,
+                410.0
+              ],
+              [
+                363.0,
+                399.0
+              ],
+              [
+                370.0,
+                388.5
+              ],
+              [
+                377.0,
+                379.0
+              ]
+            ],
+            "polygonCentroid": [
+              392.3551054650048,
+              405.43767976989454
+            ],
+            "fragmentSha256": "8688b0abdf7623b27bb0f75aa000d771774caa4635aa620c36becc56d938a34d",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f073_leg_B_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              459,
+              363,
+              531,
+              429
+            ],
+            "polygonSourcePixels": [
+              [
+                503.0,
+                363.0
+              ],
+              [
+                512.0,
+                372.0
+              ],
+              [
+                518.0,
+                383.5
+              ],
+              [
+                519.0,
+                394.5
+              ],
+              [
+                526.0,
+                399.0
+              ],
+              [
+                530.0,
+                407.5
+              ],
+              [
+                529.0,
+                416.5
+              ],
+              [
+                523.0,
+                423.0
+              ],
+              [
+                512.5,
+                427.0
+              ],
+              [
+                501.5,
+                428.0
+              ],
+              [
+                490.5,
+                427.0
+              ],
+              [
+                480.0,
+                423.0
+              ],
+              [
+                473.0,
+                415.5
+              ],
+              [
+                469.0,
+                406.0
+              ],
+              [
+                464.0,
+                399.0
+              ],
+              [
+                459.0,
+                395.0
+              ],
+              [
+                468.0,
+                384.5
+              ],
+              [
+                481.0,
+                373.5
+              ],
+              [
+                492.0,
+                366.5
+              ]
+            ],
+            "polygonCentroid": [
+              496.601416287304,
+              398.67200584499517
+            ],
+            "fragmentSha256": "bc8aac50d27fa6147dd7e111602b1f3751ebca518c2a6aa794bf83a892b00fbd",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          }
+        ]
+      },
+      {
+        "frame": 74,
+        "time": 3.0833333333333335,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_074.png",
+        "sourceSha256": "3200f67af977d20903f69f2109dc05385f18fbe2f3e54086fda34a3e7e32d912",
+        "decodedVideoPixelsExact": true,
+        "track": {
+          "index": 74,
+          "time": 3.08333,
+          "bbox": {
+            "x": 280,
+            "y": 42,
+            "width": 315,
+            "height": 414
+          },
+          "centroid": {
+            "x": 437.75,
+            "y": 233.05
+          },
+          "areaPx": 67985,
+          "landmarks": {
+            "foregroundCentroid": {
+              "x": 437.75,
+              "y": 233.05,
+              "confidence": "high"
+            },
+            "screenLeftFootCandidate": {
+              "x": 407.83,
+              "y": 453.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenRightFootCandidate": {
+              "x": 471.5,
+              "y": 455.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenLeftHandCandidate": {
+              "x": 381.0,
+              "y": 361.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "screenRightHandCandidate": {
+              "x": 504.0,
+              "y": 363.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "hand_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "hand_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            }
+          }
+        },
+        "parts": [
+          {
+            "id": "f074_arm_A_chest_visible",
+            "kind": "arm",
+            "pose": "chest_crossing",
+            "bbox": [
+              415,
+              294,
+              501,
+              352
+            ],
+            "polygonSourcePixels": [
+              [
+                418.5,
+                294.0
+              ],
+              [
+                415.0,
+                308.0
+              ],
+              [
+                418.0,
+                320.5
+              ],
+              [
+                425.5,
+                331.5
+              ],
+              [
+                437.5,
+                341.5
+              ],
+              [
+                450.5,
+                348.5
+              ],
+              [
+                464.0,
+                351.5
+              ],
+              [
+                477.5,
+                350.5
+              ],
+              [
+                489.5,
+                346.5
+              ],
+              [
+                497.5,
+                338.0
+              ],
+              [
+                500.5,
+                327.5
+              ],
+              [
+                499.5,
+                316.5
+              ],
+              [
+                493.5,
+                306.0
+              ],
+              [
+                485.0,
+                302.0
+              ],
+              [
+                474.0,
+                304.0
+              ],
+              [
+                463.0,
+                310.0
+              ],
+              [
+                455.0,
+                313.0
+              ],
+              [
+                448.5,
+                306.0
+              ]
+            ],
+            "polygonCentroid": [
+              459.28363573460445,
+              324.4056597729427
+            ],
+            "fragmentSha256": "6ece838f14f0fc3f4d16ebb7f728616a64f3aa05074ae64b4e48fe721d2b268f",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f074_leg_A_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              353,
+              366,
+              430,
+              419
+            ],
+            "polygonSourcePixels": [
+              [
+                377.5,
+                370.5
+              ],
+              [
+                374.0,
+                366.5
+              ],
+              [
+                366.0,
+                369.5
+              ],
+              [
+                360.0,
+                377.5
+              ],
+              [
+                355.0,
+                387.5
+              ],
+              [
+                353.5,
+                398.0
+              ],
+              [
+                356.5,
+                406.5
+              ],
+              [
+                364.5,
+                414.0
+              ],
+              [
+                374.0,
+                416.5
+              ],
+              [
+                383.0,
+                415.0
+              ],
+              [
+                393.0,
+                418.0
+              ],
+              [
+                404.0,
+                418.0
+              ],
+              [
+                415.0,
+                414.5
+              ],
+              [
+                423.5,
+                409.0
+              ],
+              [
+                429.0,
+                403.5
+              ],
+              [
+                423.0,
+                394.5
+              ],
+              [
+                410.5,
+                384.0
+              ],
+              [
+                396.5,
+                375.5
+              ]
+            ],
+            "polygonCentroid": [
+              387.3966020579086,
+              395.61333652388925
+            ],
+            "fragmentSha256": "3867cd2f3e6cc4cd1911a8a260a33b99067539cccfefa4254aed7f9a15bd6120",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f074_leg_B_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              458,
+              371,
+              533,
+              442
+            ],
+            "polygonSourcePixels": [
+              [
+                505.0,
+                371.5
+              ],
+              [
+                512.5,
+                382.0
+              ],
+              [
+                515.0,
+                393.0
+              ],
+              [
+                514.5,
+                401.5
+              ],
+              [
+                524.5,
+                403.0
+              ],
+              [
+                531.5,
+                409.5
+              ],
+              [
+                532.0,
+                419.0
+              ],
+              [
+                526.5,
+                428.0
+              ],
+              [
+                517.5,
+                436.0
+              ],
+              [
+                508.0,
+                440.0
+              ],
+              [
+                496.0,
+                441.5
+              ],
+              [
+                484.5,
+                439.5
+              ],
+              [
+                476.5,
+                434.5
+              ],
+              [
+                471.5,
+                425.5
+              ],
+              [
+                468.0,
+                416.5
+              ],
+              [
+                460.5,
+                407.5
+              ],
+              [
+                458.0,
+                404.5
+              ],
+              [
+                469.5,
+                392.0
+              ],
+              [
+                484.0,
+                381.0
+              ],
+              [
+                495.5,
+                374.5
+              ]
+            ],
+            "polygonCentroid": [
+              496.25818339615796,
+              409.71962072047563
+            ],
+            "fragmentSha256": "c2c4ea08dda9d93dfbb3538d5202f3471bd3cd9529722aab4f87078986a920d9",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          }
+        ]
+      },
+      {
+        "frame": 75,
+        "time": 3.125,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_075.png",
+        "sourceSha256": "030f04baccecbbaa3a1351109e2733537e956c2968873c0c7e94ebc6ebec176a",
+        "decodedVideoPixelsExact": true,
+        "track": null,
+        "parts": [
+          {
+            "id": "f075_arm_A_chest_visible",
+            "kind": "arm",
+            "pose": "chest_crossing",
+            "bbox": [
+              413,
+              297,
+              495,
+              359
+            ],
+            "polygonSourcePixels": [
+              [
+                415.0,
+                297.5
+              ],
+              [
+                413.5,
+                311.0
+              ],
+              [
+                417.0,
+                324.5
+              ],
+              [
+                425.0,
+                336.0
+              ],
+              [
+                436.0,
+                345.5
+              ],
+              [
+                448.5,
+                353.0
+              ],
+              [
+                462.0,
+                358.0
+              ],
+              [
+                474.5,
+                358.0
+              ],
+              [
+                484.5,
+                353.5
+              ],
+              [
+                491.5,
+                346.0
+              ],
+              [
+                494.0,
+                335.5
+              ],
+              [
+                493.0,
+                325.0
+              ],
+              [
+                487.5,
+                316.0
+              ],
+              [
+                479.5,
+                311.5
+              ],
+              [
+                470.0,
+                312.5
+              ],
+              [
+                460.0,
+                317.0
+              ],
+              [
+                451.5,
+                318.5
+              ],
+              [
+                446.5,
+                311.5
+              ]
+            ],
+            "polygonCentroid": [
+              455.1360010130429,
+              330.42435946139886
+            ],
+            "fragmentSha256": "f302635d1abaa03639b2f3247a87e04bdf03302b0e8130b97926f6ae7f1088fa",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f075_leg_A_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              357,
+              370,
+              433,
+              424
+            ],
+            "polygonSourcePixels": [
+              [
+                380.5,
+                373.5
+              ],
+              [
+                375.0,
+                370.5
+              ],
+              [
+                368.0,
+                374.5
+              ],
+              [
+                361.0,
+                385.0
+              ],
+              [
+                357.0,
+                397.0
+              ],
+              [
+                358.5,
+                407.0
+              ],
+              [
+                364.5,
+                414.0
+              ],
+              [
+                374.0,
+                418.0
+              ],
+              [
+                383.0,
+                417.5
+              ],
+              [
+                392.5,
+                422.5
+              ],
+              [
+                404.0,
+                423.0
+              ],
+              [
+                415.5,
+                420.0
+              ],
+              [
+                424.5,
+                415.5
+              ],
+              [
+                432.0,
+                410.0
+              ],
+              [
+                426.5,
+                401.0
+              ],
+              [
+                414.5,
+                390.0
+              ],
+              [
+                400.5,
+                380.5
+              ]
+            ],
+            "polygonCentroid": [
+              390.72015511486353,
+              399.5806008246613
+            ],
+            "fragmentSha256": "77394a390333dd1829b010f083912cd2154dc1d78d05aab2c698b32fbe4a90d9",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f075_leg_B_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              457,
+              374,
+              520,
+              445
+            ],
+            "polygonSourcePixels": [
+              [
+                505.5,
+                374.0
+              ],
+              [
+                511.5,
+                386.0
+              ],
+              [
+                513.0,
+                398.5
+              ],
+              [
+                511.0,
+                410.0
+              ],
+              [
+                512.5,
+                420.5
+              ],
+              [
+                519.5,
+                430.0
+              ],
+              [
+                517.0,
+                437.5
+              ],
+              [
+                508.0,
+                442.0
+              ],
+              [
+                497.0,
+                444.5
+              ],
+              [
+                485.0,
+                444.0
+              ],
+              [
+                473.5,
+                440.5
+              ],
+              [
+                466.5,
+                433.0
+              ],
+              [
+                462.0,
+                422.5
+              ],
+              [
+                459.5,
+                414.5
+              ],
+              [
+                457.5,
+                411.5
+              ],
+              [
+                470.0,
+                398.0
+              ],
+              [
+                483.5,
+                387.0
+              ],
+              [
+                495.0,
+                379.5
+              ]
+            ],
+            "polygonCentroid": [
+              490.6176444404878,
+              413.9168595507285
+            ],
+            "fragmentSha256": "6d12d94ec8a40f63790cc48e9295b1f50c118f1655dea0d9036dde9e993c46a0",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          }
+        ]
+      },
+      {
+        "frame": 76,
+        "time": 3.1666666666666665,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_076.png",
+        "sourceSha256": "ca0676580e05720d1f927d733d944c930c776d7c33ac2f4a2a1fb325dfb9bae9",
+        "decodedVideoPixelsExact": true,
+        "track": {
+          "index": 76,
+          "time": 3.16667,
+          "bbox": {
+            "x": 279,
+            "y": 51,
+            "width": 319,
+            "height": 405
+          },
+          "centroid": {
+            "x": 437.82,
+            "y": 235.37
+          },
+          "areaPx": 66268,
+          "landmarks": {
+            "foregroundCentroid": {
+              "x": 437.82,
+              "y": 235.37,
+              "confidence": "high"
+            },
+            "screenLeftFootCandidate": {
+              "x": 406.21,
+              "y": 453.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenRightFootCandidate": {
+              "x": 475.5,
+              "y": 455.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenLeftHandCandidate": {
+              "x": 376.0,
+              "y": 294.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "screenRightHandCandidate": {
+              "x": 503.0,
+              "y": 363.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "hand_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "hand_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            }
+          }
+        },
+        "parts": [
+          {
+            "id": "f076_arm_A_chest_visible",
+            "kind": "arm",
+            "pose": "chest_crossing",
+            "bbox": [
+              408,
+              299,
+              485,
+              369
+            ],
+            "polygonSourcePixels": [
+              [
+                414.5,
+                299.0
+              ],
+              [
+                409.5,
+                312.5
+              ],
+              [
+                408.5,
+                326.5
+              ],
+              [
+                412.0,
+                339.5
+              ],
+              [
+                420.0,
+                350.5
+              ],
+              [
+                431.0,
+                359.0
+              ],
+              [
+                443.5,
+                365.0
+              ],
+              [
+                457.5,
+                368.0
+              ],
+              [
+                470.0,
+                365.5
+              ],
+              [
+                478.5,
+                359.5
+              ],
+              [
+                483.5,
+                350.5
+              ],
+              [
+                484.5,
+                339.0
+              ],
+              [
+                482.5,
+                329.0
+              ],
+              [
+                476.0,
+                322.0
+              ],
+              [
+                467.0,
+                320.5
+              ],
+              [
+                456.0,
+                322.5
+              ],
+              [
+                446.5,
+                324.0
+              ],
+              [
+                441.5,
+                316.5
+              ]
+            ],
+            "polygonCentroid": [
+              445.4799669558034,
+              337.7008854812061
+            ],
+            "fragmentSha256": "cf393ea24929006bdeb090b5467a376f079ebbac7c2c361c040902f14682f04f",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f076_leg_A_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              362,
+              376,
+              438,
+              428
+            ],
+            "polygonSourcePixels": [
+              [
+                381.5,
+                376.0
+              ],
+              [
+                375.5,
+                377.0
+              ],
+              [
+                369.0,
+                385.5
+              ],
+              [
+                364.0,
+                396.5
+              ],
+              [
+                362.5,
+                407.0
+              ],
+              [
+                365.0,
+                415.5
+              ],
+              [
+                371.5,
+                421.0
+              ],
+              [
+                380.5,
+                423.0
+              ],
+              [
+                389.5,
+                420.5
+              ],
+              [
+                399.0,
+                426.5
+              ],
+              [
+                410.5,
+                427.5
+              ],
+              [
+                420.5,
+                425.0
+              ],
+              [
+                429.5,
+                420.0
+              ],
+              [
+                437.0,
+                412.5
+              ],
+              [
+                432.0,
+                403.5
+              ],
+              [
+                420.0,
+                393.5
+              ],
+              [
+                405.5,
+                384.5
+              ],
+              [
+                393.5,
+                380.5
+              ]
+            ],
+            "polygonCentroid": [
+              396.30134148906905,
+              403.9704030940013
+            ],
+            "fragmentSha256": "c96451b838953bf1cb4d38816d322a31984e6cc002cadd89a999d82c90043649",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f076_leg_B_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              454,
+              380,
+              508,
+              445
+            ],
+            "polygonSourcePixels": [
+              [
+                503.5,
+                380.5
+              ],
+              [
+                507.0,
+                392.5
+              ],
+              [
+                505.5,
+                404.5
+              ],
+              [
+                500.5,
+                415.0
+              ],
+              [
+                502.5,
+                423.5
+              ],
+              [
+                507.0,
+                434.5
+              ],
+              [
+                502.5,
+                441.0
+              ],
+              [
+                492.0,
+                444.0
+              ],
+              [
+                480.0,
+                444.5
+              ],
+              [
+                468.5,
+                442.5
+              ],
+              [
+                459.0,
+                437.5
+              ],
+              [
+                454.0,
+                429.5
+              ],
+              [
+                454.0,
+                420.0
+              ],
+              [
+                457.0,
+                413.5
+              ],
+              [
+                467.0,
+                403.0
+              ],
+              [
+                479.0,
+                393.5
+              ],
+              [
+                491.5,
+                385.5
+              ]
+            ],
+            "polygonCentroid": [
+              483.1884324708811,
+              417.0950564595003
+            ],
+            "fragmentSha256": "5496cbc4d45730218147f0940898772b6c1d493ddf4b9c27bb8bf7eab54f0b5f",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          }
+        ]
+      },
+      {
+        "frame": 77,
+        "time": 3.2083333333333335,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_077.png",
+        "sourceSha256": "c3d8a2bdfeec6a45f85650813bf63a52f899187dec62d1d77d9ec0e0f207842a",
+        "decodedVideoPixelsExact": true,
+        "track": null,
+        "parts": [
+          {
+            "id": "f077_arm_A_chest_visible",
+            "kind": "arm",
+            "pose": "chest_crossing",
+            "bbox": [
+              399,
+              299,
+              468,
+              376
+            ],
+            "polygonSourcePixels": [
+              [
+                408.5,
+                299.5
+              ],
+              [
+                401.5,
+                315.5
+              ],
+              [
+                399.5,
+                330.5
+              ],
+              [
+                401.0,
+                344.0
+              ],
+              [
+                407.0,
+                355.0
+              ],
+              [
+                417.5,
+                364.5
+              ],
+              [
+                431.0,
+                370.5
+              ],
+              [
+                444.0,
+                375.0
+              ],
+              [
+                456.0,
+                373.5
+              ],
+              [
+                463.5,
+                367.0
+              ],
+              [
+                467.0,
+                357.0
+              ],
+              [
+                467.5,
+                346.0
+              ],
+              [
+                464.5,
+                337.0
+              ],
+              [
+                458.0,
+                332.0
+              ],
+              [
+                448.0,
+                330.5
+              ],
+              [
+                435.5,
+                331.0
+              ],
+              [
+                434.0,
+                322.0
+              ]
+            ],
+            "polygonCentroid": [
+              431.36823745493916,
+              343.023054676042
+            ],
+            "fragmentSha256": "ebc043a04595ada496920c648316a6c5ad80c07651d2350d136ed0c9e238e572",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f077_leg_A_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              370,
+              378,
+              444,
+              430
+            ],
+            "polygonSourcePixels": [
+              [
+                384.5,
+                379.5
+              ],
+              [
+                379.0,
+                378.5
+              ],
+              [
+                374.5,
+                386.0
+              ],
+              [
+                371.0,
+                397.0
+              ],
+              [
+                370.0,
+                407.5
+              ],
+              [
+                372.5,
+                417.5
+              ],
+              [
+                378.5,
+                425.5
+              ],
+              [
+                387.0,
+                428.5
+              ],
+              [
+                394.0,
+                427.0
+              ],
+              [
+                405.5,
+                429.5
+              ],
+              [
+                417.0,
+                428.5
+              ],
+              [
+                429.0,
+                425.0
+              ],
+              [
+                438.0,
+                418.5
+              ],
+              [
+                443.0,
+                410.5
+              ],
+              [
+                440.5,
+                402.0
+              ],
+              [
+                431.0,
+                393.5
+              ],
+              [
+                418.0,
+                387.5
+              ],
+              [
+                402.0,
+                382.5
+              ]
+            ],
+            "polygonCentroid": [
+              403.2324867724867,
+              405.8181330309901
+            ],
+            "fragmentSha256": "22d5b3b9153b171d056eebbf6bddc9b9b1c2fdfd397fd4a8ad1ba16f44b4e7c2",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f077_leg_B_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              445,
+              387,
+              504,
+              445
+            ],
+            "polygonSourcePixels": [
+              [
+                502.5,
+                387.0
+              ],
+              [
+                503.5,
+                399.0
+              ],
+              [
+                500.5,
+                411.0
+              ],
+              [
+                496.0,
+                421.0
+              ],
+              [
+                494.0,
+                429.0
+              ],
+              [
+                499.5,
+                435.0
+              ],
+              [
+                495.5,
+                441.0
+              ],
+              [
+                485.0,
+                444.5
+              ],
+              [
+                473.0,
+                444.5
+              ],
+              [
+                461.5,
+                442.5
+              ],
+              [
+                452.5,
+                438.0
+              ],
+              [
+                445.5,
+                431.0
+              ],
+              [
+                446.0,
+                422.0
+              ],
+              [
+                450.0,
+                417.5
+              ],
+              [
+                459.0,
+                414.0
+              ],
+              [
+                471.5,
+                405.0
+              ],
+              [
+                486.0,
+                394.5
+              ]
+            ],
+            "polygonCentroid": [
+              477.5891106551431,
+              420.7236419407656
+            ],
+            "fragmentSha256": "ab8859d64605dbaa39f67ace03ccd114a7a331ae56cf458b09090353e5b09ebd",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          }
+        ]
+      },
+      {
+        "frame": 78,
+        "time": 3.25,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_078.png",
+        "sourceSha256": "63fed24423a2afbf759e8794c4c716609a85647154f070ad7efac0b42ff353ac",
+        "decodedVideoPixelsExact": true,
+        "track": {
+          "index": 78,
+          "time": 3.25,
+          "bbox": {
+            "x": 294,
+            "y": 45,
+            "width": 292,
+            "height": 409
+          },
+          "centroid": {
+            "x": 438.67,
+            "y": 228.0
+          },
+          "areaPx": 66079,
+          "landmarks": {
+            "foregroundCentroid": {
+              "x": 438.67,
+              "y": 228.0,
+              "confidence": "high"
+            },
+            "screenLeftFootCandidate": {
+              "x": 410.5,
+              "y": 453.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenRightFootCandidate": {
+              "x": 470.5,
+              "y": 453.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenLeftHandCandidate": {
+              "x": 378.0,
+              "y": 337.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "screenRightHandCandidate": {
+              "x": 528.0,
+              "y": 336.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "hand_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "hand_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            }
+          }
+        },
+        "parts": [
+          {
+            "id": "f078_arm_A_visible",
+            "kind": "arm",
+            "pose": "extended_visible",
+            "bbox": [
+              380,
+              294,
+              436,
+              371
+            ],
+            "polygonSourcePixels": [
+              [
+                400.0,
+                294.0
+              ],
+              [
+                390.0,
+                307.5
+              ],
+              [
+                383.0,
+                323.0
+              ],
+              [
+                380.5,
+                337.5
+              ],
+              [
+                381.5,
+                350.5
+              ],
+              [
+                387.5,
+                362.0
+              ],
+              [
+                398.0,
+                367.5
+              ],
+              [
+                411.5,
+                370.0
+              ],
+              [
+                425.0,
+                368.5
+              ],
+              [
+                433.5,
+                364.5
+              ],
+              [
+                435.5,
+                356.5
+              ],
+              [
+                431.5,
+                347.5
+              ],
+              [
+                425.0,
+                338.0
+              ],
+              [
+                423.0,
+                331.0
+              ],
+              [
+                428.5,
+                324.0
+              ]
+            ],
+            "polygonCentroid": [
+              405.7841974190627,
+              337.82801298015244
+            ],
+            "fragmentSha256": "7078367ee49e7c082dd7625bc25b1c09b070576a85332af7662a6c04a10c562f",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f078_arm_B_visible",
+            "kind": "arm",
+            "pose": "extended_visible",
+            "bbox": [
+              496,
+              312,
+              530,
+              357
+            ],
+            "polygonSourcePixels": [
+              [
+                496.0,
+                312.0
+              ],
+              [
+                507.5,
+                319.0
+              ],
+              [
+                518.0,
+                320.0
+              ],
+              [
+                525.5,
+                327.0
+              ],
+              [
+                529.0,
+                337.5
+              ],
+              [
+                528.0,
+                347.5
+              ],
+              [
+                521.5,
+                353.5
+              ],
+              [
+                512.0,
+                356.0
+              ],
+              [
+                501.5,
+                354.0
+              ]
+            ],
+            "polygonCentroid": [
+              512.1100741498338,
+              336.209814199267
+            ],
+            "fragmentSha256": "f1091e8b85bc06c24966ab7bc6959059590e727a16af7b8f0dd5a8a14ff749d1",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f078_leg_A_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              387,
+              373,
+              456,
+              436
+            ],
+            "polygonSourcePixels": [
+              [
+                394.5,
+                384.5
+              ],
+              [
+                404.0,
+                376.5
+              ],
+              [
+                417.5,
+                373.5
+              ],
+              [
+                431.0,
+                374.5
+              ],
+              [
+                442.5,
+                379.0
+              ],
+              [
+                452.0,
+                387.0
+              ],
+              [
+                455.0,
+                397.5
+              ],
+              [
+                454.5,
+                408.5
+              ],
+              [
+                450.5,
+                418.0
+              ],
+              [
+                444.0,
+                423.5
+              ],
+              [
+                431.0,
+                426.5
+              ],
+              [
+                422.5,
+                432.0
+              ],
+              [
+                417.0,
+                435.5
+              ],
+              [
+                407.0,
+                435.0
+              ],
+              [
+                397.5,
+                430.0
+              ],
+              [
+                390.0,
+                422.0
+              ],
+              [
+                387.0,
+                412.5
+              ],
+              [
+                388.0,
+                400.5
+              ]
+            ],
+            "polygonCentroid": [
+              420.22147065664007,
+              403.5235224952838
+            ],
+            "fragmentSha256": "27aebb363cf23d973a3d0dcb1b36424db36300b5502184368576eb4ac89dfc3d",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f078_leg_B_fragment_visible",
+            "kind": "leg",
+            "pose": "crossing_fragment",
+            "bbox": [
+              429,
+              395,
+              490,
+              443
+            ],
+            "polygonSourcePixels": [
+              [
+                454.0,
+                410.0
+              ],
+              [
+                447.0,
+                417.0
+              ],
+              [
+                436.5,
+                424.0
+              ],
+              [
+                429.5,
+                427.5
+              ],
+              [
+                431.5,
+                434.0
+              ],
+              [
+                439.0,
+                439.5
+              ],
+              [
+                450.0,
+                442.5
+              ],
+              [
+                462.0,
+                442.5
+              ],
+              [
+                473.5,
+                439.5
+              ],
+              [
+                479.5,
+                434.0
+              ],
+              [
+                479.5,
+                424.5
+              ],
+              [
+                477.0,
+                417.0
+              ],
+              [
+                485.0,
+                403.5
+              ],
+              [
+                489.5,
+                395.0
+              ],
+              [
+                481.0,
+                400.0
+              ],
+              [
+                469.5,
+                406.0
+              ]
+            ],
+            "polygonCentroid": [
+              459.99809600911516,
+              424.45003148331386
+            ],
+            "fragmentSha256": "1435ff0beba826136fe9b4af945a4234899128dd76680a43f2f767455d443393",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          }
+        ]
+      },
+      {
+        "frame": 79,
+        "time": 3.2916666666666665,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_079.png",
+        "sourceSha256": "c2e238fb4a36f536be0a78c1524590ee23a1f6ef7ab145616afb3914acfc1dfd",
+        "decodedVideoPixelsExact": true,
+        "track": null,
+        "parts": [
+          {
+            "id": "f079_arm_A_visible",
+            "kind": "arm",
+            "pose": "extended_visible",
+            "bbox": [
+              370,
+              295,
+              423,
+              366
+            ],
+            "polygonSourcePixels": [
+              [
+                396.0,
+                295.5
+              ],
+              [
+                386.0,
+                306.0
+              ],
+              [
+                376.0,
+                320.0
+              ],
+              [
+                371.0,
+                335.5
+              ],
+              [
+                370.0,
+                348.0
+              ],
+              [
+                373.0,
+                357.5
+              ],
+              [
+                380.5,
+                363.5
+              ],
+              [
+                391.5,
+                365.0
+              ],
+              [
+                402.5,
+                363.0
+              ],
+              [
+                411.5,
+                357.0
+              ],
+              [
+                414.0,
+                347.0
+              ],
+              [
+                413.5,
+                335.5
+              ],
+              [
+                415.0,
+                326.5
+              ],
+              [
+                422.5,
+                319.0
+              ]
+            ],
+            "polygonCentroid": [
+              394.29536419201736,
+              333.5764811993204
+            ],
+            "fragmentSha256": "2c93b73b0f82785da69e338f67c36790681d4fa17b574bd8af787b35ea5ca0a0",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f079_arm_B_visible",
+            "kind": "arm",
+            "pose": "extended_visible",
+            "bbox": [
+              495,
+              303,
+              537,
+              347
+            ],
+            "polygonSourcePixels": [
+              [
+                495.5,
+                303.5
+              ],
+              [
+                507.5,
+                307.5
+              ],
+              [
+                514.5,
+                307.0
+              ],
+              [
+                524.0,
+                310.5
+              ],
+              [
+                531.5,
+                318.5
+              ],
+              [
+                535.5,
+                328.5
+              ],
+              [
+                536.5,
+                337.5
+              ],
+              [
+                531.0,
+                343.5
+              ],
+              [
+                521.0,
+                346.5
+              ],
+              [
+                509.5,
+                346.0
+              ],
+              [
+                500.5,
+                342.0
+              ]
+            ],
+            "polygonCentroid": [
+              515.1850765721733,
+              326.6264581296839
+            ],
+            "fragmentSha256": "17f67c8e8a477fe8e5aca88e89be401850beff4769cb1569e5653528bfa6142d",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f079_leg_A_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              399,
+              361,
+              462,
+              438
+            ],
+            "polygonSourcePixels": [
+              [
+                399.5,
+                376.0
+              ],
+              [
+                411.5,
+                366.0
+              ],
+              [
+                425.5,
+                361.5
+              ],
+              [
+                438.5,
+                363.0
+              ],
+              [
+                449.5,
+                368.5
+              ],
+              [
+                458.0,
+                378.0
+              ],
+              [
+                461.0,
+                389.0
+              ],
+              [
+                460.0,
+                399.5
+              ],
+              [
+                454.5,
+                410.0
+              ],
+              [
+                445.5,
+                418.0
+              ],
+              [
+                443.5,
+                428.0
+              ],
+              [
+                438.5,
+                435.0
+              ],
+              [
+                430.5,
+                437.5
+              ],
+              [
+                420.0,
+                435.5
+              ],
+              [
+                410.0,
+                428.5
+              ],
+              [
+                403.0,
+                420.5
+              ],
+              [
+                399.0,
+                410.5
+              ],
+              [
+                399.5,
+                398.0
+              ],
+              [
+                403.0,
+                393.5
+              ]
+            ],
+            "polygonCentroid": [
+              428.39446270960747,
+              397.4350761834058
+            ],
+            "fragmentSha256": "fe06cf66040a3fc26f4f1cf93e28bbe6121f1a3e6f3d9b2bc17d8656ecd585b5",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f079_leg_B_fragment_visible",
+            "kind": "leg",
+            "pose": "crossing_fragment",
+            "bbox": [
+              431,
+              396,
+              481,
+              442
+            ],
+            "polygonSourcePixels": [
+              [
+                444.0,
+                417.5
+              ],
+              [
+                441.5,
+                426.5
+              ],
+              [
+                437.0,
+                434.0
+              ],
+              [
+                431.5,
+                438.5
+              ],
+              [
+                444.0,
+                441.0
+              ],
+              [
+                455.5,
+                440.5
+              ],
+              [
+                465.0,
+                436.0
+              ],
+              [
+                470.0,
+                429.5
+              ],
+              [
+                471.0,
+                421.5
+              ],
+              [
+                468.0,
+                415.0
+              ],
+              [
+                474.5,
+                404.5
+              ],
+              [
+                480.5,
+                396.0
+              ],
+              [
+                471.0,
+                402.5
+              ],
+              [
+                459.5,
+                408.5
+              ]
+            ],
+            "polygonCentroid": [
+              456.05993466837094,
+              424.2930454954315
+            ],
+            "fragmentSha256": "aad29161830a0775cf654e29555116a1c547470902c9d6c4768a7b8ab56e70a8",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          }
+        ]
+      },
+      {
+        "frame": 80,
+        "time": 3.3333333333333335,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_080.png",
+        "sourceSha256": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02",
+        "decodedVideoPixelsExact": true,
+        "track": {
+          "index": 80,
+          "time": 3.33333,
+          "bbox": {
+            "x": 293,
+            "y": 36,
+            "width": 291,
+            "height": 418
+          },
+          "centroid": {
+            "x": 437.05,
+            "y": 223.03
+          },
+          "areaPx": 67761,
+          "landmarks": {
+            "foregroundCentroid": {
+              "x": 437.05,
+              "y": 223.03,
+              "confidence": "high"
+            },
+            "screenLeftFootCandidate": {
+              "x": 412.5,
+              "y": 453.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenRightFootCandidate": {
+              "x": 468.5,
+              "y": 453.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenLeftHandCandidate": {
+              "x": 358.0,
+              "y": 328.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "screenRightHandCandidate": {
+              "x": 543.0,
+              "y": 310.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "hand_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "hand_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            }
+          }
+        },
+        "parts": [
+          {
+            "id": "f080_arm_A_visible",
+            "kind": "arm",
+            "pose": "extended_visible",
+            "bbox": [
+              360,
+              297,
+              417,
+              361
+            ],
+            "polygonSourcePixels": [
+              [
+                391.5,
+                297.5
+              ],
+              [
+                380.0,
+                306.0
+              ],
+              [
+                369.5,
+                318.0
+              ],
+              [
+                362.5,
+                330.5
+              ],
+              [
+                360.0,
+                342.5
+              ],
+              [
+                362.0,
+                351.5
+              ],
+              [
+                368.0,
+                357.5
+              ],
+              [
+                376.5,
+                360.5
+              ],
+              [
+                388.5,
+                360.0
+              ],
+              [
+                396.5,
+                356.0
+              ],
+              [
+                400.5,
+                347.0
+              ],
+              [
+                402.0,
+                335.5
+              ],
+              [
+                407.0,
+                326.0
+              ],
+              [
+                416.5,
+                318.5
+              ]
+            ],
+            "polygonCentroid": [
+              385.4116080313762,
+              331.1978087377314
+            ],
+            "fragmentSha256": "2af8a5c143d541cbd56616e631d03723ba9b0f6d0b1160b5cad4bfa773f31e5f",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f080_arm_B_visible",
+            "kind": "arm",
+            "pose": "extended_visible",
+            "bbox": [
+              495,
+              296,
+              543,
+              340
+            ],
+            "polygonSourcePixels": [
+              [
+                495.0,
+                296.5
+              ],
+              [
+                507.5,
+                298.5
+              ],
+              [
+                519.0,
+                297.5
+              ],
+              [
+                530.5,
+                301.5
+              ],
+              [
+                538.5,
+                310.0
+              ],
+              [
+                542.0,
+                320.0
+              ],
+              [
+                541.5,
+                329.0
+              ],
+              [
+                535.0,
+                335.5
+              ],
+              [
+                524.5,
+                339.0
+              ],
+              [
+                513.0,
+                337.5
+              ],
+              [
+                503.0,
+                332.5
+              ]
+            ],
+            "polygonCentroid": [
+              518.889498719356,
+              317.5747136142306
+            ],
+            "fragmentSha256": "08a7a68e4a015fe46918248e914c2cce72c08849c9dd991c838890ee03393bed",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f080_leg_A_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              399,
+              362,
+              463,
+              437
+            ],
+            "polygonSourcePixels": [
+              [
+                399.0,
+                378.5
+              ],
+              [
+                410.5,
+                367.5
+              ],
+              [
+                424.5,
+                362.0
+              ],
+              [
+                437.5,
+                362.5
+              ],
+              [
+                450.0,
+                368.0
+              ],
+              [
+                459.5,
+                377.5
+              ],
+              [
+                462.5,
+                389.0
+              ],
+              [
+                462.5,
+                401.0
+              ],
+              [
+                459.0,
+                411.0
+              ],
+              [
+                459.0,
+                420.5
+              ],
+              [
+                461.0,
+                428.0
+              ],
+              [
+                457.5,
+                434.0
+              ],
+              [
+                447.0,
+                436.5
+              ],
+              [
+                435.5,
+                434.5
+              ],
+              [
+                423.5,
+                429.0
+              ],
+              [
+                415.0,
+                421.5
+              ],
+              [
+                409.0,
+                411.5
+              ],
+              [
+                407.0,
+                402.5
+              ],
+              [
+                410.0,
+                399.5
+              ]
+            ],
+            "polygonCentroid": [
+              434.18261660324976,
+              397.6194390599947
+            ],
+            "fragmentSha256": "3a2338442fc317e2fb3c295d11912e150a73f48616ec73805f4551f75aa901b2",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          }
+        ]
+      },
+      {
+        "frame": 81,
+        "time": 3.375,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_081.png",
+        "sourceSha256": "b46b02660221465c152edd5274260066093216e1a6cc5da01137fae3d5c91b0f",
+        "decodedVideoPixelsExact": true,
+        "track": null,
+        "parts": [
+          {
+            "id": "f081_arm_A_visible",
+            "kind": "arm",
+            "pose": "extended_visible",
+            "bbox": [
+              352,
+              297,
+              417,
+              354
+            ],
+            "polygonSourcePixels": [
+              [
+                388.5,
+                297.0
+              ],
+              [
+                376.0,
+                303.5
+              ],
+              [
+                364.0,
+                314.0
+              ],
+              [
+                355.5,
+                325.0
+              ],
+              [
+                352.0,
+                337.0
+              ],
+              [
+                352.5,
+                346.0
+              ],
+              [
+                358.0,
+                351.5
+              ],
+              [
+                367.5,
+                353.5
+              ],
+              [
+                378.5,
+                353.0
+              ],
+              [
+                388.5,
+                349.0
+              ],
+              [
+                394.0,
+                341.5
+              ],
+              [
+                399.0,
+                330.5
+              ],
+              [
+                406.0,
+                325.0
+              ],
+              [
+                416.5,
+                320.5
+              ]
+            ],
+            "polygonCentroid": [
+              379.92852927289897,
+              327.10110757003457
+            ],
+            "fragmentSha256": "f22937c98edcfc771ac0faab880048885eb92827e4f88e57063a824effa3d540",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f081_arm_B_visible",
+            "kind": "arm",
+            "pose": "extended_visible",
+            "bbox": [
+              493,
+              292,
+              546,
+              334
+            ],
+            "polygonSourcePixels": [
+              [
+                493.5,
+                293.5
+              ],
+              [
+                506.5,
+                294.5
+              ],
+              [
+                519.0,
+                292.0
+              ],
+              [
+                530.5,
+                293.5
+              ],
+              [
+                541.0,
+                299.0
+              ],
+              [
+                545.5,
+                308.0
+              ],
+              [
+                545.5,
+                318.0
+              ],
+              [
+                540.5,
+                326.5
+              ],
+              [
+                530.5,
+                332.0
+              ],
+              [
+                518.5,
+                333.5
+              ],
+              [
+                505.0,
+                330.5
+              ],
+              [
+                498.0,
+                325.0
+              ]
+            ],
+            "polygonCentroid": [
+              519.50871059208,
+              312.12433919646287
+            ],
+            "fragmentSha256": "9a160f70ad53300908f995843df5fed2bfb93f2c8a6795d366d492ac820f5f38",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f081_leg_A_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              399,
+              366,
+              479,
+              438
+            ],
+            "polygonSourcePixels": [
+              [
+                399.0,
+                379.5
+              ],
+              [
+                409.0,
+                370.0
+              ],
+              [
+                422.5,
+                366.0
+              ],
+              [
+                436.0,
+                367.0
+              ],
+              [
+                449.0,
+                372.5
+              ],
+              [
+                459.5,
+                383.0
+              ],
+              [
+                465.0,
+                394.5
+              ],
+              [
+                466.5,
+                404.0
+              ],
+              [
+                472.5,
+                409.0
+              ],
+              [
+                478.5,
+                415.5
+              ],
+              [
+                478.0,
+                422.0
+              ],
+              [
+                469.5,
+                429.5
+              ],
+              [
+                459.0,
+                435.5
+              ],
+              [
+                448.5,
+                437.5
+              ],
+              [
+                437.5,
+                435.0
+              ],
+              [
+                428.5,
+                429.0
+              ],
+              [
+                422.0,
+                421.0
+              ],
+              [
+                416.0,
+                410.0
+              ],
+              [
+                411.5,
+                400.0
+              ],
+              [
+                406.5,
+                391.0
+              ]
+            ],
+            "polygonCentroid": [
+              439.38897622790716,
+              401.0927183078462
+            ],
+            "fragmentSha256": "7e18d8e74d259463873d0a8345953260b3555da9e5f14e1199d663a6273d2b14",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f081_leg_B_fragment_visible",
+            "kind": "leg",
+            "pose": "crossing_fragment",
+            "bbox": [
+              398,
+              400,
+              422,
+              429
+            ],
+            "polygonSourcePixels": [
+              [
+                399.5,
+                400.5
+              ],
+              [
+                405.0,
+                405.0
+              ],
+              [
+                410.0,
+                414.0
+              ],
+              [
+                416.0,
+                423.0
+              ],
+              [
+                421.0,
+                428.5
+              ],
+              [
+                413.0,
+                427.5
+              ],
+              [
+                405.0,
+                424.0
+              ],
+              [
+                399.5,
+                418.5
+              ],
+              [
+                398.5,
+                410.0
+              ]
+            ],
+            "polygonCentroid": [
+              406.5941814595661,
+              416.3688362919132
+            ],
+            "fragmentSha256": "db453dbd8050ccbba8b2db4ce45f0aa585adaf7a1bf5dbf34f445d00ac23a7d4",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          }
+        ]
+      },
+      {
+        "frame": 82,
+        "time": 3.4166666666666665,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_082.png",
+        "sourceSha256": "c1e35a74624862d33b2d484d1de836195fabc2c50e4749c995a9b740776e24e2",
+        "decodedVideoPixelsExact": true,
+        "track": {
+          "index": 82,
+          "time": 3.41667,
+          "bbox": {
+            "x": 278,
+            "y": 41,
+            "width": 315,
+            "height": 415
+          },
+          "centroid": {
+            "x": 435.26,
+            "y": 232.56
+          },
+          "areaPx": 70993,
+          "landmarks": {
+            "foregroundCentroid": {
+              "x": 435.26,
+              "y": 232.56,
+              "confidence": "high"
+            },
+            "screenLeftFootCandidate": {
+              "x": 417.0,
+              "y": 453.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenRightFootCandidate": {
+              "x": 451.5,
+              "y": 455.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenLeftHandCandidate": {
+              "x": 340.0,
+              "y": 328.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "screenRightHandCandidate": {
+              "x": 549.0,
+              "y": 303.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "hand_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "hand_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            }
+          }
+        },
+        "parts": [
+          {
+            "id": "f082_arm_A_visible",
+            "kind": "arm",
+            "pose": "extended_visible",
+            "bbox": [
+              342,
+              299,
+              413,
+              353
+            ],
+            "polygonSourcePixels": [
+              [
+                383.0,
+                299.0
+              ],
+              [
+                369.5,
+                305.5
+              ],
+              [
+                357.5,
+                314.5
+              ],
+              [
+                347.5,
+                326.0
+              ],
+              [
+                342.5,
+                337.0
+              ],
+              [
+                344.0,
+                345.0
+              ],
+              [
+                351.0,
+                350.5
+              ],
+              [
+                361.0,
+                352.0
+              ],
+              [
+                372.0,
+                351.5
+              ],
+              [
+                381.0,
+                347.5
+              ],
+              [
+                386.5,
+                339.5
+              ],
+              [
+                392.0,
+                331.5
+              ],
+              [
+                402.5,
+                328.0
+              ],
+              [
+                412.5,
+                322.0
+              ]
+            ],
+            "polygonCentroid": [
+              373.57821367623126,
+              327.1716474183434
+            ],
+            "fragmentSha256": "1fbd83f0799fbfdf753e4edd2541d107996372f8cc5f6c5b2cc6140952cd136b",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f082_arm_B_visible",
+            "kind": "arm",
+            "pose": "extended_visible",
+            "bbox": [
+              492,
+              291,
+              546,
+              336
+            ],
+            "polygonSourcePixels": [
+              [
+                492.5,
+                293.5
+              ],
+              [
+                505.5,
+                294.5
+              ],
+              [
+                517.0,
+                291.0
+              ],
+              [
+                529.0,
+                292.5
+              ],
+              [
+                539.5,
+                298.5
+              ],
+              [
+                545.5,
+                307.5
+              ],
+              [
+                545.5,
+                318.0
+              ],
+              [
+                540.0,
+                326.5
+              ],
+              [
+                529.5,
+                333.0
+              ],
+              [
+                517.0,
+                335.5
+              ],
+              [
+                505.0,
+                332.5
+              ],
+              [
+                496.5,
+                327.0
+              ]
+            ],
+            "polygonCentroid": [
+              518.5546904842153,
+              312.60067408156385
+            ],
+            "fragmentSha256": "107f9633fad9fdfb2be9788a35463bb0c61658ee5a07db7676e6de80c0bf7c72",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f082_leg_A_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              397,
+              376,
+              482,
+              450
+            ],
+            "polygonSourcePixels": [
+              [
+                397.5,
+                393.5
+              ],
+              [
+                405.0,
+                385.0
+              ],
+              [
+                417.0,
+                378.0
+              ],
+              [
+                429.0,
+                376.0
+              ],
+              [
+                441.5,
+                379.0
+              ],
+              [
+                453.0,
+                386.0
+              ],
+              [
+                462.5,
+                397.0
+              ],
+              [
+                467.0,
+                409.5
+              ],
+              [
+                468.0,
+                419.5
+              ],
+              [
+                477.5,
+                424.0
+              ],
+              [
+                481.0,
+                430.5
+              ],
+              [
+                478.5,
+                438.0
+              ],
+              [
+                469.0,
+                444.5
+              ],
+              [
+                456.0,
+                448.5
+              ],
+              [
+                443.0,
+                449.0
+              ],
+              [
+                434.5,
+                444.5
+              ],
+              [
+                428.0,
+                434.5
+              ],
+              [
+                422.5,
+                423.0
+              ],
+              [
+                415.5,
+                412.0
+              ],
+              [
+                408.5,
+                401.5
+              ]
+            ],
+            "polygonCentroid": [
+              441.2521605381595,
+              412.17027554342616
+            ],
+            "fragmentSha256": "9df7c29889ae09545831ffc4d259cc4db55077a81efb3b1f9fc5cf22644de663",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f082_leg_B_fragment_visible",
+            "kind": "leg",
+            "pose": "crossing_fragment",
+            "bbox": [
+              386,
+              388,
+              409,
+              419
+            ],
+            "polygonSourcePixels": [
+              [
+                390.0,
+                388.5
+              ],
+              [
+                394.5,
+                393.5
+              ],
+              [
+                398.0,
+                401.5
+              ],
+              [
+                403.0,
+                410.0
+              ],
+              [
+                408.0,
+                417.5
+              ],
+              [
+                401.0,
+                418.5
+              ],
+              [
+                393.5,
+                416.0
+              ],
+              [
+                387.5,
+                411.0
+              ],
+              [
+                386.0,
+                402.0
+              ]
+            ],
+            "polygonCentroid": [
+              394.75417488494406,
+              406.2392504930966
+            ],
+            "fragmentSha256": "778a451ef091423accd52510cf88498b0eb087273a0d93e9e90569ad9df1e0a8",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          }
+        ]
+      },
+      {
+        "frame": 83,
+        "time": 3.4583333333333335,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_083.png",
+        "sourceSha256": "8d0a84da923ab2316c52bc0cb40616885eac163ea55e5873f72966a727fe50f2",
+        "decodedVideoPixelsExact": true,
+        "track": null,
+        "parts": [
+          {
+            "id": "f083_arm_A_visible",
+            "kind": "arm",
+            "pose": "extended_visible",
+            "bbox": [
+              344,
+              297,
+              408,
+              358
+            ],
+            "polygonSourcePixels": [
+              [
+                385.5,
+                297.5
+              ],
+              [
+                372.5,
+                305.0
+              ],
+              [
+                359.5,
+                316.0
+              ],
+              [
+                348.5,
+                328.5
+              ],
+              [
+                344.5,
+                340.0
+              ],
+              [
+                346.5,
+                348.5
+              ],
+              [
+                354.0,
+                355.0
+              ],
+              [
+                364.0,
+                357.5
+              ],
+              [
+                374.0,
+                355.5
+              ],
+              [
+                381.5,
+                349.5
+              ],
+              [
+                388.0,
+                339.0
+              ],
+              [
+                395.5,
+                333.5
+              ],
+              [
+                407.0,
+                327.5
+              ]
+            ],
+            "polygonCentroid": [
+              373.415572975434,
+              329.6353108854445
+            ],
+            "fragmentSha256": "3245afc2afc45d4f829c298375688e9012b17dd6459bc908508850780d89b363",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f083_arm_B_visible",
+            "kind": "arm",
+            "pose": "extended_visible",
+            "bbox": [
+              494,
+              294,
+              545,
+              341
+            ],
+            "polygonSourcePixels": [
+              [
+                494.0,
+                295.0
+              ],
+              [
+                508.0,
+                295.5
+              ],
+              [
+                518.5,
+                294.0
+              ],
+              [
+                530.0,
+                297.5
+              ],
+              [
+                539.0,
+                304.5
+              ],
+              [
+                544.0,
+                314.0
+              ],
+              [
+                543.0,
+                324.0
+              ],
+              [
+                536.5,
+                333.0
+              ],
+              [
+                525.5,
+                338.5
+              ],
+              [
+                514.0,
+                340.0
+              ],
+              [
+                503.0,
+                335.0
+              ]
+            ],
+            "polygonCentroid": [
+              518.9688161834514,
+              316.0304900314029
+            ],
+            "fragmentSha256": "be53ede51949d35ac2813ce22fcfc6a09ae64e54012cee66389aeda958b2b643",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f083_leg_A_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              397,
+              382,
+              474,
+              454
+            ],
+            "polygonSourcePixels": [
+              [
+                397.5,
+                397.0
+              ],
+              [
+                407.0,
+                388.0
+              ],
+              [
+                419.5,
+                383.0
+              ],
+              [
+                432.5,
+                382.5
+              ],
+              [
+                445.5,
+                386.5
+              ],
+              [
+                456.5,
+                395.0
+              ],
+              [
+                463.5,
+                405.5
+              ],
+              [
+                465.5,
+                417.5
+              ],
+              [
+                465.5,
+                426.5
+              ],
+              [
+                472.5,
+                436.0
+              ],
+              [
+                473.0,
+                443.5
+              ],
+              [
+                467.0,
+                448.5
+              ],
+              [
+                455.5,
+                452.0
+              ],
+              [
+                442.5,
+                453.0
+              ],
+              [
+                430.5,
+                451.0
+              ],
+              [
+                422.0,
+                446.0
+              ],
+              [
+                415.5,
+                438.0
+              ],
+              [
+                412.5,
+                428.0
+              ],
+              [
+                410.5,
+                417.0
+              ],
+              [
+                405.0,
+                406.0
+              ]
+            ],
+            "polygonCentroid": [
+              437.03163908864525,
+              417.7933161116153
+            ],
+            "fragmentSha256": "3a05fd52f13a8d4bbaae105995b80bb5d4063cb9eb3cb14d893624ff13eda890",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f083_leg_B_fragment_visible",
+            "kind": "leg",
+            "pose": "crossing_fragment",
+            "bbox": [
+              389,
+              393,
+              407,
+              421
+            ],
+            "polygonSourcePixels": [
+              [
+                391.0,
+                393.5
+              ],
+              [
+                395.5,
+                401.0
+              ],
+              [
+                398.5,
+                409.0
+              ],
+              [
+                403.0,
+                416.0
+              ],
+              [
+                406.5,
+                419.5
+              ],
+              [
+                400.5,
+                420.5
+              ],
+              [
+                394.5,
+                418.5
+              ],
+              [
+                390.5,
+                414.0
+              ],
+              [
+                389.0,
+                406.5
+              ]
+            ],
+            "polygonCentroid": [
+              395.352217271377,
+              409.9542754084447
+            ],
+            "fragmentSha256": "fc77658f53cf88beef03a0baf617456990443173f307ccbc9fa4cc7d3fdd376a",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          }
+        ]
+      },
+      {
+        "frame": 84,
+        "time": 3.5,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_084.png",
+        "sourceSha256": "3fe5ab53f1fa27ad7d2ad6a87429196ddae7fd06df45dbfce0e2ae64a6835a25",
+        "decodedVideoPixelsExact": true,
+        "track": {
+          "index": 84,
+          "time": 3.5,
+          "bbox": {
+            "x": 276,
+            "y": 50,
+            "width": 320,
+            "height": 408
+          },
+          "centroid": {
+            "x": 436.31,
+            "y": 237.63
+          },
+          "areaPx": 70009,
+          "landmarks": {
+            "foregroundCentroid": {
+              "x": 436.31,
+              "y": 237.63,
+              "confidence": "high"
+            },
+            "screenLeftFootCandidate": {
+              "x": 428.5,
+              "y": 457.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenRightFootCandidate": {
+              "x": 443.5,
+              "y": 457.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenLeftHandCandidate": {
+              "x": 350.0,
+              "y": 340.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "screenRightHandCandidate": {
+              "x": 545.0,
+              "y": 320.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "hand_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "hand_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            }
+          }
+        },
+        "parts": [
+          {
+            "id": "f084_arm_A_visible",
+            "kind": "arm",
+            "pose": "extended_visible",
+            "bbox": [
+              353,
+              302,
+              416,
+              368
+            ],
+            "polygonSourcePixels": [
+              [
+                388.5,
+                302.0
+              ],
+              [
+                374.5,
+                312.0
+              ],
+              [
+                363.0,
+                325.0
+              ],
+              [
+                355.0,
+                338.0
+              ],
+              [
+                353.5,
+                349.5
+              ],
+              [
+                357.5,
+                359.5
+              ],
+              [
+                365.5,
+                366.0
+              ],
+              [
+                376.0,
+                367.0
+              ],
+              [
+                384.0,
+                364.5
+              ],
+              [
+                390.0,
+                365.5
+              ],
+              [
+                395.5,
+                358.0
+              ],
+              [
+                398.0,
+                347.5
+              ],
+              [
+                404.0,
+                337.5
+              ],
+              [
+                415.0,
+                332.0
+              ]
+            ],
+            "polygonCentroid": [
+              381.1856747563404,
+              337.33036359470555
+            ],
+            "fragmentSha256": "a4139f6ae0d529c56d99e8cf6ec18386c0b5e0ab159907cb9e9e28784cdc2dda",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f084_arm_B_visible",
+            "kind": "arm",
+            "pose": "extended_visible",
+            "bbox": [
+              493,
+              306,
+              544,
+              354
+            ],
+            "polygonSourcePixels": [
+              [
+                493.0,
+                309.0
+              ],
+              [
+                505.0,
+                306.5
+              ],
+              [
+                516.5,
+                307.5
+              ],
+              [
+                528.5,
+                313.5
+              ],
+              [
+                538.0,
+                321.5
+              ],
+              [
+                543.5,
+                332.5
+              ],
+              [
+                542.0,
+                342.5
+              ],
+              [
+                535.5,
+                349.0
+              ],
+              [
+                525.0,
+                353.0
+              ],
+              [
+                513.5,
+                352.5
+              ],
+              [
+                503.0,
+                348.5
+              ]
+            ],
+            "polygonCentroid": [
+              517.9999264381345,
+              329.9414079741062
+            ],
+            "fragmentSha256": "133598739dc2ab633e2c54d2d7b01a8efde4d7708adb27c2157a66a87ff1cbe7",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          },
+          {
+            "id": "f084_leg_A_visible",
+            "kind": "leg",
+            "pose": "extended_visible",
+            "bbox": [
+              398,
+              383,
+              464,
+              455
+            ],
+            "polygonSourcePixels": [
+              [
+                398.0,
+                397.5
+              ],
+              [
+                407.5,
+                389.0
+              ],
+              [
+                420.0,
+                384.0
+              ],
+              [
+                432.5,
+                383.5
+              ],
+              [
+                445.0,
+                387.5
+              ],
+              [
+                456.0,
+                395.5
+              ],
+              [
+                461.0,
+                405.0
+              ],
+              [
+                462.0,
+                416.5
+              ],
+              [
+                460.5,
+                425.0
+              ],
+              [
+                463.5,
+                435.0
+              ],
+              [
+                463.0,
+                444.5
+              ],
+              [
+                457.0,
+                450.0
+              ],
+              [
+                446.0,
+                453.5
+              ],
+              [
+                434.0,
+                454.0
+              ],
+              [
+                422.0,
+                450.5
+              ],
+              [
+                413.5,
+                443.5
+              ],
+              [
+                407.5,
+                433.5
+              ],
+              [
+                406.5,
+                423.0
+              ],
+              [
+                403.0,
+                411.0
+              ]
+            ],
+            "polygonCentroid": [
+              432.9692052118804,
+              418.3129729474082
+            ],
+            "fragmentSha256": "ac9193998b3a1e8d27390770a386c8a1ec63086a84c936e445ef4f55e13dd02f",
+            "anatomicalIdentity": "unknown",
+            "crossFrameIdentityEstablished": false
+          }
+        ]
+      }
+    ],
+    "loopClosure": "84帧观测独立保存；最终关键值显式复制68帧，原始首尾轮廓不声称完全相同",
+    "footAnchorsSourcePixels": {
+      "leg_near": [
+        366.5,
+        662.0
+      ],
+      "leg_far": [
+        442.0,
+        646.0
+      ]
+    },
+    "contactFrameCandidates": {
+      "leg_near": [
+        68,
+        70,
+        72,
+        82,
+        84
+      ],
+      "leg_far": [
+        74,
+        76,
+        78
+      ]
+    },
+    "footSamples": [
+      {
+        "frame": 68,
+        "time": 0.0,
+        "leg_near": [
+          366.49999976006654,
+          661.9999998317293
+        ],
+        "leg_far": [
+          442.0000003328291,
+          643.0000003239173
+        ]
+      },
+      {
+        "frame": 70,
+        "time": 0.08333333333333333,
+        "leg_near": [
+          366.4999996349551,
+          661.9999998756361
+        ],
+        "leg_far": [
+          438.9999998791582,
+          641.0000002078983
+        ]
+      },
+      {
+        "frame": 72,
+        "time": 0.16666666666666666,
+        "leg_near": [
+          366.5000003742425,
+          662.0000004763892
+        ],
+        "leg_far": [
+          437.00000037687295,
+          643.0000002469802
+        ]
+      },
+      {
+        "frame": 74,
+        "time": 0.25,
+        "leg_near": [
+          369.50000048622815,
+          660.000000348911
+        ],
+        "leg_far": [
+          442.000000400973,
+          646.0000002348434
+        ]
+      },
+      {
+        "frame": 76,
+        "time": 0.3333333333333333,
+        "leg_near": [
+          372.49999973562643,
+          657.0000003135387
+        ],
+        "leg_far": [
+          441.99999978052404,
+          645.9999997491797
+        ]
+      },
+      {
+        "frame": 78,
+        "time": 0.4166666666666667,
+        "leg_near": [
+          369.5000000683623,
+          655.9999995316302
+        ],
+        "leg_far": [
+          441.9999995848314,
+          645.9999998878759
+        ]
+      },
+      {
+        "frame": 80,
+        "time": 0.5,
+        "leg_near": [
+          366.5000001189435,
+          658.9999997692639
+        ],
+        "leg_far": [
+          444.99999961546627,
+          641.9999999371681
+        ]
+      },
+      {
+        "frame": 82,
+        "time": 0.5833333333333334,
+        "leg_near": [
+          366.49999966729877,
+          661.9999997353794
+        ],
+        "leg_far": [
+          443.999999610746,
+          641.0000003964633
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "仅会议演示：hiddenComplete=false，productionApproved=false，characterId=null；稳定素材状态未提升。",
+    "A/B逐帧轮廓不是已确认解剖左右或跨帧身份；near/far映射为低可信手工相位假设。",
+    "有限手工关键值参考视频轮廓和bbox/centroid，不是自动关节拟合，也不复现原视频大幅胸前交叉手臂。",
+    "单刚性region四肢无膝肘弯曲；肩根、腋下、髋根和短裤隐藏面不完整，小幅运动仍可能露缝。",
+    "腿源裁片可能带裤口描边，shorts仅当前服装可见裁片，不代表换装、裸腿或跨角色复用完成。",
+    "脚底约束为二维手工接触候选的脚底中心位置补偿，无IK、无足掌形变，接触期外允许有限移动。",
+    "原源图与视频角色身份未确认；视频只提供动作节奏参考，不证明角色资产来源。",
+    "Python从导出JSON和atlas实际求解刚性骨骼；未声称通过Spine编辑器或官方运行时导入验收。"
+  ],
+  "buildScript": {
+    "file": "build_meeting_walk.py",
+    "sha256": "d45907abbc6c59084eb5e3f953da448934a4ee6a47ecfdbc1514ac02ab7b178d"
+  }
+}

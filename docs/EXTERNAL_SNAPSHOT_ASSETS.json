@@ -1,0 +1,12 @@
+{
+  "releaseTag": "snapshot-2026-11-20-accepted",
+  "archive": "historical_large_assets_20261120.zip",
+  "archiveSha256": "b9c6bd103792a797ca4ae3b8db78655bd649a050d1c3445a72e23f7ebb65563d",
+  "files": [
+    {
+      "path": "studio_v3/generated_rig/video_f7e82942/arm_mesh_test_v7/study.json",
+      "bytes": 151909980,
+      "sha256": "4a8f286371e671b02037339dcc0fce2ea23d61d5cf8ca162392bf84a8f4b674c"
+    }
+  ]
+}

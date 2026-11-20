@@ -1,0 +1,6823 @@
+{
+  "coordinateSpace": "source pixels, origin top-left",
+  "tracks": [
+    {
+      "index": 0,
+      "time": 0.0,
+      "bbox": {
+        "x": 275,
+        "y": 46,
+        "width": 321,
+        "height": 412
+      },
+      "centroid": {
+        "x": 435.25,
+        "y": 235.18
+      },
+      "areaPx": 71759,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 435.25,
+          "y": 235.18,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 430.0,
+          "y": 457.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 449.0,
+          "y": 457.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 341.0,
+          "y": 335.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 549.0,
+          "y": 310.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": 357,
+          "y": 335,
+          "confidence": "low",
+          "visibility": "visible",
+          "visible": true,
+          "identityConfidence": "low",
+          "method": "manual_grid_review",
+          "annotationUncertaintyPx": 12,
+          "sourceFrame": 0,
+          "note": "掌心/脚掌中心人工近似，近远侧身份暂定，不可用于正式绑定"
+        },
+        "hand_far": {
+          "x": 514,
+          "y": 309,
+          "confidence": "low",
+          "visibility": "visible",
+          "visible": true,
+          "identityConfidence": "low",
+          "method": "manual_grid_review",
+          "annotationUncertaintyPx": 12,
+          "sourceFrame": 0,
+          "note": "掌心/脚掌中心人工近似，近远侧身份暂定，不可用于正式绑定"
+        },
+        "foot_near": {
+          "x": 433,
+          "y": 416,
+          "confidence": "low",
+          "visibility": "visible",
+          "visible": true,
+          "identityConfidence": "low",
+          "method": "manual_grid_review",
+          "annotationUncertaintyPx": 12,
+          "sourceFrame": 0,
+          "note": "掌心/脚掌中心人工近似，近远侧身份暂定，不可用于正式绑定"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "occluded",
+          "visible": false,
+          "method": "manual_grid_review",
+          "note": "无法独立识别的遮挡肢体"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "time": 0.08333,
+      "bbox": {
+        "x": 282,
+        "y": 52,
+        "width": 312,
+        "height": 406
+      },
+      "centroid": {
+        "x": 437.17,
+        "y": 237.88
+      },
+      "areaPx": 68912,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.17,
+          "y": 237.88,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 428.5,
+          "y": 457.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 443.5,
+          "y": 457.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 361.0,
+          "y": 346.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 541.0,
+          "y": 337.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "time": 0.16667,
+      "bbox": {
+        "x": 294,
+        "y": 46,
+        "width": 293,
+        "height": 411
+      },
+      "centroid": {
+        "x": 438.0,
+        "y": 229.34
+      },
+      "areaPx": 65854,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 438.0,
+          "y": 229.34,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 430.5,
+          "y": 456.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 469.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 383.0,
+          "y": 363.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 515.0,
+          "y": 335.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "time": 0.25,
+      "bbox": {
+        "x": 294,
+        "y": 36,
+        "width": 290,
+        "height": 420
+      },
+      "centroid": {
+        "x": 436.88,
+        "y": 223.52
+      },
+      "areaPx": 65484,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 436.88,
+          "y": 223.52,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 411.3,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 454.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 380.0,
+          "y": 362.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 511.0,
+          "y": 360.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "time": 0.33333,
+      "bbox": {
+        "x": 286,
+        "y": 36,
+        "width": 302,
+        "height": 420
+      },
+      "centroid": {
+        "x": 436.51,
+        "y": 226.48
+      },
+      "areaPx": 67090,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 436.51,
+          "y": 226.48,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 417.7,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 454.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 380.0,
+          "y": 358.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 508.0,
+          "y": 362.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": 457,
+          "y": 330,
+          "confidence": "low",
+          "visibility": "visible",
+          "visible": true,
+          "identityConfidence": "low",
+          "method": "manual_grid_review",
+          "annotationUncertaintyPx": 12,
+          "sourceFrame": 8,
+          "note": "掌心/脚掌中心人工近似，近远侧身份暂定，不可用于正式绑定"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "occluded",
+          "visible": false,
+          "method": "manual_grid_review",
+          "note": "无法独立识别的遮挡肢体"
+        },
+        "foot_near": {
+          "x": 393,
+          "y": 402,
+          "confidence": "low",
+          "visibility": "visible",
+          "visible": true,
+          "identityConfidence": "low",
+          "method": "manual_grid_review",
+          "annotationUncertaintyPx": 12,
+          "sourceFrame": 8,
+          "note": "掌心/脚掌中心人工近似，近远侧身份暂定，不可用于正式绑定"
+        },
+        "foot_far": {
+          "x": 511,
+          "y": 401,
+          "confidence": "low",
+          "visibility": "visible",
+          "visible": true,
+          "identityConfidence": "low",
+          "method": "manual_grid_review",
+          "annotationUncertaintyPx": 12,
+          "sourceFrame": 8,
+          "note": "掌心/脚掌中心人工近似，近远侧身份暂定，不可用于正式绑定"
+        }
+      }
+    },
+    {
+      "index": 10,
+      "time": 0.41667,
+      "bbox": {
+        "x": 278,
+        "y": 50,
+        "width": 319,
+        "height": 406
+      },
+      "centroid": {
+        "x": 437.25,
+        "y": 233.7
+      },
+      "areaPx": 67034,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.25,
+          "y": 233.7,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 406.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 470.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 377.0,
+          "y": 293.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 502.0,
+          "y": 364.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 12,
+      "time": 0.5,
+      "bbox": {
+        "x": 286,
+        "y": 52,
+        "width": 307,
+        "height": 404
+      },
+      "centroid": {
+        "x": 437.96,
+        "y": 233.93
+      },
+      "areaPx": 66125,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.96,
+          "y": 233.93,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 406.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 470.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 386.0,
+          "y": 360.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 507.0,
+          "y": 342.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 14,
+      "time": 0.58333,
+      "bbox": {
+        "x": 294,
+        "y": 38,
+        "width": 290,
+        "height": 418
+      },
+      "centroid": {
+        "x": 437.06,
+        "y": 223.77
+      },
+      "areaPx": 67204,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.06,
+          "y": 223.77,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 409.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 467.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 363.0,
+          "y": 332.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 540.0,
+          "y": 319.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 16,
+      "time": 0.66667,
+      "bbox": {
+        "x": 286,
+        "y": 36,
+        "width": 301,
+        "height": 420
+      },
+      "centroid": {
+        "x": 435.47,
+        "y": 226.98
+      },
+      "areaPx": 69892,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 435.47,
+          "y": 226.98,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 409.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 467.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 346.0,
+          "y": 324.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 548.0,
+          "y": 304.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": 367,
+          "y": 330,
+          "confidence": "low",
+          "visibility": "visible",
+          "visible": true,
+          "identityConfidence": "low",
+          "method": "manual_grid_review",
+          "annotationUncertaintyPx": 12,
+          "sourceFrame": 16,
+          "note": "掌心/脚掌中心人工近似，近远侧身份暂定，不可用于正式绑定"
+        },
+        "hand_far": {
+          "x": 517,
+          "y": 304,
+          "confidence": "low",
+          "visibility": "visible",
+          "visible": true,
+          "identityConfidence": "low",
+          "method": "manual_grid_review",
+          "annotationUncertaintyPx": 12,
+          "sourceFrame": 16,
+          "note": "掌心/脚掌中心人工近似，近远侧身份暂定，不可用于正式绑定"
+        },
+        "foot_near": {
+          "x": 440,
+          "y": 405,
+          "confidence": "low",
+          "visibility": "visible",
+          "visible": true,
+          "identityConfidence": "low",
+          "method": "manual_grid_review",
+          "annotationUncertaintyPx": 12,
+          "sourceFrame": 16,
+          "note": "掌心/脚掌中心人工近似，近远侧身份暂定，不可用于正式绑定"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "occluded",
+          "visible": false,
+          "method": "manual_grid_review",
+          "note": "无法独立识别的遮挡肢体"
+        }
+      }
+    },
+    {
+      "index": 18,
+      "time": 0.75,
+      "bbox": {
+        "x": 276,
+        "y": 48,
+        "width": 320,
+        "height": 410
+      },
+      "centroid": {
+        "x": 435.58,
+        "y": 236.39
+      },
+      "areaPx": 70502,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 435.58,
+          "y": 236.39,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 433.5,
+          "y": 457.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 446.5,
+          "y": 457.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 345.0,
+          "y": 338.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 548.0,
+          "y": 320.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 20,
+      "time": 0.83333,
+      "bbox": {
+        "x": 285,
+        "y": 52,
+        "width": 307,
+        "height": 406
+      },
+      "centroid": {
+        "x": 437.74,
+        "y": 236.21
+      },
+      "areaPx": 67895,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.74,
+          "y": 236.21,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 428.0,
+          "y": 457.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 441.5,
+          "y": 457.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 369.0,
+          "y": 344.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 534.0,
+          "y": 341.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 22,
+      "time": 0.91667,
+      "bbox": {
+        "x": 294,
+        "y": 38,
+        "width": 290,
+        "height": 416
+      },
+      "centroid": {
+        "x": 437.23,
+        "y": 224.04
+      },
+      "areaPx": 64978,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.23,
+          "y": 224.04,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 409.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 480.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 382.0,
+          "y": 359.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 510.0,
+          "y": 361.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 24,
+      "time": 1.0,
+      "bbox": {
+        "x": 286,
+        "y": 36,
+        "width": 302,
+        "height": 418
+      },
+      "centroid": {
+        "x": 436.42,
+        "y": 225.35
+      },
+      "areaPx": 66347,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 436.42,
+          "y": 225.35,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 406.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 477.83,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 380.0,
+          "y": 358.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 509.0,
+          "y": 361.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": 468,
+          "y": 323,
+          "confidence": "low",
+          "visibility": "visible",
+          "visible": true,
+          "identityConfidence": "low",
+          "method": "manual_grid_review",
+          "annotationUncertaintyPx": 12,
+          "sourceFrame": 24,
+          "note": "掌心/脚掌中心人工近似，近远侧身份暂定，不可用于正式绑定"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "occluded",
+          "visible": false,
+          "method": "manual_grid_review",
+          "note": "无法独立识别的遮挡肢体"
+        },
+        "foot_near": {
+          "x": 395,
+          "y": 410,
+          "confidence": "low",
+          "visibility": "visible",
+          "visible": true,
+          "identityConfidence": "low",
+          "method": "manual_grid_review",
+          "annotationUncertaintyPx": 12,
+          "sourceFrame": 24,
+          "note": "掌心/脚掌中心人工近似，近远侧身份暂定，不可用于正式绑定"
+        },
+        "foot_far": {
+          "x": 518,
+          "y": 400,
+          "confidence": "low",
+          "visibility": "visible",
+          "visible": true,
+          "identityConfidence": "low",
+          "method": "manual_grid_review",
+          "annotationUncertaintyPx": 12,
+          "sourceFrame": 24,
+          "note": "掌心/脚掌中心人工近似，近远侧身份暂定，不可用于正式绑定"
+        }
+      }
+    },
+    {
+      "index": 26,
+      "time": 1.08333,
+      "bbox": {
+        "x": 278,
+        "y": 48,
+        "width": 318,
+        "height": 408
+      },
+      "centroid": {
+        "x": 436.54,
+        "y": 233.47
+      },
+      "areaPx": 66481,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 436.54,
+          "y": 233.47,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 402.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 440.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 375.0,
+          "y": 292.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 502.0,
+          "y": 292.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 28,
+      "time": 1.16667,
+      "bbox": {
+        "x": 286,
+        "y": 53,
+        "width": 308,
+        "height": 401
+      },
+      "centroid": {
+        "x": 437.54,
+        "y": 234.66
+      },
+      "areaPx": 65750,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.54,
+          "y": 234.66,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 401.83,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 484.9,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 379.0,
+          "y": 293.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 505.0,
+          "y": 340.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 30,
+      "time": 1.25,
+      "bbox": {
+        "x": 294,
+        "y": 38,
+        "width": 290,
+        "height": 418
+      },
+      "centroid": {
+        "x": 437.71,
+        "y": 223.01
+      },
+      "areaPx": 66521,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.71,
+          "y": 223.01,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 401.5,
+          "y": 451.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 470.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 366.0,
+          "y": 331.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 536.0,
+          "y": 323.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 32,
+      "time": 1.33333,
+      "bbox": {
+        "x": 286,
+        "y": 36,
+        "width": 301,
+        "height": 420
+      },
+      "centroid": {
+        "x": 436.35,
+        "y": 224.28
+      },
+      "areaPx": 68680,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 436.35,
+          "y": 224.28,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 429.5,
+          "y": 447.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 470.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 348.0,
+          "y": 330.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 548.0,
+          "y": 308.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": 361,
+          "y": 331,
+          "confidence": "low",
+          "visibility": "visible",
+          "visible": true,
+          "identityConfidence": "low",
+          "method": "manual_grid_review",
+          "annotationUncertaintyPx": 12,
+          "sourceFrame": 32,
+          "note": "掌心/脚掌中心人工近似，近远侧身份暂定，不可用于正式绑定"
+        },
+        "hand_far": {
+          "x": 514,
+          "y": 304,
+          "confidence": "low",
+          "visibility": "visible",
+          "visible": true,
+          "identityConfidence": "low",
+          "method": "manual_grid_review",
+          "annotationUncertaintyPx": 12,
+          "sourceFrame": 32,
+          "note": "掌心/脚掌中心人工近似，近远侧身份暂定，不可用于正式绑定"
+        },
+        "foot_near": {
+          "x": 436,
+          "y": 416,
+          "confidence": "low",
+          "visibility": "visible",
+          "visible": true,
+          "identityConfidence": "low",
+          "method": "manual_grid_review",
+          "annotationUncertaintyPx": 12,
+          "sourceFrame": 32,
+          "note": "掌心/脚掌中心人工近似，近远侧身份暂定，不可用于正式绑定"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "occluded",
+          "visible": false,
+          "method": "manual_grid_review",
+          "note": "无法独立识别的遮挡肢体"
+        }
+      }
+    },
+    {
+      "index": 34,
+      "time": 1.41667,
+      "bbox": {
+        "x": 276,
+        "y": 46,
+        "width": 320,
+        "height": 412
+      },
+      "centroid": {
+        "x": 435.38,
+        "y": 234.43
+      },
+      "areaPx": 70767,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 435.38,
+          "y": 234.43,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 426.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 442.5,
+          "y": 457.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 342.0,
+          "y": 332.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 549.0,
+          "y": 312.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 36,
+      "time": 1.5,
+      "bbox": {
+        "x": 281,
+        "y": 53,
+        "width": 313,
+        "height": 405
+      },
+      "centroid": {
+        "x": 437.37,
+        "y": 237.44
+      },
+      "areaPx": 68417,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.37,
+          "y": 237.44,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 435.0,
+          "y": 457.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 450.09,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 364.0,
+          "y": 341.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 538.0,
+          "y": 336.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 38,
+      "time": 1.58333,
+      "bbox": {
+        "x": 296,
+        "y": 41,
+        "width": 288,
+        "height": 415
+      },
+      "centroid": {
+        "x": 437.9,
+        "y": 227.04
+      },
+      "areaPx": 65421,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.9,
+          "y": 227.04,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 417.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 457.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 382.0,
+          "y": 356.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 509.0,
+          "y": 362.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 40,
+      "time": 1.66667,
+      "bbox": {
+        "x": 290,
+        "y": 36,
+        "width": 296,
+        "height": 420
+      },
+      "centroid": {
+        "x": 436.6,
+        "y": 224.76
+      },
+      "areaPx": 66225,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 436.6,
+          "y": 224.76,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 404.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 461.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 381.0,
+          "y": 359.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 511.0,
+          "y": 361.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 42,
+      "time": 1.75,
+      "bbox": {
+        "x": 278,
+        "y": 46,
+        "width": 318,
+        "height": 410
+      },
+      "centroid": {
+        "x": 436.92,
+        "y": 232.83
+      },
+      "areaPx": 67700,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 436.92,
+          "y": 232.83,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 404.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 461.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 376.0,
+          "y": 292.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 503.0,
+          "y": 363.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 44,
+      "time": 1.83333,
+      "bbox": {
+        "x": 281,
+        "y": 53,
+        "width": 315,
+        "height": 403
+      },
+      "centroid": {
+        "x": 437.61,
+        "y": 236.43
+      },
+      "areaPx": 66413,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.61,
+          "y": 236.43,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 404.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 462.9,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 376.0,
+          "y": 294.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 502.0,
+          "y": 364.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 46,
+      "time": 1.91667,
+      "bbox": {
+        "x": 296,
+        "y": 42,
+        "width": 289,
+        "height": 414
+      },
+      "centroid": {
+        "x": 437.77,
+        "y": 227.81
+      },
+      "areaPx": 66910,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.77,
+          "y": 227.81,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 406.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 458.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 370.0,
+          "y": 328.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 534.0,
+          "y": 328.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 48,
+      "time": 2.0,
+      "bbox": {
+        "x": 290,
+        "y": 35,
+        "width": 295,
+        "height": 419
+      },
+      "centroid": {
+        "x": 436.23,
+        "y": 224.55
+      },
+      "areaPx": 68346,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 436.23,
+          "y": 224.55,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 409.91,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 476.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 354.0,
+          "y": 323.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 546.0,
+          "y": 312.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 50,
+      "time": 2.08333,
+      "bbox": {
+        "x": 276,
+        "y": 43,
+        "width": 318,
+        "height": 413
+      },
+      "centroid": {
+        "x": 435.06,
+        "y": 234.06
+      },
+      "areaPx": 71475,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 435.06,
+          "y": 234.06,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 420.31,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 452.46,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 340.0,
+          "y": 334.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 549.0,
+          "y": 308.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 52,
+      "time": 2.16667,
+      "bbox": {
+        "x": 278,
+        "y": 51,
+        "width": 318,
+        "height": 407
+      },
+      "centroid": {
+        "x": 437.01,
+        "y": 237.8
+      },
+      "areaPx": 69188,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.01,
+          "y": 237.8,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 430.0,
+          "y": 457.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 442.0,
+          "y": 457.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 356.0,
+          "y": 342.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 542.0,
+          "y": 332.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 54,
+      "time": 2.25,
+      "bbox": {
+        "x": 295,
+        "y": 43,
+        "width": 290,
+        "height": 413
+      },
+      "centroid": {
+        "x": 437.96,
+        "y": 228.44
+      },
+      "areaPx": 65778,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.96,
+          "y": 228.44,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 421.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 444.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 382.0,
+          "y": 359.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 508.0,
+          "y": 364.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 56,
+      "time": 2.33333,
+      "bbox": {
+        "x": 292,
+        "y": 36,
+        "width": 293,
+        "height": 420
+      },
+      "centroid": {
+        "x": 437.35,
+        "y": 225.28
+      },
+      "areaPx": 66155,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.35,
+          "y": 225.28,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 416.1,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 444.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 381.0,
+          "y": 359.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 512.0,
+          "y": 362.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 58,
+      "time": 2.41667,
+      "bbox": {
+        "x": 279,
+        "y": 43,
+        "width": 317,
+        "height": 413
+      },
+      "centroid": {
+        "x": 437.35,
+        "y": 232.86
+      },
+      "areaPx": 68437,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.35,
+          "y": 232.86,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 425.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 447.93,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 375.0,
+          "y": 364.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 503.0,
+          "y": 362.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 60,
+      "time": 2.5,
+      "bbox": {
+        "x": 280,
+        "y": 51,
+        "width": 317,
+        "height": 403
+      },
+      "centroid": {
+        "x": 437.43,
+        "y": 234.37
+      },
+      "areaPx": 65944,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.43,
+          "y": 234.37,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 416.7,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 481.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 358.0,
+          "y": 292.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 507.0,
+          "y": 292.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 62,
+      "time": 2.58333,
+      "bbox": {
+        "x": 295,
+        "y": 44,
+        "width": 291,
+        "height": 412
+      },
+      "centroid": {
+        "x": 438.29,
+        "y": 228.37
+      },
+      "areaPx": 66436,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 438.29,
+          "y": 228.37,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 420.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 476.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 374.0,
+          "y": 328.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 530.0,
+          "y": 335.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 64,
+      "time": 2.66667,
+      "bbox": {
+        "x": 292,
+        "y": 36,
+        "width": 292,
+        "height": 420
+      },
+      "centroid": {
+        "x": 436.62,
+        "y": 224.17
+      },
+      "areaPx": 68128,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 436.62,
+          "y": 224.17,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 426.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 442.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 356.0,
+          "y": 326.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 543.0,
+          "y": 313.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 65,
+      "time": 2.70833,
+      "bbox": {
+        "x": 287,
+        "y": 35,
+        "width": 299,
+        "height": 421
+      },
+      "centroid": {
+        "x": 435.93,
+        "y": 226.41
+      },
+      "areaPx": 69649,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 435.93,
+          "y": 226.41,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 424.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 440.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 348.0,
+          "y": 326.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 547.0,
+          "y": 306.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 66,
+      "time": 2.75,
+      "bbox": {
+        "x": 277,
+        "y": 41,
+        "width": 316,
+        "height": 415
+      },
+      "centroid": {
+        "x": 435.25,
+        "y": 232.68
+      },
+      "areaPx": 71514,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 435.25,
+          "y": 232.68,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 433.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 444.9,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 340.0,
+          "y": 326.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 549.0,
+          "y": 302.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 68,
+      "time": 2.83333,
+      "bbox": {
+        "x": 276,
+        "y": 50,
+        "width": 320,
+        "height": 408
+      },
+      "centroid": {
+        "x": 436.59,
+        "y": 237.37
+      },
+      "areaPx": 70032,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 436.59,
+          "y": 237.37,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 427.5,
+          "y": 457.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 441.5,
+          "y": 457.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 351.0,
+          "y": 344.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 545.0,
+          "y": 326.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 70,
+      "time": 2.91667,
+      "bbox": {
+        "x": 295,
+        "y": 44,
+        "width": 291,
+        "height": 412
+      },
+      "centroid": {
+        "x": 438.24,
+        "y": 229.66
+      },
+      "areaPx": 66102,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 438.24,
+          "y": 229.66,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 417.88,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 457.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 382.0,
+          "y": 363.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 507.0,
+          "y": 334.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 72,
+      "time": 3.0,
+      "bbox": {
+        "x": 294,
+        "y": 36,
+        "width": 290,
+        "height": 420
+      },
+      "centroid": {
+        "x": 437.6,
+        "y": 225.2
+      },
+      "areaPx": 65984,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.6,
+          "y": 225.2,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 405.0,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 464.1,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 381.0,
+          "y": 359.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 513.0,
+          "y": 362.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 74,
+      "time": 3.08333,
+      "bbox": {
+        "x": 280,
+        "y": 42,
+        "width": 315,
+        "height": 414
+      },
+      "centroid": {
+        "x": 437.75,
+        "y": 233.05
+      },
+      "areaPx": 67985,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.75,
+          "y": 233.05,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 407.83,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 471.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 381.0,
+          "y": 361.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 504.0,
+          "y": 363.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 76,
+      "time": 3.16667,
+      "bbox": {
+        "x": 279,
+        "y": 51,
+        "width": 319,
+        "height": 405
+      },
+      "centroid": {
+        "x": 437.82,
+        "y": 235.37
+      },
+      "areaPx": 66268,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.82,
+          "y": 235.37,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 406.21,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 475.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 376.0,
+          "y": 294.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 503.0,
+          "y": 363.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 78,
+      "time": 3.25,
+      "bbox": {
+        "x": 294,
+        "y": 45,
+        "width": 292,
+        "height": 409
+      },
+      "centroid": {
+        "x": 438.67,
+        "y": 228.0
+      },
+      "areaPx": 66079,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 438.67,
+          "y": 228.0,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 410.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 470.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 378.0,
+          "y": 337.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 528.0,
+          "y": 336.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 80,
+      "time": 3.33333,
+      "bbox": {
+        "x": 293,
+        "y": 36,
+        "width": 291,
+        "height": 418
+      },
+      "centroid": {
+        "x": 437.05,
+        "y": 223.03
+      },
+      "areaPx": 67761,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.05,
+          "y": 223.03,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 412.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 468.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 358.0,
+          "y": 328.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 543.0,
+          "y": 310.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 82,
+      "time": 3.41667,
+      "bbox": {
+        "x": 278,
+        "y": 41,
+        "width": 315,
+        "height": 415
+      },
+      "centroid": {
+        "x": 435.26,
+        "y": 232.56
+      },
+      "areaPx": 70993,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 435.26,
+          "y": 232.56,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 417.0,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 451.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 340.0,
+          "y": 328.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 549.0,
+          "y": 303.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 84,
+      "time": 3.5,
+      "bbox": {
+        "x": 276,
+        "y": 50,
+        "width": 320,
+        "height": 408
+      },
+      "centroid": {
+        "x": 436.31,
+        "y": 237.63
+      },
+      "areaPx": 70009,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 436.31,
+          "y": 237.63,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 428.5,
+          "y": 457.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 443.5,
+          "y": 457.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 350.0,
+          "y": 340.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 545.0,
+          "y": 320.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 86,
+      "time": 3.58333,
+      "bbox": {
+        "x": 294,
+        "y": 44,
+        "width": 292,
+        "height": 412
+      },
+      "centroid": {
+        "x": 437.78,
+        "y": 229.29
+      },
+      "areaPx": 65463,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.78,
+          "y": 229.29,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 422.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 487.5,
+          "y": 451.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 382.0,
+          "y": 362.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 511.0,
+          "y": 336.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 88,
+      "time": 3.66667,
+      "bbox": {
+        "x": 294,
+        "y": 36,
+        "width": 290,
+        "height": 420
+      },
+      "centroid": {
+        "x": 437.5,
+        "y": 224.54
+      },
+      "areaPx": 65806,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.5,
+          "y": 224.54,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 429.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 460.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 380.0,
+          "y": 362.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 511.0,
+          "y": 359.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 89,
+      "time": 3.70833,
+      "bbox": {
+        "x": 290,
+        "y": 35,
+        "width": 296,
+        "height": 419
+      },
+      "centroid": {
+        "x": 436.94,
+        "y": 224.19
+      },
+      "areaPx": 66148,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 436.94,
+          "y": 224.19,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 405.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 460.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 380.0,
+          "y": 360.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 509.0,
+          "y": 359.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 90,
+      "time": 3.75,
+      "bbox": {
+        "x": 280,
+        "y": 41,
+        "width": 314,
+        "height": 411
+      },
+      "centroid": {
+        "x": 438.2,
+        "y": 225.18
+      },
+      "areaPx": 65812,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 438.2,
+          "y": 225.18,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 428.5,
+          "y": 433.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 493.5,
+          "y": 451.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 376.0,
+          "y": 287.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 503.0,
+          "y": 360.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 92,
+      "time": 3.83333,
+      "bbox": {
+        "x": 279,
+        "y": 50,
+        "width": 319,
+        "height": 406
+      },
+      "centroid": {
+        "x": 438.12,
+        "y": 233.4
+      },
+      "areaPx": 66041,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 438.12,
+          "y": 233.4,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 418.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 468.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 375.0,
+          "y": 293.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 502.0,
+          "y": 364.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 94,
+      "time": 3.91667,
+      "bbox": {
+        "x": 293,
+        "y": 47,
+        "width": 294,
+        "height": 407
+      },
+      "centroid": {
+        "x": 438.31,
+        "y": 229.1
+      },
+      "areaPx": 65846,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 438.31,
+          "y": 229.1,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 422.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 466.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 382.0,
+          "y": 329.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 525.0,
+          "y": 334.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 96,
+      "time": 4.0,
+      "bbox": {
+        "x": 293,
+        "y": 37,
+        "width": 291,
+        "height": 417
+      },
+      "centroid": {
+        "x": 437.11,
+        "y": 223.03
+      },
+      "areaPx": 67375,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.11,
+          "y": 223.03,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 420.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 464.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 361.0,
+          "y": 330.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 542.0,
+          "y": 316.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 98,
+      "time": 4.08333,
+      "bbox": {
+        "x": 278,
+        "y": 41,
+        "width": 314,
+        "height": 417
+      },
+      "centroid": {
+        "x": 435.67,
+        "y": 232.35
+      },
+      "areaPx": 70920,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 435.67,
+          "y": 232.35,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 420.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 451.5,
+          "y": 457.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 341.0,
+          "y": 328.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 549.0,
+          "y": 301.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 100,
+      "time": 4.16667,
+      "bbox": {
+        "x": 277,
+        "y": 50,
+        "width": 319,
+        "height": 408
+      },
+      "centroid": {
+        "x": 436.8,
+        "y": 237.71
+      },
+      "areaPx": 70176,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 436.8,
+          "y": 237.71,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 433.5,
+          "y": 457.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 448.5,
+          "y": 457.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 349.0,
+          "y": 342.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 547.0,
+          "y": 319.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 102,
+      "time": 4.25,
+      "bbox": {
+        "x": 293,
+        "y": 48,
+        "width": 295,
+        "height": 408
+      },
+      "centroid": {
+        "x": 438.43,
+        "y": 229.57
+      },
+      "areaPx": 65400,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 438.43,
+          "y": 229.57,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 421.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 440.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 384.0,
+          "y": 361.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 517.0,
+          "y": 336.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 104,
+      "time": 4.33333,
+      "bbox": {
+        "x": 294,
+        "y": 38,
+        "width": 291,
+        "height": 418
+      },
+      "centroid": {
+        "x": 437.69,
+        "y": 223.15
+      },
+      "areaPx": 64840,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.69,
+          "y": 223.15,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 419.5,
+          "y": 455.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 464.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 382.0,
+          "y": 358.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 511.0,
+          "y": 362.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    },
+    {
+      "index": 106,
+      "time": 4.41667,
+      "bbox": {
+        "x": 282,
+        "y": 40,
+        "width": 310,
+        "height": 414
+      },
+      "centroid": {
+        "x": 437.97,
+        "y": 223.34
+      },
+      "areaPx": 65646,
+      "landmarks": {
+        "foregroundCentroid": {
+          "x": 437.97,
+          "y": 223.34,
+          "confidence": "high"
+        },
+        "screenLeftFootCandidate": {
+          "x": 375.0,
+          "y": 425.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenRightFootCandidate": {
+          "x": 468.5,
+          "y": 453.0,
+          "visible": true,
+          "confidence": "low",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "lower-silhouette extremum"
+        },
+        "screenLeftHandCandidate": {
+          "x": 380.0,
+          "y": 360.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "screenRightHandCandidate": {
+          "x": 504.0,
+          "y": 360.0,
+          "visible": true,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "identity": "screen-side candidate; near/far unknown",
+          "method": "nearest arm-height silhouette pixel; hand not isolated",
+          "anatomicalPoint": false
+        },
+        "hand_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "hand_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_near": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        },
+        "foot_far": {
+          "x": null,
+          "y": null,
+          "confidence": "low",
+          "visibility": "unresolved",
+          "visible": false,
+          "method": "not_annotated",
+          "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+        }
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "rawMeasurements": [
+    {
+      "index": 0,
+      "bbox": [
+        275,
+        46,
+        321,
+        412
+      ],
+      "centroid": [
+        435.24582282361797,
+        235.18326621051017
+      ],
+      "area": 71759
+    },
+    {
+      "index": 1,
+      "bbox": [
+        277,
+        50,
+        319,
+        408
+      ],
+      "centroid": [
+        436.34424387260134,
+        237.44253830068706
+      ],
+      "area": 70299
+    },
+    {
+      "index": 2,
+      "bbox": [
+        282,
+        52,
+        312,
+        406
+      ],
+      "centroid": [
+        437.16551543998145,
+        237.88489667982356
+      ],
+      "area": 68912
+    },
+    {
+      "index": 3,
+      "bbox": [
+        289,
+        50,
+        302,
+        408
+      ],
+      "centroid": [
+        438.42309535935766,
+        233.5889032026124
+      ],
+      "area": 66758
+    },
+    {
+      "index": 4,
+      "bbox": [
+        294,
+        46,
+        293,
+        411
+      ],
+      "centroid": [
+        438.0017918425608,
+        229.34052601208734
+      ],
+      "area": 65854
+    },
+    {
+      "index": 5,
+      "bbox": [
+        295,
+        40,
+        290,
+        416
+      ],
+      "centroid": [
+        437.2749774357876,
+        225.24809925193898
+      ],
+      "area": 65369
+    },
+    {
+      "index": 6,
+      "bbox": [
+        294,
+        36,
+        290,
+        420
+      ],
+      "centroid": [
+        436.8786573819559,
+        223.5197910940077
+      ],
+      "area": 65484
+    },
+    {
+      "index": 7,
+      "bbox": [
+        290,
+        35,
+        296,
+        421
+      ],
+      "centroid": [
+        436.55582332969567,
+        224.05515642051654
+      ],
+      "area": 65976
+    },
+    {
+      "index": 8,
+      "bbox": [
+        286,
+        36,
+        302,
+        420
+      ],
+      "centroid": [
+        436.5083469965718,
+        226.48284394097482
+      ],
+      "area": 67090
+    },
+    {
+      "index": 9,
+      "bbox": [
+        282,
+        40,
+        310,
+        414
+      ],
+      "centroid": [
+        437.78383884110457,
+        225.34190433076807
+      ],
+      "area": 66270
+    },
+    {
+      "index": 10,
+      "bbox": [
+        278,
+        50,
+        319,
+        406
+      ],
+      "centroid": [
+        437.25082793806126,
+        233.6972730256288
+      ],
+      "area": 67034
+    },
+    {
+      "index": 11,
+      "bbox": [
+        282,
+        52,
+        314,
+        404
+      ],
+      "centroid": [
+        437.704548211037,
+        234.04481503941784
+      ],
+      "area": 65960
+    },
+    {
+      "index": 12,
+      "bbox": [
+        286,
+        52,
+        307,
+        404
+      ],
+      "centroid": [
+        437.9620264650284,
+        233.93492627599244
+      ],
+      "area": 66125
+    },
+    {
+      "index": 13,
+      "bbox": [
+        292,
+        48,
+        296,
+        408
+      ],
+      "centroid": [
+        438.4229925673206,
+        230.2032868283173
+      ],
+      "area": 65656
+    },
+    {
+      "index": 14,
+      "bbox": [
+        294,
+        38,
+        290,
+        418
+      ],
+      "centroid": [
+        437.0578239390513,
+        223.7653562287959
+      ],
+      "area": 67204
+    },
+    {
+      "index": 15,
+      "bbox": [
+        290,
+        35,
+        295,
+        421
+      ],
+      "centroid": [
+        436.26609862324983,
+        224.1441495425448
+      ],
+      "area": 68422
+    },
+    {
+      "index": 16,
+      "bbox": [
+        286,
+        36,
+        301,
+        420
+      ],
+      "centroid": [
+        435.4688376352086,
+        226.9797974017055
+      ],
+      "area": 69892
+    },
+    {
+      "index": 17,
+      "bbox": [
+        281,
+        38,
+        309,
+        418
+      ],
+      "centroid": [
+        435.1902407415233,
+        230.2734085562552
+      ],
+      "area": 70989
+    },
+    {
+      "index": 18,
+      "bbox": [
+        276,
+        48,
+        320,
+        410
+      ],
+      "centroid": [
+        435.5759269240589,
+        236.39150662392555
+      ],
+      "area": 70502
+    },
+    {
+      "index": 19,
+      "bbox": [
+        278,
+        52,
+        317,
+        406
+      ],
+      "centroid": [
+        436.5446070554856,
+        238.00946714726192
+      ],
+      "area": 69081
+    },
+    {
+      "index": 20,
+      "bbox": [
+        285,
+        52,
+        307,
+        406
+      ],
+      "centroid": [
+        437.7393475219088,
+        236.21483172545842
+      ],
+      "area": 67895
+    },
+    {
+      "index": 21,
+      "bbox": [
+        291,
+        48,
+        298,
+        410
+      ],
+      "centroid": [
+        437.715242881072,
+        231.18475259178777
+      ],
+      "area": 66267
+    },
+    {
+      "index": 22,
+      "bbox": [
+        294,
+        38,
+        290,
+        416
+      ],
+      "centroid": [
+        437.22549170488475,
+        224.03930561112992
+      ],
+      "area": 64978
+    },
+    {
+      "index": 23,
+      "bbox": [
+        291,
+        36,
+        295,
+        418
+      ],
+      "centroid": [
+        436.73899708633644,
+        222.4164698665849
+      ],
+      "area": 65210
+    },
+    {
+      "index": 24,
+      "bbox": [
+        286,
+        36,
+        302,
+        418
+      ],
+      "centroid": [
+        436.4159946945604,
+        225.35133464964505
+      ],
+      "area": 66347
+    },
+    {
+      "index": 25,
+      "bbox": [
+        282,
+        39,
+        309,
+        415
+      ],
+      "centroid": [
+        436.4066526328362,
+        227.502396201908
+      ],
+      "area": 66981
+    },
+    {
+      "index": 26,
+      "bbox": [
+        278,
+        48,
+        318,
+        408
+      ],
+      "centroid": [
+        436.5370857839082,
+        233.47270648756788
+      ],
+      "area": 66481
+    },
+    {
+      "index": 27,
+      "bbox": [
+        280,
+        53,
+        316,
+        401
+      ],
+      "centroid": [
+        437.23235298606556,
+        235.0719463988645
+      ],
+      "area": 65521
+    },
+    {
+      "index": 28,
+      "bbox": [
+        286,
+        53,
+        308,
+        401
+      ],
+      "centroid": [
+        437.5381596958175,
+        234.65867680608366
+      ],
+      "area": 65750
+    },
+    {
+      "index": 29,
+      "bbox": [
+        291,
+        49,
+        299,
+        405
+      ],
+      "centroid": [
+        437.937173172808,
+        230.53388361911712
+      ],
+      "area": 65784
+    },
+    {
+      "index": 30,
+      "bbox": [
+        294,
+        38,
+        290,
+        418
+      ],
+      "centroid": [
+        437.71105365223013,
+        223.0097863832474
+      ],
+      "area": 66521
+    },
+    {
+      "index": 31,
+      "bbox": [
+        291,
+        35,
+        294,
+        421
+      ],
+      "centroid": [
+        437.23360619139754,
+        221.08618842089598
+      ],
+      "area": 67190
+    },
+    {
+      "index": 32,
+      "bbox": [
+        286,
+        36,
+        301,
+        420
+      ],
+      "centroid": [
+        436.34516598718693,
+        224.27757716948165
+      ],
+      "area": 68680
+    },
+    {
+      "index": 33,
+      "bbox": [
+        282,
+        38,
+        308,
+        418
+      ],
+      "centroid": [
+        435.7492586490939,
+        227.2066900651816
+      ],
+      "area": 69805
+    },
+    {
+      "index": 34,
+      "bbox": [
+        276,
+        46,
+        320,
+        412
+      ],
+      "centroid": [
+        435.37647491062216,
+        234.42627213249114
+      ],
+      "area": 70767
+    },
+    {
+      "index": 35,
+      "bbox": [
+        277,
+        50,
+        319,
+        408
+      ],
+      "centroid": [
+        436.383191107924,
+        236.98277518823951
+      ],
+      "area": 69725
+    },
+    {
+      "index": 36,
+      "bbox": [
+        281,
+        53,
+        313,
+        405
+      ],
+      "centroid": [
+        437.3659616761916,
+        237.4421269567505
+      ],
+      "area": 68417
+    },
+    {
+      "index": 37,
+      "bbox": [
+        288,
+        49,
+        302,
+        407
+      ],
+      "centroid": [
+        438.1300759622129,
+        233.33972570029997
+      ],
+      "area": 67007
+    },
+    {
+      "index": 38,
+      "bbox": [
+        296,
+        41,
+        288,
+        415
+      ],
+      "centroid": [
+        437.9043120710475,
+        227.04258571406734
+      ],
+      "area": 65421
+    },
+    {
+      "index": 39,
+      "bbox": [
+        294,
+        37,
+        290,
+        419
+      ],
+      "centroid": [
+        437.1549218368344,
+        224.13422081094285
+      ],
+      "area": 65504
+    },
+    {
+      "index": 40,
+      "bbox": [
+        290,
+        36,
+        296,
+        420
+      ],
+      "centroid": [
+        436.60466591166477,
+        224.76462061155152
+      ],
+      "area": 66225
+    },
+    {
+      "index": 41,
+      "bbox": [
+        285,
+        37,
+        304,
+        419
+      ],
+      "centroid": [
+        436.94136846302666,
+        228.44082940733412
+      ],
+      "area": 67711
+    },
+    {
+      "index": 42,
+      "bbox": [
+        278,
+        46,
+        318,
+        410
+      ],
+      "centroid": [
+        436.92304283604136,
+        232.83290989660267
+      ],
+      "area": 67700
+    },
+    {
+      "index": 43,
+      "bbox": [
+        278,
+        50,
+        320,
+        406
+      ],
+      "centroid": [
+        437.47211388455537,
+        234.77352094083764
+      ],
+      "area": 66664
+    },
+    {
+      "index": 44,
+      "bbox": [
+        281,
+        53,
+        315,
+        403
+      ],
+      "centroid": [
+        437.61439778356646,
+        236.4330477466761
+      ],
+      "area": 66413
+    },
+    {
+      "index": 45,
+      "bbox": [
+        288,
+        51,
+        305,
+        405
+      ],
+      "centroid": [
+        438.0650440747315,
+        234.796353680917
+      ],
+      "area": 66478
+    },
+    {
+      "index": 46,
+      "bbox": [
+        296,
+        42,
+        289,
+        414
+      ],
+      "centroid": [
+        437.77235091914514,
+        227.8077566880885
+      ],
+      "area": 66910
+    },
+    {
+      "index": 47,
+      "bbox": [
+        294,
+        38,
+        290,
+        418
+      ],
+      "centroid": [
+        437.1440994158132,
+        224.1414832102032
+      ],
+      "area": 67273
+    },
+    {
+      "index": 48,
+      "bbox": [
+        290,
+        35,
+        295,
+        419
+      ],
+      "centroid": [
+        436.22690428115766,
+        224.54897141017761
+      ],
+      "area": 68346
+    },
+    {
+      "index": 49,
+      "bbox": [
+        284,
+        36,
+        304,
+        420
+      ],
+      "centroid": [
+        435.38142646139863,
+        228.76048116798273
+      ],
+      "area": 70412
+    },
+    {
+      "index": 50,
+      "bbox": [
+        276,
+        43,
+        318,
+        413
+      ],
+      "centroid": [
+        435.0562714235747,
+        234.06363064008394
+      ],
+      "area": 71475
+    },
+    {
+      "index": 51,
+      "bbox": [
+        276,
+        48,
+        320,
+        410
+      ],
+      "centroid": [
+        436.04303443602015,
+        236.83591003430894
+      ],
+      "area": 70827
+    },
+    {
+      "index": 52,
+      "bbox": [
+        278,
+        51,
+        318,
+        407
+      ],
+      "centroid": [
+        437.0114181649997,
+        237.8035352951379
+      ],
+      "area": 69188
+    },
+    {
+      "index": 53,
+      "bbox": [
+        284,
+        52,
+        309,
+        406
+      ],
+      "centroid": [
+        437.58430548617434,
+        236.3671652317005
+      ],
+      "area": 68062
+    },
+    {
+      "index": 54,
+      "bbox": [
+        295,
+        43,
+        290,
+        413
+      ],
+      "centroid": [
+        437.96010824287754,
+        228.4387485177415
+      ],
+      "area": 65778
+    },
+    {
+      "index": 55,
+      "bbox": [
+        295,
+        39,
+        289,
+        417
+      ],
+      "centroid": [
+        437.58227886696955,
+        225.66134097630882
+      ],
+      "area": 65594
+    },
+    {
+      "index": 56,
+      "bbox": [
+        292,
+        36,
+        293,
+        420
+      ],
+      "centroid": [
+        437.3455067644169,
+        225.28050789811806
+      ],
+      "area": 66155
+    },
+    {
+      "index": 57,
+      "bbox": [
+        287,
+        36,
+        300,
+        420
+      ],
+      "centroid": [
+        437.3765296096704,
+        227.5823979515884
+      ],
+      "area": 67174
+    },
+    {
+      "index": 58,
+      "bbox": [
+        279,
+        43,
+        317,
+        413
+      ],
+      "centroid": [
+        437.3517395560881,
+        232.8643131639318
+      ],
+      "area": 68437
+    },
+    {
+      "index": 59,
+      "bbox": [
+        278,
+        48,
+        319,
+        408
+      ],
+      "centroid": [
+        437.3565286078364,
+        233.16198935868965
+      ],
+      "area": 67097
+    },
+    {
+      "index": 60,
+      "bbox": [
+        280,
+        51,
+        317,
+        403
+      ],
+      "centroid": [
+        437.43310991144,
+        234.36644728860853
+      ],
+      "area": 65944
+    },
+    {
+      "index": 61,
+      "bbox": [
+        284,
+        52,
+        310,
+        404
+      ],
+      "centroid": [
+        437.6932389531086,
+        234.28859386629804
+      ],
+      "area": 65833
+    },
+    {
+      "index": 62,
+      "bbox": [
+        295,
+        44,
+        291,
+        412
+      ],
+      "centroid": [
+        438.2901740020471,
+        228.37214763080257
+      ],
+      "area": 66436
+    },
+    {
+      "index": 63,
+      "bbox": [
+        296,
+        39,
+        288,
+        415
+      ],
+      "centroid": [
+        437.7421943760722,
+        225.00631013649587
+      ],
+      "area": 67035
+    },
+    {
+      "index": 64,
+      "bbox": [
+        292,
+        36,
+        292,
+        420
+      ],
+      "centroid": [
+        436.61641322217,
+        224.17252818224517
+      ],
+      "area": 68128
+    },
+    {
+      "index": 65,
+      "bbox": [
+        287,
+        35,
+        299,
+        421
+      ],
+      "centroid": [
+        435.93244698416345,
+        226.40633749228274
+      ],
+      "area": 69649
+    },
+    {
+      "index": 66,
+      "bbox": [
+        277,
+        41,
+        316,
+        415
+      ],
+      "centroid": [
+        435.249867158878,
+        232.67960119696843
+      ],
+      "area": 71514
+    },
+    {
+      "index": 67,
+      "bbox": [
+        276,
+        46,
+        320,
+        412
+      ],
+      "centroid": [
+        435.57014262004554,
+        235.06357422149708
+      ],
+      "area": 71098
+    },
+    {
+      "index": 68,
+      "bbox": [
+        276,
+        50,
+        320,
+        408
+      ],
+      "centroid": [
+        436.5856465615719,
+        237.36915981265707
+      ],
+      "area": 70032
+    },
+    {
+      "index": 69,
+      "bbox": [
+        282,
+        52,
+        312,
+        406
+      ],
+      "centroid": [
+        437.60336323854403,
+        236.74106868441464
+      ],
+      "area": 68327
+    },
+    {
+      "index": 70,
+      "bbox": [
+        295,
+        44,
+        291,
+        412
+      ],
+      "centroid": [
+        438.2351517351971,
+        229.65739311972408
+      ],
+      "area": 66102
+    },
+    {
+      "index": 71,
+      "bbox": [
+        296,
+        39,
+        288,
+        417
+      ],
+      "centroid": [
+        437.9040503342509,
+        226.46574306542848
+      ],
+      "area": 66118
+    },
+    {
+      "index": 72,
+      "bbox": [
+        294,
+        36,
+        290,
+        420
+      ],
+      "centroid": [
+        437.60066076624634,
+        225.1972296314258
+      ],
+      "area": 65984
+    },
+    {
+      "index": 73,
+      "bbox": [
+        290,
+        36,
+        296,
+        418
+      ],
+      "centroid": [
+        437.61044999252505,
+        226.90448497533262
+      ],
+      "area": 66890
+    },
+    {
+      "index": 74,
+      "bbox": [
+        280,
+        42,
+        315,
+        414
+      ],
+      "centroid": [
+        437.75221004633374,
+        233.04599544017063
+      ],
+      "area": 67985
+    },
+    {
+      "index": 75,
+      "bbox": [
+        278,
+        47,
+        319,
+        409
+      ],
+      "centroid": [
+        437.61223636879265,
+        234.7050315685777
+      ],
+      "area": 66997
+    },
+    {
+      "index": 76,
+      "bbox": [
+        279,
+        51,
+        319,
+        405
+      ],
+      "centroid": [
+        437.81653286654193,
+        235.36971087100864
+      ],
+      "area": 66268
+    },
+    {
+      "index": 77,
+      "bbox": [
+        282,
+        53,
+        314,
+        403
+      ],
+      "centroid": [
+        438.1167756124381,
+        235.6294367401796
+      ],
+      "area": 65476
+    },
+    {
+      "index": 78,
+      "bbox": [
+        294,
+        45,
+        292,
+        409
+      ],
+      "centroid": [
+        438.67045506136594,
+        227.9994249307647
+      ],
+      "area": 66079
+    },
+    {
+      "index": 79,
+      "bbox": [
+        295,
+        39,
+        289,
+        415
+      ],
+      "centroid": [
+        437.93074821196603,
+        225.07305929255074
+      ],
+      "area": 66973
+    },
+    {
+      "index": 80,
+      "bbox": [
+        293,
+        36,
+        291,
+        418
+      ],
+      "centroid": [
+        437.04573427192634,
+        223.03167013473828
+      ],
+      "area": 67761
+    },
+    {
+      "index": 81,
+      "bbox": [
+        288,
+        35,
+        298,
+        419
+      ],
+      "centroid": [
+        436.5429855101776,
+        225.6634113924965
+      ],
+      "area": 69221
+    },
+    {
+      "index": 82,
+      "bbox": [
+        278,
+        41,
+        315,
+        415
+      ],
+      "centroid": [
+        435.25987069147664,
+        232.56453453157354
+      ],
+      "area": 70993
+    },
+    {
+      "index": 83,
+      "bbox": [
+        275,
+        46,
+        321,
+        412
+      ],
+      "centroid": [
+        435.4757454509466,
+        235.32139574997527
+      ],
+      "area": 70729
+    },
+    {
+      "index": 84,
+      "bbox": [
+        276,
+        50,
+        320,
+        408
+      ],
+      "centroid": [
+        436.30878887000245,
+        237.6277478609893
+      ],
+      "area": 70009
+    },
+    {
+      "index": 85,
+      "bbox": [
+        280,
+        53,
+        315,
+        405
+      ],
+      "centroid": [
+        437.42044475593906,
+        238.2280578795976
+      ],
+      "area": 68487
+    },
+    {
+      "index": 86,
+      "bbox": [
+        294,
+        44,
+        292,
+        412
+      ],
+      "centroid": [
+        437.78383208835527,
+        229.2886363289186
+      ],
+      "area": 65463
+    },
+    {
+      "index": 87,
+      "bbox": [
+        295,
+        39,
+        289,
+        415
+      ],
+      "centroid": [
+        437.7869045976483,
+        225.42885832988395
+      ],
+      "area": 65229
+    },
+    {
+      "index": 88,
+      "bbox": [
+        294,
+        36,
+        290,
+        420
+      ],
+      "centroid": [
+        437.50039510075067,
+        224.53992037200254
+      ],
+      "area": 65806
+    },
+    {
+      "index": 89,
+      "bbox": [
+        290,
+        35,
+        296,
+        419
+      ],
+      "centroid": [
+        436.9357803712886,
+        224.19267400374918
+      ],
+      "area": 66148
+    },
+    {
+      "index": 90,
+      "bbox": [
+        280,
+        41,
+        314,
+        411
+      ],
+      "centroid": [
+        438.20060171397313,
+        225.1784325047104
+      ],
+      "area": 65812
+    },
+    {
+      "index": 91,
+      "bbox": [
+        278,
+        46,
+        319,
+        410
+      ],
+      "centroid": [
+        437.9807798817454,
+        231.72428710425865
+      ],
+      "area": 66805
+    },
+    {
+      "index": 92,
+      "bbox": [
+        279,
+        50,
+        319,
+        406
+      ],
+      "centroid": [
+        438.1187292742387,
+        233.39981223785225
+      ],
+      "area": 66041
+    },
+    {
+      "index": 93,
+      "bbox": [
+        282,
+        52,
+        314,
+        404
+      ],
+      "centroid": [
+        438.20080497510935,
+        234.51227889663937
+      ],
+      "area": 66089
+    },
+    {
+      "index": 94,
+      "bbox": [
+        293,
+        47,
+        294,
+        407
+      ],
+      "centroid": [
+        438.3108009598153,
+        229.1003401877107
+      ],
+      "area": 65846
+    },
+    {
+      "index": 95,
+      "bbox": [
+        295,
+        41,
+        289,
+        413
+      ],
+      "centroid": [
+        437.9703748125937,
+        225.99839580209894
+      ],
+      "area": 66700
+    },
+    {
+      "index": 96,
+      "bbox": [
+        293,
+        37,
+        291,
+        417
+      ],
+      "centroid": [
+        437.1095213358071,
+        223.0321632653061
+      ],
+      "area": 67375
+    },
+    {
+      "index": 97,
+      "bbox": [
+        290,
+        35,
+        296,
+        419
+      ],
+      "centroid": [
+        436.17489862006596,
+        223.56771304373194
+      ],
+      "area": 68554
+    },
+    {
+      "index": 98,
+      "bbox": [
+        278,
+        41,
+        314,
+        417
+      ],
+      "centroid": [
+        435.67271573604063,
+        232.34775803722505
+      ],
+      "area": 70920
+    },
+    {
+      "index": 99,
+      "bbox": [
+        276,
+        46,
+        319,
+        412
+      ],
+      "centroid": [
+        435.82865545862023,
+        235.52342236613265
+      ],
+      "area": 70723
+    },
+    {
+      "index": 100,
+      "bbox": [
+        277,
+        50,
+        319,
+        408
+      ],
+      "centroid": [
+        436.8022400820793,
+        237.71245155038758
+      ],
+      "area": 70176
+    },
+    {
+      "index": 101,
+      "bbox": [
+        281,
+        52,
+        314,
+        406
+      ],
+      "centroid": [
+        437.76840170927704,
+        237.59861157699768
+      ],
+      "area": 68567
+    },
+    {
+      "index": 102,
+      "bbox": [
+        293,
+        48,
+        295,
+        408
+      ],
+      "centroid": [
+        438.42874617737004,
+        229.56544342507647
+      ],
+      "area": 65400
+    },
+    {
+      "index": 103,
+      "bbox": [
+        296,
+        42,
+        290,
+        414
+      ],
+      "centroid": [
+        438.2569345771298,
+        225.63700809291407
+      ],
+      "area": 64748
+    },
+    {
+      "index": 104,
+      "bbox": [
+        294,
+        38,
+        291,
+        418
+      ],
+      "centroid": [
+        437.68780074028376,
+        223.14727020357805
+      ],
+      "area": 64840
+    },
+    {
+      "index": 105,
+      "bbox": [
+        290,
+        36,
+        296,
+        418
+      ],
+      "centroid": [
+        437.1950852634649,
+        223.24949732160673
+      ],
+      "area": 65151
+    },
+    {
+      "index": 106,
+      "bbox": [
+        282,
+        40,
+        310,
+        414
+      ],
+      "centroid": [
+        437.9669286780611,
+        223.33744630289735
+      ],
+      "area": 65646
+    }
+  ],
+  "manualFrames": [
+    0,
+    8,
+    16,
+    24,
+    32
+  ],
+  "note": "屏幕侧候选是轮廓极值；near/far人工点身份低可信，缺失为null且不插值；rawMeasurements为107帧bbox/掩膜质心测量。"
+}

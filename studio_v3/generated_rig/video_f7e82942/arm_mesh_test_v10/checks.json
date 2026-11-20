@@ -1,0 +1,14 @@
+{
+  "sourceHashes": {
+    "v9": "f4e639f6e8b65796358661de8cfd37e93f2a18f599db4898f7cd400b0909e5c0",
+    "v8": "49510cbdb5f49aa30c44e4fa11e6f4aa937ae4def89de90fa9f41f5e11854e1c",
+    "manifest": "c928c89c6f64864359a89e429bc80f5518a3e5149e4dbc5990478c60a243569b"
+  },
+  "sourceHashesUnchanged": true,
+  "baseReprojectionSelfTestPassed": true,
+  "rotationScaleCenterSelfTestPassed": true,
+  "rows": 135,
+  "allCandidatesUseSamePerturbedRegistration": true,
+  "candidateRankingPerformed": false,
+  "bindingValidated": false
+}

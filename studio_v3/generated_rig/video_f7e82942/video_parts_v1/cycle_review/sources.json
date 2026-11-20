@@ -1,0 +1,447 @@
+{
+  "version": 2,
+  "status": "visually_reviewed_occlusion_evidence_not_rig",
+  "taskId": "comfy_f7e82942-05e3-4c7e-8e30-e974e2a233fa",
+  "characterId": null,
+  "sourceVideo": "../../source.mp4",
+  "sourceVideoSha256": "8fc0f8406d6a258640b65d34c5ad7fb0e35f231131d7eec945781dd9d93343e5",
+  "sourceCoordinateSystem": "864x480 source pixels, top-left origin, zero-based frame index",
+  "decodeMethod": "sequential_from_frame_0_through_84_no_seek",
+  "fps": 24.0,
+  "frameIndices": [
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+  ],
+  "sampleCount": 17,
+  "repeatedEndpointCandidate": 84,
+  "samplingNote": "68至84共17张审阅样本；84仅为重复端点候选，未确定周期。",
+  "cropBoxSourcePixels": [
+    320,
+    275,
+    555,
+    465
+  ],
+  "scale": 2,
+  "resampling": "nearest",
+  "contactSheets": [
+    "contact_068_075.jpg",
+    "contact_076_084.jpg"
+  ],
+  "reviewMethod": "assistant_visual_review_of_both_contact_sheets",
+  "identity": "unknown",
+  "assetDecisions": [
+    "分别制作展开臂与胸前弯臂可见形态候选，不能用一张中性侧臂简单旋转代替；最终分为上臂/前臂/手或整臂形态仍需结构验证。",
+    "躯干及短裤保持独立底层；胸前臂下方的隐藏身体和髋上缘需要补画，不从其他帧偷换像素冒充当前帧可见证据。",
+    "前后层腿交叉需要遮挡层序处理；A/B与屏幕侧不表示固定解剖身份，连续身份未确立。",
+    "74至77帧脚掌压扁与转面需对原角色修正，不能将AI视频全部形变原样烘焙；不声称脚锁、接地或动作拟合已完成。"
+  ],
+  "notRuntimeAsset": true,
+  "frames": [
+    {
+      "sourceFrame": 68,
+      "time": 2.8333333333333335,
+      "sourceFile": "source_068.png",
+      "sourceFrameSha256": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "cropFile": "crop_068_2x.png",
+      "cropSha256": "86a6f9509ca9c7c6108a21abf39d8dcb38750fba37a854fff7c83737e1679119",
+      "identity": "unknown",
+      "manualObservations": {
+        "armVisibility": "two_outer_arm_shapes",
+        "legVisibility": "crossed_legs_one_front_outline",
+        "note": "两侧臂轮廓可见；前层腿遮挡后层腿，不能从窄残片恢复完整肢体。",
+        "method": "assistant_contact_sheet_visual_review",
+        "confidence": "low",
+        "crossFrameIdentityEstablished": false
+      },
+      "notRuntimeAsset": true,
+      "repeatedEndpointCandidate": false
+    },
+    {
+      "sourceFrame": 69,
+      "time": 2.875,
+      "sourceFile": "source_069.png",
+      "sourceFrameSha256": "115df477d07ff9a3416690b06122db913e4fc0383baed5254ff53bbc15d854ee",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "cropFile": "crop_069_2x.png",
+      "cropSha256": "50ddf988541c1f22ff71f440a7982470c881038ee2b9bb50ad5827722364c878",
+      "identity": "unknown",
+      "manualObservations": {
+        "armVisibility": "outer_arms_moving_inward",
+        "legVisibility": "crossed_legs_separating",
+        "note": "画面左侧臂靠近身体，右侧圆形手部仍可见；双腿开始分开。",
+        "method": "assistant_contact_sheet_visual_review",
+        "confidence": "low",
+        "crossFrameIdentityEstablished": false
+      },
+      "notRuntimeAsset": true,
+      "repeatedEndpointCandidate": false
+    },
+    {
+      "sourceFrame": 70,
+      "time": 2.9166666666666665,
+      "sourceFile": "source_070.png",
+      "sourceFrameSha256": "9c2e989facc35d66e2b5163a6cac4815f68a8ebb4f6f2d15fa115467074e983e",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "cropFile": "crop_070_2x.png",
+      "cropSha256": "6dc01defdc425f506430fa140d692d6796da501f5c5df9533abba6e317f00466",
+      "identity": "unknown",
+      "manualObservations": {
+        "armVisibility": "front_bent_arm_transition",
+        "legVisibility": "two_leg_outlines_visible",
+        "note": "画面左侧手臂弯向身体前方；另一侧仅窄轮廓，肩臂内部切线不确定。",
+        "method": "assistant_contact_sheet_visual_review",
+        "confidence": "low",
+        "crossFrameIdentityEstablished": false
+      },
+      "notRuntimeAsset": true,
+      "repeatedEndpointCandidate": false
+    },
+    {
+      "sourceFrame": 71,
+      "time": 2.9583333333333335,
+      "sourceFile": "source_071.png",
+      "sourceFrameSha256": "434509573a59694e6b90b9927e14fd090777ca24c7cd2d52c0dcaeff5d16a99e",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "cropFile": "crop_071_2x.png",
+      "cropSha256": "3e470b122c42d0e9cc775a9f9eec0c6dd4516fd12ba443007c21ac4cc95ae9b3",
+      "identity": "unknown",
+      "manualObservations": {
+        "armVisibility": "front_chest_arm",
+        "legVisibility": "two_leg_outlines_visible",
+        "note": "胸前弯臂形成明显前层轮廓；双腿展开，另一臂不能独立完整切出。",
+        "method": "assistant_contact_sheet_visual_review",
+        "confidence": "low",
+        "crossFrameIdentityEstablished": false
+      },
+      "notRuntimeAsset": true,
+      "repeatedEndpointCandidate": false
+    },
+    {
+      "sourceFrame": 72,
+      "time": 3.0,
+      "sourceFile": "source_072.png",
+      "sourceFrameSha256": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "cropFile": "crop_072_2x.png",
+      "cropSha256": "0ed50631dcfdfe8dce09045e7170470535d4161fc41898fc4acf194fbb5cf3c3",
+      "identity": "unknown",
+      "manualObservations": {
+        "armVisibility": "front_chest_arm",
+        "legVisibility": "two_leg_outlines_visible",
+        "note": "胸前弯臂覆盖躯干底图；两腿可见，髋上缘仍被短裤遮挡。",
+        "method": "assistant_contact_sheet_visual_review",
+        "confidence": "low",
+        "crossFrameIdentityEstablished": false
+      },
+      "notRuntimeAsset": true,
+      "repeatedEndpointCandidate": false
+    },
+    {
+      "sourceFrame": 73,
+      "time": 3.0416666666666665,
+      "sourceFile": "source_073.png",
+      "sourceFrameSha256": "ea3c8193870a44d9a98b0a995e5cc2519b825dae961bc1e013f4a0fcb88994ca",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "cropFile": "crop_073_2x.png",
+      "cropSha256": "019aff0b550c6db6aa0fa619817f3d10893cf4a531a53f2cf750d88d3a333e88",
+      "identity": "unknown",
+      "manualObservations": {
+        "armVisibility": "front_chest_arm",
+        "legVisibility": "two_leg_outlines_visible",
+        "note": "胸前臂保持；两脚形状和脚底角度变化，不应只旋转单张脚掌。",
+        "method": "assistant_contact_sheet_visual_review",
+        "confidence": "low",
+        "crossFrameIdentityEstablished": false
+      },
+      "notRuntimeAsset": true,
+      "repeatedEndpointCandidate": false
+    },
+    {
+      "sourceFrame": 74,
+      "time": 3.0833333333333335,
+      "sourceFile": "source_074.png",
+      "sourceFrameSha256": "3200f67af977d20903f69f2109dc05385f18fbe2f3e54086fda34a3e7e32d912",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "cropFile": "crop_074_2x.png",
+      "cropSha256": "fbc55d02ff98b0ffebc580a069fc796ceca478a12b1f138e97b314cf705465d3",
+      "identity": "unknown",
+      "manualObservations": {
+        "armVisibility": "front_chest_arm",
+        "legVisibility": "screen_left_foot_flattened",
+        "note": "画面左侧脚横向压扁、腿脚连接轮廓不稳定；需审查AI形变，不能直接定为真实关节。",
+        "method": "assistant_contact_sheet_visual_review",
+        "confidence": "low",
+        "crossFrameIdentityEstablished": false
+      },
+      "notRuntimeAsset": true,
+      "repeatedEndpointCandidate": false
+    },
+    {
+      "sourceFrame": 75,
+      "time": 3.125,
+      "sourceFile": "source_075.png",
+      "sourceFrameSha256": "030f04baccecbbaa3a1351109e2733537e956c2968873c0c7e94ebc6ebec176a",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "cropFile": "crop_075_2x.png",
+      "cropSha256": "8b3bf163dd020726937328c29965a2f4636e0a2195df6cadc1bad6d3d56a2d90",
+      "identity": "unknown",
+      "manualObservations": {
+        "armVisibility": "front_chest_arm",
+        "legVisibility": "screen_left_foot_flattened",
+        "note": "画面左侧脚较扁并向外伸；画面右侧脚较竖直，不能据此确定解剖左右或支撑脚。",
+        "method": "assistant_contact_sheet_visual_review",
+        "confidence": "low",
+        "crossFrameIdentityEstablished": false
+      },
+      "notRuntimeAsset": true,
+      "repeatedEndpointCandidate": false
+    },
+    {
+      "sourceFrame": 76,
+      "time": 3.1666666666666665,
+      "sourceFile": "source_076.png",
+      "sourceFrameSha256": "ca0676580e05720d1f927d733d944c930c776d7c33ac2f4a2a1fb325dfb9bae9",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "cropFile": "crop_076_2x.png",
+      "cropSha256": "fdb44a06dd115141f463b1eb8f032632cc2cf82b9208665230fd30deede93a26",
+      "identity": "unknown",
+      "manualObservations": {
+        "armVisibility": "front_chest_arm",
+        "legVisibility": "screen_left_foot_flattened",
+        "note": "胸前臂和展开腿仍可见；接地/悬空不能仅凭影子判定。",
+        "method": "assistant_contact_sheet_visual_review",
+        "confidence": "low",
+        "crossFrameIdentityEstablished": false
+      },
+      "notRuntimeAsset": true,
+      "repeatedEndpointCandidate": false
+    },
+    {
+      "sourceFrame": 77,
+      "time": 3.2083333333333335,
+      "sourceFile": "source_077.png",
+      "sourceFrameSha256": "c3d8a2bdfeec6a45f85650813bf63a52f899187dec62d1d77d9ec0e0f207842a",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "cropFile": "crop_077_2x.png",
+      "cropSha256": "4a0f519b2089ae76df3000149699abbeba77d398f0e3ba2851c371569729715e",
+      "identity": "unknown",
+      "manualObservations": {
+        "armVisibility": "front_arm_lowering",
+        "legVisibility": "legs_begin_crossing",
+        "note": "胸前臂下移，弯臂下沿贴近腰；腿开始交叠，短裤边缘仍需独立层。",
+        "method": "assistant_contact_sheet_visual_review",
+        "confidence": "low",
+        "crossFrameIdentityEstablished": false
+      },
+      "notRuntimeAsset": true,
+      "repeatedEndpointCandidate": false
+    },
+    {
+      "sourceFrame": 78,
+      "time": 3.25,
+      "sourceFile": "source_078.png",
+      "sourceFrameSha256": "63fed24423a2afbf759e8794c4c716609a85647154f070ad7efac0b42ff353ac",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "cropFile": "crop_078_2x.png",
+      "cropSha256": "0abb4617be7ad52f7d95b93cf22f58d7f48828c180adb7722a5b6dcf92f32d1b",
+      "identity": "unknown",
+      "manualObservations": {
+        "armVisibility": "arms_opening_transition",
+        "legVisibility": "one_raised_leg_other_foot_visible",
+        "note": "两侧手臂重新展开；画面左侧腿抬到前方，后层脚仍可见。",
+        "method": "assistant_contact_sheet_visual_review",
+        "confidence": "low",
+        "crossFrameIdentityEstablished": false
+      },
+      "notRuntimeAsset": true,
+      "repeatedEndpointCandidate": false
+    },
+    {
+      "sourceFrame": 79,
+      "time": 3.2916666666666665,
+      "sourceFile": "source_079.png",
+      "sourceFrameSha256": "c2e238fb4a36f536be0a78c1524590ee23a1f6ef7ab145616afb3914acfc1dfd",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "cropFile": "crop_079_2x.png",
+      "cropSha256": "90e7bd2845a680d833ce3e503438e228257c3cf7395511da7f22feb6ffc191bb",
+      "identity": "unknown",
+      "manualObservations": {
+        "armVisibility": "two_outer_arm_shapes",
+        "legVisibility": "crossing_both_feet_partly_visible",
+        "note": "两臂分列身体两侧；腿交叉，仍能看到后层脚的局部轮廓。",
+        "method": "assistant_contact_sheet_visual_review",
+        "confidence": "low",
+        "crossFrameIdentityEstablished": false
+      },
+      "notRuntimeAsset": true,
+      "repeatedEndpointCandidate": false
+    },
+    {
+      "sourceFrame": 80,
+      "time": 3.3333333333333335,
+      "sourceFile": "source_080.png",
+      "sourceFrameSha256": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "cropFile": "crop_080_2x.png",
+      "cropSha256": "67f2727546ca1bdd59db67e1092e665b6a7c05e0c11a0698eafe620966a24ecf",
+      "identity": "unknown",
+      "manualObservations": {
+        "armVisibility": "two_outer_arm_shapes",
+        "legVisibility": "crossing_both_feet_partly_visible",
+        "note": "前层腿遮挡另一腿上部；后脚下部可见，不建立跨帧身份。",
+        "method": "assistant_contact_sheet_visual_review",
+        "confidence": "low",
+        "crossFrameIdentityEstablished": false
+      },
+      "notRuntimeAsset": true,
+      "repeatedEndpointCandidate": false
+    },
+    {
+      "sourceFrame": 81,
+      "time": 3.375,
+      "sourceFile": "source_081.png",
+      "sourceFrameSha256": "b46b02660221465c152edd5274260066093216e1a6cc5da01137fae3d5c91b0f",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "cropFile": "crop_081_2x.png",
+      "cropSha256": "a95608c8ef95a201a659364032f6bca132d02fa4ed4907ee712c60dce12e2b8e",
+      "identity": "unknown",
+      "manualObservations": {
+        "armVisibility": "two_outer_arm_shapes",
+        "legVisibility": "crossed_legs_partial_back_sliver",
+        "note": "前层腿向前摆，后层仅局部脚/腿边缘；内部遮挡切线需精修。",
+        "method": "assistant_contact_sheet_visual_review",
+        "confidence": "low",
+        "crossFrameIdentityEstablished": false
+      },
+      "notRuntimeAsset": true,
+      "repeatedEndpointCandidate": false
+    },
+    {
+      "sourceFrame": 82,
+      "time": 3.4166666666666665,
+      "sourceFile": "source_082.png",
+      "sourceFrameSha256": "c1e35a74624862d33b2d484d1de836195fabc2c50e4749c995a9b740776e24e2",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "cropFile": "crop_082_2x.png",
+      "cropSha256": "f36fc6de7a0696a0cd266e2f6923735d59bc541ddde4f4a31bb60bd63a5d81f6",
+      "identity": "unknown",
+      "manualObservations": {
+        "armVisibility": "two_outer_arm_shapes",
+        "legVisibility": "crossed_legs_partial_back_sliver",
+        "note": "前层腿占主要轮廓，后层腿更窄；完整隐藏区不可由当前可见片推得。",
+        "method": "assistant_contact_sheet_visual_review",
+        "confidence": "low",
+        "crossFrameIdentityEstablished": false
+      },
+      "notRuntimeAsset": true,
+      "repeatedEndpointCandidate": false
+    },
+    {
+      "sourceFrame": 83,
+      "time": 3.4583333333333335,
+      "sourceFile": "source_083.png",
+      "sourceFrameSha256": "8d0a84da923ab2316c52bc0cb40616885eac163ea55e5873f72966a727fe50f2",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "cropFile": "crop_083_2x.png",
+      "cropSha256": "df8d9adc269e5c537f88f00cddc0729d2ff7d6476836d9be33bcc229fe5baec3",
+      "identity": "unknown",
+      "manualObservations": {
+        "armVisibility": "two_outer_arm_shapes",
+        "legVisibility": "crossed_legs_one_front_outline",
+        "note": "前层腿较竖直；后层腿残片不足以恢复完整肢体。",
+        "method": "assistant_contact_sheet_visual_review",
+        "confidence": "low",
+        "crossFrameIdentityEstablished": false
+      },
+      "notRuntimeAsset": true,
+      "repeatedEndpointCandidate": false
+    },
+    {
+      "sourceFrame": 84,
+      "time": 3.5,
+      "sourceFile": "source_084.png",
+      "sourceFrameSha256": "3fe5ab53f1fa27ad7d2ad6a87429196ddae7fd06df45dbfce0e2ae64a6835a25",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "cropFile": "crop_084_2x.png",
+      "cropSha256": "dfd5effe046d8fa2562b5185456849a54f9de9a6105bdee08321a4e0cd83782f",
+      "identity": "unknown",
+      "manualObservations": {
+        "armVisibility": "two_outer_arm_shapes",
+        "legVisibility": "crossed_legs_one_front_outline",
+        "note": "姿态与68帧相近，仍只为重复端点候选，未验收完整循环。",
+        "method": "assistant_contact_sheet_visual_review",
+        "confidence": "low",
+        "crossFrameIdentityEstablished": false
+      },
+      "notRuntimeAsset": true,
+      "repeatedEndpointCandidate": true
+    }
+  ]
+}

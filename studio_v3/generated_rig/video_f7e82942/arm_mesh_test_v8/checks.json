@@ -1,0 +1,1154 @@
+{
+  "reviewImage": {
+    "file": "elbow_mechanism_review.png",
+    "sha256": "fdf85ad20a1f9dde25e09c802c0b6e11dc327778fc17dad265a533c63ec56675",
+    "size": [
+      1480,
+      576
+    ]
+  },
+  "sourceHashes": {
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\manifest.json": "c928c89c6f64864359a89e429bc80f5518a3e5149e4dbc5990478c60a243569b",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\study.json": "4a8f286371e671b02037339dcc0fce2ea23d61d5cf8ca162392bf84a8f4b674c",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\right_front_walk\\source768.png": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10"
+  },
+  "protectedHashesBeforeAfter": {
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\right_front_walk\\source768.png": {
+      "before": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+      "after": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\arm_far.png": {
+      "before": "d8e783debe155efbb7fdb52f0d9415de60af3e199cc861e36a4f9528c5847490",
+      "after": "d8e783debe155efbb7fdb52f0d9415de60af3e199cc861e36a4f9528c5847490"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\arm_near.png": {
+      "before": "7cd90180cb6c851def01c5195286a93ffc9420f8a76c6115c811436430597874",
+      "after": "7cd90180cb6c851def01c5195286a93ffc9420f8a76c6115c811436430597874"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\body.png": {
+      "before": "fc310a95f186d884c1d10ae17392085339fc801e8ef9dbc86b4b139839df729c",
+      "after": "fc310a95f186d884c1d10ae17392085339fc801e8ef9dbc86b4b139839df729c"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\body_assembly_review.png": {
+      "before": "2d6c9fec6852df7af58f7e57715815e7bab0490bffc4e4555d686b93ff60b691",
+      "after": "2d6c9fec6852df7af58f7e57715815e7bab0490bffc4e4555d686b93ff60b691"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\body_interfaces_review.png": {
+      "before": "bd5e954f80482dcb6830c0aa8c08f343fdf54ff739f9a22ec8f550abf3a11a25",
+      "after": "bd5e954f80482dcb6830c0aa8c08f343fdf54ff739f9a22ec8f550abf3a11a25"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\body_repair_mask.png": {
+      "before": "6bcb6ab40ee20e8051d2452081dba10def9004bd83b0e1b4cbdaa83c828e59cd",
+      "after": "6bcb6ab40ee20e8051d2452081dba10def9004bd83b0e1b4cbdaa83c828e59cd"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\body_visible_mask.png": {
+      "before": "9db9d413fb7cc22402bddb9dd6df07ed72e1d7aafc05b82fcd6ceed8b7f09e96",
+      "after": "9db9d413fb7cc22402bddb9dd6df07ed72e1d7aafc05b82fcd6ceed8b7f09e96"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\head.png": {
+      "before": "4f3950e1575f962212adca60486ebe441dadc9e2d8ae65c46d5f6779579e0555",
+      "after": "4f3950e1575f962212adca60486ebe441dadc9e2d8ae65c46d5f6779579e0555"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\leg_far.png": {
+      "before": "2ca541c17028ac69356a403c8c753178cb146e46ff7b407bfd6ef81ef8caa548",
+      "after": "2ca541c17028ac69356a403c8c753178cb146e46ff7b407bfd6ef81ef8caa548"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\leg_near.png": {
+      "before": "d9b5b9b00c647abe4a47b41c968a3999d4211530e926022c43353b4021dca72e",
+      "after": "d9b5b9b00c647abe4a47b41c968a3999d4211530e926022c43353b4021dca72e"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\manifest.json": {
+      "before": "c928c89c6f64864359a89e429bc80f5518a3e5149e4dbc5990478c60a243569b",
+      "after": "c928c89c6f64864359a89e429bc80f5518a3e5149e4dbc5990478c60a243569b"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\review.png": {
+      "before": "90e370a8a0c3bed645fb58282df98062881623b030956a853320b16a77db6727",
+      "after": "90e370a8a0c3bed645fb58282df98062881623b030956a853320b16a77db6727"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\shorts.png": {
+      "before": "3632fa898f75da728218456fd8e8b7346988f7dfd649737edb82eb8a9a72ba03",
+      "after": "3632fa898f75da728218456fd8e8b7346988f7dfd649737edb82eb8a9a72ba03"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\shorts_review.png": {
+      "before": "7f743e084040fc947986208c9399e6937b8992871abd843da377d7d92d32237d",
+      "after": "7f743e084040fc947986208c9399e6937b8992871abd843da377d7d92d32237d"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\source_reference.png": {
+      "before": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+      "after": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\source_shorts_detail.png": {
+      "before": "91238feaaac8ecd4f07066c51f2452d9feedbdced43202e610ed3d707a941eb5",
+      "after": "91238feaaac8ecd4f07066c51f2452d9feedbdced43202e610ed3d707a941eb5"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v2\\generate_front_rig_draft.py": {
+      "before": "1e1890a3bc54d256b541c5d03d7d0be1a5c2238bd8e2bf957cbeb84263e1b340",
+      "after": "1e1890a3bc54d256b541c5d03d7d0be1a5c2238bd8e2bf957cbeb84263e1b340"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v2\\index.html": {
+      "before": "8bf9ce250d8dc4efb182f3095f9161471c96527b09b514acf012a6e88a8f0db0",
+      "after": "8bf9ce250d8dc4efb182f3095f9161471c96527b09b514acf012a6e88a8f0db0"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v2\\segment_six_views.py": {
+      "before": "7a8159737819dd81d28aa0565b8a8871f81fa4a99fe8a3dc5226ce7a2362fcae",
+      "after": "7a8159737819dd81d28aa0565b8a8871f81fa4a99fe8a3dc5226ce7a2362fcae"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v2\\sequence-workflow.js": {
+      "before": "fcb5fd2715dcd1b5b260a818ca292cc955d5d6ce713d0e7588b91cbfcdc33ad8",
+      "after": "fcb5fd2715dcd1b5b260a818ca292cc955d5d6ce713d0e7588b91cbfcdc33ad8"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v2\\video-history.js": {
+      "before": "0273ec5a28d8b77c3711aa1d86c710c7b92eae8b98c5818a6b1aa2d7d2aebde5",
+      "after": "0273ec5a28d8b77c3711aa1d86c710c7b92eae8b98c5818a6b1aa2d7d2aebde5"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v2\\_validate_tmp.js": {
+      "before": "9df864a21df8a7a9b302bb610206b991def7eb76ccf92c916676b3b6768b3101",
+      "after": "9df864a21df8a7a9b302bb610206b991def7eb76ccf92c916676b3b6768b3101"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v2\\__inline_check.js": {
+      "before": "1e5a91b1eadae6eee766961fb0d752334b84b377d195b01a40809b0b5cdb4d86",
+      "after": "1e5a91b1eadae6eee766961fb0d752334b84b377d195b01a40809b0b5cdb4d86"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v2\\__spinegen.js": {
+      "before": "ce5e7ddfefed2ba0efce251733ae60bb2598006e8b1ff77ee76a6c79f6a87ef9",
+      "after": "ce5e7ddfefed2ba0efce251733ae60bb2598006e8b1ff77ee76a6c79f6a87ef9"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v2\\__video2frames.js": {
+      "before": "d2cdba25b2c15a8260be40259dbd611802824b07cd67631399cac0c573b2589e",
+      "after": "d2cdba25b2c15a8260be40259dbd611802824b07cd67631399cac0c573b2589e"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\checks.json": {
+      "before": "40a42c2be10e0eba056d45ae3ebd58dedb901a532a4e23c71927f4815c19ca42",
+      "after": "40a42c2be10e0eba056d45ae3ebd58dedb901a532a4e23c71927f4815c19ca42"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\chest_arm.png": {
+      "before": "985772c6f6d0b76b6b78b10dbef1ded4bec6273ecf3df94662bc30f244fc944a",
+      "after": "985772c6f6d0b76b6b78b10dbef1ded4bec6273ecf3df94662bc30f244fc944a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\chest_assembly.png": {
+      "before": "01e3c62bfd01e50891f1554cf2d20784cde92d2e0a4f23fdbe27d7ecdd8b1121",
+      "after": "01e3c62bfd01e50891f1554cf2d20784cde92d2e0a4f23fdbe27d7ecdd8b1121"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\chest_mesh_overlay.png": {
+      "before": "7037c2a504ba09c480653467d8345581dc9f7a618e3ed0d282bc26100db08f18",
+      "after": "7037c2a504ba09c480653467d8345581dc9f7a618e3ed0d282bc26100db08f18"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\chest_neutral_domain_exposure.png": {
+      "before": "2cb29e5a3366cb81d11547dc352c17c70b43c6d9d16932f4c95b1cf2bf5baddf",
+      "after": "2cb29e5a3366cb81d11547dc352c17c70b43c6d9d16932f4c95b1cf2bf5baddf"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\mesh.json": {
+      "before": "2c7fb5bc5abfa9e1aa1f551d57f599629a2e9ae980cf7ee7c48e4213bc14d40b",
+      "after": "2c7fb5bc5abfa9e1aa1f551d57f599629a2e9ae980cf7ee7c48e4213bc14d40b"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\neutral_arm.png": {
+      "before": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95",
+      "after": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\neutral_assembly.png": {
+      "before": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a",
+      "after": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\neutral_mesh_diff_x8.png": {
+      "before": "b978218354b7e56382c542dfd08fd72658743721f0f59c29722ff163ee998c68",
+      "after": "b978218354b7e56382c542dfd08fd72658743721f0f59c29722ff163ee998c68"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\neutral_mesh_overlay.png": {
+      "before": "d95ae33041ce7d14a604b7f9be4298025f6bf2c68e8d723dc71395ff3b3713c6",
+      "after": "d95ae33041ce7d14a604b7f9be4298025f6bf2c68e8d723dc71395ff3b3713c6"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\neutral_neutral_domain_exposure.png": {
+      "before": "b978218354b7e56382c542dfd08fd72658743721f0f59c29722ff163ee998c68",
+      "after": "b978218354b7e56382c542dfd08fd72658743721f0f59c29722ff163ee998c68"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\open_arm.png": {
+      "before": "5d53ed871015466ee4bb8f589ceb50be681cefe9fa28a2e773e69481da099b3d",
+      "after": "5d53ed871015466ee4bb8f589ceb50be681cefe9fa28a2e773e69481da099b3d"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\open_assembly.png": {
+      "before": "1cf8201c5df2da9f47294307567f78918024247dd7e757217fa1f8e41815a021",
+      "after": "1cf8201c5df2da9f47294307567f78918024247dd7e757217fa1f8e41815a021"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\open_mesh_overlay.png": {
+      "before": "dbddb2479913141c22930145aa417fe33aee1f41b341a601db0446c075f7a872",
+      "after": "dbddb2479913141c22930145aa417fe33aee1f41b341a601db0446c075f7a872"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\open_neutral_domain_exposure.png": {
+      "before": "3d671d43d7a2b4a99fbb9f7e815660cc38a776d0761f21f44e1c1248d47d9a3a",
+      "after": "3d671d43d7a2b4a99fbb9f7e815660cc38a776d0761f21f44e1c1248d47d9a3a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\review.png": {
+      "before": "fee7b481f2f8fc27b02457258ecf5c7f345f380421fe4a787b6733cb97db1813",
+      "after": "fee7b481f2f8fc27b02457258ecf5c7f345f380421fe4a787b6733cb97db1813"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis180_fixed_chest_fixed_arm.png": {
+      "before": "b565b4f48e959c84b63ca6b961cdf46e3826502a7590f750293d3b9def1cf17d",
+      "after": "b565b4f48e959c84b63ca6b961cdf46e3826502a7590f750293d3b9def1cf17d"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis180_fixed_chest_fixed_assembly.png": {
+      "before": "bcffcc13556d37787c179a8bdd6d211aa4c29c58374067a2f569250b4494d717",
+      "after": "bcffcc13556d37787c179a8bdd6d211aa4c29c58374067a2f569250b4494d717"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis180_fixed_chest_fixed_mesh.png": {
+      "before": "9f930f64c024888f610323d21c30fda95744ac3ebd5325a620d0a807c7264fcd",
+      "after": "9f930f64c024888f610323d21c30fda95744ac3ebd5325a620d0a807c7264fcd"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis180_fixed_open_arm.png": {
+      "before": "f30842c8abd01793e4af16d41ed70a019dfb9c645a3d6bcc6353531609d1420b",
+      "after": "f30842c8abd01793e4af16d41ed70a019dfb9c645a3d6bcc6353531609d1420b"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis180_fixed_open_assembly.png": {
+      "before": "60cc7a7b7f3bfb5b9cf34fa6c410647a40439fd6211a806efa933046f4960597",
+      "after": "60cc7a7b7f3bfb5b9cf34fa6c410647a40439fd6211a806efa933046f4960597"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis180_fixed_open_mesh.png": {
+      "before": "330c2856bcc4c1e9e09d0ecdc89097f2601f1a04cf79b82103874466b703bc4d",
+      "after": "330c2856bcc4c1e9e09d0ecdc89097f2601f1a04cf79b82103874466b703bc4d"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_chest_arm.png": {
+      "before": "034d7c31537367c5ccfc6eeb09c61c202633fa1710f6d03af48f2d2a619d8b29",
+      "after": "034d7c31537367c5ccfc6eeb09c61c202633fa1710f6d03af48f2d2a619d8b29"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_chest_assembly.png": {
+      "before": "9fc9b28fdc804ff07918dc5ec01d8d15c8c091e6c59064400a5824f418518c23",
+      "after": "9fc9b28fdc804ff07918dc5ec01d8d15c8c091e6c59064400a5824f418518c23"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_chest_mesh.png": {
+      "before": "acf18bc032b813c705c1f7ab9cdfac6e7ded4cc6a19ab2a020ff0ba5985b399d",
+      "after": "acf18bc032b813c705c1f7ab9cdfac6e7ded4cc6a19ab2a020ff0ba5985b399d"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_fixed_chest_fixed_arm.png": {
+      "before": "91085e0868d286af35c0a2d87bd8cf10c324a8ba0d2a05f37f4124dbb1cbf1cc",
+      "after": "91085e0868d286af35c0a2d87bd8cf10c324a8ba0d2a05f37f4124dbb1cbf1cc"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_fixed_chest_fixed_assembly.png": {
+      "before": "bf97675ee82a01e6de7bed25f2271db33ffa1edbe7e03a9d676c865b8f2ed2d1",
+      "after": "bf97675ee82a01e6de7bed25f2271db33ffa1edbe7e03a9d676c865b8f2ed2d1"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_fixed_chest_fixed_mesh.png": {
+      "before": "5320d108c1c0100fc7a6ee721d5b1b5b18f821226e4aa2db497d9450323b5394",
+      "after": "5320d108c1c0100fc7a6ee721d5b1b5b18f821226e4aa2db497d9450323b5394"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_fixed_open_arm.png": {
+      "before": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb",
+      "after": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_fixed_open_assembly.png": {
+      "before": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f",
+      "after": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_fixed_open_mesh.png": {
+      "before": "f8b487ee411c8f5b6c933b7e20aa7cdc04321051a34b742019fbc6eefba5e9a2",
+      "after": "f8b487ee411c8f5b6c933b7e20aa7cdc04321051a34b742019fbc6eefba5e9a2"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_open_arm.png": {
+      "before": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb",
+      "after": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_open_assembly.png": {
+      "before": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f",
+      "after": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\axis60_open_mesh.png": {
+      "before": "f8b487ee411c8f5b6c933b7e20aa7cdc04321051a34b742019fbc6eefba5e9a2",
+      "after": "f8b487ee411c8f5b6c933b7e20aa7cdc04321051a34b742019fbc6eefba5e9a2"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\checks.json": {
+      "before": "dc4df970e7cfde4b40adb9a8a84520f35a2f97099eb10e2d9eb25ed805daa486",
+      "after": "dc4df970e7cfde4b40adb9a8a84520f35a2f97099eb10e2d9eb25ed805daa486"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\review.png": {
+      "before": "432f8e99c71a579b247645c1703f84a8af1c0f9f233aa574fd982ca9f92df510",
+      "after": "432f8e99c71a579b247645c1703f84a8af1c0f9f233aa574fd982ca9f92df510"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\study.json": {
+      "before": "94284ab5d8be56f1c7e0af3ea4b4f6ad4f7f48d29d77889e3d35a5979d1fed07",
+      "after": "94284ab5d8be56f1c7e0af3ea4b4f6ad4f7f48d29d77889e3d35a5979d1fed07"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\v1_baseline_chest_arm.png": {
+      "before": "985772c6f6d0b76b6b78b10dbef1ded4bec6273ecf3df94662bc30f244fc944a",
+      "after": "985772c6f6d0b76b6b78b10dbef1ded4bec6273ecf3df94662bc30f244fc944a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\v1_baseline_chest_assembly.png": {
+      "before": "01e3c62bfd01e50891f1554cf2d20784cde92d2e0a4f23fdbe27d7ecdd8b1121",
+      "after": "01e3c62bfd01e50891f1554cf2d20784cde92d2e0a4f23fdbe27d7ecdd8b1121"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\v1_baseline_chest_mesh.png": {
+      "before": "7037c2a504ba09c480653467d8345581dc9f7a618e3ed0d282bc26100db08f18",
+      "after": "7037c2a504ba09c480653467d8345581dc9f7a618e3ed0d282bc26100db08f18"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\v1_baseline_open_arm.png": {
+      "before": "5d53ed871015466ee4bb8f589ceb50be681cefe9fa28a2e773e69481da099b3d",
+      "after": "5d53ed871015466ee4bb8f589ceb50be681cefe9fa28a2e773e69481da099b3d"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\v1_baseline_open_assembly.png": {
+      "before": "1cf8201c5df2da9f47294307567f78918024247dd7e757217fa1f8e41815a021",
+      "after": "1cf8201c5df2da9f47294307567f78918024247dd7e757217fa1f8e41815a021"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v2\\v1_baseline_open_mesh.png": {
+      "before": "dbddb2479913141c22930145aa417fe33aee1f41b341a601db0446c075f7a872",
+      "after": "dbddb2479913141c22930145aa417fe33aee1f41b341a601db0446c075f7a872"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\checks.json": {
+      "before": "6f82a90552d7eaf309991befb01ef6bb949d4cc81fce0c101df3a64119691c45",
+      "after": "6f82a90552d7eaf309991befb01ef6bb949d4cc81fce0c101df3a64119691c45"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\interpolation_worst_assembly.png": {
+      "before": "9b7e89e69dcadfaecaf0f7f7e5e1e7dcee0bfb6eccb7089edababa09221d8199",
+      "after": "9b7e89e69dcadfaecaf0f7f7e5e1e7dcee0bfb6eccb7089edababa09221d8199"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\interpolation_worst_mesh.png": {
+      "before": "25293ca2092a6e86c7492334c6a8d279d84e5e95ca475cc7384ebead68755a3e",
+      "after": "25293ca2092a6e86c7492334c6a8d279d84e5e95ca475cc7384ebead68755a3e"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_00_arm.png": {
+      "before": "649358e6e3fcddbb44ddccd126ff2d6d7197991408657bd83f86f39ca96b8909",
+      "after": "649358e6e3fcddbb44ddccd126ff2d6d7197991408657bd83f86f39ca96b8909"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_00_assembly.png": {
+      "before": "8e93b325882322d5df3c28f5a4ac8f6d1be41b00c085660cb4466566fa74731b",
+      "after": "8e93b325882322d5df3c28f5a4ac8f6d1be41b00c085660cb4466566fa74731b"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_00_mesh.png": {
+      "before": "f8ee82bd8fa5065c8b2e748e5c0f4adbca32821405e8265395c13ed5d6aeddf5",
+      "after": "f8ee82bd8fa5065c8b2e748e5c0f4adbca32821405e8265395c13ed5d6aeddf5"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_01_arm.png": {
+      "before": "6e6130ce85c91b160ee758e732dad38f9535a8e637f4c1e65d7f32bba0844e4d",
+      "after": "6e6130ce85c91b160ee758e732dad38f9535a8e637f4c1e65d7f32bba0844e4d"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_01_assembly.png": {
+      "before": "7dd0fd8f8eabccc01a9b4dc7d1d76bdc496922d26033c7dfe7c2f0ca83f9aade",
+      "after": "7dd0fd8f8eabccc01a9b4dc7d1d76bdc496922d26033c7dfe7c2f0ca83f9aade"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_01_mesh.png": {
+      "before": "f1eaef8deb15f9db9ff18f7083e8f55d4c3a7d2c58f8782a25480f7b9fdb6116",
+      "after": "f1eaef8deb15f9db9ff18f7083e8f55d4c3a7d2c58f8782a25480f7b9fdb6116"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_02_arm.png": {
+      "before": "f9d40ff949f28d1f3b1ba1438fc8ba80176ec43e87eec21800ab467fd04c32fd",
+      "after": "f9d40ff949f28d1f3b1ba1438fc8ba80176ec43e87eec21800ab467fd04c32fd"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_02_assembly.png": {
+      "before": "7283d3b9a7a4a295d74c732942a301f05f47ca9d887c2b02ba23e838225e6a00",
+      "after": "7283d3b9a7a4a295d74c732942a301f05f47ca9d887c2b02ba23e838225e6a00"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_02_mesh.png": {
+      "before": "d6c87d5a8e595e3b974f385638039cb5c7b7788bb0324ad087a3f1cb525c0a34",
+      "after": "d6c87d5a8e595e3b974f385638039cb5c7b7788bb0324ad087a3f1cb525c0a34"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_03_arm.png": {
+      "before": "5f12fead8d96ebf800665a1200f4fcafc7559fb0ca670aff4733d60afdd39ef9",
+      "after": "5f12fead8d96ebf800665a1200f4fcafc7559fb0ca670aff4733d60afdd39ef9"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_03_assembly.png": {
+      "before": "410415cc7fb5dbc8f312e5ae8edd0acbaf16aecce85089f41f897a1c3c3626e2",
+      "after": "410415cc7fb5dbc8f312e5ae8edd0acbaf16aecce85089f41f897a1c3c3626e2"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_03_mesh.png": {
+      "before": "58c06e9507e182e2beb3cfa5d5667be29c9d46527f003ce0663aa72a7fceeaec",
+      "after": "58c06e9507e182e2beb3cfa5d5667be29c9d46527f003ce0663aa72a7fceeaec"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_04_arm.png": {
+      "before": "dacc8bb31b299c4e0c0aa18ef365a17c5fcb7614664795f8fb20c73bffbd11b0",
+      "after": "dacc8bb31b299c4e0c0aa18ef365a17c5fcb7614664795f8fb20c73bffbd11b0"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_04_assembly.png": {
+      "before": "190a5a12b98ceb1567ea0e0348fb385164efdcf07bec62a7fa8e69e3ccc6db37",
+      "after": "190a5a12b98ceb1567ea0e0348fb385164efdcf07bec62a7fa8e69e3ccc6db37"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_04_mesh.png": {
+      "before": "333ca43f7c0164f53ccd3bc646c140fe33f6531b1c791fa1233870aa52f74a22",
+      "after": "333ca43f7c0164f53ccd3bc646c140fe33f6531b1c791fa1233870aa52f74a22"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_05_arm.png": {
+      "before": "1b44d54e9e40cb033c2dd73c435f577d0296c2d9263a7582df2355fcaca69dc0",
+      "after": "1b44d54e9e40cb033c2dd73c435f577d0296c2d9263a7582df2355fcaca69dc0"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_05_assembly.png": {
+      "before": "76d3596627a064426252c73147958bec3cdb5dcf7bd034058f8c7921b2431607",
+      "after": "76d3596627a064426252c73147958bec3cdb5dcf7bd034058f8c7921b2431607"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_05_mesh.png": {
+      "before": "ad21751f495d83fa2b7af61d9001a08043f1886a406b1cc5dc3aff6a8d1101d0",
+      "after": "ad21751f495d83fa2b7af61d9001a08043f1886a406b1cc5dc3aff6a8d1101d0"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_06_arm.png": {
+      "before": "260085cd8ef5d375161382e8e68d7a3ef438ae813939d08e2d1ca7f56ea31fd9",
+      "after": "260085cd8ef5d375161382e8e68d7a3ef438ae813939d08e2d1ca7f56ea31fd9"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_06_assembly.png": {
+      "before": "e286b0abaa7ee64edb9ce4cb6b3d95b4ee56db16003e04557261f33a5b8b8917",
+      "after": "e286b0abaa7ee64edb9ce4cb6b3d95b4ee56db16003e04557261f33a5b8b8917"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_06_mesh.png": {
+      "before": "891cd5a0f566f8a5d5d59b22b27a016faab558c4d54afd1b78c4f30b4fab902c",
+      "after": "891cd5a0f566f8a5d5d59b22b27a016faab558c4d54afd1b78c4f30b4fab902c"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_07_arm.png": {
+      "before": "4d6dff1da1b6e00f923ad1a1e2db896d1dd4afb80194a8a5f290f1a0668638bd",
+      "after": "4d6dff1da1b6e00f923ad1a1e2db896d1dd4afb80194a8a5f290f1a0668638bd"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_07_assembly.png": {
+      "before": "6ba78f78ad8f8499f92b7aeb68bb9643ed44d1e9aea1d8e4d05bb0c747ba42ff",
+      "after": "6ba78f78ad8f8499f92b7aeb68bb9643ed44d1e9aea1d8e4d05bb0c747ba42ff"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_07_mesh.png": {
+      "before": "9da763ff7044c50771e7fe538083c1ca24ea35d2348b0894675cde25a605a6b0",
+      "after": "9da763ff7044c50771e7fe538083c1ca24ea35d2348b0894675cde25a605a6b0"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_08_arm.png": {
+      "before": "3beb6bc31331090968fcf0654154372b9a2f1b588222246f9dbfbb2d67ae5768",
+      "after": "3beb6bc31331090968fcf0654154372b9a2f1b588222246f9dbfbb2d67ae5768"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_08_assembly.png": {
+      "before": "e7fd64dc0a0e6f2491f2ad712be3cf10644cef552eae0b2c791d6b2dd9cd02ed",
+      "after": "e7fd64dc0a0e6f2491f2ad712be3cf10644cef552eae0b2c791d6b2dd9cd02ed"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\key_08_mesh.png": {
+      "before": "699cabc6a6ee8453408043281787a0f68b104d9ec4915ad26eabe40f2c6edae6",
+      "after": "699cabc6a6ee8453408043281787a0f68b104d9ec4915ad26eabe40f2c6edae6"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\review.png": {
+      "before": "643cd3a07597974269f0d9985004b406835672dc9682854f111b7745898c7bc6",
+      "after": "643cd3a07597974269f0d9985004b406835672dc9682854f111b7745898c7bc6"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v3\\study.json": {
+      "before": "84ab1a3e95c184f20996671bd5a507bb56b98084f14bf3249e3e8a4a818c135d",
+      "after": "84ab1a3e95c184f20996671bd5a507bb56b98084f14bf3249e3e8a4a818c135d"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_chest_arm.png": {
+      "before": "1b5837f3905a37c774c51b09eae5474e06f2a9b88af3098fb636be9d7250ff3a",
+      "after": "1b5837f3905a37c774c51b09eae5474e06f2a9b88af3098fb636be9d7250ff3a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_chest_assembly.png": {
+      "before": "666cbd68c1df80884b5c5d96f94499977306f9a8262c552158eb1a772fc86982",
+      "after": "666cbd68c1df80884b5c5d96f94499977306f9a8262c552158eb1a772fc86982"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_chest_fixed_arm.png": {
+      "before": "20868a442221a9f7f9a4dd75a7d6af20e323615a6159336f3db09eab18ecb337",
+      "after": "20868a442221a9f7f9a4dd75a7d6af20e323615a6159336f3db09eab18ecb337"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_chest_fixed_assembly.png": {
+      "before": "cec94183f89552a8dae379138e3d8152df60b335d84693312254bcf966592979",
+      "after": "cec94183f89552a8dae379138e3d8152df60b335d84693312254bcf966592979"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_chest_fixed_mesh.png": {
+      "before": "caf9b119ea410d27a2738e7a96685cd82a9843e2e0c58d27f3e5f8f167197b2d",
+      "after": "caf9b119ea410d27a2738e7a96685cd82a9843e2e0c58d27f3e5f8f167197b2d"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_chest_mesh.png": {
+      "before": "fc11f68b13b7d13ef7ea63545d27def31c583c5bc2c467e4851d3def9950a9dd",
+      "after": "fc11f68b13b7d13ef7ea63545d27def31c583c5bc2c467e4851d3def9950a9dd"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_neutral_arm.png": {
+      "before": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95",
+      "after": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_neutral_assembly.png": {
+      "before": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a",
+      "after": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_neutral_mesh.png": {
+      "before": "6d2a1f86209136c8865cd3fd64f9c433914b7d2039d27dda9eb98d7066fdfc51",
+      "after": "6d2a1f86209136c8865cd3fd64f9c433914b7d2039d27dda9eb98d7066fdfc51"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_open_arm.png": {
+      "before": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb",
+      "after": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_open_assembly.png": {
+      "before": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f",
+      "after": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\alpha_occupied_open_mesh.png": {
+      "before": "65818992e5c1952e582184d10686916809c53f676e67ae13f3cb729fd1181beb",
+      "after": "65818992e5c1952e582184d10686916809c53f676e67ae13f3cb729fd1181beb"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\checks.json": {
+      "before": "2ab7ae21b68539f14008cb4b7dfc1c016b37828516751ad349f2ee26ffdb91f2",
+      "after": "2ab7ae21b68539f14008cb4b7dfc1c016b37828516751ad349f2ee26ffdb91f2"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_chest_arm.png": {
+      "before": "034d7c31537367c5ccfc6eeb09c61c202633fa1710f6d03af48f2d2a619d8b29",
+      "after": "034d7c31537367c5ccfc6eeb09c61c202633fa1710f6d03af48f2d2a619d8b29"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_chest_assembly.png": {
+      "before": "9fc9b28fdc804ff07918dc5ec01d8d15c8c091e6c59064400a5824f418518c23",
+      "after": "9fc9b28fdc804ff07918dc5ec01d8d15c8c091e6c59064400a5824f418518c23"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_chest_fixed_arm.png": {
+      "before": "91085e0868d286af35c0a2d87bd8cf10c324a8ba0d2a05f37f4124dbb1cbf1cc",
+      "after": "91085e0868d286af35c0a2d87bd8cf10c324a8ba0d2a05f37f4124dbb1cbf1cc"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_chest_fixed_assembly.png": {
+      "before": "bf97675ee82a01e6de7bed25f2271db33ffa1edbe7e03a9d676c865b8f2ed2d1",
+      "after": "bf97675ee82a01e6de7bed25f2271db33ffa1edbe7e03a9d676c865b8f2ed2d1"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_chest_fixed_mesh.png": {
+      "before": "5320d108c1c0100fc7a6ee721d5b1b5b18f821226e4aa2db497d9450323b5394",
+      "after": "5320d108c1c0100fc7a6ee721d5b1b5b18f821226e4aa2db497d9450323b5394"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_chest_mesh.png": {
+      "before": "acf18bc032b813c705c1f7ab9cdfac6e7ded4cc6a19ab2a020ff0ba5985b399d",
+      "after": "acf18bc032b813c705c1f7ab9cdfac6e7ded4cc6a19ab2a020ff0ba5985b399d"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_neutral_arm.png": {
+      "before": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95",
+      "after": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_neutral_assembly.png": {
+      "before": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a",
+      "after": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_neutral_mesh.png": {
+      "before": "9369c90e3c026e0fbaaaa47ef9c7251f337b8fc263240cc22e7eb7922d05d5b7",
+      "after": "9369c90e3c026e0fbaaaa47ef9c7251f337b8fc263240cc22e7eb7922d05d5b7"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_open_arm.png": {
+      "before": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb",
+      "after": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_open_assembly.png": {
+      "before": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f",
+      "after": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\rectangle_open_mesh.png": {
+      "before": "f8b487ee411c8f5b6c933b7e20aa7cdc04321051a34b742019fbc6eefba5e9a2",
+      "after": "f8b487ee411c8f5b6c933b7e20aa7cdc04321051a34b742019fbc6eefba5e9a2"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\review.png": {
+      "before": "30ac52e024c9d084e0c1de04c5e537216ae7b4b14ccf4bc83256300dc5c5e51d",
+      "after": "30ac52e024c9d084e0c1de04c5e537216ae7b4b14ccf4bc83256300dc5c5e51d"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v4\\study.json": {
+      "before": "916f284005bcb79c0262b92a35ccd1dcdce43e56d14afceeac50b4680ccc5af9",
+      "after": "916f284005bcb79c0262b92a35ccd1dcdce43e56d14afceeac50b4680ccc5af9"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v5\\alpha_occupied_chest_arm.png": {
+      "before": "f58bd5d9c2b26702614629f8ca845680d308f2e5bc16c92d3aab89544d279f2a",
+      "after": "f58bd5d9c2b26702614629f8ca845680d308f2e5bc16c92d3aab89544d279f2a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v5\\alpha_occupied_chest_assembly.png": {
+      "before": "a1d7a18f10414de37d222dea74d84489bd9079b2bcdccbb0f930891d6671f3e7",
+      "after": "a1d7a18f10414de37d222dea74d84489bd9079b2bcdccbb0f930891d6671f3e7"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v5\\alpha_occupied_chest_fixed_arm.png": {
+      "before": "c8f92b537392cd25fa02ce4228c20e84779e288a2ce38055e38f006386668e76",
+      "after": "c8f92b537392cd25fa02ce4228c20e84779e288a2ce38055e38f006386668e76"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v5\\alpha_occupied_chest_fixed_assembly.png": {
+      "before": "b61569644c33359e08d66bf64e425e433c2751a665438277e6e9c3a735dbeb90",
+      "after": "b61569644c33359e08d66bf64e425e433c2751a665438277e6e9c3a735dbeb90"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v5\\alpha_occupied_neutral_arm.png": {
+      "before": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95",
+      "after": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v5\\alpha_occupied_neutral_assembly.png": {
+      "before": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a",
+      "after": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v5\\alpha_occupied_open_arm.png": {
+      "before": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb",
+      "after": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v5\\alpha_occupied_open_assembly.png": {
+      "before": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f",
+      "after": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v5\\checks.json": {
+      "before": "bc0a8799e2ed269421000e8c7e74fe8e78a51c76cad5c9c99f5bc1d281f082b5",
+      "after": "bc0a8799e2ed269421000e8c7e74fe8e78a51c76cad5c9c99f5bc1d281f082b5"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v5\\rectangle_chest_arm.png": {
+      "before": "f58bd5d9c2b26702614629f8ca845680d308f2e5bc16c92d3aab89544d279f2a",
+      "after": "f58bd5d9c2b26702614629f8ca845680d308f2e5bc16c92d3aab89544d279f2a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v5\\rectangle_chest_assembly.png": {
+      "before": "a1d7a18f10414de37d222dea74d84489bd9079b2bcdccbb0f930891d6671f3e7",
+      "after": "a1d7a18f10414de37d222dea74d84489bd9079b2bcdccbb0f930891d6671f3e7"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v5\\rectangle_chest_fixed_arm.png": {
+      "before": "c8f92b537392cd25fa02ce4228c20e84779e288a2ce38055e38f006386668e76",
+      "after": "c8f92b537392cd25fa02ce4228c20e84779e288a2ce38055e38f006386668e76"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v5\\rectangle_chest_fixed_assembly.png": {
+      "before": "b61569644c33359e08d66bf64e425e433c2751a665438277e6e9c3a735dbeb90",
+      "after": "b61569644c33359e08d66bf64e425e433c2751a665438277e6e9c3a735dbeb90"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v5\\rectangle_neutral_arm.png": {
+      "before": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95",
+      "after": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v5\\rectangle_neutral_assembly.png": {
+      "before": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a",
+      "after": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v5\\rectangle_open_arm.png": {
+      "before": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb",
+      "after": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v5\\rectangle_open_assembly.png": {
+      "before": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f",
+      "after": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v5\\review.png": {
+      "before": "041424a4d864060ed7fc018ace9ebb097c0b950708c055c2fa5887072b135613",
+      "after": "041424a4d864060ed7fc018ace9ebb097c0b950708c055c2fa5887072b135613"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\checks.json": {
+      "before": "30fb452ca62aac26bc73f9aba91cfa2a78e44975c5ad7a8a09c67d09a1ad1136",
+      "after": "30fb452ca62aac26bc73f9aba91cfa2a78e44975c5ad7a8a09c67d09a1ad1136"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\control_semantics.png": {
+      "before": "f4692f9ef3d3e787c76d1daf761252be0b29b81ecf0cd2dee7ed46d7e930dc7b",
+      "after": "f4692f9ef3d3e787c76d1daf761252be0b29b81ecf0cd2dee7ed46d7e930dc7b"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\new_topology.png": {
+      "before": "d1b304516cd07c7f42dbdb620464b98e16d52f3aca599e843239e667f1e44ef3",
+      "after": "d1b304516cd07c7f42dbdb620464b98e16d52f3aca599e843239e667f1e44ef3"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\old_axis60_chest_fixed_arm.png": {
+      "before": "c8f92b537392cd25fa02ce4228c20e84779e288a2ce38055e38f006386668e76",
+      "after": "c8f92b537392cd25fa02ce4228c20e84779e288a2ce38055e38f006386668e76"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\old_axis60_chest_fixed_assembly.png": {
+      "before": "b61569644c33359e08d66bf64e425e433c2751a665438277e6e9c3a735dbeb90",
+      "after": "b61569644c33359e08d66bf64e425e433c2751a665438277e6e9c3a735dbeb90"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\old_axis60_chest_fixed_mesh.png": {
+      "before": "d7fec48d9542610691a49441d8ba18a3ee937933fed312c316829861621304b3",
+      "after": "d7fec48d9542610691a49441d8ba18a3ee937933fed312c316829861621304b3"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\old_axis60_neutral_arm.png": {
+      "before": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95",
+      "after": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\old_axis60_neutral_assembly.png": {
+      "before": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a",
+      "after": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\old_axis60_neutral_mesh.png": {
+      "before": "23c70957e071485e94d08aab2fd3b508e86593152be18f22c358c19fe3f759fe",
+      "after": "23c70957e071485e94d08aab2fd3b508e86593152be18f22c358c19fe3f759fe"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\old_axis60_open_arm.png": {
+      "before": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb",
+      "after": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\old_axis60_open_assembly.png": {
+      "before": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f",
+      "after": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\old_axis60_open_mesh.png": {
+      "before": "7a8883d997bf1e1e6f627f567c9c6504f5cbe30b115cc8b23b6c2509ca8b24e2",
+      "after": "7a8883d997bf1e1e6f627f567c9c6504f5cbe30b115cc8b23b6c2509ca8b24e2"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\old_axis60_worst_elbow_isolated_64_arm.png": {
+      "before": "c02f7820e26e1fed77a2e8c5d9ce5f5eebbafbb0f1b9d5878fd21064b08a7eef",
+      "after": "c02f7820e26e1fed77a2e8c5d9ce5f5eebbafbb0f1b9d5878fd21064b08a7eef"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\old_axis60_worst_elbow_isolated_64_assembly.png": {
+      "before": "07cfd6f39e14419e6f2e2ed7c039a8f724cf1818b580df7bc6e5577b04e69190",
+      "after": "07cfd6f39e14419e6f2e2ed7c039a8f724cf1818b580df7bc6e5577b04e69190"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\old_axis60_worst_elbow_isolated_64_mesh.png": {
+      "before": "5f41b857935680cacc595a7e41e2991ae221136d3955d5ab2ba262b0d57780f4",
+      "after": "5f41b857935680cacc595a7e41e2991ae221136d3955d5ab2ba262b0d57780f4"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\old_axis60_worst_open_to_chest_fixed_64_arm.png": {
+      "before": "c8f92b537392cd25fa02ce4228c20e84779e288a2ce38055e38f006386668e76",
+      "after": "c8f92b537392cd25fa02ce4228c20e84779e288a2ce38055e38f006386668e76"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\old_axis60_worst_open_to_chest_fixed_64_assembly.png": {
+      "before": "b61569644c33359e08d66bf64e425e433c2751a665438277e6e9c3a735dbeb90",
+      "after": "b61569644c33359e08d66bf64e425e433c2751a665438277e6e9c3a735dbeb90"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\old_axis60_worst_open_to_chest_fixed_64_mesh.png": {
+      "before": "d7fec48d9542610691a49441d8ba18a3ee937933fed312c316829861621304b3",
+      "after": "d7fec48d9542610691a49441d8ba18a3ee937933fed312c316829861621304b3"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\review.png": {
+      "before": "748b0a0ca0da10a45dadc2a72ff998cb794118a45b9f24b8cc1373fe7915c8d1",
+      "after": "748b0a0ca0da10a45dadc2a72ff998cb794118a45b9f24b8cc1373fe7915c8d1"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\shoulder_root_chest_fixed_support_overlay.png": {
+      "before": "d1e44bc1cfbc39ae2b9e80ad2ab7e6b8b999d61d7933e1c0e20c4eb98cbf4c94",
+      "after": "d1e44bc1cfbc39ae2b9e80ad2ab7e6b8b999d61d7933e1c0e20c4eb98cbf4c94"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\shoulder_root_neutral_support_overlay.png": {
+      "before": "927a82d29effc74f056286a5ca0915080c9989a4bc3cbc1fed6895bebc01efcd",
+      "after": "927a82d29effc74f056286a5ca0915080c9989a4bc3cbc1fed6895bebc01efcd"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\shoulder_root_open_support_overlay.png": {
+      "before": "b6218fcc0792e043a5babe96796d38471797a8142d26728c4d9d2db6ab1c3d98",
+      "after": "b6218fcc0792e043a5babe96796d38471797a8142d26728c4d9d2db6ab1c3d98"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\source_topology.png": {
+      "before": "0b7fa8cb3d76e846b6346631387d42bda5d8591bf23eae9f77204318b00e3367",
+      "after": "0b7fa8cb3d76e846b6346631387d42bda5d8591bf23eae9f77204318b00e3367"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_arc60_chest_fixed_arm.png": {
+      "before": "d235fd29ec6508db700d7309184cae7af58984dd771be09a20b0b153e0b279ac",
+      "after": "d235fd29ec6508db700d7309184cae7af58984dd771be09a20b0b153e0b279ac"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_arc60_chest_fixed_assembly.png": {
+      "before": "6385d822c69c4e87d16833251c28e5ebb67fb4a38fca185c1ca194c6699602ce",
+      "after": "6385d822c69c4e87d16833251c28e5ebb67fb4a38fca185c1ca194c6699602ce"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_arc60_chest_fixed_mesh.png": {
+      "before": "0326e7875286f4ebc15820f818351212eee613efa1bf0f5c6f081537e63d0efc",
+      "after": "0326e7875286f4ebc15820f818351212eee613efa1bf0f5c6f081537e63d0efc"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_arc60_neutral_arm.png": {
+      "before": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95",
+      "after": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_arc60_neutral_assembly.png": {
+      "before": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a",
+      "after": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_arc60_neutral_mesh.png": {
+      "before": "3088d1957dd8a530cde1ce4cd6529c0d69f48d21c37bf26f57839378841ddce4",
+      "after": "3088d1957dd8a530cde1ce4cd6529c0d69f48d21c37bf26f57839378841ddce4"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_arc60_open_arm.png": {
+      "before": "e04bb5054c1a5d2a07428cf481c9a31deea6ab86482526a5c376480981a0deef",
+      "after": "e04bb5054c1a5d2a07428cf481c9a31deea6ab86482526a5c376480981a0deef"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_arc60_open_assembly.png": {
+      "before": "7742ee188ef2a3d293f54e508d45bbc39e77d14504ad7b95cdc5e9f7936425a4",
+      "after": "7742ee188ef2a3d293f54e508d45bbc39e77d14504ad7b95cdc5e9f7936425a4"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_arc60_open_mesh.png": {
+      "before": "13cb86edb37f5a6c6718829c90de38a4490d23ce0237e63918cc5bf211681d2a",
+      "after": "13cb86edb37f5a6c6718829c90de38a4490d23ce0237e63918cc5bf211681d2a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_arc60_worst_open_to_chest_fixed_64_arm.png": {
+      "before": "d235fd29ec6508db700d7309184cae7af58984dd771be09a20b0b153e0b279ac",
+      "after": "d235fd29ec6508db700d7309184cae7af58984dd771be09a20b0b153e0b279ac"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_arc60_worst_open_to_chest_fixed_64_assembly.png": {
+      "before": "6385d822c69c4e87d16833251c28e5ebb67fb4a38fca185c1ca194c6699602ce",
+      "after": "6385d822c69c4e87d16833251c28e5ebb67fb4a38fca185c1ca194c6699602ce"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_arc60_worst_open_to_chest_fixed_64_mesh.png": {
+      "before": "0326e7875286f4ebc15820f818351212eee613efa1bf0f5c6f081537e63d0efc",
+      "after": "0326e7875286f4ebc15820f818351212eee613efa1bf0f5c6f081537e63d0efc"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_axis60_chest_fixed_arm.png": {
+      "before": "d7b7f09fe5a9db0fba6422909fc487b91492b10d4065977fbaf86d89c40bfb2c",
+      "after": "d7b7f09fe5a9db0fba6422909fc487b91492b10d4065977fbaf86d89c40bfb2c"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_axis60_chest_fixed_assembly.png": {
+      "before": "ad47e980a4f091c878b113f44d55ecf821abd47eb509b7c8fb8bed541812e038",
+      "after": "ad47e980a4f091c878b113f44d55ecf821abd47eb509b7c8fb8bed541812e038"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_axis60_chest_fixed_mesh.png": {
+      "before": "8826786e000a07788a5592645fda237e08d73c4850f6cadd64cd306fbf36f6cc",
+      "after": "8826786e000a07788a5592645fda237e08d73c4850f6cadd64cd306fbf36f6cc"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_axis60_neutral_arm.png": {
+      "before": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95",
+      "after": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_axis60_neutral_assembly.png": {
+      "before": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a",
+      "after": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_axis60_neutral_mesh.png": {
+      "before": "3088d1957dd8a530cde1ce4cd6529c0d69f48d21c37bf26f57839378841ddce4",
+      "after": "3088d1957dd8a530cde1ce4cd6529c0d69f48d21c37bf26f57839378841ddce4"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_axis60_open_arm.png": {
+      "before": "4d8d7c788ff241ff0a31d48c9dbcc95b3743d3c8343bbf42c7fa5dcacb046c08",
+      "after": "4d8d7c788ff241ff0a31d48c9dbcc95b3743d3c8343bbf42c7fa5dcacb046c08"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_axis60_open_assembly.png": {
+      "before": "1a5227d431983ea3cc56aed59f3087c3b0905f0e468d7414321d77b9d0637908",
+      "after": "1a5227d431983ea3cc56aed59f3087c3b0905f0e468d7414321d77b9d0637908"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_axis60_open_mesh.png": {
+      "before": "7e76621a54a327279ddce360a11ff9351d06ac65beabc3ef985cc6ec29d7851b",
+      "after": "7e76621a54a327279ddce360a11ff9351d06ac65beabc3ef985cc6ec29d7851b"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_axis60_worst_elbow_isolated_64_arm.png": {
+      "before": "75b42baafa942d93f04c3fe0f1fd662e8659c86c1560ea02b94195c72cb68ae5",
+      "after": "75b42baafa942d93f04c3fe0f1fd662e8659c86c1560ea02b94195c72cb68ae5"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_axis60_worst_elbow_isolated_64_assembly.png": {
+      "before": "d1ef1870d9c79cb664e1e6a7b74760d6f3d91869cbba6c8d44a858b8c8a767c4",
+      "after": "d1ef1870d9c79cb664e1e6a7b74760d6f3d91869cbba6c8d44a858b8c8a767c4"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_axis60_worst_elbow_isolated_64_mesh.png": {
+      "before": "f97ca83c90f518b0868e83b7c5935bd5c865da28acdadbec6b4c92f712183efd",
+      "after": "f97ca83c90f518b0868e83b7c5935bd5c865da28acdadbec6b4c92f712183efd"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_axis60_worst_open_to_chest_fixed_64_arm.png": {
+      "before": "d7b7f09fe5a9db0fba6422909fc487b91492b10d4065977fbaf86d89c40bfb2c",
+      "after": "d7b7f09fe5a9db0fba6422909fc487b91492b10d4065977fbaf86d89c40bfb2c"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_axis60_worst_open_to_chest_fixed_64_assembly.png": {
+      "before": "ad47e980a4f091c878b113f44d55ecf821abd47eb509b7c8fb8bed541812e038",
+      "after": "ad47e980a4f091c878b113f44d55ecf821abd47eb509b7c8fb8bed541812e038"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\strip_axis60_worst_open_to_chest_fixed_64_mesh.png": {
+      "before": "8826786e000a07788a5592645fda237e08d73c4850f6cadd64cd306fbf36f6cc",
+      "after": "8826786e000a07788a5592645fda237e08d73c4850f6cadd64cd306fbf36f6cc"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\study.json": {
+      "before": "98a6113de3cd7b35aab81fd42f0dfefe426141d12e1e92adabdfc4ecf3ba5a0c",
+      "after": "98a6113de3cd7b35aab81fd42f0dfefe426141d12e1e92adabdfc4ecf3ba5a0c"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v6\\weights.png": {
+      "before": "b18d9ba4e570f235e16213cc9aa4fc9e3e1fce7aa2dbcbc517218056419b2fa6",
+      "after": "b18d9ba4e570f235e16213cc9aa4fc9e3e1fce7aa2dbcbc517218056419b2fa6"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\alpha_support_audit.json": {
+      "before": "58f2bac522e17c90563ac321a33c782d4af8cf1f200ce9643e78793caad2156a",
+      "after": "58f2bac522e17c90563ac321a33c782d4af8cf1f200ce9643e78793caad2156a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\assembly_chest_fixed.png": {
+      "before": "fcc004b0c1f63aa581bb1eaa958b5a56f3495e90a4204205ed1f330fb26bed6b",
+      "after": "fcc004b0c1f63aa581bb1eaa958b5a56f3495e90a4204205ed1f330fb26bed6b"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\assembly_neutral.png": {
+      "before": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a",
+      "after": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\assembly_open.png": {
+      "before": "e65241f03690bcffafe08986a2cbacc259c580c7f1e2b03ce77a9808307bce22",
+      "after": "e65241f03690bcffafe08986a2cbacc259c580c7f1e2b03ce77a9808307bce22"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\axis60_chest_fixed_arm.png": {
+      "before": "d7b7f09fe5a9db0fba6422909fc487b91492b10d4065977fbaf86d89c40bfb2c",
+      "after": "d7b7f09fe5a9db0fba6422909fc487b91492b10d4065977fbaf86d89c40bfb2c"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\axis60_chest_fixed_assembly.png": {
+      "before": "ad47e980a4f091c878b113f44d55ecf821abd47eb509b7c8fb8bed541812e038",
+      "after": "ad47e980a4f091c878b113f44d55ecf821abd47eb509b7c8fb8bed541812e038"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\axis60_chest_fixed_mesh.png": {
+      "before": "bc5d1d3a2c8a8a2c2cd3cda30a1f0055f7d51266674d08a8602368bdb883e344",
+      "after": "bc5d1d3a2c8a8a2c2cd3cda30a1f0055f7d51266674d08a8602368bdb883e344"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\axis60_neutral_arm.png": {
+      "before": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95",
+      "after": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\axis60_neutral_assembly.png": {
+      "before": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a",
+      "after": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\axis60_neutral_mesh.png": {
+      "before": "d1b304516cd07c7f42dbdb620464b98e16d52f3aca599e843239e667f1e44ef3",
+      "after": "d1b304516cd07c7f42dbdb620464b98e16d52f3aca599e843239e667f1e44ef3"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\axis60_open_arm.png": {
+      "before": "4d8d7c788ff241ff0a31d48c9dbcc95b3743d3c8343bbf42c7fa5dcacb046c08",
+      "after": "4d8d7c788ff241ff0a31d48c9dbcc95b3743d3c8343bbf42c7fa5dcacb046c08"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\axis60_open_assembly.png": {
+      "before": "1a5227d431983ea3cc56aed59f3087c3b0905f0e468d7414321d77b9d0637908",
+      "after": "1a5227d431983ea3cc56aed59f3087c3b0905f0e468d7414321d77b9d0637908"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\axis60_open_mesh.png": {
+      "before": "837572f6883c90fde86d3fa057d2016be7607de9c38bc3c408a72b920ee5eb68",
+      "after": "837572f6883c90fde86d3fa057d2016be7607de9c38bc3c408a72b920ee5eb68"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\axis60_worst_area_open_to_chest_fixed_64_arm.png": {
+      "before": "d7b7f09fe5a9db0fba6422909fc487b91492b10d4065977fbaf86d89c40bfb2c",
+      "after": "d7b7f09fe5a9db0fba6422909fc487b91492b10d4065977fbaf86d89c40bfb2c"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\axis60_worst_area_open_to_chest_fixed_64_assembly.png": {
+      "before": "ad47e980a4f091c878b113f44d55ecf821abd47eb509b7c8fb8bed541812e038",
+      "after": "ad47e980a4f091c878b113f44d55ecf821abd47eb509b7c8fb8bed541812e038"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\axis60_worst_area_open_to_chest_fixed_64_mesh.png": {
+      "before": "bc5d1d3a2c8a8a2c2cd3cda30a1f0055f7d51266674d08a8602368bdb883e344",
+      "after": "bc5d1d3a2c8a8a2c2cd3cda30a1f0055f7d51266674d08a8602368bdb883e344"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\axis60_worst_condition_open_to_chest_fixed_58_arm.png": {
+      "before": "e290a0d59edc7c928d9da7e5ba4c1a8fd583b562aa72178ea9d835c61daf5e8a",
+      "after": "e290a0d59edc7c928d9da7e5ba4c1a8fd583b562aa72178ea9d835c61daf5e8a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\axis60_worst_condition_open_to_chest_fixed_58_assembly.png": {
+      "before": "13db6d67e30fa7a6a56bbb4991773d5843740300ce0505d36380c4a926afee92",
+      "after": "13db6d67e30fa7a6a56bbb4991773d5843740300ce0505d36380c4a926afee92"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\axis60_worst_condition_open_to_chest_fixed_58_mesh.png": {
+      "before": "1f51887721e62600f6986cb892fd6cc11d086235259782ad2c2e9960efb7a960",
+      "after": "1f51887721e62600f6986cb892fd6cc11d086235259782ad2c2e9960efb7a960"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\checks.json": {
+      "before": "ece62799afe8adc55f9f8a587e1a6051dcbdf78ff9895e8c5203dbe390d27d4d",
+      "after": "ece62799afe8adc55f9f8a587e1a6051dcbdf78ff9895e8c5203dbe390d27d4d"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\linear_12_94_chest_fixed_arm.png": {
+      "before": "20b81679b984378ad515a3752bb4bdae6baf808962fb069f879c833ad877be13",
+      "after": "20b81679b984378ad515a3752bb4bdae6baf808962fb069f879c833ad877be13"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\linear_12_94_chest_fixed_assembly.png": {
+      "before": "fcc004b0c1f63aa581bb1eaa958b5a56f3495e90a4204205ed1f330fb26bed6b",
+      "after": "fcc004b0c1f63aa581bb1eaa958b5a56f3495e90a4204205ed1f330fb26bed6b"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\linear_12_94_chest_fixed_mesh.png": {
+      "before": "409ba0fa68a9dfd8ebd755548c6b8fd933e01e784199add425ae791bb95bc4ac",
+      "after": "409ba0fa68a9dfd8ebd755548c6b8fd933e01e784199add425ae791bb95bc4ac"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\linear_12_94_neutral_arm.png": {
+      "before": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95",
+      "after": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\linear_12_94_neutral_assembly.png": {
+      "before": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a",
+      "after": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\linear_12_94_neutral_mesh.png": {
+      "before": "d1b304516cd07c7f42dbdb620464b98e16d52f3aca599e843239e667f1e44ef3",
+      "after": "d1b304516cd07c7f42dbdb620464b98e16d52f3aca599e843239e667f1e44ef3"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\linear_12_94_open_arm.png": {
+      "before": "fb63d8834163f24ab70709981beceaa5107609dd593ebc8ded02816ab6ecd600",
+      "after": "fb63d8834163f24ab70709981beceaa5107609dd593ebc8ded02816ab6ecd600"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\linear_12_94_open_assembly.png": {
+      "before": "e65241f03690bcffafe08986a2cbacc259c580c7f1e2b03ce77a9808307bce22",
+      "after": "e65241f03690bcffafe08986a2cbacc259c580c7f1e2b03ce77a9808307bce22"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\linear_12_94_open_mesh.png": {
+      "before": "1adb5923ef4032642d0d0c742ac4870c47b54502c9d574de7c46533a4a8ccf6e",
+      "after": "1adb5923ef4032642d0d0c742ac4870c47b54502c9d574de7c46533a4a8ccf6e"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\linear_12_94_worst_area_open_to_chest_fixed_64_arm.png": {
+      "before": "20b81679b984378ad515a3752bb4bdae6baf808962fb069f879c833ad877be13",
+      "after": "20b81679b984378ad515a3752bb4bdae6baf808962fb069f879c833ad877be13"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\linear_12_94_worst_area_open_to_chest_fixed_64_assembly.png": {
+      "before": "fcc004b0c1f63aa581bb1eaa958b5a56f3495e90a4204205ed1f330fb26bed6b",
+      "after": "fcc004b0c1f63aa581bb1eaa958b5a56f3495e90a4204205ed1f330fb26bed6b"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\linear_12_94_worst_area_open_to_chest_fixed_64_mesh.png": {
+      "before": "409ba0fa68a9dfd8ebd755548c6b8fd933e01e784199add425ae791bb95bc4ac",
+      "after": "409ba0fa68a9dfd8ebd755548c6b8fd933e01e784199add425ae791bb95bc4ac"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\linear_12_94_worst_condition_open_to_chest_fixed_64_arm.png": {
+      "before": "20b81679b984378ad515a3752bb4bdae6baf808962fb069f879c833ad877be13",
+      "after": "20b81679b984378ad515a3752bb4bdae6baf808962fb069f879c833ad877be13"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\linear_12_94_worst_condition_open_to_chest_fixed_64_assembly.png": {
+      "before": "fcc004b0c1f63aa581bb1eaa958b5a56f3495e90a4204205ed1f330fb26bed6b",
+      "after": "fcc004b0c1f63aa581bb1eaa958b5a56f3495e90a4204205ed1f330fb26bed6b"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\linear_12_94_worst_condition_open_to_chest_fixed_64_mesh.png": {
+      "before": "409ba0fa68a9dfd8ebd755548c6b8fd933e01e784199add425ae791bb95bc4ac",
+      "after": "409ba0fa68a9dfd8ebd755548c6b8fd933e01e784199add425ae791bb95bc4ac"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\radius_skew_monotone_chest_fixed_arm.png": {
+      "before": "541e1cba748fbae3aa47d3c21df752837c6d3ffc95790aa62a76c8044d042c47",
+      "after": "541e1cba748fbae3aa47d3c21df752837c6d3ffc95790aa62a76c8044d042c47"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\radius_skew_monotone_chest_fixed_assembly.png": {
+      "before": "9b5f057a6ed29138afda18596afb05653b0ec681fc6100e74edcf6d9478e9613",
+      "after": "9b5f057a6ed29138afda18596afb05653b0ec681fc6100e74edcf6d9478e9613"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\radius_skew_monotone_chest_fixed_mesh.png": {
+      "before": "81c361172a959cef87300a06c86b77221debc0537c21dffee1f9b36c8da15a4f",
+      "after": "81c361172a959cef87300a06c86b77221debc0537c21dffee1f9b36c8da15a4f"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\radius_skew_monotone_neutral_arm.png": {
+      "before": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95",
+      "after": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\radius_skew_monotone_neutral_assembly.png": {
+      "before": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a",
+      "after": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\radius_skew_monotone_neutral_mesh.png": {
+      "before": "d1b304516cd07c7f42dbdb620464b98e16d52f3aca599e843239e667f1e44ef3",
+      "after": "d1b304516cd07c7f42dbdb620464b98e16d52f3aca599e843239e667f1e44ef3"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\radius_skew_monotone_open_arm.png": {
+      "before": "c452c97642e7a223203eb462f875889955a7e35e2bf5d5057164ee07b3d4bc5a",
+      "after": "c452c97642e7a223203eb462f875889955a7e35e2bf5d5057164ee07b3d4bc5a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\radius_skew_monotone_open_assembly.png": {
+      "before": "ccd09b02ba8a8efbf20076b3d957ff623bde2aadb3f56de4b7dafa526fae70d0",
+      "after": "ccd09b02ba8a8efbf20076b3d957ff623bde2aadb3f56de4b7dafa526fae70d0"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\radius_skew_monotone_open_mesh.png": {
+      "before": "24b9a99f4e6205448869ced40eb5d8a554f889a36a1bd204737b2223fb9c3c70",
+      "after": "24b9a99f4e6205448869ced40eb5d8a554f889a36a1bd204737b2223fb9c3c70"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\radius_skew_monotone_worst_area_open_to_chest_fixed_64_arm.png": {
+      "before": "541e1cba748fbae3aa47d3c21df752837c6d3ffc95790aa62a76c8044d042c47",
+      "after": "541e1cba748fbae3aa47d3c21df752837c6d3ffc95790aa62a76c8044d042c47"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\radius_skew_monotone_worst_area_open_to_chest_fixed_64_assembly.png": {
+      "before": "9b5f057a6ed29138afda18596afb05653b0ec681fc6100e74edcf6d9478e9613",
+      "after": "9b5f057a6ed29138afda18596afb05653b0ec681fc6100e74edcf6d9478e9613"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\radius_skew_monotone_worst_area_open_to_chest_fixed_64_mesh.png": {
+      "before": "81c361172a959cef87300a06c86b77221debc0537c21dffee1f9b36c8da15a4f",
+      "after": "81c361172a959cef87300a06c86b77221debc0537c21dffee1f9b36c8da15a4f"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\radius_skew_monotone_worst_condition_open_to_chest_fixed_61_arm.png": {
+      "before": "53afafd5d1232cf292d629b684948806144a83c3bc15455b9b2da8350e6c116d",
+      "after": "53afafd5d1232cf292d629b684948806144a83c3bc15455b9b2da8350e6c116d"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\radius_skew_monotone_worst_condition_open_to_chest_fixed_61_assembly.png": {
+      "before": "22d832ba70451f64ca4d9b6592a57e650ea7d6c5dcb75334c1d2102fbbdccd73",
+      "after": "22d832ba70451f64ca4d9b6592a57e650ea7d6c5dcb75334c1d2102fbbdccd73"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\radius_skew_monotone_worst_condition_open_to_chest_fixed_61_mesh.png": {
+      "before": "6af7a8e3da8dd86b6308c1c557ef2ffe787f51640bf4357f2a8480a3656b1ea3",
+      "after": "6af7a8e3da8dd86b6308c1c557ef2ffe787f51640bf4357f2a8480a3656b1ea3"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\review.png": {
+      "before": "660bd12afd4bd1574c5935467cd86e7f41f068b55a6ccd8500c0acd493c509bb",
+      "after": "660bd12afd4bd1574c5935467cd86e7f41f068b55a6ccd8500c0acd493c509bb"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\smoothstep_12_94_chest_fixed_arm.png": {
+      "before": "fba0a8996e6593dbaf8e1a0e5ab260901cfc5ef31ab86f351244f0e83ae52853",
+      "after": "fba0a8996e6593dbaf8e1a0e5ab260901cfc5ef31ab86f351244f0e83ae52853"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\smoothstep_12_94_chest_fixed_assembly.png": {
+      "before": "f9f39f5ba8d27352453bc0dca8c6b0433d1d94d8ef7c00dffda6846e265a8a06",
+      "after": "f9f39f5ba8d27352453bc0dca8c6b0433d1d94d8ef7c00dffda6846e265a8a06"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\smoothstep_12_94_chest_fixed_mesh.png": {
+      "before": "80987144d933f8eabcd2efd0083b48a6ededb2b0c634c1912dbce1eb336a0069",
+      "after": "80987144d933f8eabcd2efd0083b48a6ededb2b0c634c1912dbce1eb336a0069"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\smoothstep_12_94_neutral_arm.png": {
+      "before": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95",
+      "after": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\smoothstep_12_94_neutral_assembly.png": {
+      "before": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a",
+      "after": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\smoothstep_12_94_neutral_mesh.png": {
+      "before": "d1b304516cd07c7f42dbdb620464b98e16d52f3aca599e843239e667f1e44ef3",
+      "after": "d1b304516cd07c7f42dbdb620464b98e16d52f3aca599e843239e667f1e44ef3"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\smoothstep_12_94_open_arm.png": {
+      "before": "89c25ae82371f28db3bf89a2ff1aa79b3166b6ecc60c8159e4766a8cd9287473",
+      "after": "89c25ae82371f28db3bf89a2ff1aa79b3166b6ecc60c8159e4766a8cd9287473"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\smoothstep_12_94_open_assembly.png": {
+      "before": "efb77b26777d12b9d741bc21cd8448936798576f780f6dd64f85a1a85ed06a6b",
+      "after": "efb77b26777d12b9d741bc21cd8448936798576f780f6dd64f85a1a85ed06a6b"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\smoothstep_12_94_open_mesh.png": {
+      "before": "acfb23af1cd60c942433e495d15030db1090c30938ec9ead76276ebc6d849e9b",
+      "after": "acfb23af1cd60c942433e495d15030db1090c30938ec9ead76276ebc6d849e9b"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\smoothstep_12_94_worst_area_open_to_chest_fixed_64_arm.png": {
+      "before": "fba0a8996e6593dbaf8e1a0e5ab260901cfc5ef31ab86f351244f0e83ae52853",
+      "after": "fba0a8996e6593dbaf8e1a0e5ab260901cfc5ef31ab86f351244f0e83ae52853"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\smoothstep_12_94_worst_area_open_to_chest_fixed_64_assembly.png": {
+      "before": "f9f39f5ba8d27352453bc0dca8c6b0433d1d94d8ef7c00dffda6846e265a8a06",
+      "after": "f9f39f5ba8d27352453bc0dca8c6b0433d1d94d8ef7c00dffda6846e265a8a06"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\smoothstep_12_94_worst_area_open_to_chest_fixed_64_mesh.png": {
+      "before": "80987144d933f8eabcd2efd0083b48a6ededb2b0c634c1912dbce1eb336a0069",
+      "after": "80987144d933f8eabcd2efd0083b48a6ededb2b0c634c1912dbce1eb336a0069"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\smoothstep_12_94_worst_condition_elbow_isolated_57_arm.png": {
+      "before": "8b334c7ebef6b1945afb55c88f85ca8bad88073439ae6d977d64da6e9f287adb",
+      "after": "8b334c7ebef6b1945afb55c88f85ca8bad88073439ae6d977d64da6e9f287adb"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\smoothstep_12_94_worst_condition_elbow_isolated_57_assembly.png": {
+      "before": "096227f0bb8630aaf17c1b33df76268f77d00a1582705ceb292e105bd097efa6",
+      "after": "096227f0bb8630aaf17c1b33df76268f77d00a1582705ceb292e105bd097efa6"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\smoothstep_12_94_worst_condition_elbow_isolated_57_mesh.png": {
+      "before": "c522f072b8409e6a02011f168043310b4a8caa68c15a2f06c6de74efa51d4b9d",
+      "after": "c522f072b8409e6a02011f168043310b4a8caa68c15a2f06c6de74efa51d4b9d"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\soft_ends_linear_center_chest_fixed_arm.png": {
+      "before": "13defe83526baa61956d9e62cb2fcb0be7cd5fe4f262f51cde0c3f8cdc43b207",
+      "after": "13defe83526baa61956d9e62cb2fcb0be7cd5fe4f262f51cde0c3f8cdc43b207"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\soft_ends_linear_center_chest_fixed_assembly.png": {
+      "before": "65bf20c09ba5853a81397ea1e05f48ec2b00f40530462d05ad8d9032ddd1daed",
+      "after": "65bf20c09ba5853a81397ea1e05f48ec2b00f40530462d05ad8d9032ddd1daed"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\soft_ends_linear_center_chest_fixed_mesh.png": {
+      "before": "09987bd7911a71478866930dde84764c2e2dfaf55b459c9ebbc4437c73fd4d94",
+      "after": "09987bd7911a71478866930dde84764c2e2dfaf55b459c9ebbc4437c73fd4d94"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\soft_ends_linear_center_neutral_arm.png": {
+      "before": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95",
+      "after": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\soft_ends_linear_center_neutral_assembly.png": {
+      "before": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a",
+      "after": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\soft_ends_linear_center_neutral_mesh.png": {
+      "before": "d1b304516cd07c7f42dbdb620464b98e16d52f3aca599e843239e667f1e44ef3",
+      "after": "d1b304516cd07c7f42dbdb620464b98e16d52f3aca599e843239e667f1e44ef3"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\soft_ends_linear_center_open_arm.png": {
+      "before": "d407b5f4a3f65ded8b8d25a4115428f8cef1b9a755aa63557a7f68125ffa3f76",
+      "after": "d407b5f4a3f65ded8b8d25a4115428f8cef1b9a755aa63557a7f68125ffa3f76"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\soft_ends_linear_center_open_assembly.png": {
+      "before": "ceac09f94170a2a2c4a489fc198a31303ade3388c5343617beb928872aa3fb70",
+      "after": "ceac09f94170a2a2c4a489fc198a31303ade3388c5343617beb928872aa3fb70"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\soft_ends_linear_center_open_mesh.png": {
+      "before": "5f2393047b0870561937fbd398cc0e62a06d4e02cb825ffc545c43f492913d07",
+      "after": "5f2393047b0870561937fbd398cc0e62a06d4e02cb825ffc545c43f492913d07"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\soft_ends_linear_center_worst_area_open_to_chest_fixed_64_arm.png": {
+      "before": "13defe83526baa61956d9e62cb2fcb0be7cd5fe4f262f51cde0c3f8cdc43b207",
+      "after": "13defe83526baa61956d9e62cb2fcb0be7cd5fe4f262f51cde0c3f8cdc43b207"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\soft_ends_linear_center_worst_area_open_to_chest_fixed_64_assembly.png": {
+      "before": "65bf20c09ba5853a81397ea1e05f48ec2b00f40530462d05ad8d9032ddd1daed",
+      "after": "65bf20c09ba5853a81397ea1e05f48ec2b00f40530462d05ad8d9032ddd1daed"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\soft_ends_linear_center_worst_area_open_to_chest_fixed_64_mesh.png": {
+      "before": "09987bd7911a71478866930dde84764c2e2dfaf55b459c9ebbc4437c73fd4d94",
+      "after": "09987bd7911a71478866930dde84764c2e2dfaf55b459c9ebbc4437c73fd4d94"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\soft_ends_linear_center_worst_condition_open_to_chest_fixed_57_arm.png": {
+      "before": "56976f4e8ea72df5e962ce89025c425e0fbaf651bfc203f231f2e0baff1d37d6",
+      "after": "56976f4e8ea72df5e962ce89025c425e0fbaf651bfc203f231f2e0baff1d37d6"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\soft_ends_linear_center_worst_condition_open_to_chest_fixed_57_assembly.png": {
+      "before": "34465087de94d30de0d36f88e2729f5d1330cf591dda4542d0dfa2fb963b3dd8",
+      "after": "34465087de94d30de0d36f88e2729f5d1330cf591dda4542d0dfa2fb963b3dd8"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\soft_ends_linear_center_worst_condition_open_to_chest_fixed_57_mesh.png": {
+      "before": "ac2303df9884a699b840d393651c205a7eb9b8a1af9621665d8a01318b4d8f99",
+      "after": "ac2303df9884a699b840d393651c205a7eb9b8a1af9621665d8a01318b4d8f99"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\study.json": {
+      "before": "4a8f286371e671b02037339dcc0fce2ea23d61d5cf8ca162392bf84a8f4b674c",
+      "after": "4a8f286371e671b02037339dcc0fce2ea23d61d5cf8ca162392bf84a8f4b674c"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\weights.png": {
+      "before": "d2cfb06fdf1062663b4d491e2fd3b6a9810469817493922270b015e0c9a0cc09",
+      "after": "d2cfb06fdf1062663b4d491e2fd3b6a9810469817493922270b015e0c9a0cc09"
+    }
+  },
+  "protectedFileCount": 281,
+  "noProductionMutation": true,
+  "selfTests": {
+    "exactP1DecompositionMaxError": 2.1393997684526767e-13,
+    "rigidSameTransformMaxError": 1.6542323066914832e-13,
+    "sensitivityBaselineMaxError": 2.2737367544323206e-13,
+    "determinantVsSingularProductMaxError": 4.440892098500626e-16,
+    "allPassed": true
+  },
+  "worstTriangle": 257,
+  "neighborhoodCount": 6,
+  "finiteSamplesOnly": true,
+  "bindingValidated": false
+}

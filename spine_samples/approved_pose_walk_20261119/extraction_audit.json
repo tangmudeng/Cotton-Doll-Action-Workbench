@@ -1,0 +1,26 @@
+{
+  "body": {
+    "editedPixelCount": 17488,
+    "source": "reference/walk_bind.png"
+  },
+  "arm_near": {
+    "editedPixelCount": 0,
+    "source": "reference/walk_bind.png"
+  },
+  "arm_far": {
+    "editedPixelCount": 0,
+    "source": "reference/walk_bind.png"
+  },
+  "shorts": {
+    "editedPixelCount": 2019,
+    "source": "reference/walk_bind.png"
+  },
+  "leg_near": {
+    "editedPixelCount": 3046,
+    "source": "reference/walk_bind.png"
+  },
+  "leg_far": {
+    "editedPixelCount": 2648,
+    "source": "reference/walk_bind.png"
+  }
+}

@@ -1,0 +1,7434 @@
+{
+  "version": 2,
+  "taskId": "comfy_f7e82942-05e3-4c7e-8e30-e974e2a233fa",
+  "sourceVideoSha256": "8fc0f8406d6a258640b65d34c5ad7fb0e35f231131d7eec945781dd9d93343e5",
+  "characterId": null,
+  "sourceVideo": "../source.mp4",
+  "sourceCoordinateSystem": "864x480 source pixels, top-left origin, zero-based frame index",
+  "status": "video_visible_pose_fragments_not_reusable_rig_parts",
+  "frameIndices": [
+    0,
+    8,
+    16,
+    24,
+    32,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+  ],
+  "parts": [
+    {
+      "id": "f000_arm_A_visible",
+      "file": "f000_arm_A_visible.png",
+      "maskFile": "f000_arm_A_visible_mask.png",
+      "sourceFrame": 0,
+      "sourceFile": "source_000.png",
+      "sourceFrameSha256": "40138996250eb0c576f93ffaf9bb2915462d8503e4d5ff8ecb7f4b5f530c21f7",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 0.0,
+      "bbox": [
+        343,
+        299,
+        408,
+        361
+      ],
+      "polygonSourcePixels": [
+        [
+          407,
+          299
+        ],
+        [
+          389,
+          300
+        ],
+        [
+          372,
+          307
+        ],
+        [
+          357,
+          318
+        ],
+        [
+          347,
+          330
+        ],
+        [
+          343,
+          340
+        ],
+        [
+          345,
+          350
+        ],
+        [
+          351,
+          355
+        ],
+        [
+          361,
+          357
+        ],
+        [
+          365,
+          360
+        ],
+        [
+          372,
+          359
+        ],
+        [
+          378,
+          354
+        ],
+        [
+          383,
+          344
+        ],
+        [
+          390,
+          337
+        ],
+        [
+          407,
+          331
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "sampled_poses",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f000_arm_B_visible",
+      "file": "f000_arm_B_visible.png",
+      "maskFile": "f000_arm_B_visible_mask.png",
+      "sourceFrame": 0,
+      "sourceFile": "source_000.png",
+      "sourceFrameSha256": "40138996250eb0c576f93ffaf9bb2915462d8503e4d5ff8ecb7f4b5f530c21f7",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 0.0,
+      "bbox": [
+        490,
+        294,
+        550,
+        344
+      ],
+      "polygonSourcePixels": [
+        [
+          490,
+          300
+        ],
+        [
+          504,
+          302
+        ],
+        [
+          513,
+          296
+        ],
+        [
+          522,
+          294
+        ],
+        [
+          534,
+          296
+        ],
+        [
+          543,
+          303
+        ],
+        [
+          548,
+          312
+        ],
+        [
+          549,
+          321
+        ],
+        [
+          545,
+          330
+        ],
+        [
+          535,
+          337
+        ],
+        [
+          522,
+          342
+        ],
+        [
+          508,
+          343
+        ],
+        [
+          497,
+          339
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "sampled_poses",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f000_leg_A_visible",
+      "file": "f000_leg_A_visible.png",
+      "maskFile": "f000_leg_A_visible_mask.png",
+      "sourceFrame": 0,
+      "sourceFile": "source_000.png",
+      "sourceFrameSha256": "40138996250eb0c576f93ffaf9bb2915462d8503e4d5ff8ecb7f4b5f530c21f7",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 0.0,
+      "bbox": [
+        398,
+        381,
+        478,
+        455
+      ],
+      "polygonSourcePixels": [
+        [
+          400,
+          391
+        ],
+        [
+          411,
+          384
+        ],
+        [
+          424,
+          381
+        ],
+        [
+          439,
+          382
+        ],
+        [
+          452,
+          387
+        ],
+        [
+          462,
+          395
+        ],
+        [
+          466,
+          409
+        ],
+        [
+          467,
+          421
+        ],
+        [
+          475,
+          431
+        ],
+        [
+          477,
+          441
+        ],
+        [
+          473,
+          448
+        ],
+        [
+          460,
+          452
+        ],
+        [
+          440,
+          454
+        ],
+        [
+          425,
+          454
+        ],
+        [
+          418,
+          451
+        ],
+        [
+          415,
+          440
+        ],
+        [
+          410,
+          426
+        ],
+        [
+          404,
+          413
+        ],
+        [
+          398,
+          400
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "sampled_poses",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f000_leg_B_fragment_visible",
+      "file": "f000_leg_B_fragment_visible.png",
+      "maskFile": "f000_leg_B_fragment_visible_mask.png",
+      "sourceFrame": 0,
+      "sourceFile": "source_000.png",
+      "sourceFrameSha256": "40138996250eb0c576f93ffaf9bb2915462d8503e4d5ff8ecb7f4b5f530c21f7",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 0.0,
+      "bbox": [
+        385,
+        387,
+        408,
+        419
+      ],
+      "polygonSourcePixels": [
+        [
+          388,
+          387
+        ],
+        [
+          394,
+          401
+        ],
+        [
+          400,
+          413
+        ],
+        [
+          407,
+          417
+        ],
+        [
+          399,
+          418
+        ],
+        [
+          391,
+          415
+        ],
+        [
+          386,
+          411
+        ],
+        [
+          385,
+          401
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "crossing_fragment",
+      "evidenceGroup": "sampled_poses",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "partial_visible_sliver_only",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f008_arm_A_chest_visible",
+      "file": "f008_arm_A_chest_visible.png",
+      "maskFile": "f008_arm_A_chest_visible_mask.png",
+      "sourceFrame": 8,
+      "sourceFile": "source_008.png",
+      "sourceFrameSha256": "63fa7bfbcd62aa45c592681f073a814ec7304f8a6fc65cd5769a3b1c3b90c01b",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 0.3333333333333333,
+      "bbox": [
+        401,
+        300,
+        498,
+        351
+      ],
+      "polygonSourcePixels": [
+        [
+          405,
+          300
+        ],
+        [
+          414,
+          310
+        ],
+        [
+          430,
+          316
+        ],
+        [
+          450,
+          307
+        ],
+        [
+          471,
+          302
+        ],
+        [
+          485,
+          304
+        ],
+        [
+          493,
+          310
+        ],
+        [
+          497,
+          320
+        ],
+        [
+          497,
+          330
+        ],
+        [
+          492,
+          339
+        ],
+        [
+          480,
+          346
+        ],
+        [
+          461,
+          350
+        ],
+        [
+          442,
+          350
+        ],
+        [
+          429,
+          346
+        ],
+        [
+          417,
+          338
+        ],
+        [
+          408,
+          329
+        ],
+        [
+          401,
+          319
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "chest_crossing",
+      "evidenceGroup": "sampled_poses",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f008_leg_A_visible",
+      "file": "f008_leg_A_visible.png",
+      "maskFile": "f008_leg_A_visible_mask.png",
+      "sourceFrame": 8,
+      "sourceFile": "source_008.png",
+      "sourceFrameSha256": "63fa7bfbcd62aa45c592681f073a814ec7304f8a6fc65cd5769a3b1c3b90c01b",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 0.3333333333333333,
+      "bbox": [
+        358,
+        373,
+        434,
+        438
+      ],
+      "polygonSourcePixels": [
+        [
+          381,
+          373
+        ],
+        [
+          393,
+          377
+        ],
+        [
+          405,
+          382
+        ],
+        [
+          417,
+          389
+        ],
+        [
+          430,
+          398
+        ],
+        [
+          433,
+          402
+        ],
+        [
+          426,
+          410
+        ],
+        [
+          413,
+          419
+        ],
+        [
+          402,
+          424
+        ],
+        [
+          400,
+          431
+        ],
+        [
+          394,
+          436
+        ],
+        [
+          384,
+          437
+        ],
+        [
+          375,
+          434
+        ],
+        [
+          367,
+          428
+        ],
+        [
+          362,
+          419
+        ],
+        [
+          358,
+          409
+        ],
+        [
+          358,
+          397
+        ],
+        [
+          361,
+          386
+        ],
+        [
+          368,
+          381
+        ],
+        [
+          376,
+          380
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "sampled_poses",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f008_leg_B_visible",
+      "file": "f008_leg_B_visible.png",
+      "maskFile": "f008_leg_B_visible_mask.png",
+      "sourceFrame": 8,
+      "sourceFile": "source_008.png",
+      "sourceFrameSha256": "63fa7bfbcd62aa45c592681f073a814ec7304f8a6fc65cd5769a3b1c3b90c01b",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 0.3333333333333333,
+      "bbox": [
+        456,
+        362,
+        536,
+        435
+      ],
+      "polygonSourcePixels": [
+        [
+          476,
+          365
+        ],
+        [
+          487,
+          362
+        ],
+        [
+          497,
+          369
+        ],
+        [
+          505,
+          381
+        ],
+        [
+          511,
+          389
+        ],
+        [
+          521,
+          390
+        ],
+        [
+          529,
+          394
+        ],
+        [
+          534,
+          401
+        ],
+        [
+          535,
+          408
+        ],
+        [
+          532,
+          416
+        ],
+        [
+          526,
+          423
+        ],
+        [
+          517,
+          429
+        ],
+        [
+          507,
+          433
+        ],
+        [
+          495,
+          434
+        ],
+        [
+          487,
+          431
+        ],
+        [
+          481,
+          425
+        ],
+        [
+          477,
+          417
+        ],
+        [
+          471,
+          410
+        ],
+        [
+          463,
+          404
+        ],
+        [
+          456,
+          398
+        ],
+        [
+          467,
+          389
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "sampled_poses",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f016_arm_A_visible",
+      "file": "f016_arm_A_visible.png",
+      "maskFile": "f016_arm_A_visible_mask.png",
+      "sourceFrame": 16,
+      "sourceFile": "source_016.png",
+      "sourceFrameSha256": "0dc50afbaa60d6b86b51f8f3224b7000aa4b61430eab7b20d60432550188fd0f",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 0.6666666666666666,
+      "bbox": [
+        347,
+        294,
+        407,
+        354
+      ],
+      "polygonSourcePixels": [
+        [
+          406,
+          294
+        ],
+        [
+          389,
+          295
+        ],
+        [
+          373,
+          302
+        ],
+        [
+          359,
+          312
+        ],
+        [
+          350,
+          324
+        ],
+        [
+          347,
+          336
+        ],
+        [
+          349,
+          344
+        ],
+        [
+          355,
+          349
+        ],
+        [
+          366,
+          350
+        ],
+        [
+          373,
+          353
+        ],
+        [
+          380,
+          351
+        ],
+        [
+          385,
+          341
+        ],
+        [
+          391,
+          331
+        ],
+        [
+          405,
+          322
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "sampled_poses",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f016_arm_B_visible",
+      "file": "f016_arm_B_visible.png",
+      "maskFile": "f016_arm_B_visible_mask.png",
+      "sourceFrame": 16,
+      "sourceFile": "source_016.png",
+      "sourceFrameSha256": "0dc50afbaa60d6b86b51f8f3224b7000aa4b61430eab7b20d60432550188fd0f",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 0.6666666666666666,
+      "bbox": [
+        489,
+        289,
+        548,
+        335
+      ],
+      "polygonSourcePixels": [
+        [
+          489,
+          296
+        ],
+        [
+          504,
+          298
+        ],
+        [
+          514,
+          290
+        ],
+        [
+          524,
+          289
+        ],
+        [
+          536,
+          293
+        ],
+        [
+          543,
+          301
+        ],
+        [
+          547,
+          311
+        ],
+        [
+          546,
+          321
+        ],
+        [
+          539,
+          328
+        ],
+        [
+          529,
+          333
+        ],
+        [
+          514,
+          334
+        ],
+        [
+          500,
+          329
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "sampled_poses",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f016_leg_A_visible",
+      "file": "f016_leg_A_visible.png",
+      "maskFile": "f016_leg_A_visible_mask.png",
+      "sourceFrame": 16,
+      "sourceFile": "source_016.png",
+      "sourceFrameSha256": "0dc50afbaa60d6b86b51f8f3224b7000aa4b61430eab7b20d60432550188fd0f",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 0.6666666666666666,
+      "bbox": [
+        397,
+        373,
+        481,
+        445
+      ],
+      "polygonSourcePixels": [
+        [
+          402,
+          380
+        ],
+        [
+          416,
+          374
+        ],
+        [
+          431,
+          373
+        ],
+        [
+          446,
+          375
+        ],
+        [
+          457,
+          383
+        ],
+        [
+          463,
+          394
+        ],
+        [
+          466,
+          408
+        ],
+        [
+          475,
+          414
+        ],
+        [
+          480,
+          422
+        ],
+        [
+          480,
+          429
+        ],
+        [
+          470,
+          436
+        ],
+        [
+          453,
+          442
+        ],
+        [
+          433,
+          444
+        ],
+        [
+          423,
+          440
+        ],
+        [
+          417,
+          430
+        ],
+        [
+          414,
+          419
+        ],
+        [
+          408,
+          412
+        ],
+        [
+          401,
+          400
+        ],
+        [
+          397,
+          389
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "sampled_poses",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f016_leg_B_fragment_visible",
+      "file": "f016_leg_B_fragment_visible.png",
+      "maskFile": "f016_leg_B_fragment_visible_mask.png",
+      "sourceFrame": 16,
+      "sourceFile": "source_016.png",
+      "sourceFrameSha256": "0dc50afbaa60d6b86b51f8f3224b7000aa4b61430eab7b20d60432550188fd0f",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 0.6666666666666666,
+      "bbox": [
+        391,
+        398,
+        417,
+        436
+      ],
+      "polygonSourcePixels": [
+        [
+          392,
+          398
+        ],
+        [
+          398,
+          408
+        ],
+        [
+          408,
+          419
+        ],
+        [
+          414,
+          426
+        ],
+        [
+          416,
+          435
+        ],
+        [
+          407,
+          434
+        ],
+        [
+          397,
+          429
+        ],
+        [
+          391,
+          420
+        ],
+        [
+          388,
+          409
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 66,
+      "kind": "leg",
+      "pose": "crossing_fragment",
+      "evidenceGroup": "sampled_poses",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "partial_visible_sliver_only",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f024_arm_A_chest_visible",
+      "file": "f024_arm_A_chest_visible.png",
+      "maskFile": "f024_arm_A_chest_visible_mask.png",
+      "sourceFrame": 24,
+      "sourceFile": "source_024.png",
+      "sourceFrameSha256": "fe1ea3f9084a3b997d6c7f0ef8810d19fbca2b44ea9013c6ba4943b4b809d8a7",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 1.0,
+      "bbox": [
+        403,
+        308,
+        494,
+        351
+      ],
+      "polygonSourcePixels": [
+        [
+          404,
+          308
+        ],
+        [
+          414,
+          315
+        ],
+        [
+          432,
+          321
+        ],
+        [
+          449,
+          312
+        ],
+        [
+          464,
+          309
+        ],
+        [
+          479,
+          310
+        ],
+        [
+          489,
+          317
+        ],
+        [
+          493,
+          328
+        ],
+        [
+          491,
+          337
+        ],
+        [
+          482,
+          344
+        ],
+        [
+          466,
+          349
+        ],
+        [
+          446,
+          350
+        ],
+        [
+          432,
+          346
+        ],
+        [
+          420,
+          339
+        ],
+        [
+          411,
+          329
+        ],
+        [
+          403,
+          320
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "chest_crossing",
+      "evidenceGroup": "sampled_poses",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f024_leg_A_visible",
+      "file": "f024_leg_A_visible.png",
+      "maskFile": "f024_leg_A_visible_mask.png",
+      "sourceFrame": 24,
+      "sourceFile": "source_024.png",
+      "sourceFrameSha256": "fe1ea3f9084a3b997d6c7f0ef8810d19fbca2b44ea9013c6ba4943b4b809d8a7",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 1.0,
+      "bbox": [
+        358,
+        375,
+        431,
+        437
+      ],
+      "polygonSourcePixels": [
+        [
+          380,
+          375
+        ],
+        [
+          395,
+          380
+        ],
+        [
+          408,
+          386
+        ],
+        [
+          420,
+          394
+        ],
+        [
+          430,
+          402
+        ],
+        [
+          422,
+          412
+        ],
+        [
+          410,
+          421
+        ],
+        [
+          399,
+          425
+        ],
+        [
+          397,
+          432
+        ],
+        [
+          389,
+          436
+        ],
+        [
+          378,
+          435
+        ],
+        [
+          368,
+          430
+        ],
+        [
+          361,
+          421
+        ],
+        [
+          358,
+          410
+        ],
+        [
+          358,
+          399
+        ],
+        [
+          361,
+          388
+        ],
+        [
+          368,
+          381
+        ],
+        [
+          376,
+          382
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 1,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "sampled_poses",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f024_leg_B_visible",
+      "file": "f024_leg_B_visible.png",
+      "maskFile": "f024_leg_B_visible_mask.png",
+      "sourceFrame": 24,
+      "sourceFile": "source_024.png",
+      "sourceFrameSha256": "fe1ea3f9084a3b997d6c7f0ef8810d19fbca2b44ea9013c6ba4943b4b809d8a7",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 1.0,
+      "bbox": [
+        461,
+        366,
+        531,
+        435
+      ],
+      "polygonSourcePixels": [
+        [
+          477,
+          370
+        ],
+        [
+          489,
+          366
+        ],
+        [
+          500,
+          371
+        ],
+        [
+          508,
+          383
+        ],
+        [
+          513,
+          397
+        ],
+        [
+          513,
+          404
+        ],
+        [
+          524,
+          407
+        ],
+        [
+          530,
+          413
+        ],
+        [
+          530,
+          421
+        ],
+        [
+          522,
+          428
+        ],
+        [
+          510,
+          433
+        ],
+        [
+          498,
+          434
+        ],
+        [
+          488,
+          430
+        ],
+        [
+          483,
+          420
+        ],
+        [
+          478,
+          414
+        ],
+        [
+          467,
+          405
+        ],
+        [
+          461,
+          402
+        ],
+        [
+          468,
+          389
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 2,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "sampled_poses",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f032_arm_A_visible",
+      "file": "f032_arm_A_visible.png",
+      "maskFile": "f032_arm_A_visible_mask.png",
+      "sourceFrame": 32,
+      "sourceFile": "source_032.png",
+      "sourceFrameSha256": "b88901427a1712722a1bf5c133c157972a88a3740e9bc110bb075a4f97dced3a",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 1.3333333333333333,
+      "bbox": [
+        352,
+        289,
+        410,
+        351
+      ],
+      "polygonSourcePixels": [
+        [
+          407,
+          289
+        ],
+        [
+          390,
+          292
+        ],
+        [
+          374,
+          299
+        ],
+        [
+          361,
+          309
+        ],
+        [
+          353,
+          321
+        ],
+        [
+          352,
+          333
+        ],
+        [
+          356,
+          343
+        ],
+        [
+          365,
+          347
+        ],
+        [
+          375,
+          347
+        ],
+        [
+          382,
+          350
+        ],
+        [
+          387,
+          345
+        ],
+        [
+          392,
+          331
+        ],
+        [
+          398,
+          321
+        ],
+        [
+          409,
+          317
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "sampled_poses",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f032_arm_B_visible",
+      "file": "f032_arm_B_visible.png",
+      "maskFile": "f032_arm_B_visible_mask.png",
+      "sourceFrame": 32,
+      "sourceFile": "source_032.png",
+      "sourceFrameSha256": "b88901427a1712722a1bf5c133c157972a88a3740e9bc110bb075a4f97dced3a",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 1.3333333333333333,
+      "bbox": [
+        490,
+        286,
+        549,
+        332
+      ],
+      "polygonSourcePixels": [
+        [
+          490,
+          292
+        ],
+        [
+          504,
+          293
+        ],
+        [
+          514,
+          287
+        ],
+        [
+          525,
+          285
+        ],
+        [
+          536,
+          288
+        ],
+        [
+          544,
+          295
+        ],
+        [
+          548,
+          306
+        ],
+        [
+          547,
+          316
+        ],
+        [
+          541,
+          324
+        ],
+        [
+          530,
+          330
+        ],
+        [
+          514,
+          331
+        ],
+        [
+          500,
+          327
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 5,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "sampled_poses",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f032_leg_A_visible",
+      "file": "f032_leg_A_visible.png",
+      "maskFile": "f032_leg_A_visible_mask.png",
+      "sourceFrame": 32,
+      "sourceFile": "source_032.png",
+      "sourceFrameSha256": "b88901427a1712722a1bf5c133c157972a88a3740e9bc110bb075a4f97dced3a",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 1.3333333333333333,
+      "bbox": [
+        399,
+        365,
+        477,
+        441
+      ],
+      "polygonSourcePixels": [
+        [
+          401,
+          374
+        ],
+        [
+          415,
+          366
+        ],
+        [
+          430,
+          365
+        ],
+        [
+          444,
+          368
+        ],
+        [
+          455,
+          375
+        ],
+        [
+          462,
+          387
+        ],
+        [
+          466,
+          402
+        ],
+        [
+          468,
+          414
+        ],
+        [
+          476,
+          421
+        ],
+        [
+          476,
+          429
+        ],
+        [
+          469,
+          435
+        ],
+        [
+          454,
+          439
+        ],
+        [
+          438,
+          440
+        ],
+        [
+          427,
+          437
+        ],
+        [
+          419,
+          430
+        ],
+        [
+          416,
+          420
+        ],
+        [
+          411,
+          410
+        ],
+        [
+          403,
+          400
+        ],
+        [
+          399,
+          387
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "sampled_poses",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f032_leg_B_fragment_visible",
+      "file": "f032_leg_B_fragment_visible.png",
+      "maskFile": "f032_leg_B_fragment_visible_mask.png",
+      "sourceFrame": 32,
+      "sourceFile": "source_032.png",
+      "sourceFrameSha256": "b88901427a1712722a1bf5c133c157972a88a3740e9bc110bb075a4f97dced3a",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 1.3333333333333333,
+      "bbox": [
+        392,
+        395,
+        417,
+        435
+      ],
+      "polygonSourcePixels": [
+        [
+          392,
+          395
+        ],
+        [
+          399,
+          407
+        ],
+        [
+          408,
+          417
+        ],
+        [
+          414,
+          424
+        ],
+        [
+          416,
+          434
+        ],
+        [
+          407,
+          432
+        ],
+        [
+          398,
+          427
+        ],
+        [
+          392,
+          418
+        ],
+        [
+          389,
+          407
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 57,
+      "kind": "leg",
+      "pose": "crossing_fragment",
+      "evidenceGroup": "sampled_poses",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "partial_visible_sliver_only",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f068_arm_A_visible",
+      "file": "f068_arm_A_visible.png",
+      "maskFile": "f068_arm_A_visible_mask.png",
+      "sourceFrame": 68,
+      "sourceFile": "source_068.png",
+      "sourceFrameSha256": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 2.8333333333333335,
+      "bbox": [
+        353,
+        301,
+        416,
+        369
+      ],
+      "polygonSourcePixels": [
+        [
+          387.5,
+          301.5
+        ],
+        [
+          371.5,
+          313.5
+        ],
+        [
+          359.0,
+          329.5
+        ],
+        [
+          353.5,
+          344.0
+        ],
+        [
+          356.0,
+          357.0
+        ],
+        [
+          363.0,
+          365.0
+        ],
+        [
+          375.0,
+          367.5
+        ],
+        [
+          383.0,
+          365.5
+        ],
+        [
+          389.0,
+          368.5
+        ],
+        [
+          395.5,
+          362.0
+        ],
+        [
+          399.0,
+          347.5
+        ],
+        [
+          405.0,
+          337.5
+        ],
+        [
+          415.5,
+          332.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f068_arm_B_visible",
+      "file": "f068_arm_B_visible.png",
+      "maskFile": "f068_arm_B_visible_mask.png",
+      "sourceFrame": 68,
+      "sourceFile": "source_068.png",
+      "sourceFrameSha256": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 2.8333333333333335,
+      "bbox": [
+        490,
+        307,
+        544,
+        352
+      ],
+      "polygonSourcePixels": [
+        [
+          490.5,
+          309.0
+        ],
+        [
+          504.5,
+          307.5
+        ],
+        [
+          517.0,
+          309.5
+        ],
+        [
+          530.0,
+          316.5
+        ],
+        [
+          539.5,
+          326.0
+        ],
+        [
+          543.0,
+          337.5
+        ],
+        [
+          538.5,
+          346.5
+        ],
+        [
+          528.0,
+          351.0
+        ],
+        [
+          516.0,
+          351.5
+        ],
+        [
+          504.0,
+          348.0
+        ],
+        [
+          497.0,
+          341.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f068_leg_A_visible",
+      "file": "f068_leg_A_visible.png",
+      "maskFile": "f068_leg_A_visible_mask.png",
+      "sourceFrame": 68,
+      "sourceFile": "source_068.png",
+      "sourceFrameSha256": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 2.8333333333333335,
+      "bbox": [
+        399,
+        384,
+        464,
+        454
+      ],
+      "polygonSourcePixels": [
+        [
+          399.0,
+          397.0
+        ],
+        [
+          409.5,
+          388.0
+        ],
+        [
+          422.5,
+          384.0
+        ],
+        [
+          436.0,
+          385.0
+        ],
+        [
+          449.5,
+          389.5
+        ],
+        [
+          458.0,
+          397.5
+        ],
+        [
+          460.0,
+          408.5
+        ],
+        [
+          458.0,
+          419.5
+        ],
+        [
+          459.0,
+          428.5
+        ],
+        [
+          463.5,
+          438.0
+        ],
+        [
+          462.0,
+          446.0
+        ],
+        [
+          455.0,
+          450.5
+        ],
+        [
+          443.5,
+          453.5
+        ],
+        [
+          429.0,
+          453.5
+        ],
+        [
+          417.0,
+          449.0
+        ],
+        [
+          408.5,
+          440.5
+        ],
+        [
+          405.0,
+          429.5
+        ],
+        [
+          405.5,
+          418.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f069_arm_A_visible",
+      "file": "f069_arm_A_visible.png",
+      "maskFile": "f069_arm_A_visible_mask.png",
+      "sourceFrame": 69,
+      "sourceFile": "source_069.png",
+      "sourceFrameSha256": "115df477d07ff9a3416690b06122db913e4fc0383baed5254ff53bbc15d854ee",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 2.875,
+      "bbox": [
+        366,
+        302,
+        423,
+        378
+      ],
+      "polygonSourcePixels": [
+        [
+          391.5,
+          302.0
+        ],
+        [
+          380.0,
+          314.5
+        ],
+        [
+          371.0,
+          330.0
+        ],
+        [
+          366.5,
+          344.5
+        ],
+        [
+          367.5,
+          359.0
+        ],
+        [
+          374.5,
+          369.5
+        ],
+        [
+          386.0,
+          376.5
+        ],
+        [
+          397.5,
+          377.5
+        ],
+        [
+          407.0,
+          373.5
+        ],
+        [
+          410.0,
+          365.0
+        ],
+        [
+          410.5,
+          353.0
+        ],
+        [
+          415.0,
+          343.0
+        ],
+        [
+          422.5,
+          336.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f069_arm_B_visible",
+      "file": "f069_arm_B_visible.png",
+      "maskFile": "f069_arm_B_visible_mask.png",
+      "sourceFrame": 69,
+      "sourceFile": "source_069.png",
+      "sourceFrameSha256": "115df477d07ff9a3416690b06122db913e4fc0383baed5254ff53bbc15d854ee",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 2.875,
+      "bbox": [
+        494,
+        316,
+        535,
+        357
+      ],
+      "polygonSourcePixels": [
+        [
+          494.5,
+          316.5
+        ],
+        [
+          507.5,
+          317.0
+        ],
+        [
+          519.5,
+          323.0
+        ],
+        [
+          529.5,
+          330.5
+        ],
+        [
+          534.0,
+          341.0
+        ],
+        [
+          533.0,
+          350.0
+        ],
+        [
+          524.5,
+          355.5
+        ],
+        [
+          512.5,
+          356.5
+        ],
+        [
+          502.5,
+          353.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f069_leg_A_visible",
+      "file": "f069_leg_A_visible.png",
+      "maskFile": "f069_leg_A_visible_mask.png",
+      "sourceFrame": 69,
+      "sourceFile": "source_069.png",
+      "sourceFrameSha256": "115df477d07ff9a3416690b06122db913e4fc0383baed5254ff53bbc15d854ee",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 2.875,
+      "bbox": [
+        397,
+        385,
+        458,
+        454
+      ],
+      "polygonSourcePixels": [
+        [
+          397.5,
+          397.5
+        ],
+        [
+          407.0,
+          389.5
+        ],
+        [
+          420.0,
+          385.5
+        ],
+        [
+          434.0,
+          387.0
+        ],
+        [
+          447.0,
+          392.0
+        ],
+        [
+          456.0,
+          400.0
+        ],
+        [
+          457.5,
+          410.5
+        ],
+        [
+          455.0,
+          422.0
+        ],
+        [
+          453.5,
+          432.0
+        ],
+        [
+          454.5,
+          443.0
+        ],
+        [
+          449.5,
+          449.5
+        ],
+        [
+          437.5,
+          453.5
+        ],
+        [
+          423.0,
+          453.5
+        ],
+        [
+          410.5,
+          448.5
+        ],
+        [
+          402.0,
+          441.0
+        ],
+        [
+          397.0,
+          432.0
+        ],
+        [
+          397.5,
+          420.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f070_arm_A_chest_visible",
+      "file": "f070_arm_A_chest_visible.png",
+      "maskFile": "f070_arm_A_chest_visible_mask.png",
+      "sourceFrame": 70,
+      "sourceFile": "source_070.png",
+      "sourceFrameSha256": "9c2e989facc35d66e2b5163a6cac4815f68a8ebb4f6f2d15fa115467074e983e",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 2.9166666666666665,
+      "bbox": [
+        392,
+        307,
+        454,
+        372
+      ],
+      "polygonSourcePixels": [
+        [
+          403.5,
+          307.5
+        ],
+        [
+          395.5,
+          325.5
+        ],
+        [
+          392.5,
+          339.5
+        ],
+        [
+          393.5,
+          350.5
+        ],
+        [
+          400.5,
+          360.5
+        ],
+        [
+          411.0,
+          368.0
+        ],
+        [
+          422.0,
+          371.5
+        ],
+        [
+          433.0,
+          369.5
+        ],
+        [
+          443.0,
+          363.0
+        ],
+        [
+          450.5,
+          352.5
+        ],
+        [
+          453.5,
+          341.5
+        ],
+        [
+          450.5,
+          333.0
+        ],
+        [
+          442.0,
+          327.5
+        ],
+        [
+          431.0,
+          324.0
+        ],
+        [
+          429.0,
+          315.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "chest_crossing",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f070_leg_A_visible",
+      "file": "f070_leg_A_visible.png",
+      "maskFile": "f070_leg_A_visible_mask.png",
+      "sourceFrame": 70,
+      "sourceFile": "source_070.png",
+      "sourceFrameSha256": "9c2e989facc35d66e2b5163a6cac4815f68a8ebb4f6f2d15fa115467074e983e",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 2.9166666666666665,
+      "bbox": [
+        382,
+        377,
+        445,
+        453
+      ],
+      "polygonSourcePixels": [
+        [
+          388.5,
+          377.0
+        ],
+        [
+          403.5,
+          378.0
+        ],
+        [
+          420.5,
+          384.0
+        ],
+        [
+          435.5,
+          394.0
+        ],
+        [
+          444.0,
+          404.0
+        ],
+        [
+          441.5,
+          415.0
+        ],
+        [
+          435.5,
+          425.5
+        ],
+        [
+          435.0,
+          437.5
+        ],
+        [
+          430.0,
+          446.5
+        ],
+        [
+          422.0,
+          451.0
+        ],
+        [
+          410.5,
+          452.0
+        ],
+        [
+          398.5,
+          448.5
+        ],
+        [
+          389.0,
+          442.0
+        ],
+        [
+          383.5,
+          431.5
+        ],
+        [
+          382.5,
+          420.0
+        ],
+        [
+          385.0,
+          409.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f070_leg_B_visible",
+      "file": "f070_leg_B_visible.png",
+      "maskFile": "f070_leg_B_visible_mask.png",
+      "sourceFrame": 70,
+      "sourceFile": "source_070.png",
+      "sourceFrameSha256": "9c2e989facc35d66e2b5163a6cac4815f68a8ebb4f6f2d15fa115467074e983e",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 2.9166666666666665,
+      "bbox": [
+        445,
+        369,
+        510,
+        429
+      ],
+      "polygonSourcePixels": [
+        [
+          488.5,
+          370.5
+        ],
+        [
+          497.5,
+          369.0
+        ],
+        [
+          504.0,
+          376.5
+        ],
+        [
+          509.0,
+          387.0
+        ],
+        [
+          508.5,
+          398.5
+        ],
+        [
+          503.0,
+          409.0
+        ],
+        [
+          492.0,
+          419.0
+        ],
+        [
+          482.5,
+          427.5
+        ],
+        [
+          472.0,
+          428.5
+        ],
+        [
+          461.0,
+          423.5
+        ],
+        [
+          450.0,
+          416.0
+        ],
+        [
+          445.5,
+          409.5
+        ],
+        [
+          448.5,
+          399.0
+        ],
+        [
+          460.0,
+          393.0
+        ],
+        [
+          471.0,
+          386.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 17,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f071_arm_A_chest_visible",
+      "file": "f071_arm_A_chest_visible.png",
+      "maskFile": "f071_arm_A_chest_visible_mask.png",
+      "sourceFrame": 71,
+      "sourceFile": "source_071.png",
+      "sourceFrameSha256": "434509573a59694e6b90b9927e14fd090777ca24c7cd2d52c0dcaeff5d16a99e",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 2.9583333333333335,
+      "bbox": [
+        402,
+        299,
+        476,
+        362
+      ],
+      "polygonSourcePixels": [
+        [
+          409.0,
+          299.0
+        ],
+        [
+          403.0,
+          317.0
+        ],
+        [
+          402.5,
+          330.5
+        ],
+        [
+          406.5,
+          342.5
+        ],
+        [
+          416.0,
+          351.5
+        ],
+        [
+          427.0,
+          356.5
+        ],
+        [
+          439.5,
+          361.0
+        ],
+        [
+          451.5,
+          361.5
+        ],
+        [
+          463.5,
+          358.0
+        ],
+        [
+          472.5,
+          351.0
+        ],
+        [
+          475.5,
+          341.0
+        ],
+        [
+          474.5,
+          330.0
+        ],
+        [
+          468.5,
+          321.0
+        ],
+        [
+          460.0,
+          318.0
+        ],
+        [
+          445.0,
+          317.5
+        ],
+        [
+          440.5,
+          308.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "chest_crossing",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f071_leg_A_visible",
+      "file": "f071_leg_A_visible.png",
+      "maskFile": "f071_leg_A_visible_mask.png",
+      "sourceFrame": 71,
+      "sourceFile": "source_071.png",
+      "sourceFrameSha256": "434509573a59694e6b90b9927e14fd090777ca24c7cd2d52c0dcaeff5d16a99e",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 2.9583333333333335,
+      "bbox": [
+        375,
+        371,
+        440,
+        451
+      ],
+      "polygonSourcePixels": [
+        [
+          385.0,
+          371.0
+        ],
+        [
+          400.0,
+          373.0
+        ],
+        [
+          416.0,
+          379.0
+        ],
+        [
+          430.5,
+          387.5
+        ],
+        [
+          439.5,
+          397.5
+        ],
+        [
+          435.0,
+          409.0
+        ],
+        [
+          427.5,
+          421.0
+        ],
+        [
+          425.5,
+          434.0
+        ],
+        [
+          419.5,
+          445.5
+        ],
+        [
+          409.5,
+          450.5
+        ],
+        [
+          398.5,
+          448.5
+        ],
+        [
+          388.5,
+          441.5
+        ],
+        [
+          380.5,
+          431.5
+        ],
+        [
+          375.5,
+          420.5
+        ],
+        [
+          375.5,
+          409.0
+        ],
+        [
+          380.0,
+          395.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f071_leg_B_visible",
+      "file": "f071_leg_B_visible.png",
+      "maskFile": "f071_leg_B_visible_mask.png",
+      "sourceFrame": 71,
+      "sourceFile": "source_071.png",
+      "sourceFrameSha256": "434509573a59694e6b90b9927e14fd090777ca24c7cd2d52c0dcaeff5d16a99e",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 2.9583333333333335,
+      "bbox": [
+        454,
+        353,
+        516,
+        431
+      ],
+      "polygonSourcePixels": [
+        [
+          495.0,
+          353.5
+        ],
+        [
+          505.0,
+          361.5
+        ],
+        [
+          512.0,
+          373.0
+        ],
+        [
+          515.0,
+          385.0
+        ],
+        [
+          510.5,
+          398.0
+        ],
+        [
+          504.0,
+          408.0
+        ],
+        [
+          501.5,
+          419.5
+        ],
+        [
+          495.0,
+          428.5
+        ],
+        [
+          484.5,
+          430.0
+        ],
+        [
+          473.5,
+          425.0
+        ],
+        [
+          463.0,
+          417.0
+        ],
+        [
+          456.0,
+          406.5
+        ],
+        [
+          454.5,
+          396.0
+        ],
+        [
+          460.5,
+          385.5
+        ],
+        [
+          472.5,
+          374.0
+        ],
+        [
+          483.5,
+          364.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 1,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f072_arm_A_chest_visible",
+      "file": "f072_arm_A_chest_visible.png",
+      "maskFile": "f072_arm_A_chest_visible_mask.png",
+      "sourceFrame": 72,
+      "sourceFile": "source_072.png",
+      "sourceFrameSha256": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.0,
+      "bbox": [
+        409,
+        292,
+        487,
+        353
+      ],
+      "polygonSourcePixels": [
+        [
+          414.5,
+          292.5
+        ],
+        [
+          409.0,
+          308.0
+        ],
+        [
+          409.0,
+          322.5
+        ],
+        [
+          413.0,
+          334.0
+        ],
+        [
+          422.0,
+          343.0
+        ],
+        [
+          432.5,
+          349.0
+        ],
+        [
+          444.0,
+          352.0
+        ],
+        [
+          457.5,
+          352.5
+        ],
+        [
+          470.5,
+          350.5
+        ],
+        [
+          480.5,
+          344.5
+        ],
+        [
+          485.5,
+          335.5
+        ],
+        [
+          486.5,
+          326.0
+        ],
+        [
+          484.5,
+          316.5
+        ],
+        [
+          478.5,
+          309.0
+        ],
+        [
+          470.5,
+          306.5
+        ],
+        [
+          460.0,
+          308.5
+        ],
+        [
+          452.0,
+          309.5
+        ],
+        [
+          447.5,
+          302.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "chest_crossing",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f072_leg_A_visible",
+      "file": "f072_leg_A_visible.png",
+      "maskFile": "f072_leg_A_visible_mask.png",
+      "sourceFrame": 72,
+      "sourceFile": "source_072.png",
+      "sourceFrameSha256": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.0,
+      "bbox": [
+        369,
+        370,
+        438,
+        448
+      ],
+      "polygonSourcePixels": [
+        [
+          384.0,
+          370.0
+        ],
+        [
+          398.5,
+          373.0
+        ],
+        [
+          414.0,
+          380.0
+        ],
+        [
+          428.0,
+          387.5
+        ],
+        [
+          437.5,
+          397.0
+        ],
+        [
+          431.5,
+          407.5
+        ],
+        [
+          424.0,
+          418.5
+        ],
+        [
+          419.5,
+          429.5
+        ],
+        [
+          416.5,
+          441.5
+        ],
+        [
+          409.5,
+          446.5
+        ],
+        [
+          398.5,
+          447.0
+        ],
+        [
+          389.0,
+          443.0
+        ],
+        [
+          380.0,
+          435.0
+        ],
+        [
+          374.0,
+          425.0
+        ],
+        [
+          369.5,
+          413.5
+        ],
+        [
+          369.5,
+          402.0
+        ],
+        [
+          374.5,
+          394.0
+        ],
+        [
+          379.0,
+          382.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f072_leg_B_visible",
+      "file": "f072_leg_B_visible.png",
+      "maskFile": "f072_leg_B_visible_mask.png",
+      "sourceFrame": 72,
+      "sourceFile": "source_072.png",
+      "sourceFrameSha256": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.0,
+      "bbox": [
+        461,
+        361,
+        519,
+        432
+      ],
+      "polygonSourcePixels": [
+        [
+          504.5,
+          361.0
+        ],
+        [
+          512.5,
+          371.0
+        ],
+        [
+          517.5,
+          384.0
+        ],
+        [
+          518.0,
+          396.0
+        ],
+        [
+          515.0,
+          406.0
+        ],
+        [
+          514.0,
+          415.0
+        ],
+        [
+          516.0,
+          423.0
+        ],
+        [
+          510.5,
+          428.5
+        ],
+        [
+          500.5,
+          431.0
+        ],
+        [
+          489.0,
+          431.0
+        ],
+        [
+          478.0,
+          427.5
+        ],
+        [
+          469.0,
+          421.5
+        ],
+        [
+          464.0,
+          413.5
+        ],
+        [
+          461.5,
+          403.0
+        ],
+        [
+          464.0,
+          394.5
+        ],
+        [
+          471.5,
+          385.0
+        ],
+        [
+          483.5,
+          374.0
+        ],
+        [
+          494.5,
+          365.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 6,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f073_arm_A_chest_visible",
+      "file": "f073_arm_A_chest_visible.png",
+      "maskFile": "f073_arm_A_chest_visible_mask.png",
+      "sourceFrame": 73,
+      "sourceFile": "source_073.png",
+      "sourceFrameSha256": "ea3c8193870a44d9a98b0a995e5cc2519b825dae961bc1e013f4a0fcb88994ca",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.0416666666666665,
+      "bbox": [
+        412,
+        290,
+        499,
+        350
+      ],
+      "polygonSourcePixels": [
+        [
+          415.5,
+          290.5
+        ],
+        [
+          412.0,
+          304.5
+        ],
+        [
+          412.0,
+          318.0
+        ],
+        [
+          416.5,
+          330.0
+        ],
+        [
+          427.0,
+          339.0
+        ],
+        [
+          439.5,
+          345.5
+        ],
+        [
+          451.5,
+          349.5
+        ],
+        [
+          464.5,
+          349.0
+        ],
+        [
+          477.5,
+          345.5
+        ],
+        [
+          489.5,
+          339.0
+        ],
+        [
+          496.0,
+          330.0
+        ],
+        [
+          498.5,
+          320.0
+        ],
+        [
+          495.5,
+          309.0
+        ],
+        [
+          487.5,
+          301.5
+        ],
+        [
+          479.0,
+          300.0
+        ],
+        [
+          467.5,
+          302.0
+        ],
+        [
+          455.5,
+          306.0
+        ],
+        [
+          450.5,
+          300.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "chest_crossing",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f073_leg_A_visible",
+      "file": "f073_leg_A_visible.png",
+      "maskFile": "f073_leg_A_visible_mask.png",
+      "sourceFrame": 73,
+      "sourceFile": "source_073.png",
+      "sourceFrameSha256": "ea3c8193870a44d9a98b0a995e5cc2519b825dae961bc1e013f4a0fcb88994ca",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.0416666666666665,
+      "bbox": [
+        361,
+        370,
+        435,
+        441
+      ],
+      "polygonSourcePixels": [
+        [
+          379.5,
+          370.5
+        ],
+        [
+          394.5,
+          374.0
+        ],
+        [
+          410.5,
+          381.5
+        ],
+        [
+          426.0,
+          390.5
+        ],
+        [
+          434.5,
+          399.5
+        ],
+        [
+          426.5,
+          407.0
+        ],
+        [
+          416.0,
+          414.0
+        ],
+        [
+          408.5,
+          420.5
+        ],
+        [
+          406.0,
+          430.0
+        ],
+        [
+          398.0,
+          437.0
+        ],
+        [
+          386.5,
+          440.5
+        ],
+        [
+          375.5,
+          438.0
+        ],
+        [
+          368.0,
+          430.5
+        ],
+        [
+          363.5,
+          421.0
+        ],
+        [
+          361.0,
+          410.0
+        ],
+        [
+          363.0,
+          399.0
+        ],
+        [
+          370.0,
+          388.5
+        ],
+        [
+          377.0,
+          379.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f073_leg_B_visible",
+      "file": "f073_leg_B_visible.png",
+      "maskFile": "f073_leg_B_visible_mask.png",
+      "sourceFrame": 73,
+      "sourceFile": "source_073.png",
+      "sourceFrameSha256": "ea3c8193870a44d9a98b0a995e5cc2519b825dae961bc1e013f4a0fcb88994ca",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.0416666666666665,
+      "bbox": [
+        459,
+        363,
+        531,
+        429
+      ],
+      "polygonSourcePixels": [
+        [
+          503.0,
+          363.0
+        ],
+        [
+          512.0,
+          372.0
+        ],
+        [
+          518.0,
+          383.5
+        ],
+        [
+          519.0,
+          394.5
+        ],
+        [
+          526.0,
+          399.0
+        ],
+        [
+          530.0,
+          407.5
+        ],
+        [
+          529.0,
+          416.5
+        ],
+        [
+          523.0,
+          423.0
+        ],
+        [
+          512.5,
+          427.0
+        ],
+        [
+          501.5,
+          428.0
+        ],
+        [
+          490.5,
+          427.0
+        ],
+        [
+          480.0,
+          423.0
+        ],
+        [
+          473.0,
+          415.5
+        ],
+        [
+          469.0,
+          406.0
+        ],
+        [
+          464.0,
+          399.0
+        ],
+        [
+          459.0,
+          395.0
+        ],
+        [
+          468.0,
+          384.5
+        ],
+        [
+          481.0,
+          373.5
+        ],
+        [
+          492.0,
+          366.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f074_arm_A_chest_visible",
+      "file": "f074_arm_A_chest_visible.png",
+      "maskFile": "f074_arm_A_chest_visible_mask.png",
+      "sourceFrame": 74,
+      "sourceFile": "source_074.png",
+      "sourceFrameSha256": "3200f67af977d20903f69f2109dc05385f18fbe2f3e54086fda34a3e7e32d912",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.0833333333333335,
+      "bbox": [
+        415,
+        294,
+        501,
+        352
+      ],
+      "polygonSourcePixels": [
+        [
+          418.5,
+          294.0
+        ],
+        [
+          415.0,
+          308.0
+        ],
+        [
+          418.0,
+          320.5
+        ],
+        [
+          425.5,
+          331.5
+        ],
+        [
+          437.5,
+          341.5
+        ],
+        [
+          450.5,
+          348.5
+        ],
+        [
+          464.0,
+          351.5
+        ],
+        [
+          477.5,
+          350.5
+        ],
+        [
+          489.5,
+          346.5
+        ],
+        [
+          497.5,
+          338.0
+        ],
+        [
+          500.5,
+          327.5
+        ],
+        [
+          499.5,
+          316.5
+        ],
+        [
+          493.5,
+          306.0
+        ],
+        [
+          485.0,
+          302.0
+        ],
+        [
+          474.0,
+          304.0
+        ],
+        [
+          463.0,
+          310.0
+        ],
+        [
+          455.0,
+          313.0
+        ],
+        [
+          448.5,
+          306.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "chest_crossing",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f074_leg_A_visible",
+      "file": "f074_leg_A_visible.png",
+      "maskFile": "f074_leg_A_visible_mask.png",
+      "sourceFrame": 74,
+      "sourceFile": "source_074.png",
+      "sourceFrameSha256": "3200f67af977d20903f69f2109dc05385f18fbe2f3e54086fda34a3e7e32d912",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.0833333333333335,
+      "bbox": [
+        353,
+        366,
+        430,
+        419
+      ],
+      "polygonSourcePixels": [
+        [
+          377.5,
+          370.5
+        ],
+        [
+          374.0,
+          366.5
+        ],
+        [
+          366.0,
+          369.5
+        ],
+        [
+          360.0,
+          377.5
+        ],
+        [
+          355.0,
+          387.5
+        ],
+        [
+          353.5,
+          398.0
+        ],
+        [
+          356.5,
+          406.5
+        ],
+        [
+          364.5,
+          414.0
+        ],
+        [
+          374.0,
+          416.5
+        ],
+        [
+          383.0,
+          415.0
+        ],
+        [
+          393.0,
+          418.0
+        ],
+        [
+          404.0,
+          418.0
+        ],
+        [
+          415.0,
+          414.5
+        ],
+        [
+          423.5,
+          409.0
+        ],
+        [
+          429.0,
+          403.5
+        ],
+        [
+          423.0,
+          394.5
+        ],
+        [
+          410.5,
+          384.0
+        ],
+        [
+          396.5,
+          375.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "ai_foot_shape_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f074_leg_B_visible",
+      "file": "f074_leg_B_visible.png",
+      "maskFile": "f074_leg_B_visible_mask.png",
+      "sourceFrame": 74,
+      "sourceFile": "source_074.png",
+      "sourceFrameSha256": "3200f67af977d20903f69f2109dc05385f18fbe2f3e54086fda34a3e7e32d912",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.0833333333333335,
+      "bbox": [
+        458,
+        371,
+        533,
+        442
+      ],
+      "polygonSourcePixels": [
+        [
+          505.0,
+          371.5
+        ],
+        [
+          512.5,
+          382.0
+        ],
+        [
+          515.0,
+          393.0
+        ],
+        [
+          514.5,
+          401.5
+        ],
+        [
+          524.5,
+          403.0
+        ],
+        [
+          531.5,
+          409.5
+        ],
+        [
+          532.0,
+          419.0
+        ],
+        [
+          526.5,
+          428.0
+        ],
+        [
+          517.5,
+          436.0
+        ],
+        [
+          508.0,
+          440.0
+        ],
+        [
+          496.0,
+          441.5
+        ],
+        [
+          484.5,
+          439.5
+        ],
+        [
+          476.5,
+          434.5
+        ],
+        [
+          471.5,
+          425.5
+        ],
+        [
+          468.0,
+          416.5
+        ],
+        [
+          460.5,
+          407.5
+        ],
+        [
+          458.0,
+          404.5
+        ],
+        [
+          469.5,
+          392.0
+        ],
+        [
+          484.0,
+          381.0
+        ],
+        [
+          495.5,
+          374.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "ai_foot_shape_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f075_arm_A_chest_visible",
+      "file": "f075_arm_A_chest_visible.png",
+      "maskFile": "f075_arm_A_chest_visible_mask.png",
+      "sourceFrame": 75,
+      "sourceFile": "source_075.png",
+      "sourceFrameSha256": "030f04baccecbbaa3a1351109e2733537e956c2968873c0c7e94ebc6ebec176a",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.125,
+      "bbox": [
+        413,
+        297,
+        495,
+        359
+      ],
+      "polygonSourcePixels": [
+        [
+          415.0,
+          297.5
+        ],
+        [
+          413.5,
+          311.0
+        ],
+        [
+          417.0,
+          324.5
+        ],
+        [
+          425.0,
+          336.0
+        ],
+        [
+          436.0,
+          345.5
+        ],
+        [
+          448.5,
+          353.0
+        ],
+        [
+          462.0,
+          358.0
+        ],
+        [
+          474.5,
+          358.0
+        ],
+        [
+          484.5,
+          353.5
+        ],
+        [
+          491.5,
+          346.0
+        ],
+        [
+          494.0,
+          335.5
+        ],
+        [
+          493.0,
+          325.0
+        ],
+        [
+          487.5,
+          316.0
+        ],
+        [
+          479.5,
+          311.5
+        ],
+        [
+          470.0,
+          312.5
+        ],
+        [
+          460.0,
+          317.0
+        ],
+        [
+          451.5,
+          318.5
+        ],
+        [
+          446.5,
+          311.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "chest_crossing",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f075_leg_A_visible",
+      "file": "f075_leg_A_visible.png",
+      "maskFile": "f075_leg_A_visible_mask.png",
+      "sourceFrame": 75,
+      "sourceFile": "source_075.png",
+      "sourceFrameSha256": "030f04baccecbbaa3a1351109e2733537e956c2968873c0c7e94ebc6ebec176a",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.125,
+      "bbox": [
+        357,
+        370,
+        433,
+        424
+      ],
+      "polygonSourcePixels": [
+        [
+          380.5,
+          373.5
+        ],
+        [
+          375.0,
+          370.5
+        ],
+        [
+          368.0,
+          374.5
+        ],
+        [
+          361.0,
+          385.0
+        ],
+        [
+          357.0,
+          397.0
+        ],
+        [
+          358.5,
+          407.0
+        ],
+        [
+          364.5,
+          414.0
+        ],
+        [
+          374.0,
+          418.0
+        ],
+        [
+          383.0,
+          417.5
+        ],
+        [
+          392.5,
+          422.5
+        ],
+        [
+          404.0,
+          423.0
+        ],
+        [
+          415.5,
+          420.0
+        ],
+        [
+          424.5,
+          415.5
+        ],
+        [
+          432.0,
+          410.0
+        ],
+        [
+          426.5,
+          401.0
+        ],
+        [
+          414.5,
+          390.0
+        ],
+        [
+          400.5,
+          380.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 2,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "ai_foot_shape_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f075_leg_B_visible",
+      "file": "f075_leg_B_visible.png",
+      "maskFile": "f075_leg_B_visible_mask.png",
+      "sourceFrame": 75,
+      "sourceFile": "source_075.png",
+      "sourceFrameSha256": "030f04baccecbbaa3a1351109e2733537e956c2968873c0c7e94ebc6ebec176a",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.125,
+      "bbox": [
+        457,
+        374,
+        520,
+        445
+      ],
+      "polygonSourcePixels": [
+        [
+          505.5,
+          374.0
+        ],
+        [
+          511.5,
+          386.0
+        ],
+        [
+          513.0,
+          398.5
+        ],
+        [
+          511.0,
+          410.0
+        ],
+        [
+          512.5,
+          420.5
+        ],
+        [
+          519.5,
+          430.0
+        ],
+        [
+          517.0,
+          437.5
+        ],
+        [
+          508.0,
+          442.0
+        ],
+        [
+          497.0,
+          444.5
+        ],
+        [
+          485.0,
+          444.0
+        ],
+        [
+          473.5,
+          440.5
+        ],
+        [
+          466.5,
+          433.0
+        ],
+        [
+          462.0,
+          422.5
+        ],
+        [
+          459.5,
+          414.5
+        ],
+        [
+          457.5,
+          411.5
+        ],
+        [
+          470.0,
+          398.0
+        ],
+        [
+          483.5,
+          387.0
+        ],
+        [
+          495.0,
+          379.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "ai_foot_shape_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f076_arm_A_chest_visible",
+      "file": "f076_arm_A_chest_visible.png",
+      "maskFile": "f076_arm_A_chest_visible_mask.png",
+      "sourceFrame": 76,
+      "sourceFile": "source_076.png",
+      "sourceFrameSha256": "ca0676580e05720d1f927d733d944c930c776d7c33ac2f4a2a1fb325dfb9bae9",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.1666666666666665,
+      "bbox": [
+        408,
+        299,
+        485,
+        369
+      ],
+      "polygonSourcePixels": [
+        [
+          414.5,
+          299.0
+        ],
+        [
+          409.5,
+          312.5
+        ],
+        [
+          408.5,
+          326.5
+        ],
+        [
+          412.0,
+          339.5
+        ],
+        [
+          420.0,
+          350.5
+        ],
+        [
+          431.0,
+          359.0
+        ],
+        [
+          443.5,
+          365.0
+        ],
+        [
+          457.5,
+          368.0
+        ],
+        [
+          470.0,
+          365.5
+        ],
+        [
+          478.5,
+          359.5
+        ],
+        [
+          483.5,
+          350.5
+        ],
+        [
+          484.5,
+          339.0
+        ],
+        [
+          482.5,
+          329.0
+        ],
+        [
+          476.0,
+          322.0
+        ],
+        [
+          467.0,
+          320.5
+        ],
+        [
+          456.0,
+          322.5
+        ],
+        [
+          446.5,
+          324.0
+        ],
+        [
+          441.5,
+          316.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "chest_crossing",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f076_leg_A_visible",
+      "file": "f076_leg_A_visible.png",
+      "maskFile": "f076_leg_A_visible_mask.png",
+      "sourceFrame": 76,
+      "sourceFile": "source_076.png",
+      "sourceFrameSha256": "ca0676580e05720d1f927d733d944c930c776d7c33ac2f4a2a1fb325dfb9bae9",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.1666666666666665,
+      "bbox": [
+        362,
+        376,
+        438,
+        428
+      ],
+      "polygonSourcePixels": [
+        [
+          381.5,
+          376.0
+        ],
+        [
+          375.5,
+          377.0
+        ],
+        [
+          369.0,
+          385.5
+        ],
+        [
+          364.0,
+          396.5
+        ],
+        [
+          362.5,
+          407.0
+        ],
+        [
+          365.0,
+          415.5
+        ],
+        [
+          371.5,
+          421.0
+        ],
+        [
+          380.5,
+          423.0
+        ],
+        [
+          389.5,
+          420.5
+        ],
+        [
+          399.0,
+          426.5
+        ],
+        [
+          410.5,
+          427.5
+        ],
+        [
+          420.5,
+          425.0
+        ],
+        [
+          429.5,
+          420.0
+        ],
+        [
+          437.0,
+          412.5
+        ],
+        [
+          432.0,
+          403.5
+        ],
+        [
+          420.0,
+          393.5
+        ],
+        [
+          405.5,
+          384.5
+        ],
+        [
+          393.5,
+          380.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "ai_foot_shape_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f076_leg_B_visible",
+      "file": "f076_leg_B_visible.png",
+      "maskFile": "f076_leg_B_visible_mask.png",
+      "sourceFrame": 76,
+      "sourceFile": "source_076.png",
+      "sourceFrameSha256": "ca0676580e05720d1f927d733d944c930c776d7c33ac2f4a2a1fb325dfb9bae9",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.1666666666666665,
+      "bbox": [
+        454,
+        380,
+        508,
+        445
+      ],
+      "polygonSourcePixels": [
+        [
+          503.5,
+          380.5
+        ],
+        [
+          507.0,
+          392.5
+        ],
+        [
+          505.5,
+          404.5
+        ],
+        [
+          500.5,
+          415.0
+        ],
+        [
+          502.5,
+          423.5
+        ],
+        [
+          507.0,
+          434.5
+        ],
+        [
+          502.5,
+          441.0
+        ],
+        [
+          492.0,
+          444.0
+        ],
+        [
+          480.0,
+          444.5
+        ],
+        [
+          468.5,
+          442.5
+        ],
+        [
+          459.0,
+          437.5
+        ],
+        [
+          454.0,
+          429.5
+        ],
+        [
+          454.0,
+          420.0
+        ],
+        [
+          457.0,
+          413.5
+        ],
+        [
+          467.0,
+          403.0
+        ],
+        [
+          479.0,
+          393.5
+        ],
+        [
+          491.5,
+          385.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "ai_foot_shape_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f077_arm_A_chest_visible",
+      "file": "f077_arm_A_chest_visible.png",
+      "maskFile": "f077_arm_A_chest_visible_mask.png",
+      "sourceFrame": 77,
+      "sourceFile": "source_077.png",
+      "sourceFrameSha256": "c3d8a2bdfeec6a45f85650813bf63a52f899187dec62d1d77d9ec0e0f207842a",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.2083333333333335,
+      "bbox": [
+        399,
+        299,
+        468,
+        376
+      ],
+      "polygonSourcePixels": [
+        [
+          408.5,
+          299.5
+        ],
+        [
+          401.5,
+          315.5
+        ],
+        [
+          399.5,
+          330.5
+        ],
+        [
+          401.0,
+          344.0
+        ],
+        [
+          407.0,
+          355.0
+        ],
+        [
+          417.5,
+          364.5
+        ],
+        [
+          431.0,
+          370.5
+        ],
+        [
+          444.0,
+          375.0
+        ],
+        [
+          456.0,
+          373.5
+        ],
+        [
+          463.5,
+          367.0
+        ],
+        [
+          467.0,
+          357.0
+        ],
+        [
+          467.5,
+          346.0
+        ],
+        [
+          464.5,
+          337.0
+        ],
+        [
+          458.0,
+          332.0
+        ],
+        [
+          448.0,
+          330.5
+        ],
+        [
+          435.5,
+          331.0
+        ],
+        [
+          434.0,
+          322.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 27,
+      "kind": "arm",
+      "pose": "chest_crossing",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f077_leg_A_visible",
+      "file": "f077_leg_A_visible.png",
+      "maskFile": "f077_leg_A_visible_mask.png",
+      "sourceFrame": 77,
+      "sourceFile": "source_077.png",
+      "sourceFrameSha256": "c3d8a2bdfeec6a45f85650813bf63a52f899187dec62d1d77d9ec0e0f207842a",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.2083333333333335,
+      "bbox": [
+        370,
+        378,
+        444,
+        430
+      ],
+      "polygonSourcePixels": [
+        [
+          384.5,
+          379.5
+        ],
+        [
+          379.0,
+          378.5
+        ],
+        [
+          374.5,
+          386.0
+        ],
+        [
+          371.0,
+          397.0
+        ],
+        [
+          370.0,
+          407.5
+        ],
+        [
+          372.5,
+          417.5
+        ],
+        [
+          378.5,
+          425.5
+        ],
+        [
+          387.0,
+          428.5
+        ],
+        [
+          394.0,
+          427.0
+        ],
+        [
+          405.5,
+          429.5
+        ],
+        [
+          417.0,
+          428.5
+        ],
+        [
+          429.0,
+          425.0
+        ],
+        [
+          438.0,
+          418.5
+        ],
+        [
+          443.0,
+          410.5
+        ],
+        [
+          440.5,
+          402.0
+        ],
+        [
+          431.0,
+          393.5
+        ],
+        [
+          418.0,
+          387.5
+        ],
+        [
+          402.0,
+          382.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "ai_foot_shape_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f077_leg_B_visible",
+      "file": "f077_leg_B_visible.png",
+      "maskFile": "f077_leg_B_visible_mask.png",
+      "sourceFrame": 77,
+      "sourceFile": "source_077.png",
+      "sourceFrameSha256": "c3d8a2bdfeec6a45f85650813bf63a52f899187dec62d1d77d9ec0e0f207842a",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.2083333333333335,
+      "bbox": [
+        445,
+        387,
+        504,
+        445
+      ],
+      "polygonSourcePixels": [
+        [
+          502.5,
+          387.0
+        ],
+        [
+          503.5,
+          399.0
+        ],
+        [
+          500.5,
+          411.0
+        ],
+        [
+          496.0,
+          421.0
+        ],
+        [
+          494.0,
+          429.0
+        ],
+        [
+          499.5,
+          435.0
+        ],
+        [
+          495.5,
+          441.0
+        ],
+        [
+          485.0,
+          444.5
+        ],
+        [
+          473.0,
+          444.5
+        ],
+        [
+          461.5,
+          442.5
+        ],
+        [
+          452.5,
+          438.0
+        ],
+        [
+          445.5,
+          431.0
+        ],
+        [
+          446.0,
+          422.0
+        ],
+        [
+          450.0,
+          417.5
+        ],
+        [
+          459.0,
+          414.0
+        ],
+        [
+          471.5,
+          405.0
+        ],
+        [
+          486.0,
+          394.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "ai_foot_shape_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f078_arm_A_visible",
+      "file": "f078_arm_A_visible.png",
+      "maskFile": "f078_arm_A_visible_mask.png",
+      "sourceFrame": 78,
+      "sourceFile": "source_078.png",
+      "sourceFrameSha256": "63fed24423a2afbf759e8794c4c716609a85647154f070ad7efac0b42ff353ac",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.25,
+      "bbox": [
+        380,
+        294,
+        436,
+        371
+      ],
+      "polygonSourcePixels": [
+        [
+          400.0,
+          294.0
+        ],
+        [
+          390.0,
+          307.5
+        ],
+        [
+          383.0,
+          323.0
+        ],
+        [
+          380.5,
+          337.5
+        ],
+        [
+          381.5,
+          350.5
+        ],
+        [
+          387.5,
+          362.0
+        ],
+        [
+          398.0,
+          367.5
+        ],
+        [
+          411.5,
+          370.0
+        ],
+        [
+          425.0,
+          368.5
+        ],
+        [
+          433.5,
+          364.5
+        ],
+        [
+          435.5,
+          356.5
+        ],
+        [
+          431.5,
+          347.5
+        ],
+        [
+          425.0,
+          338.0
+        ],
+        [
+          423.0,
+          331.0
+        ],
+        [
+          428.5,
+          324.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f078_arm_B_visible",
+      "file": "f078_arm_B_visible.png",
+      "maskFile": "f078_arm_B_visible_mask.png",
+      "sourceFrame": 78,
+      "sourceFile": "source_078.png",
+      "sourceFrameSha256": "63fed24423a2afbf759e8794c4c716609a85647154f070ad7efac0b42ff353ac",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.25,
+      "bbox": [
+        496,
+        312,
+        530,
+        357
+      ],
+      "polygonSourcePixels": [
+        [
+          496.0,
+          312.0
+        ],
+        [
+          507.5,
+          319.0
+        ],
+        [
+          518.0,
+          320.0
+        ],
+        [
+          525.5,
+          327.0
+        ],
+        [
+          529.0,
+          337.5
+        ],
+        [
+          528.0,
+          347.5
+        ],
+        [
+          521.5,
+          353.5
+        ],
+        [
+          512.0,
+          356.0
+        ],
+        [
+          501.5,
+          354.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f078_leg_A_visible",
+      "file": "f078_leg_A_visible.png",
+      "maskFile": "f078_leg_A_visible_mask.png",
+      "sourceFrame": 78,
+      "sourceFile": "source_078.png",
+      "sourceFrameSha256": "63fed24423a2afbf759e8794c4c716609a85647154f070ad7efac0b42ff353ac",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.25,
+      "bbox": [
+        387,
+        373,
+        456,
+        436
+      ],
+      "polygonSourcePixels": [
+        [
+          394.5,
+          384.5
+        ],
+        [
+          404.0,
+          376.5
+        ],
+        [
+          417.5,
+          373.5
+        ],
+        [
+          431.0,
+          374.5
+        ],
+        [
+          442.5,
+          379.0
+        ],
+        [
+          452.0,
+          387.0
+        ],
+        [
+          455.0,
+          397.5
+        ],
+        [
+          454.5,
+          408.5
+        ],
+        [
+          450.5,
+          418.0
+        ],
+        [
+          444.0,
+          423.5
+        ],
+        [
+          431.0,
+          426.5
+        ],
+        [
+          422.5,
+          432.0
+        ],
+        [
+          417.0,
+          435.5
+        ],
+        [
+          407.0,
+          435.0
+        ],
+        [
+          397.5,
+          430.0
+        ],
+        [
+          390.0,
+          422.0
+        ],
+        [
+          387.0,
+          412.5
+        ],
+        [
+          388.0,
+          400.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f078_leg_B_fragment_visible",
+      "file": "f078_leg_B_fragment_visible.png",
+      "maskFile": "f078_leg_B_fragment_visible_mask.png",
+      "sourceFrame": 78,
+      "sourceFile": "source_078.png",
+      "sourceFrameSha256": "63fed24423a2afbf759e8794c4c716609a85647154f070ad7efac0b42ff353ac",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.25,
+      "bbox": [
+        429,
+        395,
+        490,
+        443
+      ],
+      "polygonSourcePixels": [
+        [
+          454.0,
+          410.0
+        ],
+        [
+          447.0,
+          417.0
+        ],
+        [
+          436.5,
+          424.0
+        ],
+        [
+          429.5,
+          427.5
+        ],
+        [
+          431.5,
+          434.0
+        ],
+        [
+          439.0,
+          439.5
+        ],
+        [
+          450.0,
+          442.5
+        ],
+        [
+          462.0,
+          442.5
+        ],
+        [
+          473.5,
+          439.5
+        ],
+        [
+          479.5,
+          434.0
+        ],
+        [
+          479.5,
+          424.5
+        ],
+        [
+          477.0,
+          417.0
+        ],
+        [
+          485.0,
+          403.5
+        ],
+        [
+          489.5,
+          395.0
+        ],
+        [
+          481.0,
+          400.0
+        ],
+        [
+          469.5,
+          406.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "crossing_fragment",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "partial_visible_sliver_only",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f079_arm_A_visible",
+      "file": "f079_arm_A_visible.png",
+      "maskFile": "f079_arm_A_visible_mask.png",
+      "sourceFrame": 79,
+      "sourceFile": "source_079.png",
+      "sourceFrameSha256": "c2e238fb4a36f536be0a78c1524590ee23a1f6ef7ab145616afb3914acfc1dfd",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.2916666666666665,
+      "bbox": [
+        370,
+        295,
+        423,
+        366
+      ],
+      "polygonSourcePixels": [
+        [
+          396.0,
+          295.5
+        ],
+        [
+          386.0,
+          306.0
+        ],
+        [
+          376.0,
+          320.0
+        ],
+        [
+          371.0,
+          335.5
+        ],
+        [
+          370.0,
+          348.0
+        ],
+        [
+          373.0,
+          357.5
+        ],
+        [
+          380.5,
+          363.5
+        ],
+        [
+          391.5,
+          365.0
+        ],
+        [
+          402.5,
+          363.0
+        ],
+        [
+          411.5,
+          357.0
+        ],
+        [
+          414.0,
+          347.0
+        ],
+        [
+          413.5,
+          335.5
+        ],
+        [
+          415.0,
+          326.5
+        ],
+        [
+          422.5,
+          319.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f079_arm_B_visible",
+      "file": "f079_arm_B_visible.png",
+      "maskFile": "f079_arm_B_visible_mask.png",
+      "sourceFrame": 79,
+      "sourceFile": "source_079.png",
+      "sourceFrameSha256": "c2e238fb4a36f536be0a78c1524590ee23a1f6ef7ab145616afb3914acfc1dfd",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.2916666666666665,
+      "bbox": [
+        495,
+        303,
+        537,
+        347
+      ],
+      "polygonSourcePixels": [
+        [
+          495.5,
+          303.5
+        ],
+        [
+          507.5,
+          307.5
+        ],
+        [
+          514.5,
+          307.0
+        ],
+        [
+          524.0,
+          310.5
+        ],
+        [
+          531.5,
+          318.5
+        ],
+        [
+          535.5,
+          328.5
+        ],
+        [
+          536.5,
+          337.5
+        ],
+        [
+          531.0,
+          343.5
+        ],
+        [
+          521.0,
+          346.5
+        ],
+        [
+          509.5,
+          346.0
+        ],
+        [
+          500.5,
+          342.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f079_leg_A_visible",
+      "file": "f079_leg_A_visible.png",
+      "maskFile": "f079_leg_A_visible_mask.png",
+      "sourceFrame": 79,
+      "sourceFile": "source_079.png",
+      "sourceFrameSha256": "c2e238fb4a36f536be0a78c1524590ee23a1f6ef7ab145616afb3914acfc1dfd",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.2916666666666665,
+      "bbox": [
+        399,
+        361,
+        462,
+        438
+      ],
+      "polygonSourcePixels": [
+        [
+          399.5,
+          376.0
+        ],
+        [
+          411.5,
+          366.0
+        ],
+        [
+          425.5,
+          361.5
+        ],
+        [
+          438.5,
+          363.0
+        ],
+        [
+          449.5,
+          368.5
+        ],
+        [
+          458.0,
+          378.0
+        ],
+        [
+          461.0,
+          389.0
+        ],
+        [
+          460.0,
+          399.5
+        ],
+        [
+          454.5,
+          410.0
+        ],
+        [
+          445.5,
+          418.0
+        ],
+        [
+          443.5,
+          428.0
+        ],
+        [
+          438.5,
+          435.0
+        ],
+        [
+          430.5,
+          437.5
+        ],
+        [
+          420.0,
+          435.5
+        ],
+        [
+          410.0,
+          428.5
+        ],
+        [
+          403.0,
+          420.5
+        ],
+        [
+          399.0,
+          410.5
+        ],
+        [
+          399.5,
+          398.0
+        ],
+        [
+          403.0,
+          393.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f079_leg_B_fragment_visible",
+      "file": "f079_leg_B_fragment_visible.png",
+      "maskFile": "f079_leg_B_fragment_visible_mask.png",
+      "sourceFrame": 79,
+      "sourceFile": "source_079.png",
+      "sourceFrameSha256": "c2e238fb4a36f536be0a78c1524590ee23a1f6ef7ab145616afb3914acfc1dfd",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.2916666666666665,
+      "bbox": [
+        431,
+        396,
+        481,
+        442
+      ],
+      "polygonSourcePixels": [
+        [
+          444.0,
+          417.5
+        ],
+        [
+          441.5,
+          426.5
+        ],
+        [
+          437.0,
+          434.0
+        ],
+        [
+          431.5,
+          438.5
+        ],
+        [
+          444.0,
+          441.0
+        ],
+        [
+          455.5,
+          440.5
+        ],
+        [
+          465.0,
+          436.0
+        ],
+        [
+          470.0,
+          429.5
+        ],
+        [
+          471.0,
+          421.5
+        ],
+        [
+          468.0,
+          415.0
+        ],
+        [
+          474.5,
+          404.5
+        ],
+        [
+          480.5,
+          396.0
+        ],
+        [
+          471.0,
+          402.5
+        ],
+        [
+          459.5,
+          408.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "crossing_fragment",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "partial_visible_sliver_only",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f080_arm_A_visible",
+      "file": "f080_arm_A_visible.png",
+      "maskFile": "f080_arm_A_visible_mask.png",
+      "sourceFrame": 80,
+      "sourceFile": "source_080.png",
+      "sourceFrameSha256": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.3333333333333335,
+      "bbox": [
+        360,
+        297,
+        417,
+        361
+      ],
+      "polygonSourcePixels": [
+        [
+          391.5,
+          297.5
+        ],
+        [
+          380.0,
+          306.0
+        ],
+        [
+          369.5,
+          318.0
+        ],
+        [
+          362.5,
+          330.5
+        ],
+        [
+          360.0,
+          342.5
+        ],
+        [
+          362.0,
+          351.5
+        ],
+        [
+          368.0,
+          357.5
+        ],
+        [
+          376.5,
+          360.5
+        ],
+        [
+          388.5,
+          360.0
+        ],
+        [
+          396.5,
+          356.0
+        ],
+        [
+          400.5,
+          347.0
+        ],
+        [
+          402.0,
+          335.5
+        ],
+        [
+          407.0,
+          326.0
+        ],
+        [
+          416.5,
+          318.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f080_arm_B_visible",
+      "file": "f080_arm_B_visible.png",
+      "maskFile": "f080_arm_B_visible_mask.png",
+      "sourceFrame": 80,
+      "sourceFile": "source_080.png",
+      "sourceFrameSha256": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.3333333333333335,
+      "bbox": [
+        495,
+        296,
+        543,
+        340
+      ],
+      "polygonSourcePixels": [
+        [
+          495.0,
+          296.5
+        ],
+        [
+          507.5,
+          298.5
+        ],
+        [
+          519.0,
+          297.5
+        ],
+        [
+          530.5,
+          301.5
+        ],
+        [
+          538.5,
+          310.0
+        ],
+        [
+          542.0,
+          320.0
+        ],
+        [
+          541.5,
+          329.0
+        ],
+        [
+          535.0,
+          335.5
+        ],
+        [
+          524.5,
+          339.0
+        ],
+        [
+          513.0,
+          337.5
+        ],
+        [
+          503.0,
+          332.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f080_leg_A_visible",
+      "file": "f080_leg_A_visible.png",
+      "maskFile": "f080_leg_A_visible_mask.png",
+      "sourceFrame": 80,
+      "sourceFile": "source_080.png",
+      "sourceFrameSha256": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.3333333333333335,
+      "bbox": [
+        399,
+        362,
+        463,
+        437
+      ],
+      "polygonSourcePixels": [
+        [
+          399.0,
+          378.5
+        ],
+        [
+          410.5,
+          367.5
+        ],
+        [
+          424.5,
+          362.0
+        ],
+        [
+          437.5,
+          362.5
+        ],
+        [
+          450.0,
+          368.0
+        ],
+        [
+          459.5,
+          377.5
+        ],
+        [
+          462.5,
+          389.0
+        ],
+        [
+          462.5,
+          401.0
+        ],
+        [
+          459.0,
+          411.0
+        ],
+        [
+          459.0,
+          420.5
+        ],
+        [
+          461.0,
+          428.0
+        ],
+        [
+          457.5,
+          434.0
+        ],
+        [
+          447.0,
+          436.5
+        ],
+        [
+          435.5,
+          434.5
+        ],
+        [
+          423.5,
+          429.0
+        ],
+        [
+          415.0,
+          421.5
+        ],
+        [
+          409.0,
+          411.5
+        ],
+        [
+          407.0,
+          402.5
+        ],
+        [
+          410.0,
+          399.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f081_arm_A_visible",
+      "file": "f081_arm_A_visible.png",
+      "maskFile": "f081_arm_A_visible_mask.png",
+      "sourceFrame": 81,
+      "sourceFile": "source_081.png",
+      "sourceFrameSha256": "b46b02660221465c152edd5274260066093216e1a6cc5da01137fae3d5c91b0f",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.375,
+      "bbox": [
+        352,
+        297,
+        417,
+        354
+      ],
+      "polygonSourcePixels": [
+        [
+          388.5,
+          297.0
+        ],
+        [
+          376.0,
+          303.5
+        ],
+        [
+          364.0,
+          314.0
+        ],
+        [
+          355.5,
+          325.0
+        ],
+        [
+          352.0,
+          337.0
+        ],
+        [
+          352.5,
+          346.0
+        ],
+        [
+          358.0,
+          351.5
+        ],
+        [
+          367.5,
+          353.5
+        ],
+        [
+          378.5,
+          353.0
+        ],
+        [
+          388.5,
+          349.0
+        ],
+        [
+          394.0,
+          341.5
+        ],
+        [
+          399.0,
+          330.5
+        ],
+        [
+          406.0,
+          325.0
+        ],
+        [
+          416.5,
+          320.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f081_arm_B_visible",
+      "file": "f081_arm_B_visible.png",
+      "maskFile": "f081_arm_B_visible_mask.png",
+      "sourceFrame": 81,
+      "sourceFile": "source_081.png",
+      "sourceFrameSha256": "b46b02660221465c152edd5274260066093216e1a6cc5da01137fae3d5c91b0f",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.375,
+      "bbox": [
+        493,
+        292,
+        546,
+        334
+      ],
+      "polygonSourcePixels": [
+        [
+          493.5,
+          293.5
+        ],
+        [
+          506.5,
+          294.5
+        ],
+        [
+          519.0,
+          292.0
+        ],
+        [
+          530.5,
+          293.5
+        ],
+        [
+          541.0,
+          299.0
+        ],
+        [
+          545.5,
+          308.0
+        ],
+        [
+          545.5,
+          318.0
+        ],
+        [
+          540.5,
+          326.5
+        ],
+        [
+          530.5,
+          332.0
+        ],
+        [
+          518.5,
+          333.5
+        ],
+        [
+          505.0,
+          330.5
+        ],
+        [
+          498.0,
+          325.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f081_leg_A_visible",
+      "file": "f081_leg_A_visible.png",
+      "maskFile": "f081_leg_A_visible_mask.png",
+      "sourceFrame": 81,
+      "sourceFile": "source_081.png",
+      "sourceFrameSha256": "b46b02660221465c152edd5274260066093216e1a6cc5da01137fae3d5c91b0f",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.375,
+      "bbox": [
+        399,
+        366,
+        479,
+        438
+      ],
+      "polygonSourcePixels": [
+        [
+          399.0,
+          379.5
+        ],
+        [
+          409.0,
+          370.0
+        ],
+        [
+          422.5,
+          366.0
+        ],
+        [
+          436.0,
+          367.0
+        ],
+        [
+          449.0,
+          372.5
+        ],
+        [
+          459.5,
+          383.0
+        ],
+        [
+          465.0,
+          394.5
+        ],
+        [
+          466.5,
+          404.0
+        ],
+        [
+          472.5,
+          409.0
+        ],
+        [
+          478.5,
+          415.5
+        ],
+        [
+          478.0,
+          422.0
+        ],
+        [
+          469.5,
+          429.5
+        ],
+        [
+          459.0,
+          435.5
+        ],
+        [
+          448.5,
+          437.5
+        ],
+        [
+          437.5,
+          435.0
+        ],
+        [
+          428.5,
+          429.0
+        ],
+        [
+          422.0,
+          421.0
+        ],
+        [
+          416.0,
+          410.0
+        ],
+        [
+          411.5,
+          400.0
+        ],
+        [
+          406.5,
+          391.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f081_leg_B_fragment_visible",
+      "file": "f081_leg_B_fragment_visible.png",
+      "maskFile": "f081_leg_B_fragment_visible_mask.png",
+      "sourceFrame": 81,
+      "sourceFile": "source_081.png",
+      "sourceFrameSha256": "b46b02660221465c152edd5274260066093216e1a6cc5da01137fae3d5c91b0f",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.375,
+      "bbox": [
+        398,
+        400,
+        422,
+        429
+      ],
+      "polygonSourcePixels": [
+        [
+          399.5,
+          400.5
+        ],
+        [
+          405.0,
+          405.0
+        ],
+        [
+          410.0,
+          414.0
+        ],
+        [
+          416.0,
+          423.0
+        ],
+        [
+          421.0,
+          428.5
+        ],
+        [
+          413.0,
+          427.5
+        ],
+        [
+          405.0,
+          424.0
+        ],
+        [
+          399.5,
+          418.5
+        ],
+        [
+          398.5,
+          410.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "crossing_fragment",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "partial_visible_sliver_only",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f082_arm_A_visible",
+      "file": "f082_arm_A_visible.png",
+      "maskFile": "f082_arm_A_visible_mask.png",
+      "sourceFrame": 82,
+      "sourceFile": "source_082.png",
+      "sourceFrameSha256": "c1e35a74624862d33b2d484d1de836195fabc2c50e4749c995a9b740776e24e2",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.4166666666666665,
+      "bbox": [
+        342,
+        299,
+        413,
+        353
+      ],
+      "polygonSourcePixels": [
+        [
+          383.0,
+          299.0
+        ],
+        [
+          369.5,
+          305.5
+        ],
+        [
+          357.5,
+          314.5
+        ],
+        [
+          347.5,
+          326.0
+        ],
+        [
+          342.5,
+          337.0
+        ],
+        [
+          344.0,
+          345.0
+        ],
+        [
+          351.0,
+          350.5
+        ],
+        [
+          361.0,
+          352.0
+        ],
+        [
+          372.0,
+          351.5
+        ],
+        [
+          381.0,
+          347.5
+        ],
+        [
+          386.5,
+          339.5
+        ],
+        [
+          392.0,
+          331.5
+        ],
+        [
+          402.5,
+          328.0
+        ],
+        [
+          412.5,
+          322.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f082_arm_B_visible",
+      "file": "f082_arm_B_visible.png",
+      "maskFile": "f082_arm_B_visible_mask.png",
+      "sourceFrame": 82,
+      "sourceFile": "source_082.png",
+      "sourceFrameSha256": "c1e35a74624862d33b2d484d1de836195fabc2c50e4749c995a9b740776e24e2",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.4166666666666665,
+      "bbox": [
+        492,
+        291,
+        546,
+        336
+      ],
+      "polygonSourcePixels": [
+        [
+          492.5,
+          293.5
+        ],
+        [
+          505.5,
+          294.5
+        ],
+        [
+          517.0,
+          291.0
+        ],
+        [
+          529.0,
+          292.5
+        ],
+        [
+          539.5,
+          298.5
+        ],
+        [
+          545.5,
+          307.5
+        ],
+        [
+          545.5,
+          318.0
+        ],
+        [
+          540.0,
+          326.5
+        ],
+        [
+          529.5,
+          333.0
+        ],
+        [
+          517.0,
+          335.5
+        ],
+        [
+          505.0,
+          332.5
+        ],
+        [
+          496.5,
+          327.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f082_leg_A_visible",
+      "file": "f082_leg_A_visible.png",
+      "maskFile": "f082_leg_A_visible_mask.png",
+      "sourceFrame": 82,
+      "sourceFile": "source_082.png",
+      "sourceFrameSha256": "c1e35a74624862d33b2d484d1de836195fabc2c50e4749c995a9b740776e24e2",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.4166666666666665,
+      "bbox": [
+        397,
+        376,
+        482,
+        450
+      ],
+      "polygonSourcePixels": [
+        [
+          397.5,
+          393.5
+        ],
+        [
+          405.0,
+          385.0
+        ],
+        [
+          417.0,
+          378.0
+        ],
+        [
+          429.0,
+          376.0
+        ],
+        [
+          441.5,
+          379.0
+        ],
+        [
+          453.0,
+          386.0
+        ],
+        [
+          462.5,
+          397.0
+        ],
+        [
+          467.0,
+          409.5
+        ],
+        [
+          468.0,
+          419.5
+        ],
+        [
+          477.5,
+          424.0
+        ],
+        [
+          481.0,
+          430.5
+        ],
+        [
+          478.5,
+          438.0
+        ],
+        [
+          469.0,
+          444.5
+        ],
+        [
+          456.0,
+          448.5
+        ],
+        [
+          443.0,
+          449.0
+        ],
+        [
+          434.5,
+          444.5
+        ],
+        [
+          428.0,
+          434.5
+        ],
+        [
+          422.5,
+          423.0
+        ],
+        [
+          415.5,
+          412.0
+        ],
+        [
+          408.5,
+          401.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f082_leg_B_fragment_visible",
+      "file": "f082_leg_B_fragment_visible.png",
+      "maskFile": "f082_leg_B_fragment_visible_mask.png",
+      "sourceFrame": 82,
+      "sourceFile": "source_082.png",
+      "sourceFrameSha256": "c1e35a74624862d33b2d484d1de836195fabc2c50e4749c995a9b740776e24e2",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.4166666666666665,
+      "bbox": [
+        386,
+        388,
+        409,
+        419
+      ],
+      "polygonSourcePixels": [
+        [
+          390.0,
+          388.5
+        ],
+        [
+          394.5,
+          393.5
+        ],
+        [
+          398.0,
+          401.5
+        ],
+        [
+          403.0,
+          410.0
+        ],
+        [
+          408.0,
+          417.5
+        ],
+        [
+          401.0,
+          418.5
+        ],
+        [
+          393.5,
+          416.0
+        ],
+        [
+          387.5,
+          411.0
+        ],
+        [
+          386.0,
+          402.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "crossing_fragment",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "partial_visible_sliver_only",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f083_arm_A_visible",
+      "file": "f083_arm_A_visible.png",
+      "maskFile": "f083_arm_A_visible_mask.png",
+      "sourceFrame": 83,
+      "sourceFile": "source_083.png",
+      "sourceFrameSha256": "8d0a84da923ab2316c52bc0cb40616885eac163ea55e5873f72966a727fe50f2",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.4583333333333335,
+      "bbox": [
+        344,
+        297,
+        408,
+        358
+      ],
+      "polygonSourcePixels": [
+        [
+          385.5,
+          297.5
+        ],
+        [
+          372.5,
+          305.0
+        ],
+        [
+          359.5,
+          316.0
+        ],
+        [
+          348.5,
+          328.5
+        ],
+        [
+          344.5,
+          340.0
+        ],
+        [
+          346.5,
+          348.5
+        ],
+        [
+          354.0,
+          355.0
+        ],
+        [
+          364.0,
+          357.5
+        ],
+        [
+          374.0,
+          355.5
+        ],
+        [
+          381.5,
+          349.5
+        ],
+        [
+          388.0,
+          339.0
+        ],
+        [
+          395.5,
+          333.5
+        ],
+        [
+          407.0,
+          327.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f083_arm_B_visible",
+      "file": "f083_arm_B_visible.png",
+      "maskFile": "f083_arm_B_visible_mask.png",
+      "sourceFrame": 83,
+      "sourceFile": "source_083.png",
+      "sourceFrameSha256": "8d0a84da923ab2316c52bc0cb40616885eac163ea55e5873f72966a727fe50f2",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.4583333333333335,
+      "bbox": [
+        494,
+        294,
+        545,
+        341
+      ],
+      "polygonSourcePixels": [
+        [
+          494.0,
+          295.0
+        ],
+        [
+          508.0,
+          295.5
+        ],
+        [
+          518.5,
+          294.0
+        ],
+        [
+          530.0,
+          297.5
+        ],
+        [
+          539.0,
+          304.5
+        ],
+        [
+          544.0,
+          314.0
+        ],
+        [
+          543.0,
+          324.0
+        ],
+        [
+          536.5,
+          333.0
+        ],
+        [
+          525.5,
+          338.5
+        ],
+        [
+          514.0,
+          340.0
+        ],
+        [
+          503.0,
+          335.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 10,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f083_leg_A_visible",
+      "file": "f083_leg_A_visible.png",
+      "maskFile": "f083_leg_A_visible_mask.png",
+      "sourceFrame": 83,
+      "sourceFile": "source_083.png",
+      "sourceFrameSha256": "8d0a84da923ab2316c52bc0cb40616885eac163ea55e5873f72966a727fe50f2",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.4583333333333335,
+      "bbox": [
+        397,
+        382,
+        474,
+        454
+      ],
+      "polygonSourcePixels": [
+        [
+          397.5,
+          397.0
+        ],
+        [
+          407.0,
+          388.0
+        ],
+        [
+          419.5,
+          383.0
+        ],
+        [
+          432.5,
+          382.5
+        ],
+        [
+          445.5,
+          386.5
+        ],
+        [
+          456.5,
+          395.0
+        ],
+        [
+          463.5,
+          405.5
+        ],
+        [
+          465.5,
+          417.5
+        ],
+        [
+          465.5,
+          426.5
+        ],
+        [
+          472.5,
+          436.0
+        ],
+        [
+          473.0,
+          443.5
+        ],
+        [
+          467.0,
+          448.5
+        ],
+        [
+          455.5,
+          452.0
+        ],
+        [
+          442.5,
+          453.0
+        ],
+        [
+          430.5,
+          451.0
+        ],
+        [
+          422.0,
+          446.0
+        ],
+        [
+          415.5,
+          438.0
+        ],
+        [
+          412.5,
+          428.0
+        ],
+        [
+          410.5,
+          417.0
+        ],
+        [
+          405.0,
+          406.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f083_leg_B_fragment_visible",
+      "file": "f083_leg_B_fragment_visible.png",
+      "maskFile": "f083_leg_B_fragment_visible_mask.png",
+      "sourceFrame": 83,
+      "sourceFile": "source_083.png",
+      "sourceFrameSha256": "8d0a84da923ab2316c52bc0cb40616885eac163ea55e5873f72966a727fe50f2",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.4583333333333335,
+      "bbox": [
+        389,
+        393,
+        407,
+        421
+      ],
+      "polygonSourcePixels": [
+        [
+          391.0,
+          393.5
+        ],
+        [
+          395.5,
+          401.0
+        ],
+        [
+          398.5,
+          409.0
+        ],
+        [
+          403.0,
+          416.0
+        ],
+        [
+          406.5,
+          419.5
+        ],
+        [
+          400.5,
+          420.5
+        ],
+        [
+          394.5,
+          418.5
+        ],
+        [
+          390.5,
+          414.0
+        ],
+        [
+          389.0,
+          406.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "crossing_fragment",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "partial_visible_sliver_only",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f084_arm_A_visible",
+      "file": "f084_arm_A_visible.png",
+      "maskFile": "f084_arm_A_visible_mask.png",
+      "sourceFrame": 84,
+      "sourceFile": "source_084.png",
+      "sourceFrameSha256": "3fe5ab53f1fa27ad7d2ad6a87429196ddae7fd06df45dbfce0e2ae64a6835a25",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.5,
+      "bbox": [
+        353,
+        302,
+        416,
+        368
+      ],
+      "polygonSourcePixels": [
+        [
+          388.5,
+          302.0
+        ],
+        [
+          374.5,
+          312.0
+        ],
+        [
+          363.0,
+          325.0
+        ],
+        [
+          355.0,
+          338.0
+        ],
+        [
+          353.5,
+          349.5
+        ],
+        [
+          357.5,
+          359.5
+        ],
+        [
+          365.5,
+          366.0
+        ],
+        [
+          376.0,
+          367.0
+        ],
+        [
+          384.0,
+          364.5
+        ],
+        [
+          390.0,
+          365.5
+        ],
+        [
+          395.5,
+          358.0
+        ],
+        [
+          398.0,
+          347.5
+        ],
+        [
+          404.0,
+          337.5
+        ],
+        [
+          415.0,
+          332.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f084_arm_B_visible",
+      "file": "f084_arm_B_visible.png",
+      "maskFile": "f084_arm_B_visible_mask.png",
+      "sourceFrame": 84,
+      "sourceFile": "source_084.png",
+      "sourceFrameSha256": "3fe5ab53f1fa27ad7d2ad6a87429196ddae7fd06df45dbfce0e2ae64a6835a25",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.5,
+      "bbox": [
+        493,
+        306,
+        544,
+        354
+      ],
+      "polygonSourcePixels": [
+        [
+          493.0,
+          309.0
+        ],
+        [
+          505.0,
+          306.5
+        ],
+        [
+          516.5,
+          307.5
+        ],
+        [
+          528.5,
+          313.5
+        ],
+        [
+          538.0,
+          321.5
+        ],
+        [
+          543.5,
+          332.5
+        ],
+        [
+          542.0,
+          342.5
+        ],
+        [
+          535.5,
+          349.0
+        ],
+        [
+          525.0,
+          353.0
+        ],
+        [
+          513.5,
+          352.5
+        ],
+        [
+          503.0,
+          348.5
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 2,
+      "kind": "arm",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "low",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "shoulder_merged_with_torso_internal_cut_uncertain",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    },
+    {
+      "id": "f084_leg_A_visible",
+      "file": "f084_leg_A_visible.png",
+      "maskFile": "f084_leg_A_visible_mask.png",
+      "sourceFrame": 84,
+      "sourceFile": "source_084.png",
+      "sourceFrameSha256": "3fe5ab53f1fa27ad7d2ad6a87429196ddae7fd06df45dbfce0e2ae64a6835a25",
+      "sourceSize": [
+        864,
+        480
+      ],
+      "time": 3.5,
+      "bbox": [
+        398,
+        383,
+        464,
+        455
+      ],
+      "polygonSourcePixels": [
+        [
+          398.0,
+          397.5
+        ],
+        [
+          407.5,
+          389.0
+        ],
+        [
+          420.0,
+          384.0
+        ],
+        [
+          432.5,
+          383.5
+        ],
+        [
+          445.0,
+          387.5
+        ],
+        [
+          456.0,
+          395.5
+        ],
+        [
+          461.0,
+          405.0
+        ],
+        [
+          462.0,
+          416.5
+        ],
+        [
+          460.5,
+          425.0
+        ],
+        [
+          463.5,
+          435.0
+        ],
+        [
+          463.0,
+          444.5
+        ],
+        [
+          457.0,
+          450.0
+        ],
+        [
+          446.0,
+          453.5
+        ],
+        [
+          434.0,
+          454.0
+        ],
+        [
+          422.0,
+          450.5
+        ],
+        [
+          413.5,
+          443.5
+        ],
+        [
+          407.5,
+          433.5
+        ],
+        [
+          406.5,
+          423.0
+        ],
+        [
+          403.0,
+          411.0
+        ]
+      ],
+      "alphaMode": "binary_manual_contour_boundary_white_cleanup_max3px",
+      "removedBoundaryWhitePixels": 0,
+      "kind": "leg",
+      "pose": "extended_visible",
+      "evidenceGroup": "continuous_068_084",
+      "shapeReview": "coarse_boundary_review_required",
+      "anatomicalIdentity": "unknown",
+      "crossFrameIdentityEstablished": false,
+      "boundaryConfidence": "medium",
+      "manualTraceBy": "assistant_visual_review_source_pixel_grid",
+      "occlusion": "upper_thigh_occluded_by_shorts",
+      "omittedHiddenPixels": true,
+      "rgbPreserved": true,
+      "sourceReinsertionExact": true,
+      "whiteOrShadowBoundaryRisk": true,
+      "status": "pose_evidence_coarse_boundary_review_required",
+      "notReusableRigPart": true
+    }
+  ],
+  "partCount": 74,
+  "reviewImage": "pose_parts_review.jpg",
+  "contourReview": "contours_review.jpg",
+  "checks": {
+    "decodedSourceSpecsMatch": true,
+    "allOpaqueRGBMatchSource": true,
+    "allReinsertionsExact": true,
+    "noSyntheticHiddenPixels": true,
+    "noLegacyMaskOrMotionImports": true
+  },
+  "limitations": [
+    "Manual coarse polygons: residual white/background or lost fine plush edge may remain; RGB equality is not segmentation accuracy",
+    "Arm attachment cuts inside torso are uncertain, not recovered shoulders",
+    "A/B labels do not establish near/far or cross-frame identity",
+    "No hidden reconstruction, no inpaint, no reuse binding, no fitted animation",
+    "Floor shadow contamination near soles requires visual review; white rejection only inside <=3px manual-boundary band with minRGB>243 and chroma<14, never full-image removal"
+  ],
+  "missingObservations": [
+    {
+      "sourceFrame": 8,
+      "kind": "arm",
+      "reason": "far arm hidden/merged; no isolated pixels invented"
+    },
+    {
+      "sourceFrame": 24,
+      "kind": "arm",
+      "reason": "far arm hidden/merged; no isolated pixels invented"
+    }
+  ],
+  "nextAssetDecisions": [
+    "Chest-crossing arm requires a distinct visible-shape attachment or validated mesh; neutral arm rotation alone is insufficient",
+    "Crossing back-leg fragments cannot define a complete leg; use expanded views as evidence without treating screen-side as anatomical identity",
+    "Torso behind chest arm has no visible pixels in these frames; preserve missing region for separate repair"
+  ],
+  "promotedToRuntime": false
+}

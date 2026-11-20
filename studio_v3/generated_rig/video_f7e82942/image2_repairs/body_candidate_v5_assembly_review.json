@@ -1,0 +1,74 @@
+{
+  "status": "static_assembly_review_only_not_binding",
+  "bodyCandidate": "body_candidate_v5.png",
+  "alphaBBox": [
+    0,
+    0,
+    1240,
+    1254
+  ],
+  "candidateCropSize": [
+    1240,
+    1254
+  ],
+  "targetSourceBox": [
+    318,
+    420,
+    500,
+    604
+  ],
+  "placedSize": [
+    182,
+    184
+  ],
+  "placedTopLeft": [
+    318,
+    420
+  ],
+  "layers": [
+    [
+      "leg_far.png",
+      [
+        400,
+        552
+      ]
+    ],
+    [
+      "leg_near.png",
+      [
+        316,
+        564
+      ]
+    ],
+    [
+      "shorts.png",
+      [
+        345,
+        519
+      ]
+    ],
+    [
+      "arm_far.png",
+      [
+        452,
+        450
+      ]
+    ],
+    [
+      "arm_near.png",
+      [
+        287,
+        443
+      ]
+    ],
+    [
+      "head.png",
+      [
+        179,
+        104
+      ]
+    ]
+  ],
+  "sourceCharacterId": null,
+  "promotedToRuntime": false
+}

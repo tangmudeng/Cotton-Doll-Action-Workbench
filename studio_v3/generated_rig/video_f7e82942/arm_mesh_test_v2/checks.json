@@ -1,0 +1,1037 @@
+{
+  "sourceAndV1Unchanged": true,
+  "trackedFileCount": 33,
+  "sourceHashes": {
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\right_front_walk\\source768.png": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\arm_far.png": "d8e783debe155efbb7fdb52f0d9415de60af3e199cc861e36a4f9528c5847490",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\arm_near.png": "7cd90180cb6c851def01c5195286a93ffc9420f8a76c6115c811436430597874",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\body.png": "fc310a95f186d884c1d10ae17392085339fc801e8ef9dbc86b4b139839df729c",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\body_assembly_review.png": "2d6c9fec6852df7af58f7e57715815e7bab0490bffc4e4555d686b93ff60b691",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\body_interfaces_review.png": "bd5e954f80482dcb6830c0aa8c08f343fdf54ff739f9a22ec8f550abf3a11a25",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\body_repair_mask.png": "6bcb6ab40ee20e8051d2452081dba10def9004bd83b0e1b4cbdaa83c828e59cd",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\body_visible_mask.png": "9db9d413fb7cc22402bddb9dd6df07ed72e1d7aafc05b82fcd6ceed8b7f09e96",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\head.png": "4f3950e1575f962212adca60486ebe441dadc9e2d8ae65c46d5f6779579e0555",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\leg_far.png": "2ca541c17028ac69356a403c8c753178cb146e46ff7b407bfd6ef81ef8caa548",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\leg_near.png": "d9b5b9b00c647abe4a47b41c968a3999d4211530e926022c43353b4021dca72e",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\manifest.json": "c928c89c6f64864359a89e429bc80f5518a3e5149e4dbc5990478c60a243569b",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\review.png": "90e370a8a0c3bed645fb58282df98062881623b030956a853320b16a77db6727",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\shorts.png": "3632fa898f75da728218456fd8e8b7346988f7dfd649737edb82eb8a9a72ba03",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\shorts_review.png": "7f743e084040fc947986208c9399e6937b8992871abd843da377d7d92d32237d",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\source_reference.png": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\source_shorts_detail.png": "91238feaaac8ecd4f07066c51f2452d9feedbdced43202e610ed3d707a941eb5",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\checks.json": "40a42c2be10e0eba056d45ae3ebd58dedb901a532a4e23c71927f4815c19ca42",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\chest_arm.png": "985772c6f6d0b76b6b78b10dbef1ded4bec6273ecf3df94662bc30f244fc944a",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\chest_assembly.png": "01e3c62bfd01e50891f1554cf2d20784cde92d2e0a4f23fdbe27d7ecdd8b1121",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\chest_mesh_overlay.png": "7037c2a504ba09c480653467d8345581dc9f7a618e3ed0d282bc26100db08f18",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\chest_neutral_domain_exposure.png": "2cb29e5a3366cb81d11547dc352c17c70b43c6d9d16932f4c95b1cf2bf5baddf",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\mesh.json": "2c7fb5bc5abfa9e1aa1f551d57f599629a2e9ae980cf7ee7c48e4213bc14d40b",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\neutral_arm.png": "90fa9d266a8445fdf55e250dbbe8e2954047502525c6803926414b57602e0e95",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\neutral_assembly.png": "778f61b1c45644268f100283a42c3a2534fe35fc5a615c0f4eb03573feca159a",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\neutral_mesh_diff_x8.png": "b978218354b7e56382c542dfd08fd72658743721f0f59c29722ff163ee998c68",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\neutral_mesh_overlay.png": "d95ae33041ce7d14a604b7f9be4298025f6bf2c68e8d723dc71395ff3b3713c6",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\neutral_neutral_domain_exposure.png": "b978218354b7e56382c542dfd08fd72658743721f0f59c29722ff163ee998c68",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\open_arm.png": "5d53ed871015466ee4bb8f589ceb50be681cefe9fa28a2e773e69481da099b3d",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\open_assembly.png": "1cf8201c5df2da9f47294307567f78918024247dd7e757217fa1f8e41815a021",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\open_mesh_overlay.png": "dbddb2479913141c22930145aa417fe33aee1f41b341a601db0446c075f7a872",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\open_neutral_domain_exposure.png": "3d671d43d7a2b4a99fbb9f7e815660cc38a776d0761f21f44e1c1248d47d9a3a",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v1\\review.png": "fee7b481f2f8fc27b02457258ecf5c7f345f380421fe4a787b6733cb97db1813"
+  },
+  "v1BaselineRasterMetricsReproduced": true,
+  "allSelectedNeutralRgbaMismatchPixels": {
+    "v1_baseline": 0,
+    "axis60": 0,
+    "axis60_fixed": 0,
+    "axis180_fixed": 0
+  },
+  "selected": {
+    "v1_baseline": {
+      "open": {
+        "mesh": {
+          "flippedTriangles": 5,
+          "collapsedTriangles": 0,
+          "flippedTrianglesWithSourceAlphaInAabb": 1,
+          "collapsedTrianglesWithSourceAlphaInAabb": 0,
+          "collapseDoubleAreaThresholdPx2": 0.001,
+          "absoluteTriangleAreaRatioMin": 0.1092026161893665,
+          "absoluteTriangleAreaRatioMax": 1.7934020286873962,
+          "texturedTriangleAreaRatioMin": 0.1092026161893665,
+          "texturedTriangleAreaRatioMax": 1.6755990316630238,
+          "overlappingTriangleInteriorRasterPixels": 59,
+          "rasterPolicy": "整数像素中心重心归属；预乘alpha仿射；共享边不重复合成；折叠重叠按三角索引后写覆盖，未修复"
+        },
+        "geometry": {
+          "flippedTriangles": 5,
+          "collapsedTriangles": 0,
+          "signedAreaRatioMin": -0.759364765493435,
+          "signedAreaRatioMax": 1.7934020286873962
+        },
+        "controlPositionErrorsPx": [
+          0.0,
+          0.0,
+          5.684341886080802e-14
+        ],
+        "controlWeightsUpperLower": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ],
+        "actualControlGlobalXY": [
+          [
+            350.0,
+            456.0
+          ],
+          [
+            317.5080212970345,
+            502.40335461974746
+          ],
+          [
+            321.6742116651708,
+            550.0231284308068
+          ]
+        ],
+        "controlPositionErrorMeaning": "解析控制点单独计算权重并蒙皮；不是网格材料点精度",
+        "actualMeshMaterialControlGlobalXY": [
+          [
+            350.0,
+            456.0
+          ],
+          [
+            317.9292978019449,
+            502.37959811410315
+          ],
+          [
+            321.67421166517084,
+            550.0231284308068
+          ]
+        ],
+        "actualMeshMaterialControlErrorsPx": [
+          0.0,
+          0.42194580830954387,
+          0.0
+        ],
+        "targetJointsGlobalXY": [
+          [
+            350.0,
+            456.0
+          ],
+          [
+            317.5080212970345,
+            502.40335461974746
+          ],
+          [
+            321.67421166517084,
+            550.0231284308068
+          ]
+        ],
+        "boneLengthRatios": [
+          1.0000000000000004,
+          1.0000000000000004
+        ],
+        "alphaAreaRatioToSource": 0.9984157222979747,
+        "alphaAreaDefinition": "透明臂实际光栅alpha总和 / 中性源臂alpha总和；非bbox、非视频目标面积",
+        "bindingValidated": false
+      },
+      "chest": {
+        "mesh": {
+          "flippedTriangles": 17,
+          "collapsedTriangles": 0,
+          "flippedTrianglesWithSourceAlphaInAabb": 6,
+          "collapsedTrianglesWithSourceAlphaInAabb": 0,
+          "collapseDoubleAreaThresholdPx2": 0.001,
+          "absoluteTriangleAreaRatioMin": 0.05580329688426555,
+          "absoluteTriangleAreaRatioMax": 2.902627857345216,
+          "texturedTriangleAreaRatioMin": 0.11829159872765012,
+          "texturedTriangleAreaRatioMax": 1.8777952788910246,
+          "overlappingTriangleInteriorRasterPixels": 1495,
+          "rasterPolicy": "整数像素中心重心归属；预乘alpha仿射；共享边不重复合成；折叠重叠按三角索引后写覆盖，未修复"
+        },
+        "geometry": {
+          "flippedTriangles": 17,
+          "collapsedTriangles": 0,
+          "signedAreaRatioMin": -2.902627857345216,
+          "signedAreaRatioMax": 2.169249483431621
+        },
+        "controlPositionErrorsPx": [
+          5.684341886080802e-14,
+          5.684341886080802e-14,
+          1.1368683772161603e-13
+        ],
+        "controlWeightsUpperLower": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ],
+        "actualControlGlobalXY": [
+          [
+            350.00000000000006,
+            456.0
+          ],
+          [
+            354.0,
+            510.00000000000006
+          ],
+          [
+            395.0,
+            500.0000000000001
+          ]
+        ],
+        "controlPositionErrorMeaning": "解析控制点单独计算权重并蒙皮；不是网格材料点精度",
+        "actualMeshMaterialControlGlobalXY": [
+          [
+            350.0,
+            456.00000000000006
+          ],
+          [
+            354.2397892406183,
+            509.0687030736752
+          ],
+          [
+            395.0,
+            500.0000000000001
+          ]
+        ],
+        "actualMeshMaterialControlErrorsPx": [
+          5.684341886080802e-14,
+          0.9616719008572241,
+          1.1368683772161603e-13
+        ],
+        "targetJointsGlobalXY": [
+          [
+            350.0,
+            456.0
+          ],
+          [
+            354.0,
+            510.0
+          ],
+          [
+            395.0,
+            500.0
+          ]
+        ],
+        "boneLengthRatios": [
+          0.9558662428544757,
+          0.8828539359430106
+        ],
+        "alphaAreaRatioToSource": 0.754446742390139,
+        "alphaAreaDefinition": "透明臂实际光栅alpha总和 / 中性源臂alpha总和；非bbox、非视频目标面积",
+        "bindingValidated": false
+      }
+    },
+    "axis60": {
+      "open": {
+        "mesh": {
+          "flippedTriangles": 0,
+          "collapsedTriangles": 0,
+          "flippedTrianglesWithSourceAlphaInAabb": 0,
+          "collapsedTrianglesWithSourceAlphaInAabb": 0,
+          "collapseDoubleAreaThresholdPx2": 0.001,
+          "absoluteTriangleAreaRatioMin": 0.16128303574998967,
+          "absoluteTriangleAreaRatioMax": 1.5595543950354847,
+          "texturedTriangleAreaRatioMin": 0.40259753438292656,
+          "texturedTriangleAreaRatioMax": 1.4374665869620855,
+          "overlappingTriangleInteriorRasterPixels": 0,
+          "rasterPolicy": "整数像素中心重心归属；预乘alpha仿射；共享边不重复合成；折叠重叠按三角索引后写覆盖，未修复"
+        },
+        "geometry": {
+          "flippedTriangles": 0,
+          "collapsedTriangles": 0,
+          "signedAreaRatioMin": 0.16128303574998967,
+          "signedAreaRatioMax": 1.5595543950354847
+        },
+        "controlPositionErrorsPx": [
+          0.0,
+          0.0,
+          5.684341886080802e-14
+        ],
+        "controlWeightsUpperLower": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ],
+        "actualControlGlobalXY": [
+          [
+            350.0,
+            456.0
+          ],
+          [
+            317.5080212970345,
+            502.40335461974746
+          ],
+          [
+            321.6742116651708,
+            550.0231284308068
+          ]
+        ],
+        "controlPositionErrorMeaning": "解析控制点单独计算权重并蒙皮；不是网格材料点精度",
+        "actualMeshMaterialControlGlobalXY": [
+          [
+            350.0,
+            456.0
+          ],
+          [
+            317.79168181344716,
+            502.3873585160467
+          ],
+          [
+            321.67421166517084,
+            550.0231284308068
+          ]
+        ],
+        "actualMeshMaterialControlErrorsPx": [
+          0.0,
+          0.2841111822950922,
+          0.0
+        ],
+        "targetJointsGlobalXY": [
+          [
+            350.0,
+            456.0
+          ],
+          [
+            317.5080212970345,
+            502.40335461974746
+          ],
+          [
+            321.67421166517084,
+            550.0231284308068
+          ]
+        ],
+        "boneLengthRatios": [
+          1.0000000000000004,
+          1.0000000000000004
+        ],
+        "alphaAreaRatioToSource": 0.9916675909192725,
+        "alphaAreaDefinition": "透明臂实际光栅alpha总和 / 中性源臂alpha总和；非bbox、非视频目标面积",
+        "bindingValidated": false
+      },
+      "chest": {
+        "mesh": {
+          "flippedTriangles": 21,
+          "collapsedTriangles": 0,
+          "flippedTrianglesWithSourceAlphaInAabb": 6,
+          "collapsedTrianglesWithSourceAlphaInAabb": 0,
+          "collapseDoubleAreaThresholdPx2": 0.001,
+          "absoluteTriangleAreaRatioMin": 0.020072757483267627,
+          "absoluteTriangleAreaRatioMax": 1.7622114836113407,
+          "texturedTriangleAreaRatioMin": 0.020072757483267627,
+          "texturedTriangleAreaRatioMax": 1.5275450857435862,
+          "overlappingTriangleInteriorRasterPixels": 1031,
+          "rasterPolicy": "整数像素中心重心归属；预乘alpha仿射；共享边不重复合成；折叠重叠按三角索引后写覆盖，未修复"
+        },
+        "geometry": {
+          "flippedTriangles": 21,
+          "collapsedTriangles": 0,
+          "signedAreaRatioMin": -0.9774039674608639,
+          "signedAreaRatioMax": 1.7622114836113407
+        },
+        "controlPositionErrorsPx": [
+          5.684341886080802e-14,
+          5.684341886080802e-14,
+          1.1368683772161603e-13
+        ],
+        "controlWeightsUpperLower": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ],
+        "actualControlGlobalXY": [
+          [
+            350.00000000000006,
+            456.0
+          ],
+          [
+            354.0,
+            510.00000000000006
+          ],
+          [
+            395.0,
+            500.0000000000001
+          ]
+        ],
+        "controlPositionErrorMeaning": "解析控制点单独计算权重并蒙皮；不是网格材料点精度",
+        "actualMeshMaterialControlGlobalXY": [
+          [
+            350.0,
+            456.00000000000006
+          ],
+          [
+            354.16145865964796,
+            509.3729245187528
+          ],
+          [
+            395.0,
+            500.0000000000001
+          ]
+        ],
+        "actualMeshMaterialControlErrorsPx": [
+          5.684341886080802e-14,
+          0.6475280364252136,
+          1.1368683772161603e-13
+        ],
+        "targetJointsGlobalXY": [
+          [
+            350.0,
+            456.0
+          ],
+          [
+            354.0,
+            510.0
+          ],
+          [
+            395.0,
+            500.0
+          ]
+        ],
+        "boneLengthRatios": [
+          0.9558662428544757,
+          0.8828539359430106
+        ],
+        "alphaAreaRatioToSource": 0.7744062492524427,
+        "alphaAreaDefinition": "透明臂实际光栅alpha总和 / 中性源臂alpha总和；非bbox、非视频目标面积",
+        "bindingValidated": false
+      }
+    },
+    "axis60_fixed": {
+      "open": {
+        "mesh": {
+          "flippedTriangles": 0,
+          "collapsedTriangles": 0,
+          "flippedTrianglesWithSourceAlphaInAabb": 0,
+          "collapsedTrianglesWithSourceAlphaInAabb": 0,
+          "collapseDoubleAreaThresholdPx2": 0.001,
+          "absoluteTriangleAreaRatioMin": 0.16128303574998967,
+          "absoluteTriangleAreaRatioMax": 1.5595543950354847,
+          "texturedTriangleAreaRatioMin": 0.40259753438292656,
+          "texturedTriangleAreaRatioMax": 1.4374665869620855,
+          "overlappingTriangleInteriorRasterPixels": 0,
+          "rasterPolicy": "整数像素中心重心归属；预乘alpha仿射；共享边不重复合成；折叠重叠按三角索引后写覆盖，未修复"
+        },
+        "geometry": {
+          "flippedTriangles": 0,
+          "collapsedTriangles": 0,
+          "signedAreaRatioMin": 0.16128303574998967,
+          "signedAreaRatioMax": 1.5595543950354847
+        },
+        "controlPositionErrorsPx": [
+          0.0,
+          0.0,
+          5.684341886080802e-14
+        ],
+        "controlWeightsUpperLower": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ],
+        "actualControlGlobalXY": [
+          [
+            350.0,
+            456.0
+          ],
+          [
+            317.5080212970345,
+            502.40335461974746
+          ],
+          [
+            321.6742116651708,
+            550.0231284308068
+          ]
+        ],
+        "controlPositionErrorMeaning": "解析控制点单独计算权重并蒙皮；不是网格材料点精度",
+        "actualMeshMaterialControlGlobalXY": [
+          [
+            350.0,
+            456.0
+          ],
+          [
+            317.79168181344716,
+            502.3873585160467
+          ],
+          [
+            321.67421166517084,
+            550.0231284308068
+          ]
+        ],
+        "actualMeshMaterialControlErrorsPx": [
+          0.0,
+          0.2841111822950922,
+          0.0
+        ],
+        "targetJointsGlobalXY": [
+          [
+            350.0,
+            456.0
+          ],
+          [
+            317.5080212970345,
+            502.40335461974746
+          ],
+          [
+            321.67421166517084,
+            550.0231284308068
+          ]
+        ],
+        "boneLengthRatios": [
+          1.0000000000000004,
+          1.0000000000000004
+        ],
+        "alphaAreaRatioToSource": 0.9916675909192725,
+        "alphaAreaDefinition": "透明臂实际光栅alpha总和 / 中性源臂alpha总和；非bbox、非视频目标面积",
+        "bindingValidated": false
+      },
+      "chest_fixed": {
+        "mesh": {
+          "flippedTriangles": 20,
+          "collapsedTriangles": 0,
+          "flippedTrianglesWithSourceAlphaInAabb": 5,
+          "collapsedTrianglesWithSourceAlphaInAabb": 0,
+          "collapseDoubleAreaThresholdPx2": 0.001,
+          "absoluteTriangleAreaRatioMin": 0.007284525949343386,
+          "absoluteTriangleAreaRatioMax": 1.8122249029875395,
+          "texturedTriangleAreaRatioMin": 0.007284525949343386,
+          "texturedTriangleAreaRatioMax": 1.620861545371318,
+          "overlappingTriangleInteriorRasterPixels": 947,
+          "rasterPolicy": "整数像素中心重心归属；预乘alpha仿射；共享边不重复合成；折叠重叠按三角索引后写覆盖，未修复"
+        },
+        "geometry": {
+          "flippedTriangles": 20,
+          "collapsedTriangles": 0,
+          "signedAreaRatioMin": -0.9459470134205262,
+          "signedAreaRatioMax": 1.8122249029875395
+        },
+        "controlPositionErrorsPx": [
+          0.0,
+          0.0,
+          8.038873388460929e-14
+        ],
+        "controlWeightsUpperLower": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ],
+        "actualControlGlobalXY": [
+          [
+            350.0,
+            456.0
+          ],
+          [
+            354.1846859117599,
+            512.4932598087588
+          ],
+          [
+            400.6249840525915,
+            501.1663578231902
+          ]
+        ],
+        "controlPositionErrorMeaning": "解析控制点单独计算权重并蒙皮；不是网格材料点精度",
+        "actualMeshMaterialControlGlobalXY": [
+          [
+            350.0,
+            456.0
+          ],
+          [
+            354.3962941781536,
+            511.8342061996535
+          ],
+          [
+            400.6249840525915,
+            501.1663578231902
+          ]
+        ],
+        "actualMeshMaterialControlErrorsPx": [
+          0.0,
+          0.6921919662065156,
+          8.038873388460929e-14
+        ],
+        "targetJointsGlobalXY": [
+          [
+            350.0,
+            456.0
+          ],
+          [
+            354.1846859117599,
+            512.4932598087588
+          ],
+          [
+            400.62498405259146,
+            501.16635782319014
+          ]
+        ],
+        "boneLengthRatios": [
+          1.0000000000000009,
+          1.0000000000000002
+        ],
+        "alphaAreaRatioToSource": 0.8600871842046317,
+        "alphaAreaDefinition": "透明臂实际光栅alpha总和 / 中性源臂alpha总和；非bbox、非视频目标面积",
+        "bindingValidated": false
+      }
+    },
+    "axis180_fixed": {
+      "open": {
+        "mesh": {
+          "flippedTriangles": 0,
+          "collapsedTriangles": 0,
+          "flippedTrianglesWithSourceAlphaInAabb": 0,
+          "collapsedTrianglesWithSourceAlphaInAabb": 0,
+          "collapseDoubleAreaThresholdPx2": 0.001,
+          "absoluteTriangleAreaRatioMin": 0.6561814098366713,
+          "absoluteTriangleAreaRatioMax": 1.2057002659647393,
+          "texturedTriangleAreaRatioMin": 0.7388419301039496,
+          "texturedTriangleAreaRatioMax": 1.1111282310074189,
+          "overlappingTriangleInteriorRasterPixels": 0,
+          "rasterPolicy": "整数像素中心重心归属；预乘alpha仿射；共享边不重复合成；折叠重叠按三角索引后写覆盖，未修复"
+        },
+        "geometry": {
+          "flippedTriangles": 0,
+          "collapsedTriangles": 0,
+          "signedAreaRatioMin": 0.6561814098366713,
+          "signedAreaRatioMax": 1.2057002659647393
+        },
+        "controlPositionErrorsPx": [
+          3.0919860762262887,
+          0.0,
+          4.019831885871333
+        ],
+        "controlWeightsUpperLower": [
+          [
+            0.9095091117666376,
+            0.09049088823336236
+          ],
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.13941739659737995,
+            0.86058260340262
+          ]
+        ],
+        "actualControlGlobalXY": [
+          [
+            347.05025900385675,
+            455.07295849540105
+          ],
+          [
+            317.5080212970345,
+            502.40335461974746
+          ],
+          [
+            317.7504748479819,
+            549.149436391182
+          ]
+        ],
+        "controlPositionErrorMeaning": "解析控制点单独计算权重并蒙皮；不是网格材料点精度",
+        "actualMeshMaterialControlGlobalXY": [
+          [
+            347.06800549236686,
+            455.05912358409165
+          ],
+          [
+            317.6031672827903,
+            502.3979891741998
+          ],
+          [
+            317.78131963764827,
+            549.1146020746717
+          ]
+        ],
+        "actualMeshMaterialControlErrorsPx": [
+          3.0792596874579137,
+          0.09529714902018134,
+          3.9975027802042824
+        ],
+        "targetJointsGlobalXY": [
+          [
+            350.0,
+            456.0
+          ],
+          [
+            317.5080212970345,
+            502.40335461974746
+          ],
+          [
+            321.67421166517084,
+            550.0231284308068
+          ]
+        ],
+        "boneLengthRatios": [
+          1.0000000000000004,
+          1.0000000000000004
+        ],
+        "alphaAreaRatioToSource": 0.953715060533109,
+        "alphaAreaDefinition": "透明臂实际光栅alpha总和 / 中性源臂alpha总和；非bbox、非视频目标面积",
+        "bindingValidated": false
+      },
+      "chest_fixed": {
+        "mesh": {
+          "flippedTriangles": 0,
+          "collapsedTriangles": 0,
+          "flippedTrianglesWithSourceAlphaInAabb": 0,
+          "collapsedTrianglesWithSourceAlphaInAabb": 0,
+          "collapseDoubleAreaThresholdPx2": 0.001,
+          "absoluteTriangleAreaRatioMin": 0.022683539895234132,
+          "absoluteTriangleAreaRatioMax": 1.316486589598548,
+          "texturedTriangleAreaRatioMin": 0.1615684861342021,
+          "texturedTriangleAreaRatioMax": 1.2454596815717671,
+          "overlappingTriangleInteriorRasterPixels": 0,
+          "rasterPolicy": "整数像素中心重心归属；预乘alpha仿射；共享边不重复合成；折叠重叠按三角索引后写覆盖，未修复"
+        },
+        "geometry": {
+          "flippedTriangles": 0,
+          "collapsedTriangles": 0,
+          "signedAreaRatioMin": 0.022683539895234132,
+          "signedAreaRatioMax": 1.316486589598548
+        },
+        "controlPositionErrorsPx": [
+          7.533135106815272,
+          0.0,
+          9.793684692109293
+        ],
+        "controlWeightsUpperLower": [
+          [
+            0.9095091117666376,
+            0.09049088823336236
+          ],
+          [
+            0.5,
+            0.5
+          ],
+          [
+            0.13941739659737995,
+            0.86058260340262
+          ]
+        ],
+        "actualControlGlobalXY": [
+          [
+            345.31306973160275,
+            461.89752568427764
+          ],
+          [
+            354.1846859117599,
+            512.4932598087588
+          ],
+          [
+            395.20787783026924,
+            509.32547664966484
+          ]
+        ],
+        "controlPositionErrorMeaning": "解析控制点单独计算权重并蒙皮；不是网格材料点精度",
+        "actualMeshMaterialControlGlobalXY": [
+          [
+            345.2971224405443,
+            461.8450736771773
+          ],
+          [
+            354.25566398567287,
+            512.2721987104528
+          ],
+          [
+            395.1556269601848,
+            509.2248796050827
+          ]
+        ],
+        "actualMeshMaterialControlErrorsPx": [
+          7.5021292731372755,
+          0.23217643325851486,
+          9.739283357285387
+        ],
+        "targetJointsGlobalXY": [
+          [
+            350.0,
+            456.0
+          ],
+          [
+            354.1846859117599,
+            512.4932598087588
+          ],
+          [
+            400.62498405259146,
+            501.16635782319014
+          ]
+        ],
+        "boneLengthRatios": [
+          1.0000000000000009,
+          1.0000000000000002
+        ],
+        "alphaAreaRatioToSource": 0.7336075645182687,
+        "alphaAreaDefinition": "透明臂实际光栅alpha总和 / 中性源臂alpha总和；非bbox、非视频目标面积",
+        "bindingValidated": false
+      }
+    }
+  },
+  "sweepCombinationCount": 22,
+  "technicalGate": {
+    "flips": 0,
+    "collapsed": 0,
+    "minimumSignedAreaRatioStrictlyAbove": 0.05,
+    "maxControlErrorPx": 1e-06,
+    "scope": "只作技术初筛；非视频/美术/隐藏域/绑定通过"
+  },
+  "axis60AngleStress": {
+    "sampleCount": 33,
+    "samplesWithFlips": 29,
+    "maximumFlips": 20,
+    "interpretation": "open到等骨长chest的人工角度插值；非视频时间、非walk"
+  },
+  "notVideoFitted": true,
+  "bindingValidated": false,
+  "hiddenComplete": false,
+  "approvedForBinding": false,
+  "promotedToRuntime": false,
+  "generatedImages": [
+    {
+      "file": "v1_baseline_open_arm.png",
+      "sha256": "5d53ed871015466ee4bb8f589ceb50be681cefe9fa28a2e773e69481da099b3d",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "v1_baseline_open_mesh.png",
+      "sha256": "dbddb2479913141c22930145aa417fe33aee1f41b341a601db0446c075f7a872",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "v1_baseline_open_assembly.png",
+      "sha256": "1cf8201c5df2da9f47294307567f78918024247dd7e757217fa1f8e41815a021",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "v1_baseline_chest_arm.png",
+      "sha256": "985772c6f6d0b76b6b78b10dbef1ded4bec6273ecf3df94662bc30f244fc944a",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "v1_baseline_chest_mesh.png",
+      "sha256": "7037c2a504ba09c480653467d8345581dc9f7a618e3ed0d282bc26100db08f18",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "v1_baseline_chest_assembly.png",
+      "sha256": "01e3c62bfd01e50891f1554cf2d20784cde92d2e0a4f23fdbe27d7ecdd8b1121",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "axis60_open_arm.png",
+      "sha256": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "axis60_open_mesh.png",
+      "sha256": "f8b487ee411c8f5b6c933b7e20aa7cdc04321051a34b742019fbc6eefba5e9a2",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "axis60_open_assembly.png",
+      "sha256": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "axis60_chest_arm.png",
+      "sha256": "034d7c31537367c5ccfc6eeb09c61c202633fa1710f6d03af48f2d2a619d8b29",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "axis60_chest_mesh.png",
+      "sha256": "acf18bc032b813c705c1f7ab9cdfac6e7ded4cc6a19ab2a020ff0ba5985b399d",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "axis60_chest_assembly.png",
+      "sha256": "9fc9b28fdc804ff07918dc5ec01d8d15c8c091e6c59064400a5824f418518c23",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "axis60_fixed_open_arm.png",
+      "sha256": "d3d44f4781d0e0382f7f440e4992a5573af9ef557c9a31f1483aa963250399bb",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "axis60_fixed_open_mesh.png",
+      "sha256": "f8b487ee411c8f5b6c933b7e20aa7cdc04321051a34b742019fbc6eefba5e9a2",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "axis60_fixed_open_assembly.png",
+      "sha256": "b8dc551820bb64c1c0a80b71d16911ad49ac73300d185c8e9c5a9c4b9840466f",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "axis60_fixed_chest_fixed_arm.png",
+      "sha256": "91085e0868d286af35c0a2d87bd8cf10c324a8ba0d2a05f37f4124dbb1cbf1cc",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "axis60_fixed_chest_fixed_mesh.png",
+      "sha256": "5320d108c1c0100fc7a6ee721d5b1b5b18f821226e4aa2db497d9450323b5394",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "axis60_fixed_chest_fixed_assembly.png",
+      "sha256": "bf97675ee82a01e6de7bed25f2271db33ffa1edbe7e03a9d676c865b8f2ed2d1",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "axis180_fixed_open_arm.png",
+      "sha256": "f30842c8abd01793e4af16d41ed70a019dfb9c645a3d6bcc6353531609d1420b",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "axis180_fixed_open_mesh.png",
+      "sha256": "330c2856bcc4c1e9e09d0ecdc89097f2601f1a04cf79b82103874466b703bc4d",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "axis180_fixed_open_assembly.png",
+      "sha256": "60cc7a7b7f3bfb5b9cf34fa6c410647a40439fd6211a806efa933046f4960597",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "axis180_fixed_chest_fixed_arm.png",
+      "sha256": "b565b4f48e959c84b63ca6b961cdf46e3826502a7590f750293d3b9def1cf17d",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "axis180_fixed_chest_fixed_mesh.png",
+      "sha256": "9f930f64c024888f610323d21c30fda95744ac3ebd5325a620d0a807c7264fcd",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "axis180_fixed_chest_fixed_assembly.png",
+      "sha256": "bcffcc13556d37787c179a8bdd6d211aa4c29c58374067a2f569250b4494d717",
+      "size": [
+        768,
+        768
+      ]
+    },
+    {
+      "file": "review.png",
+      "sha256": "432f8e99c71a579b247645c1703f84a8af1c0f9f233aa574fd982ca9f92df510",
+      "size": [
+        1740,
+        2300
+      ]
+    }
+  ]
+}

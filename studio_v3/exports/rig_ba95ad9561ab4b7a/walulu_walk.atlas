@@ -1,0 +1,55 @@
+walulu_walk.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pma: false
+head
+  rotate: false
+  xy: 4,4
+  size: 410,347
+  orig: 410,347
+  offset: 0,0
+  index: -1
+body
+  rotate: false
+  xy: 422,4
+  size: 161,138
+  orig: 161,138
+  offset: 0,0
+  index: -1
+shorts
+  rotate: false
+  xy: 591,4
+  size: 142,74
+  orig: 142,74
+  offset: 0,0
+  index: -1
+arm_near
+  rotate: false
+  xy: 741,4
+  size: 90,138
+  orig: 90,138
+  offset: 0,0
+  index: -1
+arm_far
+  rotate: false
+  xy: 839,4
+  size: 53,104
+  orig: 53,104
+  offset: 0,0
+  index: -1
+leg_near
+  rotate: false
+  xy: 900,4
+  size: 91,127
+  orig: 91,127
+  offset: 0,0
+  index: -1
+leg_far
+  rotate: false
+  xy: 4,359
+  size: 82,117
+  orig: 82,117
+  offset: 0,0
+  index: -1

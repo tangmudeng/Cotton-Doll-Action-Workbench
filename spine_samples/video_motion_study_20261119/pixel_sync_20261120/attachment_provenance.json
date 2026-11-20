@@ -1,0 +1,2928 @@
+{
+  "version": "2026-11-20",
+  "sourceVideo": "I:/彩虹AI/design/视频素材_design/Walulu萌宠/蘑菇秃秃方向/基础角色-测试/右前行走.mp4",
+  "frameRange": [
+    63,
+    85
+  ],
+  "fps": 24,
+  "partsByFrame": {
+    "arm_far": [
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85
+    ],
+    "leg_far": [
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85
+    ],
+    "leg_near": [
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85
+    ],
+    "torso": [
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85
+    ],
+    "shorts": [
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85
+    ],
+    "arm_near": [
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85
+    ],
+    "head": [
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85
+    ]
+  },
+  "attachments": [
+    {
+      "part": "arm_far",
+      "sourceFrame": 63,
+      "crop": [
+        497,
+        296,
+        534,
+        376
+      ],
+      "file": "parts/arm_far_63.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "1926a3de6d57929e8890355216eec4953cfc376591bde517a10b216160bd09ff",
+      "sourcePath": "../frames/0063.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_63"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 63,
+      "crop": [
+        440,
+        312,
+        534,
+        466
+      ],
+      "file": "parts/leg_far_63.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "634265227839e5413a4f34edeb1c5424e1ae9edf9c3c50864ba4dc543d4245af",
+      "sourcePath": "../frames/0063.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_63"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 63,
+      "crop": [
+        346,
+        312,
+        458,
+        472
+      ],
+      "file": "parts/leg_near_63.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "46588e838a30ad3df78bdc8106ab5997dff33808d1d1c345d7dc8e523e3949b0",
+      "sourcePath": "../frames/0063.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_63"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 63,
+      "crop": [
+        368,
+        288,
+        520,
+        372
+      ],
+      "file": "parts/torso_63.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "ccf9e64536f852ffcb78f91840aaaeaf45bfa1f481c672d7fb5815a345bba61b",
+      "sourcePath": "../frames/0063.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_63"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 63,
+      "crop": [
+        398,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_63.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "7ced6835923b45f5793c2d56ab846d514cd2b65c268d48c7c067d1d84867d062",
+      "sourcePath": "../frames/0063.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_63"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 63,
+      "crop": [
+        347,
+        292,
+        437,
+        397
+      ],
+      "file": "parts/arm_near_63.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "798759af686c1ef64313e9752fa574b251a76c8f9bcbeef230e30e6c1e21f6d7",
+      "sourcePath": "../frames/0063.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_63"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 63,
+      "crop": [
+        264,
+        20,
+        596,
+        294
+      ],
+      "file": "parts/head_63.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "a0c125e7b3816c015fb91b5d26331fd550a88f3d3eeb4388d00ba2d4e4cc99b5",
+      "sourcePath": "../frames/0063.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_63"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 64,
+      "crop": [
+        497,
+        294,
+        528,
+        375
+      ],
+      "file": "parts/arm_far_64.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "ac0950df050abf3a986f045d4559d2db9b3721eb719003824e1a1dc0f2f3094e",
+      "sourcePath": "../frames/0064.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_64"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 64,
+      "crop": [
+        439,
+        317,
+        528,
+        464
+      ],
+      "file": "parts/leg_far_64.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "cb714412182ed12e40589542b8b5cc03ef388640b22dcb99639832a8bf7f2139",
+      "sourcePath": "../frames/0064.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_64"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 64,
+      "crop": [
+        352,
+        312,
+        454,
+        472
+      ],
+      "file": "parts/leg_near_64.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "e075c716937ac9914ea7b89c4a54427df5c6be4520caf268c7ac4f910656210c",
+      "sourcePath": "../frames/0064.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_64"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 64,
+      "crop": [
+        371,
+        288,
+        520,
+        371
+      ],
+      "file": "parts/torso_64.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "a62d0a7f0d4a32789d5f8bce779084e106a0a544cb836c5a439f3d72d6949b32",
+      "sourcePath": "../frames/0064.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_64"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 64,
+      "crop": [
+        400,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_64.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "769990f23c87b686d52997a0dfe7fb74ed488acf58996004c5e9649c5c390429",
+      "sourcePath": "../frames/0064.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_64"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 64,
+      "crop": [
+        352,
+        293,
+        437,
+        398
+      ],
+      "file": "parts/arm_near_64.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "8e47293f06897650d22ed261ae66925df77c1eb58cbd659867b6d7d19dafef85",
+      "sourcePath": "../frames/0064.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_64"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 64,
+      "crop": [
+        266,
+        20,
+        596,
+        294
+      ],
+      "file": "parts/head_64.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "c0a9c5cecfbcb56c0b4a4019ff35d04160eb6c607336f223624fb5a399cf4599",
+      "sourcePath": "../frames/0064.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_64"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 65,
+      "crop": [
+        497,
+        294,
+        526,
+        376
+      ],
+      "file": "parts/arm_far_65.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "7876effd8cda162959c644646791231c89e721b5f40ee1e454ec2a9a2ff045b0",
+      "sourcePath": "../frames/0065.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_65"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 65,
+      "crop": [
+        440,
+        318,
+        526,
+        464
+      ],
+      "file": "parts/leg_far_65.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "ad5c40e14987290d30319cc4db0a77b2269559fc63e50d15cd98ee5ba96c5ee5",
+      "sourcePath": "../frames/0065.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_65"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 65,
+      "crop": [
+        356,
+        314,
+        450,
+        470
+      ],
+      "file": "parts/leg_near_65.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "3299a0c5cc9fe691484d98abcf94773986b890c1ea5f61aa048ab366c27330b5",
+      "sourcePath": "../frames/0065.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_65"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 65,
+      "crop": [
+        371,
+        288,
+        518,
+        370
+      ],
+      "file": "parts/torso_65.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "3deb0b6188a0696bcd0c2031f1cd83f886df76ab760aec38f48870f329324529",
+      "sourcePath": "../frames/0065.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_65"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 65,
+      "crop": [
+        407,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_65.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "54ebdca4f71d703b5321b552b1a44808c055ad9f849eeaa60036c5a26c2fcad9",
+      "sourcePath": "../frames/0065.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_65"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 65,
+      "crop": [
+        360,
+        294,
+        438,
+        402
+      ],
+      "file": "parts/arm_near_65.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "1924c9f8cbe426fecf586f2ce4afa2641f71fee0e5588bbef9ce2fb9d65ec747",
+      "sourcePath": "../frames/0065.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_65"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 65,
+      "crop": [
+        266,
+        18,
+        596,
+        294
+      ],
+      "file": "parts/head_65.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "afc8ecc88dfaa132a66c187f62fc10a5b1b98bcdb1cf8c030395d47e40c46b86",
+      "sourcePath": "../frames/0065.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_65"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 66,
+      "crop": [
+        497,
+        298,
+        518,
+        378
+      ],
+      "file": "parts/arm_far_66.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "88eb332d3e263a55dc7174e2ac832294fb4a53c4926eea5a1b32e6bf7768edf7",
+      "sourcePath": "../frames/0066.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_66"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 66,
+      "crop": [
+        443,
+        322,
+        516,
+        454
+      ],
+      "file": "parts/leg_far_66.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "bab68ef94b9c9f7dae07001c55c3f4e9682157df203be15abd5a12310adfe554",
+      "sourcePath": "../frames/0066.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_66"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 66,
+      "crop": [
+        368,
+        322,
+        449,
+        470
+      ],
+      "file": "parts/leg_near_66.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "64dde2199f343100e7ae9ab50221ca4ac476d70e40e84dc0f226df43bf2648e3",
+      "sourcePath": "../frames/0066.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_66"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 66,
+      "crop": [
+        374,
+        288,
+        514,
+        369
+      ],
+      "file": "parts/torso_66.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "eaeb46ca2e31a40394f97437f35a9201f9a3d0f4017a1861fd4d0290b32fc830",
+      "sourcePath": "../frames/0066.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_66"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 66,
+      "crop": [
+        414,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_66.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "8b59cf81c3154fd012a7bb2edc5863b11f0183063909ce794f759e3e6248bcb3",
+      "sourcePath": "../frames/0066.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_66"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 66,
+      "crop": [
+        370,
+        296,
+        439,
+        405
+      ],
+      "file": "parts/arm_near_66.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "344c1727b6b47a2c1bf7e4b27000972be738bff8076bfb94fd5ba6af60e868bf",
+      "sourcePath": "../frames/0066.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_66"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 66,
+      "crop": [
+        266,
+        16,
+        598,
+        294
+      ],
+      "file": "parts/head_66.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "967a230f44eff9505035cd13f4c06c47a7876d179547452230b8076d10d509f5",
+      "sourcePath": "../frames/0066.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_66"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 67,
+      "crop": [
+        497,
+        302,
+        512,
+        380
+      ],
+      "file": "parts/arm_far_67.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "872d214104e2c2c38f10ee00ff8c467483bb1a199cb4ccdeb19e0b6c5b3443c4",
+      "sourcePath": "../frames/0067.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_67"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 67,
+      "crop": [
+        443,
+        331,
+        518,
+        454
+      ],
+      "file": "parts/leg_far_67.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "a1f7ab4a655e4a6459f270ed6a010fac3dd9623a40c8100510828f358232450f",
+      "sourcePath": "../frames/0067.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_67"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 67,
+      "crop": [
+        368,
+        326,
+        450,
+        470
+      ],
+      "file": "parts/leg_near_67.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "0185ed0258b1d5205e27449e232f6dc9b52a23c8f177b5b2c5069e4bf58ed294",
+      "sourcePath": "../frames/0067.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_67"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 67,
+      "crop": [
+        377,
+        288,
+        510,
+        368
+      ],
+      "file": "parts/torso_67.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "79516797cc8cebf590452fcddf4ebed82d0a0f87c60e9f50f3adb18e2878839a",
+      "sourcePath": "../frames/0067.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_67"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 67,
+      "crop": [
+        415,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_67.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "8cf8152186e2040edda0a6bf17dca0b7f64f0ddf90a237f87ee1207b7ec615c2",
+      "sourcePath": "../frames/0067.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_67"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 67,
+      "crop": [
+        379,
+        298,
+        439,
+        405
+      ],
+      "file": "parts/arm_near_67.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "55c32ae88d4c4d0460c8d6e565c144c3edbb4b77371a568254e8da5e14c15d2e",
+      "sourcePath": "../frames/0067.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_67"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 67,
+      "crop": [
+        264,
+        16,
+        598,
+        294
+      ],
+      "file": "parts/head_67.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "eb2d6bedee80d25aad08c9e0c9cecb47ebd3052aaa4339337ec8397a200ae660",
+      "sourcePath": "../frames/0067.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_67"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 68,
+      "crop": [
+        497,
+        308,
+        512,
+        384
+      ],
+      "file": "parts/arm_far_68.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "59f91d6ee47c9aa3e2399257ac8f08d85f81610ea67b8439af083dc5a8ff3a95",
+      "sourcePath": "../frames/0068.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_68"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 68,
+      "crop": [
+        444,
+        338,
+        526,
+        456
+      ],
+      "file": "parts/leg_far_68.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "3087b748e1bd583bb8829c24fbc221184d153b49e43721e84a67c4cc0f7bfe36",
+      "sourcePath": "../frames/0068.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_68"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 68,
+      "crop": [
+        364,
+        329,
+        450,
+        468
+      ],
+      "file": "parts/leg_near_68.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "d47a645e68b7aeb0bedb9aa2a16a55b55d2da09127cab4d3282d7a39d91f820f",
+      "sourcePath": "../frames/0068.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_68"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 68,
+      "crop": [
+        380,
+        288,
+        506,
+        368
+      ],
+      "file": "parts/torso_68.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "0ec4ee9103824ee95ded688716852bf5d79cad0e6d81452c21d7326b1e614fd7",
+      "sourcePath": "../frames/0068.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_68"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 68,
+      "crop": [
+        418,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_68.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "d79516dec47f81b3d85068b5fa3bd74ca5190ef60d6074dd5ea5ff0556f4b67f",
+      "sourcePath": "../frames/0068.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_68"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 68,
+      "crop": [
+        389,
+        300,
+        442,
+        405
+      ],
+      "file": "parts/arm_near_68.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "1cbb9778da232ad905c830561f6647b4ca3bd343886f539dcdfb1e6d05379b29",
+      "sourcePath": "../frames/0068.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_68"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 68,
+      "crop": [
+        264,
+        16,
+        600,
+        294
+      ],
+      "file": "parts/head_68.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "2db1cfd6867c8f40446644d04b0bb75160d06174196985050f72fecb2b34059f",
+      "sourcePath": "../frames/0068.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_68"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 69,
+      "crop": [
+        497,
+        314,
+        513,
+        387
+      ],
+      "file": "parts/arm_far_69.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "9cdefb5df657895f5717cab1512044db4955a90aeb2e11e579d2bb05c2f7e175",
+      "sourcePath": "../frames/0069.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_69"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 69,
+      "crop": [
+        444,
+        355,
+        532,
+        456
+      ],
+      "file": "parts/leg_far_69.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "7dc99151373d6b2920e7344bef5cffc484f6b015266ef3922792b7a5f1176815",
+      "sourcePath": "../frames/0069.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_69"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 69,
+      "crop": [
+        360,
+        334,
+        450,
+        466
+      ],
+      "file": "parts/leg_near_69.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "3b95d147b91f913460d3299f51e8b85aec619137f289e0854bf1703614ab29ba",
+      "sourcePath": "../frames/0069.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_69"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 69,
+      "crop": [
+        378,
+        288,
+        503,
+        372
+      ],
+      "file": "parts/torso_69.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "186200f61bf894188622a6552857b7d1acc7b21b76da23719dd18690750d8a0d",
+      "sourcePath": "../frames/0069.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_69"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 69,
+      "crop": [
+        395,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_69.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "9954688b004396be2973a5745caa841f1641979a98fbaba78ebbec34ab4a71d5",
+      "sourcePath": "../frames/0069.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_69"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 69,
+      "crop": [
+        389,
+        298,
+        452,
+        403
+      ],
+      "file": "parts/arm_near_69.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "b3de9ed63524f7055c408b59776624d67b3526d9bebc851f3c925ccf5ed48a7e",
+      "sourcePath": "../frames/0069.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_69"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 69,
+      "crop": [
+        263,
+        16,
+        600,
+        294
+      ],
+      "file": "parts/head_69.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "a50584886fbbea45b8b328309985fcb6f22d640ccdc229e004c1e8105b048fcb",
+      "sourcePath": "../frames/0069.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_69"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 70,
+      "crop": [
+        497,
+        337,
+        512,
+        387
+      ],
+      "file": "parts/arm_far_70.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "ea01d0b8335f26f23edbb31b08b7fef5a6b1842f47ca59f2452d0256fd95f2ab",
+      "sourcePath": "../frames/0070.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_70"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 70,
+      "crop": [
+        444,
+        355,
+        538,
+        456
+      ],
+      "file": "parts/leg_far_70.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "c7668d463dd8c3053f0f774c69ef9f785b3c05bab2e572ee24f5a1cd3ec50387",
+      "sourcePath": "../frames/0070.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_70"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 70,
+      "crop": [
+        355,
+        336,
+        450,
+        464
+      ],
+      "file": "parts/leg_near_70.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "af26547f2d840f6a1479fa940a7f420fa110efd88d3d3feeef30648f2b4fbf7c",
+      "sourcePath": "../frames/0070.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_70"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 70,
+      "crop": [
+        368,
+        288,
+        503,
+        372
+      ],
+      "file": "parts/torso_70.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "07afebb7ae5dec8cc62194386a3bcb7ce5f7a5d73434d101821ab48f11ca3e3e",
+      "sourcePath": "../frames/0070.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_70"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 70,
+      "crop": [
+        395,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_70.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "6e4d89960d6749484a8ba5e02e41ed69030b91de5f101d7de93678d905406843",
+      "sourcePath": "../frames/0070.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_70"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 70,
+      "crop": [
+        390,
+        298,
+        455,
+        403
+      ],
+      "file": "parts/arm_near_70.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "e9278bb12859c63c8e9d33f9fe3746be15d5254aed5dec1339faee692e3a1182",
+      "sourcePath": "../frames/0070.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_70"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 70,
+      "crop": [
+        262,
+        19,
+        602,
+        294
+      ],
+      "file": "parts/head_70.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "afcbafbb3024549ae696b800a0004e1f8f73fb2c29d061b803db1ebd471aee37",
+      "sourcePath": "../frames/0070.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_70"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 71,
+      "crop": [
+        497,
+        336,
+        512,
+        387
+      ],
+      "file": "parts/arm_far_71.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "ee7d39c1d0d8f521af609939a42cdd51aa082cbb8f97aaa0fc1c1b250a616e15",
+      "sourcePath": "../frames/0071.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_71"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 71,
+      "crop": [
+        444,
+        355,
+        536,
+        458
+      ],
+      "file": "parts/leg_far_71.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "586ae72655a22a73f50407f84581e48bf24c19d1501e4919639cc957692889ff",
+      "sourcePath": "../frames/0071.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_71"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 71,
+      "crop": [
+        354,
+        288,
+        450,
+        463
+      ],
+      "file": "parts/leg_near_71.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "dfa75649a97171f113b399943c658a52df11c97b0e3211286bebec5304984423",
+      "sourcePath": "../frames/0071.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_71"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 71,
+      "crop": [
+        364,
+        288,
+        503,
+        372
+      ],
+      "file": "parts/torso_71.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "b0f74253310711d6fddc87867da59827638098c18fcaf65dbff5082e3c6541fc",
+      "sourcePath": "../frames/0071.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_71"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 71,
+      "crop": [
+        395,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_71.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "7ad5e536e4e542e93a14a15137a92bb122d8c74a7f9c577a02a08cee2317de07",
+      "sourcePath": "../frames/0071.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_71"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 71,
+      "crop": [
+        390,
+        298,
+        457,
+        401
+      ],
+      "file": "parts/arm_near_71.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "4c4c9b4ee875362d27492864ddf2fc03b48756a73b1b3fd8533c0e553197fa9f",
+      "sourcePath": "../frames/0071.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_71"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 71,
+      "crop": [
+        262,
+        20,
+        602,
+        294
+      ],
+      "file": "parts/head_71.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "2b4fe677b75dc84ede6025fb2847436764b8ff908e65a346c4574aedb32a4f5a",
+      "sourcePath": "../frames/0071.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_71"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 72,
+      "crop": [
+        497,
+        336,
+        512,
+        387
+      ],
+      "file": "parts/arm_far_72.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "35a670f361d4f95332a24f3fe6a2e358bbcb5d034010d07d3fcf4c34c593e327",
+      "sourcePath": "../frames/0072.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_72"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 72,
+      "crop": [
+        444,
+        355,
+        530,
+        460
+      ],
+      "file": "parts/leg_far_72.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "2f7dc5ef6a716ac569c89ad761c45050233a2879084142f8c5a893eea480a071",
+      "sourcePath": "../frames/0072.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_72"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 72,
+      "crop": [
+        354,
+        288,
+        450,
+        464
+      ],
+      "file": "parts/leg_near_72.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "43f48a040795fb3f6fd0bf33a7a974d933c7d4a88c963c99abdd35ecd9fbacf4",
+      "sourcePath": "../frames/0072.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_72"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 72,
+      "crop": [
+        364,
+        288,
+        503,
+        372
+      ],
+      "file": "parts/torso_72.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "cb415a118e364ea258bc6ced78d9b524001f1e0047084d15a629297cc398bc7b",
+      "sourcePath": "../frames/0072.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_72"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 72,
+      "crop": [
+        395,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_72.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "188fed68a9d8680068bd99b2408d50a34733c5540f291ea2f9f8fc6f974d7c9e",
+      "sourcePath": "../frames/0072.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_72"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 72,
+      "crop": [
+        390,
+        299,
+        455,
+        401
+      ],
+      "file": "parts/arm_near_72.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "7921d609c5a3f25d614d0b77916fe9b79e63c658895ba00abfb88ffad569048b",
+      "sourcePath": "../frames/0072.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_72"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 72,
+      "crop": [
+        263,
+        22,
+        602,
+        294
+      ],
+      "file": "parts/head_72.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "00b36ff81f53e6ffdaf1077f0a9bce9cdda5831d22502b0ba05bf6a5b217c725",
+      "sourcePath": "../frames/0072.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_72"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 73,
+      "crop": [
+        497,
+        336,
+        510,
+        385
+      ],
+      "file": "parts/arm_far_73.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "0b9ffeb0a222fcddc83845fbd54c5fb496fa61e916953b4875c9f404bd3b1c89",
+      "sourcePath": "../frames/0073.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_73"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 73,
+      "crop": [
+        443,
+        355,
+        525,
+        462
+      ],
+      "file": "parts/leg_far_73.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "3e3a7accae815d3ca915f51f7602047050546cc89b0d1a5a64fc644c80780512",
+      "sourcePath": "../frames/0073.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_73"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 73,
+      "crop": [
+        356,
+        288,
+        449,
+        462
+      ],
+      "file": "parts/leg_near_73.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "8b024c1a5b35a902e37ad8f6c0ef97f38239f09a7eba9f75027734a6fc062ef6",
+      "sourcePath": "../frames/0073.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_73"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 73,
+      "crop": [
+        366,
+        288,
+        503,
+        370
+      ],
+      "file": "parts/torso_73.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "449fd246d8ea2ef7c6323e55a6d4c54fbc5c4d84583bf142b5e5ddf72ea8792a",
+      "sourcePath": "../frames/0073.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_73"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 73,
+      "crop": [
+        418,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_73.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "d059d7ef9a764b1f02694b17e2a8250ac7e919e912a702f8705b35719b446c96",
+      "sourcePath": "../frames/0073.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_73"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 73,
+      "crop": [
+        390,
+        300,
+        449,
+        403
+      ],
+      "file": "parts/arm_near_73.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "c44170075208cb664e3e60cdbf61e4341f215115aba67d016597e3fa59d7e4e7",
+      "sourcePath": "../frames/0073.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_73"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 73,
+      "crop": [
+        265,
+        22,
+        600,
+        294
+      ],
+      "file": "parts/head_73.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "6598105809edc42cd1aad3ba96a02921c5612032e7bd101e78d18d273578abaf",
+      "sourcePath": "../frames/0073.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_73"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 74,
+      "crop": [
+        497,
+        312,
+        508,
+        383
+      ],
+      "file": "parts/arm_far_74.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "6d730eb4ce1c8ba435a7471bd817d959691ec192921fa13e18b0acf111625039",
+      "sourcePath": "../frames/0074.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_74"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 74,
+      "crop": [
+        442,
+        355,
+        514,
+        460
+      ],
+      "file": "parts/leg_far_74.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "55456d10d1e95888a1f0bd1f7a93cf8ab4b8a6a4fd029e83e1f6c0c6c3bf3f9c",
+      "sourcePath": "../frames/0074.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_74"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 74,
+      "crop": [
+        362,
+        334,
+        449,
+        464
+      ],
+      "file": "parts/leg_near_74.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "4f3bdf625505486fa0aa56e461b2faa9f1fc44cbe726d35c4606b8ebe433d454",
+      "sourcePath": "../frames/0074.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_74"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 74,
+      "crop": [
+        380,
+        288,
+        503,
+        368
+      ],
+      "file": "parts/torso_74.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "7d98ecd9546bafe6f73bec2f22565319078b67912581cbf80ab68c82a6275ab1",
+      "sourcePath": "../frames/0074.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_74"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 74,
+      "crop": [
+        419,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_74.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "6870ee38404f93208a0ef7c0f89daa0ead4ec90ee4610e2af6df33d7826aa1d2",
+      "sourcePath": "../frames/0074.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_74"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 74,
+      "crop": [
+        389,
+        302,
+        442,
+        406
+      ],
+      "file": "parts/arm_near_74.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "2303f77e57f4c10eeea1415885425fad24875a452df87f5ac755e6b3900a520d",
+      "sourcePath": "../frames/0074.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_74"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 74,
+      "crop": [
+        266,
+        19,
+        600,
+        294
+      ],
+      "file": "parts/head_74.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "14e09167b3099e34ba67b9f8a354dc243bdb4ceb11cab6563eda7186fbbaaba6",
+      "sourcePath": "../frames/0074.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_74"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 75,
+      "crop": [
+        497,
+        304,
+        512,
+        377
+      ],
+      "file": "parts/arm_far_75.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "56c81513677068969e45c83e82aee2670f6b587ad1ea212d00200221e7675124",
+      "sourcePath": "../frames/0075.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_75"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 75,
+      "crop": [
+        441,
+        355,
+        508,
+        460
+      ],
+      "file": "parts/leg_far_75.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "db41bf735451d356606487507cdaad3f51116c93f1d91aaa1043a493ab09aaf2",
+      "sourcePath": "../frames/0075.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_75"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 75,
+      "crop": [
+        366,
+        327,
+        448,
+        464
+      ],
+      "file": "parts/leg_near_75.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "a39b82a26a8a1a69a3ed0c895201cf2e5ebbdc526b0e71e4803e779afea11794",
+      "sourcePath": "../frames/0075.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_75"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 75,
+      "crop": [
+        378,
+        288,
+        504,
+        368
+      ],
+      "file": "parts/torso_75.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "a7d50dae0148aeeb02ec8798a1569b94d1317457f3a30a470b50a718de55008e",
+      "sourcePath": "../frames/0075.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_75"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 75,
+      "crop": [
+        415,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_75.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "4b83972bc238c585d1c134575b0d26928451206a2d326aa169b5c7b88c2f0844",
+      "sourcePath": "../frames/0075.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_75"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 75,
+      "crop": [
+        379,
+        300,
+        439,
+        405
+      ],
+      "file": "parts/arm_near_75.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "686ea388f16a4e851466c3af1ceeffe317e4d0347e239c84d619be855143a180",
+      "sourcePath": "../frames/0075.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_75"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 75,
+      "crop": [
+        268,
+        18,
+        600,
+        294
+      ],
+      "file": "parts/head_75.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "f0327f96670d8606300d2065e28664ff689986673de0e09325cf23bbe4763149",
+      "sourcePath": "../frames/0075.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_75"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 76,
+      "crop": [
+        497,
+        300,
+        516,
+        378
+      ],
+      "file": "parts/arm_far_76.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "1af6da631c4b3346f5e96411b7e31b59b19287716c39306d3334749e1589fc52",
+      "sourcePath": "../frames/0076.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_76"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 76,
+      "crop": [
+        438,
+        327,
+        512,
+        460
+      ],
+      "file": "parts/leg_far_76.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "67866556fde8fdacb841ad100f8335d0a3544f749f0aaad6ab7ed35584a98421",
+      "sourcePath": "../frames/0076.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_76"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 76,
+      "crop": [
+        372,
+        320,
+        446,
+        468
+      ],
+      "file": "parts/leg_near_76.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "933d2f5f90d0594480afa567fca51da1e0f07d6f516fa3727b4c089596fd5ca9",
+      "sourcePath": "../frames/0076.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_76"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 76,
+      "crop": [
+        376,
+        288,
+        512,
+        369
+      ],
+      "file": "parts/torso_76.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "b156426b167335720125b20f4ff288daa558c3fb0aab94fd576a7242a25a1229",
+      "sourcePath": "../frames/0076.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_76"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 76,
+      "crop": [
+        414,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_76.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "402d1892c9a95faaf23079ef567970cc3d46c2320c5df389a2c7c1b792dcebbe",
+      "sourcePath": "../frames/0076.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_76"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 76,
+      "crop": [
+        372,
+        297,
+        439,
+        404
+      ],
+      "file": "parts/arm_near_76.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "3e409f2ad5696ffb93b9005ea6a1f8032ce36a795f8d1367357c9382fcb22437",
+      "sourcePath": "../frames/0076.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_76"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 76,
+      "crop": [
+        268,
+        16,
+        600,
+        294
+      ],
+      "file": "parts/head_76.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "7c6fbd17862245408fef80eb7f323eb3005b8f195acdf2cdd9b94cea6c3e4aad",
+      "sourcePath": "../frames/0076.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_76"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 77,
+      "crop": [
+        497,
+        298,
+        520,
+        378
+      ],
+      "file": "parts/arm_far_77.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "1fde57a5dc019f48661c8182e92f85a62cdf0838b30f4d534f595ebccc875f11",
+      "sourcePath": "../frames/0077.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_77"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 77,
+      "crop": [
+        437,
+        324,
+        520,
+        458
+      ],
+      "file": "parts/leg_far_77.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "9067f74272fd16a7f4f0a6fd2db1f7b43746f286a3d163045863ece6dc02e6a9",
+      "sourcePath": "../frames/0077.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_77"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 77,
+      "crop": [
+        366,
+        319,
+        449,
+        468
+      ],
+      "file": "parts/leg_near_77.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "dd56f3a19621ab05d452712a9defe297a7f031ea05509cc9ef365efb3fca4294",
+      "sourcePath": "../frames/0077.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_77"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 77,
+      "crop": [
+        374,
+        288,
+        514,
+        370
+      ],
+      "file": "parts/torso_77.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "ddfd19daac7829efe7db7ac814303e3616cae043865dd6cb6df48e9266d13b0e",
+      "sourcePath": "../frames/0077.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_77"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 77,
+      "crop": [
+        409,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_77.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "d2da026a75a2febaff7bab6305707eb2499e364004e51737a91e0b1a05c0bd0a",
+      "sourcePath": "../frames/0077.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_77"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 77,
+      "crop": [
+        366,
+        294,
+        439,
+        404
+      ],
+      "file": "parts/arm_near_77.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "c855841ebf2b2004d6bfae28a0eea7d8c9f35d46e7dec85c608a6cf6f5cdee2d",
+      "sourcePath": "../frames/0077.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_77"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 77,
+      "crop": [
+        268,
+        16,
+        600,
+        294
+      ],
+      "file": "parts/head_77.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "f6211be437930fc44bf1cff3957017aa0a7700b6af0f591d25a2a53d2c4af1a9",
+      "sourcePath": "../frames/0077.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_77"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 78,
+      "crop": [
+        497,
+        294,
+        530,
+        378
+      ],
+      "file": "parts/arm_far_78.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "bab0ffa5e7176b1e5c42c5e3534cd03f5106a3916a4ca237cc8b08610294c06f",
+      "sourcePath": "../frames/0078.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_78"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 78,
+      "crop": [
+        438,
+        316,
+        530,
+        464
+      ],
+      "file": "parts/leg_far_78.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "2d62dfed6c7d7387e49fb2e4e132fdd370758ebf65f6d8c78c5cf02bcba0e7bc",
+      "sourcePath": "../frames/0078.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_78"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 78,
+      "crop": [
+        354,
+        312,
+        458,
+        470
+      ],
+      "file": "parts/leg_near_78.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "773f54d5819b238b32e4eefddad2a1ddee62634237bb226e98aecbc7cc8e456b",
+      "sourcePath": "../frames/0078.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_78"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 78,
+      "crop": [
+        371,
+        288,
+        520,
+        371
+      ],
+      "file": "parts/torso_78.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "ad8e5b162e4cca5716d3b00af6303b65d056fdeecec4beb309ccf485e660eced",
+      "sourcePath": "../frames/0078.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_78"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 78,
+      "crop": [
+        402,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_78.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "088b32c9b6855a6b61b65eccc5c3a9ebb04a1a14760e171b73c08e40f3548b17",
+      "sourcePath": "../frames/0078.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_78"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 78,
+      "crop": [
+        354,
+        291,
+        437,
+        400
+      ],
+      "file": "parts/arm_near_78.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "08285f0052ddfccffe6a982a2046d80d3b6752947ff0ee8094f7f7e662ee0f2b",
+      "sourcePath": "../frames/0078.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_78"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 78,
+      "crop": [
+        266,
+        16,
+        600,
+        294
+      ],
+      "file": "parts/head_78.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "3588bab890ac5ba7b8586745c8d4b01dd27e3e9d92f04f34be336e5a19c2c9d4",
+      "sourcePath": "../frames/0078.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_78"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 79,
+      "crop": [
+        497,
+        294,
+        534,
+        378
+      ],
+      "file": "parts/arm_far_79.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "19327c28ff1cac271f472f0db879604612a74351b00c9987c25ddacd60d0b2c5",
+      "sourcePath": "../frames/0079.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_79"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 79,
+      "crop": [
+        441,
+        314,
+        534,
+        464
+      ],
+      "file": "parts/leg_far_79.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "8b228929825b73a919d5db87a19be4141618f083674a4783dc86863b463c3581",
+      "sourcePath": "../frames/0079.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_79"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 79,
+      "crop": [
+        348,
+        309,
+        462,
+        470
+      ],
+      "file": "parts/leg_near_79.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "0c1505265e8d88a0423a78bf29848037e5b74a72a64b2a28324d158bbc869062",
+      "sourcePath": "../frames/0079.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_79"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 79,
+      "crop": [
+        370,
+        288,
+        520,
+        372
+      ],
+      "file": "parts/torso_79.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "cda990a35607ef890b810a92661adced1e8a2546b71c3c2eb77d19062a23bf53",
+      "sourcePath": "../frames/0079.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_79"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 79,
+      "crop": [
+        396,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_79.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "86c66186fb36974ad83464a89790975017625ccd82a982891c4807af0d8cdedb",
+      "sourcePath": "../frames/0079.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_79"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 79,
+      "crop": [
+        348,
+        290,
+        436,
+        397
+      ],
+      "file": "parts/arm_near_79.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "06136aaef755706c7dbb694b5745c76baac1495b493cfe00bac6992bb54f0943",
+      "sourcePath": "../frames/0079.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_79"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 79,
+      "crop": [
+        265,
+        16,
+        600,
+        294
+      ],
+      "file": "parts/head_79.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "a6ad7d3852936de3100e573f299e863c8c4a8fc532e1afb763b3725320646034",
+      "sourcePath": "../frames/0079.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_79"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 80,
+      "crop": [
+        497,
+        294,
+        538,
+        377
+      ],
+      "file": "parts/arm_far_80.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "051526db634ae28bc3f52be8a3e8fcf3efbb1cf984c9aac806bab91d69746483",
+      "sourcePath": "../frames/0080.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_80"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 80,
+      "crop": [
+        443,
+        312,
+        538,
+        462
+      ],
+      "file": "parts/leg_far_80.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "469117da19cb8001a19710a55e21c357ff0b1874a5bfee0992d15ab9d23f2d1d",
+      "sourcePath": "../frames/0080.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_80"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 80,
+      "crop": [
+        344,
+        310,
+        468,
+        470
+      ],
+      "file": "parts/leg_near_80.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "12455d6470e8908bb8ca513746e1a82ff7bc1dcd59cbeb56efb188fcb325d8fd",
+      "sourcePath": "../frames/0080.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_80"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 80,
+      "crop": [
+        369,
+        288,
+        521,
+        372
+      ],
+      "file": "parts/torso_80.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "f09b38e866864a4cf5cae8df5a4eddc6de0b27c9115c769f3d7ce99db7b2d28b",
+      "sourcePath": "../frames/0080.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_80"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 80,
+      "crop": [
+        395,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_80.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "9844961641a6f38bda1334ce643ab27b3c9db6aad59ce181ead9c48a0001bb44",
+      "sourcePath": "../frames/0080.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_80"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 80,
+      "crop": [
+        344,
+        289,
+        435,
+        394
+      ],
+      "file": "parts/arm_near_80.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "a67518a797fb9b64bd3ecded2a451ffdac319939f0fd5603fc92be6c1e535053",
+      "sourcePath": "../frames/0080.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_80"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 80,
+      "crop": [
+        264,
+        18,
+        600,
+        294
+      ],
+      "file": "parts/head_80.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "b9e735599b175dd074ea48e14ff7aea8e0be993b5b11b37d6c913304ca8dccbc",
+      "sourcePath": "../frames/0080.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_80"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 81,
+      "crop": [
+        497,
+        296,
+        542,
+        376
+      ],
+      "file": "parts/arm_far_81.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "f7e3d5910454618b4ffde55eca388d069d62b109af615bab7a767239f8de0f22",
+      "sourcePath": "../frames/0081.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_81"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 81,
+      "crop": [
+        444,
+        310,
+        542,
+        464
+      ],
+      "file": "parts/leg_far_81.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "69bae5c0348e1613cd3b18941cec0e80daac2905a52cad1c5b55fdd9fbf6abd1",
+      "sourcePath": "../frames/0081.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_81"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 81,
+      "crop": [
+        338,
+        308,
+        468,
+        470
+      ],
+      "file": "parts/leg_near_81.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "9be0d015ad26ed36d90f1dd032d67275a7ab9b88351c941283f19f3d29ef8778",
+      "sourcePath": "../frames/0081.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_81"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 81,
+      "crop": [
+        368,
+        288,
+        522,
+        372
+      ],
+      "file": "parts/torso_81.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "f3ca97a6722f1dc57311cf631f87280d154a73279943dcf5b2012992d7e62f19",
+      "sourcePath": "../frames/0081.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_81"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 81,
+      "crop": [
+        395,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_81.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "a5d09e7794f54f61839b03a72e91ad226abf33cb5098800e74e7e5467ef7c95d",
+      "sourcePath": "../frames/0081.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_81"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 81,
+      "crop": [
+        338,
+        290,
+        434,
+        394
+      ],
+      "file": "parts/arm_near_81.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "2230f11ba3140eff7e7bf156645fecf4806e919b2eb0b0925c90d5729b3d0eb2",
+      "sourcePath": "../frames/0081.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_81"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 81,
+      "crop": [
+        262,
+        18,
+        600,
+        294
+      ],
+      "file": "parts/head_81.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "100f3b01d9a917b7726fd20c70e3cf41a40c354cd05a773c63819632b65c2c03",
+      "sourcePath": "../frames/0081.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_81"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 82,
+      "crop": [
+        497,
+        296,
+        544,
+        376
+      ],
+      "file": "parts/arm_far_82.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "17df7b6365f7d112097231eb72a1a3e2c15c9f8bd7694ab66c9e183bba0fe546",
+      "sourcePath": "../frames/0082.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_82"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 82,
+      "crop": [
+        443,
+        310,
+        544,
+        464
+      ],
+      "file": "parts/leg_far_82.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "41f04646bba774d0368c751d6a831a1a5e97b513e5753304dc0f9c34c1f9e3f1",
+      "sourcePath": "../frames/0082.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_82"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 82,
+      "crop": [
+        336,
+        288,
+        466,
+        470
+      ],
+      "file": "parts/leg_near_82.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "8394ddd8547fec6f37e4be456f382c1e204b21c768c6b8a8fdbf94c00ff5a5e0",
+      "sourcePath": "../frames/0082.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_82"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 82,
+      "crop": [
+        364,
+        288,
+        522,
+        372
+      ],
+      "file": "parts/torso_82.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "7a029de9e51faee583e4afb06343187095b13618d7746989a83c6c0f3c31bee1",
+      "sourcePath": "../frames/0082.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_82"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 82,
+      "crop": [
+        395,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_82.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "1de5c559b72ff1f4f1e03fc4027675e49a687f4522366dddfe016e2e85b1cdb4",
+      "sourcePath": "../frames/0082.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_82"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 82,
+      "crop": [
+        336,
+        290,
+        434,
+        393
+      ],
+      "file": "parts/arm_near_82.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "8f07d7e4f5816c812f55701d1338dcc6feef5edf4ee9deea57796b417363558a",
+      "sourcePath": "../frames/0082.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_82"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 82,
+      "crop": [
+        262,
+        22,
+        600,
+        294
+      ],
+      "file": "parts/head_82.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "859e09b332103c05b4eaea3bece37a8dc310f0c1c5ac0bd828da566f1edcb36e",
+      "sourcePath": "../frames/0082.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_82"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 83,
+      "crop": [
+        497,
+        296,
+        542,
+        376
+      ],
+      "file": "parts/arm_far_83.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "76cfe8f3e7c655870c84abc33b4cae4f8f1e41b9ced9ea142069e4f95b41b7c4",
+      "sourcePath": "../frames/0083.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_83"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 83,
+      "crop": [
+        442,
+        312,
+        542,
+        464
+      ],
+      "file": "parts/leg_far_83.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "2a882a2fbb11aa449882c56eff254c6c3529e258ebb219da0ef6f2445dfc9559",
+      "sourcePath": "../frames/0083.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_83"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 83,
+      "crop": [
+        338,
+        288,
+        467,
+        470
+      ],
+      "file": "parts/leg_near_83.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "2c58054890c972927413a4c17a8012c5c8b536247059af2a4b96da7e718e7221",
+      "sourcePath": "../frames/0083.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_83"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 83,
+      "crop": [
+        364,
+        288,
+        522,
+        372
+      ],
+      "file": "parts/torso_83.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "d8eec463a3a4c9742effe7401d56b67e57dd3276d621485ac57847e6e41f31f0",
+      "sourcePath": "../frames/0083.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_83"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 83,
+      "crop": [
+        395,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_83.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "fbe87152764a5795c4f3b4200a8278698b045b58fba5b629348dc6fed2f903e9",
+      "sourcePath": "../frames/0083.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_83"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 83,
+      "crop": [
+        338,
+        291,
+        434,
+        397
+      ],
+      "file": "parts/arm_near_83.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "1feed018fc5bf082f9970c69da5af7b4769a3fc7a8bcbbe89604c59839d56384",
+      "sourcePath": "../frames/0083.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_83"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 83,
+      "crop": [
+        263,
+        22,
+        598,
+        294
+      ],
+      "file": "parts/head_83.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "42ba989cec78c438d3a7cbff2421f051bb86d92fb9ece9c339f53959d54b5140",
+      "sourcePath": "../frames/0083.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_83"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 84,
+      "crop": [
+        497,
+        296,
+        538,
+        378
+      ],
+      "file": "parts/arm_far_84.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "74c71c1bb5439dea72ce231c6a52cbf57c7c5a9312ba7bcd7b6153c35048d775",
+      "sourcePath": "../frames/0084.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_84"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 84,
+      "crop": [
+        441,
+        312,
+        538,
+        464
+      ],
+      "file": "parts/leg_far_84.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "c3ba4d73908fdfb44a8386c55804a86cdeeb6e25c3176c07d1f103682e38c673",
+      "sourcePath": "../frames/0084.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_84"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 84,
+      "crop": [
+        342,
+        288,
+        464,
+        472
+      ],
+      "file": "parts/leg_near_84.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "4e53da5453e45636cc04b5f63bb0bfa8c22f4ca73d05a6e7ba2abc0fc0a38fca",
+      "sourcePath": "../frames/0084.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_84"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 84,
+      "crop": [
+        366,
+        288,
+        522,
+        372
+      ],
+      "file": "parts/torso_84.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "685cf1a7588fcc54b9694d515668ec7559dae5f1fd13040a77dd9cf3524b52d9",
+      "sourcePath": "../frames/0084.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_84"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 84,
+      "crop": [
+        395,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_84.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "d65a0c9acb8d51def749195c1c1b219623d11446c24549b5e9ea005a0a784ee9",
+      "sourcePath": "../frames/0084.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_84"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 84,
+      "crop": [
+        342,
+        291,
+        436,
+        399
+      ],
+      "file": "parts/arm_near_84.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "6b8a45710cfab8fc70469f941a78d85638d1ac73f24a987317c519330ec93646",
+      "sourcePath": "../frames/0084.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_84"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 84,
+      "crop": [
+        264,
+        22,
+        598,
+        294
+      ],
+      "file": "parts/head_84.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "ae4fc1abf2a7f407781881f70132947805e48fcd32422c5dc4dff33ebe9fd7b3",
+      "sourcePath": "../frames/0084.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_84"
+    },
+    {
+      "part": "arm_far",
+      "sourceFrame": 85,
+      "crop": [
+        497,
+        294,
+        534,
+        378
+      ],
+      "file": "parts/arm_far_85.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "0f0242ea8ddc417d5179eb0d753b5ee156b10e3866278b26eb2cf7185513e654",
+      "sourcePath": "../frames/0085.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_far_85"
+    },
+    {
+      "part": "leg_far",
+      "sourceFrame": 85,
+      "crop": [
+        440,
+        314,
+        534,
+        466
+      ],
+      "file": "parts/leg_far_85.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "fe1ae2f5f83b52b5cced37d9edc6a3a595c8488350ebc0de8eaa2b646e9852b5",
+      "sourcePath": "../frames/0085.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_far_85"
+    },
+    {
+      "part": "leg_near",
+      "sourceFrame": 85,
+      "crop": [
+        346,
+        312,
+        459,
+        472
+      ],
+      "file": "parts/leg_near_85.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "ade425bac675c878ddfcd65437f0df7a7d162377752a88ddb737b971cd32e4dc",
+      "sourcePath": "../frames/0085.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "leg_near_85"
+    },
+    {
+      "part": "torso",
+      "sourceFrame": 85,
+      "crop": [
+        370,
+        288,
+        520,
+        371
+      ],
+      "file": "parts/torso_85.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "3c9e0260eec6658c27bcd4e507a9ece34ad91706b8a3d5c36c203d500ffde639",
+      "sourcePath": "../frames/0085.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "torso_85"
+    },
+    {
+      "part": "shorts",
+      "sourceFrame": 85,
+      "crop": [
+        398,
+        354,
+        503,
+        414
+      ],
+      "file": "parts/shorts_85.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "b840f3ec4b0f7f3dae778fd070007ad6070162ed18995abfaf9617c44345e9d2",
+      "sourcePath": "../frames/0085.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "shorts_85"
+    },
+    {
+      "part": "arm_near",
+      "sourceFrame": 85,
+      "crop": [
+        346,
+        292,
+        437,
+        399
+      ],
+      "file": "parts/arm_near_85.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "45fe61c8b23e56cc78f5e04f7b5bf3c914940bb5fd3535caa8198bb0e18cf459",
+      "sourcePath": "../frames/0085.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "arm_near_85"
+    },
+    {
+      "part": "head",
+      "sourceFrame": 85,
+      "crop": [
+        264,
+        20,
+        596,
+        294
+      ],
+      "file": "parts/head_85.png",
+      "rgbExact": true,
+      "hiddenPixelsCompleted": false,
+      "sha256": "50a76f5a9be3c4fe54e70f2520c67fa3bca2460bba6e6a1a58c99dde7335bde1",
+      "sourcePath": "../frames/0085.png",
+      "sourcePolicy": "exact RGB crop; alpha is source contour partition; no generated fill",
+      "attachmentKey": "head_85"
+    }
+  ],
+  "generatedPixels": false,
+  "visualBaseline": "pixel_bound source-pixel IK trial accepted by user as close to AI video",
+  "workbenchStatus": "not integrated; awaiting production attachment reduction review"
+}

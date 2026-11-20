@@ -1,0 +1,203 @@
+{
+  "scope": "source frames 63-85 (zero-based), not entire 107-frame video",
+  "method": "official Spine 4.2 runtime vertices; independent CPU triangle rasterizer, not editor screenshot",
+  "frames": 23,
+  "sampledTimes": 115,
+  "sourceVideo": {
+    "fps": 24.0,
+    "width": 864.0,
+    "height": 480.0,
+    "count": 107.0
+  },
+  "maxVertexShiftPx": 0.02,
+  "maxIntraFrameVertexMovementPx": 0.0,
+  "framesDetail": [
+    {
+      "frame": 63,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.0011293494557703917,
+      "maxVertexShiftPx": 0.007
+    },
+    {
+      "frame": 64,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.003221026360942131,
+      "maxVertexShiftPx": 0.011
+    },
+    {
+      "frame": 65,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.007437513176696573,
+      "maxVertexShiftPx": 0.02
+    },
+    {
+      "frame": 66,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.0015782902640691621,
+      "maxVertexShiftPx": 0.007
+    },
+    {
+      "frame": 67,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.005240680933621985,
+      "maxVertexShiftPx": 0.016
+    },
+    {
+      "frame": 68,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.005860138038807136,
+      "maxVertexShiftPx": 0.016
+    },
+    {
+      "frame": 69,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.0003436303958859147,
+      "maxVertexShiftPx": 0.007
+    },
+    {
+      "frame": 70,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.0017664975423503924,
+      "maxVertexShiftPx": 0.012
+    },
+    {
+      "frame": 71,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.001381988872606836,
+      "maxVertexShiftPx": 0.01
+    },
+    {
+      "frame": 72,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.000708584622121375,
+      "maxVertexShiftPx": 0.007
+    },
+    {
+      "frame": 73,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.0018550502142902834,
+      "maxVertexShiftPx": 0.017
+    },
+    {
+      "frame": 74,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.004312306844589253,
+      "maxVertexShiftPx": 0.013
+    },
+    {
+      "frame": 75,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.0004107152825960396,
+      "maxVertexShiftPx": 0.007
+    },
+    {
+      "frame": 76,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.004427833456328707,
+      "maxVertexShiftPx": 0.019
+    },
+    {
+      "frame": 77,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.003522964509394572,
+      "maxVertexShiftPx": 0.013
+    },
+    {
+      "frame": 78,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.0006292700467457749,
+      "maxVertexShiftPx": 0.007
+    },
+    {
+      "frame": 79,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.005437407493962764,
+      "maxVertexShiftPx": 0.016
+    },
+    {
+      "frame": 80,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.0020547838786861812,
+      "maxVertexShiftPx": 0.012
+    },
+    {
+      "frame": 81,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.0003362552757293261,
+      "maxVertexShiftPx": 0.007
+    },
+    {
+      "frame": 82,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.0009501628022850257,
+      "maxVertexShiftPx": 0.01
+    },
+    {
+      "frame": 83,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.001815896074870792,
+      "maxVertexShiftPx": 0.013
+    },
+    {
+      "frame": 84,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.0011861150648279938,
+      "maxVertexShiftPx": 0.007
+    },
+    {
+      "frame": 85,
+      "missingPixels": 0,
+      "extraPixels": 0,
+      "pixelsWithChannelError24": 0,
+      "meanRGBError": 0.0023303483052366587,
+      "maxVertexShiftPx": 0.013
+    }
+  ],
+  "sourceFramesIdenticalToVideo": true,
+  "visualAcceptancePending": true,
+  "loopBoundaryReviewed": false
+}

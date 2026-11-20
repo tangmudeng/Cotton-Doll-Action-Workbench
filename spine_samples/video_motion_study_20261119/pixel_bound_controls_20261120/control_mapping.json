@@ -1,0 +1,57 @@
+{
+  "mapping": {
+    "head": "head_control",
+    "torso": "torso",
+    "shorts": "pelvis",
+    "arm_far": "arm_far_upper",
+    "arm_near": "arm_near_upper",
+    "leg_far": "leg_far_upper",
+    "leg_near": "leg_near_upper"
+  },
+  "tests": [
+    [
+      "head",
+      "head_control",
+      "rotate",
+      5
+    ],
+    [
+      "torso",
+      "torso",
+      "rotate",
+      3
+    ],
+    [
+      "shorts",
+      "pelvis",
+      "rotate",
+      4
+    ],
+    [
+      "near_hand",
+      "arm_near_target",
+      "translate",
+      5
+    ],
+    [
+      "far_hand",
+      "arm_far_target",
+      "translate",
+      5
+    ],
+    [
+      "near_foot",
+      "leg_near_target",
+      "translate",
+      4
+    ],
+    [
+      "far_foot",
+      "leg_far_target",
+      "translate",
+      4
+    ]
+  ],
+  "referencePoseTime": 0.291701,
+  "notes": "Tests freeze frame70 attachments. These are small perturbations, not proof of arbitrary pose support."
+}

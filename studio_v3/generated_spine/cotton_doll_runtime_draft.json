@@ -1,0 +1,655 @@
+{
+  "skeleton": {
+    "hash": "cotton_doll_runtime_draft_v1",
+    "spine": "4.2.43",
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "images": "./images/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "view_root",
+      "parent": "root"
+    },
+    {
+      "name": "pelvis",
+      "parent": "view_root",
+      "length": 90
+    },
+    {
+      "name": "spine_01",
+      "parent": "pelvis",
+      "length": 70
+    },
+    {
+      "name": "spine_02",
+      "parent": "spine_01",
+      "length": 70
+    },
+    {
+      "name": "chest",
+      "parent": "spine_02",
+      "length": 90
+    },
+    {
+      "name": "neck",
+      "parent": "chest",
+      "length": 28
+    },
+    {
+      "name": "head",
+      "parent": "neck",
+      "length": 80
+    },
+    {
+      "name": "clavicle_l",
+      "parent": "chest",
+      "length": 22
+    },
+    {
+      "name": "upper_arm_l",
+      "parent": "clavicle_l",
+      "length": 58
+    },
+    {
+      "name": "lower_arm_l",
+      "parent": "upper_arm_l",
+      "length": 48
+    },
+    {
+      "name": "hand_l",
+      "parent": "lower_arm_l",
+      "length": 22
+    },
+    {
+      "name": "clavicle_r",
+      "parent": "chest",
+      "length": 22
+    },
+    {
+      "name": "upper_arm_r",
+      "parent": "clavicle_r",
+      "length": 58
+    },
+    {
+      "name": "lower_arm_r",
+      "parent": "upper_arm_r",
+      "length": 48
+    },
+    {
+      "name": "hand_r",
+      "parent": "lower_arm_r",
+      "length": 22
+    },
+    {
+      "name": "thigh_l",
+      "parent": "pelvis",
+      "length": 72
+    },
+    {
+      "name": "calf_l",
+      "parent": "thigh_l",
+      "length": 64
+    },
+    {
+      "name": "foot_l",
+      "parent": "calf_l",
+      "length": 26
+    },
+    {
+      "name": "thigh_r",
+      "parent": "pelvis",
+      "length": 72
+    },
+    {
+      "name": "calf_r",
+      "parent": "thigh_r",
+      "length": 64
+    },
+    {
+      "name": "foot_r",
+      "parent": "calf_r",
+      "length": 26
+    }
+  ],
+  "slots": [
+    {
+      "name": "slot_hair_back",
+      "bone": "head",
+      "attachment": "hair_back_base"
+    },
+    {
+      "name": "slot_leg_l",
+      "bone": "thigh_l",
+      "attachment": "leg_l_base"
+    },
+    {
+      "name": "slot_leg_r",
+      "bone": "thigh_r",
+      "attachment": "leg_r_base"
+    },
+    {
+      "name": "slot_body",
+      "bone": "pelvis",
+      "attachment": "body_base"
+    },
+    {
+      "name": "slot_arm_l_back",
+      "bone": "upper_arm_l",
+      "attachment": "arm_upper_l_base"
+    },
+    {
+      "name": "slot_arm_r_back",
+      "bone": "upper_arm_r",
+      "attachment": "arm_upper_r_base"
+    },
+    {
+      "name": "slot_head",
+      "bone": "head",
+      "attachment": "head_base"
+    },
+    {
+      "name": "slot_face",
+      "bone": "head",
+      "attachment": "eye_open"
+    },
+    {
+      "name": "slot_arm_l_front",
+      "bone": "lower_arm_l",
+      "attachment": "lower_arm_l_base"
+    },
+    {
+      "name": "slot_arm_r_front",
+      "bone": "lower_arm_r",
+      "attachment": "lower_arm_r_base"
+    },
+    {
+      "name": "slot_hair_front",
+      "bone": "head",
+      "attachment": "hair_front_base"
+    },
+    {
+      "name": "slot_hand_l",
+      "bone": "hand_l",
+      "attachment": "hand_l_base"
+    },
+    {
+      "name": "slot_hand_r",
+      "bone": "hand_r",
+      "attachment": "hand_r_base"
+    },
+    {
+      "name": "slot_accessory",
+      "bone": "head",
+      "attachment": "accessory_none"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "slot_hair_back": {
+          "hair_back_base": {
+            "type": "region",
+            "path": "placeholder/hair_back_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_leg_l": {
+          "leg_l_base": {
+            "type": "region",
+            "path": "placeholder/leg_l_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_leg_r": {
+          "leg_r_base": {
+            "type": "region",
+            "path": "placeholder/leg_r_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_body": {
+          "body_base": {
+            "type": "region",
+            "path": "placeholder/body_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_arm_l_back": {
+          "arm_upper_l_base": {
+            "type": "region",
+            "path": "placeholder/arm_upper_l_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_arm_r_back": {
+          "arm_upper_r_base": {
+            "type": "region",
+            "path": "placeholder/arm_upper_r_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_head": {
+          "head_base": {
+            "type": "region",
+            "path": "placeholder/head_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_face": {
+          "eye_open": {
+            "type": "region",
+            "path": "placeholder/eye_open",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_arm_l_front": {
+          "lower_arm_l_base": {
+            "type": "region",
+            "path": "placeholder/lower_arm_l_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_arm_r_front": {
+          "lower_arm_r_base": {
+            "type": "region",
+            "path": "placeholder/lower_arm_r_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_hair_front": {
+          "hair_front_base": {
+            "type": "region",
+            "path": "placeholder/hair_front_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_hand_l": {
+          "hand_l_base": {
+            "type": "region",
+            "path": "placeholder/hand_l_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_hand_r": {
+          "hand_r_base": {
+            "type": "region",
+            "path": "placeholder/hand_r_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_accessory": {
+          "accessory_none": {
+            "type": "region",
+            "path": "placeholder/accessory_none",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "skin_outfit_default",
+      "attachments": {
+        "slot_hair_back": {
+          "hair_back_base": {
+            "type": "region",
+            "path": "placeholder/hair_back_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_leg_l": {
+          "leg_l_base": {
+            "type": "region",
+            "path": "placeholder/leg_l_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_leg_r": {
+          "leg_r_base": {
+            "type": "region",
+            "path": "placeholder/leg_r_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_body": {
+          "body_base": {
+            "type": "region",
+            "path": "placeholder/body_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_arm_l_back": {
+          "arm_upper_l_base": {
+            "type": "region",
+            "path": "placeholder/arm_upper_l_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_arm_r_back": {
+          "arm_upper_r_base": {
+            "type": "region",
+            "path": "placeholder/arm_upper_r_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_head": {
+          "head_base": {
+            "type": "region",
+            "path": "placeholder/head_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_face": {
+          "eye_open": {
+            "type": "region",
+            "path": "placeholder/eye_open",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_arm_l_front": {
+          "lower_arm_l_base": {
+            "type": "region",
+            "path": "placeholder/lower_arm_l_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_arm_r_front": {
+          "lower_arm_r_base": {
+            "type": "region",
+            "path": "placeholder/lower_arm_r_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_hair_front": {
+          "hair_front_base": {
+            "type": "region",
+            "path": "placeholder/hair_front_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_hand_l": {
+          "hand_l_base": {
+            "type": "region",
+            "path": "placeholder/hand_l_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_hand_r": {
+          "hand_r_base": {
+            "type": "region",
+            "path": "placeholder/hand_r_base",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "slot_accessory": {
+          "accessory_none": {
+            "type": "region",
+            "path": "placeholder/accessory_none",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "idle": {
+      "bones": {
+        "chest": {
+          "rotate": [
+            {
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 1.5
+            },
+            {
+              "time": 0.8,
+              "value": 0
+            }
+          ]
+        },
+        "head": {
+          "rotate": [
+            {
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": -1.0
+            },
+            {
+              "time": 0.8,
+              "value": 0
+            }
+          ]
+        },
+        "upper_arm_l": {
+          "rotate": [
+            {
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": -2.5
+            },
+            {
+              "time": 0.8,
+              "value": 0
+            }
+          ]
+        },
+        "upper_arm_r": {
+          "rotate": [
+            {
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 2.5
+            },
+            {
+              "time": 0.8,
+              "value": 0
+            }
+          ]
+        }
+      }
+    },
+    "walk": {
+      "bones": {
+        "thigh_l": {
+          "rotate": [
+            {
+              "value": 8
+            },
+            {
+              "time": 0.2,
+              "value": -12
+            },
+            {
+              "time": 0.4,
+              "value": 8
+            },
+            {
+              "time": 0.8,
+              "value": 8
+            }
+          ]
+        },
+        "thigh_r": {
+          "rotate": [
+            {
+              "value": -12
+            },
+            {
+              "time": 0.2,
+              "value": 8
+            },
+            {
+              "time": 0.4,
+              "value": -12
+            },
+            {
+              "time": 0.8,
+              "value": -12
+            }
+          ]
+        },
+        "lower_arm_l": {
+          "rotate": [
+            {
+              "value": -4
+            },
+            {
+              "time": 0.2,
+              "value": 4
+            },
+            {
+              "time": 0.4,
+              "value": -4
+            },
+            {
+              "time": 0.8,
+              "value": -4
+            }
+          ]
+        },
+        "lower_arm_r": {
+          "rotate": [
+            {
+              "value": 4
+            },
+            {
+              "time": 0.2,
+              "value": -4
+            },
+            {
+              "time": 0.4,
+              "value": 4
+            },
+            {
+              "time": 0.8,
+              "value": 4
+            }
+          ]
+        }
+      }
+    }
+  },
+  "cottonDollDraft": {
+    "status": "runtime_data_draft_placeholders",
+    "sourceDirections": [
+      "front",
+      "front_right_3q",
+      "back",
+      "back_right_3q"
+    ],
+    "mirrors": {
+      "front_left_3q": "front_right_3q",
+      "back_left_3q": "back_right_3q"
+    },
+    "templateActions": [
+      "idle",
+      "walk"
+    ],
+    "notIncluded": [
+      "real_part_png",
+      "mesh_weights",
+      "ik_constraints",
+      "editable_spine_project",
+      "unity_device_acceptance"
+    ],
+    "warning": "This is a structural runtime-data draft with placeholder attachment regions. Do not ship or treat as final art."
+  }
+}

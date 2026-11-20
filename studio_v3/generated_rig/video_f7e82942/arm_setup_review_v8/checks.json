@@ -1,0 +1,1388 @@
+{
+  "schemaVersion": 1,
+  "ownerScript": "test_video_arm_setup.py",
+  "prototypeAccepted": false,
+  "productionApproved": false,
+  "status": "isolated_test_actually_reviewed_not_accepted",
+  "scriptSha256": "0d875d5d54312ae5b61987692070a590f7a0460e8ccc219eb139e39672667119",
+  "meshCounts": {
+    "vertices": 185,
+    "triangles": 288,
+    "texturedTrianglesAlphaGt8": 207
+  },
+  "donorAlphaComponents": {
+    "nonzeroComponentCount": 123,
+    "orphanPixelsOutsideLargestComponent": 492,
+    "orphanMaximumAlpha": 1,
+    "alphaNotCleanedOrDiscarded": true
+  },
+  "visibleProportions": [
+    {
+      "alphaThreshold": 8,
+      "pixelCount": 251707,
+      "aabbPx": [
+        90.70498377640195,
+        138.8861720499781
+      ],
+      "axialLengthPx": 144.3055788047398,
+      "transverseWidthPx": 63.307741162246316
+    },
+    {
+      "alphaThreshold": 200,
+      "pixelCount": 249391,
+      "aabbPx": [
+        90.28168065583469,
+        138.4663073960324
+      ],
+      "axialLengthPx": 143.88373098820728,
+      "transverseWidthPx": 62.885893345713725
+    }
+  ],
+  "runtimePackageWritten": false,
+  "builderBuildCalled": false,
+  "builderOutRedirectedBeforeImport": true,
+  "singleArmMeshPerCase": true,
+  "limbBoneCount": 2,
+  "bodyHasNoVertexWeights": true,
+  "deformUsed": false,
+  "attachmentSwitchUsed": false,
+  "boneLengthsOldPx": [
+    56.64803615307419,
+    42.05948168962618
+  ],
+  "boneLengthsNewPx": [
+    56.648036153074166,
+    42.05948168962616
+  ],
+  "boneLengthChangesPx": [
+    -2.1316282072803006e-14,
+    -2.1316282072803006e-14
+  ],
+  "motionContract": "逐键复用build_video_guided_walk.make_motion绝对骨角、原分支、原81–84闭环修正；只补偿setup旋转基准；不重新逐插值点做IK",
+  "motionAmplitudeReduced": false,
+  "sameAbsoluteBoneAngleMaxWorldDelta": 5.684341886080802e-14,
+  "manualSemantics": {
+    "method": "ViewImage后人工推断，不是自动关节提取或直接观测",
+    "donorPixels": [
+      [
+        690.0,
+        290.0
+      ],
+      [
+        535.0,
+        580.0
+      ],
+      [
+        420.0,
+        790.0
+      ]
+    ],
+    "mappedDonorPixels": [
+      [
+        350.0,
+        456.0
+      ],
+      [
+        331.1297881126743,
+        509.910974706439
+      ],
+      [
+        316.9916497487911,
+        549.0235325261342
+      ]
+    ],
+    "newConstrainedChain": [
+      [
+        350.0,
+        456.0
+      ],
+      [
+        331.2850861021441,
+        509.46729839627056
+      ],
+      [
+        316.98714938017457,
+        549.0219315698263
+      ]
+    ],
+    "mappedDonorElbowVsConstrainedElbowPx": 0.4700703497754614,
+    "mappedDonorHandVsConstrainedEndPx": 0.004776649326076258
+  },
+  "mapping": {
+    "uniformScale": 0.17370436889480068,
+    "rotationDegrees": -8.832391355150188,
+    "linear": [
+      [
+        0.17164453648465003,
+        0.02667134919929319
+      ],
+      [
+        -0.02667134919929319,
+        0.17164453648465003
+      ]
+    ],
+    "offset": [
+      223.83057855779646,
+      424.6263153669638
+    ],
+    "linearSingularValues": [
+      0.17370436889480068,
+      0.17370436889480068
+    ],
+    "nonuniformStretch": false
+  },
+  "proportions": {
+    "donorMappedAlphaAabbPx": [
+      134.56058104011635,
+      158.62650185560688
+    ],
+    "sourceArmAlphaAabbPx": [
+      89.0,
+      137.0
+    ],
+    "donorMappedAxialLengthPx": 180.03119787587326,
+    "sourceArmAxialLengthPx": 138.26327053060356,
+    "donorMappedTransverseWidthPx": 159.81612823290197,
+    "sourceArmTransverseWidthPx": 70.59087822604693
+  },
+  "meshCoverage": {
+    "alphaThreshold": ">0",
+    "alphaPixelCount": 255004,
+    "omittedAlphaPixels": 0,
+    "omittedAlphaSum": 0,
+    "method": "全部供体alpha像素中心逐三角重心覆盖；透明凹口仅靠UV原alpha保留",
+    "sections": 37,
+    "verticesPerSection": 5,
+    "nonRectangularBboxGrid": true
+  },
+  "uvMeshConsistencyMaxErrorDonorPx": 0.0,
+  "weightedSetupReconstruction": {
+    "old_setup": 8.038873388460929e-14,
+    "donor_setup": 8.038873388460929e-14
+  },
+  "geometry": {
+    "old_setup": {
+      "17": {
+        "sampleCount": 17,
+        "flipsTriangleSamples": 56,
+        "collapseTriangleSamples": 0,
+        "samplesWithFlips": 10,
+        "minAreaRatio": -0.9625476795466126,
+        "texturedFlipsTriangleSamples": 56,
+        "texturedCollapseTriangleSamples": 0,
+        "texturedMinAreaRatio": -0.9625476795466126,
+        "texturedMinSingularValue": 0.0012772830989913732,
+        "texturedMaxSingularValue": 4.855128650330068,
+        "maxAreaRatio": 3.7336988426614393,
+        "minSingularValue": 0.0012772830989913732,
+        "maxSingularValue": 4.855128650330068,
+        "worstAreaTime": 0.0,
+        "maxMaterialResidualPx": 13.479848103163732,
+        "rmsMaterialResidualPx": 5.881023135543008
+      },
+      "193": {
+        "sampleCount": 193,
+        "flipsTriangleSamples": 586,
+        "collapseTriangleSamples": 0,
+        "samplesWithFlips": 118,
+        "minAreaRatio": -0.9625476795466126,
+        "texturedFlipsTriangleSamples": 586,
+        "texturedCollapseTriangleSamples": 0,
+        "texturedMinAreaRatio": -0.9625476795466126,
+        "texturedMinSingularValue": 6.219121435564661e-05,
+        "texturedMaxSingularValue": 4.855128650330068,
+        "maxAreaRatio": 3.7336988426614393,
+        "minSingularValue": 6.219121435564661e-05,
+        "maxSingularValue": 4.855128650330068,
+        "worstAreaTime": 0.0,
+        "maxMaterialResidualPx": 13.479848103163732,
+        "rmsMaterialResidualPx": 5.999432540100372
+      },
+      "1537": {
+        "sampleCount": 1537,
+        "flipsTriangleSamples": 4632,
+        "collapseTriangleSamples": 0,
+        "samplesWithFlips": 933,
+        "minAreaRatio": -0.9625476795466126,
+        "texturedFlipsTriangleSamples": 4632,
+        "texturedCollapseTriangleSamples": 0,
+        "texturedMinAreaRatio": -0.9625476795466126,
+        "texturedMinSingularValue": 5.845264907637389e-05,
+        "texturedMaxSingularValue": 4.855128650330068,
+        "maxAreaRatio": 3.7336988426614393,
+        "minSingularValue": 5.845264907637389e-05,
+        "maxSingularValue": 4.855128650330068,
+        "worstAreaTime": 0.0,
+        "maxMaterialResidualPx": 13.479848103163732,
+        "rmsMaterialResidualPx": 6.011208689788152
+      }
+    },
+    "donor_setup": {
+      "17": {
+        "sampleCount": 17,
+        "flipsTriangleSamples": 65,
+        "collapseTriangleSamples": 0,
+        "samplesWithFlips": 10,
+        "minAreaRatio": -1.261226969585135,
+        "texturedFlipsTriangleSamples": 65,
+        "texturedCollapseTriangleSamples": 0,
+        "texturedMinAreaRatio": -1.261226969585135,
+        "texturedMinSingularValue": 0.0036543740359269595,
+        "texturedMaxSingularValue": 3.3781767112495933,
+        "maxAreaRatio": 2.648086361244246,
+        "minSingularValue": 0.0036543740359269595,
+        "maxSingularValue": 3.3781767112495933,
+        "worstAreaTime": 0.0,
+        "maxMaterialResidualPx": 13.504239547813201,
+        "rmsMaterialResidualPx": 5.8942305943202555
+      },
+      "193": {
+        "sampleCount": 193,
+        "flipsTriangleSamples": 668,
+        "collapseTriangleSamples": 0,
+        "samplesWithFlips": 118,
+        "minAreaRatio": -1.261226969585135,
+        "texturedFlipsTriangleSamples": 668,
+        "texturedCollapseTriangleSamples": 0,
+        "texturedMinAreaRatio": -1.261226969585135,
+        "texturedMinSingularValue": 0.0007416943439240222,
+        "texturedMaxSingularValue": 3.3781767112495933,
+        "maxAreaRatio": 2.648086361244246,
+        "minSingularValue": 0.0007416943439240222,
+        "maxSingularValue": 3.3781767112495933,
+        "worstAreaTime": 0.0,
+        "maxMaterialResidualPx": 13.504239547813201,
+        "rmsMaterialResidualPx": 6.01013098015671
+      },
+      "1537": {
+        "sampleCount": 1537,
+        "flipsTriangleSamples": 5283,
+        "collapseTriangleSamples": 0,
+        "samplesWithFlips": 942,
+        "minAreaRatio": -1.261226969585135,
+        "texturedFlipsTriangleSamples": 5283,
+        "texturedCollapseTriangleSamples": 0,
+        "texturedMinAreaRatio": -1.261226969585135,
+        "texturedMinSingularValue": 0.00012688182063603836,
+        "texturedMaxSingularValue": 3.3781767112495933,
+        "maxAreaRatio": 2.648086361244246,
+        "minSingularValue": 0.00012688182063603836,
+        "maxSingularValue": 3.3781767112495933,
+        "worstAreaTime": 0.0,
+        "maxMaterialResidualPx": 13.504239547813201,
+        "rmsMaterialResidualPx": 6.021902127785126
+      }
+    }
+  },
+  "raster": {
+    "old_setup": [
+      {
+        "frame": 68,
+        "minAreaRatio": -0.9625476795466038,
+        "maxAreaRatio": 3.7336988426614446,
+        "flips": 7,
+        "collapsed": 0,
+        "interiorOverlapPixels": 519
+      },
+      {
+        "frame": 69,
+        "minAreaRatio": -0.8887289560320827,
+        "maxAreaRatio": 3.709032598843745,
+        "flips": 6,
+        "collapsed": 0,
+        "interiorOverlapPixels": 315
+      },
+      {
+        "frame": 70,
+        "minAreaRatio": -0.6051022611326232,
+        "maxAreaRatio": 3.473237945058125,
+        "flips": 4,
+        "collapsed": 0,
+        "interiorOverlapPixels": 64
+      },
+      {
+        "frame": 71,
+        "minAreaRatio": 0.0500856055191122,
+        "maxAreaRatio": 2.6132126961238904,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      {
+        "frame": 72,
+        "minAreaRatio": 0.651935962104,
+        "maxAreaRatio": 1.6325543816559973,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      {
+        "frame": 73,
+        "minAreaRatio": 0.6519359621040031,
+        "maxAreaRatio": 1.6325543816560248,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      {
+        "frame": 74,
+        "minAreaRatio": 0.6519359621039987,
+        "maxAreaRatio": 1.6325543816559978,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      {
+        "frame": 75,
+        "minAreaRatio": 0.6519359621039887,
+        "maxAreaRatio": 1.6325543816559895,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      {
+        "frame": 76,
+        "minAreaRatio": 0.6519359621040041,
+        "maxAreaRatio": 1.6325543816560044,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      {
+        "frame": 77,
+        "minAreaRatio": 0.21939639636081293,
+        "maxAreaRatio": 2.3524195833492243,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      {
+        "frame": 78,
+        "minAreaRatio": -0.666129129333974,
+        "maxAreaRatio": 3.5354661952708257,
+        "flips": 4,
+        "collapsed": 0,
+        "interiorOverlapPixels": 99
+      },
+      {
+        "frame": 79,
+        "minAreaRatio": -0.6363258786826327,
+        "maxAreaRatio": 3.505651877791202,
+        "flips": 4,
+        "collapsed": 0,
+        "interiorOverlapPixels": 78
+      },
+      {
+        "frame": 80,
+        "minAreaRatio": -0.8384797638167355,
+        "maxAreaRatio": 3.679790819215456,
+        "flips": 5,
+        "collapsed": 0,
+        "interiorOverlapPixels": 249
+      },
+      {
+        "frame": 81,
+        "minAreaRatio": -0.9381133877785061,
+        "maxAreaRatio": 3.7286183548089373,
+        "flips": 6,
+        "collapsed": 0,
+        "interiorOverlapPixels": 430
+      },
+      {
+        "frame": 82,
+        "minAreaRatio": -0.9488411413311346,
+        "maxAreaRatio": 3.7312962645443246,
+        "flips": 7,
+        "collapsed": 0,
+        "interiorOverlapPixels": 467
+      },
+      {
+        "frame": 83,
+        "minAreaRatio": -0.8963082556312528,
+        "maxAreaRatio": 3.71270862907747,
+        "flips": 6,
+        "collapsed": 0,
+        "interiorOverlapPixels": 331
+      },
+      {
+        "frame": 84,
+        "minAreaRatio": -0.9625476795466038,
+        "maxAreaRatio": 3.7336988426614446,
+        "flips": 7,
+        "collapsed": 0,
+        "interiorOverlapPixels": 519
+      }
+    ],
+    "donor_setup": [
+      {
+        "frame": 68,
+        "minAreaRatio": -1.2612269695851348,
+        "maxAreaRatio": 2.6480863612442467,
+        "flips": 8,
+        "collapsed": 0,
+        "interiorOverlapPixels": 510
+      },
+      {
+        "frame": 69,
+        "minAreaRatio": -1.1586216064508985,
+        "maxAreaRatio": 2.6368712039520186,
+        "flips": 7,
+        "collapsed": 0,
+        "interiorOverlapPixels": 348
+      },
+      {
+        "frame": 70,
+        "minAreaRatio": -0.7887486907646476,
+        "maxAreaRatio": 2.4941366133208636,
+        "flips": 5,
+        "collapsed": 0,
+        "interiorOverlapPixels": 76
+      },
+      {
+        "frame": 71,
+        "minAreaRatio": 0.011205579098535234,
+        "maxAreaRatio": 1.9416069894377785,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      {
+        "frame": 72,
+        "minAreaRatio": 0.7131079351608105,
+        "maxAreaRatio": 1.2993504888182945,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      {
+        "frame": 73,
+        "minAreaRatio": 0.7131079351608063,
+        "maxAreaRatio": 1.2993504888182987,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      {
+        "frame": 74,
+        "minAreaRatio": 0.7131079351608065,
+        "maxAreaRatio": 1.2993504888182996,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      {
+        "frame": 75,
+        "minAreaRatio": 0.7131079351607922,
+        "maxAreaRatio": 1.299350488818274,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      {
+        "frame": 76,
+        "minAreaRatio": 0.7131079351608061,
+        "maxAreaRatio": 1.2993504888182803,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      {
+        "frame": 77,
+        "minAreaRatio": 0.21126788443980934,
+        "maxAreaRatio": 1.7715865302652765,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      {
+        "frame": 78,
+        "minAreaRatio": -0.8663476648884301,
+        "maxAreaRatio": 2.5329691800615666,
+        "flips": 5,
+        "collapsed": 0,
+        "interiorOverlapPixels": 117
+      },
+      {
+        "frame": 79,
+        "minAreaRatio": -0.8283517867849363,
+        "maxAreaRatio": 2.514411539859464,
+        "flips": 5,
+        "collapsed": 0,
+        "interiorOverlapPixels": 93
+      },
+      {
+        "frame": 80,
+        "minAreaRatio": -1.0909276721011878,
+        "maxAreaRatio": 2.620439118251192,
+        "flips": 6,
+        "collapsed": 0,
+        "interiorOverlapPixels": 272
+      },
+      {
+        "frame": 81,
+        "minAreaRatio": -1.2267314787095813,
+        "maxAreaRatio": 2.646553298165385,
+        "flips": 7,
+        "collapsed": 0,
+        "interiorOverlapPixels": 434
+      },
+      {
+        "frame": 82,
+        "minAreaRatio": -1.2417992835283291,
+        "maxAreaRatio": 2.6475424695681595,
+        "flips": 7,
+        "collapsed": 0,
+        "interiorOverlapPixels": 461
+      },
+      {
+        "frame": 83,
+        "minAreaRatio": -1.1689590598408,
+        "maxAreaRatio": 2.6388306470468774,
+        "flips": 7,
+        "collapsed": 0,
+        "interiorOverlapPixels": 350
+      },
+      {
+        "frame": 84,
+        "minAreaRatio": -1.2612269695851348,
+        "maxAreaRatio": 2.6480863612442467,
+        "flips": 8,
+        "collapsed": 0,
+        "interiorOverlapPixels": 510
+      }
+    ]
+  },
+  "worstRaster": {
+    "old_setup": {
+      "minAreaRatio": -0.9625476795466038,
+      "maxAreaRatio": 3.7336988426614446,
+      "flips": 7,
+      "collapsed": 0,
+      "interiorOverlapPixels": 519
+    },
+    "donor_setup": {
+      "minAreaRatio": -1.2612269695851348,
+      "maxAreaRatio": 2.6480863612442467,
+      "flips": 8,
+      "collapsed": 0,
+      "interiorOverlapPixels": 510
+    }
+  },
+  "shoulderRootGap": {
+    "status": "人工待审",
+    "gapFreeApproved": false,
+    "noAutomaticGapFreeClaim": true
+  },
+  "visualReview": {
+    "status": "actually_viewed_failed_not_accepted",
+    "inspectedWith": "ViewImage",
+    "prototypeAccepted": false,
+    "productionApproved": false,
+    "inspectedFileHashes": {
+      "review.png": "b5aeb691c32fa92b342a59bd7c01acfa2a8cc57e21bd841669e30e8c27d9143e",
+      "old_setup_contact.png": "14876d8ec6097cf0f524501f46e3c42826fc87e341d5802dc384b81ac6cfcb3f",
+      "donor_setup_contact.png": "d71e9250f3eb0511b8cb1be0be813c1ebb8e3af6494d0caad5da37044553e16d",
+      "donor_setup_worst_assembly.png": "b7d4964e5e0804cfb126d12843d22557fd2267fa11e4011c6c6cf4aa182b58d5"
+    },
+    "shoulderRootGap": "人工待审，未批准无露缝",
+    "observations": [
+      "已实际查看旧新setup完整17帧contact、总览与供体setup最坏帧无网格线组装。",
+      "v8供体是右上肩/左下手的近直长形，手端双瓣仍可见；不是旧L形供体。",
+      "两套setup的胸前收臂形变与视频轮廓不一致；供体方向setup没有消除实纹理三角翻转。",
+      "mesh绿色边线的尖翼包括为保留alpha=1孤点而增加的透明包络，不能全部当作可见皮肤尖刺；无网格组装另行核对。",
+      "最坏帧无网格组装中，近臂下方原静态肩腋隐藏域不足，靠腰裤口处有透明缺口；不作肩根无缝通过。",
+      "骨长保持原约束，未靠加长或缩小视频动作通过；手端分瓣和隐藏肩腋结构仍待美术处理。"
+    ],
+    "passed": false,
+    "shapeAloneIsNotPass": true
+  },
+  "limitations": [
+    "只测试近臂，其余六件静态纹理随body平移，不测试全身视频动作。",
+    "条带包络允许透明余量；供体手端分瓣原alpha保留，没有修形。",
+    "只有CPU weighted mesh导出解算，不是Spine官方运行时验收。",
+    "mapped targets本身为既有人工近似；肩肘手全部是人工推断。"
+  ],
+  "videoEvidence": [
+    {
+      "frame": 68,
+      "sha256": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 69,
+      "sha256": "115df477d07ff9a3416690b06122db913e4fc0383baed5254ff53bbc15d854ee",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 70,
+      "sha256": "9c2e989facc35d66e2b5163a6cac4815f68a8ebb4f6f2d15fa115467074e983e",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 71,
+      "sha256": "434509573a59694e6b90b9927e14fd090777ca24c7cd2d52c0dcaeff5d16a99e",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 72,
+      "sha256": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 73,
+      "sha256": "ea3c8193870a44d9a98b0a995e5cc2519b825dae961bc1e013f4a0fcb88994ca",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 74,
+      "sha256": "3200f67af977d20903f69f2109dc05385f18fbe2f3e54086fda34a3e7e32d912",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 75,
+      "sha256": "030f04baccecbbaa3a1351109e2733537e956c2968873c0c7e94ebc6ebec176a",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 76,
+      "sha256": "ca0676580e05720d1f927d733d944c930c776d7c33ac2f4a2a1fb325dfb9bae9",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 77,
+      "sha256": "c3d8a2bdfeec6a45f85650813bf63a52f899187dec62d1d77d9ec0e0f207842a",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 78,
+      "sha256": "63fed24423a2afbf759e8794c4c716609a85647154f070ad7efac0b42ff353ac",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 79,
+      "sha256": "c2e238fb4a36f536be0a78c1524590ee23a1f6ef7ab145616afb3914acfc1dfd",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 80,
+      "sha256": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 81,
+      "sha256": "b46b02660221465c152edd5274260066093216e1a6cc5da01137fae3d5c91b0f",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 82,
+      "sha256": "c1e35a74624862d33b2d484d1de836195fabc2c50e4749c995a9b740776e24e2",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 83,
+      "sha256": "8d0a84da923ab2316c52bc0cb40616885eac163ea55e5873f72966a727fe50f2",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 84,
+      "sha256": "3fe5ab53f1fa27ad7d2ad6a87429196ddae7fd06df45dbfce0e2ae64a6835a25",
+      "decodedPixelsExact": true
+    }
+  ],
+  "sourceInputs": [
+    {
+      "file": "generated_rig/video_f7e82942/image2_repairs/arm_near_video_setup_v8.png",
+      "sha256": "332d54fa8fcfe609c3dad15aa54ad2b9b3b360db886e9f0690ea509905054867"
+    },
+    {
+      "file": "generated_rig/right_front_walk/source768.png",
+      "sha256": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10"
+    },
+    {
+      "file": "build_profile_walk.py",
+      "sha256": "31040f397e1f9a8790cc9ee56adfad00eff0006a74fedf03d2036c36923aad81"
+    },
+    {
+      "file": "build_video_guided_walk.py",
+      "sha256": "1e4d596169d711205071bcc5c6496c6ed5623de7fccdc121bd16d2f51458b4e9"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/sources.json",
+      "sha256": "e0281aa3dbd8440fa2808603284e9938158bf07eb2c4c148c75b9a8332040f06"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/source.mp4",
+      "sha256": "8fc0f8406d6a258640b65d34c5ad7fb0e35f231131d7eec945781dd9d93343e5"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_068.png",
+      "sha256": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_069.png",
+      "sha256": "115df477d07ff9a3416690b06122db913e4fc0383baed5254ff53bbc15d854ee"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_070.png",
+      "sha256": "9c2e989facc35d66e2b5163a6cac4815f68a8ebb4f6f2d15fa115467074e983e"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_071.png",
+      "sha256": "434509573a59694e6b90b9927e14fd090777ca24c7cd2d52c0dcaeff5d16a99e"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_072.png",
+      "sha256": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_073.png",
+      "sha256": "ea3c8193870a44d9a98b0a995e5cc2519b825dae961bc1e013f4a0fcb88994ca"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_074.png",
+      "sha256": "3200f67af977d20903f69f2109dc05385f18fbe2f3e54086fda34a3e7e32d912"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_075.png",
+      "sha256": "030f04baccecbbaa3a1351109e2733537e956c2968873c0c7e94ebc6ebec176a"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_076.png",
+      "sha256": "ca0676580e05720d1f927d733d944c930c776d7c33ac2f4a2a1fb325dfb9bae9"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_077.png",
+      "sha256": "c3d8a2bdfeec6a45f85650813bf63a52f899187dec62d1d77d9ec0e0f207842a"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_078.png",
+      "sha256": "63fed24423a2afbf759e8794c4c716609a85647154f070ad7efac0b42ff353ac"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_079.png",
+      "sha256": "c2e238fb4a36f536be0a78c1524590ee23a1f6ef7ab145616afb3914acfc1dfd"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_080.png",
+      "sha256": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_081.png",
+      "sha256": "b46b02660221465c152edd5274260066093216e1a6cc5da01137fae3d5c91b0f"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_082.png",
+      "sha256": "c1e35a74624862d33b2d484d1de836195fabc2c50e4749c995a9b740776e24e2"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_083.png",
+      "sha256": "8d0a84da923ab2316c52bc0cb40616885eac163ea55e5873f72966a727fe50f2"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_084.png",
+      "sha256": "3fe5ab53f1fa27ad7d2ad6a87429196ddae7fd06df45dbfce0e2ae64a6835a25"
+    }
+  ],
+  "boneInference": {
+    "rows": [
+      {
+        "frame": 68,
+        "time": 0.0,
+        "visibleTarget": true,
+        "videoPoint": [
+          374,
+          352
+        ],
+        "mappedTarget": [
+          309.95,
+          522.4
+        ],
+        "inferredRoot": [
+          350.0,
+          456.0
+        ],
+        "inferredJoint": [
+          350.861750265513,
+          512.6414811465934
+        ],
+        "projectedBoneEndpoint": [
+          309.95,
+          522.4
+        ],
+        "fixedLengthProjectionResidualPx": 0.0,
+        "jointObservation": false
+      },
+      {
+        "frame": 69,
+        "time": 0.041666666666666664,
+        "visibleTarget": true,
+        "videoPoint": [
+          389,
+          361
+        ],
+        "mappedTarget": [
+          331.7,
+          535.45
+        ],
+        "inferredRoot": [
+          351.45,
+          457.45
+        ],
+        "inferredJoint": [
+          366.63269337656834,
+          512.025505694708
+        ],
+        "projectedBoneEndpoint": [
+          331.7,
+          535.45
+        ],
+        "fixedLengthProjectionResidualPx": 0.0,
+        "jointObservation": false
+      },
+      {
+        "frame": 70,
+        "time": 0.08333333333333333,
+        "visibleTarget": true,
+        "videoPoint": [
+          429,
+          350
+        ],
+        "mappedTarget": [
+          389.7,
+          519.5
+        ],
+        "inferredRoot": [
+          352.9,
+          440.05
+        ],
+        "inferredJoint": [
+          395.1419856995537,
+          477.7940676684257
+        ],
+        "projectedBoneEndpoint": [
+          389.7,
+          519.5
+        ],
+        "fixedLengthProjectionResidualPx": 0.0,
+        "jointObservation": false
+      },
+      {
+        "frame": 71,
+        "time": 0.125,
+        "visibleTarget": true,
+        "videoPoint": [
+          450,
+          339
+        ],
+        "mappedTarget": [
+          420.15,
+          503.55
+        ],
+        "inferredRoot": [
+          352.9,
+          435.7
+        ],
+        "inferredJoint": [
+          400.54807366003485,
+          466.3375762175778
+        ],
+        "projectedBoneEndpoint": [
+          420.15,
+          503.55
+        ],
+        "fixedLengthProjectionResidualPx": 0.0,
+        "jointObservation": false
+      },
+      {
+        "frame": 72,
+        "time": 0.16666666666666666,
+        "visibleTarget": true,
+        "videoPoint": [
+          461,
+          332
+        ],
+        "mappedTarget": [
+          436.1,
+          493.4
+        ],
+        "inferredRoot": [
+          352.9,
+          434.25
+        ],
+        "inferredJoint": [
+          401.16853494462146,
+          463.9004390237287
+        ],
+        "projectedBoneEndpoint": [
+          433.1043063899311,
+          491.2702490740916
+        ],
+        "fixedLengthProjectionResidualPx": 3.675597803326062,
+        "jointObservation": false
+      },
+      {
+        "frame": 73,
+        "time": 0.20833333333333334,
+        "visibleTarget": true,
+        "videoPoint": [
+          472,
+          325
+        ],
+        "mappedTarget": [
+          452.05,
+          483.25
+        ],
+        "inferredRoot": [
+          352.9,
+          431.35
+        ],
+        "inferredJoint": [
+          404.7382695161706,
+          454.19280660446213
+        ],
+        "projectedBoneEndpoint": [
+          440.085387417586,
+          476.9871316890843
+        ],
+        "fixedLengthProjectionResidualPx": 13.504646375493573,
+        "jointObservation": false
+      },
+      {
+        "frame": 74,
+        "time": 0.25,
+        "visibleTarget": true,
+        "videoPoint": [
+          473,
+          331
+        ],
+        "mappedTarget": [
+          453.5,
+          491.95
+        ],
+        "inferredRoot": [
+          352.9,
+          444.4
+        ],
+        "inferredJoint": [
+          405.6245779063136,
+          465.11518487972205
+        ],
+        "projectedBoneEndpoint": [
+          441.86968211310807,
+          486.45276724133487
+        ],
+        "fixedLengthProjectionResidualPx": 12.864053099746569,
+        "jointObservation": false
+      },
+      {
+        "frame": 75,
+        "time": 0.2916666666666667,
+        "visibleTarget": true,
+        "videoPoint": [
+          469,
+          341
+        ],
+        "mappedTarget": [
+          447.7,
+          506.45
+        ],
+        "inferredRoot": [
+          350.0,
+          453.1
+        ],
+        "inferredJoint": [
+          401.4286526433606,
+          476.85065656542076
+        ],
+        "projectedBoneEndpoint": [
+          436.3695549385858,
+          500.2629043600159
+        ],
+        "fixedLengthProjectionResidualPx": 12.909652890300162,
+        "jointObservation": false
+      },
+      {
+        "frame": 76,
+        "time": 0.3333333333333333,
+        "visibleTarget": true,
+        "videoPoint": [
+          461,
+          350
+        ],
+        "mappedTarget": [
+          436.1,
+          519.5
+        ],
+        "inferredRoot": [
+          347.1,
+          461.8
+        ],
+        "inferredJoint": [
+          396.59406911779337,
+          489.3560723283108
+        ],
+        "projectedBoneEndpoint": [
+          429.6726885844042,
+          515.3330801271924
+        ],
+        "fixedLengthProjectionResidualPx": 7.6598663995821195,
+        "jointObservation": false
+      },
+      {
+        "frame": 77,
+        "time": 0.375,
+        "visibleTarget": true,
+        "videoPoint": [
+          447,
+          358
+        ],
+        "mappedTarget": [
+          415.8,
+          531.1
+        ],
+        "inferredRoot": [
+          344.2,
+          466.15
+        ],
+        "inferredJoint": [
+          392.1425951686304,
+          496.3246179511326
+        ],
+        "projectedBoneEndpoint": [
+          415.8,
+          531.1
+        ],
+        "fixedLengthProjectionResidualPx": 0.0,
+        "jointObservation": false
+      },
+      {
+        "frame": 78,
+        "time": 0.4166666666666667,
+        "visibleTarget": true,
+        "videoPoint": [
+          413,
+          354
+        ],
+        "mappedTarget": [
+          366.5,
+          525.3
+        ],
+        "inferredRoot": [
+          345.65,
+          441.5
+        ],
+        "inferredJoint": [
+          380.95350528577336,
+          485.80194707388574
+        ],
+        "projectedBoneEndpoint": [
+          366.5,
+          525.3
+        ],
+        "fixedLengthProjectionResidualPx": 0.0,
+        "jointObservation": false
+      },
+      {
+        "frame": 79,
+        "time": 0.4583333333333333,
+        "visibleTarget": true,
+        "videoPoint": [
+          393,
+          350
+        ],
+        "mappedTarget": [
+          337.5,
+          519.5
+        ],
+        "inferredRoot": [
+          344.2,
+          432.8
+        ],
+        "inferredJoint": [
+          363.1653424208804,
+          486.1789826322941
+        ],
+        "projectedBoneEndpoint": [
+          337.5,
+          519.5
+        ],
+        "fixedLengthProjectionResidualPx": 0.0,
+        "jointObservation": false
+      },
+      {
+        "frame": 80,
+        "time": 0.5,
+        "visibleTarget": true,
+        "videoPoint": [
+          380,
+          345
+        ],
+        "mappedTarget": [
+          318.65,
+          512.25
+        ],
+        "inferredRoot": [
+          344.2,
+          434.25
+        ],
+        "inferredJoint": [
+          354.3325740734639,
+          489.98446817406415
+        ],
+        "projectedBoneEndpoint": [
+          318.65,
+          512.25
+        ],
+        "fixedLengthProjectionResidualPx": 0.0,
+        "jointObservation": false
+      },
+      {
+        "frame": 81,
+        "time": 0.5416666666666666,
+        "visibleTarget": true,
+        "videoPoint": [
+          370,
+          339
+        ],
+        "mappedTarget": [
+          304.15,
+          503.55
+        ],
+        "inferredRoot": [
+          344.2,
+          435.7
+        ],
+        "inferredJoint": [
+          344.6897160403068,
+          492.34591934287823
+        ],
+        "projectedBoneEndpoint": [
+          304.15,
+          503.55
+        ],
+        "fixedLengthProjectionResidualPx": 0.0,
+        "jointObservation": false
+      },
+      {
+        "frame": 82,
+        "time": 0.5833333333333334,
+        "visibleTarget": true,
+        "videoPoint": [
+          361,
+          340
+        ],
+        "mappedTarget": [
+          291.1,
+          505.0
+        ],
+        "inferredRoot": [
+          342.75,
+          445.85
+        ],
+        "inferredJoint": [
+          333.0264381222918,
+          501.6572785970646
+        ],
+        "projectedBoneEndpoint": [
+          291.1,
+          505.0
+        ],
+        "fixedLengthProjectionResidualPx": 0.0,
+        "jointObservation": false
+      },
+      {
+        "frame": 83,
+        "time": 0.625,
+        "visibleTarget": true,
+        "videoPoint": [
+          363,
+          347
+        ],
+        "mappedTarget": [
+          294.0,
+          515.15
+        ],
+        "inferredRoot": [
+          345.65,
+          453.1
+        ],
+        "inferredJoint": [
+          335.5844600464741,
+          508.8466133988781
+        ],
+        "projectedBoneEndpoint": [
+          294.0,
+          515.15
+        ],
+        "fixedLengthProjectionResidualPx": 0.0,
+        "jointObservation": false
+      },
+      {
+        "frame": 84,
+        "time": 0.6666666666666666,
+        "visibleTarget": true,
+        "videoPoint": [
+          373,
+          352
+        ],
+        "mappedTarget": [
+          308.5,
+          522.4
+        ],
+        "inferredRoot": [
+          350.0,
+          456.0
+        ],
+        "inferredJoint": [
+          349.4125871732847,
+          512.6449904772788
+        ],
+        "projectedBoneEndpoint": [
+          308.5,
+          522.4
+        ],
+        "fixedLengthProjectionResidualPx": 0.0,
+        "jointObservation": false
+      }
+    ],
+    "rawAnglesDegrees": [
+      [
+        21.546062351618623,
+        -80.12604490986081
+      ],
+      [
+        36.220785064789155,
+        -74.3723681104044
+      ],
+      [
+        68.89299318125872,
+        -58.32305124117519
+      ],
+      [
+        77.93352220815466,
+        -32.15100165821445
+      ],
+      [
+        79.1128132423909,
+        -11.706110747596863
+      ],
+      [
+        86.89348331373047,
+        -11.706110747596863
+      ],
+      [
+        89.22484532975896,
+        -11.706110747596863
+      ],
+      [
+        85.88610108294453,
+        -11.706110747596863
+      ],
+      [
+        81.56733091985332,
+        -11.706110747596863
+      ],
+      [
+        78.48849996261724,
+        -26.25720798528044
+      ],
+      [
+        59.22519950594111,
+        -61.320104660939805
+      ],
+      [
+        40.2343503629613,
+        -59.835266416360255
+      ],
+      [
+        30.978310347198562,
+        -71.01044131858951
+      ],
+      [
+        21.16974664097031,
+        -77.716226307321
+      ],
+      [
+        10.790732837103414,
+        -78.22812160451322
+      ],
+      [
+        10.439443631497934,
+        -73.8159826602251
+      ],
+      [
+        20.08028449977015,
+        -78.66518172871704
+      ]
+    ],
+    "closureCorrectionDegrees": [
+      -1.4657778518484719,
+      1.4608631811437647
+    ],
+    "upperLength": 56.64803615307419,
+    "lowerLength": 42.05948168962618
+  },
+  "protectedFileCount": 50,
+  "protectedFilesUnchanged": true,
+  "protectedHashes": {
+    "build_profile_walk.py": "31040f397e1f9a8790cc9ee56adfad00eff0006a74fedf03d2036c36923aad81",
+    "build_video_guided_walk.py": "1e4d596169d711205071bcc5c6496c6ed5623de7fccdc121bd16d2f51458b4e9",
+    "generated_rig/right_front_walk/source768.png": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+    "generated_rig/video_f7e82942/image2_repairs/arm_near_video_setup_v8.png": "332d54fa8fcfe609c3dad15aa54ad2b9b3b360db886e9f0690ea509905054867",
+    "generated_rig/video_f7e82942/source.mp4": "8fc0f8406d6a258640b65d34c5ad7fb0e35f231131d7eec945781dd9d93343e5",
+    "generated_rig/video_f7e82942/stable_parts_v1/arm_far.png": "d8e783debe155efbb7fdb52f0d9415de60af3e199cc861e36a4f9528c5847490",
+    "generated_rig/video_f7e82942/stable_parts_v1/arm_near.png": "7cd90180cb6c851def01c5195286a93ffc9420f8a76c6115c811436430597874",
+    "generated_rig/video_f7e82942/stable_parts_v1/body.png": "fc310a95f186d884c1d10ae17392085339fc801e8ef9dbc86b4b139839df729c",
+    "generated_rig/video_f7e82942/stable_parts_v1/body_assembly_review.png": "2d6c9fec6852df7af58f7e57715815e7bab0490bffc4e4555d686b93ff60b691",
+    "generated_rig/video_f7e82942/stable_parts_v1/body_interfaces_review.png": "bd5e954f80482dcb6830c0aa8c08f343fdf54ff739f9a22ec8f550abf3a11a25",
+    "generated_rig/video_f7e82942/stable_parts_v1/body_repair_mask.png": "6bcb6ab40ee20e8051d2452081dba10def9004bd83b0e1b4cbdaa83c828e59cd",
+    "generated_rig/video_f7e82942/stable_parts_v1/body_visible_mask.png": "9db9d413fb7cc22402bddb9dd6df07ed72e1d7aafc05b82fcd6ceed8b7f09e96",
+    "generated_rig/video_f7e82942/stable_parts_v1/head.png": "4f3950e1575f962212adca60486ebe441dadc9e2d8ae65c46d5f6779579e0555",
+    "generated_rig/video_f7e82942/stable_parts_v1/leg_far.png": "2ca541c17028ac69356a403c8c753178cb146e46ff7b407bfd6ef81ef8caa548",
+    "generated_rig/video_f7e82942/stable_parts_v1/leg_near.png": "d9b5b9b00c647abe4a47b41c968a3999d4211530e926022c43353b4021dca72e",
+    "generated_rig/video_f7e82942/stable_parts_v1/manifest.json": "c928c89c6f64864359a89e429bc80f5518a3e5149e4dbc5990478c60a243569b",
+    "generated_rig/video_f7e82942/stable_parts_v1/review.png": "90e370a8a0c3bed645fb58282df98062881623b030956a853320b16a77db6727",
+    "generated_rig/video_f7e82942/stable_parts_v1/shorts.png": "3632fa898f75da728218456fd8e8b7346988f7dfd649737edb82eb8a9a72ba03",
+    "generated_rig/video_f7e82942/stable_parts_v1/shorts_review.png": "7f743e084040fc947986208c9399e6937b8992871abd843da377d7d92d32237d",
+    "generated_rig/video_f7e82942/stable_parts_v1/source_reference.png": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+    "generated_rig/video_f7e82942/stable_parts_v1/source_shorts_detail.png": "91238feaaac8ecd4f07066c51f2452d9feedbdced43202e610ed3d707a941eb5",
+    "generated_rig/video_f7e82942/video_guided_walk_v2/checks.json": "6c25176db022931fd814c058ae31437664e90f61ccd8446d07e61de524ec764b",
+    "generated_rig/video_f7e82942/video_guided_walk_v2/evidence.json": "1c3c6f5396585b5a0823dd4ec4d6d9065fc7e15285df1dccdb5ec1e054e964c2",
+    "generated_rig/video_f7e82942/video_guided_walk_v2/profile.json": "37fe996cb7f0c98ec41fdd91716f428e776f953f051fa3c766bb390c188ddf52",
+    "generated_rig/video_f7e82942/video_guided_walk_v2/profile_walk.atlas": "eab6996adbed79c81a719bf77f92b383cb1a209f7483114ebf408155d6bf44a6",
+    "generated_rig/video_f7e82942/video_guided_walk_v2/profile_walk.json": "c4520086b1e86047dac66ba0e0681d34228a28d6b73738ae08486112450c627f",
+    "generated_rig/video_f7e82942/video_guided_walk_v2/profile_walk.png": "fa17d490378313cfda33f7100d70c5001f1bbc83a9c54c81f4a417b41b9a5d6b",
+    "generated_rig/video_f7e82942/video_guided_walk_v2/provenance.json": "68cd4d4b045aad1e24f67d804702d1a7346056673ea36a10f94c346caa584241",
+    "generated_rig/video_f7e82942/video_guided_walk_v2/review.gif": "7ed1035f5d80d48ffcbd2a4bd70431013c4f9540b0edcc96d8caf228112f7ca6",
+    "generated_rig/video_f7e82942/video_guided_walk_v2/review.png": "f1ff355e369532e0fa58614ec0172b15aed7e1a5df4a44d51e638b6cc5d43282",
+    "generated_rig/video_f7e82942/video_guided_walk_v2/video_guided_walk_v2.zip": "6cb06b2615748724f50bd969c032293d71916196c84f990d90060bd78e44c8be",
+    "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_068.png": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871",
+    "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_069.png": "115df477d07ff9a3416690b06122db913e4fc0383baed5254ff53bbc15d854ee",
+    "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_070.png": "9c2e989facc35d66e2b5163a6cac4815f68a8ebb4f6f2d15fa115467074e983e",
+    "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_071.png": "434509573a59694e6b90b9927e14fd090777ca24c7cd2d52c0dcaeff5d16a99e",
+    "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_072.png": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93",
+    "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_073.png": "ea3c8193870a44d9a98b0a995e5cc2519b825dae961bc1e013f4a0fcb88994ca",
+    "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_074.png": "3200f67af977d20903f69f2109dc05385f18fbe2f3e54086fda34a3e7e32d912",
+    "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_075.png": "030f04baccecbbaa3a1351109e2733537e956c2968873c0c7e94ebc6ebec176a",
+    "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_076.png": "ca0676580e05720d1f927d733d944c930c776d7c33ac2f4a2a1fb325dfb9bae9",
+    "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_077.png": "c3d8a2bdfeec6a45f85650813bf63a52f899187dec62d1d77d9ec0e0f207842a",
+    "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_078.png": "63fed24423a2afbf759e8794c4c716609a85647154f070ad7efac0b42ff353ac",
+    "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_079.png": "c2e238fb4a36f536be0a78c1524590ee23a1f6ef7ab145616afb3914acfc1dfd",
+    "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_080.png": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02",
+    "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_081.png": "b46b02660221465c152edd5274260066093216e1a6cc5da01137fae3d5c91b0f",
+    "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_082.png": "c1e35a74624862d33b2d484d1de836195fabc2c50e4749c995a9b740776e24e2",
+    "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_083.png": "8d0a84da923ab2316c52bc0cb40616885eac163ea55e5873f72966a727fe50f2",
+    "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_084.png": "3fe5ab53f1fa27ad7d2ad6a87429196ddae7fd06df45dbfce0e2ae64a6835a25",
+    "generated_rig/video_f7e82942/video_parts_v1/cycle_review/sources.json": "e0281aa3dbd8440fa2808603284e9938158bf07eb2c4c148c75b9a8332040f06",
+    "video-guided-source.js": "bcde3e702ddf4240458772994303771133f3a4242f8c76678c017f63dbc67ab4"
+  },
+  "numericalGeometryPassed": false,
+  "failureReasons": [
+    "old_setup:1537采样翻转4632，塌缩0，最小面积比-0.96254768",
+    "old_setup:最小奇异值0.00005845，明显压缩风险",
+    "donor_setup:1537采样翻转5283，塌缩0，最小面积比-1.26122697",
+    "donor_setup:最小奇异值0.00012688，明显压缩风险",
+    "肩根露缝未获人工无缝批准，AI供体手端分瓣尚未解决。",
+    "数值合格也不提升候选；prototypeAccepted=false、productionApproved=false。"
+  ]
+}

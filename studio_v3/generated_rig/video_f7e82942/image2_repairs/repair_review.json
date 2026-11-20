@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-14",
+  "generator": "image2/gpt-image-2",
+  "mode": "edit",
+  "quality": "medium",
+  "requestedSize": "1536x1024",
+  "sourceTaskId": "comfy_f7e82942-05e3-4c7e-8e30-e974e2a233fa",
+  "characterId": null,
+  "sourceVideoSha256": "8fc0f8406d6a258640b65d34c5ad7fb0e35f231131d7eec945781dd9d93343e5",
+  "references": [
+    {
+      "role": "master_identity_style_proportions",
+      "file": "../../right_front_walk/source768.png",
+      "sha256": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+      "size": [768, 768],
+      "note": "PNG snapshot from legacy asset directory, used only as master artwork reference; no legacy motion data used. Snapshot byte hash differs from original-source hash in legacy manifest."
+    },
+    {
+      "role": "actual_video_pose_and_occlusion",
+      "file": "../frames/frame_008.jpg",
+      "sourceFrameIndex": 8,
+      "sha256": "e352628c7d591bc41b50ad70416fb752aa82a36e5f4b21b133e1b844e637a127",
+      "size": [864, 480]
+    }
+  ],
+  "v1": {
+    "file": "repair_sheet_v1.png",
+    "preview": "repair_sheet_v1_light_preview.jpg",
+    "sha256": "435b8412ba58fd05432125be4d41767dc16eb6575076657dab7712e6e42bf599",
+    "bytes": 878872,
+    "size": [1536, 1024],
+    "mode": "RGBA",
+    "alphaExtrema": [0, 255],
+    "transparentPixels": 1144300,
+    "partialAlphaPixels": 428428,
+    "prompt": "Image 1 is the exact master character design. Image 2 is its walking video, pose reference only. Make a separated repair sheet of this SAME cotton plush doll for 2D rigging. Keep master warm beige plush texture, brown outlines, white toy shorts, chubby proportions, right-front three-quarter view. Six isolated parts, 3 columns x 2 rows: complete armless legless torso with shorts and reconstructed hidden shoulders/hips; complete relaxed near arm; complete relaxed far arm; complete near leg with foot; complete far leg with hidden thigh and foot restored; alternate near arm swinging forward based on image 2. Slight hidden overlap extensions at joints. Consistent part scale, generous transparent padding. No head, no full doll, no redesign, no extra pieces, no text, no shadow, no printed checkerboard.",
+    "promptModifiers": {
+      "style": "Exact master-reference style, no restyling",
+      "composition": "Six separate parts, 3 columns by 2 rows",
+      "constraints": "Preserve view, texture, proportions and identity",
+      "negative": "redesign, extra limbs, full doll, checkerboard, labels"
+    },
+    "reviewStatus": "needs_rework_not_approved_for_binding",
+    "positiveFindings": [
+      "Six spatially separated image groups with actual transparent background",
+      "Warm cream plush, brown contours and white toy shorts broadly retained",
+      "No head or assembled whole character generated"
+    ],
+    "blockingFindings": [
+      "Torso still includes two thigh masses: not a legless clean body backing",
+      "Sheet torso appears more frontal than the master right-front three-quarter view",
+      "Arm and thigh interfaces depict visible open cross-sections, not clean hidden overlap backing",
+      "Bent arm shoulder-to-hand mapping and its relation to source frame 8 are unresolved",
+      "Independent part scaling, reconstruction alignment and near/far identities not validated"
+    ],
+    "correctedObservation": "Initial red/yellow edge report was a transparency-preview artifact; light-background composite has no obvious colored fringe. Do not treat this as a verified raster defect.",
+    "promotedToRuntime": false
+  },
+  "v2": {
+    "status": "service_content_check_rejected",
+    "httpStatus": 400,
+    "fileGenerated": false,
+    "retriedAfterRejection": false,
+    "note": "No alternate endpoint or reworded retry after service refusal."
+  },
+  "notCompleted": [
+    "Production-ready inpainted parts",
+    "Joint overlap reconstruction and assembly verification",
+    "Video-driven skeleton fitting",
+    "Spine animation/runtime export",
+    "Unity or mobile performance acceptance"
+  ]
+}

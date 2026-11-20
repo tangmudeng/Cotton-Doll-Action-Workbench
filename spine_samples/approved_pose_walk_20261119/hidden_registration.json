@@ -1,0 +1,20 @@
+{
+  "registrationMethod": "piecewise affine Delaunay with explicit contour landmarks in repair_hidden.py",
+  "siftDiagnosticOnly": {
+    "affine": [
+      [
+        0.9914588085827237,
+        -0.0036861810898281265,
+        -0.34437787813022414
+      ],
+      [
+        0.0036861810898281265,
+        0.9914588085827237,
+        1.4225733611474805
+      ]
+    ],
+    "inliers": 17,
+    "matches": 45
+  },
+  "edits": "continuous body and shorts repaint accepted by user; far arm from approved standing screenshot; hidden leg roots from local skin texture"
+}

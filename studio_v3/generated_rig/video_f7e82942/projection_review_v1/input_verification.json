@@ -1,0 +1,110 @@
+{
+  "sourceImage": "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\right_front_walk\\source768.png",
+  "sourceImageSha256": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+  "sourceVideoSha256": "8fc0f8406d6a258640b65d34c5ad7fb0e35f231131d7eec945781dd9d93343e5",
+  "frames": [
+    {
+      "frame": 68,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_068.png",
+      "sha256": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 69,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_069.png",
+      "sha256": "115df477d07ff9a3416690b06122db913e4fc0383baed5254ff53bbc15d854ee",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 70,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_070.png",
+      "sha256": "9c2e989facc35d66e2b5163a6cac4815f68a8ebb4f6f2d15fa115467074e983e",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 71,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_071.png",
+      "sha256": "434509573a59694e6b90b9927e14fd090777ca24c7cd2d52c0dcaeff5d16a99e",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 72,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_072.png",
+      "sha256": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 73,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_073.png",
+      "sha256": "ea3c8193870a44d9a98b0a995e5cc2519b825dae961bc1e013f4a0fcb88994ca",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 74,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_074.png",
+      "sha256": "3200f67af977d20903f69f2109dc05385f18fbe2f3e54086fda34a3e7e32d912",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 75,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_075.png",
+      "sha256": "030f04baccecbbaa3a1351109e2733537e956c2968873c0c7e94ebc6ebec176a",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 76,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_076.png",
+      "sha256": "ca0676580e05720d1f927d733d944c930c776d7c33ac2f4a2a1fb325dfb9bae9",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 77,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_077.png",
+      "sha256": "c3d8a2bdfeec6a45f85650813bf63a52f899187dec62d1d77d9ec0e0f207842a",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 78,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_078.png",
+      "sha256": "63fed24423a2afbf759e8794c4c716609a85647154f070ad7efac0b42ff353ac",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 79,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_079.png",
+      "sha256": "c2e238fb4a36f536be0a78c1524590ee23a1f6ef7ab145616afb3914acfc1dfd",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 80,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_080.png",
+      "sha256": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 81,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_081.png",
+      "sha256": "b46b02660221465c152edd5274260066093216e1a6cc5da01137fae3d5c91b0f",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 82,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_082.png",
+      "sha256": "c1e35a74624862d33b2d484d1de836195fabc2c50e4749c995a9b740776e24e2",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 83,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_083.png",
+      "sha256": "8d0a84da923ab2316c52bc0cb40616885eac163ea55e5873f72966a727fe50f2",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 84,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_084.png",
+      "sha256": "3fe5ab53f1fa27ad7d2ad6a87429196ddae7fd06df45dbfce0e2ae64a6835a25",
+      "decodedPixelsExact": true
+    }
+  ],
+  "method": "独立顺序解码原视频068..084，逐像素比较原PNG；未执行构建。"
+}

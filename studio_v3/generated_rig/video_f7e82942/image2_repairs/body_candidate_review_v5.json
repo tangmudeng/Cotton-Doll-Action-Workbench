@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-15",
+  "generator": "image2/gpt-image-2",
+  "mode": "edit",
+  "characterId": null,
+  "promotedToRuntime": false,
+  "approvedForBinding": false,
+  "sourcePixelOnly": false,
+  "hiddenComplete": false,
+  "status": "candidate_needs_interface_rework_not_main_atlas",
+  "taskId": "comfy_f7e82942-05e3-4c7e-8e30-e974e2a233fa",
+  "sourceVideoSha256": "8fc0f8406d6a258640b65d34c5ad7fb0e35f231131d7eec945781dd9d93343e5",
+  "references": [
+    {"file": "../../right_front_walk/source768.png", "role": "canonical_style_and_proportions", "sha256": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10"},
+    {"file": "../video_parts_v1/cycle_review/crop_068_2x.png", "frame": 68, "role": "v4_arms_out_occlusion", "sha256": "86a6f9509ca9c7c6108a21abf39d8dcb38750fba37a854fff7c83737e1679119"},
+    {"file": "../video_parts_v1/cycle_review/crop_072_2x.png", "frame": 72, "role": "v4_v5_chest_arm_occlusion", "sha256": "0ed50631dcfdfe8dce09045e7170470535d4161fc41898fc4acf194fbb5cf3c3"},
+    {"file": "../video_parts_v1/cycle_review/crop_080_2x.png", "frame": 80, "role": "v4_crossed_leg_occlusion", "sha256": "67f2727546ca1bdd59db67e1092e665b6a7c05e0c11a0698eafe620966a24ecf"}
+  ],
+  "v4": {
+    "file": "body_candidate_v4.png",
+    "sha256": "32ef053d87317ccfde0f51917cd259ef854468092a2f7833da5d821cea067cc5",
+    "requestedSize": [1024, 1024],
+    "actualSize": [1254, 1254],
+    "review": "body_candidate_v4_review.jpg",
+    "blockingFindings": ["肩部带短臂状鼓包", "颈口有椭圆切面线", "相对原图偏正面，未配准"]
+  },
+  "v5": {
+    "file": "body_candidate_v5.png",
+    "sha256": "f2bf1a8c97d669ba7f0a11d24e5d4f5bda696521886e5701f52ebfa1019ae2c6",
+    "requestedSize": [1024, 1024],
+    "actualSize": [1254, 1254],
+    "mode": "RGBA",
+    "alphaExtrema": [0, 255],
+    "previewOnlyAlphaCutoff": 8,
+    "previewBodyBBox": [254, 196, 1029, 1096],
+    "previewPlacement": {"topLeft": [331, 421], "size": [150, 174], "space": "source768_pixels", "method": "manual_static_trial_not_landmark_fit"},
+    "review": "body_candidate_v5_alignment_review.jpg",
+    "reviewSha256": "a3dd942212207974bfa8237aaf3e9682fc24de788bd67f65a52173df6065d2da",
+    "positiveFindings": ["只有独立毛绒躯干，没有头、腿、短裤", "明显短臂鼓包与开放颈口已改善"],
+    "blockingFindings": ["静态试组装仍在两肩靠近颈部处露出浅底缺口", "候选与原图描边、色调、腰口边界尚未融合", "真实肩髋接口、朝向与身体体积未通过动态验收", "低透明度散点使alpha>0包围盒接近整图，不能直接以其作为有效部件边界", "服务输出尺寸与请求尺寸不一致，未擅自当成1024资源"],
+    "note": "alpha<8仅在审阅合成图中清理；生成原文件不改动。第一张assembly_review使用alpha>0外框导致缩放错误，只作失败配准记录，不作最终审阅图。"
+  },
+  "unchanged": ["stable_parts_v1/body仍为file=null", "所有稳定主图集部件未批准绑定", "未接入旧runtime或正弦walk", "未制作mesh、weights、IK或视频拟合动作"],
+  "next": "保留原图可见躯干，使用已生成候选局部补足肩颈和腰髋遮挡域；必须记录补画掩码，校验原可见像素与动态接口，不直接缩放整张候选替换原身体。"
+}

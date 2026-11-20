@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "taskId": "comfy_f7e82942-05e3-4c7e-8e30-e974e2a233fa",
+  "packageId": "video_guided_walk_v2",
+  "characterId": null,
+  "prototypeAccepted": false,
+  "productionApproved": false,
+  "wardrobeVerified": false,
+  "crossCharacterVerified": false,
+  "mobileVerified": false,
+  "status": "candidate_reviewed_not_accepted",
+  "stableManifest": {
+    "file": "generated_rig/video_f7e82942/stable_parts_v1/manifest.json",
+    "sha256": "c928c89c6f64864359a89e429bc80f5518a3e5149e4dbc5990478c60a243569b"
+  },
+  "stableParts": [
+    {
+      "id": "head",
+      "file": "generated_rig/video_f7e82942/stable_parts_v1/head.png",
+      "expectedSha256": "4f3950e1575f962212adca60486ebe441dadc9e2d8ae65c46d5f6779579e0555",
+      "actualSha256": "4f3950e1575f962212adca60486ebe441dadc9e2d8ae65c46d5f6779579e0555"
+    },
+    {
+      "id": "body",
+      "file": "generated_rig/video_f7e82942/stable_parts_v1/body.png",
+      "expectedSha256": "fc310a95f186d884c1d10ae17392085339fc801e8ef9dbc86b4b139839df729c",
+      "actualSha256": "fc310a95f186d884c1d10ae17392085339fc801e8ef9dbc86b4b139839df729c"
+    },
+    {
+      "id": "shorts",
+      "file": "generated_rig/video_f7e82942/stable_parts_v1/shorts.png",
+      "expectedSha256": "3632fa898f75da728218456fd8e8b7346988f7dfd649737edb82eb8a9a72ba03",
+      "actualSha256": "3632fa898f75da728218456fd8e8b7346988f7dfd649737edb82eb8a9a72ba03"
+    },
+    {
+      "id": "arm_near",
+      "file": "generated_rig/video_f7e82942/stable_parts_v1/arm_near.png",
+      "expectedSha256": "7cd90180cb6c851def01c5195286a93ffc9420f8a76c6115c811436430597874",
+      "actualSha256": "7cd90180cb6c851def01c5195286a93ffc9420f8a76c6115c811436430597874"
+    },
+    {
+      "id": "arm_far",
+      "file": "generated_rig/video_f7e82942/stable_parts_v1/arm_far.png",
+      "expectedSha256": "d8e783debe155efbb7fdb52f0d9415de60af3e199cc861e36a4f9528c5847490",
+      "actualSha256": "d8e783debe155efbb7fdb52f0d9415de60af3e199cc861e36a4f9528c5847490"
+    },
+    {
+      "id": "leg_near",
+      "file": "generated_rig/video_f7e82942/stable_parts_v1/leg_near.png",
+      "expectedSha256": "d9b5b9b00c647abe4a47b41c968a3999d4211530e926022c43353b4021dca72e",
+      "actualSha256": "d9b5b9b00c647abe4a47b41c968a3999d4211530e926022c43353b4021dca72e"
+    },
+    {
+      "id": "leg_far",
+      "file": "generated_rig/video_f7e82942/stable_parts_v1/leg_far.png",
+      "expectedSha256": "2ca541c17028ac69356a403c8c753178cb146e46ff7b407bfd6ef81ef8caa548",
+      "actualSha256": "2ca541c17028ac69356a403c8c753178cb146e46ff7b407bfd6ef81ef8caa548"
+    }
+  ],
+  "reference": {
+    "fps": 24,
+    "video": "generated_rig/video_f7e82942/source.mp4",
+    "videoSha256": "8fc0f8406d6a258640b65d34c5ad7fb0e35f231131d7eec945781dd9d93343e5",
+    "sources": {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/sources.json",
+      "sha256": "e0281aa3dbd8440fa2808603284e9938158bf07eb2c4c148c75b9a8332040f06"
+    },
+    "evidence": {
+      "file": "evidence.json",
+      "sha256": "1c3c6f5396585b5a0823dd4ec4d6d9065fc7e15285df1dccdb5ec1e054e964c2"
+    }
+  },
+  "motion": {
+    "method": "可见轮廓中心人工坐标目标→固定长度语义双骨IK分支→81–84有限闭环修正；无手填摆幅替代视频目标。",
+    "duration": 0.6666666666666666,
+    "targetFrames": [
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84
+    ],
+    "automaticJointExtraction": false,
+    "isIK": true,
+    "mapping": "固定等比1.45，原图比例不随AI每帧变化",
+    "closure": {
+      "arm_near": {
+        "videoPointDeltaPx": 1.0,
+        "mappedTargetDeltaPx": 1.4499999999999886,
+        "rawProjectedEndpointDeltaPx": 1.4499999999999886,
+        "distributedAngleCorrectionDegrees": [
+          -1.4657778518484719,
+          1.4608631811437647
+        ],
+        "finalMaterialResidualAt84Px": 1.4499999999999886,
+        "finalMaterialLoopErrorPx": 0.0
+      },
+      "arm_far": {
+        "videoPointDeltaPx": 1.4142135623730951,
+        "mappedTargetDeltaPx": 2.0506096654409314,
+        "rawProjectedEndpointDeltaPx": 2.0506096654408914,
+        "distributedAngleCorrectionDegrees": [
+          2.536774133862906,
+          -6.856211610559498
+        ],
+        "finalMaterialResidualAt84Px": 2.0506096654409314,
+        "finalMaterialLoopErrorPx": 0.0
+      },
+      "leg_near": {
+        "videoPointDeltaPx": 1.0,
+        "mappedTargetDeltaPx": 1.4500000000000455,
+        "rawProjectedEndpointDeltaPx": 0.567944605855751,
+        "distributedAngleCorrectionDegrees": [
+          -0.44888985212306665,
+          0.0
+        ],
+        "finalMaterialResidualAt84Px": 11.980246210525456,
+        "finalMaterialLoopErrorPx": 0.0
+      },
+      "leg_far": {
+        "videoPointDeltaPx": 1.0,
+        "mappedTargetDeltaPx": 1.4500000000000455,
+        "rawProjectedEndpointDeltaPx": 1.4499999999999318,
+        "distributedAngleCorrectionDegrees": [
+          -0.7888245313104782,
+          3.800584920876446
+        ],
+        "finalMaterialResidualAt84Px": 1.4500000000000455,
+        "finalMaterialLoopErrorPx": 0.0
+      }
+    },
+    "maxVisibleMaterialResidualPx": 36.64144073161964,
+    "rmsVisibleMaterialResidualPx": 13.930356582919742,
+    "maxResidualExample": {
+      "part": "leg_far",
+      "frame": 74,
+      "time": 0.25,
+      "visibleTarget": true,
+      "videoPoint": [
+        509,
+        426
+      ],
+      "mappedTarget": [
+        505.7,
+        629.7
+      ],
+      "inferredRoot": [
+        439.9,
+        563.4
+      ],
+      "inferredJoint": [
+        465.09453478750015,
+        584.6893263595033
+      ],
+      "projectedBoneEndpoint": [
+        479.8888410905553,
+        603.6927076641917
+      ],
+      "fixedLengthProjectionResidualPx": 36.64144073161972,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        479.8888410905553,
+        603.6927076641919
+      ],
+      "materialResidualPx": 36.64144073161964,
+      "videoEquivalentResidualPx": 25.269959125254925
+    },
+    "numericalLoopDoesNotProveVideoFit": true
+  },
+  "textureStatement": "七件纹理均为稳定静态原图素材；body保留既有4095px AI供体搭接，本构建不新增纹理、不从视频裁片、不补全隐藏面。",
+  "rendering": "从磁盘Spine JSON weighted vertices和atlas解码；CPU逐三角纹理采样；失败三角仅调整栅格绕序显示，不更改导出。",
+  "visualReview": {
+    "status": "actually_reviewed_candidate_failed_video_match",
+    "inspectedWith": "ViewImage",
+    "file": "review.png",
+    "sha256": "f1ff355e369532e0fa58614ec0172b15aed7e1a5df4a44d51e638b6cc5d43282",
+    "scope": "7主姿态含68/72/76/80/84及10过渡的真实导出图，蓝色骨链/红色目标与原视频对照。",
+    "observations": [
+      "动作已由视频可见点驱动而非旧小摆幅；胸前收臂与换脚有明显变化。",
+      "原图肩根/腿根及侧臂纹理不足，视频转面与胸前圆手轮廓不能仅凭当前静态四mesh完整复现。",
+      "最终193相位仍有近腿12个三角×相位翻转，最小面积比-0.1009817864；74–77过渡腿口/肩根切口和轮廓扭曲可见。",
+      "最大可见材料点残差36.6414px（视频等价25.2700px），出现在f74 leg_far；数值循环误差0并不代表视频复现通过。",
+      "更强权重及反向膝弯分支已实际试验，反向分支造成更明显腿根拉脱，最终保留原分支较优失败候选。"
+    ],
+    "passed": false
+  },
+  "limitations": [
+    "七件纹理均为稳定静态原图素材；body保留既有4095px AI供体搭接，本构建不新增纹理、不从视频裁片、不补全隐藏面。",
+    "肩、肘、髋、膝为语义双骨链推断，不是自动关节提取或直接观测；near/far不确立解剖左右或跨帧身份。",
+    "采用单一1.45倍映射，固定原图骨长和纹理比例，AI视频的转面/扁脚/逐帧比例变化没有照搬；误差逐点如实保留。",
+    "原侧臂可见纹理弯到胸前有隐藏轮廓缺失和切口外露风险；数值无翻转不能替代造型匹配。",
+    "68/84只是候选周期；81–84分布角度闭环修正使数值循环成立，不等于视频闭环成立。",
+    "CPU导出解算未通过Spine官方运行时、换装、跨角色、移动端或生产验收。"
+  ],
+  "script": {
+    "file": "build_video_guided_walk.py",
+    "sha256": "6c86ae5be5310d696a923725e414dde494ecb979edba9a61987e6c954ffa2031"
+  }
+}

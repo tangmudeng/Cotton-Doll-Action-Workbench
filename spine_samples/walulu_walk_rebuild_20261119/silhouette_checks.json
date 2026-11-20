@@ -1,0 +1,383 @@
+[
+  {
+    "phase": 0.0,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.020833333333333332,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.041666666666666664,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.0625,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.08333333333333333,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.10416666666666667,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.125,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.14583333333333334,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.16666666666666666,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.1875,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.20833333333333334,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.22916666666666666,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.25,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.2708333333333333,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.2916666666666667,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.3125,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.3333333333333333,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.3541666666666667,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.375,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.3958333333333333,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.4166666666666667,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.4375,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.4583333333333333,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.4791666666666667,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.5,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.5208333333333334,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.5416666666666666,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.5625,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.5833333333333334,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.6041666666666666,
+    "components": 1,
+    "holes": [
+      [
+        389,
+        589,
+        24,
+        35,
+        442
+      ]
+    ]
+  },
+  {
+    "phase": 0.625,
+    "components": 1,
+    "holes": [
+      [
+        389,
+        589,
+        22,
+        29,
+        348
+      ]
+    ]
+  },
+  {
+    "phase": 0.6458333333333334,
+    "components": 1,
+    "holes": [
+      [
+        390,
+        588,
+        19,
+        26,
+        270
+      ]
+    ]
+  },
+  {
+    "phase": 0.6666666666666666,
+    "components": 1,
+    "holes": [
+      [
+        390,
+        588,
+        17,
+        22,
+        212
+      ]
+    ]
+  },
+  {
+    "phase": 0.6875,
+    "components": 1,
+    "holes": [
+      [
+        391,
+        588,
+        14,
+        19,
+        149
+      ]
+    ]
+  },
+  {
+    "phase": 0.7083333333333334,
+    "components": 1,
+    "holes": [
+      [
+        391,
+        588,
+        13,
+        16,
+        111
+      ]
+    ]
+  },
+  {
+    "phase": 0.7291666666666666,
+    "components": 1,
+    "holes": [
+      [
+        391,
+        588,
+        12,
+        15,
+        90
+      ]
+    ]
+  },
+  {
+    "phase": 0.75,
+    "components": 1,
+    "holes": [
+      [
+        391,
+        587,
+        12,
+        15,
+        81
+      ]
+    ]
+  },
+  {
+    "phase": 0.7708333333333334,
+    "components": 1,
+    "holes": [
+      [
+        392,
+        587,
+        10,
+        14,
+        69
+      ]
+    ]
+  },
+  {
+    "phase": 0.7916666666666666,
+    "components": 1,
+    "holes": [
+      [
+        392,
+        587,
+        10,
+        13,
+        58
+      ]
+    ]
+  },
+  {
+    "phase": 0.8125,
+    "components": 1,
+    "holes": [
+      [
+        392,
+        587,
+        9,
+        11,
+        48
+      ]
+    ]
+  },
+  {
+    "phase": 0.8333333333333334,
+    "components": 1,
+    "holes": [
+      [
+        392,
+        586,
+        9,
+        11,
+        38
+      ]
+    ]
+  },
+  {
+    "phase": 0.8541666666666666,
+    "components": 1,
+    "holes": [
+      [
+        392,
+        586,
+        8,
+        9,
+        32
+      ]
+    ]
+  },
+  {
+    "phase": 0.875,
+    "components": 1,
+    "holes": [
+      [
+        391,
+        586,
+        11,
+        14,
+        72
+      ]
+    ]
+  },
+  {
+    "phase": 0.8958333333333334,
+    "components": 1,
+    "holes": [
+      [
+        390,
+        586,
+        15,
+        19,
+        144
+      ]
+    ]
+  },
+  {
+    "phase": 0.9166666666666666,
+    "components": 1,
+    "holes": [
+      [
+        389,
+        586,
+        19,
+        25,
+        241
+      ]
+    ]
+  },
+  {
+    "phase": 0.9375,
+    "components": 1,
+    "holes": [
+      [
+        389,
+        587,
+        22,
+        33,
+        368
+      ]
+    ]
+  },
+  {
+    "phase": 0.9583333333333334,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 0.9791666666666666,
+    "components": 1,
+    "holes": []
+  },
+  {
+    "phase": 1.0,
+    "components": 1,
+    "holes": []
+  }
+]

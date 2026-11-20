@@ -1,0 +1,37 @@
+{
+  "leg_far": {
+    "minAreaRatio": 0.09345051641002358,
+    "flips": 0,
+    "collapsed": 0
+  },
+  "leg_near": {
+    "minAreaRatio": 0.037625639087846996,
+    "flips": 0,
+    "collapsed": 0
+  },
+  "body": {
+    "minAreaRatio": 0.9999999999999999,
+    "flips": 0,
+    "collapsed": 0
+  },
+  "shorts": {
+    "minAreaRatio": 1.0,
+    "flips": 0,
+    "collapsed": 0
+  },
+  "arm_far": {
+    "minAreaRatio": 0.6168071680423282,
+    "flips": 0,
+    "collapsed": 0
+  },
+  "arm_near": {
+    "minAreaRatio": 0.6950662594643803,
+    "flips": 0,
+    "collapsed": 0
+  },
+  "head": {
+    "minAreaRatio": 0.9999999999999996,
+    "flips": 0,
+    "collapsed": 0
+  }
+}

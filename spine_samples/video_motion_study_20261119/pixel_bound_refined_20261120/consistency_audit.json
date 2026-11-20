@@ -1,0 +1,130 @@
+{
+  "sampleTimes": 973,
+  "maxBoneTransformDifference": 0.007993681706196298,
+  "maxSameAttachmentVertexDifferencePx": 0.020574569702148438,
+  "matchingAttachmentSamples": 6461,
+  "attachmentSwitchMismatchCount": 350,
+  "mismatchExamples": [
+    {
+      "t": 0.041667666666666665,
+      "slot": "arm_far",
+      "browser": "arm_far_64",
+      "export": "arm_far_63"
+    },
+    {
+      "t": 0.041667666666666665,
+      "slot": "leg_far",
+      "browser": "leg_far_64",
+      "export": "leg_far_63"
+    },
+    {
+      "t": 0.041667666666666665,
+      "slot": "leg_near",
+      "browser": "leg_near_64",
+      "export": "leg_near_63"
+    },
+    {
+      "t": 0.041667666666666665,
+      "slot": "torso",
+      "browser": "torso_64",
+      "export": "torso_63"
+    },
+    {
+      "t": 0.041667666666666665,
+      "slot": "shorts",
+      "browser": "shorts_64",
+      "export": "shorts_63"
+    },
+    {
+      "t": 0.041667666666666665,
+      "slot": "arm_near",
+      "browser": "arm_near_64",
+      "export": "arm_near_63"
+    },
+    {
+      "t": 0.041667666666666665,
+      "slot": "head",
+      "browser": "head_64",
+      "export": "head_63"
+    },
+    {
+      "t": 0.041699,
+      "slot": "arm_far",
+      "browser": "arm_far_64",
+      "export": "arm_far_63"
+    },
+    {
+      "t": 0.041699,
+      "slot": "leg_far",
+      "browser": "leg_far_64",
+      "export": "leg_far_63"
+    },
+    {
+      "t": 0.041699,
+      "slot": "leg_near",
+      "browser": "leg_near_64",
+      "export": "leg_near_63"
+    },
+    {
+      "t": 0.041699,
+      "slot": "torso",
+      "browser": "torso_64",
+      "export": "torso_63"
+    },
+    {
+      "t": 0.041699,
+      "slot": "shorts",
+      "browser": "shorts_64",
+      "export": "shorts_63"
+    },
+    {
+      "t": 0.041699,
+      "slot": "arm_near",
+      "browser": "arm_near_64",
+      "export": "arm_near_63"
+    },
+    {
+      "t": 0.041699,
+      "slot": "head",
+      "browser": "head_64",
+      "export": "head_63"
+    },
+    {
+      "t": 0.0417,
+      "slot": "arm_far",
+      "browser": "arm_far_64",
+      "export": "arm_far_63"
+    },
+    {
+      "t": 0.0417,
+      "slot": "leg_far",
+      "browser": "leg_far_64",
+      "export": "leg_far_63"
+    },
+    {
+      "t": 0.0417,
+      "slot": "leg_near",
+      "browser": "leg_near_64",
+      "export": "leg_near_63"
+    },
+    {
+      "t": 0.0417,
+      "slot": "torso",
+      "browser": "torso_64",
+      "export": "torso_63"
+    },
+    {
+      "t": 0.0417,
+      "slot": "shorts",
+      "browser": "shorts_64",
+      "export": "shorts_63"
+    },
+    {
+      "t": 0.0417,
+      "slot": "arm_near",
+      "browser": "arm_near_64",
+      "export": "arm_near_63"
+    }
+  ],
+  "note": "Original browser input versus freshly exported packaged Spine project. Exact key-time precision can change discrete attachment selection."
+}

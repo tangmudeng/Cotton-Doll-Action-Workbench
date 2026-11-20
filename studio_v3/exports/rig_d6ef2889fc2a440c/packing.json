@@ -1,0 +1,48 @@
+{
+  "width": 1024,
+  "height": 512,
+  "regions": {
+    "head": {
+      "x": 4,
+      "y": 4,
+      "width": 410,
+      "height": 347
+    },
+    "body": {
+      "x": 422,
+      "y": 4,
+      "width": 161,
+      "height": 138
+    },
+    "shorts": {
+      "x": 591,
+      "y": 4,
+      "width": 142,
+      "height": 74
+    },
+    "arm_near": {
+      "x": 741,
+      "y": 4,
+      "width": 90,
+      "height": 138
+    },
+    "arm_far": {
+      "x": 839,
+      "y": 4,
+      "width": 53,
+      "height": 104
+    },
+    "leg_near": {
+      "x": 900,
+      "y": 4,
+      "width": 91,
+      "height": 127
+    },
+    "leg_far": {
+      "x": 4,
+      "y": 359,
+      "width": 82,
+      "height": 117
+    }
+  }
+}

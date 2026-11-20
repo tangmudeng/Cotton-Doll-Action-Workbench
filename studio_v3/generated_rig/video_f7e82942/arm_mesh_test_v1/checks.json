@@ -1,0 +1,249 @@
+{
+  "sourceAllTrackedFilesUnchanged": true,
+  "trackedFileCount": 17,
+  "sourceHashesBeforeAndAfter": {
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\manifest.json": {
+      "before": "c928c89c6f64864359a89e429bc80f5518a3e5149e4dbc5990478c60a243569b",
+      "after": "c928c89c6f64864359a89e429bc80f5518a3e5149e4dbc5990478c60a243569b"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\right_front_walk\\source768.png": {
+      "before": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+      "after": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\arm_far.png": {
+      "before": "d8e783debe155efbb7fdb52f0d9415de60af3e199cc861e36a4f9528c5847490",
+      "after": "d8e783debe155efbb7fdb52f0d9415de60af3e199cc861e36a4f9528c5847490"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\arm_near.png": {
+      "before": "7cd90180cb6c851def01c5195286a93ffc9420f8a76c6115c811436430597874",
+      "after": "7cd90180cb6c851def01c5195286a93ffc9420f8a76c6115c811436430597874"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\body.png": {
+      "before": "fc310a95f186d884c1d10ae17392085339fc801e8ef9dbc86b4b139839df729c",
+      "after": "fc310a95f186d884c1d10ae17392085339fc801e8ef9dbc86b4b139839df729c"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\body_assembly_review.png": {
+      "before": "2d6c9fec6852df7af58f7e57715815e7bab0490bffc4e4555d686b93ff60b691",
+      "after": "2d6c9fec6852df7af58f7e57715815e7bab0490bffc4e4555d686b93ff60b691"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\body_interfaces_review.png": {
+      "before": "bd5e954f80482dcb6830c0aa8c08f343fdf54ff739f9a22ec8f550abf3a11a25",
+      "after": "bd5e954f80482dcb6830c0aa8c08f343fdf54ff739f9a22ec8f550abf3a11a25"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\body_repair_mask.png": {
+      "before": "6bcb6ab40ee20e8051d2452081dba10def9004bd83b0e1b4cbdaa83c828e59cd",
+      "after": "6bcb6ab40ee20e8051d2452081dba10def9004bd83b0e1b4cbdaa83c828e59cd"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\body_visible_mask.png": {
+      "before": "9db9d413fb7cc22402bddb9dd6df07ed72e1d7aafc05b82fcd6ceed8b7f09e96",
+      "after": "9db9d413fb7cc22402bddb9dd6df07ed72e1d7aafc05b82fcd6ceed8b7f09e96"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\head.png": {
+      "before": "4f3950e1575f962212adca60486ebe441dadc9e2d8ae65c46d5f6779579e0555",
+      "after": "4f3950e1575f962212adca60486ebe441dadc9e2d8ae65c46d5f6779579e0555"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\leg_far.png": {
+      "before": "2ca541c17028ac69356a403c8c753178cb146e46ff7b407bfd6ef81ef8caa548",
+      "after": "2ca541c17028ac69356a403c8c753178cb146e46ff7b407bfd6ef81ef8caa548"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\leg_near.png": {
+      "before": "d9b5b9b00c647abe4a47b41c968a3999d4211530e926022c43353b4021dca72e",
+      "after": "d9b5b9b00c647abe4a47b41c968a3999d4211530e926022c43353b4021dca72e"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\review.png": {
+      "before": "90e370a8a0c3bed645fb58282df98062881623b030956a853320b16a77db6727",
+      "after": "90e370a8a0c3bed645fb58282df98062881623b030956a853320b16a77db6727"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\shorts.png": {
+      "before": "3632fa898f75da728218456fd8e8b7346988f7dfd649737edb82eb8a9a72ba03",
+      "after": "3632fa898f75da728218456fd8e8b7346988f7dfd649737edb82eb8a9a72ba03"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\shorts_review.png": {
+      "before": "7f743e084040fc947986208c9399e6937b8992871abd843da377d7d92d32237d",
+      "after": "7f743e084040fc947986208c9399e6937b8992871abd843da377d7d92d32237d"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\source_reference.png": {
+      "before": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+      "after": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10"
+    },
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\source_shorts_detail.png": {
+      "before": "91238feaaac8ecd4f07066c51f2452d9feedbdced43202e610ed3d707a941eb5",
+      "after": "91238feaaac8ecd4f07066c51f2452d9feedbdced43202e610ed3d707a941eb5"
+    }
+  },
+  "sourceManifestHashesMatch": true,
+  "sourceVisibleArmRgbaMismatchPixels": 0,
+  "manualControlsAlphaChecks": [
+    {
+      "joint": "shoulder",
+      "globalXY": [
+        350.0,
+        456.0
+      ],
+      "alpha": 255,
+      "visibleIn9x9": 81,
+      "interpretation": "视觉及alpha检查可作可见臂人工控制点，不是关节解剖或视频测量验证"
+    },
+    {
+      "joint": "elbow",
+      "globalXY": [
+        330.0,
+        509.0
+      ],
+      "alpha": 255,
+      "visibleIn9x9": 81,
+      "interpretation": "视觉及alpha检查可作可见臂人工控制点，不是关节解剖或视频测量验证"
+    },
+    {
+      "joint": "hand",
+      "globalXY": [
+        317.0,
+        555.0
+      ],
+      "alpha": 255,
+      "visibleIn9x9": 81,
+      "interpretation": "视觉及alpha检查可作可见臂人工控制点，不是关节解剖或视频测量验证"
+    }
+  ],
+  "mesh": {
+    "vertexCount": 204,
+    "triangleCount": 352,
+    "weightsFiniteNonnegative": true,
+    "weightsSumMaxError": 0.0,
+    "uvFiniteIn01": true,
+    "triangleIndicesValid": true,
+    "twoBones": true
+  },
+  "layerOrderBackToFront": [
+    "leg_far",
+    "leg_near",
+    "body",
+    "shorts",
+    "arm_far",
+    "arm_near",
+    "head"
+  ],
+  "neutralUnwarpedAssemblyVsSourceVisibleRgbaMismatchPixels": 0,
+  "poses": {
+    "neutral": {
+      "mesh": {
+        "flippedTriangles": 0,
+        "collapsedTriangles": 0,
+        "flippedTrianglesWithSourceAlphaInAabb": 0,
+        "collapsedTrianglesWithSourceAlphaInAabb": 0,
+        "collapseDoubleAreaThresholdPx2": 0.001,
+        "absoluteTriangleAreaRatioMin": 0.9999999999999937,
+        "absoluteTriangleAreaRatioMax": 1.0000000000000062,
+        "texturedTriangleAreaRatioMin": 0.9999999999999937,
+        "texturedTriangleAreaRatioMax": 1.0000000000000062,
+        "overlappingTriangleInteriorRasterPixels": 0,
+        "rasterPolicy": "整数像素中心重心归属；预乘alpha仿射；共享边不重复合成；折叠重叠按三角索引后写覆盖，未修复"
+      },
+      "renderedArmAlphaPixels": 7326,
+      "armAlphaAreaEquivalentPixels": 7213.035294117647,
+      "armAlphaAreaRatioToSource": 1.0,
+      "boneLengthRatios": [
+        1.0,
+        1.0
+      ],
+      "exposureVsNeutral": {
+        "lostAnyAlphaPixels": 0,
+        "lostNearOpaquePixels": 0,
+        "lostAlphaAreaEquivalentPixelsInNeutralDomain": 0.0,
+        "interpretation": "只与静态中性七层域对照的移开暴露证据；包括正常轮廓移开，不是真实姿态缺口/视频误差"
+      },
+      "armComparedWithNeutralSourceDomain": {
+        "lostAlphaPixels": 0,
+        "newAlphaPixels": 0,
+        "interpretation": "源臂domain变化，仅描述平面移开，不作为姿态真值"
+      },
+      "neutralMeshRestoration": {
+        "actuallyMeshRasterized": true,
+        "originalImageUsedInsteadOfMesh": false,
+        "vertexMaxAbsolutePositionErrorPx": 5.684341886080802e-14,
+        "rgbaMismatchPixelsInVisibleUnion": 0,
+        "rgbaMaeInVisibleUnion": 0.0,
+        "rgbaMaxErrorInVisibleUnion": 0,
+        "premultipliedRgbaMaeInVisibleUnion": 0.0,
+        "alphaMismatchPixels": 0,
+        "sourceVisiblePixelsNotCoveredByTriangleRaster": 0,
+        "transparentRgbMismatchPixelsIgnored": 0,
+        "interpretation": "忽略全透明RGB；零误差若出现，是实际恒等三角光栅结果，不是源图替代输出"
+      }
+    },
+    "open": {
+      "mesh": {
+        "flippedTriangles": 5,
+        "collapsedTriangles": 0,
+        "flippedTrianglesWithSourceAlphaInAabb": 1,
+        "collapsedTrianglesWithSourceAlphaInAabb": 0,
+        "collapseDoubleAreaThresholdPx2": 0.001,
+        "absoluteTriangleAreaRatioMin": 0.1092026161893665,
+        "absoluteTriangleAreaRatioMax": 1.7934020286873962,
+        "texturedTriangleAreaRatioMin": 0.1092026161893665,
+        "texturedTriangleAreaRatioMax": 1.6755990316630238,
+        "overlappingTriangleInteriorRasterPixels": 59,
+        "rasterPolicy": "整数像素中心重心归属；预乘alpha仿射；共享边不重复合成；折叠重叠按三角索引后写覆盖，未修复"
+      },
+      "renderedArmAlphaPixels": 7548,
+      "armAlphaAreaEquivalentPixels": 7201.607843137255,
+      "armAlphaAreaRatioToSource": 0.9984157222979747,
+      "boneLengthRatios": [
+        1.0000000000000004,
+        1.0000000000000004
+      ],
+      "exposureVsNeutral": {
+        "lostAnyAlphaPixels": 777,
+        "lostNearOpaquePixels": 1019,
+        "lostAlphaAreaEquivalentPixelsInNeutralDomain": 904.964705882353,
+        "interpretation": "只与静态中性七层域对照的移开暴露证据；包括正常轮廓移开，不是真实姿态缺口/视频误差"
+      },
+      "armComparedWithNeutralSourceDomain": {
+        "lostAlphaPixels": 777,
+        "newAlphaPixels": 999,
+        "interpretation": "源臂domain变化，仅描述平面移开，不作为姿态真值"
+      }
+    },
+    "chest": {
+      "mesh": {
+        "flippedTriangles": 17,
+        "collapsedTriangles": 0,
+        "flippedTrianglesWithSourceAlphaInAabb": 6,
+        "collapsedTrianglesWithSourceAlphaInAabb": 0,
+        "collapseDoubleAreaThresholdPx2": 0.001,
+        "absoluteTriangleAreaRatioMin": 0.05580329688426555,
+        "absoluteTriangleAreaRatioMax": 2.902627857345216,
+        "texturedTriangleAreaRatioMin": 0.11829159872765012,
+        "texturedTriangleAreaRatioMax": 1.8777952788910246,
+        "overlappingTriangleInteriorRasterPixels": 1495,
+        "rasterPolicy": "整数像素中心重心归属；预乘alpha仿射；共享边不重复合成；折叠重叠按三角索引后写覆盖，未修复"
+      },
+      "renderedArmAlphaPixels": 5724,
+      "armAlphaAreaEquivalentPixels": 5441.850980392157,
+      "armAlphaAreaRatioToSource": 0.754446742390139,
+      "boneLengthRatios": [
+        0.9558662428544757,
+        0.8828539359430106
+      ],
+      "exposureVsNeutral": {
+        "lostAnyAlphaPixels": 4645,
+        "lostNearOpaquePixels": 4674,
+        "lostAlphaAreaEquivalentPixelsInNeutralDomain": 4664.2588235294115,
+        "interpretation": "只与静态中性七层域对照的移开暴露证据；包括正常轮廓移开，不是真实姿态缺口/视频误差"
+      },
+      "armComparedWithNeutralSourceDomain": {
+        "lostAlphaPixels": 4645,
+        "newAlphaPixels": 3043,
+        "interpretation": "源臂domain变化，仅描述平面移开，不作为姿态真值"
+      }
+    }
+  },
+  "notVideoFitted": true,
+  "oldRuntimeRead": false,
+  "sineWalkRead": false,
+  "pendingShoulderRepairReadOrRequired": false,
+  "bindingValidated": false,
+  "hiddenComplete": false,
+  "identityValidated": false,
+  "structuralChecksPassed": true
+}

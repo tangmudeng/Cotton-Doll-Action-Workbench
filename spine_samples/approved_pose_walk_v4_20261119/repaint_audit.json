@@ -1,0 +1,30 @@
+{
+  "shorts": {
+    "source": "shorts_repaint.png",
+    "crop": [
+      153,
+      332,
+      719,
+      359
+    ],
+    "medianColorOffset": [
+      1.0,
+      0.0,
+      1.0
+    ]
+  },
+  "arm_far": {
+    "source": "arm_far_repaint.png",
+    "crop": [
+      385,
+      160,
+      257,
+      688
+    ],
+    "medianColorOffset": [
+      -3.0,
+      -8.0,
+      -6.0
+    ]
+  }
+}

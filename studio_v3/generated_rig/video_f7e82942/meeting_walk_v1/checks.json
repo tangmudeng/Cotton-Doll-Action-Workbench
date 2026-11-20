@@ -1,0 +1,148 @@
+{
+  "status": "meeting_demo_only",
+  "productionApproved": false,
+  "hiddenComplete": false,
+  "sourceHashesVerified": true,
+  "sourceVideoFrames68to84DecodedPixelExact": true,
+  "allSevenStablePartsHashVerified": true,
+  "stableManifestUnchanged": true,
+  "originalVisiblePreserved": {
+    "head": {
+      "originalVisibleRgbaMismatchPixels": 0,
+      "newSupportPixelsThisBuild": 0,
+      "stablePartBytesShaVerified": true
+    },
+    "body": {
+      "originalVisibleRgbaMismatchPixels": 0,
+      "newSupportPixelsThisBuild": 0,
+      "stablePartBytesShaVerified": true
+    },
+    "shorts": {
+      "originalVisibleRgbaMismatchPixels": 0,
+      "newSupportPixelsThisBuild": 0,
+      "stablePartBytesShaVerified": true
+    },
+    "arm_near": {
+      "originalVisibleRgbaMismatchPixels": 0,
+      "newSupportPixelsThisBuild": 0,
+      "stablePartBytesShaVerified": true
+    },
+    "arm_far": {
+      "originalVisibleRgbaMismatchPixels": 0,
+      "newSupportPixelsThisBuild": 0,
+      "stablePartBytesShaVerified": true
+    },
+    "leg_near": {
+      "originalVisibleRgbaMismatchPixels": 0,
+      "newSupportPixelsThisBuild": 0,
+      "stablePartBytesShaVerified": true
+    },
+    "leg_far": {
+      "originalVisibleRgbaMismatchPixels": 0,
+      "newSupportPixelsThisBuild": 0,
+      "stablePartBytesShaVerified": true
+    }
+  },
+  "finiteValues": true,
+  "strictlyIncreasingTimelineTimes": true,
+  "durationSeconds": 0.6666666666666666,
+  "loopFirstLastKeysExact": true,
+  "loopRender": {
+    "foregroundUnionPixels": 131972,
+    "rgbaMismatchPixels": 0,
+    "premultipliedMismatchPixels": 0,
+    "sourceForegroundUncoveredPixels": 0,
+    "alphaMismatchPixels": 0
+  },
+  "neutral": {
+    "foregroundUnionPixels": 131786,
+    "rgbaMismatchPixels": 0,
+    "premultipliedMismatchPixels": 0,
+    "sourceForegroundUncoveredPixels": 0,
+    "alphaMismatchPixels": 0
+  },
+  "neutralSourceRecoverable": true,
+  "atlasRegions": {
+    "head": {
+      "insidePageWithPadding": true,
+      "extrudedPaddingPixels": 4,
+      "contentAndExtrusionExact": true
+    },
+    "body": {
+      "insidePageWithPadding": true,
+      "extrudedPaddingPixels": 4,
+      "contentAndExtrusionExact": true
+    },
+    "shorts": {
+      "insidePageWithPadding": true,
+      "extrudedPaddingPixels": 4,
+      "contentAndExtrusionExact": true
+    },
+    "arm_near": {
+      "insidePageWithPadding": true,
+      "extrudedPaddingPixels": 4,
+      "contentAndExtrusionExact": true
+    },
+    "arm_far": {
+      "insidePageWithPadding": true,
+      "extrudedPaddingPixels": 4,
+      "contentAndExtrusionExact": true
+    },
+    "leg_near": {
+      "insidePageWithPadding": true,
+      "extrudedPaddingPixels": 4,
+      "contentAndExtrusionExact": true
+    },
+    "leg_far": {
+      "insidePageWithPadding": true,
+      "extrudedPaddingPixels": 4,
+      "contentAndExtrusionExact": true
+    }
+  },
+  "boneCount": 8,
+  "slotCount": 7,
+  "allNonRootBonesDriveAttachments": true,
+  "noAttachmentSwapTimelines": true,
+  "previewUsesExportedJsonAndAtlas": true,
+  "reviewPoseCount": 8,
+  "runtimeImportVerified": true,
+  "runtimeVerificationScope": {
+    "runtime": "local spine-canvas.js, 4.2 series; exact patch unconfirmed",
+    "nodeVmImportAndAnimationState": true,
+    "nonLoopPoseSamples": 65,
+    "continuousTwoCycleSamples": 129,
+    "allSampledBoneAndRegionValuesFinite": true,
+    "runtimeCycleEndpointMaxDifference": 0,
+    "browserCanvasImportAndRenderVerified": true,
+    "browserReferencePngCount": 17,
+    "browserFrame76SeekAndBoneOverlayVerified": true,
+    "spineEditorImportVerified": false,
+    "unityAndMobileVerified": false,
+    "note": "会议页采用真实源视频PNG抽帧对照；原MP4在测试浏览器中未进入可播放状态。runtime验证不代表美术、视频拟合或生产换装通过。"
+  },
+  "limitations": [
+    "仅会议演示：hiddenComplete=false，productionApproved=false，characterId=null；稳定素材状态未提升。",
+    "A/B逐帧轮廓不是已确认解剖左右或跨帧身份；near/far映射为低可信手工相位假设。",
+    "有限手工关键值参考视频轮廓和bbox/centroid，不是自动关节拟合，也不复现原视频大幅胸前交叉手臂。",
+    "单刚性region四肢无膝肘弯曲；肩根、腋下、髋根和短裤隐藏面不完整，小幅运动仍可能露缝。",
+    "腿源裁片可能带裤口描边，shorts仅当前服装可见裁片，不代表换装、裸腿或跨角色复用完成。",
+    "脚底约束为二维手工接触候选的脚底中心位置补偿，无IK、无足掌形变，接触期外允许有限移动。",
+    "原源图与视频角色身份未确认；视频只提供动作节奏参考，不证明角色资产来源。",
+    "Python求解与本地Spine Canvas运行时导入/绘制已验证；Spine编辑器、Unity、手机及其他runtime版本未验收。"
+  ],
+  "zip": {
+    "filename": "meeting_walk.zip",
+    "members": [
+      "meeting_walk.json",
+      "meeting_walk.atlas",
+      "meeting_walk.png",
+      "provenance.json",
+      "checks.json",
+      "review.png",
+      "neutral.png"
+    ],
+    "crcVerified": true,
+    "bytesMatchDisk": true,
+    "note": "先预检ZIP后重建；最终包含本checks，外层再次验证CRC和所有文件字节"
+  }
+}

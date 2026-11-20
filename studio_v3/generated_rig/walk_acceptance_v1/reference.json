@@ -1,0 +1,2474 @@
+{
+  "name": "右前行走.mp4",
+  "base": "./generated_rig/right_front_import_9c08a83c/",
+  "assetBase": "./generated_rig/walk_acceptance_v1/images/",
+  "source": {
+    "taskId": "local_9c08a83ca165e9c8",
+    "characterId": null,
+    "videoSha": "9c08a83ca165e9c86c8fa0559cb9495b90efca0f20980834ce3033560b44e8fc",
+    "imageSha": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+    "clipStart": 66,
+    "clipEnd": 88,
+    "fps": 24,
+    "frameCount": 107
+  },
+  "width": 864,
+  "height": 480,
+  "sourcePath": "I:\\彩虹AI\\design\\视频素材_design\\Walulu萌宠\\蘑菇秃秃方向\\基础角色-测试\\右前行走.mp4",
+  "parts": [
+    {
+      "id": "head",
+      "label": "头部",
+      "file": "head.png",
+      "sha256": "4f3950e1575f962212adca60486ebe441dadc9e2d8ae65c46d5f6779579e0555",
+      "width": 410,
+      "height": 347,
+      "bbox": [
+        179,
+        104,
+        589,
+        451
+      ],
+      "status": "video_directed_seven_parts_hidden_root_completion",
+      "hiddenComplete": false,
+      "approvedForBinding": false,
+      "sourcePixelOnly": true,
+      "reason": "来自旧originalFile原始可见裁片；仅当前视角头部，颈部切口与遮挡面未完整提供。",
+      "repairNeeded": [
+        "复核颈部切口和毛发边缘；隐藏侧头部及颈部连接未补全，不能视为完整绑定头部。"
+      ],
+      "evidenceFrames": [],
+      "source": {
+        "file": "../../right_front_walk/parts/original/head.png",
+        "sha256": "4f3950e1575f962212adca60486ebe441dadc9e2d8ae65c46d5f6779579e0555",
+        "method": "byte_exact_original_visible_copy"
+      }
+    },
+    {
+      "id": "body",
+      "label": "躯干",
+      "file": "body.png",
+      "sha256": "aa811d4fe0343c2f468e81986ad9c3c149dab3ef31286571fd0fda498d5e08d1",
+      "bbox": [
+        330,
+        425,
+        491,
+        563
+      ],
+      "width": 161,
+      "height": 138,
+      "status": "video_directed_seven_parts_hidden_root_completion",
+      "hiddenComplete": false,
+      "approvedForBinding": false,
+      "sourcePixelOnly": false,
+      "reason": "从旧original混合件仅保留裤腰以上可见躯干，原RGBA不改；已生成Image2 v5供体仅在原姿态被不透明上层遮挡的局部补足搭接。",
+      "repairNeeded": [
+        "肩颈、腋下和腰髋仅局部搭接，非完整隐藏结构；接缝颜色、动态露缝和换装覆盖仍待验收。"
+      ],
+      "evidenceFrames": [],
+      "source": {
+        "method": "source_visible_preserved_ai_donor_hidden_overlap",
+        "visibleMaskFile": "body_visible_mask.png",
+        "repairMaskFile": "body_repair_mask.png",
+        "donor": {
+          "file": "../image2_repairs/body_candidate_v5.png",
+          "sha256": "f2bf1a8c97d669ba7f0a11d24e5d4f5bda696521886e5701f52ebfa1019ae2c6"
+        },
+        "counts": {
+          "visiblePixels": 9196,
+          "repairPixels": 4095,
+          "visibleRgbaMismatchPixels": 0,
+          "repairOutsideOpaqueOccluders": 0,
+          "sourceVisibleAssemblyRgbaMismatchPixels": 0,
+          "sourceForegroundUncoveredPixels": 0,
+          "sourceForegroundNotCoveredByCandidatesPixels": 0,
+          "alphaUnionMismatchPixels": 0,
+          "boundaryMaskOverlapPixels": 0,
+          "bodyMaskOverlapPixels": 0,
+          "repairOutsideFinalUpperOpaqueSafeDomain": 0
+        },
+        "waistCutPolyline": [
+          [
+            338,
+            526
+          ],
+          [
+            357,
+            532
+          ],
+          [
+            366,
+            535
+          ],
+          [
+            382,
+            538
+          ],
+          [
+            398,
+            539
+          ],
+          [
+            415,
+            538
+          ],
+          [
+            431,
+            535
+          ],
+          [
+            447,
+            531
+          ],
+          [
+            459,
+            526
+          ],
+          [
+            467,
+            520
+          ],
+          [
+            469,
+            519
+          ],
+          [
+            471,
+            522
+          ],
+          [
+            478,
+            514
+          ]
+        ],
+        "donorMapping": {
+          "crop": [
+            254,
+            196,
+            1029,
+            1096
+          ],
+          "size": [
+            182,
+            211
+          ],
+          "topLeft": [
+            316,
+            407
+          ],
+          "alphaCutoff": 8
+        },
+        "localColorMedianShift": [
+          -2.0,
+          -10.0,
+          -13.0
+        ],
+        "geometry": "manual waist cut + distance<=24px + eroded opaque occluders; not hidden anatomy reconstruction"
+      }
+    },
+    {
+      "id": "shorts",
+      "label": "短裤",
+      "file": "shorts.png",
+      "sha256": "5ded88f28a976d9539f8b87e848ad15ef1fe76f2443b52f115f875ba0f157155",
+      "width": 142,
+      "height": 74,
+      "bbox": [
+        334,
+        519,
+        476,
+        593
+      ],
+      "status": "video_directed_seven_parts_hidden_root_completion",
+      "hiddenComplete": false,
+      "approvedForBinding": false,
+      "sourcePixelOnly": true,
+      "reason": "仅用原图可见短裤像素按手描多边形裁出透明轮廓；腰线、手臂遮挡边和腿口仍是粗边界待审。",
+      "repairNeeded": [
+        "逐像素审阅裤腰、近侧手臂遮挡边、两侧裤口及裆部描边；被手臂与身体遮挡的衣物未补全。"
+      ],
+      "evidenceFrames": [],
+      "source": {
+        "file": "../../right_front_walk/source768.png",
+        "method": "manual_binary_polygon_visible_pixels",
+        "polygon": [
+          [
+            357,
+            532
+          ],
+          [
+            366,
+            535
+          ],
+          [
+            382,
+            538
+          ],
+          [
+            398,
+            539
+          ],
+          [
+            415,
+            538
+          ],
+          [
+            431,
+            535
+          ],
+          [
+            447,
+            531
+          ],
+          [
+            459,
+            526
+          ],
+          [
+            467,
+            520
+          ],
+          [
+            469,
+            519
+          ],
+          [
+            471,
+            522
+          ],
+          [
+            472,
+            528
+          ],
+          [
+            473,
+            536
+          ],
+          [
+            475,
+            545
+          ],
+          [
+            466,
+            552
+          ],
+          [
+            456,
+            561
+          ],
+          [
+            445,
+            571
+          ],
+          [
+            434,
+            580
+          ],
+          [
+            422,
+            587
+          ],
+          [
+            412,
+            591
+          ],
+          [
+            404,
+            592
+          ],
+          [
+            400,
+            584
+          ],
+          [
+            392,
+            577
+          ],
+          [
+            382,
+            570
+          ],
+          [
+            371,
+            565
+          ],
+          [
+            358,
+            561
+          ],
+          [
+            345,
+            559
+          ],
+          [
+            350,
+            551
+          ],
+          [
+            354,
+            541
+          ]
+        ]
+      }
+    },
+    {
+      "id": "arm_near",
+      "label": "近屏幕层手臂（暂定）",
+      "file": "arm_near.png",
+      "sha256": "7cd90180cb6c851def01c5195286a93ffc9420f8a76c6115c811436430597874",
+      "width": 90,
+      "height": 138,
+      "bbox": [
+        287,
+        443,
+        377,
+        581
+      ],
+      "status": "video_directed_seven_parts_hidden_root_completion",
+      "hiddenComplete": false,
+      "approvedForBinding": false,
+      "sourcePixelOnly": true,
+      "reason": "保留original可见手臂裁片，并加入原图左上缺口沿手臂遮挡轮廓边线的人工归属候选；未获正式美术批准，肩根隐藏面仍不完整。",
+      "repairNeeded": [
+        "缺肩根与腋下遮挡面及旋转重叠余量；需复核斜切口，未补画。"
+      ],
+      "evidenceFrames": [],
+      "source": {
+        "file": "../../right_front_walk/source768.png",
+        "sha256": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+        "method": "source_visible_boundary_reassignment",
+        "baseOriginalFile": "../../right_front_walk/parts/original/arm_near.png",
+        "baseOriginalSha256": "badf519973eeb2a8c9be55e34ac378ac2290e8bb4740863a89c2ddf1460379b5",
+        "baseOriginalBbox": [
+          287,
+          443,
+          377,
+          581
+        ],
+        "oldMixedBodyFile": "../../right_front_walk/parts/original/body.png",
+        "oldMixedBodySha256": "5d304a26264c8c0c8fa6cb15e7a43b2c76cd59d8297d4264e6078da267c88854",
+        "oldMixedBodyBbox": [
+          338,
+          434,
+          478,
+          594
+        ],
+        "supportCondition": "source alpha>0 and all current layers alpha==0 and old mixed body alpha>0",
+        "assignmentBasis": "按已查看原图提出的人工可见边线归属候选；arm_near沿手臂遮挡轮廓边线；不使用最近距离推断语义。",
+        "sourceCoordinateCondition": "y<561 and x<420",
+        "addedPixelCount": 100,
+        "boundaryAssignmentApproved": false
+      }
+    },
+    {
+      "id": "arm_far",
+      "label": "远屏幕层手臂（暂定）",
+      "file": "arm_far.png",
+      "sha256": "d8e783debe155efbb7fdb52f0d9415de60af3e199cc861e36a4f9528c5847490",
+      "width": 53,
+      "height": 104,
+      "bbox": [
+        452,
+        450,
+        505,
+        554
+      ],
+      "status": "video_directed_seven_parts_hidden_root_completion",
+      "hiddenComplete": false,
+      "approvedForBinding": false,
+      "sourcePixelOnly": true,
+      "reason": "仅复制original可见窄条手臂；内侧与肩根被躯干遮挡，非完整手臂。",
+      "repairNeeded": [
+        "缺肩根、内侧手臂与腋下隐藏轮廓及旋转重叠余量，未补画。"
+      ],
+      "evidenceFrames": [],
+      "source": {
+        "file": "../../right_front_walk/parts/original/arm_far.png",
+        "sha256": "d8e783debe155efbb7fdb52f0d9415de60af3e199cc861e36a4f9528c5847490",
+        "method": "byte_exact_original_visible_copy"
+      }
+    },
+    {
+      "id": "leg_near",
+      "label": "近屏幕层腿（暂定）",
+      "file": "leg_near.png",
+      "sha256": "841b1997259bd859822241bb64c559ed214d3487b1f4fa26717ba0400ed1432c",
+      "width": 91,
+      "height": 127,
+      "bbox": [
+        316,
+        537,
+        407,
+        664
+      ],
+      "status": "video_directed_seven_parts_hidden_root_completion",
+      "hiddenComplete": false,
+      "approvedForBinding": false,
+      "sourcePixelOnly": true,
+      "reason": "保留original可见腿裁片，并加入原图左下缺口的人工归属候选；髋根被短裤遮挡，旧分区切口可能带裤口描边，不等于完整裸腿，未获正式美术批准。",
+      "repairNeeded": [
+        "缺短裤下的髋根和上腿隐藏连接；需审阅裤口描边归属，未使用旧补底或延伸像素。"
+      ],
+      "evidenceFrames": [],
+      "source": {
+        "file": "../../right_front_walk/source768.png",
+        "sha256": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+        "method": "source_visible_boundary_reassignment",
+        "baseOriginalFile": "../../right_front_walk/parts/original/leg_near.png",
+        "baseOriginalSha256": "d382bd96d71dbbaaaefcf0ede411ecb6fcfac097f6c7531099594c0a2da291bf",
+        "baseOriginalBbox": [
+          316,
+          564,
+          406,
+          664
+        ],
+        "oldMixedBodyFile": "../../right_front_walk/parts/original/body.png",
+        "oldMixedBodySha256": "5d304a26264c8c0c8fa6cb15e7a43b2c76cd59d8297d4264e6078da267c88854",
+        "oldMixedBodyBbox": [
+          338,
+          434,
+          478,
+          594
+        ],
+        "supportCondition": "source alpha>0 and all current layers alpha==0 and old mixed body alpha>0",
+        "assignmentBasis": "按已查看原图提出的人工可见边线归属候选；arm_near沿手臂遮挡轮廓边线；不使用最近距离推断语义。",
+        "sourceCoordinateCondition": "y>=561 and x<420",
+        "addedPixelCount": 488,
+        "boundaryAssignmentApproved": false
+      }
+    },
+    {
+      "id": "leg_far",
+      "label": "远屏幕层腿（暂定）",
+      "file": "leg_far.png",
+      "sha256": "41685b76cffd5b2a7165509370bb28c102991b933b079b44fb3400842d258664",
+      "width": 82,
+      "height": 117,
+      "bbox": [
+        398,
+        531,
+        480,
+        648
+      ],
+      "status": "video_directed_seven_parts_hidden_root_completion",
+      "hiddenComplete": false,
+      "approvedForBinding": false,
+      "sourcePixelOnly": true,
+      "reason": "保留original可见腿裁片，并加入原图右侧缺口的人工归属候选；髋根与内侧上腿被短裤和近侧腿遮挡，旧切口可能带裤口描边，未获正式美术批准。",
+      "repairNeeded": [
+        "缺髋根、内侧上腿与重叠余量；需审阅裤口描边归属，未使用旧补底或延伸像素。"
+      ],
+      "evidenceFrames": [],
+      "source": {
+        "file": "../../right_front_walk/source768.png",
+        "sha256": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+        "method": "source_visible_boundary_reassignment",
+        "baseOriginalFile": "../../right_front_walk/parts/original/leg_far.png",
+        "baseOriginalSha256": "73e79758331f3b7352fbe8a44936f6e1c916a458ff941201c31d06b842514d65",
+        "baseOriginalBbox": [
+          400,
+          552,
+          479,
+          648
+        ],
+        "oldMixedBodyFile": "../../right_front_walk/parts/original/body.png",
+        "oldMixedBodySha256": "5d304a26264c8c0c8fa6cb15e7a43b2c76cd59d8297d4264e6078da267c88854",
+        "oldMixedBodyBbox": [
+          338,
+          434,
+          478,
+          594
+        ],
+        "supportCondition": "source alpha>0 and all current layers alpha==0 and old mixed body alpha>0",
+        "assignmentBasis": "按已查看原图提出的人工可见边线归属候选；arm_near沿手臂遮挡轮廓边线；不使用最近距离推断语义。",
+        "sourceCoordinateCondition": "x>=420",
+        "addedPixelCount": 69,
+        "boundaryAssignmentApproved": false
+      }
+    }
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "file": "frames/000.png",
+      "sha256": "ca9e6c8cdcf8f64b6569399cceabfcade0624307cd26bbb14198dad02ad21723"
+    },
+    {
+      "frame": 1,
+      "file": "frames/001.png",
+      "sha256": "41cb2c4b86d3905e0f027ee9e36a12369cd8d3c8e6393e0b6e2c0f26d6e2f4b6"
+    },
+    {
+      "frame": 2,
+      "file": "frames/002.png",
+      "sha256": "16e1108d2e89b04c11ec12ba3bf1e10ebc84412cd73ec9c9bf280f5c1e179276"
+    },
+    {
+      "frame": 3,
+      "file": "frames/003.png",
+      "sha256": "2943f17b9c8d18fd0730a5bb3cf0bb04ba7a3f0a0b42770aaf2da30f54064054"
+    },
+    {
+      "frame": 4,
+      "file": "frames/004.png",
+      "sha256": "4906a6955b733c5713370ef14bf637d8dd068a8732cb2f03c7183d9d42c2b042"
+    },
+    {
+      "frame": 5,
+      "file": "frames/005.png",
+      "sha256": "2fae86ca0d989c017bfd1d264e6eac9beede8e611db11c3f61378188432b9786"
+    },
+    {
+      "frame": 6,
+      "file": "frames/006.png",
+      "sha256": "a3d8f86478ce1ae426cdc93d6496e49e16148c6a1f5839b759d83e029ded98c7"
+    },
+    {
+      "frame": 7,
+      "file": "frames/007.png",
+      "sha256": "392b4c4e7afa957517e0d2e4192f0dc987529c2eb598df062ca374f822370891"
+    },
+    {
+      "frame": 8,
+      "file": "frames/008.png",
+      "sha256": "4db3ee3a83f968ee414d2be0a0ff213178c8250ab74c06b3dc77f1d106c8cb6e"
+    },
+    {
+      "frame": 9,
+      "file": "frames/009.png",
+      "sha256": "feb500cb11af709c1419e26e409afd03877347a1a4f02c1ed6a2834b86ee30ae"
+    },
+    {
+      "frame": 10,
+      "file": "frames/010.png",
+      "sha256": "93f0dab42a45d8a385a53f603a2a2f7fc5db40acc5b5e011dfb0046302172f22"
+    },
+    {
+      "frame": 11,
+      "file": "frames/011.png",
+      "sha256": "2452cbe905fb7f7d6cdf54d00c2a8caa9d383662486052479654bd5af3cf82de"
+    },
+    {
+      "frame": 12,
+      "file": "frames/012.png",
+      "sha256": "28e812cbf81ec7154ad624dd380a337a89aea5a769b41f8412c333211e84627b"
+    },
+    {
+      "frame": 13,
+      "file": "frames/013.png",
+      "sha256": "500aaf71b477c38ff7131dc25dde965fa97b012e92f965c333670237e7a19b83"
+    },
+    {
+      "frame": 14,
+      "file": "frames/014.png",
+      "sha256": "41ea92650e007e37f434f2eecf4df8a56d74c5da7ab75f284119deb49c852ad4"
+    },
+    {
+      "frame": 15,
+      "file": "frames/015.png",
+      "sha256": "31ad4657d7475e7383c39a311beca3e476cf0fc32188afd64b2f8e2cd7787eaa"
+    },
+    {
+      "frame": 16,
+      "file": "frames/016.png",
+      "sha256": "957e9a1333823eb39599894cbac44bcaeaff84c06f941a1a9e6212d8a0378c57"
+    },
+    {
+      "frame": 17,
+      "file": "frames/017.png",
+      "sha256": "83c5f9fc920ad8b04523f57dab4d67daea8c25eee45f057e42fd4e9f1c6fc904"
+    },
+    {
+      "frame": 18,
+      "file": "frames/018.png",
+      "sha256": "af880e99c285380426703b161f7ab1edda01719d3a71a648fe583e201d2e57f0"
+    },
+    {
+      "frame": 19,
+      "file": "frames/019.png",
+      "sha256": "37091b414dd1b32d87e9641acdc681adc41947cedd3189f224c8c2e92447f57a"
+    },
+    {
+      "frame": 20,
+      "file": "frames/020.png",
+      "sha256": "e2de9736a0148ec3b4962f76b4d95b47e8572feed75fb26a8b7dd20d58478373"
+    },
+    {
+      "frame": 21,
+      "file": "frames/021.png",
+      "sha256": "d53c6aab8ca0047dbd48bf819a2d2fa3c7fd7959e0407eaeb1b40d04a46886ea"
+    },
+    {
+      "frame": 22,
+      "file": "frames/022.png",
+      "sha256": "fb8f732f393c04eed69302819777be83439f0845de09a434322d9c58b9bd4a1f"
+    },
+    {
+      "frame": 23,
+      "file": "frames/023.png",
+      "sha256": "8032c4bfc41a12ab0cd34b8bb5a834895b2b6454aa3d9fb030b402fbeace585e"
+    },
+    {
+      "frame": 24,
+      "file": "frames/024.png",
+      "sha256": "f8fb9575373f119b99f44ce6cf1fdcdb776027200122951f6b32e1468d7f2664"
+    },
+    {
+      "frame": 25,
+      "file": "frames/025.png",
+      "sha256": "e46955c836e893684fbb7b5bbf889085eeb317aef2a1880eecf7236b97a546ad"
+    },
+    {
+      "frame": 26,
+      "file": "frames/026.png",
+      "sha256": "d4a7db26c62a3049015008f10cf3fc9b8d957fd7038dcd8a6d8c9cd580a4c67f"
+    },
+    {
+      "frame": 27,
+      "file": "frames/027.png",
+      "sha256": "0c8733066adaa08ea96b79f043fae32742711678904cdf102e8f7d97e420cc9b"
+    },
+    {
+      "frame": 28,
+      "file": "frames/028.png",
+      "sha256": "4c0a26bc61b75f7c102a5066428b643a9235ece427cdbc4746dcabfef4fdd1c8"
+    },
+    {
+      "frame": 29,
+      "file": "frames/029.png",
+      "sha256": "1247f872c49f021467956a528bc60ff086cc9f5992605cf0139dac6a5a73cf7f"
+    },
+    {
+      "frame": 30,
+      "file": "frames/030.png",
+      "sha256": "f3fd0448d59ca91a1dd4c9f4924da64d1ed87c700a83aa407ea0ec1337a20fc5"
+    },
+    {
+      "frame": 31,
+      "file": "frames/031.png",
+      "sha256": "77f7133d9cf8c4fcbacb932f74921f8ecf8bc1e4b24a81c233df5829b5d717d0"
+    },
+    {
+      "frame": 32,
+      "file": "frames/032.png",
+      "sha256": "420f95fb8c5489be171701a2a99e3f4528b344b437684452d5814e7d9a98d686"
+    },
+    {
+      "frame": 33,
+      "file": "frames/033.png",
+      "sha256": "206586a572fc66ffb55e4cb698a9d418b69e8009021b038b6eb975438dded17e"
+    },
+    {
+      "frame": 34,
+      "file": "frames/034.png",
+      "sha256": "c1cc5f52a2bdec362c75979489698d99cb8eaed04ca1db06d2a596bd75728c1a"
+    },
+    {
+      "frame": 35,
+      "file": "frames/035.png",
+      "sha256": "596bd1373ff3bd38cd9d97a86c52ef9afa335199a1104f4778435981cdf71b0c"
+    },
+    {
+      "frame": 36,
+      "file": "frames/036.png",
+      "sha256": "58b16406225652c61d0166062b0f0af72c27431399c9ec78b1d04bb519d5f602"
+    },
+    {
+      "frame": 37,
+      "file": "frames/037.png",
+      "sha256": "016f85b6691fa139b8eb981ce97f558cdfb31e1e17b2cb469c1279e85815491c"
+    },
+    {
+      "frame": 38,
+      "file": "frames/038.png",
+      "sha256": "3c1a41a4ecf5ad6a58100ddaff5ac9bf61c51fcb2b0d7ea84bcc900cc59032c4"
+    },
+    {
+      "frame": 39,
+      "file": "frames/039.png",
+      "sha256": "747fa46cdf98f96b49a2869af9d3a0bc549f402e22801c1c0069298a45c45f54"
+    },
+    {
+      "frame": 40,
+      "file": "frames/040.png",
+      "sha256": "3ae3cdaad36a2c16518538e3eb4926eb0fa2a0a07a6e60b90f526e13dbdb739c"
+    },
+    {
+      "frame": 41,
+      "file": "frames/041.png",
+      "sha256": "7ac551d476f7762c3a4355707e342df23c37b355bb6955a469c5c32c0f9ecfb4"
+    },
+    {
+      "frame": 42,
+      "file": "frames/042.png",
+      "sha256": "175403a3dd112366f9da23d0d89db878b399e537db1f6f529115ebfb128fff40"
+    },
+    {
+      "frame": 43,
+      "file": "frames/043.png",
+      "sha256": "ec3e026b81cb46a025a45a4d62bdeb35480ec0d4c9a3ca44ce592633750f9a5b"
+    },
+    {
+      "frame": 44,
+      "file": "frames/044.png",
+      "sha256": "e830dbbd501a661ea0b6b5cb5dd1449e110f0f5aa1e7e35bc413720d62414e4e"
+    },
+    {
+      "frame": 45,
+      "file": "frames/045.png",
+      "sha256": "4bdfdb38c93d5f08b00193c67b64c8658ed892453293803415fae592fde11048"
+    },
+    {
+      "frame": 46,
+      "file": "frames/046.png",
+      "sha256": "73dc0a1a3fa2ecd37b1018d270aa718dbbc841917146234876cff7e391f6f5a7"
+    },
+    {
+      "frame": 47,
+      "file": "frames/047.png",
+      "sha256": "ce89588c933900ddf348b758f8af66ab83685c12064fb0380cdbd70ce4b3189c"
+    },
+    {
+      "frame": 48,
+      "file": "frames/048.png",
+      "sha256": "e3e39e09559a4da8173b34e22702693d37fa6fa7f98c5a5c192a5755f8e18159"
+    },
+    {
+      "frame": 49,
+      "file": "frames/049.png",
+      "sha256": "d61e9d2b57988c7206d970ea8c4583f4ed3592c125b9a2f8bae745e655e2e9f3"
+    },
+    {
+      "frame": 50,
+      "file": "frames/050.png",
+      "sha256": "67516f98d1f0c3186de94096c7e61d904c24788452f2145eec36100df6178f36"
+    },
+    {
+      "frame": 51,
+      "file": "frames/051.png",
+      "sha256": "3b681b9d4925261b56d3b96dd5b30225825ff260ed1330f48a64ebe2726846f2"
+    },
+    {
+      "frame": 52,
+      "file": "frames/052.png",
+      "sha256": "50726e61d228c02937b285124de5eb3aeaecd2bee6f968f1f9dc975c8ad96eaf"
+    },
+    {
+      "frame": 53,
+      "file": "frames/053.png",
+      "sha256": "3e97a453f7a0b59e0b16dc28b8bd1c4134c0f0364a1eab0835aca6f03683f0b7"
+    },
+    {
+      "frame": 54,
+      "file": "frames/054.png",
+      "sha256": "e735ae8879dd0e4034500b242caccecc3eb2879dd2ec9d13e0fd529723513e41"
+    },
+    {
+      "frame": 55,
+      "file": "frames/055.png",
+      "sha256": "ca357cb318a385cff5647e56a8a4618c2e0693d6179899809600c6ba42cdb90c"
+    },
+    {
+      "frame": 56,
+      "file": "frames/056.png",
+      "sha256": "14b3faafbca72832dd34003105732edd91004f85262b76a47a9c7c17f169bd22"
+    },
+    {
+      "frame": 57,
+      "file": "frames/057.png",
+      "sha256": "8a4911ce17cccc6c18fa1247a3c57091b82d121d8aac8afbc1082255179f5d59"
+    },
+    {
+      "frame": 58,
+      "file": "frames/058.png",
+      "sha256": "a928180a5dadf415195decc00f4f69db1ad32bc0332aa4bd2ab6e24112bcd7aa"
+    },
+    {
+      "frame": 59,
+      "file": "frames/059.png",
+      "sha256": "bbe7a69212feb4e8e26385519bea799f47da391cc9347bd7a155483d5fd8324e"
+    },
+    {
+      "frame": 60,
+      "file": "frames/060.png",
+      "sha256": "1077dcd4379b58bd3b796cc6dda15ebc3f4ec3345ea494557d761f1eeda8995d"
+    },
+    {
+      "frame": 61,
+      "file": "frames/061.png",
+      "sha256": "924af55ffb371ed9f93e194937aee54c63daaa5cbbf55adaf5094cd3aa751b65"
+    },
+    {
+      "frame": 62,
+      "file": "frames/062.png",
+      "sha256": "61605cbce1fded7298db06dfe581b2908169b46d98a4e6a99291808dc184a3d7"
+    },
+    {
+      "frame": 63,
+      "file": "frames/063.png",
+      "sha256": "55abe39960178a0300ba31f5e3c2197f079ed74dcf96b8aa091dc004132cb9ff"
+    },
+    {
+      "frame": 64,
+      "file": "frames/064.png",
+      "sha256": "f9db168779a406e9bea92a4d40b6f520642b63e39dd54611de95a41aeb361949"
+    },
+    {
+      "frame": 65,
+      "file": "frames/065.png",
+      "sha256": "b66572c0a5c02bf969bc902c2ec683b37e737cf07ecc8d5e7bc032f5324a128d"
+    },
+    {
+      "frame": 66,
+      "file": "frames/066.png",
+      "sha256": "18a87e5063576f1515e95b8d8dc0b393c873d76c0f2ef903b041373d92cb424a"
+    },
+    {
+      "frame": 67,
+      "file": "frames/067.png",
+      "sha256": "c06d7a4307c02d7e381f76a77d1387205a82d3c096c1169e2e36d6cb95afd92e"
+    },
+    {
+      "frame": 68,
+      "file": "frames/068.png",
+      "sha256": "450d3be072902adb754f675c9ca82c4c9f6a11ba2d07a10070a63e95ce2c6ee9"
+    },
+    {
+      "frame": 69,
+      "file": "frames/069.png",
+      "sha256": "a04051dec23340111a9b322d3af25e5aa0d8d7d9ef7e567b4b6b0d4df1d1aa74"
+    },
+    {
+      "frame": 70,
+      "file": "frames/070.png",
+      "sha256": "631bb71d0df8de7a90ff95b0e411d693a878cdf08395393ad5177bd2453c8446"
+    },
+    {
+      "frame": 71,
+      "file": "frames/071.png",
+      "sha256": "21cd672ec7e4a2a093ac65dbfdac2f69bfd0034cc9d279d436d974c750d03618"
+    },
+    {
+      "frame": 72,
+      "file": "frames/072.png",
+      "sha256": "1b7c3b1e904f5e2c065c544ebbfd3ed5384ce45405660bacc5a25cff49eba6af"
+    },
+    {
+      "frame": 73,
+      "file": "frames/073.png",
+      "sha256": "068ba7ac8548edca52296e15651938d433de09e136c5d0c05967782b0c7897fa"
+    },
+    {
+      "frame": 74,
+      "file": "frames/074.png",
+      "sha256": "e50cfc94c5b576c4b2ecc05dea2b2b2d94363bce0fd321b7a3bb2c1ec4d0e7ab"
+    },
+    {
+      "frame": 75,
+      "file": "frames/075.png",
+      "sha256": "3921708beef86568f88b35aa7514b52dcae5f42563aacdc026ea81421a5f1e00"
+    },
+    {
+      "frame": 76,
+      "file": "frames/076.png",
+      "sha256": "1007b4cdc720d0edb804e32a97b944b0e60f9d51f3a9aa8836fd88089a92e007"
+    },
+    {
+      "frame": 77,
+      "file": "frames/077.png",
+      "sha256": "ea761a76cfb83f39a9e8641999742a8b4e8d224f35d38fac6853f667508c2efd"
+    },
+    {
+      "frame": 78,
+      "file": "frames/078.png",
+      "sha256": "d903864b6d88ce176a51bec93fd3bc39a12262667005c48e1cbfdeffce390ffb"
+    },
+    {
+      "frame": 79,
+      "file": "frames/079.png",
+      "sha256": "d56d50663a3be6b9380c880c359a6872e818778c042fe164c5f75adc025479cb"
+    },
+    {
+      "frame": 80,
+      "file": "frames/080.png",
+      "sha256": "d4c335e80e46ac60b04db506fc18b84d53592b99897ace6267c4c5bdaef98569"
+    },
+    {
+      "frame": 81,
+      "file": "frames/081.png",
+      "sha256": "82e6710cd5f97b0a1d4326596570e00766793e7c9a7c6fd101431fdc280231fc"
+    },
+    {
+      "frame": 82,
+      "file": "frames/082.png",
+      "sha256": "f79d58458db15d46707152e4010e5baa5e323b77b484206e4dcc33eacdbd6e82"
+    },
+    {
+      "frame": 83,
+      "file": "frames/083.png",
+      "sha256": "d53f0b9131e00f794bba7b4596e89e633b2a781f53ac98d2bfb13aa2b1a298f3"
+    },
+    {
+      "frame": 84,
+      "file": "frames/084.png",
+      "sha256": "c2f6168bde492d6593e64d74de783a607cdcc163c4cb2dacbcd70c429fece730"
+    },
+    {
+      "frame": 85,
+      "file": "frames/085.png",
+      "sha256": "0801b98fe4ee0ae269034574d63ba0cd404fa02fcb926bd51093bb5fd67b1251"
+    },
+    {
+      "frame": 86,
+      "file": "frames/086.png",
+      "sha256": "e76011b937b38106be8eba6626aaf35b14bc3d88af884ffacefaed04ca465b98"
+    },
+    {
+      "frame": 87,
+      "file": "frames/087.png",
+      "sha256": "69201ab300de6bd25d18abe297ebaa3231081b47e51f6d1f99a315c577528346"
+    },
+    {
+      "frame": 88,
+      "file": "frames/088.png",
+      "sha256": "5749af1224022941ba31ca9a809bd5a8c2d00e880586b56a339e66d0299bbe34"
+    },
+    {
+      "frame": 89,
+      "file": "frames/089.png",
+      "sha256": "baeb482c5ae89a50f8e3179c3b067d1ce227d541f166dbbf8749f12e22c1bfa4"
+    },
+    {
+      "frame": 90,
+      "file": "frames/090.png",
+      "sha256": "da5e0da69288dd0c8978f684dd4ba45af99aa60f37f82cbbf471aea325d31d8d"
+    },
+    {
+      "frame": 91,
+      "file": "frames/091.png",
+      "sha256": "32e6e4f010700257de91618b24b9637eb1656aec14fb3042fdd21721adecbcea"
+    },
+    {
+      "frame": 92,
+      "file": "frames/092.png",
+      "sha256": "d51473c70f0c65ebd77ae242a5b3c500084ec7bf1ff0dbc54d9664d6792017a7"
+    },
+    {
+      "frame": 93,
+      "file": "frames/093.png",
+      "sha256": "ec237c4811b5f27eb83136f74e38e661cc5fa1a138afd66403d0cfda6310d29e"
+    },
+    {
+      "frame": 94,
+      "file": "frames/094.png",
+      "sha256": "28ae3e5d12b156fdf093311568cb4c0ccda04f317050c5e865a810bf6648a3af"
+    },
+    {
+      "frame": 95,
+      "file": "frames/095.png",
+      "sha256": "77de010c6627143d91d03870028282c0362239c9105f4acd57b52d3c8e1a6367"
+    },
+    {
+      "frame": 96,
+      "file": "frames/096.png",
+      "sha256": "7d1a88d95afca2f0074627078db13005903c75f6039abde21b94afda42752385"
+    },
+    {
+      "frame": 97,
+      "file": "frames/097.png",
+      "sha256": "84b4cdee3c25ba30a201586a6fc995959dfc39e650378994df373e45db19b073"
+    },
+    {
+      "frame": 98,
+      "file": "frames/098.png",
+      "sha256": "7642a2b8f06ddf765ad0ed38d646a3ef9777d78111dfc051b7351297d836bbd4"
+    },
+    {
+      "frame": 99,
+      "file": "frames/099.png",
+      "sha256": "659d3ca2917948e2892e5dd152d9803747e76467ef6e0b67ef366bf004689355"
+    },
+    {
+      "frame": 100,
+      "file": "frames/100.png",
+      "sha256": "c6e3b7abad3ceb5dba9c1a31923499fe921ee24ce8c3b0186170eff84d69bb79"
+    },
+    {
+      "frame": 101,
+      "file": "frames/101.png",
+      "sha256": "120e3fdfb29fdc2700778198ecd48e2107febdf251082760d8f44646b451acc4"
+    },
+    {
+      "frame": 102,
+      "file": "frames/102.png",
+      "sha256": "1adcdf54224f6e9dda9473bcfc1ebade9702c3f8c1436ce2f95c0888746798df"
+    },
+    {
+      "frame": 103,
+      "file": "frames/103.png",
+      "sha256": "8eefadb55b0f1b87d4af5201652f03bfe7b3749a9cef1bed79c643f5b13e5e80"
+    },
+    {
+      "frame": 104,
+      "file": "frames/104.png",
+      "sha256": "b1e04b34300829c5c58832a58eb706da3eaf015c468a378dcfb78f5038fcaf3c"
+    },
+    {
+      "frame": 105,
+      "file": "frames/105.png",
+      "sha256": "eaa9eeed9f3b157c8604d0342d189fa48ca232aeae509a5c58da9541f3be0143"
+    },
+    {
+      "frame": 106,
+      "file": "frames/106.png",
+      "sha256": "42f3b37482170f31fc8111d0f99ad86352aa6ffeb2395ef1e1d3700545b538a8"
+    }
+  ],
+  "assetOrigin": {
+    "status": "seven_source_parts_video_directed_binding",
+    "sourceManifest": "C:\\Users\\root\\Documents\\ChatGPT\\棉花娃娃游戏素材\\workbuddy_handoff_20261119\\codex_handoff_20261119\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\manifest.json"
+  },
+  "review": "./review/right_front_walk_cycle.png",
+  "observations": {
+    "head": [
+      {
+        "frame": 68,
+        "visibility": "visible",
+        "note": "右前朝向保持一致；头发、耳朵、五官随头部整体运动，先保留为一个头部附件。",
+        "points": [],
+        "origin": "review_candidate"
+      },
+      {
+        "frame": 80,
+        "visibility": "visible",
+        "note": "头部有轻微倾斜与上下变化；颈部连接藏在下颌后，不能直接从画面确认完整隐藏面。",
+        "points": [],
+        "origin": "review_candidate"
+      }
+    ],
+    "body": [
+      {
+        "frame": 68,
+        "visibility": "visible",
+        "note": "躯干中央可见，双臂与腰线形成遮挡边界；躯干作为父骨骼，需带动头和肩部。",
+        "points": [],
+        "origin": "review_candidate"
+      },
+      {
+        "frame": 80,
+        "visibility": "visible",
+        "note": "摆臂外展时露出更多侧躯干；原图被手臂遮挡的部分需检查是否有补足像素。",
+        "points": [],
+        "origin": "review_candidate"
+      }
+    ],
+    "shorts": [
+      {
+        "frame": 72,
+        "visibility": "visible",
+        "note": "裤腰随躯干，裤口随步态改变轮廓；先保留整件短裤，不把左右裤口切为碎片。",
+        "points": [],
+        "origin": "review_candidate"
+      },
+      {
+        "frame": 80,
+        "visibility": "occluded",
+        "note": "前摆腿遮挡部分裆部和裤口；单张源图无法提供完整隐藏衣物。",
+        "points": [],
+        "origin": "review_candidate"
+      }
+    ],
+    "arm_near": [
+      {
+        "frame": 68,
+        "visibility": "visible",
+        "note": "画面左侧较宽手臂接近下垂；保留整臂，用肩点和内部肘点控制，关节点仅为初始拟定。",
+        "points": [],
+        "origin": "review_candidate"
+      },
+      {
+        "frame": 72,
+        "visibility": "uncertain",
+        "note": "较宽手臂向躯干前侧收拢，遮挡轮廓变化；近远命名仍需沿全片持续追踪确认。",
+        "points": [],
+        "origin": "review_candidate"
+      },
+      {
+        "frame": 80,
+        "visibility": "visible",
+        "note": "画面左侧手臂向外摆出；拆件应保留肩根连续性，不沿这一帧的遮挡边永久切掉肩部。",
+        "points": [],
+        "origin": "review_candidate"
+      }
+    ],
+    "arm_far": [
+      {
+        "frame": 68,
+        "visibility": "occluded",
+        "note": "画面右侧手臂可见区域较窄，肩根被身体遮挡；不能把可见窄条当作完整远臂。",
+        "points": [],
+        "origin": "review_candidate"
+      },
+      {
+        "frame": 80,
+        "visibility": "visible",
+        "note": "画面右侧手臂外摆时可见面积增大；需要为回摆与外摆保留隐藏搭接。",
+        "points": [],
+        "origin": "review_candidate"
+      }
+    ],
+    "leg_near": [
+      {
+        "frame": 72,
+        "visibility": "uncertain",
+        "note": "双腿前后摆动且裤口遮挡髋根；保持整腿附件，髋膝位置需要跨帧追踪。",
+        "points": [],
+        "origin": "review_candidate"
+      },
+      {
+        "frame": 80,
+        "visibility": "uncertain",
+        "note": "前摆脚朝画面右侧伸出；足部与小腿保持同一附件，近远身份不能仅凭屏幕左右判断。",
+        "points": [],
+        "origin": "review_candidate"
+      }
+    ],
+    "leg_far": [
+      {
+        "frame": 68,
+        "visibility": "uncertain",
+        "note": "两腿部分重叠，后侧腿根受短裤与前腿遮挡；保留整腿并单独检查隐藏根部。",
+        "points": [],
+        "origin": "review_candidate"
+      },
+      {
+        "frame": 80,
+        "visibility": "occluded",
+        "note": "后侧腿轮廓被前摆腿覆盖，当前帧不能给出完整膝部与足部边界。",
+        "points": [],
+        "origin": "review_candidate"
+      }
+    ]
+  },
+  "reviewStatus": "manual_visual_observations_not_approved",
+  "clipReason": "66–88，躯干/四肢 ROI 的重复匹配候选；骨骼端点平均闭合，视频本身不完全重合。",
+  "initialDraft": {
+    "schema": "walulu-video-rig-draft/1",
+    "source": {
+      "taskId": "local_9c08a83ca165e9c8",
+      "characterId": null,
+      "videoSha": "9c08a83ca165e9c86c8fa0559cb9495b90efca0f20980834ce3033560b44e8fc",
+      "imageSha": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+      "clipStart": 66,
+      "clipEnd": 88,
+      "fps": 24,
+      "frameCount": 107
+    },
+    "fps": 24,
+    "duration": 0.9166666666666666,
+    "productionApproved": false,
+    "parts": [
+      {
+        "id": "head",
+        "name": "头部",
+        "bbox": [
+          179,
+          104,
+          589,
+          451
+        ],
+        "parent": "body",
+        "pivot": [
+          407,
+          440
+        ],
+        "order": 6,
+        "visible": true,
+        "texture": "legacy",
+        "polygon": [],
+        "evidence": [
+          {
+            "frame": 66,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 70,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 74,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 78,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 82,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 86,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 88,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          }
+        ],
+        "keys": [
+          {
+            "time": 0.0,
+            "x": 0,
+            "y": 0,
+            "angle": -1,
+            "bend": 0,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.16666666666666666,
+            "x": 0,
+            "y": 0,
+            "angle": 0,
+            "bend": 0,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.3333333333333333,
+            "x": 0,
+            "y": 0,
+            "angle": 1,
+            "bend": 0,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.5,
+            "x": 0,
+            "y": 0,
+            "angle": 2,
+            "bend": 0,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.6666666666666666,
+            "x": 0,
+            "y": 0,
+            "angle": 3,
+            "bend": 0,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.8333333333333334,
+            "x": 0,
+            "y": 0,
+            "angle": 0,
+            "bend": 0,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.9166666666666666,
+            "x": 0,
+            "y": 0,
+            "angle": -1,
+            "bend": 0,
+            "interpolation": "linear"
+          }
+        ]
+      },
+      {
+        "id": "body",
+        "name": "躯干",
+        "bbox": [
+          330,
+          425,
+          491,
+          563
+        ],
+        "parent": null,
+        "pivot": [
+          410,
+          537
+        ],
+        "order": 2,
+        "visible": true,
+        "texture": "legacy",
+        "polygon": [],
+        "evidence": [
+          {
+            "frame": 66,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 70,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 74,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 78,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 82,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 86,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 88,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          }
+        ],
+        "keys": [
+          {
+            "time": 0.0,
+            "x": 0,
+            "y": 0,
+            "angle": 0,
+            "bend": 0,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.16666666666666666,
+            "x": 0,
+            "y": 1.25,
+            "angle": 0,
+            "bend": 0,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.3333333333333333,
+            "x": 0,
+            "y": 3.75,
+            "angle": 0,
+            "bend": 0,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.5,
+            "x": 0,
+            "y": 7.5,
+            "angle": 0,
+            "bend": 0,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.6666666666666666,
+            "x": 0,
+            "y": 11.25,
+            "angle": 0,
+            "bend": 0,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.8333333333333334,
+            "x": 0,
+            "y": 2.5,
+            "angle": 0,
+            "bend": 0,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.9166666666666666,
+            "x": 0,
+            "y": 0,
+            "angle": 0,
+            "bend": 0,
+            "interpolation": "linear"
+          }
+        ]
+      },
+      {
+        "id": "shorts",
+        "name": "短裤",
+        "bbox": [
+          334,
+          519,
+          476,
+          593
+        ],
+        "parent": "body",
+        "pivot": [
+          410,
+          537
+        ],
+        "order": 3,
+        "visible": true,
+        "texture": "legacy",
+        "polygon": [],
+        "evidence": [
+          {
+            "frame": 66,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 70,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 74,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 78,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 82,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 86,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 88,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [],
+            "origin": "review_candidate"
+          }
+        ],
+        "keys": [
+          {
+            "time": 0.0,
+            "x": 0,
+            "y": 0,
+            "angle": 0,
+            "bend": 0,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.16666666666666666,
+            "x": 0,
+            "y": 0,
+            "angle": 0,
+            "bend": 0,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.3333333333333333,
+            "x": 0,
+            "y": 0,
+            "angle": 0,
+            "bend": 0,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.5,
+            "x": 0,
+            "y": 0,
+            "angle": 0,
+            "bend": 0,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.6666666666666666,
+            "x": 0,
+            "y": 0,
+            "angle": 0,
+            "bend": 0,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.8333333333333334,
+            "x": 0,
+            "y": 0,
+            "angle": 0,
+            "bend": 0,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.9166666666666666,
+            "x": 0,
+            "y": 0,
+            "angle": 0,
+            "bend": 0,
+            "interpolation": "linear"
+          }
+        ]
+      },
+      {
+        "id": "arm_near",
+        "name": "近屏幕层手臂（暂定）",
+        "bbox": [
+          287,
+          443,
+          377,
+          581
+        ],
+        "parent": "body",
+        "pivot": [
+          351,
+          451
+        ],
+        "joint": [
+          331,
+          506
+        ],
+        "tip": [
+          320,
+          562
+        ],
+        "order": 5,
+        "visible": true,
+        "texture": "legacy",
+        "polygon": [],
+        "evidence": [
+          {
+            "frame": 66,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                399,
+                290
+              ],
+              [
+                394,
+                337
+              ],
+              [
+                394,
+                380
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 70,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                402,
+                292
+              ],
+              [
+                415,
+                339
+              ],
+              [
+                428,
+                380
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 74,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                402,
+                294
+              ],
+              [
+                404,
+                337
+              ],
+              [
+                412,
+                380
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 78,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                402,
+                304
+              ],
+              [
+                382,
+                346
+              ],
+              [
+                370,
+                382
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 82,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                404,
+                307
+              ],
+              [
+                366,
+                339
+              ],
+              [
+                350,
+                369
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 86,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                405,
+                302
+              ],
+              [
+                382,
+                344
+              ],
+              [
+                373,
+                381
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 88,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                402,
+                290
+              ],
+              [
+                392,
+                338
+              ],
+              [
+                390,
+                382
+              ]
+            ],
+            "origin": "review_candidate"
+          }
+        ],
+        "keys": [
+          {
+            "time": 0.0,
+            "x": 0,
+            "y": 0,
+            "angle": -11.06273,
+            "bend": 1.25098,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.16666666666666666,
+            "x": 0,
+            "y": 0,
+            "angle": -35.44432,
+            "bend": 6.73886,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.3333333333333333,
+            "x": 0,
+            "y": 0,
+            "angle": -22.64611,
+            "bend": 0.99388,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.5,
+            "x": 0,
+            "y": 0,
+            "angle": 5.48024,
+            "bend": 1.84167,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.6666666666666666,
+            "x": 0,
+            "y": 0,
+            "angle": 29.91599,
+            "bend": -12.95654,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.8333333333333334,
+            "x": 0,
+            "y": 0,
+            "angle": 8.72285,
+            "bend": -6.16458,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.9166666666666666,
+            "x": 0,
+            "y": 0,
+            "angle": -11.06273,
+            "bend": 1.25098,
+            "interpolation": "linear"
+          }
+        ]
+      },
+      {
+        "id": "arm_far",
+        "name": "远屏幕层手臂（暂定）",
+        "bbox": [
+          452,
+          450,
+          505,
+          554
+        ],
+        "parent": "body",
+        "pivot": [
+          463,
+          454
+        ],
+        "joint": [
+          480,
+          490
+        ],
+        "tip": [
+          488,
+          538
+        ],
+        "order": 4,
+        "visible": true,
+        "texture": "legacy",
+        "polygon": [],
+        "evidence": [
+          {
+            "frame": 66,
+            "visibility": "uncertain",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                487,
+                292
+              ],
+              [
+                496,
+                322
+              ],
+              [
+                502,
+                351
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 70,
+            "visibility": "uncertain",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                488,
+                295
+              ],
+              [
+                487,
+                323
+              ],
+              [
+                491,
+                349
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 74,
+            "visibility": "uncertain",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                488,
+                294
+              ],
+              [
+                490,
+                323
+              ],
+              [
+                493,
+                352
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 78,
+            "visibility": "uncertain",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                488,
+                300
+              ],
+              [
+                510,
+                333
+              ],
+              [
+                516,
+                359
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 82,
+            "visibility": "uncertain",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                488,
+                306
+              ],
+              [
+                521,
+                332
+              ],
+              [
+                530,
+                354
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 86,
+            "visibility": "uncertain",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                488,
+                300
+              ],
+              [
+                506,
+                329
+              ],
+              [
+                512,
+                354
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 88,
+            "visibility": "uncertain",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                487,
+                292
+              ],
+              [
+                496,
+                322
+              ],
+              [
+                502,
+                351
+              ]
+            ],
+            "origin": "review_candidate"
+          }
+        ],
+        "keys": [
+          {
+            "time": 0.0,
+            "x": 0,
+            "y": 0,
+            "angle": 8.57848,
+            "bend": -10.80552,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.16666666666666666,
+            "x": 0,
+            "y": 0,
+            "angle": 27.32313,
+            "bend": -26.60697,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.3333333333333333,
+            "x": 0,
+            "y": 0,
+            "angle": 21.33254,
+            "bend": -17.77635,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.5,
+            "x": 0,
+            "y": 0,
+            "angle": -8.41235,
+            "bend": 4.88005,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.6666666666666666,
+            "x": 0,
+            "y": 0,
+            "angle": -26.48845,
+            "bend": 13.70175,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.8333333333333334,
+            "x": 0,
+            "y": 0,
+            "angle": -6.54972,
+            "bend": 2.51631,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.9166666666666666,
+            "x": 0,
+            "y": 0,
+            "angle": 8.57848,
+            "bend": -10.80552,
+            "interpolation": "linear"
+          }
+        ]
+      },
+      {
+        "id": "leg_near",
+        "name": "近屏幕层腿（暂定）",
+        "bbox": [
+          316,
+          537,
+          407,
+          664
+        ],
+        "parent": "shorts",
+        "pivot": [
+          366,
+          564
+        ],
+        "joint": [
+          362,
+          608
+        ],
+        "tip": [
+          363,
+          649
+        ],
+        "rootBand": [
+          -20,
+          30
+        ],
+        "order": 1,
+        "visible": true,
+        "texture": "legacy",
+        "polygon": [],
+        "evidence": [
+          {
+            "frame": 66,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                413,
+                388
+              ],
+              [
+                404,
+                420
+              ],
+              [
+                404,
+                448
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 70,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                413,
+                385
+              ],
+              [
+                392,
+                412
+              ],
+              [
+                389,
+                445
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 74,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                411,
+                386
+              ],
+              [
+                395,
+                417
+              ],
+              [
+                390,
+                447
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 78,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                411,
+                387
+              ],
+              [
+                416,
+                420
+              ],
+              [
+                422,
+                448
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 82,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                412,
+                387
+              ],
+              [
+                437,
+                419
+              ],
+              [
+                446,
+                448
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 86,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                413,
+                385
+              ],
+              [
+                421,
+                418
+              ],
+              [
+                420,
+                450
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 88,
+            "visibility": "visible",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                413,
+                387
+              ],
+              [
+                410,
+                422
+              ],
+              [
+                410,
+                450
+              ]
+            ],
+            "origin": "review_candidate"
+          }
+        ],
+        "keys": [
+          {
+            "time": 0.0,
+            "x": 0,
+            "y": 0,
+            "angle": 5.10944,
+            "bend": -3.71225,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.16666666666666666,
+            "x": 0,
+            "y": 0,
+            "angle": 32.68055,
+            "bend": -26.08894,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.3333333333333333,
+            "x": 0,
+            "y": 0,
+            "angle": 22.10514,
+            "bend": -11.24564,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.5,
+            "x": 0,
+            "y": 0,
+            "angle": -13.81008,
+            "bend": 3.1125,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.6666666666666666,
+            "x": 0,
+            "y": 0,
+            "angle": -43.19316,
+            "bend": 27.34888,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.8333333333333334,
+            "x": 0,
+            "y": 0,
+            "angle": -18.82142,
+            "bend": 22.00852,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.9166666666666666,
+            "x": 0,
+            "y": 0,
+            "angle": 5.10944,
+            "bend": -3.71225,
+            "interpolation": "linear"
+          }
+        ]
+      },
+      {
+        "id": "leg_far",
+        "name": "远屏幕层腿（暂定）",
+        "bbox": [
+          398,
+          531,
+          480,
+          648
+        ],
+        "parent": "shorts",
+        "pivot": [
+          439,
+          558
+        ],
+        "joint": [
+          443,
+          597
+        ],
+        "tip": [
+          443,
+          634
+        ],
+        "rootBand": [
+          -20,
+          30
+        ],
+        "order": 0,
+        "visible": true,
+        "texture": "legacy",
+        "polygon": [],
+        "evidence": [
+          {
+            "frame": 66,
+            "visibility": "uncertain",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                477,
+                380
+              ],
+              [
+                478,
+                410
+              ],
+              [
+                480,
+                440
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 70,
+            "visibility": "uncertain",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                477,
+                379
+              ],
+              [
+                496,
+                408
+              ],
+              [
+                506,
+                431
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 74,
+            "visibility": "uncertain",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                477,
+                380
+              ],
+              [
+                488,
+                410
+              ],
+              [
+                490,
+                440
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 78,
+            "visibility": "uncertain",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                477,
+                380
+              ],
+              [
+                457,
+                409
+              ],
+              [
+                452,
+                437
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 82,
+            "visibility": "uncertain",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                477,
+                380
+              ],
+              [
+                457,
+                409
+              ],
+              [
+                453,
+                435
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 86,
+            "visibility": "uncertain",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                477,
+                380
+              ],
+              [
+                467,
+                408
+              ],
+              [
+                469,
+                433
+              ]
+            ],
+            "origin": "review_candidate"
+          },
+          {
+            "frame": 88,
+            "visibility": "uncertain",
+            "note": "按指定右前行走视频人工观察标记；遮挡点为估计，供拟合与验收对照，非自动恢复。",
+            "points": [
+              [
+                477,
+                380
+              ],
+              [
+                481,
+                408
+              ],
+              [
+                482,
+                435
+              ]
+            ],
+            "origin": "review_candidate"
+          }
+        ],
+        "keys": [
+          {
+            "time": 0.0,
+            "x": 0,
+            "y": 0,
+            "angle": 0.83638,
+            "bend": -3.80397,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.16666666666666666,
+            "x": 0,
+            "y": 0,
+            "angle": -27.3757,
+            "bend": 3.87713,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.3333333333333333,
+            "x": 0,
+            "y": 0,
+            "angle": -14.28029,
+            "bend": 10.46622,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.5,
+            "x": 0,
+            "y": 0,
+            "angle": 40.4483,
+            "bend": -30.32363,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.6666666666666666,
+            "x": 0,
+            "y": 0,
+            "angle": 40.4483,
+            "bend": -31.70214,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.8333333333333334,
+            "x": 0,
+            "y": 0,
+            "angle": 25.50984,
+            "bend": -30.08376,
+            "interpolation": "linear"
+          },
+          {
+            "time": 0.9166666666666666,
+            "x": 0,
+            "y": 0,
+            "angle": 0.83638,
+            "bend": -3.80397,
+            "interpolation": "linear"
+          }
+        ]
+      }
+    ]
+  },
+  "exportReference": "./generated_rig/walk_acceptance_v1/reference.json"
+}

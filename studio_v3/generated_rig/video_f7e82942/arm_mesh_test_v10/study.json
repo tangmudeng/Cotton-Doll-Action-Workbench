@@ -1,0 +1,2503 @@
+{
+  "schemaVersion": 1,
+  "status": "registration_sensitivity_not_video_fit",
+  "source": {
+    "v9Study": "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v9\\study.json",
+    "v9StudySha256": "f4e639f6e8b65796358661de8cfd37e93f2a18f599db4898f7cd400b0909e5c0",
+    "v8StudySha256": "49510cbdb5f49aa30c44e4fa11e6f4aa937ae4def89de90fa9f41f5e11854e1c",
+    "stableManifestSha256": "c928c89c6f64864359a89e429bc80f5518a3e5149e4dbc5990478c60a243569b"
+  },
+  "scriptSha256": "bff813a7f1b1836d61fe0413095f96391dd0ea2d6e79da86f1e464436df9701d",
+  "policy": {
+    "scope": "fixed same-input pressure poses only; no refit or fitted-branch sensitivity",
+    "sampleRangeNotConfidenceInterval": true,
+    "combinedPerturbationsTested": false,
+    "rotationScalePivot": "projected waist-reference midpoint",
+    "sameRegistrationForAllCandidates": true,
+    "candidateSpecificRegistration": false,
+    "perturbations": [
+      {
+        "name": "base",
+        "translationX": 0.0,
+        "scale": 1.0,
+        "translationYOrRotationDegrees": 0.0,
+        "translationY": 0.0,
+        "rotationDegrees": 0.0
+      },
+      {
+        "name": "tx_minus6",
+        "translationX": -6.0,
+        "scale": 1.0,
+        "translationYOrRotationDegrees": 0.0,
+        "translationY": 0.0,
+        "rotationDegrees": 0.0
+      },
+      {
+        "name": "tx_plus6",
+        "translationX": 6.0,
+        "scale": 1.0,
+        "translationYOrRotationDegrees": 0.0,
+        "translationY": 0.0,
+        "rotationDegrees": 0.0
+      },
+      {
+        "name": "ty_minus6",
+        "translationX": 0.0,
+        "scale": 1.0,
+        "translationYOrRotationDegrees": -6.0,
+        "translationY": -6.0,
+        "rotationDegrees": 0.0
+      },
+      {
+        "name": "ty_plus6",
+        "translationX": 0.0,
+        "scale": 1.0,
+        "translationYOrRotationDegrees": 6.0,
+        "translationY": 6.0,
+        "rotationDegrees": 0.0
+      },
+      {
+        "name": "scale_minus4",
+        "translationX": 0.0,
+        "scale": 0.96,
+        "translationYOrRotationDegrees": 0.0,
+        "translationY": 0.0,
+        "rotationDegrees": 0.0
+      },
+      {
+        "name": "scale_plus4",
+        "translationX": 0.0,
+        "scale": 1.04,
+        "translationYOrRotationDegrees": 0.0,
+        "translationY": 0.0,
+        "rotationDegrees": 0.0
+      },
+      {
+        "name": "rot_minus2",
+        "translationX": 0.0,
+        "scale": 1.0,
+        "translationYOrRotationDegrees": -2.0,
+        "translationY": 0.0,
+        "rotationDegrees": -2.0
+      },
+      {
+        "name": "rot_plus2",
+        "translationX": 0.0,
+        "scale": 1.0,
+        "translationYOrRotationDegrees": 2.0,
+        "translationY": 0.0,
+        "rotationDegrees": 2.0
+      }
+    ],
+    "meaning": "把腰线配准当作共同不确定假设；不根据误差最小者选候选，不改动骨骼或手部目标。",
+    "shoulderIsNotVideoTruth": true,
+    "handIsNotWristTruth": true
+  },
+  "rows": [
+    {
+      "perturbation": "base",
+      "videoFrame": 68,
+      "candidate": "baseline",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        367.41555199292407,
+        373.6532050077109
+      ],
+      "sameInputHandRegionDistancePx": 4.653205007710881,
+      "sameInputHandCenterErrorPx": 21.201571348386164,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "base",
+      "videoFrame": 68,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        369.0207393027483,
+        374.08348717677575
+      ],
+      "sameInputHandRegionDistancePx": 5.083487176775748,
+      "sameInputHandCenterErrorPx": 21.1771806775049,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "base",
+      "videoFrame": 68,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        365.8103646830994,
+        373.22292283864556
+      ],
+      "sameInputHandRegionDistancePx": 4.222922838645559,
+      "sameInputHandCenterErrorPx": 21.355650585336708,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "base",
+      "videoFrame": 68,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        366.9852698238588,
+        375.258392317535
+      ],
+      "sameInputHandRegionDistancePx": 6.2583923175350265,
+      "sameInputHandCenterErrorPx": 22.861191475682826,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "base",
+      "videoFrame": 68,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        367.8458341619891,
+        372.0480176978863
+      ],
+      "sameInputHandRegionDistancePx": 3.04801769788628,
+      "sameInputHandCenterErrorPx": 19.542331429050193,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "base",
+      "videoFrame": 72,
+      "candidate": "baseline",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        433.31664067420934,
+        307.13456640767777
+      ],
+      "sameInputHandRegionDistancePx": 10.683359325790661,
+      "sameInputHandCenterErrorPx": 38.629656613551305,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "base",
+      "videoFrame": 72,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        437.81144820411436,
+        302.835383492406
+      ],
+      "sameInputHandRegionDistancePx": 7.459370213743519,
+      "sameInputHandCenterErrorPx": 37.75352223349908,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "base",
+      "videoFrame": 72,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        428.82183314430426,
+        311.43374932294955
+      ],
+      "sameInputHandRegionDistancePx": 15.178166855695736,
+      "sameInputHandCenterErrorPx": 40.45423137406249,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "base",
+      "videoFrame": 72,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        437.61582358948107,
+        311.6293739375826
+      ],
+      "sameInputHandRegionDistancePx": 6.384176410518933,
+      "sameInputHandCenterErrorPx": 32.59057099577817,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "base",
+      "videoFrame": 72,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        429.01745775893755,
+        302.63975887777246
+      ],
+      "sameInputHandRegionDistancePx": 15.604110825330118,
+      "sameInputHandCenterErrorPx": 44.718317938744676,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "base",
+      "videoFrame": 80,
+      "candidate": "baseline",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        372.53290742469187,
+        357.23178299892993
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 12.194276585466708,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "base",
+      "videoFrame": 80,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        374.05102889992827,
+        357.6069873644178
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 11.570800943307425,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "base",
+      "videoFrame": 80,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        371.01478594945524,
+        356.8565786334419
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 12.977221223166064,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "base",
+      "videoFrame": 80,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        372.15770305920375,
+        358.74990447416644
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 13.607143875630994,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "base",
+      "videoFrame": 80,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        372.9081117901798,
+        355.7136615236932
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 10.8230005401696,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_minus6",
+      "videoFrame": 68,
+      "candidate": "baseline",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        361.41555199292407,
+        373.6532050077109
+      ],
+      "sameInputHandRegionDistancePx": 4.653205007710881,
+      "sameInputHandCenterErrorPx": 23.759629705145247,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_minus6",
+      "videoFrame": 68,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        363.0207393027483,
+        374.08348717677575
+      ],
+      "sameInputHandRegionDistancePx": 5.083487176775748,
+      "sameInputHandCenterErrorPx": 23.328611399196202,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_minus6",
+      "videoFrame": 68,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        359.8103646830994,
+        373.22292283864556
+      ],
+      "sameInputHandRegionDistancePx": 4.222922838645559,
+      "sameInputHandCenterErrorPx": 24.296901772156037,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_minus6",
+      "videoFrame": 68,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        360.9852698238588,
+        375.258392317535
+      ],
+      "sameInputHandRegionDistancePx": 6.2583923175350265,
+      "sameInputHandCenterErrorPx": 25.353714477400104,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_minus6",
+      "videoFrame": 68,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        361.8458341619891,
+        372.0480176978863
+      ],
+      "sameInputHandRegionDistancePx": 3.04801769788628,
+      "sameInputHandCenterErrorPx": 22.175497914116242,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_minus6",
+      "videoFrame": 72,
+      "candidate": "baseline",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        427.31664067420934,
+        307.13456640767777
+      ],
+      "sameInputHandRegionDistancePx": 16.68335932579066,
+      "sameInputHandCenterErrorPx": 43.75443614069751,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_minus6",
+      "videoFrame": 72,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        431.81144820411436,
+        302.835383492406
+      ],
+      "sameInputHandRegionDistancePx": 12.880404711666158,
+      "sameInputHandCenterErrorPx": 42.35080946789491,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_minus6",
+      "videoFrame": 72,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        422.82183314430426,
+        311.43374932294955
+      ],
+      "sameInputHandRegionDistancePx": 21.178166855695736,
+      "sameInputHandCenterErrorPx": 45.96392975295445,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_minus6",
+      "videoFrame": 72,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        431.61582358948107,
+        311.6293739375826
+      ],
+      "sameInputHandRegionDistancePx": 12.384176410518933,
+      "sameInputHandCenterErrorPx": 37.85175603267416,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_minus6",
+      "videoFrame": 72,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        423.01745775893755,
+        302.63975887777246
+      ],
+      "sameInputHandRegionDistancePx": 21.43079050203081,
+      "sameInputHandCenterErrorPx": 49.73447965107711,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_minus6",
+      "videoFrame": 80,
+      "candidate": "baseline",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        366.53290742469187,
+        357.23178299892993
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 16.742326371999777,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_minus6",
+      "videoFrame": 80,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        368.05102889992827,
+        357.6069873644178
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 15.724855728130061,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_minus6",
+      "videoFrame": 80,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        365.01478594945524,
+        356.8565786334419
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 17.83902573801408,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_minus6",
+      "videoFrame": 80,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        366.15770305920375,
+        358.74990447416644
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 17.923781067109612,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_minus6",
+      "videoFrame": 80,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        366.9081117901798,
+        355.7136615236932
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 15.628179651205501,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_plus6",
+      "videoFrame": 68,
+      "candidate": "baseline",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        373.41555199292407,
+        373.6532050077109
+      ],
+      "sameInputHandRegionDistancePx": 4.653205007710881,
+      "sameInputHandCenterErrorPx": 20.161677796150745,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_plus6",
+      "videoFrame": 68,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        375.0207393027483,
+        374.08348717677575
+      ],
+      "sameInputHandRegionDistancePx": 5.083487176775748,
+      "sameInputHandCenterErrorPx": 20.60878097027252,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_plus6",
+      "videoFrame": 68,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        371.8103646830994,
+        373.22292283864556
+      ],
+      "sameInputHandRegionDistancePx": 4.222922838645559,
+      "sameInputHandCenterErrorPx": 19.84409705983583,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_plus6",
+      "videoFrame": 68,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        372.9852698238588,
+        375.258392317535
+      ],
+      "sameInputHandRegionDistancePx": 6.2583923175350265,
+      "sameInputHandCenterErrorPx": 21.78204107915828,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_plus6",
+      "videoFrame": 68,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        373.8458341619891,
+        372.0480176978863
+      ],
+      "sameInputHandRegionDistancePx": 3.04801769788628,
+      "sameInputHandCenterErrorPx": 18.54865837807986,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_plus6",
+      "videoFrame": 72,
+      "candidate": "baseline",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        439.31664067420934,
+        307.13456640767777
+      ],
+      "sameInputHandRegionDistancePx": 4.683359325790661,
+      "sameInputHandCenterErrorPx": 33.794231137450076,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_plus6",
+      "videoFrame": 72,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        443.81144820411436,
+        302.835383492406
+      ],
+      "sameInputHandRegionDistancePx": 4.168882636277532,
+      "sameInputHandCenterErrorPx": 33.6015746578145,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_plus6",
+      "videoFrame": 72,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        434.82183314430426,
+        311.43374932294955
+      ],
+      "sameInputHandRegionDistancePx": 9.178166855695736,
+      "sameInputHandCenterErrorPx": 35.10565244797244,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_plus6",
+      "videoFrame": 72,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        443.61582358948107,
+        311.6293739375826
+      ],
+      "sameInputHandRegionDistancePx": 0.3841764105189327,
+      "sameInputHandCenterErrorPx": 27.632140722438248,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_plus6",
+      "videoFrame": 72,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        435.01745775893755,
+        302.63975887777246
+      ],
+      "sameInputHandRegionDistancePx": 9.984876952493467,
+      "sameInputHandCenterErrorPx": 39.97420984056976,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_plus6",
+      "videoFrame": 80,
+      "candidate": "baseline",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        378.53290742469187,
+        357.23178299892993
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 9.43902910998605,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_plus6",
+      "videoFrame": 80,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        380.05102889992827,
+        357.6069873644178
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 9.617472706942467,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_plus6",
+      "videoFrame": 80,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        377.01478594945524,
+        356.8565786334419
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 9.517652130039984,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_plus6",
+      "videoFrame": 80,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        378.15770305920375,
+        358.74990447416644
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 11.00212711990582,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "tx_plus6",
+      "videoFrame": 80,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        378.9081117901798,
+        355.7136615236932
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 7.876209886402803,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_minus6",
+      "videoFrame": 68,
+      "candidate": "baseline",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        367.41555199292407,
+        367.6532050077109
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 15.609874040112516,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_minus6",
+      "videoFrame": 68,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        369.0207393027483,
+        368.08348717677575
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 15.410098485291321,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_minus6",
+      "videoFrame": 68,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        365.8103646830994,
+        367.22292283864556
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 15.980886641837033,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_minus6",
+      "videoFrame": 68,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        366.9852698238588,
+        369.258392317535
+      ],
+      "sameInputHandRegionDistancePx": 0.25839231753502645,
+      "sameInputHandCenterErrorPx": 17.249155569981184,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_minus6",
+      "videoFrame": 68,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        367.8458341619891,
+        366.0480176978863
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 13.975925919530615,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_minus6",
+      "videoFrame": 72,
+      "candidate": "baseline",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        433.31664067420934,
+        301.13456640767777
+      ],
+      "sameInputHandRegionDistancePx": 12.187595239008408,
+      "sameInputHandCenterErrorPx": 42.24494730957484,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_minus6",
+      "videoFrame": 72,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        437.81144820411436,
+        296.835383492406
+      ],
+      "sameInputHandRegionDistancePx": 11.900319410705423,
+      "sameInputHandCenterErrorPx": 42.06309355154988,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_minus6",
+      "videoFrame": 72,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        428.82183314430426,
+        305.43374932294955
+      ],
+      "sameInputHandRegionDistancePx": 15.258764376013595,
+      "sameInputHandCenterErrorPx": 43.32827995883044,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_minus6",
+      "videoFrame": 72,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        437.61582358948107,
+        305.6293739375826
+      ],
+      "sameInputHandRegionDistancePx": 6.529649626404482,
+      "sameInputHandCenterErrorPx": 36.06373289857646,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_minus6",
+      "videoFrame": 72,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        429.01745775893755,
+        296.63975887777246
+      ],
+      "sameInputHandRegionDistancePx": 18.215684673267567,
+      "sameInputHandCenterErrorPx": 48.43604910330098,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_minus6",
+      "videoFrame": 80,
+      "candidate": "baseline",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        372.53290742469187,
+        351.23178299892993
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 8.597615102788822,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_minus6",
+      "videoFrame": 80,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        374.05102889992827,
+        351.6069873644178
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 7.389153273320982,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_minus6",
+      "videoFrame": 80,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        371.01478594945524,
+        350.8565786334419
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 9.906024786648203,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_minus6",
+      "videoFrame": 80,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        372.15770305920375,
+        352.74990447416644
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 9.599766182679907,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_minus6",
+      "videoFrame": 80,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        372.9081117901798,
+        349.7136615236932
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 7.782891648236738,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_plus6",
+      "videoFrame": 68,
+      "candidate": "baseline",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        367.41555199292407,
+        379.6532050077109
+      ],
+      "sameInputHandRegionDistancePx": 10.65320500771088,
+      "sameInputHandCenterErrorPx": 26.96933606400498,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_plus6",
+      "videoFrame": 68,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        369.0207393027483,
+        380.08348717677575
+      ],
+      "sameInputHandRegionDistancePx": 11.083487176775748,
+      "sameInputHandCenterErrorPx": 27.045791309721295,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_plus6",
+      "videoFrame": 68,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        365.8103646830994,
+        379.22292283864556
+      ],
+      "sameInputHandRegionDistancePx": 10.222922838645559,
+      "sameInputHandCenterErrorPx": 26.995164122241206,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_plus6",
+      "videoFrame": 68,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        366.9852698238588,
+        381.258392317535
+      ],
+      "sameInputHandRegionDistancePx": 12.258392317535026,
+      "sameInputHandCenterErrorPx": 28.631010871051227,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_plus6",
+      "videoFrame": 68,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        367.8458341619891,
+        378.0480176978863
+      ],
+      "sameInputHandRegionDistancePx": 9.04801769788628,
+      "sameInputHandCenterErrorPx": 25.30768519753394,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_plus6",
+      "videoFrame": 72,
+      "candidate": "baseline",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        433.31664067420934,
+        313.13456640767777
+      ],
+      "sameInputHandRegionDistancePx": 10.683359325790661,
+      "sameInputHandCenterErrorPx": 35.663218684984415,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_plus6",
+      "videoFrame": 72,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        437.81144820411436,
+        308.835383492406
+      ],
+      "sameInputHandRegionDistancePx": 6.188551795885644,
+      "sameInputHandCenterErrorPx": 33.96105185273538,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_plus6",
+      "videoFrame": 72,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        428.82183314430426,
+        317.43374932294955
+      ],
+      "sameInputHandRegionDistancePx": 15.178166855695736,
+      "sameInputHandCenterErrorPx": 38.31122326344562,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_plus6",
+      "videoFrame": 72,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        437.61582358948107,
+        317.6293739375826
+      ],
+      "sameInputHandRegionDistancePx": 6.384176410518933,
+      "sameInputHandCenterErrorPx": 29.92821085667917,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_plus6",
+      "videoFrame": 72,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        429.01745775893755,
+        308.63975887777246
+      ],
+      "sameInputHandRegionDistancePx": 14.982542241062447,
+      "sameInputHandCenterErrorPx": 41.53799544758899,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_plus6",
+      "videoFrame": 80,
+      "candidate": "baseline",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        372.53290742469187,
+        363.23178299892993
+      ],
+      "sameInputHandRegionDistancePx": 2.23178299892993,
+      "sameInputHandCenterErrorPx": 17.189583398966384,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_plus6",
+      "videoFrame": 80,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        374.05102889992827,
+        363.6069873644178
+      ],
+      "sameInputHandRegionDistancePx": 2.6069873644178188,
+      "sameInputHandCenterErrorPx": 16.886896779534652,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_plus6",
+      "videoFrame": 80,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        371.01478594945524,
+        362.8565786334419
+      ],
+      "sameInputHandRegionDistancePx": 1.8565786334419272,
+      "sameInputHandCenterErrorPx": 17.626321632044924,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_plus6",
+      "videoFrame": 80,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        372.15770305920375,
+        364.74990447416644
+      ],
+      "sameInputHandRegionDistancePx": 3.749904474166442,
+      "sameInputHandCenterErrorPx": 18.71238141290732,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "ty_plus6",
+      "videoFrame": 80,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        372.9081117901798,
+        361.7136615236932
+      ],
+      "sameInputHandRegionDistancePx": 0.7136615236931902,
+      "sameInputHandCenterErrorPx": 15.674861370258741,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_minus4",
+      "videoFrame": 68,
+      "candidate": "baseline",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        370.6789299132072,
+        373.0270768074023
+      ],
+      "sameInputHandRegionDistancePx": 4.027076807402295,
+      "sameInputHandCenterErrorPx": 19.80747927333457,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_minus4",
+      "videoFrame": 68,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        372.2199097306385,
+        373.44014768970465
+      ],
+      "sameInputHandRegionDistancePx": 4.440147689704645,
+      "sameInputHandCenterErrorPx": 20.019445827852202,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_minus4",
+      "videoFrame": 68,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        369.1379500957755,
+        372.61400592509983
+      ],
+      "sameInputHandRegionDistancePx": 3.614005925099832,
+      "sameInputHandCenterErrorPx": 19.722696361702695,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_minus4",
+      "videoFrame": 68,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        370.26585903090455,
+        374.5680566248336
+      ],
+      "sameInputHandRegionDistancePx": 5.568056624833616,
+      "sameInputHandCenterErrorPx": 21.39642069889898,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_minus4",
+      "videoFrame": 68,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        371.09200079550965,
+        371.48609698997075
+      ],
+      "sameInputHandRegionDistancePx": 2.486096989970747,
+      "sameInputHandCenterErrorPx": 18.219663671592603,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_minus4",
+      "videoFrame": 72,
+      "candidate": "baseline",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        433.783975047241,
+        308.3491837513707
+      ],
+      "sameInputHandRegionDistancePx": 10.216024952759028,
+      "sameInputHandCenterErrorPx": 37.5760779524694,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_minus4",
+      "videoFrame": 72,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        438.09899027594975,
+        304.2219681527097
+      ],
+      "sameInputHandRegionDistancePx": 6.522221761631149,
+      "sameInputHandCenterErrorPx": 36.609263367016005,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_minus4",
+      "videoFrame": 72,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        429.4689598185321,
+        312.47639935003156
+      ],
+      "sameInputHandRegionDistancePx": 14.531040181467915,
+      "sameInputHandCenterErrorPx": 39.43338223318188,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_minus4",
+      "videoFrame": 72,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        437.91119064590185,
+        312.6641989800793
+      ],
+      "sameInputHandRegionDistancePx": 6.088809354098146,
+      "sameInputHandCenterErrorPx": 31.810611366638263,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_minus4",
+      "videoFrame": 72,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        429.65675944858003,
+        304.0341685226616
+      ],
+      "sameInputHandRegionDistancePx": 14.646661936013588,
+      "sameInputHandCenterErrorPx": 43.39717505903441,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_minus4",
+      "videoFrame": 80,
+      "candidate": "baseline",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        375.59159112770425,
+        356.58251167897265
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 9.886960320408573,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_minus4",
+      "videoFrame": 80,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        377.04898774393115,
+        356.942707869841
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 9.585484319368197,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_minus4",
+      "videoFrame": 80,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        374.13419451147706,
+        356.2223154881042
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 10.398555260401647,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_minus4",
+      "videoFrame": 80,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        375.2313949368356,
+        358.03990829519967
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 11.33834017339489,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_minus4",
+      "videoFrame": 80,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        375.95178731857266,
+        355.1251150627454
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 8.453017405214425,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_plus4",
+      "videoFrame": 68,
+      "candidate": "baseline",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        364.15217407264106,
+        374.27933320801924
+      ],
+      "sameInputHandRegionDistancePx": 5.2793332080192386,
+      "sameInputHandCenterErrorPx": 22.99478993305775,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_plus4",
+      "videoFrame": 68,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        365.8215688748583,
+        374.72682666384674
+      ],
+      "sameInputHandRegionDistancePx": 5.726826663846737,
+      "sameInputHandCenterErrorPx": 22.747854973286625,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_plus4",
+      "videoFrame": 68,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        362.4827792704234,
+        373.8318397521915
+      ],
+      "sameInputHandRegionDistancePx": 4.831839752191513,
+      "sameInputHandCenterErrorPx": 23.367286557120487,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_plus4",
+      "videoFrame": 68,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        363.7046806168132,
+        375.94872801023655
+      ],
+      "sameInputHandRegionDistancePx": 6.94872801023655,
+      "sameInputHandCenterErrorPx": 24.696942937930608,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_plus4",
+      "videoFrame": 68,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        364.5996675284687,
+        372.6099384058017
+      ],
+      "sameInputHandRegionDistancePx": 3.6099384058016994,
+      "sameInputHandCenterErrorPx": 21.296854144423797,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_plus4",
+      "videoFrame": 72,
+      "candidate": "baseline",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        432.8493063011777,
+        305.91994906398486
+      ],
+      "sameInputHandRegionDistancePx": 11.202878201129494,
+      "sameInputHandCenterErrorPx": 39.69794074366266,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_plus4",
+      "videoFrame": 72,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        437.52390613227897,
+        301.44879883210217
+      ],
+      "sameInputHandRegionDistancePx": 8.529690861338656,
+      "sameInputHandCenterErrorPx": 38.9156692441697,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_plus4",
+      "videoFrame": 72,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        428.1747064700765,
+        310.39109929586743
+      ],
+      "sameInputHandRegionDistancePx": 15.8252935299235,
+      "sameInputHandCenterErrorPx": 41.4862606390005,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_plus4",
+      "videoFrame": 72,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        437.32045653306034,
+        310.59454889508595
+      ],
+      "sameInputHandRegionDistancePx": 6.679543466939663,
+      "sameInputHandCenterErrorPx": 33.38700120219858,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_plus4",
+      "videoFrame": 72,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        428.3781560692951,
+        301.2453492328834
+      ],
+      "sameInputHandRegionDistancePx": 16.648063348232963,
+      "sameInputHandCenterErrorPx": 46.05265774364279,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_plus4",
+      "videoFrame": 80,
+      "candidate": "baseline",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        369.47422372167955,
+        357.8810543188872
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 14.805504955670155,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_plus4",
+      "videoFrame": 80,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        371.05307005592533,
+        358.2712668589945
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 13.955049561249643,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_plus4",
+      "videoFrame": 80,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        367.8953773874334,
+        357.49084177877967
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 15.77823148756077,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_plus4",
+      "videoFrame": 80,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        369.0840111815719,
+        359.4599006531331
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 16.175726372628713,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "scale_plus4",
+      "videoFrame": 80,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        369.864436261787,
+        356.302207984641
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 13.492289407281037,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_minus2",
+      "videoFrame": 68,
+      "candidate": "baseline",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        368.0115400108621,
+        376.4909256723539
+      ],
+      "sameInputHandRegionDistancePx": 7.49092567235391,
+      "sameInputHandCenterErrorPx": 23.758036878353554,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_minus2",
+      "videoFrame": 68,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        369.6307661150885,
+        376.86492549592106
+      ],
+      "sameInputHandRegionDistancePx": 7.864925495921057,
+      "sameInputHandCenterErrorPx": 23.769937908438063,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_minus2",
+      "videoFrame": 68,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        366.39231390663554,
+        376.1169258487863
+      ],
+      "sameInputHandRegionDistancePx": 7.116925848786309,
+      "sameInputHandCenterErrorPx": 23.86215041744288,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_minus2",
+      "videoFrame": 68,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        367.6375401872946,
+        378.1101517765802
+      ],
+      "sameInputHandRegionDistancePx": 9.11015177658021,
+      "sameInputHandCenterErrorPx": 25.419293171420122,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_minus2",
+      "videoFrame": 68,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        368.38553983442955,
+        374.87169956812727
+      ],
+      "sameInputHandRegionDistancePx": 5.871699568127269,
+      "sameInputHandCenterErrorPx": 22.09687094095154,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_minus2",
+      "videoFrame": 72,
+      "candidate": "baseline",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        432.2640195115116,
+        307.5608075696402
+      ],
+      "sameInputHandRegionDistancePx": 11.735980488488394,
+      "sameInputHandCenterErrorPx": 39.2820592467709,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_minus2",
+      "videoFrame": 72,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        436.60604960614006,
+        303.10737707987204
+      ],
+      "sameInputHandRegionDistancePx": 8.356016731982235,
+      "sameInputHandCenterErrorPx": 38.46616263843649,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_minus2",
+      "videoFrame": 72,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        427.9219894168831,
+        312.01423805940834
+      ],
+      "sameInputHandRegionDistancePx": 16.078010583116907,
+      "sameInputHandCenterErrorPx": 41.0351949690349,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_minus2",
+      "videoFrame": 72,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        436.7174500012797,
+        311.9028376642685
+      ],
+      "sameInputHandRegionDistancePx": 7.282549998720299,
+      "sameInputHandCenterErrorPx": 33.22500537287329,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_minus2",
+      "videoFrame": 72,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        427.81058902174345,
+        303.21877747501145
+      ],
+      "sameInputHandRegionDistancePx": 16.625121702001895,
+      "sameInputHandCenterErrorPx": 45.38316771938594,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_minus2",
+      "videoFrame": 80,
+      "candidate": "baseline",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        373.14597016866395,
+        359.8905580804768
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 13.980955840906331,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_minus2",
+      "videoFrame": 80,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        374.676261288832,
+        360.212552206184
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 13.530054100583872,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_minus2",
+      "videoFrame": 80,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        371.6156790484956,
+        359.5685639547696
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 14.58639197145526,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_minus2",
+      "videoFrame": 80,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        372.8239760429566,
+        361.4208492006451
+      ],
+      "sameInputHandRegionDistancePx": 0.4208492006450797,
+      "sameInputHandCenterErrorPx": 15.460935840225199,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_minus2",
+      "videoFrame": 80,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        373.4679642943711,
+        358.36026696030854
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 12.521368042434526,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_plus2",
+      "videoFrame": 68,
+      "candidate": "baseline",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        366.91896205776186,
+        370.79641332395727
+      ],
+      "sameInputHandRegionDistancePx": 1.7964133239572675,
+      "sameInputHandCenterErrorPx": 18.68975687944021,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_plus2",
+      "videoFrame": 68,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        368.5081548997073,
+        371.2824536059767
+      ],
+      "sameInputHandRegionDistancePx": 2.2824536059766842,
+      "sameInputHandCenterErrorPx": 18.61117994255932,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_plus2",
+      "videoFrame": 68,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        365.3297692158161,
+        370.3103730419376
+      ],
+      "sameInputHandRegionDistancePx": 1.3103730419376234,
+      "sameInputHandCenterErrorPx": 18.914585474181383,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_plus2",
+      "videoFrame": 68,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        366.4329217757421,
+        372.3856061659026
+      ],
+      "sameInputHandRegionDistancePx": 3.3856061659025727,
+      "sameInputHandCenterErrorPx": 20.345190908556628,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_plus2",
+      "videoFrame": 68,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        374.0,
+        353.5
+      ],
+      "projectedSameInputHand": [
+        367.4050023397815,
+        369.2072204820114
+      ],
+      "sameInputHandRegionDistancePx": 0.20722048201139387,
+      "sameInputHandCenterErrorPx": 17.03557364484113,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_plus2",
+      "videoFrame": 72,
+      "candidate": "baseline",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        434.38349621056204,
+        306.7453208491111
+      ],
+      "sameInputHandRegionDistancePx": 9.619875602219192,
+      "sameInputHandCenterErrorPx": 37.96712884899549,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_plus2",
+      "videoFrame": 72,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        439.02560494514046,
+        302.6056234004795
+      ],
+      "sameInputHandRegionDistancePx": 6.637405506688929,
+      "sameInputHandCenterErrorPx": 37.03258474639013,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_plus2",
+      "videoFrame": 72,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        429.7413874759836,
+        310.88501829774265
+      ],
+      "sameInputHandRegionDistancePx": 14.258612524016428,
+      "sameInputHandCenterErrorPx": 39.861835758198666,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_plus2",
+      "videoFrame": 72,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        438.52319365919357,
+        311.3874295836893
+      ],
+      "sameInputHandRegionDistancePx": 5.476806340806434,
+      "sameInputHandCenterErrorPx": 31.946645310620113,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_plus2",
+      "videoFrame": 72,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        465.5,
+        328.5
+      ],
+      "projectedSameInputHand": [
+        430.2437987619305,
+        302.1032121145325
+      ],
+      "sameInputHandRegionDistancePx": 14.601767156667227,
+      "sameInputHandCenterErrorPx": 44.04304867297014,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_plus2",
+      "videoFrame": 80,
+      "candidate": "baseline",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        372.0130080541702,
+        354.55323199011326
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 10.722587458483318,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_plus2",
+      "videoFrame": 80,
+      "candidate": "axis_minus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        373.51711028730597,
+        354.98118946665835
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 9.874095153938391,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_plus2",
+      "videoFrame": 80,
+      "candidate": "axis_plus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        370.5089058210341,
+        354.12527451356806
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 11.71925555483508,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_plus2",
+      "videoFrame": 80,
+      "candidate": "normal_minus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        371.58505057762477,
+        356.05733422324926
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 12.0165285331768,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    },
+    {
+      "perturbation": "rot_plus2",
+      "videoFrame": 80,
+      "candidate": "normal_plus4",
+      "targetCenter": [
+        380.5,
+        348.0
+      ],
+      "projectedSameInputHand": [
+        372.44096553071535,
+        353.04912975697715
+      ],
+      "sameInputHandRegionDistancePx": 0.0,
+      "sameInputHandCenterErrorPx": 9.510086638927657,
+      "candidateIndependentRegistration": false,
+      "decision": "not_ranked"
+    }
+  ],
+  "summary": {
+    "f68_baseline": {
+      "minError": 15.609874040112516,
+      "maxError": 26.96933606400498,
+      "rangePx": 11.359462023892466,
+      "notRanked": true
+    },
+    "f68_axis_minus4": {
+      "minError": 15.410098485291321,
+      "maxError": 27.045791309721295,
+      "rangePx": 11.635692824429974,
+      "notRanked": true
+    },
+    "f68_axis_plus4": {
+      "minError": 15.980886641837033,
+      "maxError": 26.995164122241206,
+      "rangePx": 11.014277480404173,
+      "notRanked": true
+    },
+    "f68_normal_minus4": {
+      "minError": 17.249155569981184,
+      "maxError": 28.631010871051227,
+      "rangePx": 11.381855301070043,
+      "notRanked": true
+    },
+    "f68_normal_plus4": {
+      "minError": 13.975925919530615,
+      "maxError": 25.30768519753394,
+      "rangePx": 11.331759278003323,
+      "notRanked": true
+    },
+    "f72_baseline": {
+      "minError": 33.794231137450076,
+      "maxError": 43.75443614069751,
+      "rangePx": 9.960205003247431,
+      "notRanked": true
+    },
+    "f72_axis_minus4": {
+      "minError": 33.6015746578145,
+      "maxError": 42.35080946789491,
+      "rangePx": 8.74923481008041,
+      "notRanked": true
+    },
+    "f72_axis_plus4": {
+      "minError": 35.10565244797244,
+      "maxError": 45.96392975295445,
+      "rangePx": 10.85827730498201,
+      "notRanked": true
+    },
+    "f72_normal_minus4": {
+      "minError": 27.632140722438248,
+      "maxError": 37.85175603267416,
+      "rangePx": 10.219615310235913,
+      "notRanked": true
+    },
+    "f72_normal_plus4": {
+      "minError": 39.97420984056976,
+      "maxError": 49.73447965107711,
+      "rangePx": 9.760269810507346,
+      "notRanked": true
+    },
+    "f80_baseline": {
+      "minError": 8.597615102788822,
+      "maxError": 17.189583398966384,
+      "rangePx": 8.591968296177562,
+      "notRanked": true
+    },
+    "f80_axis_minus4": {
+      "minError": 7.389153273320982,
+      "maxError": 16.886896779534652,
+      "rangePx": 9.49774350621367,
+      "notRanked": true
+    },
+    "f80_axis_plus4": {
+      "minError": 9.517652130039984,
+      "maxError": 17.83902573801408,
+      "rangePx": 8.321373607974095,
+      "notRanked": true
+    },
+    "f80_normal_minus4": {
+      "minError": 9.599766182679907,
+      "maxError": 18.71238141290732,
+      "rangePx": 9.112615230227412,
+      "notRanked": true
+    },
+    "f80_normal_plus4": {
+      "minError": 7.782891648236738,
+      "maxError": 15.674861370258741,
+      "rangePx": 7.891969722022003,
+      "notRanked": true
+    }
+  },
+  "interpretation": {
+    "rangeOnly": "范围只覆盖9个单因素扰动样本，非联合不确定性包络/置信区间/最坏界；不能作为候选优劣排序。",
+    "currentFinding": "本轮只测固定同输入压力姿态的投影变化，不重新求解v9手团中心拟合分支；中心误差与允许区域外距离分开记录，不能由这些结果声称拟合分支稳健。",
+    "nextBoundary": "需基于可见躯干外轮廓、明确视频帧与角色模型姿态一致性建立更可靠注册；不能以手臂反向配准。"
+  },
+  "reuseContract": {
+    "logicalParts": 7,
+    "bonesAdded": 0,
+    "attachmentsAdded": 0,
+    "correctiveKeysAdded": 0,
+    "sharedBoneChainPreserved": true,
+    "clothingIndependentValidation": false,
+    "crossCharacterValidation": false
+  },
+  "decision": "all_candidates_evidence_insufficient",
+  "bindingValidated": false,
+  "approvedForBinding": false,
+  "production": false
+}

@@ -1,0 +1,47 @@
+right_front_walk.png
+size: 414,1003
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+leg_far
+  rotate: false
+  xy: 2, 2
+  size: 79, 104
+  orig: 79, 104
+  offset: 0, 0
+  index: -1
+leg_near
+  rotate: false
+  xy: 2, 110
+  size: 90, 110
+  orig: 90, 110
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 224
+  size: 145, 176
+  orig: 145, 176
+  offset: 0, 0
+  index: -1
+arm_far
+  rotate: false
+  xy: 2, 404
+  size: 53, 104
+  orig: 53, 104
+  offset: 0, 0
+  index: -1
+arm_near
+  rotate: false
+  xy: 2, 512
+  size: 90, 138
+  orig: 90, 138
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 654
+  size: 410, 347
+  orig: 410, 347
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,15 @@
+{
+  "frames": 23,
+  "range": [
+    63,
+    85
+  ],
+  "method": "largest colored character external contour; enclosed cloth preserved",
+  "originalPixelsPreserved": true,
+  "generatedPixels": false,
+  "notes": [
+    "white cloth enclosed by dark contour retained",
+    "transparent cutouts are source frames, not inferred body parts",
+    "occluded pixels remain absent"
+  ]
+}

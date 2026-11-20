@@ -1,0 +1,1 @@
+Spine runtime is copied unchanged from the supplied project. Its embedded license applies. A valid Spine license is required as stated by Esoteric Software.

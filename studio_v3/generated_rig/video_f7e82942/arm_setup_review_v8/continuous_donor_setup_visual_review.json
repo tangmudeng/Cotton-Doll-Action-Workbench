@@ -1,0 +1,34 @@
+{
+  "status": "actually_viewed_not_accepted",
+  "inspectedWith": "ViewImage",
+  "prototypeAccepted": false,
+  "productionApproved": false,
+  "passed": false,
+  "inspectedFileHashes": {
+    "continuous_donor_setup_review.png": "c847ac3216044a2a178fb2fc49dbfbd603b4d849a24aa64e5c1a7e389f5257fb",
+    "continuous_donor_setup_hinge24_contact.png": "01a1a4aa4b8126551f8a6bddbe33b1d575ac03d13424cf5d364768c41288e341",
+    "continuous_donor_setup_hinge24_worst_assembly.png": "bb43a52cf1489d3ed2643466839651f54f3eee59dae995e93c5ff2bc6eebaecb",
+    "continuous_donor_setup_hinge36_contact.png": "799301b49323db13d9101238f3faa383aeb9e4256766d9e0bc625fb8241bad72",
+    "continuous_donor_setup_hinge36_worst_assembly.png": "001f8d2f4e49f9e0846773255858e34c7542c962640763e29139ef12826eacdf",
+    "continuous_donor_setup_hinge52_contact.png": "043782f2a231bbb32b33e314561be2bcfb33ccd78f7dd7b3a3f101b6389be055",
+    "continuous_donor_setup_hinge52_worst_assembly.png": "612bc1dfed4c01a52d18ae9ec07a66e7a50e1d2fee1fa7c75cba0dcb9e45ea1e"
+  },
+  "observations": [
+    "三档连续权重contact、三档最坏无网格帧和总览已实际查看。",
+    "主体条带不再为远端alpha=1孤点扩出原有大尖翼；曲肘处仍存在压缩、轮廓折叠风险，详见实纹理翻转数值。",
+    "手端原供体分瓣未修形；新候选不因主体包络改善而获批准。",
+    "无网格组装近臂下方腰裤口附近可见背景缺口；位置不在肩根，不确认其原因。"
+  ],
+  "shoulderRootGap": {
+    "status": "人工待审，未确认肩根缝",
+    "gapFreeApproved": false,
+    "confirmedShoulderRootGap": false,
+    "waistGapIsNotShoulderRootEvidence": true
+  },
+  "waistTrouserGap": {
+    "historicalObservationLocation": "近臂下方靠腰部/裤口的背景缺口，不是肩根位置",
+    "causeStatus": "未确认；隐藏域覆盖不足或组装遮挡仅为待验证假设",
+    "confirmedCause": null,
+    "newCandidateObservation": "无网格组装近臂下方靠腰裤口可见背景缺口；不等同于肩根缝"
+  }
+}

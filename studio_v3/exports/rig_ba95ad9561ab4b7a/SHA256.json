@@ -1,0 +1,20 @@
+{
+  "walulu_walk.spine": "58378344e85f4ab00f8fc2dac5c412492e3c43624cccf4a41168741589a39c70",
+  "walulu_walk.json": "bcea857623058f47b44e94b01bdf31841afdaf0141012f21304d2798c0b2cb9e",
+  "walulu_walk.atlas": "5ed90bdd01b2a23af52f1f30acda64748d96c52936457ff5a3fc2b0a18ca4951",
+  "walulu_walk.png": "d05cb463deac5c01c069aa273f6ae3b7a8a357ec4b97e1ffc118cf34eb498eee",
+  "draft.json": "e994844913537e631f0a94b74c8dd3f50f5eb3fa70e782d740375eb18809c55b",
+  "provenance.json": "31cdf5616f49f10ea1a549d7f39360ad4df825e9b9e9f5136db91f5d139bbb22",
+  "landmarks.json": "64ce054dced00225a987147aeb66328a3e173e9ce7cfd0b2dd1b10351707dfb2",
+  "runtime_checks.json": "dc80917e1cb9beae7d6f35208a05942e5c97707b4ab6b6fac30d9067c363e49d",
+  "roundtrip_checks.json": "efdff8c3f285a9f2f1fc8c5439537e4df8baaa6b79e50ca383b53493b9e40482",
+  "README.txt": "ccb8115c3db385743b66776c6a184e07496f96194f9f0584a7a0a0c85b429014",
+  "images/head.png": "4f3950e1575f962212adca60486ebe441dadc9e2d8ae65c46d5f6779579e0555",
+  "images/body.png": "aa811d4fe0343c2f468e81986ad9c3c149dab3ef31286571fd0fda498d5e08d1",
+  "images/shorts.png": "5ded88f28a976d9539f8b87e848ad15ef1fe76f2443b52f115f875ba0f157155",
+  "images/arm_near.png": "7cd90180cb6c851def01c5195286a93ffc9420f8a76c6115c811436430597874",
+  "images/arm_far.png": "d8e783debe155efbb7fdb52f0d9415de60af3e199cc861e36a4f9528c5847490",
+  "images/leg_near.png": "841b1997259bd859822241bb64c559ed214d3487b1f4fa26717ba0400ed1432c",
+  "images/leg_far.png": "41685b76cffd5b2a7165509370bb28c102991b933b079b44fb3400842d258664",
+  "roundtrip/walulu_walk.json": "75e996dfa69d5ddbe97982983f02a9c2d2bdf1fc128ded11b7e8063de5971e0d"
+}

@@ -1,0 +1,400 @@
+{
+  "schemaVersion": 1,
+  "status": "numerical_and_scoped_visual_pass",
+  "prototypeAccepted": true,
+  "productionApproved": false,
+  "wardrobeVerified": false,
+  "crossCharacterVerified": false,
+  "mobileVerified": false,
+  "visualReview": {
+    "status": "reviewed_passed_scoped_prototype",
+    "inspectedWith": "ViewImage",
+    "reviewFile": "review.png",
+    "reviewSha256": "301e7962e810db896c968df2e87e0992522fe796f9fe73f3b3dad11b0e0b4627",
+    "scope": "当前视角、小步幅、收敛手臂摆幅；四主姿态+两过渡+循环两侧静态抽样，不代表所有运动或生产验收",
+    "sampleTimes": [
+      0,
+      0.16666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.125,
+      0.4583333333333333,
+      0.6614583333333333,
+      0.005208333333333333
+    ],
+    "observations": [
+      "实际查看最终review四主姿态，far_contact及near_pass腿根不再拉脱，未见此前背景色贯穿裂缝。",
+      "实际查看0.125s与0.458333s过渡，肩髋根保持衔接，未见明显纹理三角撕裂。",
+      "实际查看循环前后1/192秒抽样，未见明显位置跳变；精确首尾由CPU像素与mesh校验。",
+      "为避免现有隐藏图缺口，手臂摆幅已显著收敛；并非完整视频还原或大摆幅能力通过。",
+      "近远腿仍有可见换脚；局部压缩的数值范围见meshGeometry，不声称无压缩。",
+      "没有补画或额外碎片；隐藏结构完整性、换装、跨角色及移动端仍未验证。"
+    ]
+  },
+  "allSevenStablePartsHashVerified": true,
+  "stableManifestUnchanged": true,
+  "protectedOldFilesUnchanged": true,
+  "protectedOldFileCount": 787,
+  "sourceVideoSHAAndFourDecodedFramesVerified": true,
+  "boneCount": 12,
+  "slotCount": 7,
+  "spineVersion": "4.2.00",
+  "setupWeightedReconstruction": {
+    "leg_far": {
+      "maxReconstructionErrorPx": 6.355287432313019e-14,
+      "maxWeightSumError": 0.0,
+      "finiteNonnegativeWeights": true,
+      "onlyTwoSemanticBones": false,
+      "dualLimbChainPlusBodyRoot": true,
+      "weightBoneOrder": [
+        "body",
+        "leg_far_upper",
+        "leg_far_lower"
+      ],
+      "bodyRootWeightMax": 1.0,
+      "distalRowBodyWeightMax": 0.0,
+      "footMaterialBodyWeight": 0.0,
+      "maxWeightGradientPerPx": 0.04984013300073721,
+      "pureBodyRootVertexCount": 54
+    },
+    "leg_near": {
+      "maxReconstructionErrorPx": 6.355287432313019e-14,
+      "maxWeightSumError": 0.0,
+      "finiteNonnegativeWeights": true,
+      "onlyTwoSemanticBones": false,
+      "dualLimbChainPlusBodyRoot": true,
+      "weightBoneOrder": [
+        "body",
+        "leg_near_upper",
+        "leg_near_lower"
+      ],
+      "bodyRootWeightMax": 1.0,
+      "distalRowBodyWeightMax": 0.0,
+      "footMaterialBodyWeight": 0.0,
+      "maxWeightGradientPerPx": 0.04791881289526325,
+      "pureBodyRootVertexCount": 47
+    },
+    "arm_far": {
+      "maxReconstructionErrorPx": 1.1718571004216928e-13,
+      "maxWeightSumError": 0.0,
+      "finiteNonnegativeWeights": true,
+      "onlyTwoSemanticBones": false,
+      "dualLimbChainPlusBodyRoot": true,
+      "weightBoneOrder": [
+        "body",
+        "arm_far_upper",
+        "arm_far_lower"
+      ],
+      "bodyRootWeightMax": 1.0,
+      "distalRowBodyWeightMax": 0.0,
+      "maxWeightGradientPerPx": 0.045076486534045494,
+      "pureBodyRootVertexCount": 25
+    },
+    "arm_near": {
+      "maxReconstructionErrorPx": 8.038873388460929e-14,
+      "maxWeightSumError": 1.1102230246251565e-16,
+      "finiteNonnegativeWeights": true,
+      "onlyTwoSemanticBones": false,
+      "dualLimbChainPlusBodyRoot": true,
+      "weightBoneOrder": [
+        "body",
+        "arm_near_upper",
+        "arm_near_lower"
+      ],
+      "bodyRootWeightMax": 1.0,
+      "distalRowBodyWeightMax": 0.0,
+      "maxWeightGradientPerPx": 0.04589670116271363,
+      "pureBodyRootVertexCount": 42
+    }
+  },
+  "cycleSampleCount": 193,
+  "meshGeometry": {
+    "leg_far": {
+      "minAreaRatio": 0.40880447434243145,
+      "maxAreaRatio": 1.2491460435318822,
+      "minPrincipalStretch": 0.41460601091181853,
+      "maxPrincipalStretch": 1.3033475802441987,
+      "maxPureBodyRootErrorPx": 1.1718571004216928e-13,
+      "flips": 0,
+      "collapsed": 0
+    },
+    "leg_near": {
+      "minAreaRatio": 0.44240031151574083,
+      "maxAreaRatio": 1.3955000543592313,
+      "minPrincipalStretch": 0.43399667393052266,
+      "maxPrincipalStretch": 1.4772529673256758,
+      "maxPureBodyRootErrorPx": 1.1718571004216928e-13,
+      "flips": 0,
+      "collapsed": 0
+    },
+    "arm_far": {
+      "minAreaRatio": 0.9753684494136413,
+      "maxAreaRatio": 1.012106275915139,
+      "minPrincipalStretch": 0.9770897990189745,
+      "maxPrincipalStretch": 1.011212008803203,
+      "maxPureBodyRootErrorPx": 1.2710574864626038e-13,
+      "flips": 0,
+      "collapsed": 0
+    },
+    "arm_near": {
+      "minAreaRatio": 0.96074502219543,
+      "maxAreaRatio": 1.0414630670374143,
+      "minPrincipalStretch": 0.9586862466743354,
+      "maxPrincipalStretch": 1.043090956428402,
+      "maxPureBodyRootErrorPx": 1.2710574864626038e-13,
+      "flips": 0,
+      "collapsed": 0
+    }
+  },
+  "meshRasterOverlapPixels": {
+    "leg_far": 0,
+    "leg_near": 0,
+    "arm_far": 0,
+    "arm_near": 0
+  },
+  "firstLastKeysExact": true,
+  "firstLastMeshMaxErrorPx": {
+    "leg_far": 0.0,
+    "leg_near": 0.0,
+    "arm_far": 0.0,
+    "arm_near": 0.0
+  },
+  "firstLastRenderMismatchPixels": 0,
+  "fourPosePairwisePixelDifferences": {
+    "near_contact__near_pass": 118652,
+    "near_contact__far_contact": 13289,
+    "near_contact__far_pass": 118772,
+    "near_pass__far_contact": 120034,
+    "near_pass__far_pass": 108878,
+    "far_contact__far_pass": 119029
+  },
+  "fourPosesActuallyDifferent": true,
+  "footTrajectory": {
+    "leg_near": {
+      "supportIntervalSeconds": [
+        0,
+        0.25
+      ],
+      "supportSampleCount": 73,
+      "supportMaxDriftPx": 0.00010337735338448184,
+      "cycleRangeXPx": 8.000021829832065,
+      "cycleRangeYPx": 8.000446478034632,
+      "hipTranslateMaxPx": 0.0,
+      "lowerTranslateMaxPx": 10.498586467736654,
+      "compensationBone": "leg_near_lower",
+      "anchorSourcePixels": [
+        367.0,
+        662.5
+      ],
+      "method": "导出weighted mesh中脚底材料点的重心插值，非单纯骨端点；仅支撑期固定；非IK"
+    },
+    "leg_far": {
+      "supportIntervalSeconds": [
+        0.3333333333333333,
+        0.5833333333333334
+      ],
+      "supportSampleCount": 73,
+      "supportMaxDriftPx": 8.871461174599046e-05,
+      "cycleRangeXPx": 8.000057995329314,
+      "cycleRangeYPx": 8.00035274771642,
+      "hipTranslateMaxPx": 0.0,
+      "lowerTranslateMaxPx": 9.541206958070958,
+      "compensationBone": "leg_far_lower",
+      "anchorSourcePixels": [
+        442.5,
+        646.5
+      ],
+      "method": "导出weighted mesh中脚底材料点的重心插值，非单纯骨端点；仅支撑期固定；非IK"
+    }
+  },
+  "atlasRegions": {
+    "leg_far": {
+      "contentAndPaddingExact": true,
+      "insidePage": true
+    },
+    "leg_near": {
+      "contentAndPaddingExact": true,
+      "insidePage": true
+    },
+    "body": {
+      "contentAndPaddingExact": true,
+      "insidePage": true
+    },
+    "shorts": {
+      "contentAndPaddingExact": true,
+      "insidePage": true
+    },
+    "arm_far": {
+      "contentAndPaddingExact": true,
+      "insidePage": true
+    },
+    "arm_near": {
+      "contentAndPaddingExact": true,
+      "insidePage": true
+    },
+    "head": {
+      "contentAndPaddingExact": true,
+      "insidePage": true
+    }
+  },
+  "previewUsesExportedWeightedVertices": true,
+  "officialSpineImportVerified": false,
+  "shoulderAndLegRootGapFree": true,
+  "reviewPoseCount": 4,
+  "extraReviewSamples": [
+    0.125,
+    0.4583333333333333,
+    0.6614583333333333,
+    0.671875
+  ],
+  "extraReviewRaster": {
+    "transition A / t=0.125s": {
+      "leg_far": {
+        "minAreaRatio": 0.4874645533370739,
+        "maxAreaRatio": 1.0138699476331765,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "leg_near": {
+        "minAreaRatio": 0.9334765559620801,
+        "maxAreaRatio": 1.0836157722907005,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_far": {
+        "minAreaRatio": 0.9859323717925136,
+        "maxAreaRatio": 1.0061552009308377,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_near": {
+        "minAreaRatio": 0.9792643115760176,
+        "maxAreaRatio": 1.0179882964316116,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      }
+    },
+    "transition B / t=0.458333s": {
+      "leg_far": {
+        "minAreaRatio": 0.959063002522854,
+        "maxAreaRatio": 1.095364200044891,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "leg_near": {
+        "minAreaRatio": 0.4783240969081961,
+        "maxAreaRatio": 1.008463047793404,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_far": {
+        "minAreaRatio": 0.9927752991516071,
+        "maxAreaRatio": 1.0052045549118263,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_near": {
+        "minAreaRatio": 0.9661906293814672,
+        "maxAreaRatio": 1.0353520322540488,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      }
+    },
+    "loop before / t=T-1/192": {
+      "leg_far": {
+        "minAreaRatio": 0.7084675309013042,
+        "maxAreaRatio": 1.2384862255835438,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "leg_near": {
+        "minAreaRatio": 0.9364872640526359,
+        "maxAreaRatio": 1.0470743205820412,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_far": {
+        "minAreaRatio": 0.9759093816569016,
+        "maxAreaRatio": 1.0118553220918856,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_near": {
+        "minAreaRatio": 0.975110283462212,
+        "maxAreaRatio": 1.0222106894680778,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      }
+    },
+    "loop after / t=T+1/192": {
+      "leg_far": {
+        "minAreaRatio": 0.6748813478388808,
+        "maxAreaRatio": 1.2388429496951552,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "leg_near": {
+        "minAreaRatio": 0.9434355585816855,
+        "maxAreaRatio": 1.0517157141536437,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_far": {
+        "minAreaRatio": 0.9759093816569014,
+        "maxAreaRatio": 1.0118553220918836,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      },
+      "arm_near": {
+        "minAreaRatio": 0.9751102834622045,
+        "maxAreaRatio": 1.0222106894680747,
+        "flips": 0,
+        "collapsed": 0,
+        "interiorOverlapPixels": 0
+      }
+    }
+  },
+  "staticBodyRootAnchors": true,
+  "noDeformTimeline": true,
+  "zip": {
+    "filename": "profile_walk.zip",
+    "members": [
+      "profile.json",
+      "profile_walk.json",
+      "profile_walk.atlas",
+      "profile_walk.png",
+      "provenance.json",
+      "checks.json",
+      "review.png"
+    ],
+    "crcVerified": true,
+    "bytesMatchDisk": true,
+    "verification": "最终ZIP关闭后重新读取CRC和逐成员字节；不做ZIP自身递归SHA"
+  },
+  "limitations": [
+    "只在原图视角使用七件现有纹理；body源件既有4095px隐藏供体搭接保持不变，本次没有生成/涂补任何纹理。",
+    "肩根、腋下、髋根与腿根隐藏面不全，原型未获无露缝批准；裤口描边归属仍待美术复核。",
+    "原图为right_front_3q，不因文件名profile就声称获得真实侧面转向。",
+    "near/far是静态屏幕层假设，不代表视频解剖左右或跨帧身份；未复现胸前大交叉。",
+    "角度为九个有限手工键线性插值；脚底平移是正向补偿，非IK；支撑期原地固定，摆动期移动，不锁死双脚。",
+    "Python CPU验证不是Spine编辑器或官方运行时验收，移动端/换装/跨角色验证均未进行。"
+  ],
+  "numericalChecksPassed": true,
+  "gapFreeScope": "仅本次实际查看的8个样本；非完整隐藏结构或任意姿态保证",
+  "visualChecksPassed": true
+}

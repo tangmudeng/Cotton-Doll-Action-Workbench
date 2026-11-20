@@ -1,0 +1,60 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>右前行走 · 逐帧像素核查</title>
+<style>body{margin:0;background:#eaece8;color:#263a31;font:16px system-ui}main{max-width:1500px;margin:24px auto;padding:0 20px}section{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}article{background:white;padding:12px;border-radius:12px}canvas{width:100%;height:auto;background:#f4f4f4}button,select{font:inherit;padding:8px;border-radius:6px;border:1px solid #abb9b0;background:white}nav{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}p{line-height:1.7}input[type=range]{width:70%}.state{padding:12px;background:#dce9e1;border-radius:8px}</style>
+<main><h1>右前行走 · 逐帧像素核查</h1><p>检查原视频第 63–85 帧。旧版骨骼连续移动、附件逐帧切换；修订版让二者同时切换，保留原拆件及 IK。未补画。</p>
+<div id="status" class="state">加载中…</div>
+<nav><button id="play">播放</button><button id="prev">上一帧</button><button id="next">下一帧</button>
+<select id="phase" aria-label="帧内位置"><option value="0">关键帧起点</option><option value=".5">两帧中间</option><option value=".999">附件切换前</option></select>
+<select id="speed" aria-label="播放速度"><option value="1">正常速度</option><option value=".25">四分之一速度</option></select>
+<select id="view" aria-label="查看范围"><option value="detail">手臂 / 裤裆 / 双脚</option><option value="full">完整角色</option></select>
+<label><input type="checkbox" id="bones">显示骨骼</label></nav>
+<section><article><h3>原视频源帧</h3><canvas id="source" width="480" height="384"></canvas></article>
+<article><h3>旧版 Spine</h3><canvas id="old" width="480" height="384"></canvas></article>
+<article><h3>骨骼 / 附件同步修订</h3><canvas id="fixed" width="480" height="384"></canvas></article></section>
+<p><input id="seek" aria-label="源视频帧" type="range" min="63" max="85" value="63" step="1"> <span id="readout"></span></p>
+<p>使用“附件切换前”检查原来的裂缝和变形。原视频栏在一帧内保持不变；旧版会继续拉动上一张皮肤。新版按 24fps 原帧保持姿态，并非连续插值的自由变形皮肤。测试动画与任意修改 IK 仍可能露缝，不能据此认定最终验收通过。</p>
+<p><a href="walulu_walk_pixel_sync_review.zip">下载本轮 Spine 修订工程</a> · <a href="README.md">查看验证边界</a></p>
+<script src="runtime/spine-canvas.js"></script><script>
+(async()=>{
+const $=id=>document.getElementById(id),assets=new spine.AssetManager();
+await Promise.all([assets.loadJsonAsync('skin.json'),assets.loadJsonAsync('baseline.json'),assets.loadTextureAtlasAsync('skin.atlas')]);
+const images=await Promise.all(Array.from({length:23},(_,i)=>new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve(im);im.onerror=reject;im.src='reference_frames/'+String(i+63).padStart(4,'0')+'.png'})));
+function make(file,id){
+ const raw=assets.get(file),data=new spine.SkeletonJson(new spine.AtlasAttachmentLoader(assets.get('skin.atlas'))).readSkeletonData(raw),sk=new spine.Skeleton(data),anim=data.findAnimation('reference_cycle');
+ const ctx=$(id).getContext('2d'),renderer=new spine.SkeletonRenderer(ctx);renderer.triangleRendering=true;
+ // Match Spine's atlas coordinate convention. Slight triangle overlap prevents Canvas clip seams.
+ renderer.drawTriangle=function(img,x0,y0,u0,v0,x1,y1,u1,v1,x2,y2,u2,v2){
+  const c=this.ctx;u0*=img.width;u1*=img.width;u2*=img.width;v0*=img.height;v1*=img.height;v2*=img.height;
+  const X1=x1-x0,Y1=y1-y0,X2=x2-x0,Y2=y2-y0,U1=u1-u0,V1=v1-v0,U2=u2-u0,V2=v2-v0,det=U1*V2-U2*V1;if(Math.abs(det)<1e-9)return;
+  const a=(V2*X1-V1*X2)/det,b=(V2*Y1-V1*Y2)/det,d=(U1*X2-U2*X1)/det,e=(U1*Y2-U2*Y1)/det,cx=(x0+x1+x2)/3,cy=(y0+y1+y2)/3;
+  const pad=(x,y)=>{const len=Math.hypot(x-cx,y-cy)||1;return[x+(x-cx)/len*.12,y+(y-cy)/len*.12]};
+  c.save();c.beginPath();c.moveTo(...pad(x0,y0));c.lineTo(...pad(x1,y1));c.lineTo(...pad(x2,y2));c.closePath();c.clip();c.transform(a,b,d,e,x0-a*u0-d*v0,y0-b*u0-e*v0);c.drawImage(img,0,0);c.restore();
+ };
+ return {raw,data,sk,anim,ctx,renderer};
+}
+const old=make('baseline.json','old'),fixed=make('skin.json','fixed'),keys=fixed.raw.animations.reference_cycle.slots.head.attachment.map(k=>k.time||0);
+let time=0,playing=false,last=performance.now();
+function current(){return Math.min(22,Math.max(0,keys.findLastIndex(k=>k<=time)))}
+function go(i){i=Math.min(22,Math.max(0,i));time=keys[i]+(keys[i+1]-keys[i])*Number($('phase').value)+1e-7;playing=false;$('play').textContent='播放'}
+$('play').onclick=()=>{playing=!playing;$('play').textContent=playing?'暂停':'播放'};
+$('prev').onclick=()=>go(current()-1);$('next').onclick=()=>go(current()+1);$('seek').oninput=()=>go(Number($('seek').value)-63);$('phase').onchange=()=>go(current());
+$('view').onchange=()=>{for(const id of ['source','old','fixed']){$(id).width=$('view').value==='full'?864:480;$(id).height=$('view').value==='full'?480:384}};
+function drawRig(o){
+ const {sk,anim,ctx:c,renderer}=o;
+ sk.setToSetupPose();anim.apply(sk,0,Math.min(time,anim.duration),false,[],1,spine.MixBlend.replace,spine.MixDirection.mixIn);sk.updateWorldTransform(spine.Physics.update);
+ c.setTransform(1,0,0,1,0,0);c.fillStyle='#f4f4f4';c.fillRect(0,0,c.canvas.width,c.canvas.height);
+ if($('view').value==='full')c.setTransform(1,0,0,-1,432,480);else c.setTransform(2,0,0,-2,234,390);
+ renderer.draw(sk);
+ if($('bones').checked)for(const b of sk.bones){if(b.data.length>0){c.strokeStyle=b.data.name.includes('far')?'#c7771c':'#008e98';c.lineWidth=.7;c.beginPath();c.moveTo(b.worldX,b.worldY);c.lineTo(b.worldX+b.a*b.data.length,b.worldY+b.c*b.data.length);c.stroke()}}
+}
+function draw(now){
+ if(playing)time=(time+(now-last)/1000*Number($('speed').value))%fixed.anim.duration;last=now;
+ const i=current(),c=$('source').getContext('2d');c.clearRect(0,0,c.canvas.width,c.canvas.height);
+ if($('view').value==='full')c.drawImage(images[i],0,0);else c.drawImage(images[i],315,285,240,192,0,0,480,384);
+ drawRig(old);drawRig(fixed);$('seek').value=i+63;
+ $('readout').textContent='源帧 '+(i+63)+' · '+time.toFixed(4)+'s · 帧内 '+Math.round((time-keys[i])/(keys[i+1]-keys[i])*100)+'%';
+ requestAnimationFrame(draw);
+}
+$('status').textContent='已加载：23 个原帧 · 161 个原始附件 · 16 根骨骼 · 4 组 IK。当前为像素同步修订，等待视觉验收。';
+requestAnimationFrame(draw);
+})().catch(e=>{document.getElementById('status').textContent='加载失败：'+e.message;console.error(e)});
+</script></main></html>

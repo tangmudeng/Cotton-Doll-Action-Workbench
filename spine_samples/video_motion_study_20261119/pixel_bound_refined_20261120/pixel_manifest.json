@@ -1,0 +1,2095 @@
+[
+  {
+    "part": "arm_far",
+    "sourceFrame": 63,
+    "crop": [
+      497,
+      296,
+      534,
+      376
+    ],
+    "file": "parts/arm_far_63.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 63,
+    "crop": [
+      440,
+      312,
+      534,
+      466
+    ],
+    "file": "parts/leg_far_63.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 63,
+    "crop": [
+      346,
+      312,
+      458,
+      472
+    ],
+    "file": "parts/leg_near_63.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 63,
+    "crop": [
+      368,
+      288,
+      520,
+      372
+    ],
+    "file": "parts/torso_63.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 63,
+    "crop": [
+      398,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_63.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 63,
+    "crop": [
+      347,
+      292,
+      437,
+      397
+    ],
+    "file": "parts/arm_near_63.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 63,
+    "crop": [
+      264,
+      20,
+      596,
+      294
+    ],
+    "file": "parts/head_63.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 64,
+    "crop": [
+      497,
+      294,
+      528,
+      375
+    ],
+    "file": "parts/arm_far_64.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 64,
+    "crop": [
+      439,
+      317,
+      528,
+      464
+    ],
+    "file": "parts/leg_far_64.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 64,
+    "crop": [
+      352,
+      312,
+      454,
+      472
+    ],
+    "file": "parts/leg_near_64.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 64,
+    "crop": [
+      371,
+      288,
+      520,
+      371
+    ],
+    "file": "parts/torso_64.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 64,
+    "crop": [
+      400,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_64.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 64,
+    "crop": [
+      352,
+      293,
+      437,
+      398
+    ],
+    "file": "parts/arm_near_64.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 64,
+    "crop": [
+      266,
+      20,
+      596,
+      294
+    ],
+    "file": "parts/head_64.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 65,
+    "crop": [
+      497,
+      294,
+      526,
+      376
+    ],
+    "file": "parts/arm_far_65.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 65,
+    "crop": [
+      440,
+      318,
+      526,
+      464
+    ],
+    "file": "parts/leg_far_65.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 65,
+    "crop": [
+      356,
+      314,
+      450,
+      470
+    ],
+    "file": "parts/leg_near_65.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 65,
+    "crop": [
+      371,
+      288,
+      518,
+      370
+    ],
+    "file": "parts/torso_65.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 65,
+    "crop": [
+      407,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_65.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 65,
+    "crop": [
+      360,
+      294,
+      438,
+      402
+    ],
+    "file": "parts/arm_near_65.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 65,
+    "crop": [
+      266,
+      18,
+      596,
+      294
+    ],
+    "file": "parts/head_65.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 66,
+    "crop": [
+      497,
+      298,
+      518,
+      378
+    ],
+    "file": "parts/arm_far_66.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 66,
+    "crop": [
+      443,
+      322,
+      516,
+      454
+    ],
+    "file": "parts/leg_far_66.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 66,
+    "crop": [
+      368,
+      322,
+      449,
+      470
+    ],
+    "file": "parts/leg_near_66.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 66,
+    "crop": [
+      374,
+      288,
+      514,
+      369
+    ],
+    "file": "parts/torso_66.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 66,
+    "crop": [
+      414,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_66.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 66,
+    "crop": [
+      370,
+      296,
+      439,
+      405
+    ],
+    "file": "parts/arm_near_66.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 66,
+    "crop": [
+      266,
+      16,
+      598,
+      294
+    ],
+    "file": "parts/head_66.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 67,
+    "crop": [
+      497,
+      302,
+      512,
+      380
+    ],
+    "file": "parts/arm_far_67.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 67,
+    "crop": [
+      443,
+      331,
+      518,
+      454
+    ],
+    "file": "parts/leg_far_67.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 67,
+    "crop": [
+      368,
+      326,
+      450,
+      470
+    ],
+    "file": "parts/leg_near_67.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 67,
+    "crop": [
+      377,
+      288,
+      510,
+      368
+    ],
+    "file": "parts/torso_67.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 67,
+    "crop": [
+      415,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_67.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 67,
+    "crop": [
+      379,
+      298,
+      439,
+      405
+    ],
+    "file": "parts/arm_near_67.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 67,
+    "crop": [
+      264,
+      16,
+      598,
+      294
+    ],
+    "file": "parts/head_67.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 68,
+    "crop": [
+      497,
+      308,
+      512,
+      384
+    ],
+    "file": "parts/arm_far_68.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 68,
+    "crop": [
+      444,
+      338,
+      526,
+      456
+    ],
+    "file": "parts/leg_far_68.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 68,
+    "crop": [
+      364,
+      329,
+      450,
+      468
+    ],
+    "file": "parts/leg_near_68.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 68,
+    "crop": [
+      380,
+      288,
+      506,
+      368
+    ],
+    "file": "parts/torso_68.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 68,
+    "crop": [
+      418,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_68.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 68,
+    "crop": [
+      389,
+      300,
+      442,
+      405
+    ],
+    "file": "parts/arm_near_68.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 68,
+    "crop": [
+      264,
+      16,
+      600,
+      294
+    ],
+    "file": "parts/head_68.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 69,
+    "crop": [
+      497,
+      314,
+      513,
+      387
+    ],
+    "file": "parts/arm_far_69.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 69,
+    "crop": [
+      444,
+      355,
+      532,
+      456
+    ],
+    "file": "parts/leg_far_69.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 69,
+    "crop": [
+      360,
+      334,
+      450,
+      466
+    ],
+    "file": "parts/leg_near_69.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 69,
+    "crop": [
+      378,
+      288,
+      503,
+      372
+    ],
+    "file": "parts/torso_69.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 69,
+    "crop": [
+      395,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_69.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 69,
+    "crop": [
+      389,
+      298,
+      452,
+      403
+    ],
+    "file": "parts/arm_near_69.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 69,
+    "crop": [
+      263,
+      16,
+      600,
+      294
+    ],
+    "file": "parts/head_69.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 70,
+    "crop": [
+      497,
+      337,
+      512,
+      387
+    ],
+    "file": "parts/arm_far_70.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 70,
+    "crop": [
+      444,
+      355,
+      538,
+      456
+    ],
+    "file": "parts/leg_far_70.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 70,
+    "crop": [
+      355,
+      336,
+      450,
+      464
+    ],
+    "file": "parts/leg_near_70.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 70,
+    "crop": [
+      368,
+      288,
+      503,
+      372
+    ],
+    "file": "parts/torso_70.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 70,
+    "crop": [
+      395,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_70.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 70,
+    "crop": [
+      390,
+      298,
+      455,
+      403
+    ],
+    "file": "parts/arm_near_70.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 70,
+    "crop": [
+      262,
+      19,
+      602,
+      294
+    ],
+    "file": "parts/head_70.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 71,
+    "crop": [
+      497,
+      336,
+      512,
+      387
+    ],
+    "file": "parts/arm_far_71.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 71,
+    "crop": [
+      444,
+      355,
+      536,
+      458
+    ],
+    "file": "parts/leg_far_71.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 71,
+    "crop": [
+      354,
+      288,
+      450,
+      463
+    ],
+    "file": "parts/leg_near_71.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 71,
+    "crop": [
+      364,
+      288,
+      503,
+      372
+    ],
+    "file": "parts/torso_71.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 71,
+    "crop": [
+      395,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_71.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 71,
+    "crop": [
+      390,
+      298,
+      457,
+      401
+    ],
+    "file": "parts/arm_near_71.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 71,
+    "crop": [
+      262,
+      20,
+      602,
+      294
+    ],
+    "file": "parts/head_71.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 72,
+    "crop": [
+      497,
+      336,
+      512,
+      387
+    ],
+    "file": "parts/arm_far_72.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 72,
+    "crop": [
+      444,
+      355,
+      530,
+      460
+    ],
+    "file": "parts/leg_far_72.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 72,
+    "crop": [
+      354,
+      288,
+      450,
+      464
+    ],
+    "file": "parts/leg_near_72.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 72,
+    "crop": [
+      364,
+      288,
+      503,
+      372
+    ],
+    "file": "parts/torso_72.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 72,
+    "crop": [
+      395,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_72.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 72,
+    "crop": [
+      390,
+      299,
+      455,
+      401
+    ],
+    "file": "parts/arm_near_72.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 72,
+    "crop": [
+      263,
+      22,
+      602,
+      294
+    ],
+    "file": "parts/head_72.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 73,
+    "crop": [
+      497,
+      336,
+      510,
+      385
+    ],
+    "file": "parts/arm_far_73.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 73,
+    "crop": [
+      443,
+      355,
+      525,
+      462
+    ],
+    "file": "parts/leg_far_73.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 73,
+    "crop": [
+      356,
+      288,
+      449,
+      462
+    ],
+    "file": "parts/leg_near_73.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 73,
+    "crop": [
+      366,
+      288,
+      503,
+      370
+    ],
+    "file": "parts/torso_73.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 73,
+    "crop": [
+      418,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_73.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 73,
+    "crop": [
+      390,
+      300,
+      449,
+      403
+    ],
+    "file": "parts/arm_near_73.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 73,
+    "crop": [
+      265,
+      22,
+      600,
+      294
+    ],
+    "file": "parts/head_73.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 74,
+    "crop": [
+      497,
+      312,
+      508,
+      383
+    ],
+    "file": "parts/arm_far_74.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 74,
+    "crop": [
+      442,
+      355,
+      514,
+      460
+    ],
+    "file": "parts/leg_far_74.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 74,
+    "crop": [
+      362,
+      334,
+      449,
+      464
+    ],
+    "file": "parts/leg_near_74.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 74,
+    "crop": [
+      380,
+      288,
+      503,
+      368
+    ],
+    "file": "parts/torso_74.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 74,
+    "crop": [
+      419,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_74.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 74,
+    "crop": [
+      389,
+      302,
+      442,
+      406
+    ],
+    "file": "parts/arm_near_74.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 74,
+    "crop": [
+      266,
+      19,
+      600,
+      294
+    ],
+    "file": "parts/head_74.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 75,
+    "crop": [
+      497,
+      304,
+      512,
+      377
+    ],
+    "file": "parts/arm_far_75.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 75,
+    "crop": [
+      441,
+      355,
+      508,
+      460
+    ],
+    "file": "parts/leg_far_75.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 75,
+    "crop": [
+      366,
+      327,
+      448,
+      464
+    ],
+    "file": "parts/leg_near_75.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 75,
+    "crop": [
+      378,
+      288,
+      504,
+      368
+    ],
+    "file": "parts/torso_75.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 75,
+    "crop": [
+      415,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_75.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 75,
+    "crop": [
+      379,
+      300,
+      439,
+      405
+    ],
+    "file": "parts/arm_near_75.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 75,
+    "crop": [
+      268,
+      18,
+      600,
+      294
+    ],
+    "file": "parts/head_75.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 76,
+    "crop": [
+      497,
+      300,
+      516,
+      378
+    ],
+    "file": "parts/arm_far_76.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 76,
+    "crop": [
+      438,
+      327,
+      512,
+      460
+    ],
+    "file": "parts/leg_far_76.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 76,
+    "crop": [
+      372,
+      320,
+      446,
+      468
+    ],
+    "file": "parts/leg_near_76.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 76,
+    "crop": [
+      376,
+      288,
+      512,
+      369
+    ],
+    "file": "parts/torso_76.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 76,
+    "crop": [
+      414,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_76.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 76,
+    "crop": [
+      372,
+      297,
+      439,
+      404
+    ],
+    "file": "parts/arm_near_76.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 76,
+    "crop": [
+      268,
+      16,
+      600,
+      294
+    ],
+    "file": "parts/head_76.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 77,
+    "crop": [
+      497,
+      298,
+      520,
+      378
+    ],
+    "file": "parts/arm_far_77.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 77,
+    "crop": [
+      437,
+      324,
+      520,
+      458
+    ],
+    "file": "parts/leg_far_77.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 77,
+    "crop": [
+      366,
+      319,
+      449,
+      468
+    ],
+    "file": "parts/leg_near_77.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 77,
+    "crop": [
+      374,
+      288,
+      514,
+      370
+    ],
+    "file": "parts/torso_77.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 77,
+    "crop": [
+      409,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_77.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 77,
+    "crop": [
+      366,
+      294,
+      439,
+      404
+    ],
+    "file": "parts/arm_near_77.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 77,
+    "crop": [
+      268,
+      16,
+      600,
+      294
+    ],
+    "file": "parts/head_77.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 78,
+    "crop": [
+      497,
+      294,
+      530,
+      378
+    ],
+    "file": "parts/arm_far_78.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 78,
+    "crop": [
+      438,
+      316,
+      530,
+      464
+    ],
+    "file": "parts/leg_far_78.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 78,
+    "crop": [
+      354,
+      312,
+      458,
+      470
+    ],
+    "file": "parts/leg_near_78.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 78,
+    "crop": [
+      371,
+      288,
+      520,
+      371
+    ],
+    "file": "parts/torso_78.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 78,
+    "crop": [
+      402,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_78.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 78,
+    "crop": [
+      354,
+      291,
+      437,
+      400
+    ],
+    "file": "parts/arm_near_78.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 78,
+    "crop": [
+      266,
+      16,
+      600,
+      294
+    ],
+    "file": "parts/head_78.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 79,
+    "crop": [
+      497,
+      294,
+      534,
+      378
+    ],
+    "file": "parts/arm_far_79.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 79,
+    "crop": [
+      441,
+      314,
+      534,
+      464
+    ],
+    "file": "parts/leg_far_79.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 79,
+    "crop": [
+      348,
+      309,
+      462,
+      470
+    ],
+    "file": "parts/leg_near_79.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 79,
+    "crop": [
+      370,
+      288,
+      520,
+      372
+    ],
+    "file": "parts/torso_79.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 79,
+    "crop": [
+      396,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_79.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 79,
+    "crop": [
+      348,
+      290,
+      436,
+      397
+    ],
+    "file": "parts/arm_near_79.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 79,
+    "crop": [
+      265,
+      16,
+      600,
+      294
+    ],
+    "file": "parts/head_79.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 80,
+    "crop": [
+      497,
+      294,
+      538,
+      377
+    ],
+    "file": "parts/arm_far_80.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 80,
+    "crop": [
+      443,
+      312,
+      538,
+      462
+    ],
+    "file": "parts/leg_far_80.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 80,
+    "crop": [
+      344,
+      310,
+      468,
+      470
+    ],
+    "file": "parts/leg_near_80.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 80,
+    "crop": [
+      369,
+      288,
+      521,
+      372
+    ],
+    "file": "parts/torso_80.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 80,
+    "crop": [
+      395,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_80.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 80,
+    "crop": [
+      344,
+      289,
+      435,
+      394
+    ],
+    "file": "parts/arm_near_80.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 80,
+    "crop": [
+      264,
+      18,
+      600,
+      294
+    ],
+    "file": "parts/head_80.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 81,
+    "crop": [
+      497,
+      296,
+      542,
+      376
+    ],
+    "file": "parts/arm_far_81.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 81,
+    "crop": [
+      444,
+      310,
+      542,
+      464
+    ],
+    "file": "parts/leg_far_81.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 81,
+    "crop": [
+      338,
+      308,
+      468,
+      470
+    ],
+    "file": "parts/leg_near_81.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 81,
+    "crop": [
+      368,
+      288,
+      522,
+      372
+    ],
+    "file": "parts/torso_81.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 81,
+    "crop": [
+      395,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_81.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 81,
+    "crop": [
+      338,
+      290,
+      434,
+      394
+    ],
+    "file": "parts/arm_near_81.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 81,
+    "crop": [
+      262,
+      18,
+      600,
+      294
+    ],
+    "file": "parts/head_81.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 82,
+    "crop": [
+      497,
+      296,
+      544,
+      376
+    ],
+    "file": "parts/arm_far_82.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 82,
+    "crop": [
+      443,
+      310,
+      544,
+      464
+    ],
+    "file": "parts/leg_far_82.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 82,
+    "crop": [
+      336,
+      288,
+      466,
+      470
+    ],
+    "file": "parts/leg_near_82.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 82,
+    "crop": [
+      364,
+      288,
+      522,
+      372
+    ],
+    "file": "parts/torso_82.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 82,
+    "crop": [
+      395,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_82.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 82,
+    "crop": [
+      336,
+      290,
+      434,
+      393
+    ],
+    "file": "parts/arm_near_82.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 82,
+    "crop": [
+      262,
+      22,
+      600,
+      294
+    ],
+    "file": "parts/head_82.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 83,
+    "crop": [
+      497,
+      296,
+      542,
+      376
+    ],
+    "file": "parts/arm_far_83.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 83,
+    "crop": [
+      442,
+      312,
+      542,
+      464
+    ],
+    "file": "parts/leg_far_83.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 83,
+    "crop": [
+      338,
+      288,
+      467,
+      470
+    ],
+    "file": "parts/leg_near_83.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 83,
+    "crop": [
+      364,
+      288,
+      522,
+      372
+    ],
+    "file": "parts/torso_83.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 83,
+    "crop": [
+      395,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_83.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 83,
+    "crop": [
+      338,
+      291,
+      434,
+      397
+    ],
+    "file": "parts/arm_near_83.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 83,
+    "crop": [
+      263,
+      22,
+      598,
+      294
+    ],
+    "file": "parts/head_83.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 84,
+    "crop": [
+      497,
+      296,
+      538,
+      378
+    ],
+    "file": "parts/arm_far_84.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 84,
+    "crop": [
+      441,
+      312,
+      538,
+      464
+    ],
+    "file": "parts/leg_far_84.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 84,
+    "crop": [
+      342,
+      288,
+      464,
+      472
+    ],
+    "file": "parts/leg_near_84.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 84,
+    "crop": [
+      366,
+      288,
+      522,
+      372
+    ],
+    "file": "parts/torso_84.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 84,
+    "crop": [
+      395,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_84.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 84,
+    "crop": [
+      342,
+      291,
+      436,
+      399
+    ],
+    "file": "parts/arm_near_84.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 84,
+    "crop": [
+      264,
+      22,
+      598,
+      294
+    ],
+    "file": "parts/head_84.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 85,
+    "crop": [
+      497,
+      294,
+      534,
+      378
+    ],
+    "file": "parts/arm_far_85.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 85,
+    "crop": [
+      440,
+      314,
+      534,
+      466
+    ],
+    "file": "parts/leg_far_85.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 85,
+    "crop": [
+      346,
+      312,
+      459,
+      472
+    ],
+    "file": "parts/leg_near_85.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 85,
+    "crop": [
+      370,
+      288,
+      520,
+      371
+    ],
+    "file": "parts/torso_85.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 85,
+    "crop": [
+      398,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_85.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 85,
+    "crop": [
+      346,
+      292,
+      437,
+      399
+    ],
+    "file": "parts/arm_near_85.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 85,
+    "crop": [
+      264,
+      20,
+      596,
+      294
+    ],
+    "file": "parts/head_85.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false
+  }
+]

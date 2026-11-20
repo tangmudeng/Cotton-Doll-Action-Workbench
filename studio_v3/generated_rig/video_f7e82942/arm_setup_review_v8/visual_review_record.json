@@ -1,0 +1,23 @@
+{
+  "status": "actually_viewed_failed_not_accepted",
+  "inspectedWith": "ViewImage",
+  "prototypeAccepted": false,
+  "productionApproved": false,
+  "inspectedFileHashes": {
+    "review.png": "b5aeb691c32fa92b342a59bd7c01acfa2a8cc57e21bd841669e30e8c27d9143e",
+    "old_setup_contact.png": "14876d8ec6097cf0f524501f46e3c42826fc87e341d5802dc384b81ac6cfcb3f",
+    "donor_setup_contact.png": "d71e9250f3eb0511b8cb1be0be813c1ebb8e3af6494d0caad5da37044553e16d",
+    "donor_setup_worst_assembly.png": "b7d4964e5e0804cfb126d12843d22557fd2267fa11e4011c6c6cf4aa182b58d5"
+  },
+  "shoulderRootGap": "人工待审，未批准无露缝",
+  "observations": [
+    "已实际查看旧新setup完整17帧contact、总览与供体setup最坏帧无网格线组装。",
+    "v8供体是右上肩/左下手的近直长形，手端双瓣仍可见；不是旧L形供体。",
+    "两套setup的胸前收臂形变与视频轮廓不一致；供体方向setup没有消除实纹理三角翻转。",
+    "mesh绿色边线的尖翼包括为保留alpha=1孤点而增加的透明包络，不能全部当作可见皮肤尖刺；无网格组装另行核对。",
+    "最坏帧无网格组装中，近臂下方原静态肩腋隐藏域不足，靠腰裤口处有透明缺口；不作肩根无缝通过。",
+    "骨长保持原约束，未靠加长或缩小视频动作通过；手端分瓣和隐藏肩腋结构仍待美术处理。"
+  ],
+  "passed": false,
+  "shapeAloneIsNotPass": true
+}

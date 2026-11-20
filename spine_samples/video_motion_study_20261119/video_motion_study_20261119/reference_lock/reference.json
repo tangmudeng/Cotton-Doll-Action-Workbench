@@ -1,0 +1,2550 @@
+{
+  "skeleton": {
+    "hash": "48/U6/aLb9M",
+    "spine": "4.2.43",
+    "images": "./parts/",
+    "audio": "./audio"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "torso",
+      "parent": "root",
+      "length": 95.01,
+      "rotation": -90.6,
+      "x": 14,
+      "y": 188
+    },
+    {
+      "name": "pelvis",
+      "parent": "root",
+      "length": 61.4,
+      "rotation": 6.55,
+      "x": -18,
+      "y": 85
+    },
+    {
+      "name": "arm_far_upper",
+      "parent": "root",
+      "length": 35,
+      "rotation": -93.63,
+      "x": 53,
+      "y": 175
+    },
+    {
+      "name": "arm_far_lower",
+      "parent": "arm_far_upper",
+      "length": 36,
+      "rotation": 67.11,
+      "x": 35
+    },
+    {
+      "name": "arm_far_target",
+      "parent": "root",
+      "x": 83,
+      "y": 124,
+      "color": "ff3f00ff"
+    },
+    {
+      "name": "leg_far_upper",
+      "parent": "root",
+      "length": 30,
+      "rotation": -58.55,
+      "x": 43,
+      "y": 92
+    },
+    {
+      "name": "leg_far_lower",
+      "parent": "leg_far_upper",
+      "length": 31,
+      "rotation": -87.29,
+      "x": 30
+    },
+    {
+      "name": "leg_far_target",
+      "parent": "root",
+      "x": 33,
+      "y": 49,
+      "color": "ff3f00ff"
+    },
+    {
+      "name": "arm_near_upper",
+      "parent": "root",
+      "length": 42,
+      "rotation": -141.19,
+      "x": -20,
+      "y": 175
+    },
+    {
+      "name": "arm_near_lower",
+      "parent": "arm_near_upper",
+      "length": 43,
+      "rotation": 44.14,
+      "x": 42
+    },
+    {
+      "name": "arm_near_target",
+      "parent": "root",
+      "x": -58,
+      "y": 106,
+      "color": "ff3f00ff"
+    },
+    {
+      "name": "leg_near_upper",
+      "parent": "root",
+      "length": 30,
+      "rotation": -104.7,
+      "x": -18,
+      "y": 85
+    },
+    {
+      "name": "leg_near_lower",
+      "parent": "leg_near_upper",
+      "length": 30,
+      "rotation": 48.32,
+      "x": 30
+    },
+    {
+      "name": "leg_near_target",
+      "parent": "root",
+      "x": -9,
+      "y": 31,
+      "color": "ff3f00ff"
+    }
+  ],
+  "slots": [
+    {
+      "name": "reference_frame",
+      "bone": "root",
+      "attachment": "reference_63"
+    }
+  ],
+  "ik": [
+    {
+      "name": "arm_far_ik",
+      "bones": [
+        "arm_far_upper",
+        "arm_far_lower"
+      ],
+      "target": "arm_far_target"
+    },
+    {
+      "name": "arm_near_ik",
+      "order": 2,
+      "bones": [
+        "arm_near_upper",
+        "arm_near_lower"
+      ],
+      "target": "arm_near_target"
+    },
+    {
+      "name": "leg_far_ik",
+      "order": 1,
+      "bones": [
+        "leg_far_upper",
+        "leg_far_lower"
+      ],
+      "target": "leg_far_target",
+      "bendPositive": false
+    },
+    {
+      "name": "leg_near_ik",
+      "order": 3,
+      "bones": [
+        "leg_near_upper",
+        "leg_near_lower"
+      ],
+      "target": "leg_near_target"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "reference_frame": {
+          "reference_63": {
+            "type": "mesh",
+            "path": "reference_63",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_64": {
+            "type": "mesh",
+            "path": "reference_64",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_65": {
+            "type": "mesh",
+            "path": "reference_65",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_66": {
+            "type": "mesh",
+            "path": "reference_66",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_67": {
+            "type": "mesh",
+            "path": "reference_67",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_68": {
+            "type": "mesh",
+            "path": "reference_68",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_69": {
+            "type": "mesh",
+            "path": "reference_69",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_70": {
+            "type": "mesh",
+            "path": "reference_70",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_71": {
+            "type": "mesh",
+            "path": "reference_71",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_72": {
+            "type": "mesh",
+            "path": "reference_72",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_73": {
+            "type": "mesh",
+            "path": "reference_73",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_74": {
+            "type": "mesh",
+            "path": "reference_74",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_75": {
+            "type": "mesh",
+            "path": "reference_75",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_76": {
+            "type": "mesh",
+            "path": "reference_76",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_77": {
+            "type": "mesh",
+            "path": "reference_77",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_78": {
+            "type": "mesh",
+            "path": "reference_78",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_79": {
+            "type": "mesh",
+            "path": "reference_79",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_80": {
+            "type": "mesh",
+            "path": "reference_80",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_81": {
+            "type": "mesh",
+            "path": "reference_81",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_82": {
+            "type": "mesh",
+            "path": "reference_82",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_83": {
+            "type": "mesh",
+            "path": "reference_83",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_84": {
+            "type": "mesh",
+            "path": "reference_84",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          },
+          "reference_85": {
+            "type": "mesh",
+            "path": "reference_85",
+            "uvs": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "vertices": [
+              1,
+              0,
+              -432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              0,
+              1,
+              1,
+              0,
+              432,
+              480,
+              1,
+              1,
+              0,
+              -432,
+              480,
+              1
+            ],
+            "triangles": [
+              0,
+              3,
+              1,
+              1,
+              3,
+              2
+            ],
+            "hull": 4,
+            "width": 864,
+            "height": 480
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "reference_cycle": {
+      "slots": {
+        "reference_frame": {
+          "attachment": [
+            {
+              "time": 0.0,
+              "name": "reference_63"
+            },
+            {
+              "time": 0.041666666666666664,
+              "name": "reference_64"
+            },
+            {
+              "time": 0.08333333333333333,
+              "name": "reference_65"
+            },
+            {
+              "time": 0.125,
+              "name": "reference_66"
+            },
+            {
+              "time": 0.16666666666666666,
+              "name": "reference_67"
+            },
+            {
+              "time": 0.20833333333333334,
+              "name": "reference_68"
+            },
+            {
+              "time": 0.25,
+              "name": "reference_69"
+            },
+            {
+              "time": 0.2916666666666667,
+              "name": "reference_70"
+            },
+            {
+              "time": 0.3333333333333333,
+              "name": "reference_71"
+            },
+            {
+              "time": 0.375,
+              "name": "reference_72"
+            },
+            {
+              "time": 0.4166666666666667,
+              "name": "reference_73"
+            },
+            {
+              "time": 0.4583333333333333,
+              "name": "reference_74"
+            },
+            {
+              "time": 0.5,
+              "name": "reference_75"
+            },
+            {
+              "time": 0.5416666666666666,
+              "name": "reference_76"
+            },
+            {
+              "time": 0.5833333333333334,
+              "name": "reference_77"
+            },
+            {
+              "time": 0.625,
+              "name": "reference_78"
+            },
+            {
+              "time": 0.6666666666666666,
+              "name": "reference_79"
+            },
+            {
+              "time": 0.7083333333333334,
+              "name": "reference_80"
+            },
+            {
+              "time": 0.75,
+              "name": "reference_81"
+            },
+            {
+              "time": 0.7916666666666666,
+              "name": "reference_82"
+            },
+            {
+              "time": 0.8333333333333334,
+              "name": "reference_83"
+            },
+            {
+              "time": 0.875,
+              "name": "reference_84"
+            },
+            {
+              "time": 0.9166666666666666,
+              "name": "reference_85"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "torso": {
+          "rotate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0417,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0833,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.125,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2083,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.25,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2917,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.375,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4167,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4583,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5417,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5833,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.625,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7083,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.75,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7917,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.875,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9167
+            }
+          ],
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0417
+            },
+            {
+              "time": 0.0833,
+              "y": 1
+            },
+            {
+              "time": 0.125,
+              "y": 2,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "y": 2
+            },
+            {
+              "time": 0.2083,
+              "y": 1
+            },
+            {
+              "time": 0.25
+            },
+            {
+              "time": 0.2917,
+              "y": -1
+            },
+            {
+              "time": 0.3333,
+              "y": -2
+            },
+            {
+              "time": 0.375,
+              "y": -3
+            },
+            {
+              "time": 0.4167,
+              "y": -2
+            },
+            {
+              "time": 0.4583,
+              "y": -1
+            },
+            {
+              "time": 0.5
+            },
+            {
+              "time": 0.5417,
+              "y": 1
+            },
+            {
+              "time": 0.5833,
+              "y": 2,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.625,
+              "y": 2
+            },
+            {
+              "time": 0.6667,
+              "y": 1
+            },
+            {
+              "time": 0.7083
+            },
+            {
+              "time": 0.75,
+              "y": -1
+            },
+            {
+              "time": 0.7917,
+              "y": -2,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333,
+              "y": -2
+            },
+            {
+              "time": 0.875,
+              "y": -1
+            },
+            {
+              "time": 0.9167
+            }
+          ]
+        },
+        "pelvis": {
+          "rotate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0417,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0833,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.125,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2083,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.25,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2917,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.375,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4167,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4583,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5417,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5833,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.625,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7083,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.75,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7917,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.875,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9167
+            }
+          ],
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0417
+            },
+            {
+              "time": 0.0833,
+              "y": 1
+            },
+            {
+              "time": 0.125,
+              "y": 2,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "y": 2
+            },
+            {
+              "time": 0.2083,
+              "y": 1
+            },
+            {
+              "time": 0.25
+            },
+            {
+              "time": 0.2917,
+              "y": -1
+            },
+            {
+              "time": 0.3333,
+              "y": -2
+            },
+            {
+              "time": 0.375,
+              "y": -3
+            },
+            {
+              "time": 0.4167,
+              "y": -2
+            },
+            {
+              "time": 0.4583,
+              "y": -1
+            },
+            {
+              "time": 0.5
+            },
+            {
+              "time": 0.5417,
+              "y": 1
+            },
+            {
+              "time": 0.5833,
+              "y": 2,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.625,
+              "y": 2
+            },
+            {
+              "time": 0.6667,
+              "y": 1
+            },
+            {
+              "time": 0.7083
+            },
+            {
+              "time": 0.75,
+              "y": -1
+            },
+            {
+              "time": 0.7917,
+              "y": -2,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333,
+              "y": -2
+            },
+            {
+              "time": 0.875,
+              "y": -1
+            },
+            {
+              "time": 0.9167
+            }
+          ]
+        },
+        "arm_far_upper": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0417
+            },
+            {
+              "time": 0.0833,
+              "y": 1
+            },
+            {
+              "time": 0.125,
+              "y": 2,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "y": 2
+            },
+            {
+              "time": 0.2083,
+              "y": 1
+            },
+            {
+              "time": 0.25
+            },
+            {
+              "time": 0.2917,
+              "y": -1
+            },
+            {
+              "time": 0.3333,
+              "y": -2
+            },
+            {
+              "time": 0.375,
+              "y": -3
+            },
+            {
+              "time": 0.4167,
+              "y": -2
+            },
+            {
+              "time": 0.4583,
+              "y": -1
+            },
+            {
+              "time": 0.5
+            },
+            {
+              "time": 0.5417,
+              "y": 1
+            },
+            {
+              "time": 0.5833,
+              "y": 2,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.625,
+              "y": 2
+            },
+            {
+              "time": 0.6667,
+              "y": 1
+            },
+            {
+              "time": 0.7083
+            },
+            {
+              "time": 0.75,
+              "y": -1
+            },
+            {
+              "time": 0.7917,
+              "y": -2,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333,
+              "y": -2
+            },
+            {
+              "time": 0.875,
+              "y": -1
+            },
+            {
+              "time": 0.9167
+            }
+          ]
+        },
+        "arm_far_target": {
+          "translate": [
+            {},
+            {
+              "time": 0.0417,
+              "x": -2,
+              "y": 1
+            },
+            {
+              "time": 0.0833,
+              "x": -4
+            },
+            {
+              "time": 0.125,
+              "x": -7,
+              "y": -2
+            },
+            {
+              "time": 0.1667,
+              "x": -13,
+              "y": -4
+            },
+            {
+              "time": 0.2083,
+              "x": -16,
+              "y": -8
+            },
+            {
+              "time": 0.25,
+              "x": -19,
+              "y": -11
+            },
+            {
+              "time": 0.2917,
+              "x": -21,
+              "y": -12,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": -21,
+              "y": -12
+            },
+            {
+              "time": 0.375,
+              "x": -19,
+              "y": -11
+            },
+            {
+              "time": 0.4167,
+              "x": -16,
+              "y": -9
+            },
+            {
+              "time": 0.4583,
+              "x": -12,
+              "y": -7
+            },
+            {
+              "time": 0.5,
+              "x": -8,
+              "y": -1
+            },
+            {
+              "time": 0.5417,
+              "x": -5,
+              "y": -2
+            },
+            {
+              "time": 0.5833,
+              "x": -1,
+              "y": -3
+            },
+            {
+              "time": 0.625,
+              "x": 4,
+              "y": -3
+            },
+            {
+              "time": 0.6667,
+              "x": 8,
+              "y": -3
+            },
+            {
+              "time": 0.7083,
+              "x": 11,
+              "y": -2
+            },
+            {
+              "time": 0.75,
+              "x": 12,
+              "y": -2
+            },
+            {
+              "time": 0.7917,
+              "x": 11,
+              "y": -2
+            },
+            {
+              "time": 0.8333,
+              "x": 8,
+              "y": -2
+            },
+            {
+              "time": 0.875,
+              "x": 5,
+              "y": -2
+            },
+            {
+              "time": 0.9167,
+              "x": 1,
+              "y": -2
+            }
+          ]
+        },
+        "leg_far_upper": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0417
+            },
+            {
+              "time": 0.0833,
+              "y": 1
+            },
+            {
+              "time": 0.125,
+              "y": 2,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "y": 2
+            },
+            {
+              "time": 0.2083,
+              "y": 1
+            },
+            {
+              "time": 0.25
+            },
+            {
+              "time": 0.2917,
+              "y": -1
+            },
+            {
+              "time": 0.3333,
+              "y": -2
+            },
+            {
+              "time": 0.375,
+              "y": -3
+            },
+            {
+              "time": 0.4167,
+              "y": -2
+            },
+            {
+              "time": 0.4583,
+              "y": -1
+            },
+            {
+              "time": 0.5
+            },
+            {
+              "time": 0.5417,
+              "y": 1
+            },
+            {
+              "time": 0.5833,
+              "y": 2,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.625,
+              "y": 2
+            },
+            {
+              "time": 0.6667,
+              "y": 1
+            },
+            {
+              "time": 0.7083
+            },
+            {
+              "time": 0.75,
+              "y": -1
+            },
+            {
+              "time": 0.7917,
+              "y": -2,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333,
+              "y": -2
+            },
+            {
+              "time": 0.875,
+              "y": -1
+            },
+            {
+              "time": 0.9167
+            }
+          ]
+        },
+        "leg_far_target": {
+          "translate": [
+            {},
+            {
+              "time": 0.0417,
+              "x": 2
+            },
+            {
+              "time": 0.0833,
+              "x": 9,
+              "y": -1
+            },
+            {
+              "time": 0.125,
+              "x": 19,
+              "y": -2
+            },
+            {
+              "time": 0.1667,
+              "x": 27,
+              "y": -2
+            },
+            {
+              "time": 0.2083,
+              "x": 34,
+              "y": -1
+            },
+            {
+              "time": 0.25,
+              "x": 38,
+              "y": -1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2917,
+              "x": 38,
+              "y": -1
+            },
+            {
+              "time": 0.3333,
+              "x": 36,
+              "y": -5
+            },
+            {
+              "time": 0.375,
+              "x": 34,
+              "y": -8
+            },
+            {
+              "time": 0.4167,
+              "x": 31,
+              "y": -11
+            },
+            {
+              "time": 0.4583,
+              "x": 25,
+              "y": -13
+            },
+            {
+              "time": 0.5,
+              "x": 17,
+              "y": -14
+            },
+            {
+              "time": 0.5417,
+              "x": 7,
+              "y": -7
+            },
+            {
+              "time": 0.5833,
+              "x": 1
+            },
+            {
+              "time": 0.625,
+              "x": -1,
+              "y": 6
+            },
+            {
+              "time": 0.6667,
+              "y": 6
+            },
+            {
+              "time": 0.7083,
+              "x": 2,
+              "y": 6
+            },
+            {
+              "time": 0.75,
+              "x": 1,
+              "y": 4
+            },
+            {
+              "time": 0.7917,
+              "x": -1,
+              "y": 3
+            },
+            {
+              "time": 0.8333,
+              "x": -1,
+              "y": 4
+            },
+            {
+              "time": 0.875,
+              "y": 2
+            },
+            {
+              "time": 0.9167,
+              "y": 1
+            }
+          ]
+        },
+        "arm_near_upper": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0417
+            },
+            {
+              "time": 0.0833,
+              "y": 1
+            },
+            {
+              "time": 0.125,
+              "y": 2,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "y": 2
+            },
+            {
+              "time": 0.2083,
+              "y": 1
+            },
+            {
+              "time": 0.25
+            },
+            {
+              "time": 0.2917,
+              "y": -1
+            },
+            {
+              "time": 0.3333,
+              "y": -2
+            },
+            {
+              "time": 0.375,
+              "y": -3
+            },
+            {
+              "time": 0.4167,
+              "y": -2
+            },
+            {
+              "time": 0.4583,
+              "y": -1
+            },
+            {
+              "time": 0.5
+            },
+            {
+              "time": 0.5417,
+              "y": 1
+            },
+            {
+              "time": 0.5833,
+              "y": 2,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.625,
+              "y": 2
+            },
+            {
+              "time": 0.6667,
+              "y": 1
+            },
+            {
+              "time": 0.7083
+            },
+            {
+              "time": 0.75,
+              "y": -1
+            },
+            {
+              "time": 0.7917,
+              "y": -2,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333,
+              "y": -2
+            },
+            {
+              "time": 0.875,
+              "y": -1
+            },
+            {
+              "time": 0.9167
+            }
+          ]
+        },
+        "arm_near_target": {
+          "translate": [
+            {},
+            {
+              "time": 0.0417,
+              "x": 5,
+              "y": -1
+            },
+            {
+              "time": 0.0833,
+              "x": 14,
+              "y": -4
+            },
+            {
+              "time": 0.125,
+              "x": 24,
+              "y": -6
+            },
+            {
+              "time": 0.1667,
+              "x": 32,
+              "y": -6
+            },
+            {
+              "time": 0.2083,
+              "x": 41,
+              "y": -6
+            },
+            {
+              "time": 0.25,
+              "x": 50,
+              "y": -4
+            },
+            {
+              "time": 0.2917,
+              "x": 53,
+              "y": -4
+            },
+            {
+              "time": 0.3333,
+              "x": 55,
+              "y": -2
+            },
+            {
+              "time": 0.375,
+              "x": 53,
+              "y": -2
+            },
+            {
+              "time": 0.4167,
+              "x": 47,
+              "y": -4
+            },
+            {
+              "time": 0.4583,
+              "x": 41,
+              "y": -7
+            },
+            {
+              "time": 0.5,
+              "x": 32,
+              "y": -6
+            },
+            {
+              "time": 0.5417,
+              "x": 24,
+              "y": -5
+            },
+            {
+              "time": 0.5833,
+              "x": 16,
+              "y": -5
+            },
+            {
+              "time": 0.625,
+              "x": 6,
+              "y": -2
+            },
+            {
+              "time": 0.6667,
+              "x": -3,
+              "y": 1
+            },
+            {
+              "time": 0.7083,
+              "x": -11,
+              "y": 5
+            },
+            {
+              "time": 0.75,
+              "x": -15,
+              "y": 5
+            },
+            {
+              "time": 0.7917,
+              "x": -16,
+              "y": 4
+            },
+            {
+              "time": 0.8333,
+              "x": -13,
+              "y": 2
+            },
+            {
+              "time": 0.875,
+              "x": -7
+            },
+            {
+              "time": 0.9167,
+              "y": -2
+            }
+          ]
+        },
+        "leg_near_upper": {
+          "translate": [
+            {
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0417
+            },
+            {
+              "time": 0.0833,
+              "y": 1
+            },
+            {
+              "time": 0.125,
+              "y": 2,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "y": 2
+            },
+            {
+              "time": 0.2083,
+              "y": 1
+            },
+            {
+              "time": 0.25
+            },
+            {
+              "time": 0.2917,
+              "y": -1
+            },
+            {
+              "time": 0.3333,
+              "y": -2
+            },
+            {
+              "time": 0.375,
+              "y": -3
+            },
+            {
+              "time": 0.4167,
+              "y": -2
+            },
+            {
+              "time": 0.4583,
+              "y": -1
+            },
+            {
+              "time": 0.5
+            },
+            {
+              "time": 0.5417,
+              "y": 1
+            },
+            {
+              "time": 0.5833,
+              "y": 2,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.625,
+              "y": 2
+            },
+            {
+              "time": 0.6667,
+              "y": 1
+            },
+            {
+              "time": 0.7083
+            },
+            {
+              "time": 0.75,
+              "y": -1
+            },
+            {
+              "time": 0.7917,
+              "y": -2,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333,
+              "y": -2
+            },
+            {
+              "time": 0.875,
+              "y": -1
+            },
+            {
+              "time": 0.9167
+            }
+          ]
+        },
+        "leg_near_target": {
+          "translate": [
+            {},
+            {
+              "time": 0.0417,
+              "x": -5,
+              "y": -1
+            },
+            {
+              "time": 0.0833,
+              "x": -13,
+              "y": -1
+            },
+            {
+              "time": 0.125,
+              "x": -19,
+              "y": 1
+            },
+            {
+              "time": 0.1667,
+              "x": -26,
+              "y": 2
+            },
+            {
+              "time": 0.2083,
+              "x": -31,
+              "y": 5
+            },
+            {
+              "time": 0.25,
+              "x": -35,
+              "y": 7
+            },
+            {
+              "time": 0.2917,
+              "x": -33,
+              "y": 10
+            },
+            {
+              "time": 0.3333,
+              "x": -34,
+              "y": 11
+            },
+            {
+              "time": 0.375,
+              "x": -32,
+              "y": 10
+            },
+            {
+              "time": 0.4167,
+              "x": -29,
+              "y": 7
+            },
+            {
+              "time": 0.4583,
+              "x": -26,
+              "y": 4
+            },
+            {
+              "time": 0.5,
+              "x": -20,
+              "y": 2
+            },
+            {
+              "time": 0.5417,
+              "x": -16,
+              "y": 2
+            },
+            {
+              "time": 0.5833,
+              "x": -9,
+              "y": 1
+            },
+            {
+              "time": 0.625,
+              "x": -3,
+              "y": 1
+            },
+            {
+              "time": 0.6667,
+              "x": 4,
+              "y": 3
+            },
+            {
+              "time": 0.7083,
+              "x": 10,
+              "y": 5
+            },
+            {
+              "time": 0.75,
+              "x": 13,
+              "y": 7
+            },
+            {
+              "time": 0.7917,
+              "x": 13,
+              "y": 8
+            },
+            {
+              "time": 0.8333,
+              "x": 10,
+              "y": 4
+            },
+            {
+              "time": 0.875,
+              "x": 6
+            },
+            {
+              "time": 0.9167,
+              "x": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

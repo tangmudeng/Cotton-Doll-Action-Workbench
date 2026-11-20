@@ -1,0 +1,2953 @@
+{
+  "schemaVersion": 1,
+  "status": "numerical_and_scoped_visual_pass",
+  "prototypeAccepted": true,
+  "productionApproved": false,
+  "wardrobeVerified": false,
+  "crossCharacterVerified": false,
+  "mobileVerified": false,
+  "visualReview": {
+    "status": "reviewed_passed_scoped_prototype",
+    "inspectedWith": "ViewImage",
+    "reviewFile": "review.png",
+    "reviewSha256": "301e7962e810db896c968df2e87e0992522fe796f9fe73f3b3dad11b0e0b4627",
+    "scope": "当前视角、小步幅、收敛手臂摆幅；四主姿态+两过渡+循环两侧静态抽样，不代表所有运动或生产验收",
+    "sampleTimes": [
+      0,
+      0.16666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.125,
+      0.4583333333333333,
+      0.6614583333333333,
+      0.005208333333333333
+    ],
+    "observations": [
+      "实际查看最终review四主姿态，far_contact及near_pass腿根不再拉脱，未见此前背景色贯穿裂缝。",
+      "实际查看0.125s与0.458333s过渡，肩髋根保持衔接，未见明显纹理三角撕裂。",
+      "实际查看循环前后1/192秒抽样，未见明显位置跳变；精确首尾由CPU像素与mesh校验。",
+      "为避免现有隐藏图缺口，手臂摆幅已显著收敛；并非完整视频还原或大摆幅能力通过。",
+      "近远腿仍有可见换脚；局部压缩的数值范围见meshGeometry，不声称无压缩。",
+      "没有补画或额外碎片；隐藏结构完整性、换装、跨角色及移动端仍未验证。"
+    ]
+  },
+  "characterId": null,
+  "stableManifest": {
+    "file": "generated_rig/video_f7e82942/stable_parts_v1/manifest.json",
+    "sha256": "c928c89c6f64864359a89e429bc80f5518a3e5149e4dbc5990478c60a243569b"
+  },
+  "stableParts": [
+    {
+      "id": "head",
+      "file": "generated_rig/video_f7e82942/stable_parts_v1/head.png",
+      "expectedSha256": "4f3950e1575f962212adca60486ebe441dadc9e2d8ae65c46d5f6779579e0555",
+      "actualSha256": "4f3950e1575f962212adca60486ebe441dadc9e2d8ae65c46d5f6779579e0555"
+    },
+    {
+      "id": "body",
+      "file": "generated_rig/video_f7e82942/stable_parts_v1/body.png",
+      "expectedSha256": "fc310a95f186d884c1d10ae17392085339fc801e8ef9dbc86b4b139839df729c",
+      "actualSha256": "fc310a95f186d884c1d10ae17392085339fc801e8ef9dbc86b4b139839df729c"
+    },
+    {
+      "id": "shorts",
+      "file": "generated_rig/video_f7e82942/stable_parts_v1/shorts.png",
+      "expectedSha256": "3632fa898f75da728218456fd8e8b7346988f7dfd649737edb82eb8a9a72ba03",
+      "actualSha256": "3632fa898f75da728218456fd8e8b7346988f7dfd649737edb82eb8a9a72ba03"
+    },
+    {
+      "id": "arm_near",
+      "file": "generated_rig/video_f7e82942/stable_parts_v1/arm_near.png",
+      "expectedSha256": "7cd90180cb6c851def01c5195286a93ffc9420f8a76c6115c811436430597874",
+      "actualSha256": "7cd90180cb6c851def01c5195286a93ffc9420f8a76c6115c811436430597874"
+    },
+    {
+      "id": "arm_far",
+      "file": "generated_rig/video_f7e82942/stable_parts_v1/arm_far.png",
+      "expectedSha256": "d8e783debe155efbb7fdb52f0d9415de60af3e199cc861e36a4f9528c5847490",
+      "actualSha256": "d8e783debe155efbb7fdb52f0d9415de60af3e199cc861e36a4f9528c5847490"
+    },
+    {
+      "id": "leg_near",
+      "file": "generated_rig/video_f7e82942/stable_parts_v1/leg_near.png",
+      "expectedSha256": "d9b5b9b00c647abe4a47b41c968a3999d4211530e926022c43353b4021dca72e",
+      "actualSha256": "d9b5b9b00c647abe4a47b41c968a3999d4211530e926022c43353b4021dca72e"
+    },
+    {
+      "id": "leg_far",
+      "file": "generated_rig/video_f7e82942/stable_parts_v1/leg_far.png",
+      "expectedSha256": "2ca541c17028ac69356a403c8c753178cb146e46ff7b407bfd6ef81ef8caa548",
+      "actualSha256": "2ca541c17028ac69356a403c8c753178cb146e46ff7b407bfd6ef81ef8caa548"
+    }
+  ],
+  "sourceImage": {
+    "file": "generated_rig/right_front_walk/source768.png",
+    "sha256": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10"
+  },
+  "reference": {
+    "video": "generated_rig/video_f7e82942/source.mp4",
+    "videoSha256": "8fc0f8406d6a258640b65d34c5ad7fb0e35f231131d7eec945781dd9d93343e5",
+    "fps": 24,
+    "sources": {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/sources.json",
+      "sha256": "e0281aa3dbd8440fa2808603284e9938158bf07eb2c4c148c75b9a8332040f06"
+    },
+    "manifest": {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/manifest.json",
+      "sha256": "e894efb958168c4e6a4fdea29484c7b5b02774b9dc65a809a344d71de1084147"
+    },
+    "tracks": {
+      "file": "generated_rig/video_f7e82942/tracks.json",
+      "sha256": "33e2d3ef42269a4e515ff0b2f85684fbd4a0233a21e20dcf0ce3b5188f5cd923"
+    },
+    "evidence": [
+      {
+        "frame": 68,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_068.png",
+        "sha256": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871",
+        "decodedPixelsExact": true,
+        "sourceObservation": {
+          "sourceFrame": 68,
+          "time": 2.8333333333333335,
+          "sourceFile": "source_068.png",
+          "sourceFrameSha256": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871",
+          "sourceSize": [
+            864,
+            480
+          ],
+          "cropFile": "crop_068_2x.png",
+          "cropSha256": "86a6f9509ca9c7c6108a21abf39d8dcb38750fba37a854fff7c83737e1679119",
+          "identity": "unknown",
+          "manualObservations": {
+            "armVisibility": "two_outer_arm_shapes",
+            "legVisibility": "crossed_legs_one_front_outline",
+            "note": "两侧臂轮廓可见；前层腿遮挡后层腿，不能从窄残片恢复完整肢体。",
+            "method": "assistant_contact_sheet_visual_review",
+            "confidence": "low",
+            "crossFrameIdentityEstablished": false
+          },
+          "notRuntimeAsset": true,
+          "repeatedEndpointCandidate": false
+        },
+        "track": {
+          "index": 68,
+          "time": 2.83333,
+          "bbox": {
+            "x": 276,
+            "y": 50,
+            "width": 320,
+            "height": 408
+          },
+          "centroid": {
+            "x": 436.59,
+            "y": 237.37
+          },
+          "areaPx": 70032,
+          "landmarks": {
+            "foregroundCentroid": {
+              "x": 436.59,
+              "y": 237.37,
+              "confidence": "high"
+            },
+            "screenLeftFootCandidate": {
+              "x": 427.5,
+              "y": 457.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenRightFootCandidate": {
+              "x": 441.5,
+              "y": 457.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenLeftHandCandidate": {
+              "x": 351.0,
+              "y": 344.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "screenRightHandCandidate": {
+              "x": 545.0,
+              "y": 326.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "hand_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "hand_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            }
+          }
+        }
+      },
+      {
+        "frame": 72,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_072.png",
+        "sha256": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93",
+        "decodedPixelsExact": true,
+        "sourceObservation": {
+          "sourceFrame": 72,
+          "time": 3.0,
+          "sourceFile": "source_072.png",
+          "sourceFrameSha256": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93",
+          "sourceSize": [
+            864,
+            480
+          ],
+          "cropFile": "crop_072_2x.png",
+          "cropSha256": "0ed50631dcfdfe8dce09045e7170470535d4161fc41898fc4acf194fbb5cf3c3",
+          "identity": "unknown",
+          "manualObservations": {
+            "armVisibility": "front_chest_arm",
+            "legVisibility": "two_leg_outlines_visible",
+            "note": "胸前弯臂覆盖躯干底图；两腿可见，髋上缘仍被短裤遮挡。",
+            "method": "assistant_contact_sheet_visual_review",
+            "confidence": "low",
+            "crossFrameIdentityEstablished": false
+          },
+          "notRuntimeAsset": true,
+          "repeatedEndpointCandidate": false
+        },
+        "track": {
+          "index": 72,
+          "time": 3.0,
+          "bbox": {
+            "x": 294,
+            "y": 36,
+            "width": 290,
+            "height": 420
+          },
+          "centroid": {
+            "x": 437.6,
+            "y": 225.2
+          },
+          "areaPx": 65984,
+          "landmarks": {
+            "foregroundCentroid": {
+              "x": 437.6,
+              "y": 225.2,
+              "confidence": "high"
+            },
+            "screenLeftFootCandidate": {
+              "x": 405.0,
+              "y": 455.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenRightFootCandidate": {
+              "x": 464.1,
+              "y": 453.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenLeftHandCandidate": {
+              "x": 381.0,
+              "y": 359.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "screenRightHandCandidate": {
+              "x": 513.0,
+              "y": 362.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "hand_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "hand_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            }
+          }
+        }
+      },
+      {
+        "frame": 76,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_076.png",
+        "sha256": "ca0676580e05720d1f927d733d944c930c776d7c33ac2f4a2a1fb325dfb9bae9",
+        "decodedPixelsExact": true,
+        "sourceObservation": {
+          "sourceFrame": 76,
+          "time": 3.1666666666666665,
+          "sourceFile": "source_076.png",
+          "sourceFrameSha256": "ca0676580e05720d1f927d733d944c930c776d7c33ac2f4a2a1fb325dfb9bae9",
+          "sourceSize": [
+            864,
+            480
+          ],
+          "cropFile": "crop_076_2x.png",
+          "cropSha256": "fdb44a06dd115141f463b1eb8f032632cc2cf82b9208665230fd30deede93a26",
+          "identity": "unknown",
+          "manualObservations": {
+            "armVisibility": "front_chest_arm",
+            "legVisibility": "screen_left_foot_flattened",
+            "note": "胸前臂和展开腿仍可见；接地/悬空不能仅凭影子判定。",
+            "method": "assistant_contact_sheet_visual_review",
+            "confidence": "low",
+            "crossFrameIdentityEstablished": false
+          },
+          "notRuntimeAsset": true,
+          "repeatedEndpointCandidate": false
+        },
+        "track": {
+          "index": 76,
+          "time": 3.16667,
+          "bbox": {
+            "x": 279,
+            "y": 51,
+            "width": 319,
+            "height": 405
+          },
+          "centroid": {
+            "x": 437.82,
+            "y": 235.37
+          },
+          "areaPx": 66268,
+          "landmarks": {
+            "foregroundCentroid": {
+              "x": 437.82,
+              "y": 235.37,
+              "confidence": "high"
+            },
+            "screenLeftFootCandidate": {
+              "x": 406.21,
+              "y": 453.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenRightFootCandidate": {
+              "x": 475.5,
+              "y": 455.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenLeftHandCandidate": {
+              "x": 376.0,
+              "y": 294.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "screenRightHandCandidate": {
+              "x": 503.0,
+              "y": 363.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "hand_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "hand_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            }
+          }
+        }
+      },
+      {
+        "frame": 80,
+        "sourceFile": "generated_rig/video_f7e82942/video_parts_v1/source_080.png",
+        "sha256": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02",
+        "decodedPixelsExact": true,
+        "sourceObservation": {
+          "sourceFrame": 80,
+          "time": 3.3333333333333335,
+          "sourceFile": "source_080.png",
+          "sourceFrameSha256": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02",
+          "sourceSize": [
+            864,
+            480
+          ],
+          "cropFile": "crop_080_2x.png",
+          "cropSha256": "67f2727546ca1bdd59db67e1092e665b6a7c05e0c11a0698eafe620966a24ecf",
+          "identity": "unknown",
+          "manualObservations": {
+            "armVisibility": "two_outer_arm_shapes",
+            "legVisibility": "crossing_both_feet_partly_visible",
+            "note": "前层腿遮挡另一腿上部；后脚下部可见，不建立跨帧身份。",
+            "method": "assistant_contact_sheet_visual_review",
+            "confidence": "low",
+            "crossFrameIdentityEstablished": false
+          },
+          "notRuntimeAsset": true,
+          "repeatedEndpointCandidate": false
+        },
+        "track": {
+          "index": 80,
+          "time": 3.33333,
+          "bbox": {
+            "x": 293,
+            "y": 36,
+            "width": 291,
+            "height": 418
+          },
+          "centroid": {
+            "x": 437.05,
+            "y": 223.03
+          },
+          "areaPx": 67761,
+          "landmarks": {
+            "foregroundCentroid": {
+              "x": 437.05,
+              "y": 223.03,
+              "confidence": "high"
+            },
+            "screenLeftFootCandidate": {
+              "x": 412.5,
+              "y": 453.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenRightFootCandidate": {
+              "x": 468.5,
+              "y": 453.0,
+              "visible": true,
+              "confidence": "low",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "lower-silhouette extremum"
+            },
+            "screenLeftHandCandidate": {
+              "x": 358.0,
+              "y": 328.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "screenRightHandCandidate": {
+              "x": 543.0,
+              "y": 310.0,
+              "visible": true,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "identity": "screen-side candidate; near/far unknown",
+              "method": "nearest arm-height silhouette pixel; hand not isolated",
+              "anatomicalPoint": false
+            },
+            "hand_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "hand_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_near": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            },
+            "foot_far": {
+              "x": null,
+              "y": null,
+              "confidence": "low",
+              "visibility": "unresolved",
+              "visible": false,
+              "method": "not_annotated",
+              "note": "未人工审阅该帧解剖身份，禁止将屏幕侧极值填入"
+            }
+          }
+        }
+      }
+    ],
+    "assumptions": "68/72/76/80仅节奏参考，主姿态手工设计；不冒称完整还原原视频。"
+  },
+  "motion": {
+    "mainPoses": [
+      {
+        "name": "near_contact",
+        "time": 0.0,
+        "referenceFrame": 68
+      },
+      {
+        "name": "near_pass",
+        "time": 0.16666666666666666,
+        "referenceFrame": 72
+      },
+      {
+        "name": "far_contact",
+        "time": 0.3333333333333333,
+        "referenceFrame": 76
+      },
+      {
+        "name": "far_pass",
+        "time": 0.5,
+        "referenceFrame": 80
+      }
+    ],
+    "manualAngles": {
+      "body": [
+        0,
+        0.1,
+        0.16,
+        0.08,
+        0,
+        -0.1,
+        -0.16,
+        -0.08,
+        0
+      ],
+      "arm_near_upper": [
+        -0.6,
+        -0.4,
+        0,
+        0.4,
+        0.6,
+        0.4,
+        0,
+        -0.4,
+        -0.6
+      ],
+      "arm_near_lower": [
+        1.2,
+        1,
+        0.8,
+        0.6,
+        0.8,
+        1,
+        1.2,
+        1,
+        1.2
+      ],
+      "arm_far_upper": [
+        0.5,
+        0.35,
+        0,
+        -0.35,
+        -0.5,
+        -0.35,
+        0,
+        0.35,
+        0.5
+      ],
+      "arm_far_lower": [
+        -1.2,
+        -0.8,
+        -0.4,
+        0,
+        0.4,
+        0.2,
+        -0.4,
+        -0.8,
+        -1.2
+      ],
+      "leg_near_upper": [
+        -3,
+        -2,
+        1,
+        3,
+        4,
+        1,
+        -2,
+        -4,
+        -3
+      ],
+      "leg_near_lower": [
+        2,
+        0,
+        -3,
+        -1,
+        5,
+        9,
+        6,
+        3,
+        2
+      ],
+      "leg_far_upper": [
+        4,
+        1,
+        -2,
+        -4,
+        -3,
+        -2,
+        1,
+        3,
+        4
+      ],
+      "leg_far_lower": [
+        5,
+        9,
+        6,
+        3,
+        2,
+        0,
+        -3,
+        -1,
+        5
+      ]
+    },
+    "manualFootOffsets": {
+      "leg_near": {
+        "x": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          8,
+          4,
+          0
+        ],
+        "lift": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          8,
+          4,
+          0
+        ]
+      },
+      "leg_far": {
+        "x": [
+          0,
+          3,
+          8,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "lift": [
+          0,
+          6,
+          8,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "footMetrics": {
+      "leg_near": {
+        "supportIntervalSeconds": [
+          0,
+          0.25
+        ],
+        "supportSampleCount": 73,
+        "supportMaxDriftPx": 0.00010337735338448184,
+        "cycleRangeXPx": 8.000021829832065,
+        "cycleRangeYPx": 8.000446478034632,
+        "hipTranslateMaxPx": 0.0,
+        "lowerTranslateMaxPx": 10.498586467736654,
+        "compensationBone": "leg_near_lower",
+        "anchorSourcePixels": [
+          367.0,
+          662.5
+        ],
+        "method": "导出weighted mesh中脚底材料点的重心插值，非单纯骨端点；仅支撑期固定；非IK"
+      },
+      "leg_far": {
+        "supportIntervalSeconds": [
+          0.3333333333333333,
+          0.5833333333333334
+        ],
+        "supportSampleCount": 73,
+        "supportMaxDriftPx": 8.871461174599046e-05,
+        "cycleRangeXPx": 8.000057995329314,
+        "cycleRangeYPx": 8.00035274771642,
+        "hipTranslateMaxPx": 0.0,
+        "lowerTranslateMaxPx": 9.541206958070958,
+        "compensationBone": "leg_far_lower",
+        "anchorSourcePixels": [
+          442.5,
+          646.5
+        ],
+        "method": "导出weighted mesh中脚底材料点的重心插值，非单纯骨端点；仅支撑期固定；非IK"
+      }
+    },
+    "footSamples": [
+      {
+        "time": 0.0,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.003472222222222222,
+        "leg_near": [
+          367.0000045267281,
+          662.5000225497228
+        ],
+        "leg_far": [
+          442.62451418120366,
+          646.2497513049309
+        ]
+      },
+      {
+        "time": 0.006944444444444444,
+        "leg_near": [
+          366.99999999999994,
+          662.5
+        ],
+        "leg_far": [
+          442.7500000000001,
+          646.0
+        ]
+      },
+      {
+        "time": 0.010416666666666666,
+        "leg_near": [
+          367.00000445945693,
+          662.5000225638298
+        ],
+        "leg_far": [
+          442.87451390681383,
+          645.749752310167
+        ]
+      },
+      {
+        "time": 0.013888888888888888,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          443.0,
+          645.5
+        ]
+      },
+      {
+        "time": 0.01736111111111111,
+        "leg_near": [
+          367.00000439215694,
+          662.5000225778463
+        ],
+        "leg_far": [
+          443.12451363238034,
+          645.2497533149742
+        ]
+      },
+      {
+        "time": 0.020833333333333332,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          443.25,
+          645.0
+        ]
+      },
+      {
+        "time": 0.024305555555555552,
+        "leg_near": [
+          367.0000043248281,
+          662.5000225917721
+        ],
+        "leg_far": [
+          443.3745133579027,
+          644.7497543193527
+        ]
+      },
+      {
+        "time": 0.027777777777777776,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          443.5,
+          644.5
+        ]
+      },
+      {
+        "time": 0.03125,
+        "leg_near": [
+          367.00000425747066,
+          662.5000226056073
+        ],
+        "leg_far": [
+          443.62451308338007,
+          644.2497553233027
+        ]
+      },
+      {
+        "time": 0.03472222222222222,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          443.75,
+          644.0
+        ]
+      },
+      {
+        "time": 0.03819444444444444,
+        "leg_near": [
+          367.0000041900847,
+          662.500022619352
+        ],
+        "leg_far": [
+          443.87451280881186,
+          643.749756326824
+        ]
+      },
+      {
+        "time": 0.041666666666666664,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          444.0,
+          643.5
+        ]
+      },
+      {
+        "time": 0.04513888888888889,
+        "leg_near": [
+          367.00000412267036,
+          662.500022633006
+        ],
+        "leg_far": [
+          444.1245125341974,
+          643.2497573299167
+        ]
+      },
+      {
+        "time": 0.048611111111111105,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          444.24999999999994,
+          643.0
+        ]
+      },
+      {
+        "time": 0.052083333333333336,
+        "leg_near": [
+          367.00000405522763,
+          662.500022646569
+        ],
+        "leg_far": [
+          444.3745122595359,
+          642.749758332581
+        ]
+      },
+      {
+        "time": 0.05555555555555555,
+        "leg_near": [
+          367.00000000000006,
+          662.5
+        ],
+        "leg_far": [
+          444.5,
+          642.5
+        ]
+      },
+      {
+        "time": 0.05902777777777777,
+        "leg_near": [
+          367.00000398775677,
+          662.5000226600415
+        ],
+        "leg_far": [
+          444.6245119848269,
+          642.249759334817
+        ]
+      },
+      {
+        "time": 0.0625,
+        "leg_near": [
+          366.99999999999994,
+          662.5
+        ],
+        "leg_far": [
+          444.75000000000006,
+          642.0
+        ]
+      },
+      {
+        "time": 0.06597222222222222,
+        "leg_near": [
+          367.00000392025777,
+          662.5000226734231
+        ],
+        "leg_far": [
+          444.87451171006944,
+          641.7497603366246
+        ]
+      },
+      {
+        "time": 0.06944444444444443,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          445.0,
+          641.5
+        ]
+      },
+      {
+        "time": 0.07291666666666667,
+        "leg_near": [
+          367.0000038527311,
+          662.5000226867139
+        ],
+        "leg_far": [
+          445.12451143526283,
+          641.2497613380041
+        ]
+      },
+      {
+        "time": 0.07638888888888888,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          445.25,
+          641.0
+        ]
+      },
+      {
+        "time": 0.0798611111111111,
+        "leg_near": [
+          367.0000037851763,
+          662.5000226999139
+        ],
+        "leg_far": [
+          445.37451116040666,
+          640.7497623389554
+        ]
+      },
+      {
+        "time": 0.08333333333333333,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          445.5,
+          640.5
+        ]
+      },
+      {
+        "time": 0.08680555555555554,
+        "leg_near": [
+          366.99997817016794,
+          662.4998998934648
+        ],
+        "leg_far": [
+          445.70819018431257,
+          640.4161683732261
+        ]
+      },
+      {
+        "time": 0.09027777777777778,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          445.9166666666667,
+          640.3333333333333
+        ]
+      },
+      {
+        "time": 0.09375,
+        "leg_near": [
+          366.99997818970877,
+          662.4998998038486
+        ],
+        "leg_far": [
+          446.1248550982491,
+          640.2495020768304
+        ]
+      },
+      {
+        "time": 0.09722222222222221,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          446.33333333333326,
+          640.1666666666666
+        ]
+      },
+      {
+        "time": 0.10069444444444443,
+        "leg_near": [
+          366.9999782092499,
+          662.4998997142308
+        ],
+        "leg_far": [
+          446.54152001148236,
+          640.0828357734388
+        ]
+      },
+      {
+        "time": 0.10416666666666667,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          446.75000000000006,
+          640.0
+        ]
+      },
+      {
+        "time": 0.10763888888888888,
+        "leg_near": [
+          366.99997822879135,
+          662.4998996246111
+        ],
+        "leg_far": [
+          446.9581849240724,
+          639.9161694630454
+        ]
+      },
+      {
+        "time": 0.1111111111111111,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          447.16666666666663,
+          639.8333333333333
+        ]
+      },
+      {
+        "time": 0.11458333333333333,
+        "leg_near": [
+          366.9999782483331,
+          662.4998995349898
+        ],
+        "leg_far": [
+          447.37484983607976,
+          639.7495031456452
+        ]
+      },
+      {
+        "time": 0.11805555555555554,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          447.58333333333326,
+          639.6666666666666
+        ]
+      },
+      {
+        "time": 0.12152777777777778,
+        "leg_near": [
+          366.99997826787506,
+          662.499899445367
+        ],
+        "leg_far": [
+          447.79151474756543,
+          639.5828368212333
+        ]
+      },
+      {
+        "time": 0.125,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          448.0,
+          639.5
+        ]
+      },
+      {
+        "time": 0.1284722222222222,
+        "leg_near": [
+          366.99997828741726,
+          662.4998993557422
+        ],
+        "leg_far": [
+          448.20817965858964,
+          639.4161704898055
+        ]
+      },
+      {
+        "time": 0.13194444444444445,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          448.41666666666663,
+          639.3333333333334
+        ]
+      },
+      {
+        "time": 0.13541666666666666,
+        "leg_near": [
+          366.99997830695986,
+          662.4998992661158
+        ],
+        "leg_far": [
+          448.62484456921294,
+          639.249504151358
+        ]
+      },
+      {
+        "time": 0.13888888888888887,
+        "leg_near": [
+          366.99999999999994,
+          662.5
+        ],
+        "leg_far": [
+          448.8333333333333,
+          639.1666666666667
+        ]
+      },
+      {
+        "time": 0.1423611111111111,
+        "leg_near": [
+          366.99997832650274,
+          662.4998991764877
+        ],
+        "leg_far": [
+          449.0415094794962,
+          639.0828378058875
+        ]
+      },
+      {
+        "time": 0.14583333333333334,
+        "leg_near": [
+          366.99999999999994,
+          662.5
+        ],
+        "leg_far": [
+          449.25,
+          639.0
+        ]
+      },
+      {
+        "time": 0.14930555555555555,
+        "leg_near": [
+          366.99997834604585,
+          662.4998990868579
+        ],
+        "leg_far": [
+          449.4581743895,
+          638.9161714533916
+        ]
+      },
+      {
+        "time": 0.15277777777777776,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          449.6666666666667,
+          638.8333333333334
+        ]
+      },
+      {
+        "time": 0.15625,
+        "leg_near": [
+          366.9999783655892,
+          662.4998989972264
+        ],
+        "leg_far": [
+          449.87483929928516,
+          638.749505093868
+        ]
+      },
+      {
+        "time": 0.1597222222222222,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          450.0833333333333,
+          638.6666666666666
+        ]
+      },
+      {
+        "time": 0.16319444444444445,
+        "leg_near": [
+          366.99997838513286,
+          662.4998989075932
+        ],
+        "leg_far": [
+          450.2915042089122,
+          638.5828387273152
+        ]
+      },
+      {
+        "time": 0.16666666666666666,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          450.50000000000006,
+          638.5
+        ]
+      },
+      {
+        "time": 0.17013888888888887,
+        "leg_near": [
+          367.0000323797607,
+          662.4999715182885
+        ],
+        "leg_far": [
+          450.3335384263357,
+          638.6669353829868
+        ]
+      },
+      {
+        "time": 0.17361111111111108,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          450.1666666666667,
+          638.8333333333334
+        ]
+      },
+      {
+        "time": 0.17708333333333334,
+        "leg_near": [
+          367.00003267544196,
+          662.4999714564449
+        ],
+        "leg_far": [
+          450.0002047731281,
+          639.000268385082
+        ]
+      },
+      {
+        "time": 0.18055555555555555,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          449.83333333333326,
+          639.1666666666667
+        ]
+      },
+      {
+        "time": 0.18402777777777776,
+        "leg_near": [
+          367.0000329705794,
+          662.4999713928853
+        ],
+        "leg_far": [
+          449.6668711199285,
+          639.3336013820347
+        ]
+      },
+      {
+        "time": 0.1875,
+        "leg_near": [
+          366.99999999999994,
+          662.5
+        ],
+        "leg_far": [
+          449.5,
+          639.5
+        ]
+      },
+      {
+        "time": 0.1909722222222222,
+        "leg_near": [
+          367.0000332651633,
+          662.4999713276131
+        ],
+        "leg_far": [
+          449.33353746677506,
+          639.666934373845
+        ]
+      },
+      {
+        "time": 0.19444444444444442,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          449.1666666666667,
+          639.8333333333333
+        ]
+      },
+      {
+        "time": 0.19791666666666666,
+        "leg_near": [
+          367.0000335591839,
+          662.4999712606315
+        ],
+        "leg_far": [
+          449.0002038137054,
+          640.0002673605135
+        ]
+      },
+      {
+        "time": 0.20138888888888887,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          448.8333333333333,
+          640.1666666666666
+        ]
+      },
+      {
+        "time": 0.20486111111111108,
+        "leg_near": [
+          367.0000338526314,
+          662.4999711919435
+        ],
+        "leg_far": [
+          448.66687016075775,
+          640.3336003420409
+        ]
+      },
+      {
+        "time": 0.20833333333333334,
+        "leg_near": [
+          366.99999999999994,
+          662.5
+        ],
+        "leg_far": [
+          448.5,
+          640.5
+        ]
+      },
+      {
+        "time": 0.21180555555555555,
+        "leg_near": [
+          367.0000341454963,
+          662.4999711215526
+        ],
+        "leg_far": [
+          448.33353650797005,
+          640.6669333184282
+        ]
+      },
+      {
+        "time": 0.21527777777777776,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          448.1666666666667,
+          640.8333333333333
+        ]
+      },
+      {
+        "time": 0.21875,
+        "leg_near": [
+          367.0000344377687,
+          662.499971049462
+        ],
+        "leg_far": [
+          448.00020285538017,
+          641.0002662896767
+        ]
+      },
+      {
+        "time": 0.2222222222222222,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          447.83333333333326,
+          641.1666666666666
+        ]
+      },
+      {
+        "time": 0.22569444444444442,
+        "leg_near": [
+          367.0000347294389,
+          662.4999709756753
+        ],
+        "leg_far": [
+          447.6668692030261,
+          641.3335992557883
+        ]
+      },
+      {
+        "time": 0.22916666666666666,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          447.5,
+          641.5
+        ]
+      },
+      {
+        "time": 0.23263888888888887,
+        "leg_near": [
+          367.0000350204973,
+          662.499970900196
+        ],
+        "leg_far": [
+          447.333535550946,
+          641.6669322167644
+        ]
+      },
+      {
+        "time": 0.23611111111111108,
+        "leg_near": [
+          367.0000000000001,
+          662.5
+        ],
+        "leg_far": [
+          447.1666666666667,
+          641.8333333333333
+        ]
+      },
+      {
+        "time": 0.23958333333333334,
+        "leg_near": [
+          367.0000353109343,
+          662.4999708230273
+        ],
+        "leg_far": [
+          447.00020189917757,
+          642.0002651726077
+        ]
+      },
+      {
+        "time": 0.24305555555555555,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          446.83333333333337,
+          642.1666666666666
+        ]
+      },
+      {
+        "time": 0.24652777777777776,
+        "leg_near": [
+          367.0000356007404,
+          662.499970744173
+        ],
+        "leg_far": [
+          446.66686824775877,
+          642.3335981233201
+        ]
+      },
+      {
+        "time": 0.25,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          446.5,
+          642.5
+        ]
+      },
+      {
+        "time": 0.2534722222222222,
+        "leg_near": [
+          367.000187884195,
+          662.5004464780346
+        ],
+        "leg_far": [
+          446.3332305890341,
+          642.666552102643
+        ]
+      },
+      {
+        "time": 0.2569444444444444,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          446.1666666666667,
+          642.8333333333334
+        ]
+      },
+      {
+        "time": 0.2604166666666667,
+        "leg_near": [
+          367.000192544774,
+          662.5004446367942
+        ],
+        "leg_far": [
+          445.9998973277688,
+          642.9998853692523
+        ]
+      },
+      {
+        "time": 0.2638888888888889,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          445.83333333333337,
+          643.1666666666667
+        ]
+      },
+      {
+        "time": 0.2673611111111111,
+        "leg_near": [
+          367.0001971865298,
+          662.5004427487269
+        ],
+        "leg_far": [
+          445.66656406650327,
+          643.3332186358612
+        ]
+      },
+      {
+        "time": 0.2708333333333333,
+        "leg_near": [
+          367.00000000000006,
+          662.5
+        ],
+        "leg_far": [
+          445.5,
+          643.5
+        ]
+      },
+      {
+        "time": 0.2743055555555555,
+        "leg_near": [
+          367.0002018089918,
+          662.5004408140244
+        ],
+        "leg_far": [
+          445.3332308052377,
+          643.6665519024698
+        ]
+      },
+      {
+        "time": 0.27777777777777773,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          445.16666666666663,
+          643.8333333333333
+        ]
+      },
+      {
+        "time": 0.28125,
+        "leg_near": [
+          367.0002064116916,
+          662.5004388328833
+        ],
+        "leg_far": [
+          444.9998975439719,
+          643.9998851690782
+        ]
+      },
+      {
+        "time": 0.2847222222222222,
+        "leg_near": [
+          366.99999999999994,
+          662.5
+        ],
+        "leg_far": [
+          444.83333333333337,
+          644.1666666666666
+        ]
+      },
+      {
+        "time": 0.2881944444444444,
+        "leg_near": [
+          367.00021099416284,
+          662.500436805505
+        ],
+        "leg_far": [
+          444.66656428270596,
+          644.3332184356863
+        ]
+      },
+      {
+        "time": 0.2916666666666667,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          444.5,
+          644.5
+        ]
+      },
+      {
+        "time": 0.2951388888888889,
+        "leg_near": [
+          367.0002155559413,
+          662.5004347320953
+        ],
+        "leg_far": [
+          444.3332310214398,
+          644.666551702294
+        ]
+      },
+      {
+        "time": 0.2986111111111111,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          444.16666666666663,
+          644.8333333333334
+        ]
+      },
+      {
+        "time": 0.3020833333333333,
+        "leg_near": [
+          367.0002200965647,
+          662.5004326128646
+        ],
+        "leg_far": [
+          443.99989776017367,
+          644.9998849689015
+        ]
+      },
+      {
+        "time": 0.3055555555555555,
+        "leg_near": [
+          366.99999999999994,
+          662.5
+        ],
+        "leg_far": [
+          443.83333333333337,
+          645.1666666666667
+        ]
+      },
+      {
+        "time": 0.30902777777777773,
+        "leg_near": [
+          367.000224615573,
+          662.5004304480286
+        ],
+        "leg_far": [
+          443.6665644989072,
+          645.3332182355086
+        ]
+      },
+      {
+        "time": 0.3125,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          443.49999999999994,
+          645.5
+        ]
+      },
+      {
+        "time": 0.3159722222222222,
+        "leg_near": [
+          367.0002291125081,
+          662.5004282378068
+        ],
+        "leg_far": [
+          443.3332312376406,
+          645.6665515021155
+        ]
+      },
+      {
+        "time": 0.3194444444444444,
+        "leg_near": [
+          367.00000000000006,
+          662.5
+        ],
+        "leg_far": [
+          443.16666666666663,
+          645.8333333333334
+        ]
+      },
+      {
+        "time": 0.3229166666666667,
+        "leg_near": [
+          367.00023358691453,
+          662.5004259824238
+        ],
+        "leg_far": [
+          442.9998979763739,
+          645.999884768722
+        ]
+      },
+      {
+        "time": 0.3263888888888889,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          442.83333333333326,
+          646.1666666666666
+        ]
+      },
+      {
+        "time": 0.3298611111111111,
+        "leg_near": [
+          367.00023803833886,
+          662.5004236821085
+        ],
+        "leg_far": [
+          442.666564715107,
+          646.3332180353284
+        ]
+      },
+      {
+        "time": 0.3333333333333333,
+        "leg_near": [
+          367.00000000000006,
+          662.5
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.3368055555555555,
+        "leg_near": [
+          367.12455755420035,
+          662.249687417636
+        ],
+        "leg_far": [
+          442.49998823133626,
+          646.5000285678615
+        ]
+      },
+      {
+        "time": 0.34027777777777773,
+        "leg_near": [
+          367.25,
+          662.0
+        ],
+        "leg_far": [
+          442.49999999999994,
+          646.5
+        ]
+      },
+      {
+        "time": 0.34375,
+        "leg_near": [
+          367.3745571595465,
+          661.7496884671407
+        ],
+        "leg_far": [
+          442.49998816293316,
+          646.5000285579187
+        ]
+      },
+      {
+        "time": 0.34722222222222215,
+        "leg_near": [
+          367.5,
+          661.5
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.3506944444444444,
+        "leg_near": [
+          367.62455676471563,
+          661.2496895163083
+        ],
+        "leg_far": [
+          442.4999880945387,
+          646.5000285478687
+        ]
+      },
+      {
+        "time": 0.3541666666666667,
+        "leg_near": [
+          367.75,
+          661.0
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.35763888888888884,
+        "leg_near": [
+          367.8745563697073,
+          660.7496905651392
+        ],
+        "leg_far": [
+          442.4999880261532,
+          646.5000285377117
+        ]
+      },
+      {
+        "time": 0.3611111111111111,
+        "leg_near": [
+          368.0,
+          660.5
+        ],
+        "leg_far": [
+          442.49999999999994,
+          646.5
+        ]
+      },
+      {
+        "time": 0.3645833333333333,
+        "leg_near": [
+          368.12455597452123,
+          660.2496916136336
+        ],
+        "leg_far": [
+          442.4999879577765,
+          646.5000285274477
+        ]
+      },
+      {
+        "time": 0.3680555555555555,
+        "leg_near": [
+          368.25,
+          660.0
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.37152777777777773,
+        "leg_near": [
+          368.37455557915695,
+          659.7496926617915
+        ],
+        "leg_far": [
+          442.499987889409,
+          646.5000285170769
+        ]
+      },
+      {
+        "time": 0.375,
+        "leg_near": [
+          368.5,
+          659.5
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.37847222222222215,
+        "leg_near": [
+          368.6245551836138,
+          659.2496937096134
+        ],
+        "leg_far": [
+          442.4999878210508,
+          646.500028506599
+        ]
+      },
+      {
+        "time": 0.3819444444444444,
+        "leg_near": [
+          368.75,
+          659.0
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.3854166666666667,
+        "leg_near": [
+          368.87455478789155,
+          658.7496947570996
+        ],
+        "leg_far": [
+          442.49998775270205,
+          646.5000284960142
+        ]
+      },
+      {
+        "time": 0.38888888888888884,
+        "leg_near": [
+          369.0,
+          658.5
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.3923611111111111,
+        "leg_near": [
+          369.1245543919898,
+          658.2496958042501
+        ],
+        "leg_far": [
+          442.49998768436296,
+          646.5000284853224
+        ]
+      },
+      {
+        "time": 0.3958333333333333,
+        "leg_near": [
+          369.25,
+          658.0
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.3993055555555555,
+        "leg_near": [
+          369.37455399590806,
+          657.7496968510652
+        ],
+        "leg_far": [
+          442.49998761603376,
+          646.5000284745238
+        ]
+      },
+      {
+        "time": 0.40277777777777773,
+        "leg_near": [
+          369.5,
+          657.5
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.40625,
+        "leg_near": [
+          369.62455359964576,
+          657.2496978975453
+        ],
+        "leg_far": [
+          442.4999875477144,
+          646.5000284636182
+        ]
+      },
+      {
+        "time": 0.40972222222222215,
+        "leg_near": [
+          369.75,
+          657.0
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.4131944444444444,
+        "leg_near": [
+          369.8745532032027,
+          656.7496989436904
+        ],
+        "leg_far": [
+          442.4999874794054,
+          646.5000284526058
+        ]
+      },
+      {
+        "time": 0.4166666666666667,
+        "leg_near": [
+          370.0,
+          656.5
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.42013888888888884,
+        "leg_near": [
+          370.20822428497684,
+          656.4161080345685
+        ],
+        "leg_far": [
+          442.4999421931079,
+          646.4999337118327
+        ]
+      },
+      {
+        "time": 0.4236111111111111,
+        "leg_near": [
+          370.41666666666663,
+          656.3333333333334
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.4270833333333333,
+        "leg_near": [
+          370.62488894471375,
+          656.2494422025494
+        ],
+        "leg_far": [
+          442.4999421759811,
+          646.4999336350478
+        ]
+      },
+      {
+        "time": 0.4305555555555555,
+        "leg_near": [
+          370.8333333333333,
+          656.1666666666666
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.43402777777777773,
+        "leg_near": [
+          371.0415535998942,
+          656.0827763619938
+        ],
+        "leg_far": [
+          442.4999421588535,
+          646.4999335582612
+        ]
+      },
+      {
+        "time": 0.4375,
+        "leg_near": [
+          371.25,
+          656.0
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.44097222222222215,
+        "leg_near": [
+          371.45821825059363,
+          655.9161105128618
+        ],
+        "leg_far": [
+          442.49994214172517,
+          646.4999334814734
+        ]
+      },
+      {
+        "time": 0.4444444444444444,
+        "leg_near": [
+          371.6666666666667,
+          655.8333333333333
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.4479166666666667,
+        "leg_near": [
+          371.8748828968879,
+          655.7494446551143
+        ],
+        "leg_far": [
+          442.49994212459615,
+          646.4999334046838
+        ]
+      },
+      {
+        "time": 0.45138888888888884,
+        "leg_near": [
+          372.0833333333333,
+          655.6666666666666
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.4548611111111111,
+        "leg_near": [
+          372.2915475388528,
+          655.5827787887129
+        ],
+        "leg_far": [
+          442.49994210746627,
+          646.4999333278929
+        ]
+      },
+      {
+        "time": 0.4583333333333333,
+        "leg_near": [
+          372.5,
+          655.5
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.4618055555555555,
+        "leg_near": [
+          372.708212176565,
+          655.4161129136196
+        ],
+        "leg_far": [
+          442.4999420903356,
+          646.4999332511005
+        ]
+      },
+      {
+        "time": 0.46527777777777773,
+        "leg_near": [
+          372.91666666666674,
+          655.3333333333334
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.46875,
+        "leg_near": [
+          373.12487681010134,
+          655.2494470297972
+        ],
+        "leg_far": [
+          442.49994207320424,
+          646.4999331743066
+        ]
+      },
+      {
+        "time": 0.47222222222222215,
+        "leg_near": [
+          373.3333333333333,
+          655.1666666666666
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.4756944444444444,
+        "leg_near": [
+          373.5415414395386,
+          655.0827811372095
+        ],
+        "leg_far": [
+          442.499942056072,
+          646.4999330975112
+        ]
+      },
+      {
+        "time": 0.4791666666666667,
+        "leg_near": [
+          373.75,
+          655.0
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.48263888888888884,
+        "leg_near": [
+          373.9582060649544,
+          654.9161152358206
+        ],
+        "leg_far": [
+          442.499942038939,
+          646.4999330207143
+        ]
+      },
+      {
+        "time": 0.4861111111111111,
+        "leg_near": [
+          374.16666666666674,
+          654.8333333333334
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.4895833333333333,
+        "leg_near": [
+          374.37487068642645,
+          654.7494493255953
+        ],
+        "leg_far": [
+          442.4999420218053,
+          646.4999329439158
+        ]
+      },
+      {
+        "time": 0.4930555555555555,
+        "leg_near": [
+          374.58333333333326,
+          654.6666666666666
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.49652777777777773,
+        "leg_near": [
+          374.79153530403283,
+          654.5827834064992
+        ],
+        "leg_far": [
+          442.49994200467074,
+          646.499932867116
+        ]
+      },
+      {
+        "time": 0.5,
+        "leg_near": [
+          375.0,
+          654.5
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.5034722222222222,
+        "leg_near": [
+          374.8335695763957,
+          654.6669404913248
+        ],
+        "leg_far": [
+          442.50001379507864,
+          646.4999553963179
+        ]
+      },
+      {
+        "time": 0.5069444444444444,
+        "leg_near": [
+          374.6666666666667,
+          654.8333333333334
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.5104166666666666,
+        "leg_near": [
+          374.500235749257,
+          655.0002738795354
+        ],
+        "leg_far": [
+          442.50001404768466,
+          646.4999554570053
+        ]
+      },
+      {
+        "time": 0.5138888888888888,
+        "leg_near": [
+          374.3333333333333,
+          655.1666666666667
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.517361111111111,
+        "leg_near": [
+          374.1669019197111,
+          655.3336072618392
+        ],
+        "leg_far": [
+          442.5000143004253,
+          646.4999555162242
+        ]
+      },
+      {
+        "time": 0.5208333333333334,
+        "leg_near": [
+          374.0,
+          655.5
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.5243055555555555,
+        "leg_near": [
+          373.8335680878003,
+          655.6669406382196
+        ],
+        "leg_far": [
+          442.50001455329203,
+          646.499955573974
+        ]
+      },
+      {
+        "time": 0.5277777777777778,
+        "leg_near": [
+          373.6666666666667,
+          655.8333333333334
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.53125,
+        "leg_near": [
+          373.500234253567,
+          656.0002740086592
+        ],
+        "leg_far": [
+          442.500014806276,
+          646.4999556302536
+        ]
+      },
+      {
+        "time": 0.5347222222222222,
+        "leg_near": [
+          373.33333333333326,
+          656.1666666666667
+        ],
+        "leg_far": [
+          442.49999999999994,
+          646.5
+        ]
+      },
+      {
+        "time": 0.5381944444444444,
+        "leg_near": [
+          373.16690041705374,
+          656.3336073731418
+        ],
+        "leg_far": [
+          442.5000150593688,
+          646.4999556850626
+        ]
+      },
+      {
+        "time": 0.5416666666666666,
+        "leg_near": [
+          373.00000000000006,
+          656.5
+        ],
+        "leg_far": [
+          442.49999999999994,
+          646.5
+        ]
+      },
+      {
+        "time": 0.5451388888888888,
+        "leg_near": [
+          372.83356657830336,
+          656.6669407316514
+        ],
+        "leg_far": [
+          442.50001531256135,
+          646.4999557384001
+        ]
+      },
+      {
+        "time": 0.548611111111111,
+        "leg_near": [
+          372.66666666666674,
+          656.8333333333334
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.5520833333333334,
+        "leg_near": [
+          372.50023273735826,
+          657.0002740841719
+        ],
+        "leg_far": [
+          442.50001556584516,
+          646.4999557902659
+        ]
+      },
+      {
+        "time": 0.5555555555555555,
+        "leg_near": [
+          372.3333333333333,
+          657.1666666666666
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.5590277777777778,
+        "leg_near": [
+          372.1668988942617,
+          657.333607430688
+        ],
+        "leg_far": [
+          442.5000158192113,
+          646.4999558406591
+        ]
+      },
+      {
+        "time": 0.5625,
+        "leg_near": [
+          372.0,
+          657.5
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.5659722222222222,
+        "leg_near": [
+          371.8335650490568,
+          657.6669407711842
+        ],
+        "leg_far": [
+          442.5000160726511,
+          646.4999558895796
+        ]
+      },
+      {
+        "time": 0.5694444444444444,
+        "leg_near": [
+          371.6666666666667,
+          657.8333333333334
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.5729166666666666,
+        "leg_near": [
+          371.50023120178633,
+          658.0002741056455
+        ],
+        "leg_far": [
+          442.5000163261558,
+          646.4999559370267
+        ]
+      },
+      {
+        "time": 0.5763888888888888,
+        "leg_near": [
+          371.3333333333333,
+          658.1666666666666
+        ],
+        "leg_far": [
+          442.50000000000006,
+          646.5
+        ]
+      },
+      {
+        "time": 0.579861111111111,
+        "leg_near": [
+          371.1668973524937,
+          658.3336074340576
+        ],
+        "leg_far": [
+          442.50001657971694,
+          646.4999559830002
+        ]
+      },
+      {
+        "time": 0.5833333333333334,
+        "leg_near": [
+          371.0,
+          658.5
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.5868055555555555,
+        "leg_near": [
+          370.83321583460787,
+          658.6665213912516
+        ],
+        "leg_far": [
+          442.49999842635316,
+          646.5003526191337
+        ]
+      },
+      {
+        "time": 0.5902777777777778,
+        "leg_near": [
+          370.6666666666667,
+          658.8333333333333
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.59375,
+        "leg_near": [
+          370.49988260696796,
+          658.9998546312333
+        ],
+        "leg_far": [
+          442.5000023066354,
+          646.5003527019426
+        ]
+      },
+      {
+        "time": 0.5972222222222222,
+        "leg_near": [
+          370.33333333333326,
+          659.1666666666666
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.6006944444444444,
+        "leg_near": [
+          370.1665493793281,
+          659.3331878712148
+        ],
+        "leg_far": [
+          442.50000618748675,
+          646.5003527448048
+        ]
+      },
+      {
+        "time": 0.6041666666666666,
+        "leg_near": [
+          370.0,
+          659.5
+        ],
+        "leg_far": [
+          442.50000000000006,
+          646.5
+        ]
+      },
+      {
+        "time": 0.6076388888888888,
+        "leg_near": [
+          369.83321615168825,
+          659.666521111196
+        ],
+        "leg_far": [
+          442.50001006849584,
+          646.5003527477164
+        ]
+      },
+      {
+        "time": 0.611111111111111,
+        "leg_near": [
+          369.6666666666667,
+          659.8333333333334
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.6145833333333334,
+        "leg_near": [
+          369.4998829240485,
+          659.9998543511767
+        ],
+        "leg_far": [
+          442.5000139492513,
+          646.500352710678
+        ]
+      },
+      {
+        "time": 0.6180555555555555,
+        "leg_near": [
+          369.33333333333326,
+          660.1666666666666
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.6215277777777778,
+        "leg_near": [
+          369.1665496964088,
+          660.3331875911572
+        ],
+        "leg_far": [
+          442.50001782934163,
+          646.5003526336944
+        ]
+      },
+      {
+        "time": 0.625,
+        "leg_near": [
+          369.00000000000006,
+          660.5
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.6284722222222222,
+        "leg_near": [
+          368.8332164687692,
+          660.6665208311373
+        ],
+        "leg_far": [
+          442.5000217083558,
+          646.5003525167743
+        ]
+      },
+      {
+        "time": 0.6319444444444444,
+        "leg_near": [
+          368.66666666666663,
+          660.8333333333334
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.6354166666666666,
+        "leg_near": [
+          368.4998832411295,
+          660.999854071117
+        ],
+        "leg_far": [
+          442.50002558588255,
+          646.5003523599313
+        ]
+      },
+      {
+        "time": 0.6388888888888888,
+        "leg_near": [
+          368.33333333333326,
+          661.1666666666667
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.642361111111111,
+        "leg_near": [
+          368.16655001349,
+          661.3331873110965
+        ],
+        "leg_far": [
+          442.50002946151074,
+          646.5003521631824
+        ]
+      },
+      {
+        "time": 0.6458333333333334,
+        "leg_near": [
+          368.0,
+          661.5
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.6493055555555555,
+        "leg_near": [
+          367.8332167858506,
+          661.6665205510756
+        ],
+        "leg_far": [
+          442.50003333482965,
+          646.5003519265495
+        ]
+      },
+      {
+        "time": 0.6527777777777778,
+        "leg_near": [
+          367.66666666666674,
+          661.8333333333333
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.65625,
+        "leg_near": [
+          367.4998835582111,
+          661.9998537910544
+        ],
+        "leg_far": [
+          442.50003720542867,
+          646.5003516500584
+        ]
+      },
+      {
+        "time": 0.6597222222222222,
+        "leg_near": [
+          367.3333333333333,
+          662.1666666666666
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      },
+      {
+        "time": 0.6631944444444444,
+        "leg_near": [
+          367.1665503305717,
+          662.3331870310328
+        ],
+        "leg_far": [
+          442.5000410728976,
+          646.5003513337393
+        ]
+      },
+      {
+        "time": 0.6666666666666666,
+        "leg_near": [
+          367.0,
+          662.5
+        ],
+        "leg_far": [
+          442.5,
+          646.5
+        ]
+      }
+    ],
+    "endKey": "2/3秒显式复制首键",
+    "automaticAngleFitting": false,
+    "isIK": false
+  },
+  "rendering": "重新读取Spine JSON的weighted vertices及atlas；预乘alpha；半开top-left三角共享边；slot source-over",
+  "script": {
+    "file": "build_profile_walk.py",
+    "sha256": "31040f397e1f9a8790cc9ee56adfad00eff0006a74fedf03d2036c36923aad81"
+  },
+  "limitations": [
+    "只在原图视角使用七件现有纹理；body源件既有4095px隐藏供体搭接保持不变，本次没有生成/涂补任何纹理。",
+    "肩根、腋下、髋根与腿根隐藏面不全，原型未获无露缝批准；裤口描边归属仍待美术复核。",
+    "原图为right_front_3q，不因文件名profile就声称获得真实侧面转向。",
+    "near/far是静态屏幕层假设，不代表视频解剖左右或跨帧身份；未复现胸前大交叉。",
+    "角度为九个有限手工键线性插值；脚底平移是正向补偿，非IK；支撑期原地固定，摆动期移动，不锁死双脚。",
+    "Python CPU验证不是Spine编辑器或官方运行时验收，移动端/换装/跨角色验证均未进行。"
+  ]
+}

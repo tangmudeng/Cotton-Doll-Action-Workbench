@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "zipUrl": "/studio_v3/exports/rig_ba95ad9561ab4b7a/walulu_walk_spine_4.2.43.zip",
+  "spineUrl": "/studio_v3/exports/rig_ba95ad9561ab4b7a/walulu_walk.spine",
+  "directory": "C:\\Users\\root\\Documents\\ChatGPT\\棉花娃娃游戏素材\\workbuddy_handoff_20261119\\codex_handoff_20261119\\spine_workbench\\studio_v3\\exports\\rig_ba95ad9561ab4b7a",
+  "checks": {
+    "samples": 193,
+    "bones": 12,
+    "attachments": 7,
+    "duration": 0.916700005531311,
+    "maxEditorSpineVertexErrorPx": 0.05230539308849962,
+    "minTriangleAreaRatio": 0.04241114486417667,
+    "flippedTriangles": 0,
+    "loopVertexErrorPx": 0,
+    "runtime": "bundled Spine official runtime",
+    "passed": true
+  }
+}

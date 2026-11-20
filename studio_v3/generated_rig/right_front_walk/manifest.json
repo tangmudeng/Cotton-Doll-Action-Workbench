@@ -1,0 +1,288 @@
+{
+  "version": 2,
+  "status": "已提取/程序补底·待美术精修",
+  "sourceView": "right_front_3q",
+  "sourceLabel": "右前¾",
+  "sourceFile": "I:\\彩虹AI\\design\\AI玩具_design\\美术资源\\棉花娃娃\\基础角色-测试\\右前¾侧图层.png",
+  "sourceSha256": "947376df094af4ca77b6ea025184fdf2c676e01933a2d70d098b77e37cca181a",
+  "sourceSnapshot": "source768.png",
+  "action": "walk",
+  "actionLabel": "原地行走",
+  "canvas": {
+    "width": 768,
+    "height": 768
+  },
+  "assembly": "right_front_3q_assembly.png",
+  "originalAssembly": "right_front_3q_original_assembly.png",
+  "contactSheet": "parts_contact.png",
+  "proceduralSupportMask": "procedural_support_mask.png",
+  "atlas": "right_front_walk.png",
+  "atlasText": "right_front_walk.atlas.txt",
+  "runtimeJson": "right_front_walk.json",
+  "qualityReport": "quality_report.json",
+  "archive": "right_front_walk.zip",
+  "parts": [
+    {
+      "id": "leg_far",
+      "label": "远侧腿",
+      "file": "parts/leg_far.png",
+      "originalFile": "parts/original/leg_far.png",
+      "originalCrop": [
+        400,
+        552,
+        479,
+        648
+      ],
+      "bone": "leg_far",
+      "slot": "slot_leg_far",
+      "crop": {
+        "x": 400,
+        "y": 544,
+        "width": 79,
+        "height": 104
+      },
+      "pivot": {
+        "x": 437,
+        "y": 579
+      },
+      "status": "已提取/程序补底·待美术精修；未做IK/脚锁",
+      "proceduralSupportPixels": 741
+    },
+    {
+      "id": "leg_near",
+      "label": "近侧腿",
+      "file": "parts/leg_near.png",
+      "originalFile": "parts/original/leg_near.png",
+      "originalCrop": [
+        316,
+        564,
+        406,
+        664
+      ],
+      "bone": "leg_near",
+      "slot": "slot_leg_near",
+      "crop": {
+        "x": 316,
+        "y": 554,
+        "width": 90,
+        "height": 110
+      },
+      "pivot": {
+        "x": 359,
+        "y": 582
+      },
+      "status": "已提取/程序补底·待美术精修；未做IK/脚锁",
+      "proceduralSupportPixels": 640
+    },
+    {
+      "id": "body",
+      "label": "躯干",
+      "file": "parts/body.png",
+      "originalFile": "parts/original/body.png",
+      "originalCrop": [
+        338,
+        434,
+        478,
+        594
+      ],
+      "bone": "body",
+      "slot": "slot_body",
+      "crop": {
+        "x": 333,
+        "y": 430,
+        "width": 145,
+        "height": 176
+      },
+      "pivot": {
+        "x": 390,
+        "y": 532
+      },
+      "status": "已提取/程序补底·待美术精修",
+      "proceduralSupportPixels": 4141
+    },
+    {
+      "id": "arm_far",
+      "label": "远侧手臂",
+      "file": "parts/arm_far.png",
+      "originalFile": "parts/original/arm_far.png",
+      "originalCrop": [
+        452,
+        450,
+        505,
+        554
+      ],
+      "bone": "arm_far",
+      "slot": "slot_arm_far",
+      "crop": {
+        "x": 452,
+        "y": 450,
+        "width": 53,
+        "height": 104
+      },
+      "pivot": {
+        "x": 461,
+        "y": 470
+      },
+      "status": "已提取·待美术精修；摆幅±3.5°",
+      "proceduralSupportPixels": 0
+    },
+    {
+      "id": "arm_near",
+      "label": "近侧手臂",
+      "file": "parts/arm_near.png",
+      "originalFile": "parts/original/arm_near.png",
+      "originalCrop": [
+        287,
+        443,
+        377,
+        581
+      ],
+      "bone": "arm_near",
+      "slot": "slot_arm_near",
+      "crop": {
+        "x": 287,
+        "y": 443,
+        "width": 90,
+        "height": 138
+      },
+      "pivot": {
+        "x": 351,
+        "y": 465
+      },
+      "status": "已提取·待美术精修；摆幅±3.5°",
+      "proceduralSupportPixels": 0
+    },
+    {
+      "id": "head",
+      "label": "头部",
+      "file": "parts/head.png",
+      "originalFile": "parts/original/head.png",
+      "originalCrop": [
+        179,
+        104,
+        589,
+        451
+      ],
+      "bone": "head",
+      "slot": "slot_head",
+      "crop": {
+        "x": 179,
+        "y": 104,
+        "width": 410,
+        "height": 347
+      },
+      "pivot": {
+        "x": 398,
+        "y": 439
+      },
+      "status": "已提取·待美术精修",
+      "proceduralSupportPixels": 0
+    }
+  ],
+  "drawOrder": [
+    "leg_far",
+    "leg_near",
+    "body",
+    "arm_far",
+    "arm_near",
+    "head"
+  ],
+  "animation": {
+    "duration": 0.8,
+    "fps": 30,
+    "keyCount": 25,
+    "loop": true,
+    "mode": "in_place",
+    "sampling": "25键正弦采样，键间线性插值",
+    "footLock": false
+  },
+  "method": {
+    "summary": "原图可见像素独立裁切，颈肩/髋内部窄带cv2.inpaint程序补底；隐藏区未AI补全。",
+    "referenceRules": [
+      "腿→躯干→手臂→头部",
+      "内部支撑不沿四肢外形扩张，不复制完整手脚",
+      "手臂±3.5°，腿±7°、摆动抬脚4px；受支撑范围限制，尚无IK"
+    ],
+    "proceduralSupport": {
+      "method": "局部程序补底，不是AI补画",
+      "bodyBandPixels": {
+        "neck": 907,
+        "shoulder_near": 1336,
+        "shoulder_far": 372,
+        "hip": 1636
+      },
+      "bodyHipOriginalOverlapPixels": 1636,
+      "bodyInpaintPixelsRetained": 2505,
+      "neckFragmentsReassignedToHead": 425,
+      "bodyMaximumDistancePx": 14,
+      "legUpwardExtensionLimitPx": 10,
+      "inpaintRadiusPx": 3,
+      "supportPixels": {
+        "leg_far": 741,
+        "leg_near": 640,
+        "body": 4141,
+        "arm_far": 0,
+        "arm_near": 0,
+        "head": 0
+      },
+      "bodyIslandsReassigned": [
+        {
+          "pixels": 6,
+          "reassignedTo": "head"
+        },
+        {
+          "pixels": 1,
+          "reassignedTo": "arm_far"
+        },
+        {
+          "pixels": 110,
+          "reassignedTo": "arm_far"
+        },
+        {
+          "pixels": 41,
+          "reassignedTo": "leg_far"
+        }
+      ],
+      "originalPixelsPreservedPerPart": {
+        "head": true,
+        "arm_near": true,
+        "arm_far": true,
+        "leg_near": true,
+        "leg_far": true,
+        "body": true
+      },
+      "newPixelsOutsideSourceSilhouette": 0,
+      "legSupportCoveredByOpaqueBody": true
+    },
+    "atlasPaddingExtrudePx": 2
+  },
+  "assemblyMetrics": {
+    "comparedPixels": 131786,
+    "changedPixels": 0,
+    "changedPixelsInProceduralSupport": 0,
+    "changedPixelsOutsideProceduralSupport": 0,
+    "alphaChangedPixels": 0,
+    "alphaMaxAbsoluteError": 0.0,
+    "premultipliedRgbMAEOnForeground": 0.0,
+    "premultipliedRgbMaxAbsoluteError": 0.0,
+    "note": "程序补底覆盖区的有意像素差异不等于美术验收；透明像素RGB不计入重组误差"
+  },
+  "originalAssemblyMetrics": {
+    "comparedPixels": 131786,
+    "changedPixels": 0,
+    "changedPixelsInProceduralSupport": 0,
+    "changedPixelsOutsideProceduralSupport": 0,
+    "alphaChangedPixels": 0,
+    "alphaMaxAbsoluteError": 0.0,
+    "premultipliedRgbMAEOnForeground": 0.0,
+    "premultipliedRgbMaxAbsoluteError": 0.0,
+    "note": "程序补底覆盖区的有意像素差异不等于美术验收；透明像素RGB不计入重组误差"
+  },
+  "artReview": "样件待美术精修/验收",
+  "limitations": [
+    "局部程序补底，不是AI补画；隐藏区未AI补全，不代表完全没有补底",
+    "仅颈肩/髋窄带及腿切口内部重叠带有程序支撑色，不代表真实被遮挡结构",
+    "当前为刚性region，不含mesh/weights/IK；没有脚锁，不保证脚底不滑动",
+    "摆幅受有限支撑范围约束，样件待美术精修及Spine/Unity目标运行时验收"
+  ]
+}

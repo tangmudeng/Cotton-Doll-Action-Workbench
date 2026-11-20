@@ -1,0 +1,161 @@
+{
+  "version": 3,
+  "taskId": "comfy_f7e82942-05e3-4c7e-8e30-e974e2a233fa",
+  "characterId": null,
+  "status": "local_overlap_candidate_not_motion_ready",
+  "sourceFile": "../../../right_front_walk/source768.png",
+  "sourceSha256": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+  "donorFile": "../repair_sheet_v1.png",
+  "donorSha256": "435b8412ba58fd05432125be4d41767dc16eb6575076657dab7712e6e42bf599",
+  "method": "Original visible pixels + locally color-matched existing Image2 texture donor in hidden overlap masks. No new generation. Geometry constrained by joint neighborhood and eroded opaque higher-layer masks.",
+  "legacyReuse": "Visible-pixel ownership masks and provisional pivots ONLY; no old animation/runtime/procedural texture fills.",
+  "videoEvidence": {
+    "file": "../../frames/frame_008.jpg",
+    "sourceFrameIndex": 8,
+    "role": "Shows chest-crossing arm and separated feet; establishes limitations/need, not fitted coordinates or generated new pose"
+  },
+  "parts": [
+    {
+      "id": "leg_far",
+      "file": "leg_far.png",
+      "repairMask": "leg_far_repair_mask.png",
+      "bbox": [
+        400,
+        544,
+        479,
+        648
+      ],
+      "pivotSourcePixels": [
+        437,
+        579
+      ],
+      "addedPixels": 1126,
+      "sourceVisiblePixelCount": 5281,
+      "geometryStatus": "archival_visible_partition_provisional_not_video_redissection",
+      "status": "local_overlap_candidate_dynamic_untested"
+    },
+    {
+      "id": "leg_near",
+      "file": "leg_near.png",
+      "repairMask": "leg_near_repair_mask.png",
+      "bbox": [
+        316,
+        545,
+        406,
+        664
+      ],
+      "pivotSourcePixels": [
+        359,
+        582
+      ],
+      "addedPixels": 1364,
+      "sourceVisiblePixelCount": 6955,
+      "geometryStatus": "archival_visible_partition_provisional_not_video_redissection",
+      "status": "local_overlap_candidate_dynamic_untested"
+    },
+    {
+      "id": "body",
+      "file": "body.png",
+      "repairMask": "body_repair_mask.png",
+      "bbox": [
+        314,
+        408,
+        491,
+        594
+      ],
+      "pivotSourcePixels": [
+        390,
+        532
+      ],
+      "addedPixels": 8358,
+      "sourceVisiblePixelCount": 14273,
+      "geometryStatus": "archival_visible_partition_provisional_not_video_redissection",
+      "status": "local_overlap_candidate_dynamic_untested"
+    },
+    {
+      "id": "arm_far",
+      "file": "arm_far.png",
+      "repairMask": "arm_far_repair_mask.png",
+      "bbox": [
+        451,
+        442,
+        505,
+        554
+      ],
+      "pivotSourcePixels": [
+        461,
+        470
+      ],
+      "addedPixels": 26,
+      "sourceVisiblePixelCount": 2864,
+      "geometryStatus": "archival_visible_partition_provisional_not_video_redissection",
+      "status": "local_overlap_candidate_dynamic_untested"
+    },
+    {
+      "id": "arm_near",
+      "file": "arm_near.png",
+      "repairMask": "arm_near_repair_mask.png",
+      "bbox": [
+        287,
+        431,
+        377,
+        581
+      ],
+      "pivotSourcePixels": [
+        351,
+        465
+      ],
+      "addedPixels": 89,
+      "sourceVisiblePixelCount": 7226,
+      "geometryStatus": "archival_visible_partition_provisional_not_video_redissection",
+      "status": "local_overlap_candidate_dynamic_untested"
+    },
+    {
+      "id": "head",
+      "file": "head.png",
+      "repairMask": "head_repair_mask.png",
+      "bbox": [
+        179,
+        104,
+        589,
+        451
+      ],
+      "pivotSourcePixels": [
+        398,
+        439
+      ],
+      "addedPixels": 0,
+      "sourceVisiblePixelCount": 95187,
+      "geometryStatus": "archival_visible_partition_provisional_not_video_redissection",
+      "status": "local_overlap_candidate_dynamic_untested"
+    }
+  ],
+  "checks": {
+    "sourceDimensions768": true,
+    "visibleSourcePixelsUnchangedPerPart": true,
+    "staticForegroundRGBAExact": true,
+    "noNewOutsideSourcePixels": true,
+    "allFiveJointRegionsHaveAddedPixels": true,
+    "headUnmodified": true
+  },
+  "allChecksPassed": true,
+  "staticForegroundMaxRGBADelta": 0,
+  "assembly": "assembly.png",
+  "assemblyReview": "assembly_review.jpg",
+  "partsReview": "parts_review.jpg",
+  "resolved": [
+    "Original visible design, proportions, and contours are not redrawn",
+    "No generated frontal torso replaces master right-front view",
+    "Hidden local overlaps no longer rely on generated open cross-section caps"
+  ],
+  "unresolved": [
+    "Visible partition still inherited from archival static draft; not a new video-driven dissection",
+    "Complete hidden shoulder/upper-thigh structure not recovered",
+    "Chest-crossing near arm shape from frame 8 not supplied",
+    "Leg perspective and draw-order transitions require video-driven fitting",
+    "Near/far anatomy remains provisional",
+    "No dynamic gap/silhouette acceptance",
+    "No mesh, weights, IK, fitted walk or Spine runtime export"
+  ],
+  "promotedToRuntime": false
+}

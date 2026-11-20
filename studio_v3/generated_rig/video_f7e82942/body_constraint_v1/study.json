@@ -1,0 +1,1897 @@
+{
+  "schemaVersion": 1,
+  "status": "torso_projection_gate_not_binding",
+  "sourceTaskId": "comfy_f7e82942-05e3-4c7e-8e30-e974e2a233fa",
+  "sourceVideoSha256": "8fc0f8406d6a258640b65d34c5ad7fb0e35f231131d7eec945781dd9d93343e5",
+  "sourceHashes": {
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v9\\study.json": "f4e639f6e8b65796358661de8cfd37e93f2a18f599db4898f7cd400b0909e5c0",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\study.json": "4a8f286371e671b02037339dcc0fce2ea23d61d5cf8ca162392bf84a8f4b674c",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\video_parts_v1\\manifest.json": "e894efb958168c4e6a4fdea29484c7b5b02774b9dc65a809a344d71de1084147",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\video_parts_v1\\cycle_review\\sources.json": "e0281aa3dbd8440fa2808603284e9938158bf07eb2c4c148c75b9a8332040f06",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\manifest.json": "c928c89c6f64864359a89e429bc80f5518a3e5149e4dbc5990478c60a243569b"
+  },
+  "observations": {
+    "sourceFitXY": [
+      [
+        368.0,
+        439.0
+      ],
+      [
+        447.0,
+        438.0
+      ],
+      [
+        366.0,
+        535.0
+      ],
+      [
+        467.0,
+        520.0
+      ]
+    ],
+    "sourceHeldOutXY": [
+      [
+        410.0,
+        442.0
+      ],
+      [
+        415.0,
+        537.0
+      ]
+    ],
+    "frames": {
+      "68": {
+        "fit": [
+          [
+            416.0,
+            295.0
+          ],
+          [
+            485.0,
+            296.0
+          ],
+          [
+            398.0,
+            357.0
+          ],
+          [
+            500.0,
+            359.0
+          ]
+        ],
+        "holdout": [
+          [
+            453.0,
+            300.0
+          ],
+          [
+            449.0,
+            368.0
+          ]
+        ],
+        "shoulderAllowBox": [
+          377.0,
+          299.0,
+          425.0,
+          337.0
+        ]
+      },
+      "72": {
+        "fit": [
+          [
+            413.0,
+            277.0
+          ],
+          [
+            482.0,
+            280.0
+          ],
+          [
+            391.0,
+            336.0
+          ],
+          [
+            499.0,
+            339.0
+          ]
+        ],
+        "holdout": [
+          [
+            451.0,
+            283.0
+          ],
+          [
+            447.0,
+            353.0
+          ]
+        ],
+        "shoulderAllowBox": [
+          394.0,
+          281.0,
+          438.0,
+          318.0
+        ]
+      },
+      "80": {
+        "fit": [
+          [
+            415.0,
+            275.0
+          ],
+          [
+            482.0,
+            279.0
+          ],
+          [
+            401.0,
+            341.0
+          ],
+          [
+            497.0,
+            341.0
+          ]
+        ],
+        "holdout": [
+          [
+            453.0,
+            282.0
+          ],
+          [
+            449.0,
+            350.0
+          ]
+        ],
+        "shoulderAllowBox": [
+          382.0,
+          282.0,
+          428.0,
+          320.0
+        ]
+      }
+    },
+    "method": "assistant_manual_raw_crop_grid_read_before_candidate_rendering",
+    "confidence": "low",
+    "sourceReferenceUncertaintyPx": 4,
+    "videoReferenceUncertaintyPx": 6,
+    "heldOutPointsNotUsedInFit": true,
+    "notIndependentHumanAnnotation": true,
+    "shoulderBoxes": "broad visual attachment hypotheses; not recovered anatomical boundaries",
+    "closedShoulderCutExcludedFromBoundaryMetric": true
+  },
+  "referenceSensitivity": {
+    "68": {
+      "sampleCount": 32,
+      "method": "one_coordinate_at_a_time_declared_limits_not_joint_envelope_or_confidence_interval",
+      "heldOutRmsRangePx": [
+        4.672744118090542,
+        7.23037690032808
+      ],
+      "projectedShoulderXYComponentRange": [
+        [
+          398.6207149853059,
+          295.43866307540634
+        ],
+        [
+          404.4973065621763,
+          301.31525465229
+        ]
+      ],
+      "samples": [
+        {
+          "perturbedSide": "source",
+          "point": 0,
+          "axis": 0,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 5.2676334807050305,
+          "projectedShoulderXY": [
+            403.12461077844586,
+            298.4111976047858
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 0,
+          "axis": 0,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 6.400343911060855,
+          "projectedShoulderXY": [
+            400.01369092272563,
+            298.39966241561723
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 0,
+          "axis": 1,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 5.097839519356327,
+          "projectedShoulderXY": [
+            401.82976047901593,
+            300.1018562874418
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 0,
+          "axis": 1,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 6.5659857736046705,
+          "projectedShoulderXY": [
+            401.3655288822189,
+            296.6345961490316
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 1,
+          "axis": 0,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 5.91658418371303,
+          "projectedShoulderXY": [
+            402.3317774458602,
+            297.77551655463867
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 1,
+          "axis": 0,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 5.788971752417604,
+          "projectedShoulderXY": [
+            400.86486649026006,
+            299.0138922299735
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 1,
+          "axis": 1,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 5.241679766153958,
+          "projectedShoulderXY": [
+            402.29704333253613,
+            299.09666028249785
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 1,
+          "axis": 1,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 6.440162192888853,
+          "projectedShoulderXY": [
+            400.8424443332609,
+            297.6828246184525
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 2,
+          "axis": 0,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 5.2889880285785145,
+          "projectedShoulderXY": [
+            402.5059224694841,
+            299.2270279971387
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 2,
+          "axis": 0,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 6.419444088026367,
+          "projectedShoulderXY": [
+            400.6667709637304,
+            297.5152065081145
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 2,
+          "axis": 1,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 6.111891655992327,
+          "projectedShoulderXY": [
+            400.36737383880865,
+            299.50219683657286
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 2,
+          "axis": 1,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 5.69573890365214,
+          "projectedShoulderXY": [
+            402.7851944643333,
+            297.3337508947808
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 3,
+          "axis": 0,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 5.9773558637084845,
+          "projectedShoulderXY": [
+            401.6572164948275,
+            298.55223786775906
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 3,
+          "axis": 0,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 5.772860120634564,
+          "projectedShoulderXY": [
+            401.510900643324,
+            298.2360614724788
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 3,
+          "axis": 1,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 6.0765222523764475,
+          "projectedShoulderXY": [
+            401.42829553951606,
+            298.1429728382673
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 3,
+          "axis": 1,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 5.724696139206447,
+          "projectedShoulderXY": [
+            401.73041336216926,
+            298.6280341264141
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 0,
+          "axis": 0,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 6.859324085070735,
+          "projectedShoulderXY": [
+            398.6207149853059,
+            298.9425808031269
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 0,
+          "axis": 0,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 5.150992699269365,
+          "projectedShoulderXY": [
+            404.4973065621763,
+            297.81133692458684
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 0,
+          "axis": 1,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 7.1936440764639284,
+          "projectedShoulderXY": [
+            400.99338883447524,
+            295.43866307540634
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 0,
+          "axis": 1,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 4.672744118090542,
+          "projectedShoulderXY": [
+            402.12463271302977,
+            301.31525465229
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 1,
+          "axis": 0,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 5.766323237169184,
+          "projectedShoulderXY": [
+            400.409769833484,
+            299.7487757100887
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 1,
+          "axis": 0,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 6.326015940499187,
+          "projectedShoulderXY": [
+            402.7082517140035,
+            297.00514201762104
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 1,
+          "axis": 1,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 6.967946114691232,
+          "projectedShoulderXY": [
+            400.1871939275045,
+            297.22771792360834
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 1,
+          "axis": 1,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 4.971588106199072,
+          "projectedShoulderXY": [
+            402.93082761996357,
+            299.52619980411623
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 2,
+          "axis": 0,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 7.23037690032808,
+          "projectedShoulderXY": [
+            399.5271792360279,
+            296.7366552399621
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 2,
+          "axis": 0,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 4.823605584088999,
+          "projectedShoulderXY": [
+            403.5908423114567,
+            300.01726248775
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 2,
+          "axis": 1,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 6.023442395575951,
+          "projectedShoulderXY": [
+            403.1993143976386,
+            296.3451273261486
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 2,
+          "axis": 1,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 6.266072347074027,
+          "projectedShoulderXY": [
+            399.9187071498468,
+            300.4087904015627
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 3,
+          "axis": 0,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 5.839028923280967,
+          "projectedShoulderXY": [
+            401.6783790401457,
+            298.079823702251
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 3,
+          "axis": 0,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 6.409583691019465,
+          "projectedShoulderXY": [
+            401.43964250733717,
+            298.67409402546235
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 3,
+          "axis": 1,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 5.880018060440569,
+          "projectedShoulderXY": [
+            401.8561459353555,
+            298.49632713025653
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 3,
+          "axis": 1,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 6.372001998427809,
+          "projectedShoulderXY": [
+            401.26187561214755,
+            298.2575905974409
+          ]
+        }
+      ]
+    },
+    "72": {
+      "sampleCount": 32,
+      "method": "one_coordinate_at_a_time_declared_limits_not_joint_envelope_or_confidence_interval",
+      "heldOutRmsRangePx": [
+        5.59539909391268,
+        8.702077553454497
+      ],
+      "projectedShoulderXYComponentRange": [
+        [
+          395.6028403525802,
+          275.8511263467197
+        ],
+        [
+          401.4794319294607,
+          281.7277179236057
+        ]
+      ],
+      "samples": [
+        {
+          "perturbedSide": "source",
+          "point": 0,
+          "axis": 0,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 6.546426081082691,
+          "projectedShoulderXY": [
+            400.0971257484902,
+            278.87000000000694
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 0,
+          "axis": 0,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 7.706577552328918,
+          "projectedShoulderXY": [
+            397.0048762190586,
+            278.7646286571718
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 0,
+          "axis": 1,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 6.261899007916908,
+          "projectedShoulderXY": [
+            398.8017365269277,
+            280.5282634730646
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 0,
+          "axis": 1,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 7.971273123429731,
+          "projectedShoulderXY": [
+            398.3572768191899,
+            277.03338334584043
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 1,
+          "axis": 0,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 6.947319428680208,
+          "projectedShoulderXY": [
+            399.30943490166885,
+            278.23356982822895
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 1,
+          "axis": 0,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 7.327645894767772,
+          "projectedShoulderXY": [
+            397.8503728650429,
+            279.3821866730869
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 1,
+          "axis": 1,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 6.478322034902389,
+          "projectedShoulderXY": [
+            399.2984797701604,
+            279.53591094087284
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 1,
+          "axis": 1,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 7.792347859621698,
+          "projectedShoulderXY": [
+            397.8034150613086,
+            278.0671753815234
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 2,
+          "axis": 0,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 6.4739910214357606,
+          "projectedShoulderXY": [
+            399.4389806173764,
+            279.6169538167054
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 2,
+          "axis": 0,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 7.805014543698159,
+          "projectedShoulderXY": [
+            397.70125156446727,
+            277.953629536911
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 2,
+          "axis": 1,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 6.881274827988852,
+          "projectedShoulderXY": [
+            397.28929199096086,
+            279.93158423300457
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 2,
+          "axis": 1,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 7.470383984429219,
+          "projectedShoulderXY": [
+            399.8255189692155,
+            277.7324027678501
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 3,
+          "axis": 0,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 6.876310424329953,
+          "projectedShoulderXY": [
+            398.6975106864329,
+            278.9545511692403
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 3,
+          "axis": 0,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 7.427337578221647,
+          "projectedShoulderXY": [
+            398.4360257326783,
+            278.6599356683297
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 3,
+          "axis": 1,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 7.077907645936397,
+          "projectedShoulderXY": [
+            398.40138300525064,
+            278.49227510589947
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 3,
+          "axis": 1,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 7.306660067014549,
+          "projectedShoulderXY": [
+            398.71935832732026,
+            279.10322037971946
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 0,
+          "axis": 0,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 8.065463586566054,
+          "projectedShoulderXY": [
+            395.6028403525802,
+            279.35504407443847
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 0,
+          "axis": 0,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 6.479424503785201,
+          "projectedShoulderXY": [
+            401.4794319294607,
+            278.22380019589036
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 0,
+          "axis": 1,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 8.702077553454497,
+          "projectedShoulderXY": [
+            397.97551420174716,
+            275.8511263467197
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 0,
+          "axis": 1,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 5.59539909391268,
+          "projectedShoulderXY": [
+            399.1067580802982,
+            281.7277179236057
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 1,
+          "axis": 0,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 7.434629315757376,
+          "projectedShoulderXY": [
+            397.3918952007664,
+            280.1612389813937
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 1,
+          "axis": 0,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 7.172645283764724,
+          "projectedShoulderXY": [
+            399.69037708127627,
+            277.4176052889336
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 1,
+          "axis": 1,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 8.380814361000086,
+          "projectedShoulderXY": [
+            397.16931929478915,
+            277.64018119491175
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 1,
+          "axis": 1,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 6.040074840253338,
+          "projectedShoulderXY": [
+            399.91295298725845,
+            279.93866307541197
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 2,
+          "axis": 0,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 8.538145927762224,
+          "projectedShoulderXY": [
+            396.5093046033297,
+            277.14911851125225
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 2,
+          "axis": 0,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 6.008092637630916,
+          "projectedShoulderXY": [
+            400.5729676787421,
+            280.4297257590529
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 2,
+          "axis": 1,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 8.077004490472847,
+          "projectedShoulderXY": [
+            400.1814397649109,
+            276.7575905974614
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 2,
+          "axis": 1,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 6.615067005475863,
+          "projectedShoulderXY": [
+            396.9008325171256,
+            280.8212536728706
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 3,
+          "axis": 0,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 7.711584712439213,
+          "projectedShoulderXY": [
+            398.66050440743084,
+            278.492286973554
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 3,
+          "axis": 0,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 7.0114246167564875,
+          "projectedShoulderXY": [
+            398.4217678746194,
+            279.08655729676764
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 3,
+          "axis": 1,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 7.739326247747736,
+          "projectedShoulderXY": [
+            398.8382713026348,
+            278.90879040156426
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 3,
+          "axis": 1,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 6.980791012809303,
+          "projectedShoulderXY": [
+            398.2440009794235,
+            278.6700538687512
+          ]
+        }
+      ]
+    },
+    "80": {
+      "sampleCount": 32,
+      "method": "one_coordinate_at_a_time_declared_limits_not_joint_envelope_or_confidence_interval",
+      "heldOutRmsRangePx": [
+        4.2872035938849065,
+        7.0287184827816835
+      ],
+      "projectedShoulderXYComponentRange": [
+        [
+          398.12530607246555,
+          278.7798114593554
+        ],
+        [
+          404.0018976493508,
+          284.656403036234
+        ]
+      ],
+      "samples": [
+        {
+          "perturbedSide": "source",
+          "point": 0,
+          "axis": 0,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 4.795975903299007,
+          "projectedShoulderXY": [
+            402.61976047903454,
+            281.68413173652993
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 0,
+          "axis": 0,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 6.164866017103779,
+          "projectedShoulderXY": [
+            399.5273818454442,
+            281.8115153788676
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 0,
+          "axis": 1,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 4.88303316132371,
+          "projectedShoulderXY": [
+            401.3014970059744,
+            283.3922155688694
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 0,
+          "axis": 1,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 6.111678127705112,
+          "projectedShoulderXY": [
+            400.9036634158523,
+            280.02825706426034
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 1,
+          "axis": 0,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 5.395552779316859,
+          "projectedShoulderXY": [
+            401.79586756286403,
+            281.12079910380413
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 1,
+          "axis": 0,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 5.624787259225848,
+          "projectedShoulderXY": [
+            400.4088284820687,
+            282.3491099350589
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 1,
+          "axis": 1,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 4.941714068396204,
+          "projectedShoulderXY": [
+            401.80063442662004,
+            282.43488149389566
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 1,
+          "axis": 1,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 6.064855859702485,
+          "projectedShoulderXY": [
+            400.3483237427956,
+            281.025018764079
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 2,
+          "axis": 0,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 4.816585940490706,
+          "projectedShoulderXY": [
+            402.03314189997866,
+            282.58321368748864
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 2,
+          "axis": 0,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 6.1899033012118405,
+          "projectedShoulderXY": [
+            400.1449311639822,
+            280.8381101376502
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 2,
+          "axis": 1,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 5.7592140094629976,
+          "projectedShoulderXY": [
+            399.9502259603361,
+            282.80655284962006
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 2,
+          "axis": 1,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 5.35592044955642,
+          "projectedShoulderXY": [
+            402.2127773801054,
+            280.7074683846401
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 3,
+          "axis": 0,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 5.489558531411771,
+          "projectedShoulderXY": [
+            401.13276338948344,
+            281.8931983907574
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 3,
+          "axis": 0,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 5.582501824001527,
+          "projectedShoulderXY": [
+            401.04324517513817,
+            281.57594710506913
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 3,
+          "axis": 1,
+          "deltaPx": -4.0,
+          "heldOutRmsPx": 5.68578068042981,
+          "projectedShoulderXY": [
+            400.93701719412655,
+            281.51918764017046
+          ]
+        },
+        {
+          "perturbedSide": "source",
+          "point": 3,
+          "axis": 1,
+          "deltaPx": 4.0,
+          "heldOutRmsPx": 5.435175208279133,
+          "projectedShoulderXY": [
+            401.2312545061224,
+            281.9339101177642
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 0,
+          "axis": 0,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 6.758061182205274,
+          "projectedShoulderXY": [
+            398.12530607246555,
+            282.2837291870716
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 0,
+          "axis": 0,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 4.488779228651833,
+          "projectedShoulderXY": [
+            404.0018976493508,
+            281.15248530852
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 0,
+          "axis": 1,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 6.7656991580783545,
+          "projectedShoulderXY": [
+            400.4979799216293,
+            278.7798114593554
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 0,
+          "axis": 1,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 4.477258626476079,
+          "projectedShoulderXY": [
+            401.6292238001903,
+            284.656403036234
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 1,
+          "axis": 0,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 5.796398606228167,
+          "projectedShoulderXY": [
+            399.91436092065373,
+            283.0899240940253
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 1,
+          "axis": 0,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 5.6487345278974,
+          "projectedShoulderXY": [
+            402.21284280116845,
+            280.3462904015617
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 1,
+          "axis": 1,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 6.614577880305176,
+          "projectedShoulderXY": [
+            399.69178501468673,
+            280.5688663075358
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 1,
+          "axis": 1,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 4.664096700788976,
+          "projectedShoulderXY": [
+            402.43541870714057,
+            282.8673481880477
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 2,
+          "axis": 0,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 7.0287184827816835,
+          "projectedShoulderXY": [
+            399.0317703231972,
+            280.0778036238995
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 2,
+          "axis": 0,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 4.2872035938849065,
+          "projectedShoulderXY": [
+            403.0954333986116,
+            283.35841087169797
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 2,
+          "axis": 1,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 5.6883752901859905,
+          "projectedShoulderXY": [
+            402.70390548480054,
+            279.68627571009165
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 2,
+          "axis": 1,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 5.95192277533684,
+          "projectedShoulderXY": [
+            399.4232982370155,
+            283.7499387855004
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 3,
+          "axis": 0,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 5.799486261475315,
+          "projectedShoulderXY": [
+            401.1829701273074,
+            281.42097208619396
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 3,
+          "axis": 0,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 5.812095850559334,
+          "projectedShoulderXY": [
+            400.94423359450815,
+            282.0152424093984
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 3,
+          "axis": 1,
+          "deltaPx": -6.0,
+          "heldOutRmsPx": 5.64395934889859,
+          "projectedShoulderXY": [
+            401.3607370225145,
+            281.8374755142019
+          ]
+        },
+        {
+          "perturbedSide": "video",
+          "point": 3,
+          "axis": 1,
+          "deltaPx": 6.0,
+          "heldOutRmsPx": 5.963239215485414,
+          "projectedShoulderXY": [
+            400.7664666992963,
+            281.59873898139404
+          ]
+        }
+      ]
+    }
+  },
+  "scriptSha256": "e316c031b83f4e9d6df22727c79e231aa6ef1910651027440e602c41a10409df",
+  "results": {
+    "68": {
+      "methods": {
+        "waist_only": {
+          "matrix": [
+            [
+              0.9852292346057931,
+              -0.16612315365432573,
+              126.28198733934397
+            ],
+            [
+              0.16612315365432573,
+              0.9852292346057931,
+              -230.8987147515826
+            ]
+          ],
+          "fitReferences": {
+            "perPointPx": [
+              32.24986374969921,
+              22.917403129497128,
+              0.0,
+              0.0
+            ],
+            "rmsPx": 19.781690259391688,
+            "maxPx": 32.24986374969921
+          },
+          "heldOutReferences": {
+            "perPointPx": [
+              27.57987545332834,
+              3.1828357046762497
+            ],
+            "rmsPx": 19.63135213305575,
+            "maxPx": 27.57987545332834
+          },
+          "heldOutIsLowConfidenceManualNotIndependentGroundTruth": true,
+          "projectedShoulderHypothesisXY": [
+            395.360061384999,
+            276.50892000767305
+          ],
+          "shoulderAllowedBoxOutsidePx": 22.491079992326945,
+          "shoulderBoxIsHypothesisNotValidatedJoint": true,
+          "linearSingularValues": [
+            0.999136400548982,
+            0.999136400548982
+          ],
+          "anisotropyRatio": 1.0,
+          "visibleCoarseOpenBoundaryToArmEdgePx": {
+            "median": 7.0,
+            "p90": 20.38451385498047,
+            "max": 25.238859176635742
+          },
+          "boundaryMetricIsOneSidedDiagnosticNotQualityScore": true,
+          "boundarySampling": {
+            "rawRasterPixelCount": 136,
+            "validRasterPixelCount": 113,
+            "excludedEndpointRadiusPx": 5,
+            "excludedShoulderHypothesisBox": true,
+            "candidateEdgeIncludesInternalCutSoReverseDistanceIsNotReported": true
+          },
+          "armPoseFrozenFromV9": true,
+          "shoulderAndHandDidNotDriveRegistration": true
+        },
+        "torso_similarity": {
+          "matrix": [
+            [
+              0.8208863858961793,
+              -0.10014691478970406,
+              159.91576885418618
+            ],
+            [
+              0.10014691478970406,
+              0.8208863858961793,
+              -110.99865328119952
+            ]
+          ],
+          "fitReferences": {
+            "perPointPx": [
+              9.008887089299279,
+              3.355215610903646,
+              11.764979187481092,
+              9.525804893628154
+            ],
+            "rmsPx": 8.9662312670476,
+            "maxPx": 11.764979187481092
+          },
+          "heldOutReferences": {
+            "perPointPx": [
+              7.1499421108557,
+              4.0289176714948916
+            ],
+            "rmsPx": 5.803182307677034,
+            "maxPx": 7.1499421108557
+          },
+          "heldOutIsLowConfidenceManualNotIndependentGroundTruth": true,
+          "projectedShoulderHypothesisXY": [
+            401.5590107737439,
+            298.3769588638547
+          ],
+          "shoulderAllowedBoxOutsidePx": 0.6230411361452752,
+          "shoulderBoxIsHypothesisNotValidatedJoint": true,
+          "linearSingularValues": [
+            0.8269727100041375,
+            0.8269727100041375
+          ],
+          "anisotropyRatio": 1.0,
+          "visibleCoarseOpenBoundaryToArmEdgePx": {
+            "median": 8.9442720413208,
+            "p90": 14.198563575744629,
+            "max": 15.55634880065918
+          },
+          "boundaryMetricIsOneSidedDiagnosticNotQualityScore": true,
+          "boundarySampling": {
+            "rawRasterPixelCount": 136,
+            "validRasterPixelCount": 113,
+            "excludedEndpointRadiusPx": 5,
+            "excludedShoulderHypothesisBox": true,
+            "candidateEdgeIncludesInternalCutSoReverseDistanceIsNotReported": true
+          },
+          "armPoseFrozenFromV9": true,
+          "shoulderAndHandDidNotDriveRegistration": true
+        },
+        "affine_diagnostic": {
+          "matrix": [
+            [
+              0.9471773563128283,
+              -0.11660302581902626,
+              115.83219066970442
+            ],
+            [
+              0.08434574867094398,
+              0.6903986329359028,
+              -41.46298816046997
+            ]
+          ],
+          "fitReferences": {
+            "perPointPx": [
+              3.6446264578776404,
+              4.104982444891335,
+              2.7595878260288584,
+              3.2199438130427565
+            ],
+            "rmsPx": 3.4683405981480093,
+            "maxPx": 4.104982444891335
+          },
+          "heldOutReferences": {
+            "perPointPx": [
+              1.762944851216638,
+              4.595831090997012
+            ],
+            "rmsPx": 3.480634853400026,
+            "maxPx": 4.595831090997012
+          },
+          "heldOutIsLowConfidenceManualNotIndependentGroundTruth": true,
+          "projectedShoulderHypothesisXY": [
+            394.1732856057184,
+            302.87980049313205
+          ],
+          "shoulderAllowedBoxOutsidePx": 0.0,
+          "shoulderBoxIsHypothesisNotValidatedJoint": true,
+          "linearSingularValues": [
+            0.9543280817803171,
+            0.6955311638927739
+          ],
+          "anisotropyRatio": 1.3720852944088073,
+          "visibleCoarseOpenBoundaryToArmEdgePx": {
+            "median": 6.0,
+            "p90": 17.41773223876953,
+            "max": 21.931713104248047
+          },
+          "boundaryMetricIsOneSidedDiagnosticNotQualityScore": true,
+          "boundarySampling": {
+            "rawRasterPixelCount": 136,
+            "validRasterPixelCount": 113,
+            "excludedEndpointRadiusPx": 5,
+            "excludedShoulderHypothesisBox": true,
+            "candidateEdgeIncludesInternalCutSoReverseDistanceIsNotReported": true
+          },
+          "armPoseFrozenFromV9": true,
+          "shoulderAndHandDidNotDriveRegistration": true
+        }
+      },
+      "armEvidenceId": "f068_arm_A_visible",
+      "sourceFrameSha256": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871"
+    },
+    "72": {
+      "methods": {
+        "waist_only": {
+          "matrix": [
+            [
+              1.0419144446575868,
+              -0.18444273930558222,
+              108.33617878380971
+            ],
+            [
+              0.18444273930558222,
+              1.0419144446575868,
+              -288.930270477652
+            ]
+          ],
+          "fitReferences": {
+            "perPointPx": [
+              40.71490667496993,
+              32.17048867291354,
+              0.0,
+              0.0
+            ],
+            "rmsPx": 25.945346244584837,
+            "maxPx": 40.71490667496993
+          },
+          "heldOutReferences": {
+            "perPointPx": [
+              35.90788591467496,
+              7.925057812972757
+            ],
+            "rmsPx": 26.001757750200973,
+            "maxPx": 35.90788591467496
+          },
+          "heldOutIsLowConfidenceManualNotIndependentGroundTruth": true,
+          "projectedShoulderHypothesisXY": [
+            388.9003452906196,
+            250.7376750431613
+          ],
+          "shoulderAllowedBoxOutsidePx": 30.689001123337473,
+          "shoulderBoxIsHypothesisNotValidatedJoint": true,
+          "linearSingularValues": [
+            1.0581138096011573,
+            1.0581138096011573
+          ],
+          "anisotropyRatio": 1.0,
+          "visibleCoarseOpenBoundaryToArmEdgePx": {
+            "median": 1.0,
+            "p90": 13.729028701782227,
+            "max": 23.430749893188477
+          },
+          "boundaryMetricIsOneSidedDiagnosticNotQualityScore": true,
+          "boundarySampling": {
+            "rawRasterPixelCount": 179,
+            "validRasterPixelCount": 147,
+            "excludedEndpointRadiusPx": 5,
+            "excludedShoulderHypothesisBox": true,
+            "candidateEdgeIncludesInternalCutSoReverseDistanceIsNotReported": true
+          },
+          "armPoseFrozenFromV9": true,
+          "shoulderAndHandDidNotDriveRegistration": true
+        },
+        "torso_similarity": {
+          "matrix": [
+            [
+              0.8192948090107738,
+              -0.11434867776720781,
+              163.93095004910407
+            ],
+            [
+              0.11434867776720781,
+              0.8192948090107738,
+              -134.83104799227726
+            ]
+          ],
+          "fitReferences": {
+            "perPointPx": [
+              10.324543352230904,
+              5.234460147249571,
+              14.907571417906768,
+              13.170933607228214
+            ],
+            "rmsPx": 11.507659906897272,
+            "maxPx": 14.907571417906768
+          },
+          "heldOutReferences": {
+            "perPointPx": [
+              8.98218226121289,
+              4.486183644606419
+            ],
+            "rmsPx": 7.0994873711691895,
+            "maxPx": 8.98218226121289
+          },
+          "heldOutIsLowConfidenceManualNotIndependentGroundTruth": true,
+          "projectedShoulderHypothesisXY": [
+            398.5411361410281,
+            278.7894221351583
+          ],
+          "shoulderAllowedBoxOutsidePx": 2.210577864841696,
+          "shoulderBoxIsHypothesisNotValidatedJoint": true,
+          "linearSingularValues": [
+            0.8272361235941701,
+            0.82723612359417
+          ],
+          "anisotropyRatio": 1.0000000000000002,
+          "visibleCoarseOpenBoundaryToArmEdgePx": {
+            "median": 4.123105525970459,
+            "p90": 9.599931716918945,
+            "max": 13.03840446472168
+          },
+          "boundaryMetricIsOneSidedDiagnosticNotQualityScore": true,
+          "boundarySampling": {
+            "rawRasterPixelCount": 179,
+            "validRasterPixelCount": 147,
+            "excludedEndpointRadiusPx": 5,
+            "excludedShoulderHypothesisBox": true,
+            "candidateEdgeIncludesInternalCutSoReverseDistanceIsNotReported": true
+          },
+          "armPoseFrozenFromV9": true,
+          "shoulderAndHandDidNotDriveRegistration": true
+        },
+        "affine_diagnostic": {
+          "matrix": [
+            [
+              0.9825985544575104,
+              -0.13329977523303776,
+              105.80318700106285
+            ],
+            [
+              0.09616932689602588,
+              0.6505620267232164,
+              -45.84322158847619
+            ]
+          ],
+          "fitReferences": {
+            "perPointPx": [
+              4.518049211841179,
+              5.088727998359599,
+              3.420913980209425,
+              3.9915927667283113
+            ],
+            "rmsPx": 4.299517025123219,
+            "maxPx": 5.088727998359599
+          },
+          "heldOutReferences": {
+            "perPointPx": [
+              2.2454208716485744,
+              10.807507354266498
+            ],
+            "rmsPx": 7.805258807475877,
+            "maxPx": 10.807507354266498
+          },
+          "heldOutIsLowConfidenceManualNotIndependentGroundTruth": true,
+          "projectedShoulderHypothesisXY": [
+            388.92798355492624,
+            284.4723270109195
+          ],
+          "shoulderAllowedBoxOutsidePx": 5.072016445073757,
+          "shoulderBoxIsHypothesisNotValidatedJoint": true,
+          "linearSingularValues": [
+            0.9916544309168699,
+            0.6575482712257408
+          ],
+          "anisotropyRatio": 1.508108946995358,
+          "visibleCoarseOpenBoundaryToArmEdgePx": {
+            "median": 4.0,
+            "p90": 5.15406608581543,
+            "max": 10.29563045501709
+          },
+          "boundaryMetricIsOneSidedDiagnosticNotQualityScore": true,
+          "boundarySampling": {
+            "rawRasterPixelCount": 179,
+            "validRasterPixelCount": 147,
+            "excludedEndpointRadiusPx": 5,
+            "excludedShoulderHypothesisBox": true,
+            "candidateEdgeIncludesInternalCutSoReverseDistanceIsNotReported": true
+          },
+          "armPoseFrozenFromV9": true,
+          "shoulderAndHandDidNotDriveRegistration": true
+        }
+      },
+      "armEvidenceId": "f072_arm_A_chest_visible",
+      "sourceFrameSha256": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93"
+    },
+    "80": {
+      "methods": {
+        "waist_only": {
+          "matrix": [
+            [
+              0.9299827354690198,
+              -0.13811624784193363,
+              134.51851141377324
+            ],
+            [
+              0.13811624784193363,
+              0.9299827354690198,
+              -207.09131018607331
+            ]
+          ],
+          "fitReferences": {
+            "perPointPx": [
+              23.02931850572855,
+              18.692258748442956,
+              0.0,
+              0.0
+            ],
+            "rmsPx": 14.830290354179127,
+            "maxPx": 23.02931850572855
+          },
+          "heldOutReferences": {
+            "perPointPx": [
+              21.48382570513996,
+              2.732564665100295
+            ],
+            "rmsPx": 15.313746709701503,
+            "maxPx": 21.48382570513996
+          },
+          "heldOutIsLowConfidenceManualNotIndependentGroundTruth": true,
+          "projectedShoulderHypothesisXY": [
+            397.03145981200845,
+            265.32150393247645
+          ],
+          "shoulderAllowedBoxOutsidePx": 16.678496067523554,
+          "shoulderBoxIsHypothesisNotValidatedJoint": true,
+          "linearSingularValues": [
+            0.9401829535725349,
+            0.9401829535725348
+          ],
+          "anisotropyRatio": 1.0000000000000002,
+          "visibleCoarseOpenBoundaryToArmEdgePx": {
+            "median": 7.6157732009887695,
+            "p90": 19.640613555908203,
+            "max": 25.05992889404297
+          },
+          "boundaryMetricIsOneSidedDiagnosticNotQualityScore": true,
+          "boundarySampling": {
+            "rawRasterPixelCount": 132,
+            "validRasterPixelCount": 117,
+            "excludedEndpointRadiusPx": 5,
+            "excludedShoulderHypothesisBox": true,
+            "candidateEdgeIncludesInternalCutSoReverseDistanceIsNotReported": true
+          },
+          "armPoseFrozenFromV9": true,
+          "shoulderAndHandDidNotDriveRegistration": true
+        },
+        "torso_similarity": {
+          "matrix": [
+            [
+              0.8076028403525951,
+              -0.08833251714037615,
+              158.6822355535023
+            ],
+            [
+              0.08833251714037615,
+              0.8076028403525951,
+              -117.46516895211222
+            ]
+          ],
+          "fitReferences": {
+            "perPointPx": [
+              5.814445644241025,
+              3.403474386816909,
+              8.442335576723021,
+              7.610352091299576
+            ],
+            "rmsPx": 6.606472299856846,
+            "maxPx": 8.442335576723021
+          },
+          "heldOutReferences": {
+            "perPointPx": [
+              6.676627832335138,
+              3.8747861611710093
+            ],
+            "rmsPx": 5.458540418752735,
+            "maxPx": 6.676627832335138
+          },
+          "heldOutIsLowConfidenceManualNotIndependentGroundTruth": true,
+          "projectedShoulderHypothesisXY": [
+            401.0636018608991,
+            281.71810724780283
+          ],
+          "shoulderAllowedBoxOutsidePx": 0.2818927521971659,
+          "shoulderBoxIsHypothesisNotValidatedJoint": true,
+          "linearSingularValues": [
+            0.8124192152638526,
+            0.8124192152638526
+          ],
+          "anisotropyRatio": 1.0,
+          "visibleCoarseOpenBoundaryToArmEdgePx": {
+            "median": 8.062257766723633,
+            "p90": 17.175416946411133,
+            "max": 19.416488647460938
+          },
+          "boundaryMetricIsOneSidedDiagnosticNotQualityScore": true,
+          "boundarySampling": {
+            "rawRasterPixelCount": 132,
+            "validRasterPixelCount": 117,
+            "excludedEndpointRadiusPx": 5,
+            "excludedShoulderHypothesisBox": true,
+            "candidateEdgeIncludesInternalCutSoReverseDistanceIsNotReported": true
+          },
+          "armPoseFrozenFromV9": true,
+          "shoulderAndHandDidNotDriveRegistration": true
+        },
+        "affine_diagnostic": {
+          "matrix": [
+            [
+              0.9033190554986099,
+              -0.0886996858634483,
+              119.42449740661813
+            ],
+            [
+              0.08807097373364259,
+              0.7086940149499571,
+              -69.58445039908997
+            ]
+          ],
+          "fitReferences": {
+            "perPointPx": [
+              2.3452822139045315,
+              2.6415168818290495,
+              1.7757683320412045,
+              2.0720029999661524
+            ],
+            "rmsPx": 2.2318439518027433,
+            "maxPx": 2.6415168818290495
+          },
+          "heldOutReferences": {
+            "perPointPx": [
+              3.292514267010141,
+              3.392753297904618
+            ],
+            "rmsPx": 3.343009507831827,
+            "maxPx": 3.392753297904618
+          },
+          "heldOutIsLowConfidenceManualNotIndependentGroundTruth": true,
+          "projectedShoulderHypothesisXY": [
+            395.1391100773992,
+            284.40486122486533
+          ],
+          "shoulderAllowedBoxOutsidePx": 0.0,
+          "shoulderBoxIsHypothesisNotValidatedJoint": true,
+          "linearSingularValues": [
+            0.9081511754596195,
+            0.7135251194252157
+          ],
+          "anisotropyRatio": 1.2727669296228645,
+          "visibleCoarseOpenBoundaryToArmEdgePx": {
+            "median": 4.0,
+            "p90": 18.0111026763916,
+            "max": 22.56102752685547
+          },
+          "boundaryMetricIsOneSidedDiagnosticNotQualityScore": true,
+          "boundarySampling": {
+            "rawRasterPixelCount": 132,
+            "validRasterPixelCount": 117,
+            "excludedEndpointRadiusPx": 5,
+            "excludedShoulderHypothesisBox": true,
+            "candidateEdgeIncludesInternalCutSoReverseDistanceIsNotReported": true
+          },
+          "armPoseFrozenFromV9": true,
+          "shoulderAndHandDidNotDriveRegistration": true
+        }
+      },
+      "armEvidenceId": "f080_arm_A_visible",
+      "sourceFrameSha256": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02"
+    }
+  },
+  "gate": {
+    "bindingApproved": false,
+    "profileSelected": false,
+    "minimumRepairMaskReady": false,
+    "reason": "common references now expose body projection mismatch; affine is diagnostic only; visible arm contour and hidden shoulders remain unvalidated"
+  },
+  "nextAction": "Use torso-only calibration as fixed reference for body profile validation, then one continuous arm contour/occlusion fit; do not scan pivots or generate fragments.",
+  "limitations": [
+    "Three selected frames are not a continuous walk",
+    "Manual contour and shoulder boxes are low-confidence, not anatomical truth",
+    "One-sided edge distance cannot validate volume, inside/outside or occlusion",
+    "Affine compression is not a runtime deformation or selected profile",
+    "Frozen v9 branch is not a newly fitted arm or cross-frame identity",
+    "Opposite arm/body dynamics and hidden repair remain incomplete"
+  ],
+  "reuseContract": {
+    "logicalParts": 7,
+    "newBones": 0,
+    "newAttachments": 0,
+    "newCorrectiveKeys": 0,
+    "sourceAssetsChanged": false
+  },
+  "production": false,
+  "approvedForBinding": false,
+  "generatedImages": [
+    {
+      "file": "f068_waist_only.png",
+      "sha256": "4aebb6d4fa753641d9ae4ff22b3498f31e83cbf6e68bc08b293789eddc3fb9bf"
+    },
+    {
+      "file": "f068_torso_similarity.png",
+      "sha256": "289d2c73ece92652f4c4e383a424ea251f0433296ab54990b2ae1ab63a655d60"
+    },
+    {
+      "file": "f068_affine_diagnostic.png",
+      "sha256": "a0d2da0e442aff71a38f89a96a7f2f0cc800041855a0e11b932760511f20f294"
+    },
+    {
+      "file": "f072_waist_only.png",
+      "sha256": "d1e1370f2a55abac0fa8860ff03e0b35d8c07c223ef1d522fd119466bf5b725c"
+    },
+    {
+      "file": "f072_torso_similarity.png",
+      "sha256": "0bfb2d7ee158d32d31a318108fc407852ca3cde6c20b3c869818dca188ae146b"
+    },
+    {
+      "file": "f072_affine_diagnostic.png",
+      "sha256": "90c25ba795c7196714487538fb7a7767bc4350f1c1ded9aaa93f52233c10adf5"
+    },
+    {
+      "file": "f080_waist_only.png",
+      "sha256": "e016f67a0e76bbbdad80cbd0b6e4df4560c7e9f8b99212386aae9ef998d2e558"
+    },
+    {
+      "file": "f080_torso_similarity.png",
+      "sha256": "7a724419c06048b28873bca5d05964a19f3b2b85144b1ca13cac48cea4e9aa9a"
+    },
+    {
+      "file": "f080_affine_diagnostic.png",
+      "sha256": "e994a953ef6f757021461b60976b44c3b3e03a0c8c8645c31247ba6c28c18992"
+    },
+    {
+      "file": "joint_review.png",
+      "sha256": "70735cdbdd3ce362242e49bafab3c9703485a751d3d76f73d90a96baaa8bc9f1"
+    }
+  ]
+}

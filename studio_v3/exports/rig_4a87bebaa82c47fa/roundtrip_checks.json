@@ -1,0 +1,12 @@
+{
+  "samples": 193,
+  "bones": 12,
+  "attachments": 7,
+  "duration": 0.916700005531311,
+  "maxEditorSpineVertexErrorPx": 0.04303623320642577,
+  "minTriangleAreaRatio": 0.2915765434664191,
+  "flippedTriangles": 0,
+  "loopVertexErrorPx": 0,
+  "runtime": "bundled Spine official runtime",
+  "passed": true
+}

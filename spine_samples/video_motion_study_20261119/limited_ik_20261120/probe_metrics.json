@@ -1,0 +1,82 @@
+[
+  {
+    "test": "test_near_hand",
+    "variant": "旧 +",
+    "enclosedHolePixels": 0
+  },
+  {
+    "test": "test_near_hand",
+    "variant": "新 +",
+    "enclosedHolePixels": 0
+  },
+  {
+    "test": "test_near_hand",
+    "variant": "旧 -",
+    "enclosedHolePixels": 0
+  },
+  {
+    "test": "test_near_hand",
+    "variant": "新 -",
+    "enclosedHolePixels": 0
+  },
+  {
+    "test": "test_far_hand",
+    "variant": "旧 +",
+    "enclosedHolePixels": 0
+  },
+  {
+    "test": "test_far_hand",
+    "variant": "新 +",
+    "enclosedHolePixels": 0
+  },
+  {
+    "test": "test_far_hand",
+    "variant": "旧 -",
+    "enclosedHolePixels": 0
+  },
+  {
+    "test": "test_far_hand",
+    "variant": "新 -",
+    "enclosedHolePixels": 0
+  },
+  {
+    "test": "test_near_foot",
+    "variant": "旧 +",
+    "enclosedHolePixels": 0
+  },
+  {
+    "test": "test_near_foot",
+    "variant": "新 +",
+    "enclosedHolePixels": 0
+  },
+  {
+    "test": "test_near_foot",
+    "variant": "旧 -",
+    "enclosedHolePixels": 0
+  },
+  {
+    "test": "test_near_foot",
+    "variant": "新 -",
+    "enclosedHolePixels": 0
+  },
+  {
+    "test": "test_far_foot",
+    "variant": "旧 +",
+    "enclosedHolePixels": 0
+  },
+  {
+    "test": "test_far_foot",
+    "variant": "新 +",
+    "enclosedHolePixels": 0
+  },
+  {
+    "test": "test_far_foot",
+    "variant": "旧 -",
+    "enclosedHolePixels": 0
+  },
+  {
+    "test": "test_far_foot",
+    "variant": "新 -",
+    "enclosedHolePixels": 0
+  }
+]

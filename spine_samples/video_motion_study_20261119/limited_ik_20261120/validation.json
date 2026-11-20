@@ -1,0 +1,10 @@
+{
+  "referenceMaxCoordinateDifferencePx": 0.005523681640625,
+  "checkedFrames": 23,
+  "axisPerturbations": 368,
+  "allFinite": true,
+  "allMeshesDrawable": true,
+  "imagesUnchanged": true,
+  "visualAcceptancePending": true,
+  "scope": "axis-aligned +/-5px hands, +/-4px feet; no visual pass inferred from finite vertices"
+}

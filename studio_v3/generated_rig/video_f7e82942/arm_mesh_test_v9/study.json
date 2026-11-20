@@ -1,0 +1,1837 @@
+{
+  "schemaVersion": 1,
+  "status": "discrete_video_projection_feasibility_not_animation",
+  "sourceTaskId": "comfy_f7e82942-05e3-4c7e-8e30-e974e2a233fa",
+  "sourceVideoSha256": "8fc0f8406d6a258640b65d34c5ad7fb0e35f231131d7eec945781dd9d93343e5",
+  "scriptSha256": "bff813a7f1b1836d61fe0413095f96391dd0ea2d6e79da86f1e464436df9701d",
+  "sourceHashes": {
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v8\\study.json": "49510cbdb5f49aa30c44e4fa11e6f4aa937ae4def89de90fa9f41f5e11854e1c",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\arm_mesh_test_v7\\study.json": "4a8f286371e671b02037339dcc0fce2ea23d61d5cf8ca162392bf84a8f4b674c",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\video_parts_v1\\manifest.json": "e894efb958168c4e6a4fdea29484c7b5b02774b9dc65a809a344d71de1084147",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\video_parts_v1\\cycle_review\\sources.json": "e0281aa3dbd8440fa2808603284e9938158bf07eb2c4c148c75b9a8332040f06",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\stable_parts_v1\\manifest.json": "c928c89c6f64864359a89e429bc80f5518a3e5149e4dbc5990478c60a243569b",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\right_front_walk\\source768.png": "a25475d82eec03a42ae89a32026779ab99eb0e32f2a0232ade7302ca844a3a10",
+    "C:\\Users\\root\\WorkBuddy\\Walulu游戏素材\\spine_workbench\\studio_v3\\generated_rig\\video_f7e82942\\source.mp4": "8fc0f8406d6a258640b65d34c5ad7fb0e35f231131d7eec945781dd9d93343e5"
+  },
+  "observationPolicy": {
+    "method": "assistant manual observation from raw PNG/crops before candidate rendering",
+    "confidence": "low",
+    "registrationSourceWaist": [
+      [
+        366.0,
+        535.0
+      ],
+      [
+        467.0,
+        520.0
+      ]
+    ],
+    "sourceWaistUncertaintyPx": 4,
+    "videoWaistUncertaintyPx": 6,
+    "manualHandRegionsAreNotAnatomicalJoints": true,
+    "perCandidateRegistrationAllowed": false,
+    "globalBodyViewChangeUnresolved": true,
+    "fullBoundaryMetricsOrRanking": false,
+    "AandBIdentityEstablished": false,
+    "H_BStatus": "untested; frame72 opposite arm not separately visible; no per-frame identity switching",
+    "commonInputNotVideoTimeline": true,
+    "continuousWalkProduced": false
+  },
+  "observations": {
+    "68": {
+      "waist": [
+        [
+          398.0,
+          357.0
+        ],
+        [
+          500.0,
+          359.0
+        ]
+      ],
+      "handRegion": [
+        355.0,
+        338.0,
+        393.0,
+        369.0
+      ],
+      "armEvidenceId": "f068_arm_A_visible",
+      "visibility": "screen-left outer arm visible; inner shoulder cut unknown"
+    },
+    "72": {
+      "waist": [
+        [
+          391.0,
+          336.0
+        ],
+        [
+          499.0,
+          339.0
+        ]
+      ],
+      "handRegion": [
+        444.0,
+        307.0,
+        487.0,
+        350.0
+      ],
+      "armEvidenceId": "f072_arm_A_chest_visible",
+      "visibility": "front chest lobe visible; opposite arm not fully isolated"
+    },
+    "80": {
+      "waist": [
+        [
+          401.0,
+          341.0
+        ],
+        [
+          497.0,
+          341.0
+        ]
+      ],
+      "handRegion": [
+        362.0,
+        335.0,
+        399.0,
+        361.0
+      ],
+      "armEvidenceId": "f080_arm_A_visible",
+      "visibility": "screen-left outer arm visible; inner shoulder cut unknown"
+    }
+  },
+  "registrationMatrices": {
+    "68": [
+      [
+        0.9852292346057931,
+        -0.16612315365432573,
+        126.28198733934397
+      ],
+      [
+        0.16612315365432573,
+        0.9852292346057931,
+        -230.8987147515826
+      ]
+    ],
+    "72": [
+      [
+        1.0419144446575868,
+        -0.18444273930558222,
+        108.33617878380971
+      ],
+      [
+        0.18444273930558222,
+        1.0419144446575868,
+        -288.930270477652
+      ]
+    ],
+    "80": [
+      [
+        0.9299827354690198,
+        -0.13811624784193363,
+        134.51851141377324
+      ],
+      [
+        0.13811624784193363,
+        0.9299827354690198,
+        -207.09131018607331
+      ]
+    ]
+  },
+  "solverPolicy": {
+    "degreesOfFreedom": "two absolute bind-relative bone rotations; source bone lengths fixed per hypothesis",
+    "rotationBoundsDegrees": [
+      -180,
+      180
+    ],
+    "targets": "center of uncertain visible hand-lobe region",
+    "centerNotRegionDistance": true,
+    "successRequired": true,
+    "maximumCenterResidualPx": 1e-05,
+    "rotationSemantics": "absolute per-bone bind-relative deltas, not direct parent-local Spine rotation keys",
+    "branchLabelsAreNotTemporalIdentities": true,
+    "materialPoint": "source [317,555] embedded in P1 mesh; not validated wrist",
+    "lossUsesContour": false,
+    "branches": "5 fixed seeds, deduplicate solutions; report each solution, no silhouette-based selection",
+    "notTiming": "discrete feasibility only; never link solver branches into walk track"
+  },
+  "reuseContract": {
+    "logicalPartCount": 7,
+    "testedArmLogicalParts": 1,
+    "testedArmBoneCount": 2,
+    "bonesAdded": 0,
+    "attachmentsAdded": 0,
+    "correctiveKeysAdded": 0,
+    "stableMeshWeightsTextureChanged": false,
+    "sharedLayer": [
+      "bone semantics",
+      "hierarchy",
+      "motion/control interface"
+    ],
+    "characterProfile": [
+      "bind proportions",
+      "mesh",
+      "weights",
+      "texture"
+    ],
+    "sleeve": "same character bone chain/profile; own texture/mesh/weights; no clothing-specific hidden elbow pivot",
+    "clothingValidated": false,
+    "crossCharacterValidated": false
+  },
+  "results": {
+    "baseline": {
+      "68": {
+        "videoFrame": 68,
+        "frameTimeSeconds": 2.8333333333333335,
+        "identityHypothesis": "H_A_screen_visible_candidate_not_confirmed",
+        "registrationId": "68",
+        "sameInput": {
+          "inputLabel": "manual_open_pressure",
+          "notVideoFrameTiming": true,
+          "rotationDeltaDegrees": [
+            -1.0,
+            -25.0
+          ],
+          "projectedHandMaterialXY": [
+            367.41555199292407,
+            373.65320500771077
+          ],
+          "geometry": {
+            "minimumSigma": 0.7804248602058759,
+            "minimumDeterminant": 0.7729361993434899,
+            "flippedTriangleCount": 0,
+            "minimumSigmaTriangle": 368
+          }
+        },
+        "sameTargetDiscreteSolutions": [
+          {
+            "rotationDeltaDegrees": [
+              21.377173426890074,
+              -54.15337489607645
+            ],
+            "handMaterialGlobalXY": [
+              341.73116833205233,
+              535.5395849346656
+            ],
+            "fittedHandVideoXY": [
+              374.00000000000006,
+              353.4999999999999
+            ],
+            "fittedTargetCenterErrorPx": 1.2710574864626038e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.26388398828760906,
+              "minimumDeterminant": 0.20989553793341972,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 257
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4397,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          },
+          {
+            "rotationDeltaDegrees": [
+              -50.8558730176611,
+              34.462018208022535
+            ],
+            "handMaterialGlobalXY": [
+              341.7311683320522,
+              535.5395849346656
+            ],
+            "fittedHandVideoXY": [
+              373.99999999999994,
+              353.4999999999999
+            ],
+            "fittedTargetCenterErrorPx": 1.2710574864626038e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.07533035381203308,
+              "minimumDeterminant": 0.055416840360634635,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 286
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4746,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          }
+        ],
+        "candidateDecision": "evidence_insufficient_not_promoted",
+        "reason": "人工腰线配准与手团区域仅低可信；手部为拟合输入，不作为独立验收；A/B跨帧身份未建立"
+      },
+      "72": {
+        "videoFrame": 72,
+        "frameTimeSeconds": 3.0,
+        "identityHypothesis": "H_A_screen_visible_candidate_not_confirmed",
+        "registrationId": "72",
+        "sameInput": {
+          "inputLabel": "manual_chest_pressure",
+          "notVideoFrameTiming": true,
+          "rotationDeltaDegrees": [
+            -24.91081955993272,
+            -119.4877143135952
+          ],
+          "projectedHandMaterialXY": [
+            433.31664067420934,
+            307.13456640767777
+          ],
+          "geometry": {
+            "minimumSigma": 0.04719096135358628,
+            "minimumDeterminant": 0.032321201382726206,
+            "flippedTriangleCount": 0,
+            "minimumSigmaTriangle": 257
+          }
+        },
+        "sameTargetDiscreteSolutions": [
+          {
+            "rotationDeltaDegrees": [
+              -67.0035066111796,
+              -80.21184387828119
+            ],
+            "handMaterialGlobalXY": [
+              434.09483423284496,
+              515.7473657157543
+            ],
+            "fittedHandVideoXY": [
+              465.4999999999999,
+              328.5
+            ],
+            "fittedTargetCenterErrorPx": 1.1368683772161603e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.8731904485624697,
+              "minimumDeterminant": 0.8807279040483509,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 97
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 5019,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          },
+          {
+            "rotationDeltaDegrees": [
+              -83.5595789063253,
+              -60.563898736506104
+            ],
+            "handMaterialGlobalXY": [
+              434.094834232845,
+              515.7473657157542
+            ],
+            "fittedHandVideoXY": [
+              465.5,
+              328.4999999999999
+            ],
+            "fittedTargetCenterErrorPx": 1.1368683772161603e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.780971020401424,
+              "minimumDeterminant": 0.769963771237939,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 414
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 5310,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          }
+        ],
+        "candidateDecision": "evidence_insufficient_not_promoted",
+        "reason": "人工腰线配准与手团区域仅低可信；手部为拟合输入，不作为独立验收；A/B跨帧身份未建立"
+      },
+      "80": {
+        "videoFrame": 80,
+        "frameTimeSeconds": 3.3333333333333335,
+        "identityHypothesis": "H_A_screen_visible_candidate_not_confirmed",
+        "registrationId": "80",
+        "sameInput": {
+          "inputLabel": "manual_open_pressure",
+          "notVideoFrameTiming": true,
+          "rotationDeltaDegrees": [
+            -1.0,
+            -25.0
+          ],
+          "projectedHandMaterialXY": [
+            372.53290742469187,
+            357.23178299892993
+          ],
+          "geometry": {
+            "minimumSigma": 0.7804248602058759,
+            "minimumDeterminant": 0.7729361993434899,
+            "flippedTriangleCount": 0,
+            "minimumSigmaTriangle": 368
+          }
+        },
+        "sameTargetDiscreteSolutions": [
+          {
+            "rotationDeltaDegrees": [
+              10.240844671587212,
+              -46.795319756276534
+            ],
+            "handMaterialGlobalXY": [
+              345.5260416666667,
+              545.5677083333334
+            ],
+            "fittedHandVideoXY": [
+              380.5,
+              348.0
+            ],
+            "fittedTargetCenterErrorPx": 0.0,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.4558608947979607,
+              "minimumDeterminant": 0.41275138677115036,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 368
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4185,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          },
+          {
+            "rotationDeltaDegrees": [
+              -45.87053357333809,
+              20.95297375724279
+            ],
+            "handMaterialGlobalXY": [
+              345.5260416666667,
+              545.5677083333334
+            ],
+            "fittedHandVideoXY": [
+              380.5,
+              348.0
+            ],
+            "fittedTargetCenterErrorPx": 0.0,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.2982843339504746,
+              "minimumDeterminant": 0.24902807088067852,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 286
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4463,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          }
+        ],
+        "candidateDecision": "evidence_insufficient_not_promoted",
+        "reason": "人工腰线配准与手团区域仅低可信；手部为拟合输入，不作为独立验收；A/B跨帧身份未建立"
+      }
+    },
+    "axis_minus4": {
+      "68": {
+        "videoFrame": 68,
+        "frameTimeSeconds": 2.8333333333333335,
+        "identityHypothesis": "H_A_screen_visible_candidate_not_confirmed",
+        "registrationId": "68",
+        "sameInput": {
+          "inputLabel": "manual_open_pressure",
+          "notVideoFrameTiming": true,
+          "rotationDeltaDegrees": [
+            -1.0,
+            -25.0
+          ],
+          "projectedHandMaterialXY": [
+            369.02073930274844,
+            374.08348717677575
+          ],
+          "geometry": {
+            "minimumSigma": 0.7777780683595951,
+            "minimumDeterminant": 0.7746412925821061,
+            "flippedTriangleCount": 0,
+            "minimumSigmaTriangle": 368
+          }
+        },
+        "sameTargetDiscreteSolutions": [
+          {
+            "rotationDeltaDegrees": [
+              24.736559811004817,
+              -50.48347803375801
+            ],
+            "handMaterialGlobalXY": [
+              341.73116833205216,
+              535.5395849346658
+            ],
+            "fittedHandVideoXY": [
+              373.9999999999999,
+              353.5
+            ],
+            "fittedTargetCenterErrorPx": 1.1368683772161603e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.27027562276801886,
+              "minimumDeterminant": 0.21419920171997178,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 257
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4336,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          },
+          {
+            "rotationDeltaDegrees": [
+              -54.55544595922311,
+              30.38233461418416
+            ],
+            "handMaterialGlobalXY": [
+              341.73116833205216,
+              535.5395849346656
+            ],
+            "fittedHandVideoXY": [
+              373.9999999999999,
+              353.4999999999999
+            ],
+            "fittedTargetCenterErrorPx": 1.6077746776921858e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.08129375369776297,
+              "minimumDeterminant": 0.06032744601070807,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 286
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4602,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          }
+        ],
+        "candidateDecision": "evidence_insufficient_not_promoted",
+        "reason": "人工腰线配准与手团区域仅低可信；手部为拟合输入，不作为独立验收；A/B跨帧身份未建立"
+      },
+      "72": {
+        "videoFrame": 72,
+        "frameTimeSeconds": 3.0,
+        "identityHypothesis": "H_A_screen_visible_candidate_not_confirmed",
+        "registrationId": "72",
+        "sameInput": {
+          "inputLabel": "manual_chest_pressure",
+          "notVideoFrameTiming": true,
+          "rotationDeltaDegrees": [
+            -24.91081955993272,
+            -119.4877143135952
+          ],
+          "projectedHandMaterialXY": [
+            437.81144820411436,
+            302.835383492406
+          ],
+          "geometry": {
+            "minimumSigma": 0.049944650570377565,
+            "minimumDeterminant": 0.03389869875913725,
+            "flippedTriangleCount": 0,
+            "minimumSigmaTriangle": 257
+          }
+        },
+        "sameTargetDiscreteSolutions": [
+          {
+            "rotationDeltaDegrees": [
+              -66.50974566951417,
+              -79.68325314414791
+            ],
+            "handMaterialGlobalXY": [
+              434.0948342328451,
+              515.7473657157542
+            ],
+            "fittedHandVideoXY": [
+              465.50000000000006,
+              328.4999999999999
+            ],
+            "fittedTargetCenterErrorPx": 1.2710574864626038e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.8754677226545244,
+              "minimumDeterminant": 0.8815821592586173,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 464
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 5028,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          },
+          {
+            "rotationDeltaDegrees": [
+              -84.39352640543746,
+              -61.502276202160225
+            ],
+            "handMaterialGlobalXY": [
+              434.09483423284513,
+              515.7473657157543
+            ],
+            "fittedHandVideoXY": [
+              465.5000000000001,
+              328.5
+            ],
+            "fittedTargetCenterErrorPx": 1.1368683772161603e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.7789391623503749,
+              "minimumDeterminant": 0.7712516529295897,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 414
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 5277,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          }
+        ],
+        "candidateDecision": "evidence_insufficient_not_promoted",
+        "reason": "人工腰线配准与手团区域仅低可信；手部为拟合输入，不作为独立验收；A/B跨帧身份未建立"
+      },
+      "80": {
+        "videoFrame": 80,
+        "frameTimeSeconds": 3.3333333333333335,
+        "identityHypothesis": "H_A_screen_visible_candidate_not_confirmed",
+        "registrationId": "80",
+        "sameInput": {
+          "inputLabel": "manual_open_pressure",
+          "notVideoFrameTiming": true,
+          "rotationDeltaDegrees": [
+            -1.0,
+            -25.0
+          ],
+          "projectedHandMaterialXY": [
+            374.05102889992827,
+            357.6069873644178
+          ],
+          "geometry": {
+            "minimumSigma": 0.7777780683595951,
+            "minimumDeterminant": 0.7746412925821061,
+            "flippedTriangleCount": 0,
+            "minimumSigmaTriangle": 368
+          }
+        },
+        "sameTargetDiscreteSolutions": [
+          {
+            "rotationDeltaDegrees": [
+              12.577461912154112,
+              -44.24765795373434
+            ],
+            "handMaterialGlobalXY": [
+              345.52604166666663,
+              545.5677083333336
+            ],
+            "fittedHandVideoXY": [
+              380.4999999999999,
+              348.0000000000002
+            ],
+            "fittedTargetCenterErrorPx": 2.5421149729252077e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.45814607390732154,
+              "minimumDeterminant": 0.4158203272323034,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 368
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4163,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          },
+          {
+            "rotationDeltaDegrees": [
+              -48.54733737135244,
+              17.995525223180856
+            ],
+            "handMaterialGlobalXY": [
+              345.5260416666667,
+              545.5677083333333
+            ],
+            "fittedHandVideoXY": [
+              380.5,
+              347.9999999999999
+            ],
+            "fittedTargetCenterErrorPx": 1.1368683772161603e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.30177972480188525,
+              "minimumDeterminant": 0.2531003341388995,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 286
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4388,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          }
+        ],
+        "candidateDecision": "evidence_insufficient_not_promoted",
+        "reason": "人工腰线配准与手团区域仅低可信；手部为拟合输入，不作为独立验收；A/B跨帧身份未建立"
+      }
+    },
+    "axis_plus4": {
+      "68": {
+        "videoFrame": 68,
+        "frameTimeSeconds": 2.8333333333333335,
+        "identityHypothesis": "H_A_screen_visible_candidate_not_confirmed",
+        "registrationId": "68",
+        "sameInput": {
+          "inputLabel": "manual_open_pressure",
+          "notVideoFrameTiming": true,
+          "rotationDeltaDegrees": [
+            -1.0,
+            -25.0
+          ],
+          "projectedHandMaterialXY": [
+            365.81036468309946,
+            373.2229228386457
+          ],
+          "geometry": {
+            "minimumSigma": 0.7772915094442615,
+            "minimumDeterminant": 0.771231106104922,
+            "flippedTriangleCount": 0,
+            "minimumSigmaTriangle": 97
+          }
+        },
+        "sameTargetDiscreteSolutions": [
+          {
+            "rotationDeltaDegrees": [
+              18.199726525858107,
+              -58.17317965330473
+            ],
+            "handMaterialGlobalXY": [
+              341.73116833205233,
+              535.5395849346656
+            ],
+            "fittedHandVideoXY": [
+              374.00000000000006,
+              353.4999999999999
+            ],
+            "fittedTargetCenterErrorPx": 1.2710574864626038e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.24959137512939844,
+              "minimumDeterminant": 0.2000988604351306,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 257
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4503,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          },
+          {
+            "rotationDeltaDegrees": [
+              -47.38308087764528,
+              38.966365290929176
+            ],
+            "handMaterialGlobalXY": [
+              341.7311683320524,
+              535.5395849346658
+            ],
+            "fittedHandVideoXY": [
+              374.0000000000001,
+              353.5
+            ],
+            "fittedTargetCenterErrorPx": 1.1368683772161603e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.06064933366871104,
+              "minimumDeterminant": 0.04443634120646316,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 286
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4917,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          }
+        ],
+        "candidateDecision": "evidence_insufficient_not_promoted",
+        "reason": "人工腰线配准与手团区域仅低可信；手部为拟合输入，不作为独立验收；A/B跨帧身份未建立"
+      },
+      "72": {
+        "videoFrame": 72,
+        "frameTimeSeconds": 3.0,
+        "identityHypothesis": "H_A_screen_visible_candidate_not_confirmed",
+        "registrationId": "72",
+        "sameInput": {
+          "inputLabel": "manual_chest_pressure",
+          "notVideoFrameTiming": true,
+          "rotationDeltaDegrees": [
+            -24.91081955993272,
+            -119.4877143135952
+          ],
+          "projectedHandMaterialXY": [
+            428.82183314430426,
+            311.43374932294955
+          ],
+          "geometry": {
+            "minimumSigma": 0.043912154322896385,
+            "minimumDeterminant": 0.030743704006319896,
+            "flippedTriangleCount": 0,
+            "minimumSigmaTriangle": 257
+          }
+        },
+        "sameTargetDiscreteSolutions": [
+          {
+            "rotationDeltaDegrees": [
+              -67.4753355934422,
+              -80.77738069632179
+            ],
+            "handMaterialGlobalXY": [
+              434.09483423284513,
+              515.7473657157544
+            ],
+            "fittedHandVideoXY": [
+              465.50000000000006,
+              328.5000000000001
+            ],
+            "fittedTargetCenterErrorPx": 1.2710574864626038e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.8684687004395871,
+              "minimumDeterminant": 0.8792963294968426,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 97
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 5011,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          },
+          {
+            "rotationDeltaDegrees": [
+              -82.79240468507889,
+              -59.51381959278672
+            ],
+            "handMaterialGlobalXY": [
+              434.094834232845,
+              515.7473657157543
+            ],
+            "fittedHandVideoXY": [
+              465.49999999999994,
+              328.5
+            ],
+            "fittedTargetCenterErrorPx": 5.684341886080802e-14,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.7805366883148483,
+              "minimumDeterminant": 0.7662768375365525,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 414
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 5321,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          }
+        ],
+        "candidateDecision": "evidence_insufficient_not_promoted",
+        "reason": "人工腰线配准与手团区域仅低可信；手部为拟合输入，不作为独立验收；A/B跨帧身份未建立"
+      },
+      "80": {
+        "videoFrame": 80,
+        "frameTimeSeconds": 3.3333333333333335,
+        "identityHypothesis": "H_A_screen_visible_candidate_not_confirmed",
+        "registrationId": "80",
+        "sameInput": {
+          "inputLabel": "manual_open_pressure",
+          "notVideoFrameTiming": true,
+          "rotationDeltaDegrees": [
+            -1.0,
+            -25.0
+          ],
+          "projectedHandMaterialXY": [
+            371.01478594945524,
+            356.8565786334419
+          ],
+          "geometry": {
+            "minimumSigma": 0.7772915094442615,
+            "minimumDeterminant": 0.771231106104922,
+            "flippedTriangleCount": 0,
+            "minimumSigmaTriangle": 97
+          }
+        },
+        "sameTargetDiscreteSolutions": [
+          {
+            "rotationDeltaDegrees": [
+              8.032864460955357,
+              -49.57423503570113
+            ],
+            "handMaterialGlobalXY": [
+              345.52604166666674,
+              545.5677083333335
+            ],
+            "fittedHandVideoXY": [
+              380.5,
+              348.0000000000001
+            ],
+            "fittedTargetCenterErrorPx": 1.1368683772161603e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.44823759304313093,
+              "minimumDeterminant": 0.4055662477394908,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 368
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4279,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          },
+          {
+            "rotationDeltaDegrees": [
+              -43.36720812372246,
+              24.21643136234613
+            ],
+            "handMaterialGlobalXY": [
+              345.52604166666674,
+              545.5677083333334
+            ],
+            "fittedHandVideoXY": [
+              380.50000000000006,
+              348.0
+            ],
+            "fittedTargetCenterErrorPx": 5.684341886080802e-14,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.2873218739244359,
+              "minimumDeterminant": 0.23950674205443173,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 286
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4569,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          }
+        ],
+        "candidateDecision": "evidence_insufficient_not_promoted",
+        "reason": "人工腰线配准与手团区域仅低可信；手部为拟合输入，不作为独立验收；A/B跨帧身份未建立"
+      }
+    },
+    "normal_minus4": {
+      "68": {
+        "videoFrame": 68,
+        "frameTimeSeconds": 2.8333333333333335,
+        "identityHypothesis": "H_A_screen_visible_candidate_not_confirmed",
+        "registrationId": "68",
+        "sameInput": {
+          "inputLabel": "manual_open_pressure",
+          "notVideoFrameTiming": true,
+          "rotationDeltaDegrees": [
+            -1.0,
+            -25.0
+          ],
+          "projectedHandMaterialXY": [
+            366.9852698238589,
+            375.25839231753514
+          ],
+          "geometry": {
+            "minimumSigma": 0.8001153925803345,
+            "minimumDeterminant": 0.794921963834095,
+            "flippedTriangleCount": 0,
+            "minimumSigmaTriangle": 97
+          }
+        },
+        "sameTargetDiscreteSolutions": [
+          {
+            "rotationDeltaDegrees": [
+              25.40334250995061,
+              -58.92811847235454
+            ],
+            "handMaterialGlobalXY": [
+              341.7311683320524,
+              535.5395849346655
+            ],
+            "fittedHandVideoXY": [
+              374.0000000000001,
+              353.4999999999999
+            ],
+            "fittedTargetCenterErrorPx": 1.6077746776921858e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.23606248510653535,
+              "minimumDeterminant": 0.17642208787173236,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 257
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4423,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          },
+          {
+            "rotationDeltaDegrees": [
+              -46.787863356955455,
+              29.64334664296281
+            ],
+            "handMaterialGlobalXY": [
+              341.73116833205233,
+              535.5395849346659
+            ],
+            "fittedHandVideoXY": [
+              374.0,
+              353.5000000000001
+            ],
+            "fittedTargetCenterErrorPx": 1.1368683772161603e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.11619148006289574,
+              "minimumDeterminant": 0.09131247810921558,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 286
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4763,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          }
+        ],
+        "candidateDecision": "evidence_insufficient_not_promoted",
+        "reason": "人工腰线配准与手团区域仅低可信；手部为拟合输入，不作为独立验收；A/B跨帧身份未建立"
+      },
+      "72": {
+        "videoFrame": 72,
+        "frameTimeSeconds": 3.0,
+        "identityHypothesis": "H_A_screen_visible_candidate_not_confirmed",
+        "registrationId": "72",
+        "sameInput": {
+          "inputLabel": "manual_chest_pressure",
+          "notVideoFrameTiming": true,
+          "rotationDeltaDegrees": [
+            -24.91081955993272,
+            -119.4877143135952
+          ],
+          "projectedHandMaterialXY": [
+            437.61582358948107,
+            311.6293739375826
+          ],
+          "geometry": {
+            "minimumSigma": 0.12576594473082686,
+            "minimumDeterminant": 0.08620288455221965,
+            "flippedTriangleCount": 0,
+            "minimumSigmaTriangle": 257
+          }
+        },
+        "sameTargetDiscreteSolutions": [
+          {
+            "rotationDeltaDegrees": [
+              -63.061975813994586,
+              -84.8839808940565
+            ],
+            "handMaterialGlobalXY": [
+              434.09483423284513,
+              515.7473657157542
+            ],
+            "fittedHandVideoXY": [
+              465.5000000000001,
+              328.4999999999999
+            ],
+            "fittedTargetCenterErrorPx": 1.6077746776921858e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.8158287591997284,
+              "minimumDeterminant": 0.8153313146712693,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 97
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4933,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          },
+          {
+            "rotationDeltaDegrees": [
+              -79.40693095974407,
+              -65.48517686206844
+            ],
+            "handMaterialGlobalXY": [
+              434.0948342328451,
+              515.7473657157543
+            ],
+            "fittedHandVideoXY": [
+              465.5,
+              328.5
+            ],
+            "fittedTargetCenterErrorPx": 0.0,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.8552350785806709,
+              "minimumDeterminant": 0.8544473675852876,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 446
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 5303,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          }
+        ],
+        "candidateDecision": "evidence_insufficient_not_promoted",
+        "reason": "人工腰线配准与手团区域仅低可信；手部为拟合输入，不作为独立验收；A/B跨帧身份未建立"
+      },
+      "80": {
+        "videoFrame": 80,
+        "frameTimeSeconds": 3.3333333333333335,
+        "identityHypothesis": "H_A_screen_visible_candidate_not_confirmed",
+        "registrationId": "80",
+        "sameInput": {
+          "inputLabel": "manual_open_pressure",
+          "notVideoFrameTiming": true,
+          "rotationDeltaDegrees": [
+            -1.0,
+            -25.0
+          ],
+          "projectedHandMaterialXY": [
+            372.15770305920375,
+            358.74990447416644
+          ],
+          "geometry": {
+            "minimumSigma": 0.8001153925803345,
+            "minimumDeterminant": 0.794921963834095,
+            "flippedTriangleCount": 0,
+            "minimumSigmaTriangle": 97
+          }
+        },
+        "sameTargetDiscreteSolutions": [
+          {
+            "rotationDeltaDegrees": [
+              14.25928646394279,
+              -51.56008383424922
+            ],
+            "handMaterialGlobalXY": [
+              345.5260416666667,
+              545.5677083333334
+            ],
+            "fittedHandVideoXY": [
+              380.5,
+              348.0
+            ],
+            "fittedTargetCenterErrorPx": 0.0,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.4258613782092854,
+              "minimumDeterminant": 0.363290064501334,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 368
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4268,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          },
+          {
+            "rotationDeltaDegrees": [
+              -41.794796621927304,
+              16.124322693878003
+            ],
+            "handMaterialGlobalXY": [
+              345.5260416666667,
+              545.5677083333336
+            ],
+            "fittedHandVideoXY": [
+              380.5,
+              348.0000000000002
+            ],
+            "fittedTargetCenterErrorPx": 2.2737367544323206e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.35089878050776757,
+              "minimumDeterminant": 0.30705733081777,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 286
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4411,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          }
+        ],
+        "candidateDecision": "evidence_insufficient_not_promoted",
+        "reason": "人工腰线配准与手团区域仅低可信；手部为拟合输入，不作为独立验收；A/B跨帧身份未建立"
+      }
+    },
+    "normal_plus4": {
+      "68": {
+        "videoFrame": 68,
+        "frameTimeSeconds": 2.8333333333333335,
+        "identityHypothesis": "H_A_screen_visible_candidate_not_confirmed",
+        "registrationId": "68",
+        "sameInput": {
+          "inputLabel": "manual_open_pressure",
+          "notVideoFrameTiming": true,
+          "rotationDeltaDegrees": [
+            -1.0,
+            -25.0
+          ],
+          "projectedHandMaterialXY": [
+            367.84583416198916,
+            372.04801769788617
+          ],
+          "geometry": {
+            "minimumSigma": 0.7585661396774434,
+            "minimumDeterminant": 0.7509504348528843,
+            "flippedTriangleCount": 0,
+            "minimumSigmaTriangle": 368
+          }
+        },
+        "sameTargetDiscreteSolutions": [
+          {
+            "rotationDeltaDegrees": [
+              17.75951021145406,
+              -49.82012983553382
+            ],
+            "handMaterialGlobalXY": [
+              341.7311683320522,
+              535.5395849346659
+            ],
+            "fittedHandVideoXY": [
+              373.9999999999999,
+              353.5000000000001
+            ],
+            "fittedTargetCenterErrorPx": 1.6077746776921858e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.29300990388477,
+              "minimumDeterminant": 0.24466258366885812,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 257
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4339,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          },
+          {
+            "rotationDeltaDegrees": [
+              -55.287990812519325,
+              39.64846789227443
+            ],
+            "handMaterialGlobalXY": [
+              341.73116833205233,
+              535.5395849346658
+            ],
+            "fittedHandVideoXY": [
+              374.00000000000006,
+              353.5
+            ],
+            "fittedTargetCenterErrorPx": 5.684341886080802e-14,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.037907552463266464,
+              "minimumDeterminant": 0.02563802177428586,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 286
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4693,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          }
+        ],
+        "candidateDecision": "evidence_insufficient_not_promoted",
+        "reason": "人工腰线配准与手团区域仅低可信；手部为拟合输入，不作为独立验收；A/B跨帧身份未建立"
+      },
+      "72": {
+        "videoFrame": 72,
+        "frameTimeSeconds": 3.0,
+        "identityHypothesis": "H_A_screen_visible_candidate_not_confirmed",
+        "registrationId": "72",
+        "sameInput": {
+          "inputLabel": "manual_chest_pressure",
+          "notVideoFrameTiming": true,
+          "rotationDeltaDegrees": [
+            -24.91081955993272,
+            -119.4877143135952
+          ],
+          "projectedHandMaterialXY": [
+            429.01745775893755,
+            302.6397588777726
+          ],
+          "geometry": {
+            "minimumSigma": 0.004385286314115376,
+            "minimumDeterminant": -0.021560481786780675,
+            "flippedTriangleCount": 5,
+            "minimumSigmaTriangle": 225
+          }
+        },
+        "sameTargetDiscreteSolutions": [
+          {
+            "rotationDeltaDegrees": [
+              -69.1806445526795,
+              -77.6278870248124
+            ],
+            "handMaterialGlobalXY": [
+              434.094834232845,
+              515.7473657157542
+            ],
+            "fittedHandVideoXY": [
+              465.5,
+              328.4999999999999
+            ],
+            "fittedTargetCenterErrorPx": 1.1368683772161603e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.9105578934687497,
+              "minimumDeterminant": 0.9176868311587737,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 97
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 5073,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          },
+          {
+            "rotationDeltaDegrees": [
+              -89.43222197511932,
+              -53.62816084518067
+            ],
+            "handMaterialGlobalXY": [
+              434.0948342328452,
+              515.7473657157543
+            ],
+            "fittedHandVideoXY": [
+              465.50000000000017,
+              328.5
+            ],
+            "fittedTargetCenterErrorPx": 1.7053025658242404e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.6830834774251668,
+              "minimumDeterminant": 0.6521652838131129,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 350
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 5212,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          }
+        ],
+        "candidateDecision": "evidence_insufficient_not_promoted",
+        "reason": "人工腰线配准与手团区域仅低可信；手部为拟合输入，不作为独立验收；A/B跨帧身份未建立"
+      },
+      "80": {
+        "videoFrame": 80,
+        "frameTimeSeconds": 3.3333333333333335,
+        "identityHypothesis": "H_A_screen_visible_candidate_not_confirmed",
+        "registrationId": "80",
+        "sameInput": {
+          "inputLabel": "manual_open_pressure",
+          "notVideoFrameTiming": true,
+          "rotationDeltaDegrees": [
+            -1.0,
+            -25.0
+          ],
+          "projectedHandMaterialXY": [
+            372.9081117901798,
+            355.7136615236932
+          ],
+          "geometry": {
+            "minimumSigma": 0.7585661396774434,
+            "minimumDeterminant": 0.7509504348528843,
+            "flippedTriangleCount": 0,
+            "minimumSigmaTriangle": 368
+          }
+        },
+        "sameTargetDiscreteSolutions": [
+          {
+            "rotationDeltaDegrees": [
+              6.771148452372263,
+              -42.65318062263037
+            ],
+            "handMaterialGlobalXY": [
+              345.52604166666674,
+              545.5677083333333
+            ],
+            "fittedHandVideoXY": [
+              380.50000000000006,
+              347.9999999999999
+            ],
+            "fittedTargetCenterErrorPx": 1.2710574864626038e-13,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.48747333915901353,
+              "minimumDeterminant": 0.4590027787002105,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 368
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4144,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          },
+          {
+            "rotationDeltaDegrees": [
+              -50.45061836441719,
+              26.330529368391204
+            ],
+            "handMaterialGlobalXY": [
+              345.5260416666667,
+              545.5677083333334
+            ],
+            "fittedHandVideoXY": [
+              380.5,
+              348.0
+            ],
+            "fittedTargetCenterErrorPx": 0.0,
+            "targetIsFittedNotValidation": true,
+            "geometry": {
+              "minimumSigma": 0.24595175279137801,
+              "minimumDeterminant": 0.19282060832176773,
+              "flippedTriangleCount": 0,
+              "minimumSigmaTriangle": 286
+            },
+            "intersections": {
+              "positiveOverlapPairCount": 0,
+              "positiveOverlapSharedVertexPairCount": 0,
+              "bboxCandidatePairCount": 4499,
+              "pairAreaSumPx2NotUnion": 0.0,
+              "maximumPairAreaPx2": 0.0,
+              "worstPair": null,
+              "positiveAreaTolerancePx2": 1e-05,
+              "worstPairIndependentClipAreaPx2": null,
+              "shapelyVersion": "2.2.0",
+              "method": "Shapely float64 geometry intersection area; worst pair independently convex-clipped; includes shared pairs; not cv2"
+            }
+          }
+        ],
+        "candidateDecision": "evidence_insufficient_not_promoted",
+        "reason": "人工腰线配准与手团区域仅低可信；手部为拟合输入，不作为独立验收；A/B跨帧身份未建立"
+      }
+    }
+  },
+  "decision": "all hypotheses evidence_insufficient; no bind selection or promotion",
+  "limitations": [
+    "三帧不是完整68–84 walk拟合",
+    "腰线相似配准不能消除真实视角、比例及软体形变差异",
+    "手团区域为人工低可信观察，拟合误差不是动作质量验收",
+    "完整轮廓与遮挡未量化评分",
+    "肩根未修补、其他肢体保持静态"
+  ],
+  "generatedImages": [
+    {
+      "file": "f068_baseline_same_input.png",
+      "sha256": "8a2b51f66514e02c787eeae67268c1aff0cdc14f3fd16b4be859743a505c9eaf"
+    },
+    {
+      "file": "f068_baseline_branch_0.png",
+      "sha256": "10c9207e6886522de5436a45ea676ec889f8f2e406bc1c6778d9e166fc11c558"
+    },
+    {
+      "file": "f068_baseline_branch_1.png",
+      "sha256": "3a22323460fbbb51412041b1341b541db2b9c3daff9343b71de79176bdcbadbf"
+    },
+    {
+      "file": "f072_baseline_same_input.png",
+      "sha256": "cbbe7d3955dc6784a98ffa7bcd72574c43489b548a5cf81002492264dd46e057"
+    },
+    {
+      "file": "f072_baseline_branch_0.png",
+      "sha256": "482c7110175d46fca28eb877f7aafe5b85d98b52083cc40749bcf3a6ddc571fd"
+    },
+    {
+      "file": "f072_baseline_branch_1.png",
+      "sha256": "4b994647c77420bddc607f56c32c5b0170d8f5cfcb6da4e3606a23c263837451"
+    },
+    {
+      "file": "f080_baseline_same_input.png",
+      "sha256": "94792c2f8d3377e510876f6c2091857cce978676b69b86ae4644104bac98038b"
+    },
+    {
+      "file": "f080_baseline_branch_0.png",
+      "sha256": "a64443e8f03f7c2be1f579b897cab9b5af9ef07e74f1824bc2dfaf836fab9d19"
+    },
+    {
+      "file": "f080_baseline_branch_1.png",
+      "sha256": "f0aeb80cf517181af0102564297929d0e1ede38f00ff89cc2266b12170ae5b3f"
+    },
+    {
+      "file": "f068_axis_minus4_same_input.png",
+      "sha256": "3d893850c0dec1ae74e8ac175cb96dde795fcdeaa4dad2eb1c62d543193e0ecb"
+    },
+    {
+      "file": "f068_axis_minus4_branch_0.png",
+      "sha256": "b4113cad19e7aaef9fa170bd363846c82b97523d3dd591bd2d10c3fee8e6ac74"
+    },
+    {
+      "file": "f068_axis_minus4_branch_1.png",
+      "sha256": "cae5a6455274a8e0f1b9967af701cba4a1feaa25123b4c8e9753dfebac3f6a7c"
+    },
+    {
+      "file": "f072_axis_minus4_same_input.png",
+      "sha256": "61ae27b1f653c3731f9fb52622d57cfc2109434f9a7ade302f2ed7a28e22137d"
+    },
+    {
+      "file": "f072_axis_minus4_branch_0.png",
+      "sha256": "06f1bbdfbeeadf7e9d21d817a0c38858d98f2d8f4314841972b68ffa46eae481"
+    },
+    {
+      "file": "f072_axis_minus4_branch_1.png",
+      "sha256": "197180a4e71c166f79f18ed3b622e52b314c319673c73442daee95de0b44a703"
+    },
+    {
+      "file": "f080_axis_minus4_same_input.png",
+      "sha256": "4bf446ed04f04173b7b284708fa6884a8114d972bd36de855e88a4ab73d89d51"
+    },
+    {
+      "file": "f080_axis_minus4_branch_0.png",
+      "sha256": "142f31b678bced4a57df663632dc3ed2b771171cd374f04141ec867780d7d213"
+    },
+    {
+      "file": "f080_axis_minus4_branch_1.png",
+      "sha256": "64615560a6562d636f55b5f6c199c9760fd98bfa6fe9bd997b80513d02a206fd"
+    },
+    {
+      "file": "f068_axis_plus4_same_input.png",
+      "sha256": "6d9c26309c3bb98895aa311e480e6245deca03d8437ba6424f0d35cadc6afbcd"
+    },
+    {
+      "file": "f068_axis_plus4_branch_0.png",
+      "sha256": "fd2299d2e5fa4a27673644a4346c2e8755071e2b1ce91a3ca63a0ece2ed65e17"
+    },
+    {
+      "file": "f068_axis_plus4_branch_1.png",
+      "sha256": "38bf3304d7edbeedbbc5fe3b999e1d3c3d162692b209040be293062ca6cff918"
+    },
+    {
+      "file": "f072_axis_plus4_same_input.png",
+      "sha256": "8b25b2206f8d2d0dad3219b88039373932d40371c10f5198cb8a0fb06a691e7f"
+    },
+    {
+      "file": "f072_axis_plus4_branch_0.png",
+      "sha256": "0d4a51e34776ed32e3269516b808716b149da874a1fe913d54bc4d3b7b1fedc9"
+    },
+    {
+      "file": "f072_axis_plus4_branch_1.png",
+      "sha256": "9742f43b2b597601b0b9d3aef1f064a18feb4dbbabe8ef79bfcb55268e57ebe6"
+    },
+    {
+      "file": "f080_axis_plus4_same_input.png",
+      "sha256": "29c6976736d0303ec6f376db713dcd5d33d2407e8ad5dc1e20d2dcd6b13b368d"
+    },
+    {
+      "file": "f080_axis_plus4_branch_0.png",
+      "sha256": "a04c0a2e55eab2019776aac9d742896d4f6354ea912ce6dceba2ddd3107af5bd"
+    },
+    {
+      "file": "f080_axis_plus4_branch_1.png",
+      "sha256": "8415e0e5d22d57a3460df5c2036a57a2942061fe5a40e38299b189effd1b876a"
+    },
+    {
+      "file": "f068_normal_minus4_same_input.png",
+      "sha256": "4c73eb71a71531e55c226ec0bc08b2cf8d047d6081c997309d870fc131658b4f"
+    },
+    {
+      "file": "f068_normal_minus4_branch_0.png",
+      "sha256": "0c9c9267bf9a5b38380a3dc4a654812b0981b71ac3beda342360517aca8badb9"
+    },
+    {
+      "file": "f068_normal_minus4_branch_1.png",
+      "sha256": "8b5cfd655136c29cb6539ffd12cf2893da4ae7f5e07d012b8e02a00ac8fdcd57"
+    },
+    {
+      "file": "f072_normal_minus4_same_input.png",
+      "sha256": "22f6537b9072a153074efaf4bb95289968f82a733c7d7ce9dd8e69026bc0a7c9"
+    },
+    {
+      "file": "f072_normal_minus4_branch_0.png",
+      "sha256": "6f5a418f90d21fa07dd36b2aad7146a9085dbbdb957121c22998cbe251c46f8d"
+    },
+    {
+      "file": "f072_normal_minus4_branch_1.png",
+      "sha256": "5f19c953d51bdd52d0f394f8f6bc40ce9aac32705f9b4ca2c1c7b781a6f41e16"
+    },
+    {
+      "file": "f080_normal_minus4_same_input.png",
+      "sha256": "fccde3fbf126e64ef8705ef4b37249020d51def96075d7c904f59b0e68c1a4d4"
+    },
+    {
+      "file": "f080_normal_minus4_branch_0.png",
+      "sha256": "16ec1a6327d140ec3a17e401b1fbc9a5c7221488ce7137e9517c3b471712b3a5"
+    },
+    {
+      "file": "f080_normal_minus4_branch_1.png",
+      "sha256": "377164ebd3b7f4da199040dcac383009bfda9f82af020671430b3b1bc2056a00"
+    },
+    {
+      "file": "f068_normal_plus4_same_input.png",
+      "sha256": "c018d374debe78bef63af42cdf7c203bd634e5494518f07995addeb7d4995c4e"
+    },
+    {
+      "file": "f068_normal_plus4_branch_0.png",
+      "sha256": "4f851be85192982246c144dbe0a002e3c97374ba0388960cf69cc7c8f0fb8d8f"
+    },
+    {
+      "file": "f068_normal_plus4_branch_1.png",
+      "sha256": "33d6ef02ec40774f79b01aef10aca97f0abb060263e9a83a97c50d49d812b0c7"
+    },
+    {
+      "file": "f072_normal_plus4_same_input.png",
+      "sha256": "dbaef940932d8cd444de02a609839d39f8bc09691b79ca026ffd873c9dac4895"
+    },
+    {
+      "file": "f072_normal_plus4_branch_0.png",
+      "sha256": "c2aaf67bf64b5203b9604286188838cb65d00e29243c2828d54275a1fcdefd82"
+    },
+    {
+      "file": "f072_normal_plus4_branch_1.png",
+      "sha256": "c534e198e7cdb5783937bdbe7112ada67f3dddbd8845071cc4bcc53e42e8e22d"
+    },
+    {
+      "file": "f080_normal_plus4_same_input.png",
+      "sha256": "bc7b2f127131ff09a9b01114886e9b943b15f81dc4fb8654fdac4e086f77e1f8"
+    },
+    {
+      "file": "f080_normal_plus4_branch_0.png",
+      "sha256": "ecb11b1f93a6b840b7b6d7fdea901d9711025d9c956d554486df5e543366ad7e"
+    },
+    {
+      "file": "f080_normal_plus4_branch_1.png",
+      "sha256": "af2cdaf1b37d1dd45c04e960e03d136394bac7d7ee30f3eb9a08cd36a9f35ae9"
+    },
+    {
+      "file": "review_same_input.png",
+      "sha256": "7d7a74287e2b6896bf92b6456722c318887ec16486a220e7c4eb3faeba8feb36"
+    },
+    {
+      "file": "review_branch_0.png",
+      "sha256": "1afaa2bba6ff96e46728d869cb7ce5a7b4239a34d887a29b9eb6c6084d1b0045"
+    },
+    {
+      "file": "review_branch_1.png",
+      "sha256": "3d68e26f31892690957cfdb072c7e062bf1eeae283f788278ecc9b3861837168"
+    }
+  ],
+  "production": false,
+  "approvedForBinding": false,
+  "bindingValidated": false
+}

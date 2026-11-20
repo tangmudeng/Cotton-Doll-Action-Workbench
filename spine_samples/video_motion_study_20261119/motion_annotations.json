@@ -1,0 +1,3379 @@
+{
+  "version": 1,
+  "source": {
+    "source": "I:\\彩虹AI\\design\\视频素材_design\\Walulu萌宠\\蘑菇秃秃方向\\基础角色-测试\\右前行走.mp4",
+    "fps": 24.0,
+    "frames": 107,
+    "width": 864,
+    "height": 480
+  },
+  "range": [
+    63,
+    85
+  ],
+  "fps": 24,
+  "periodCandidate": 0.9166666666666666,
+  "method": "manual 2D silhouette-center annotation; elbow/knee positions solved by fixed-length 2-bone IK; not independently measured anatomy",
+  "limits": [
+    "手脚中心为人工标注，仍需逐帧审核",
+    "肩髋和遮挡端点为推定",
+    "源视频没有地面，未锁脚；接触时刻仅为候选",
+    "画面内脚的移动可能包含原地行走与透视，不等于世界坐标滑步",
+    "第85帧保留原始标注差异，没有强制改成第63帧"
+  ],
+  "samples": [
+    {
+      "frame": 63,
+      "videoTime": 2.625,
+      "points": {
+        "neck": [
+          446,
+          292
+        ],
+        "pelvis": [
+          445,
+          387
+        ],
+        "shoulder_near": [
+          412,
+          305
+        ],
+        "shoulder_far": [
+          485,
+          305
+        ],
+        "hip_near": [
+          414,
+          395
+        ],
+        "hip_far": [
+          475,
+          388
+        ],
+        "hand_near": [
+          374,
+          374
+        ],
+        "hand_far": [
+          515,
+          356
+        ],
+        "foot_near": [
+          423,
+          449
+        ],
+        "foot_far": [
+          465,
+          431
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            379.2736374216308,
+            331.3246119133619
+          ],
+          "solvedTarget": [
+            374.0,
+            374.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            482.7858461845633,
+            339.9298944012372
+          ],
+          "solvedTarget": [
+            515.0,
+            356.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            406.38902664210366,
+            424.0184955596494
+          ],
+          "solvedTarget": [
+            423.0,
+            449.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            490.65172803312936,
+            413.5934251239836
+          ],
+          "solvedTarget": [
+            465.0,
+            431.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：近脚较低 / 远脚抬起候选",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            423,
+            471
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": false,
+          "reason": "被近脚遮挡，不能独立读取脚底"
+        }
+      }
+    },
+    {
+      "frame": 64,
+      "videoTime": 2.6666666666666665,
+      "points": {
+        "neck": [
+          446,
+          292
+        ],
+        "pelvis": [
+          445,
+          387
+        ],
+        "shoulder_near": [
+          412,
+          305
+        ],
+        "shoulder_far": [
+          485,
+          305
+        ],
+        "hip_near": [
+          414,
+          395
+        ],
+        "hip_far": [
+          475,
+          388
+        ],
+        "hand_near": [
+          379,
+          375
+        ],
+        "hand_far": [
+          513,
+          355
+        ],
+        "foot_near": [
+          418,
+          450
+        ],
+        "foot_far": [
+          467,
+          431
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            379.8353970348781,
+            332.008115745014
+          ],
+          "solvedTarget": [
+            379.0,
+            375.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            480.41386891369035,
+            339.6982334083334
+          ],
+          "solvedTarget": [
+            513.0,
+            355.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            404.20954981546106,
+            423.3574872861483
+          ],
+          "solvedTarget": [
+            418.0,
+            450.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            492.02371614644034,
+            412.7020867249192
+          ],
+          "solvedTarget": [
+            467.0,
+            431.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：近脚较低 / 远脚抬起候选",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            418,
+            471
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": true,
+          "point": [
+            467,
+            451
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        }
+      }
+    },
+    {
+      "frame": 65,
+      "videoTime": 2.7083333333333335,
+      "points": {
+        "neck": [
+          446,
+          291
+        ],
+        "pelvis": [
+          445,
+          386
+        ],
+        "shoulder_near": [
+          412,
+          304
+        ],
+        "shoulder_far": [
+          485,
+          304
+        ],
+        "hip_near": [
+          414,
+          394
+        ],
+        "hip_far": [
+          475,
+          387
+        ],
+        "hand_near": [
+          388,
+          378
+        ],
+        "hand_far": [
+          511,
+          356
+        ],
+        "foot_near": [
+          410,
+          450
+        ],
+        "foot_far": [
+          474,
+          432
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            383.8806283394256,
+            335.1977713533272
+          ],
+          "solvedTarget": [
+            388.0,
+            378.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            479.5032649376709,
+            338.5656752234722
+          ],
+          "solvedTarget": [
+            511.0,
+            356.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            401.4438893487602,
+            421.24599209634
+          ],
+          "solvedTarget": [
+            410.0,
+            450.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            495.0900826365912,
+            409.2797796141465
+          ],
+          "solvedTarget": [
+            474.0,
+            432.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：近脚较低 / 远脚抬起候选",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            410,
+            469
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": true,
+          "point": [
+            474,
+            453
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        }
+      }
+    },
+    {
+      "frame": 66,
+      "videoTime": 2.75,
+      "points": {
+        "neck": [
+          446,
+          290
+        ],
+        "pelvis": [
+          445,
+          385
+        ],
+        "shoulder_near": [
+          412,
+          303
+        ],
+        "shoulder_far": [
+          485,
+          303
+        ],
+        "hip_near": [
+          414,
+          393
+        ],
+        "hip_far": [
+          475,
+          386
+        ],
+        "hand_near": [
+          398,
+          380
+        ],
+        "hand_far": [
+          508,
+          358
+        ],
+        "foot_near": [
+          404,
+          448
+        ],
+        "foot_far": [
+          484,
+          433
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            388.7828381286075,
+            337.9994770623442
+          ],
+          "solvedTarget": [
+            398.0,
+            380.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            478.48466551377584,
+            337.38823078514827
+          ],
+          "solvedTarget": [
+            508.0,
+            358.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            398.27852622071015,
+            418.5506411310382
+          ],
+          "solvedTarget": [
+            404.0,
+            448.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            497.9528331172157,
+            405.31754259457574
+          ],
+          "solvedTarget": [
+            484.0,
+            433.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：近脚较低 / 远脚抬起候选",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            404,
+            469
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": true,
+          "point": [
+            484,
+            453
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        }
+      }
+    },
+    {
+      "frame": 67,
+      "videoTime": 2.7916666666666665,
+      "points": {
+        "neck": [
+          446,
+          290
+        ],
+        "pelvis": [
+          445,
+          385
+        ],
+        "shoulder_near": [
+          412,
+          303
+        ],
+        "shoulder_far": [
+          485,
+          303
+        ],
+        "hip_near": [
+          414,
+          393
+        ],
+        "hip_far": [
+          475,
+          386
+        ],
+        "hand_near": [
+          406,
+          380
+        ],
+        "hand_far": [
+          502,
+          360
+        ],
+        "foot_near": [
+          397,
+          447
+        ],
+        "foot_far": [
+          492,
+          433
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far",
+        "hand_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            391.3496314728218,
+            339.5726985563238
+          ],
+          "solvedTarget": [
+            406.0,
+            380.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            474.7563381745379,
+            336.46740791285714
+          ],
+          "solvedTarget": [
+            502.0,
+            360.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            396.02131054300474,
+            417.0159681339089
+          ],
+          "solvedTarget": [
+            397.0,
+            447.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            499.7322868726169,
+            402.9798111311811
+          ],
+          "solvedTarget": [
+            492.0,
+            433.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：换步过渡",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            397,
+            467
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": true,
+          "point": [
+            492,
+            453
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        }
+      }
+    },
+    {
+      "frame": 68,
+      "videoTime": 2.8333333333333335,
+      "points": {
+        "neck": [
+          446,
+          291
+        ],
+        "pelvis": [
+          445,
+          386
+        ],
+        "shoulder_near": [
+          412,
+          304
+        ],
+        "shoulder_far": [
+          485,
+          304
+        ],
+        "hip_near": [
+          414,
+          394
+        ],
+        "hip_far": [
+          475,
+          387
+        ],
+        "hand_near": [
+          415,
+          380
+        ],
+        "hand_far": [
+          499,
+          364
+        ],
+        "foot_near": [
+          392,
+          444
+        ],
+        "foot_far": [
+          499,
+          432
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far",
+        "hand_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            394.5206978403618,
+            342.1899724536699
+          ],
+          "solvedTarget": [
+            415.0,
+            380.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            474.6905577734827,
+            337.4472031861873
+          ],
+          "solvedTarget": [
+            499.0,
+            364.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            391.6412391643639,
+            414.0021452323201
+          ],
+          "solvedTarget": [
+            392.0,
+            444.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            501.48031995919365,
+            401.09938491065225
+          ],
+          "solvedTarget": [
+            499.0,
+            432.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：换步过渡",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            392,
+            465
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": true,
+          "point": [
+            499,
+            453
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        }
+      }
+    },
+    {
+      "frame": 69,
+      "videoTime": 2.875,
+      "points": {
+        "neck": [
+          446,
+          292
+        ],
+        "pelvis": [
+          445,
+          387
+        ],
+        "shoulder_near": [
+          412,
+          305
+        ],
+        "shoulder_far": [
+          485,
+          305
+        ],
+        "hip_near": [
+          414,
+          395
+        ],
+        "hip_far": [
+          475,
+          388
+        ],
+        "hand_near": [
+          424,
+          378
+        ],
+        "hand_far": [
+          496,
+          367
+        ],
+        "foot_near": [
+          388,
+          442
+        ],
+        "foot_far": [
+          503,
+          432
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far",
+        "hand_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            397.25741173260116,
+            344.3275487562847
+          ],
+          "solvedTarget": [
+            424.0,
+            378.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            474.25452753736437,
+            338.3096805982096
+          ],
+          "solvedTarget": [
+            496.0,
+            367.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            389.30102064917827,
+            412.02822418890713
+          ],
+          "solvedTarget": [
+            388.0,
+            442.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            502.0297032940707,
+            401.0151888128641
+          ],
+          "solvedTarget": [
+            503.0,
+            432.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：换步过渡",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            388,
+            465
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": true,
+          "point": [
+            503,
+            453
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        }
+      }
+    },
+    {
+      "frame": 70,
+      "videoTime": 2.9166666666666665,
+      "points": {
+        "neck": [
+          446,
+          293
+        ],
+        "pelvis": [
+          445,
+          388
+        ],
+        "shoulder_near": [
+          412,
+          306
+        ],
+        "shoulder_far": [
+          485,
+          306
+        ],
+        "hip_near": [
+          414,
+          396
+        ],
+        "hip_far": [
+          475,
+          389
+        ],
+        "hand_near": [
+          427,
+          378
+        ],
+        "hand_far": [
+          494,
+          368
+        ],
+        "foot_near": [
+          390,
+          439
+        ],
+        "foot_far": [
+          503,
+          432
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far",
+        "hand_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            398.5246634184109,
+            345.77958401005327
+          ],
+          "solvedTarget": [
+            427.0,
+            378.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            472.89066246284193,
+            338.83845222313585
+          ],
+          "solvedTarget": [
+            494.0,
+            368.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            387.0341453928046,
+            409.1469648704026
+          ],
+          "solvedTarget": [
+            390.0,
+            439.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            502.4936488659588,
+            401.00413562216636
+          ],
+          "solvedTarget": [
+            503.0,
+            432.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：换步过渡",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            390,
+            463
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": true,
+          "point": [
+            503,
+            455
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        }
+      }
+    },
+    {
+      "frame": 71,
+      "videoTime": 2.9583333333333335,
+      "points": {
+        "neck": [
+          446,
+          294
+        ],
+        "pelvis": [
+          445,
+          389
+        ],
+        "shoulder_near": [
+          412,
+          307
+        ],
+        "shoulder_far": [
+          485,
+          307
+        ],
+        "hip_near": [
+          414,
+          397
+        ],
+        "hip_far": [
+          475,
+          390
+        ],
+        "hand_near": [
+          429,
+          376
+        ],
+        "hand_far": [
+          494,
+          368
+        ],
+        "foot_near": [
+          389,
+          438
+        ],
+        "foot_far": [
+          501,
+          436
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far",
+        "hand_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            397.7177850737855,
+            346.4970674455891
+          ],
+          "solvedTarget": [
+            429.0,
+            376.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            472.00702582986924,
+            339.4989634021505
+          ],
+          "solvedTarget": [
+            494.0,
+            368.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            386.143531694414,
+            408.13629981366705
+          ],
+          "solvedTarget": [
+            389.0,
+            438.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            500.9807586659226,
+            405.00000597143503
+          ],
+          "solvedTarget": [
+            501.0,
+            436.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：远脚落下候选",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            389,
+            461
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": true,
+          "point": [
+            501,
+            457
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        }
+      }
+    },
+    {
+      "frame": 72,
+      "videoTime": 3.0,
+      "points": {
+        "neck": [
+          446,
+          295
+        ],
+        "pelvis": [
+          445,
+          390
+        ],
+        "shoulder_near": [
+          412,
+          308
+        ],
+        "shoulder_far": [
+          485,
+          308
+        ],
+        "hip_near": [
+          414,
+          398
+        ],
+        "hip_far": [
+          475,
+          391
+        ],
+        "hand_near": [
+          427,
+          376
+        ],
+        "hand_far": [
+          496,
+          367
+        ],
+        "foot_near": [
+          391,
+          439
+        ],
+        "foot_far": [
+          499,
+          439
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far",
+        "hand_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            395.57103391337324,
+            346.6534484014618
+          ],
+          "solvedTarget": [
+            427.0,
+            376.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            471.7483963115529,
+            340.39436678937153
+          ],
+          "solvedTarget": [
+            496.0,
+            367.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            386.2420746788956,
+            409.3797004296244
+          ],
+          "solvedTarget": [
+            391.0,
+            439.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            499.71277581111974,
+            408.00819542777344
+          ],
+          "solvedTarget": [
+            499.0,
+            439.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：远脚落下候选",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            391,
+            461
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": true,
+          "point": [
+            499,
+            459
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        }
+      }
+    },
+    {
+      "frame": 73,
+      "videoTime": 3.0416666666666665,
+      "points": {
+        "neck": [
+          446,
+          294
+        ],
+        "pelvis": [
+          445,
+          389
+        ],
+        "shoulder_near": [
+          412,
+          307
+        ],
+        "shoulder_far": [
+          485,
+          307
+        ],
+        "hip_near": [
+          414,
+          397
+        ],
+        "hip_far": [
+          475,
+          390
+        ],
+        "hand_near": [
+          421,
+          378
+        ],
+        "hand_far": [
+          499,
+          365
+        ],
+        "foot_near": [
+          394,
+          442
+        ],
+        "foot_far": [
+          496,
+          442
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far",
+        "hand_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            393.6803293662713,
+            344.79404275638814
+          ],
+          "solvedTarget": [
+            421.0,
+            378.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            473.15832993304593,
+            339.9359203609889
+          ],
+          "solvedTarget": [
+            499.0,
+            365.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            388.33805913200484,
+            412.53913739200215
+          ],
+          "solvedTarget": [
+            394.0,
+            442.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            496.42147632404294,
+            411.002865330675
+          ],
+          "solvedTarget": [
+            496.0,
+            442.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：远脚落下候选",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            394,
+            461
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": true,
+          "point": [
+            496,
+            459
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        }
+      }
+    },
+    {
+      "frame": 74,
+      "videoTime": 3.0833333333333335,
+      "points": {
+        "neck": [
+          446,
+          293
+        ],
+        "pelvis": [
+          445,
+          388
+        ],
+        "shoulder_near": [
+          412,
+          306
+        ],
+        "shoulder_far": [
+          485,
+          306
+        ],
+        "hip_near": [
+          414,
+          396
+        ],
+        "hip_far": [
+          475,
+          389
+        ],
+        "hand_near": [
+          415,
+          381
+        ],
+        "hand_far": [
+          503,
+          363
+        ],
+        "foot_near": [
+          397,
+          445
+        ],
+        "foot_far": [
+          490,
+          444
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far",
+        "hand_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            393.5514032860483,
+            343.73127720189143
+          ],
+          "solvedTarget": [
+            415.0,
+            381.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            475.55569941847733,
+            339.70170895556856
+          ],
+          "solvedTarget": [
+            503.0,
+            363.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            391.2501385906433,
+            415.55617053144766
+          ],
+          "solvedTarget": [
+            397.0,
+            445.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            492.826530059777,
+            413.1291281655154
+          ],
+          "solvedTarget": [
+            490.0,
+            444.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：远脚落下候选",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            397,
+            463
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": true,
+          "point": [
+            490,
+            458
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        }
+      }
+    },
+    {
+      "frame": 75,
+      "videoTime": 3.125,
+      "points": {
+        "neck": [
+          446,
+          292
+        ],
+        "pelvis": [
+          445,
+          387
+        ],
+        "shoulder_near": [
+          412,
+          305
+        ],
+        "shoulder_far": [
+          485,
+          305
+        ],
+        "hip_near": [
+          414,
+          395
+        ],
+        "hip_far": [
+          475,
+          388
+        ],
+        "hand_near": [
+          406,
+          380
+        ],
+        "hand_far": [
+          507,
+          357
+        ],
+        "foot_near": [
+          403,
+          447
+        ],
+        "foot_far": [
+          482,
+          445
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            389.3360399033489,
+            340.36021652560123
+          ],
+          "solvedTarget": [
+            406.0,
+            380.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            475.93592577172905,
+            338.8059544811916
+          ],
+          "solvedTarget": [
+            507.0,
+            357.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            394.8819484714726,
+            418.11925833050384
+          ],
+          "solvedTarget": [
+            403.0,
+            447.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            488.64051891373674,
+            414.71958539655867
+          ],
+          "solvedTarget": [
+            482.0,
+            445.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：远脚落下候选",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            403,
+            463
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": true,
+          "point": [
+            482,
+            457
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        }
+      }
+    },
+    {
+      "frame": 76,
+      "videoTime": 3.1666666666666665,
+      "points": {
+        "neck": [
+          446,
+          291
+        ],
+        "pelvis": [
+          445,
+          386
+        ],
+        "shoulder_near": [
+          412,
+          304
+        ],
+        "shoulder_far": [
+          485,
+          304
+        ],
+        "hip_near": [
+          414,
+          394
+        ],
+        "hip_far": [
+          475,
+          387
+        ],
+        "hand_near": [
+          398,
+          379
+        ],
+        "hand_far": [
+          510,
+          358
+        ],
+        "foot_near": [
+          407,
+          447
+        ],
+        "foot_far": [
+          472,
+          438
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            386.6869196584833,
+            337.51489166958356
+          ],
+          "solvedTarget": [
+            398.0,
+            379.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            479.67882503311614,
+            338.5931365587426
+          ],
+          "solvedTarget": [
+            510.0,
+            358.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            396.99742139029485,
+            418.71664056098234
+          ],
+          "solvedTarget": [
+            407.0,
+            447.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            490.16894429040906,
+            412.8824869190437
+          ],
+          "solvedTarget": [
+            472.0,
+            438.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：远脚落下候选",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            407,
+            465
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": true,
+          "point": [
+            472,
+            457
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        }
+      }
+    },
+    {
+      "frame": 77,
+      "videoTime": 3.2083333333333335,
+      "points": {
+        "neck": [
+          446,
+          290
+        ],
+        "pelvis": [
+          445,
+          385
+        ],
+        "shoulder_near": [
+          412,
+          303
+        ],
+        "shoulder_far": [
+          485,
+          303
+        ],
+        "hip_near": [
+          414,
+          393
+        ],
+        "hip_far": [
+          475,
+          386
+        ],
+        "hand_near": [
+          390,
+          379
+        ],
+        "hand_far": [
+          514,
+          359
+        ],
+        "foot_near": [
+          414,
+          448
+        ],
+        "foot_far": [
+          466,
+          431
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            386.2308528733462,
+            336.1655100422844
+          ],
+          "solvedTarget": [
+            390.0,
+            379.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            484.7602069348652,
+            337.99917855158765
+          ],
+          "solvedTarget": [
+            514.0,
+            359.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            402.0104211917182,
+            420.5
+          ],
+          "solvedTarget": [
+            414.0,
+            448.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            490.32899191828255,
+            411.7880206058787
+          ],
+          "solvedTarget": [
+            466.0,
+            431.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：换步过渡",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            414,
+            467
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": true,
+          "point": [
+            466,
+            457
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        }
+      }
+    },
+    {
+      "frame": 78,
+      "videoTime": 3.25,
+      "points": {
+        "neck": [
+          446,
+          290
+        ],
+        "pelvis": [
+          445,
+          385
+        ],
+        "shoulder_near": [
+          412,
+          303
+        ],
+        "shoulder_far": [
+          485,
+          303
+        ],
+        "hip_near": [
+          414,
+          393
+        ],
+        "hip_far": [
+          475,
+          386
+        ],
+        "hand_near": [
+          380,
+          376
+        ],
+        "hand_far": [
+          519,
+          359
+        ],
+        "foot_near": [
+          420,
+          448
+        ],
+        "foot_far": [
+          464,
+          425
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            382.69249040108116,
+            333.0843793538986
+          ],
+          "solvedTarget": [
+            380.0,
+            376.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            490.02328744829833,
+            337.6376469063903
+          ],
+          "solvedTarget": [
+            519.0,
+            359.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            405.4602762692048,
+            421.7588789524504
+          ],
+          "solvedTarget": [
+            420.0,
+            448.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            491.63959446440896,
+            410.9624497207307
+          ],
+          "solvedTarget": [
+            464.0,
+            425.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：近脚较低 / 远脚抬起候选",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            420,
+            469
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": false,
+          "reason": "被近脚遮挡，不能独立读取脚底"
+        }
+      }
+    },
+    {
+      "frame": 79,
+      "videoTime": 3.2916666666666665,
+      "points": {
+        "neck": [
+          446,
+          291
+        ],
+        "pelvis": [
+          445,
+          386
+        ],
+        "shoulder_near": [
+          412,
+          304
+        ],
+        "shoulder_far": [
+          485,
+          304
+        ],
+        "hip_near": [
+          414,
+          394
+        ],
+        "hip_far": [
+          475,
+          387
+        ],
+        "hand_near": [
+          371,
+          373
+        ],
+        "hand_far": [
+          523,
+          359
+        ],
+        "foot_near": [
+          427,
+          446
+        ],
+        "foot_far": [
+          465,
+          425
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            379.74352946118626,
+            330.8983291001252
+          ],
+          "solvedTarget": [
+            371.0,
+            373.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            493.8608196597429,
+            337.8597973259958
+          ],
+          "solvedTarget": [
+            523.0,
+            359.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            407.42105418891066,
+            423.26973645277235
+          ],
+          "solvedTarget": [
+            427.0,
+            446.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            492.7512743386554,
+            411.18454587859355
+          ],
+          "solvedTarget": [
+            465.0,
+            425.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：近脚较低 / 远脚抬起候选",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            427,
+            468
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": false,
+          "reason": "被近脚遮挡，不能独立读取脚底"
+        }
+      }
+    },
+    {
+      "frame": 80,
+      "videoTime": 3.3333333333333335,
+      "points": {
+        "neck": [
+          446,
+          292
+        ],
+        "pelvis": [
+          445,
+          387
+        ],
+        "shoulder_near": [
+          412,
+          305
+        ],
+        "shoulder_far": [
+          485,
+          305
+        ],
+        "hip_near": [
+          414,
+          395
+        ],
+        "hip_far": [
+          475,
+          388
+        ],
+        "hand_near": [
+          363,
+          369
+        ],
+        "hand_far": [
+          526,
+          358
+        ],
+        "foot_near": [
+          433,
+          444
+        ],
+        "foot_far": [
+          467,
+          425
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            377.1096363837481,
+            328.3808153563072
+          ],
+          "solvedTarget": [
+            363.0,
+            369.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            495.8936520034791,
+            338.26151448787465
+          ],
+          "solvedTarget": [
+            526.0,
+            358.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            410.0048953548146,
+            424.73279567874533
+          ],
+          "solvedTarget": [
+            433.0,
+            444.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            494.5384611850571,
+            410.765072688661
+          ],
+          "solvedTarget": [
+            467.0,
+            425.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：近脚较低 / 远脚抬起候选",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            433,
+            468
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": false,
+          "reason": "被近脚遮挡，不能独立读取脚底"
+        }
+      }
+    },
+    {
+      "frame": 81,
+      "videoTime": 3.375,
+      "points": {
+        "neck": [
+          446,
+          293
+        ],
+        "pelvis": [
+          445,
+          388
+        ],
+        "shoulder_near": [
+          412,
+          306
+        ],
+        "shoulder_far": [
+          485,
+          306
+        ],
+        "hip_near": [
+          414,
+          396
+        ],
+        "hip_far": [
+          475,
+          389
+        ],
+        "hand_near": [
+          359,
+          369
+        ],
+        "hand_far": [
+          527,
+          358
+        ],
+        "foot_near": [
+          436,
+          442
+        ],
+        "foot_far": [
+          466,
+          427
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            377.74357366394486,
+            330.30014927284253
+          ],
+          "solvedTarget": [
+            359.0,
+            369.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            496.35638389833053,
+            339.1063822359638
+          ],
+          "solvedTarget": [
+            527.0,
+            358.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            410.73600552224104,
+            425.82191040240644
+          ],
+          "solvedTarget": [
+            436.0,
+            442.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            493.47252336428494,
+            412.638229217857
+          ],
+          "solvedTarget": [
+            466.0,
+            427.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：近脚较低 / 远脚抬起候选",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            436,
+            467
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": false,
+          "reason": "被近脚遮挡，不能独立读取脚底"
+        }
+      }
+    },
+    {
+      "frame": 82,
+      "videoTime": 3.4166666666666665,
+      "points": {
+        "neck": [
+          446,
+          294
+        ],
+        "pelvis": [
+          445,
+          389
+        ],
+        "shoulder_near": [
+          412,
+          307
+        ],
+        "shoulder_far": [
+          485,
+          307
+        ],
+        "hip_near": [
+          414,
+          397
+        ],
+        "hip_far": [
+          475,
+          390
+        ],
+        "hand_near": [
+          358,
+          370
+        ],
+        "hand_far": [
+          526,
+          358
+        ],
+        "foot_near": [
+          436,
+          441
+        ],
+        "foot_far": [
+          464,
+          428
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            378.333841703282,
+            332.11154685678144
+          ],
+          "solvedTarget": [
+            358.0,
+            370.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            494.42546023841777,
+            340.7069829455857
+          ],
+          "solvedTarget": [
+            526.0,
+            358.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            409.6377085042628,
+            426.6811457478686
+          ],
+          "solvedTarget": [
+            436.0,
+            441.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            492.0080697606672,
+            414.7128622991405
+          ],
+          "solvedTarget": [
+            464.0,
+            428.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：近脚较低 / 远脚抬起候选",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            436,
+            468
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": false,
+          "reason": "被近脚遮挡，不能独立读取脚底"
+        }
+      }
+    },
+    {
+      "frame": 83,
+      "videoTime": 3.4583333333333335,
+      "points": {
+        "neck": [
+          446,
+          294
+        ],
+        "pelvis": [
+          445,
+          389
+        ],
+        "shoulder_near": [
+          412,
+          307
+        ],
+        "shoulder_far": [
+          485,
+          307
+        ],
+        "hip_near": [
+          414,
+          397
+        ],
+        "hip_far": [
+          475,
+          390
+        ],
+        "hand_near": [
+          361,
+          372
+        ],
+        "hand_far": [
+          523,
+          358
+        ],
+        "foot_near": [
+          433,
+          445
+        ],
+        "foot_far": [
+          464,
+          427
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            378.9605702731798,
+            332.93060129126417
+          ],
+          "solvedTarget": [
+            361.0,
+            372.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            491.014568452944,
+            341.4793411527084
+          ],
+          "solvedTarget": [
+            523.0,
+            358.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            409.28429375866386,
+            426.62705038719554
+          ],
+          "solvedTarget": [
+            433.0,
+            445.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            492.3550656575788,
+            414.4704249252261
+          ],
+          "solvedTarget": [
+            464.0,
+            427.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：近脚较低 / 远脚抬起候选",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            433,
+            469
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": false,
+          "reason": "被近脚遮挡，不能独立读取脚底"
+        }
+      }
+    },
+    {
+      "frame": 84,
+      "videoTime": 3.5,
+      "points": {
+        "neck": [
+          446,
+          293
+        ],
+        "pelvis": [
+          445,
+          388
+        ],
+        "shoulder_near": [
+          412,
+          306
+        ],
+        "shoulder_far": [
+          485,
+          306
+        ],
+        "hip_near": [
+          414,
+          396
+        ],
+        "hip_far": [
+          475,
+          389
+        ],
+        "hand_near": [
+          367,
+          374
+        ],
+        "hand_far": [
+          520,
+          358
+        ],
+        "foot_near": [
+          429,
+          449
+        ],
+        "foot_far": [
+          465,
+          429
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            379.78120333145927,
+            332.94344338111273
+          ],
+          "solvedTarget": [
+            367.0,
+            374.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            488.3535301871389,
+            340.8389700663488
+          ],
+          "solvedTarget": [
+            520.0,
+            358.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            410.05419608944544,
+            425.7393784652513
+          ],
+          "solvedTarget": [
+            429.0,
+            449.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            491.9796339787411,
+            413.7324084946853
+          ],
+          "solvedTarget": [
+            465.0,
+            429.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：近脚较低 / 远脚抬起候选",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            429,
+            469
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": false,
+          "reason": "被近脚遮挡，不能独立读取脚底"
+        }
+      }
+    },
+    {
+      "frame": 85,
+      "videoTime": 3.5416666666666665,
+      "points": {
+        "neck": [
+          446,
+          292
+        ],
+        "pelvis": [
+          445,
+          387
+        ],
+        "shoulder_near": [
+          412,
+          305
+        ],
+        "shoulder_far": [
+          485,
+          305
+        ],
+        "hip_near": [
+          414,
+          395
+        ],
+        "hip_far": [
+          475,
+          388
+        ],
+        "hand_near": [
+          374,
+          376
+        ],
+        "hand_far": [
+          516,
+          358
+        ],
+        "foot_near": [
+          424,
+          449
+        ],
+        "foot_far": [
+          465,
+          430
+        ]
+      },
+      "inferred": [
+        "neck",
+        "pelvis",
+        "shoulder_near",
+        "shoulder_far",
+        "hip_near",
+        "hip_far"
+      ],
+      "chains": {
+        "arm_near": {
+          "root": "shoulder_near",
+          "target": "hand_near",
+          "joint": [
+            381.25802705403527,
+            333.61697222610337
+          ],
+          "solvedTarget": [
+            374.0,
+            376.0
+          ],
+          "lengths": [
+            42,
+            43
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "arm_far": {
+          "root": "shoulder_far",
+          "target": "hand_far",
+          "joint": [
+            484.82334286677354,
+            339.99955417226454
+          ],
+          "solvedTarget": [
+            516.0,
+            358.0
+          ],
+          "lengths": [
+            35,
+            36
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_near": {
+          "root": "hip_near",
+          "target": "foot_near",
+          "joint": [
+            407.1189583287645,
+            424.20019290208063
+          ],
+          "solvedTarget": [
+            424.0,
+            449.0
+          ],
+          "lengths": [
+            30,
+            30
+          ],
+          "bend": 1,
+          "reachError": 0.0
+        },
+        "leg_far": {
+          "root": "hip_far",
+          "target": "foot_far",
+          "joint": [
+            491.1185349750619,
+            413.30203213691954
+          ],
+          "solvedTarget": [
+            465.0,
+            430.0
+          ],
+          "lengths": [
+            30,
+            31
+          ],
+          "bend": -1,
+          "reachError": 0.0
+        }
+      },
+      "contactHypothesis": "待确认：近脚较低 / 远脚抬起候选",
+      "soleContours": {
+        "near": {
+          "visible": true,
+          "point": [
+            424,
+            469
+          ],
+          "method": "local source contour; not a ground-contact claim"
+        },
+        "far": {
+          "visible": false,
+          "reason": "被近脚遮挡，不能独立读取脚底"
+        }
+      }
+    }
+  ]
+}

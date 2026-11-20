@@ -1,0 +1,53 @@
+walk.png
+size: 1024,1024
+filter: Linear,Linear
+repeat: none
+arm_far
+  rotate: false
+  xy: 4, 4
+  size: 36, 106
+  orig: 36, 106
+  offset: 0, 0
+  index: -1
+leg_far
+  rotate: false
+  xy: 48, 4
+  size: 120, 134
+  orig: 120, 134
+  offset: 0, 0
+  index: -1
+leg_near
+  rotate: false
+  xy: 176, 4
+  size: 115, 141
+  orig: 115, 141
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 299, 4
+  size: 170, 184
+  orig: 170, 184
+  offset: 0, 0
+  index: -1
+shorts
+  rotate: false
+  xy: 477, 4
+  size: 170, 90
+  orig: 170, 90
+  offset: 0, 0
+  index: -1
+arm_near
+  rotate: false
+  xy: 655, 4
+  size: 90, 150
+  orig: 90, 150
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 4, 196
+  size: 418, 341
+  orig: 418, 341
+  offset: 0, 0
+  index: -1

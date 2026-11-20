@@ -1,0 +1,421 @@
+{
+  "status": "已提取/程序补底·待美术精修",
+  "sourceFile": "I:\\彩虹AI\\design\\AI玩具_design\\美术资源\\棉花娃娃\\基础角色-测试\\右前¾侧图层.png",
+  "sourceSha256": "947376df094af4ca77b6ea025184fdf2c676e01933a2d70d098b77e37cca181a",
+  "checks": {
+    "loopEndpointsMatch": true,
+    "allTimelinesHave25Keys": true,
+    "timeKeysStrictlyIncreasing": true,
+    "noSecondHalfRotationHold": true,
+    "legsRotateInAntiphase": true,
+    "bodyBobsTwice": true,
+    "pngRgbaWithTransparentAndVisiblePixels": true,
+    "canonicalCoordinatesAndAttachments": true,
+    "atlas2pxExtrusionMatches": true,
+    "originalAssemblyPixelExact": true,
+    "originalVisiblePixelsPreservedPerPart": true,
+    "differencesConfinedToProceduralSupport": true,
+    "sourceSilhouetteAlphaUnchanged": true,
+    "legSupportHiddenInOpaqueBody": true,
+    "noSupportOutsideSourceSilhouette": true,
+    "zipContainsExpectedFiles": true,
+    "zipCrcPassed": true
+  },
+  "automatedChecksPassed": true,
+  "loopEndpoints": {
+    "body.rotate": true,
+    "body.translate": true,
+    "head.rotate": true,
+    "arm_far.rotate": true,
+    "arm_near.rotate": true,
+    "leg_far.rotate": true,
+    "leg_far.translate": true,
+    "leg_near.rotate": true,
+    "leg_near.translate": true
+  },
+  "secondHalfMotion": {
+    "body.rotate": {
+      "movingIntervals": 12,
+      "totalIntervals": 12
+    },
+    "body.translate": {
+      "movingIntervals": 12,
+      "totalIntervals": 12
+    },
+    "head.rotate": {
+      "movingIntervals": 12,
+      "totalIntervals": 12
+    },
+    "arm_far.rotate": {
+      "movingIntervals": 12,
+      "totalIntervals": 12
+    },
+    "arm_near.rotate": {
+      "movingIntervals": 12,
+      "totalIntervals": 12
+    },
+    "leg_far.rotate": {
+      "movingIntervals": 12,
+      "totalIntervals": 12
+    },
+    "leg_far.translate": {
+      "movingIntervals": 12,
+      "totalIntervals": 12
+    },
+    "leg_near.rotate": {
+      "movingIntervals": 12,
+      "totalIntervals": 12
+    },
+    "leg_near.translate": {
+      "movingIntervals": 12,
+      "totalIntervals": 12
+    }
+  },
+  "bodyBobPeakCount": 2,
+  "legLiftLocalPx": {
+    "leg_far": 4.0,
+    "leg_near": 4.0
+  },
+  "coordinates": {
+    "leg_far": {
+      "pivotYUpCorrect": true,
+      "attachmentRestoresCrop": true
+    },
+    "leg_near": {
+      "pivotYUpCorrect": true,
+      "attachmentRestoresCrop": true
+    },
+    "body": {
+      "pivotYUpCorrect": true,
+      "attachmentRestoresCrop": true
+    },
+    "arm_far": {
+      "pivotYUpCorrect": true,
+      "attachmentRestoresCrop": true
+    },
+    "arm_near": {
+      "pivotYUpCorrect": true,
+      "attachmentRestoresCrop": true
+    },
+    "head": {
+      "pivotYUpCorrect": true,
+      "attachmentRestoresCrop": true
+    }
+  },
+  "pngAlpha": {
+    "source768.png": {
+      "mode": "RGBA",
+      "size": [
+        768,
+        768
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "nonzeroAlphaPixels": 131786,
+      "transparentPixels": 458038,
+      "partialAlphaPixels": 2788
+    },
+    "right_front_3q_assembly.png": {
+      "mode": "RGBA",
+      "size": [
+        768,
+        768
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "nonzeroAlphaPixels": 131786,
+      "transparentPixels": 458038,
+      "partialAlphaPixels": 2788
+    },
+    "right_front_3q_original_assembly.png": {
+      "mode": "RGBA",
+      "size": [
+        768,
+        768
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "nonzeroAlphaPixels": 131786,
+      "transparentPixels": 458038,
+      "partialAlphaPixels": 2788
+    },
+    "right_front_walk.png": {
+      "mode": "RGBA",
+      "size": [
+        414,
+        1003
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "nonzeroAlphaPixels": 137690,
+      "transparentPixels": 277552,
+      "partialAlphaPixels": 3032
+    },
+    "parts/leg_far.png": {
+      "mode": "RGBA",
+      "size": [
+        79,
+        104
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "nonzeroAlphaPixels": 6022,
+      "transparentPixels": 2194,
+      "partialAlphaPixels": 213
+    },
+    "parts/leg_near.png": {
+      "mode": "RGBA",
+      "size": [
+        90,
+        110
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "nonzeroAlphaPixels": 7595,
+      "transparentPixels": 2305,
+      "partialAlphaPixels": 217
+    },
+    "parts/body.png": {
+      "mode": "RGBA",
+      "size": [
+        145,
+        176
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "nonzeroAlphaPixels": 18414,
+      "transparentPixels": 7106,
+      "partialAlphaPixels": 27
+    },
+    "parts/arm_far.png": {
+      "mode": "RGBA",
+      "size": [
+        53,
+        104
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "nonzeroAlphaPixels": 2864,
+      "transparentPixels": 2648,
+      "partialAlphaPixels": 144
+    },
+    "parts/arm_near.png": {
+      "mode": "RGBA",
+      "size": [
+        90,
+        138
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "nonzeroAlphaPixels": 7226,
+      "transparentPixels": 5194,
+      "partialAlphaPixels": 226
+    },
+    "parts/head.png": {
+      "mode": "RGBA",
+      "size": [
+        410,
+        347
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "nonzeroAlphaPixels": 95187,
+      "transparentPixels": 47083,
+      "partialAlphaPixels": 1961
+    },
+    "parts/original/leg_far.png": {
+      "mode": "RGBA",
+      "size": [
+        79,
+        96
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "nonzeroAlphaPixels": 5281,
+      "transparentPixels": 2303,
+      "partialAlphaPixels": 213
+    },
+    "parts/original/leg_near.png": {
+      "mode": "RGBA",
+      "size": [
+        90,
+        100
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "nonzeroAlphaPixels": 6955,
+      "transparentPixels": 2045,
+      "partialAlphaPixels": 217
+    },
+    "parts/original/body.png": {
+      "mode": "RGBA",
+      "size": [
+        140,
+        160
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "nonzeroAlphaPixels": 14273,
+      "transparentPixels": 8127,
+      "partialAlphaPixels": 27
+    },
+    "parts/original/arm_far.png": {
+      "mode": "RGBA",
+      "size": [
+        53,
+        104
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "nonzeroAlphaPixels": 2864,
+      "transparentPixels": 2648,
+      "partialAlphaPixels": 144
+    },
+    "parts/original/arm_near.png": {
+      "mode": "RGBA",
+      "size": [
+        90,
+        138
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "nonzeroAlphaPixels": 7226,
+      "transparentPixels": 5194,
+      "partialAlphaPixels": 226
+    },
+    "parts/original/head.png": {
+      "mode": "RGBA",
+      "size": [
+        410,
+        347
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "nonzeroAlphaPixels": 95187,
+      "transparentPixels": 47083,
+      "partialAlphaPixels": 1961
+    }
+  },
+  "atlasExtrusion": {
+    "leg_far": true,
+    "leg_near": true,
+    "body": true,
+    "arm_far": true,
+    "arm_near": true,
+    "head": true
+  },
+  "originalAssemblyMetrics": {
+    "comparedPixels": 131786,
+    "changedPixels": 0,
+    "changedPixelsInProceduralSupport": 0,
+    "changedPixelsOutsideProceduralSupport": 0,
+    "alphaChangedPixels": 0,
+    "alphaMaxAbsoluteError": 0.0,
+    "premultipliedRgbMAEOnForeground": 0.0,
+    "premultipliedRgbMaxAbsoluteError": 0.0,
+    "note": "程序补底覆盖区的有意像素差异不等于美术验收；透明像素RGB不计入重组误差"
+  },
+  "assemblyMetrics": {
+    "comparedPixels": 131786,
+    "changedPixels": 0,
+    "changedPixelsInProceduralSupport": 0,
+    "changedPixelsOutsideProceduralSupport": 0,
+    "alphaChangedPixels": 0,
+    "alphaMaxAbsoluteError": 0.0,
+    "premultipliedRgbMAEOnForeground": 0.0,
+    "premultipliedRgbMaxAbsoluteError": 0.0,
+    "note": "程序补底覆盖区的有意像素差异不等于美术验收；透明像素RGB不计入重组误差"
+  },
+  "proceduralSupport": {
+    "method": "局部程序补底，不是AI补画",
+    "bodyBandPixels": {
+      "neck": 907,
+      "shoulder_near": 1336,
+      "shoulder_far": 372,
+      "hip": 1636
+    },
+    "bodyHipOriginalOverlapPixels": 1636,
+    "bodyInpaintPixelsRetained": 2505,
+    "neckFragmentsReassignedToHead": 425,
+    "bodyMaximumDistancePx": 14,
+    "legUpwardExtensionLimitPx": 10,
+    "inpaintRadiusPx": 3,
+    "supportPixels": {
+      "leg_far": 741,
+      "leg_near": 640,
+      "body": 4141,
+      "arm_far": 0,
+      "arm_near": 0,
+      "head": 0
+    },
+    "bodyIslandsReassigned": [
+      {
+        "pixels": 6,
+        "reassignedTo": "head"
+      },
+      {
+        "pixels": 1,
+        "reassignedTo": "arm_far"
+      },
+      {
+        "pixels": 110,
+        "reassignedTo": "arm_far"
+      },
+      {
+        "pixels": 41,
+        "reassignedTo": "leg_far"
+      }
+    ],
+    "originalPixelsPreservedPerPart": {
+      "head": true,
+      "arm_near": true,
+      "arm_far": true,
+      "leg_near": true,
+      "leg_far": true,
+      "body": true
+    },
+    "newPixelsOutsideSourceSilhouette": 0,
+    "legSupportCoveredByOpaqueBody": true
+  },
+  "notVerified": [
+    "动态画面逐帧美术验收",
+    "Spine/Unity实际运行时导入与播放",
+    "脚锁/IK（尚未实现）"
+  ],
+  "artReview": "样件待美术精修/验收",
+  "limitations": [
+    "局部程序补底，不是AI补画；隐藏区未AI补全，不代表完全没有补底",
+    "仅颈肩/髋窄带及腿切口内部重叠带有程序支撑色，不代表真实被遮挡结构",
+    "当前为刚性region，不含mesh/weights/IK；没有脚锁，不保证脚底不滑动",
+    "摆幅受有限支撑范围约束，样件待美术精修及Spine/Unity目标运行时验收"
+  ],
+  "archive": {
+    "file": "right_front_walk.zip",
+    "members": [
+      "manifest.json",
+      "right_front_walk.json",
+      "right_front_walk.atlas",
+      "right_front_walk.atlas.txt",
+      "right_front_walk.png",
+      "right_front_3q_assembly.png",
+      "right_front_3q_original_assembly.png",
+      "source768.png",
+      "parts_contact.png",
+      "procedural_support_mask.png",
+      "quality_report.json",
+      "parts/leg_far.png",
+      "parts/leg_near.png",
+      "parts/body.png",
+      "parts/arm_far.png",
+      "parts/arm_near.png",
+      "parts/head.png",
+      "parts/original/leg_far.png",
+      "parts/original/leg_near.png",
+      "parts/original/body.png",
+      "parts/original/arm_far.png",
+      "parts/original/arm_near.png",
+      "parts/original/head.png"
+    ],
+    "crcCheckPassed": true
+  }
+}

@@ -1,0 +1,3 @@
+当前外观基准：video_motion_study_20261119/pixel_bound_refined_20261120/source_pixels_ik_refined.spine。用户已确认带原始皮肤像素的IK试装基本还原AI视频效果。
+
+本轮新增 attachment_provenance.json 与 SOURCE_PIXEL_POLICY.md，核对161个附件均为不同源帧裁剪；没有可安全的逐像素重复附件可合并。新版包 source_pixels_ik_refined_v2_review.zip 已通过CRC、SHA-256和运行时检查。继续方向是逐部位做视觉对比后减少姿态，而不是机械删附件。工作台尚未接入生产版本。

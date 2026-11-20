@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>棉花娃娃｜动作制作工作台 v3</title>
+<style>
+:root{color-scheme:dark;--bg:#141619;--panel:#1d2126;--panel2:#252a31;--line:#353c45;--text:#edf0f2;--muted:#a3adb7;--accent:#8bc7b4;--warn:#e6bd77;--bad:#df8d88;--good:#86c49d}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 system-ui,"Microsoft YaHei",sans-serif}header{min-height:64px;padding:12px 24px;display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);background:#191c20;position:sticky;top:0;z-index:2}h1{font-size:17px;margin:0;font-weight:600}small,.muted{color:var(--muted)}button,select,input,textarea{font:inherit;color:inherit}button{background:var(--panel2);border:1px solid var(--line);border-radius:7px;padding:8px 12px;cursor:pointer}button:hover{border-color:var(--accent)}button.active{background:#244239;border-color:var(--accent)}button:disabled{opacity:.5;cursor:not-allowed}input,select,textarea{background:#14171a;border:1px solid var(--line);border-radius:6px;padding:9px}input[type=checkbox]{width:auto}main{padding:20px 24px;max-width:1600px;margin:auto}.tabs,.row,.toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.tabs{margin-bottom:16px}.layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:16px;align-items:start}.card{min-width:0;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;margin-bottom:16px}.card h2{font-size:15px;margin:0 0 12px}.field{display:grid;gap:6px;margin:10px 0}.field input,.field select,.field textarea{width:100%}.field textarea{min-height:100px;resize:vertical}.notice{border-left:3px solid var(--warn);padding:8px 12px;background:#29251d;color:#e8d8b9;border-radius:4px}.hidden{display:none!important}.badge{display:inline-block;border:1px solid var(--line);border-radius:99px;padding:3px 8px;color:var(--muted);font-size:12px}.badge.pending{color:var(--warn)}.badge.ready{color:var(--good)}.guide-header{display:flex;align-items:center;justify-content:space-between;gap:12px}.stage-guide{border-left:3px solid #519d83}.stage-guide p{margin-bottom:0}.step-state{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:999px;padding:4px 9px;font-size:11px;white-space:nowrap}.state-ready{color:#9fe0c5;border-color:#386b58;background:#1c302a}.state-wait{color:#c2c7cb;background:#25292d}.state-done{color:#a9d8ff;border-color:#375872;background:#1d2b36}.footer{color:var(--muted);font-size:12px;padding:6px 0 22px}
+.stage{height:570px;border:1px solid var(--line);border-radius:8px;background-color:#20242a;background-image:linear-gradient(45deg,#272c32 25%,transparent 25%),linear-gradient(-45deg,#272c32 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#272c32 75%),linear-gradient(-45deg,transparent 75%,#272c32 75%);background-size:24px 24px;background-position:0 0,0 12px,12px -12px,-12px 0;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}.stage img{max-height:92%;max-width:90%;object-fit:contain;filter:drop-shadow(0 4px 16px #0008)}.placeholder{text-align:center;color:var(--muted);padding:18px}.stage-caption{position:absolute;left:12px;top:10px;background:#141619d9;padding:5px 9px;border-radius:5px}.toolbar{margin-top:12px}.grid6{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.view{padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--panel2);cursor:pointer;text-align:center;overflow-wrap:anywhere}.view.selected{border-color:var(--accent)}.view img{height:100px;max-width:100%;object-fit:contain;display:block;margin:auto auto 4px}.view small{display:block}.character-library{margin:14px 0}.character-library .guide-header{align-items:flex-start}.character-library .guide-header .row{justify-content:flex-end}.character-library input[type=file]{max-width:260px}.character-upload-list{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px}.character-upload-row{display:grid;gap:6px;padding:8px;border:1px solid var(--line);border-radius:6px;background:var(--panel2);min-width:0}.character-upload-row span{font-size:12px;color:var(--muted)}.character-upload-row select{width:100%;min-width:0;padding:6px}
+#tab-pipeline>.layout{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr)}.video-create-card{padding:0;overflow:visible}.video-create-head{display:flex;align-items:center;gap:12px;padding:18px 20px 12px}.video-create-head h2{margin:0}.video-create-head>span{font-size:12px;color:var(--muted)}.jimeng-composer{margin:0 16px 14px;padding:14px 16px 12px;border:1px solid #343b40;border-radius:20px;background:radial-gradient(ellipse at 30% 0%,#242c2e 0%,#1d2225 58%,#1b1f22 100%);box-shadow:0 8px 24px #0002}.composer-main{display:flex;gap:18px;min-height:95px}.composer-reference{display:flex;align-items:center;gap:8px;flex:0 0 auto}.reference-tile{width:56px;height:62px;border:1px solid #3c4448;background:#272e31;transform:rotate(-7deg);border-radius:4px;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;color:#aeb8bc;cursor:pointer;flex:0 0 auto}.reference-tile.end-frame{transform:rotate(6deg)}.reference-tile:hover{border-color:#4ab8e8;transform:rotate(0) scale(1.04)}.reference-tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#1b2022;display:none}.reference-tile.has-image img{display:block}.reference-plus{font-size:20px;line-height:20px}.reference-tile small{font-size:9px}.reference-tile-caption{display:none;position:absolute;bottom:2px;font-size:8px;background:#111b;color:#fff;padding:1px 3px}.reference-tile.has-image .reference-tile-caption{display:block}.reference-tile.has-image small{display:none}.reference-tile input[type=file]{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer;z-index:5}.reference-tile img,.reference-tile small,.reference-plus,.reference-tile-caption{pointer-events:none}.reference-arrow{color:#707b7f;font-size:16px}.composer-input{flex:1;min-width:0;display:flex;flex-direction:column}.composer-input textarea{width:100%;min-height:76px;resize:vertical;border:0;background:transparent;padding:1px 0;outline:none;font-size:14px}.composer-input textarea::placeholder{color:#7e898e}.direction-input{border:0;background:transparent;padding:4px 0;color:var(--muted)}.composer-toolbar{display:grid;grid-template-columns:minmax(0,1fr);gap:10px;border-top:1px solid #ffffff0b;padding-top:11px}.toolbar-left{display:flex;align-items:flex-end;gap:8px 12px;min-width:0;flex-wrap:wrap}.toolbar-right{display:flex;align-items:center;justify-content:flex-end;gap:10px;min-width:0;flex-wrap:wrap;border-top:1px solid #343b40;padding-top:9px}.toolbar-item{display:flex;align-items:center;gap:5px;white-space:nowrap;color:#d0d7d9;font-size:12px;flex:0 0 auto;min-width:0}.toolbar-item select{width:auto;max-width:none;min-height:36px;padding:4px 6px;border:1px solid #394145;border-radius:6px;background:#14171a;font-size:12px;cursor:pointer}.toolbar-separator{display:none}.toolbar-item label{font-size:11px;color:var(--muted)}.mode-item select{width:118px}.model-item select{width:190px}.ratio-item select{width:82px}.resolution-item select{width:190px}.duration-item select{width:72px}.pricing-note{display:block;margin:3px 16px 14px;font-size:11px}.price-chip{font-size:12px;white-space:nowrap}.toolbar-right>.muted{font-size:11px;max-width:none}.mode-item select{max-width:120px;border:1px solid #394246;border-radius:8px;background:#242a2d;padding:6px}.model-item select{max-width:none}.ratio-item select{max-width:none}.duration-item select{max-width:none}.toolbar-right{flex:0 0 auto}.price-chip{font-size:12px;white-space:nowrap}.toolbar-right>.muted{display:none}.composer-submit{width:36px;height:36px;border-radius:50%;padding:0;background:#41484b;border:0;font-size:24px;line-height:1}.composer-submit:hover{background:#1385b6}.reference-options{padding:0 16px}.reference-options label{font-size:12px}.composer-note,.pricing-note{display:block;margin:0 20px 7px;font-size:11px}.reference-picker{position:relative}.reference-picker select{width:100%}.reference-hover{display:none;position:absolute;z-index:8;left:0;top:calc(100% + 8px);width:230px;height:280px;padding:10px;border:1px solid var(--accent);border-radius:10px;background:#161a1e;box-shadow:0 14px 36px #000b;pointer-events:none}.reference-picker:hover .reference-hover,.reference-picker:focus-within .reference-hover{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}.reference-hover img{max-width:100%;max-height:230px;object-fit:contain}.reference-hover span{font-size:12px;color:var(--muted)}.task-controls{padding:12px 20px 16px;border-top:1px solid var(--line);margin-top:12px}.task-controls>label{display:block;margin-bottom:5px;color:var(--muted);font-size:12px}.task-controls .notice{margin-top:10px}.video-result{margin-top:10px;padding:10px;border:1px solid #315149;border-radius:6px;background:#202a2c}.video-result>video{display:block;width:100%;max-height:520px;background:#080a0b;border-radius:4px;margin-bottom:8px}.video-result a{color:#9fe0c5}.video-accept-row{margin-top:12px;padding-top:10px;border-top:1px solid #34413f}.video-accept-row label{display:flex;align-items:center;gap:8px}.next-steps{display:grid;gap:8px;margin-top:12px;padding:12px;border-left:3px solid var(--accent);background:#182321}
+.history-panel{min-width:0}.history-heading{display:flex;justify-content:space-between;align-items:center;gap:12px}.history-heading h2{margin:0}.history-import{display:flex;gap:8px;margin:14px 0}.history-import input{min-width:0;flex:1}.history-list{display:grid;gap:14px}.history-item{border:1px solid var(--line);border-radius:10px;padding:14px;background:#191d21;min-width:0}.history-item h3{margin:0;font-size:14px}.history-item video{display:block;width:100%;height:240px;object-fit:contain;background:#101214;border-radius:6px;margin:12px 0}.history-meta{font-size:12px;color:var(--muted);overflow-wrap:anywhere;margin:7px 0}.history-prompt{white-space:pre-wrap;overflow-wrap:anywhere;background:#13171a;border:1px solid var(--line);border-radius:6px;padding:10px;font-family:inherit;font-size:12px;line-height:1.6;max-height:180px;overflow:auto;margin:8px 0}.history-empty{padding:25px 12px;color:var(--muted);border:1px dashed var(--line);border-radius:8px}.history-item label{display:flex;align-items:center;gap:8px;margin:10px 0}.history-message{font-size:12px;color:var(--warn);margin:8px 0}.history-fields{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}.history-fields label{display:block;font-size:12px;color:var(--muted);margin:0}.history-fields select{width:100%;margin-top:5px}
+#optimizeH3Prompt{background:#18783b;border-color:#23944c;color:#fff;font-weight:600}#optimizeH3Prompt:hover:not(:disabled){background:#126130;border-color:#31b461}#optimizeH3Prompt:disabled{background:#315a3d;border-color:#476b51;color:#e1e9e3;opacity:1;cursor:not-allowed}
+.history-delete-button{background:#b83232;border-color:#d54b4b;color:#fff}.history-delete-button:hover:not(:disabled){background:#942626;border-color:#e16a6a}.history-delete-button:disabled{background:#704040;border-color:#855252;color:#f4e4e4;opacity:1;cursor:not-allowed}
+.last-frame-local-field{display:none}#lastFrameSourceField:not(.hidden)~.last-frame-local-field{display:grid}#lastFrameCharacterField:not(.hidden)+.last-frame-local-field{display:none}
+@media(max-width:1050px){#tab-pipeline>.layout{grid-template-columns:1fr}}@media(max-width:900px){.layout{grid-template-columns:1fr}.stage{height:440px}main{padding:14px}.character-upload-list{grid-template-columns:repeat(2,minmax(0,1fr))}.character-library .guide-header{flex-direction:column}.character-library .guide-header .row{justify-content:flex-start}}@media(max-width:600px){.jimeng-composer{margin:0 10px 12px;padding:12px}.composer-main{gap:10px}.composer-reference{gap:4px}.reference-tile{width:43px;height:52px}.toolbar-left{gap:8px}.toolbar-item select{font-size:11px}.toolbar-right{justify-content:space-between}.video-create-head{padding:14px 12px 10px}.reference-options{padding:0 12px}.history-fields{grid-template-columns:1fr}.history-import{flex-wrap:wrap}.history-item video{height:200px}}
+</style>
+</head>
+<body>
+<header><div><h1>棉花娃娃｜动作制作工作台 v3</h1><small>角色素材 · 视频生成 · 序列帧 · Spine骨骼动画</small></div><span class="badge pending" id="projectStatus">素材检查中</span></header>
+<main>
+<nav class="tabs workflow-tabs" aria-label="制作工作区"><button class="active" data-tab="assets" type="button">01 角色素材</button><button data-tab="pipeline" type="button">02 视频生成</button></nav>
+<section id="tab-assets">
+<div class="card stage-guide"><h2>角色素材准备</h2><p>选择已有角色，或上传新角色的方向 PNG。原图和角色记录独立保留；视频生成与序列帧制作按当前角色使用素材。</p></div>
+<div class="card character-library"><div class="guide-header"><div><h2>角色素材库</h2><p class="muted">每个角色独立保存六方向原图；新增角色不会覆盖已有角色。</p></div><div class="row"><select id="characterSelect" aria-label="当前角色"></select><input id="characterName" placeholder="新角色名称"><input id="characterFiles" type="file" accept="image/png" multiple aria-label="选择角色方向 PNG"><button id="saveCharacter" type="button">添加角色</button></div></div><p id="characterLibraryStatus" class="muted" role="status">读取本机角色库…</p><div id="characterUploadList" class="character-upload-list"></div></div>
+<div class="layout"><div class="card"><h2>六朝向角色检查</h2><div class="stage" id="stage"><div class="placeholder">正在载入角色素材…</div></div><div class="toolbar"><span class="muted">视角：</span><div class="row" id="viewButtons"></div><span class="muted">显示：</span><button id="toggleGrid" class="active" type="button">透明网格</button><button id="fitView" type="button">适配画布</button></div><div class="toolbar"><span class="badge" id="imageInfo">读取图片信息…</span><span class="badge" id="scaleInfo">统一预览比例</span></div></div><div><div class="card"><h2>六张原始角色图</h2><div class="grid6" id="thumbs"></div><p class="notice">方向标签沿用素材文件夹命名；左/右按素材标注，不换算成角色自身左右。六张是完整整图。</p></div></div></div>
+</section>
+<section id="tab-pipeline" class="hidden">
+<div class="card stage-guide"><div class="guide-header"><h2>视频生成器</h2><span id="videoStageBadge" class="step-state state-ready">可生成 / 选择历史视频</span></div><p>选择角色与朝向，描述动作并生成视频。任务每 2 秒自动查询；历史视频可直接交给序列帧模块，不再经过动作规格、命名或拆件表单。</p></div>
+<div class="layout"><div class="card video-create-card">
+<div class="video-create-head"><h2>创作视频</h2><span>Seedance / MinimaxH3 · 动作参考生成</span></div>
+<div class="jimeng-composer"><div class="composer-main"><div class="composer-reference">
+<label class="reference-tile" id="composerReferenceTile" aria-label="添加首帧图片"><span class="reference-plus">＋</span><small>首帧</small><img id="composerReferenceImage" alt="首帧角色预览"><span class="reference-tile-caption">选择首帧</span><input id="firstFrameFile" type="file" accept="image/png,image/jpeg,image/webp" aria-label="选择首帧图片"></label><div class="reference-arrow">→</div>
+<label class="reference-tile end-frame" id="composerEndFrameTile" aria-label="添加尾帧图片"><span class="reference-plus">＋</span><small>尾帧</small><img id="composerEndFrameImage" alt="尾帧预览"><span class="reference-tile-caption">选择尾帧</span><input id="lastFrameFile" type="file" accept="image/png,image/jpeg,image/webp" aria-label="选择尾帧图片"></label>
+</div><div class="composer-input"><textarea id="videoPrompt" placeholder="输入文字，描述画面内容、运动方式等。例如：棉花娃娃在原地轻轻挥手，镜头固定，动作自然连贯。"></textarea><input id="videoDirection" class="direction-input" placeholder="动作目标（可选），如：右前¾侧 / 原地循环"></div></div>
+<div class="composer-toolbar"><div class="toolbar-left"><div class="toolbar-item mode-item"><label for="generationMode">生成方式</label><select id="generationMode"><option value="first_last">首尾帧生成</option><option value="first_frame">首帧生成</option><option value="text">文生视频</option></select></div><span class="toolbar-separator"></span><div class="toolbar-item model-item"><label for="videoModel">模型</label><select id="videoModel" aria-label="视频模型"><option value="doubao-seedance-2-5-260628">即梦 Seedance 2.5</option><option value="doubao-seedance-2-0-260128">Seedance 2.0</option><option value="doubao-seedance-2-0-mini-260615">Seedance 2.0 mini</option><option value="doubao-seedance-2-0-fast-260128">Seedance 2.0 fast</option><option value="minimax-h3-comfy">MinimaxH3</option></select></div><div class="toolbar-item ratio-item"><label for="videoRatio">比例</label><select id="videoRatio" aria-label="视频比例"><option value="16:9">16:9</option><option value="adaptive">自适应</option><option value="9:16">9:16</option><option value="1:1">1:1</option><option value="4:3">4:3</option><option value="3:4">3:4</option></select></div><div class="toolbar-item resolution-item"><label for="videoResolution">分辨率</label><select id="videoResolution" aria-label="视频分辨率"></select></div><div class="toolbar-item duration-item"><label for="videoDuration">时长</label><select id="videoDuration" aria-label="视频时长"><option>5</option><option>2</option><option>3</option><option>4</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>20</option><option>25</option><option>30</option></select><span>s</span></div><div id="h3OptimizeControl" class="hidden"><button id="optimizeH3Prompt" type="button">优化提示词</button><div id="optimizeH3Status" class="muted" role="status" aria-live="polite" style="font-size:12px"></div></div></div><div class="toolbar-right"><span class="price-chip" id="priceEstimate">费用计算中</span><button id="submitVideo" class="composer-submit" title="生成视频" type="button">↑</button></div></div></div>
+<div class="reference-options">
+<div class="field"><label for="videoAction">本次动作（随视频保存）</label><select id="videoAction"><option value="idle_stand">待机·站立 / idle_stand</option><option value="walk">行走 / walk</option><option value="think">思考 / think</option><option value="scratch_head">扣脑袋 / scratch_head</option></select></div>
+<div class="field source-select-field"><label for="referenceSource">首帧来源</label><select id="referenceSource"><option value="character">引用角色朝向素材</option><option value="local">上传本地图片</option><option value="url">公网 HTTPS 图片 URL</option></select></div>
+<div class="field" id="characterReferenceField"><label for="characterReference">首帧素材</label><div class="reference-picker"><select id="characterReference"></select><div id="referenceHover" class="reference-hover"><img id="referenceHoverImage" alt="角色素材悬停预览"><span id="referenceHoverLabel"></span></div></div><small class="muted">悬停预览；选择后作为首帧。</small></div>
+<div class="field hidden" id="uploadReferenceField"><label for="firstFrameFile">首帧素材</label><span class="muted">点击上方首帧卡片上传本地图片；图片仅在提交生成时发送。</span><button id="uploadReference" type="button">保存当前首帧到本机素材库</button><small class="muted" id="referenceUploadNote">本地参考图以 Base64 发送至方舟，不上传到公开图床。</small></div>
+<div class="field hidden" id="urlReferenceField"><label for="referenceUrl">首帧素材</label><input id="referenceUrl" placeholder="输入火山方舟可访问的公网 HTTPS 图片地址"></div>
+<div class="field hidden" id="lastFrameSourceField"><label for="lastFrameSource">尾帧来源</label><select id="lastFrameSource"><option value="character">引用角色朝向素材</option><option value="local">上传本地图片</option></select></div>
+<div class="field hidden" id="lastFrameCharacterField"><label for="lastFrameCharacter">尾帧素材</label><select id="lastFrameCharacter"></select></div>
+<div class="field last-frame-local-field"><label for="lastFrameFile">尾帧素材</label><small class="muted">点击上方尾帧卡片上传本地图片。</small></div>
+</div>
+<div id="referenceStatus" class="muted composer-note">引用的角色素材会以 Base64 随任务发送。</div><small class="muted pricing-note" id="pricingNote">价格为估算值，最终以方舟任务 usage 与控制台账单为准；当前接口单次生成 1 条。</small>
+<div class="task-controls"><label for="videoTaskId">任务 ID</label><div class="row"><input id="videoTaskId" placeholder="生成后自动填入" style="flex:1;min-width:0"><button id="queryVideo" type="button">查询状态</button></div><div id="videoStatus" class="notice" role="status">尚未提交任务。API Key 仅由本机服务读取环境变量。</div><div id="videoResult" class="video-result hidden"><video id="videoPlayer" controls playsinline preload="metadata"></video><a id="videoResultLink" target="_blank" rel="noreferrer">在新窗口打开视频</a><div class="video-accept-row"><label><input id="videoAccepted" type="checkbox">我已验收此视频</label></div><div class="field"><label for="videoAcceptanceNotes">视频验收记录（可选）</label><textarea id="videoAcceptanceNotes" placeholder="记录关键姿势、节奏、循环首尾或需要修正的问题"></textarea></div><div class="next-steps" id="nextSteps"><span>将此视频交给序列帧模块继续制作。</span><button id="toSequence" type="button">制作序列帧</button></div></div></div>
+</div><aside class="card history-panel" aria-labelledby="historyTitle"><div class="history-heading"><h2 id="historyTitle">历史动作视频</h2><span id="historyCount" class="badge">0 条</span></div><p class="muted">仅显示当前角色的视频。播放、验收、调整动作和朝向，或直接制作序列帧；记录保存在当前浏览器。</p><div class="history-import"><input id="historyTaskId" placeholder="输入已有任务 ID，找回视频" aria-label="历史任务 ID"><button id="importHistoryTask" type="button">找回任务</button></div><p id="historyStatus" class="muted" role="status" aria-live="polite"></p><div id="videoHistoryList" class="history-list"></div></aside></div>
+</section>
+<section id="tab-spineRig" class="hidden"><div class="card stage-guide"><div class="guide-header"><div><h2>05 骨骼与动作制作工作台</h2><p class="muted">A 源视频 → B 部件 → C 来源审阅 / 观测 → D Profile 骨骼动作联合编辑 → E 来源校验与非生产运行包导出。</p></div><span class="badge pending" id="rigStageBadge">任务 Profile 联合编辑</span></div><div class="notice">profile_walk_v1 将直接挂载于本工作台，不跳转独立页。characterId=null 不归属当前角色；允许按任务与源 SHA 隔离的动作草稿。编辑版必须重新验收，运行包不是 .spine 源工程。</div><div class="rig-stage-strip" id="rigStageStrip"></div></div><div class="layout"><div><div class="card rig-step-panel rig-step-A"><div class="guide-header"><h2>1 / 四套源方向</h2><span class="badge" id="rigViewSummary">0 / 4 已准备</span></div><p class="muted">六个运行方向由四套源方向覆盖：左前¾镜像右前¾，左后¾镜像右后¾。正面与背面不是镜像关系。</p><div class="rig-view-grid" id="rigViewGrid"></div></div><div class="card rig-step-panel rig-step-D"><div class="guide-header"><h2>4 / 检查动作模板</h2><span class="badge" id="rigActionSummary">0 / 8 已启用</span></div><div class="rig-action-grid" id="rigActionGrid"></div><p class="muted">首版移动动作只放在前¾与后¾源方向；正面、背面暂用于待机和非移动互动。方向动作共享节奏，但姿态、遮挡和锚点仍需分别验收。</p></div><div class="card rig-step-panel rig-step-C"><div class="guide-header"><h2>3 / 关节点确认</h2><span class="badge" id="rigAnchorSummary">0 / 12 锚点已保存</span></div><p class="muted" id="rigAnchorSource">先在上方选择一个源方向，再填写少量关节点。坐标采用 0 到 1 的归一化图片坐标。</p><div class="rig-anchor-preview" id="rigAnchorPreview"><div class="rig-anchor-empty">选择有素材的源方向后，这里会显示锚点预览。</div></div><div class="rig-anchor-grid" id="rigAnchorGrid"></div><p class="muted">当前阶段只记录锚点，不自动生成权重；脚底、髋部和肩肘位置必须先通过视觉预览确认。</p></div><div class="card rig-step-panel rig-step-C"><h2>3 / 关节点检查清单</h2><div class="rig-checklist" id="rigChecklist"></div></div><div class="card rig-step-panel rig-step-B"><div class="guide-header"><h2>2 / 标准拆件与映射</h2><span class="badge" id="rigPartSummary">0 / 15 部件已确认</span></div><p class="muted" id="rigPartSource">先选择一个源方向，再确认部件归属。系统只记录确认结果，不会把整帧序列假装成骨骼。</p><div class="rig-part-grid" id="rigPartGrid"></div></div></div><aside><div class="card rig-step-panel rig-step-C"><div class="guide-header"><h2>3 / 骨架与运行数据</h2><span class="badge pending" id="rigDataBadge">结构草稿</span></div><pre class="rig-tree" id="rigTree"></pre><p class="muted">运行数据草稿已建立，但附件仍需替换为真实拆件 PNG/atlas；当前不代表已经完成自动绑定。</p><button id="rigOpenRuntimeDraft" type="button">查看运行数据状态</button><p id="rigDataStatus" class="muted" role="status"></p></div><div class="card rig-step-panel rig-step-B"><h2>2 / 附件与换装规则</h2><div id="rigRuleCards"></div></div><div class="card rig-step-panel rig-step-D"><div class="guide-header"><h2>4 / 动作适配记录</h2><span class="badge" id="rigActionNote">按动作逐项检查</span></div><p class="muted">动作模板先记录节奏、源方向和验收结果；坐下/躺下需要专用姿态与补画，不能直接压缩走路骨架。</p><div class="card-note">当前动作记录不会生成最终 Spine 曲线，也不会把 AI 视频逐帧当成可复用骨骼。</div></div><div class="card rig-step-panel rig-step-E"><div class="guide-header"><h2>V3-05-E 验收记录</h2><span class="badge pending" id="rigAcceptanceBadge">待实机验收</span></div><p class="muted">这里只记录明天的验收结果，不预填性能结论。请在目标手机和 Unity 场景中完成检查后勾选。</p><div id="rigAcceptanceList" class="rig-checklist"></div><div class="field"><label for="rigAcceptanceNotes">验收备注</label><textarea id="rigAcceptanceNotes" placeholder="记录设备型号、角色数量、服装组合、动作、FPS/内存/过绘观察和问题"></textarea></div><button id="rigSaveAcceptance" type="button">保存验收记录</button><p id="rigAcceptanceStatus" class="muted" role="status"></p></div><div class="card"><h2>步骤操作</h2><p class="muted">每一步只显示当前需要操作的功能；完成后点击进入下一步。</p><button id="rigUseCurrent" type="button">使用当前角色开始模板</button><button id="rigNextStep" type="button">进入下一步</button><button id="rigOpenDesignDoc" type="button">查看设计文档说明</button><p id="rigStatus" class="muted" role="status"></p></div></aside></div></section><div class="footer">本地工作台 v3 · 火山方舟任务代理 · 序列帧与Spine骨骼动画设计预览</div>
+</main>
+<script>
+const root='/character-source/';
+const views=[['front','正面','正面图层.png'],['back','背面','背面图层.png'],['right_front_3q','右前¾侧','右前¾侧图层.png'],['right_back_3q','右后¾侧','右后¾侧图层.png'],['left_front_3q','左前¾侧','左前¾侧图层.png'],['left_back_3q','左后¾侧','左后¾侧图层.png']];
+const legacyCharacterId='legacy_six_view';
+let selected=0,activeCharacterId=localStorage.getItem('cotton_active_character')||legacyCharacterId;
+let characterRecords=[],activeViews=views.map(v=>[...v]),sourceImageUrls=new Map();
+window.activeCharacterId=activeCharacterId;
+const $=s=>document.querySelector(s),stage=$('#stage');
+window.viewUrl=viewUrl;
+Object.defineProperty(window,'activeViews',{get:()=>activeViews});
+window.goToTab=function(id){
+  const section=document.getElementById('tab-'+id);
+  if(!section)return false;
+  document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab===id));
+  document.querySelectorAll('main>section').forEach(s=>s.classList.toggle('hidden',s!==section));
+  window.scrollTo({top:0,behavior:'instant'});
+  return true;
+};
+document.addEventListener('click',e=>{const button=e.target.closest('[data-tab]');if(button)window.goToTab(button.dataset.tab)});
+function viewUrl(viewId,filename){return sourceImageUrls.get(viewId)||root+encodeURIComponent(filename)}
+function selectView(i){
+  selected=i;renderViews();const v=activeViews[i];stage.replaceChildren();
+  if(!v?.[2]){const message=document.createElement('div');message.className='placeholder';message.textContent='当前角色尚未上传此方向素材';stage.append(message);$('#imageInfo').textContent=`${v?.[1]||'朝向'} · 未上传`;$('#projectStatus').textContent='当前方向缺少素材';$('#projectStatus').className='badge pending';return}
+  const url=viewUrl(v[0],v[2]),img=document.createElement('img'),caption=document.createElement('span');
+  img.alt=v[1]+'角色图';caption.className='stage-caption';caption.textContent=v[1]+' · '+v[2];
+  img.onload=()=>loadImageMeta(url);img.onerror=()=>{$('#imageInfo').textContent='无法加载：'+v[2];$('#projectStatus').textContent='素材加载失败';$('#projectStatus').className='badge pending'};
+  img.src=url;stage.append(img,caption);$('#imageInfo').textContent=`视角 ${v[1]} · 正在读取 PNG`;
+}
+function renderViews(){
+  const host=$('#viewButtons');host.replaceChildren();
+  activeViews.forEach((v,i)=>{const b=document.createElement('button');b.type='button';b.textContent=v[1];b.className=i===selected?'active':'';b.disabled=!v[2];b.onclick=()=>selectView(i);host.append(b)});
+  document.querySelectorAll('#thumbs .view').forEach((x,i)=>x.classList.toggle('selected',i===selected));
+}
+function renderThumbs(){
+  const host=$('#thumbs');host.replaceChildren();
+  activeViews.forEach((v,i)=>{const card=document.createElement('div');card.className='view'+(i===selected?' selected':'');if(v[2]){const img=document.createElement('img');img.src=viewUrl(v[0],v[2]);img.alt=v[1];card.append(img)}else{const empty=document.createElement('div');empty.className='placeholder';empty.textContent='未上传';card.append(empty)}const label=document.createElement('span'),file=document.createElement('small');label.textContent=v[1];file.textContent=v[2]||'未上传';card.append(label,file);card.onclick=()=>selectView(i);host.append(card)});
+}
+function loadImageMeta(url){
+  const img=new Image();img.onload=()=>{if(url!==viewUrl(activeViews[selected][0],activeViews[selected][2]))return;const c=document.createElement('canvas');c.width=img.naturalWidth;c.height=img.naturalHeight;const ctx=c.getContext('2d',{willReadFrequently:true});ctx.drawImage(img,0,0);const data=ctx.getImageData(0,0,c.width,c.height).data;let transparent=0,semi=0;for(let i=3;i<data.length;i+=4){if(data[i]===0)transparent++;else if(data[i]<255)semi++}$('#imageInfo').textContent=`${img.naturalWidth}×${img.naturalHeight} · Alpha透明 ${(transparent/(data.length/4)*100).toFixed(1)}% · 半透明 ${(semi/(data.length/4)*100).toFixed(1)}%`;$('#projectStatus').textContent='素材已载入';$('#projectStatus').className='badge ready'};img.src=url;
+}
+$('#toggleGrid').onclick=e=>{const enabled=e.currentTarget.classList.toggle('active');stage.style.backgroundImage=enabled?'':'none'};
+$('#fitView').onclick=()=>selectView(selected);
+let selectedReferenceData='',selectedLastFrameData='',statusTimer=null,characterRevision=0;
+const statusRequests=new Set();
+function stopStatusPolling(){if(statusTimer){clearInterval(statusTimer);statusTimer=null}}
+function setStatus(text){$('#videoStatus').textContent=text}
+function readSaved(key,fallback=null){try{return JSON.parse(localStorage.getItem(key)||'null')??fallback}catch(_){return fallback}}
+function showVideoResult(url){
+  let parsed;try{parsed=new URL(url,location.href)}catch(_){return}if(!['http:','https:'].includes(parsed.protocol))return;
+  const player=$('#videoPlayer');if(player.getAttribute('src')!==parsed.href)player.src=parsed.href;
+  $('#videoResultLink').href=parsed.href;$('#videoResult').classList.remove('hidden');
+  const id=$('#videoTaskId').value.trim();$('#videoAccepted').checked=localStorage.getItem('cotton_video_accepted_'+id)==='1';
+  $('#videoAcceptanceNotes').value=localStorage.getItem('cotton_video_notes_'+id)||'';
+  window.CottonHistory?.recordResult(id,{status:'succeeded',content:{video_url:parsed.href}});
+  window.CottonHistory?.updateWorkflowState();
+}
+async function queryVideoStatus(){
+  const task_id=$('#videoTaskId').value.trim(),characterId=activeCharacterId,revision=characterRevision;
+  if(!task_id){setStatus('请填写任务 ID。');return null}
+  const history=window.CottonHistory;
+  if(!history?.prepareTaskQuery){stopStatusPolling();setStatus('历史安全模块尚未就绪，请稍后重新查询。');return null}
+  if(history.isDeleted?.(task_id)){stopStatusPolling();return null}
+  if(!history.prepareTaskQuery(task_id,characterId)){stopStatusPolling();setStatus('任务 ID 无效或属于其他角色，已阻止查询；请检查历史提示并切换到对应角色。');return null}
+  const requestKey=JSON.stringify([characterId,task_id,revision]);if(statusRequests.has(requestKey))return null;statusRequests.add(requestKey);
+  const isCurrent=()=>characterId===activeCharacterId&&revision===characterRevision&&task_id===$('#videoTaskId').value.trim();
+  try{
+    const r=await fetch('/api/video/tasks/status',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({task_id})}),data=await r.json();
+    if(history.isDeleted?.(task_id))return null;
+    if(!r.ok||!data.ok)throw new Error(data.error||`HTTP ${r.status}`);
+    const result=data.result||{},videoUrl=result.content?.video_url||result.video_url||'',state=result.status||'未知';
+    history.recordResult(task_id,result,characterId);
+    if(!isCurrent())return null;
+    setStatus(`任务状态：${state} · 最近检查 ${new Date().toLocaleTimeString()}${videoUrl?' · 已返回视频结果':''}${result.error?'；错误：'+JSON.stringify(result.error):''}`);
+    if(videoUrl){showVideoResult(videoUrl);stopStatusPolling()}else if(['succeeded','failed','cancelled','canceled','expired'].includes(String(state).toLowerCase()))stopStatusPolling();
+    return result;
+  }catch(e){if(isCurrent()&&!history.isDeleted?.(task_id))setStatus(`最近检查失败：${e.message}${statusTimer?'；2 秒后重试':'；可重新查询'}`);return null}finally{statusRequests.delete(requestKey)}
+}
+function startStatusPolling(){stopStatusPolling();statusTimer=setInterval(queryVideoStatus,2000);queryVideoStatus()}
+const h3Model='minimax-h3-comfy';
+let optimizeRevision=0;
+function isH3(){return $('#videoModel').value===h3Model}
+function resetH3Optimization(){optimizeRevision++;$('#optimizeH3Prompt').disabled=false;$('#optimizeH3Prompt').textContent='优化提示词';$('#optimizeH3Status').textContent=''}
+function h3OptimizationContext(){return JSON.stringify([activeCharacterId,characterRevision,$('#videoModel').value,$('#generationMode').value,$('#videoDuration').value,$('#videoPrompt').value,$('#videoDirection').value,$('#characterReference').value,$('#lastFrameCharacter').value])}
+$('#optimizeH3Prompt').onclick=async()=>{
+  const button=$('#optimizeH3Prompt');if(!isH3()||button.disabled)return;
+  const prompt=$('#videoPrompt').value;if(!prompt.trim()){$('#optimizeH3Status').textContent='请先填写动作描述；也可直接生成。';return}
+  const request=++optimizeRevision,context=h3OptimizationContext(),current=()=>request===optimizeRevision&&context===h3OptimizationContext()&&isH3();
+  let applied=false;button.disabled=true;button.textContent='优化中…';$('#optimizeH3Status').textContent='正在请求提示词服务；失败时原文会保留。';
+  try{
+    const r=await fetch('/api/h3/optimize',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({prompt,direction:$('#videoDirection').value,mode:$('#generationMode').value,duration:Number($('#videoDuration').value)})}),data=await r.json();
+    if(!current())return;if(!r.ok||!data.ok)throw new Error(data.error||`HTTP ${r.status}`);
+    if(typeof data.prompt!=='string'||!data.prompt.trim())throw new Error('服务器未返回提示词');
+    applied=true;$('#videoPrompt').value=data.prompt;$('#videoPrompt').style.height='auto';$('#optimizeH3Status').textContent='已更新提示词，可继续编辑或直接生成。';
+  }catch(e){if(current()){const error=String(e.message||e);$('#optimizeH3Status').textContent='本地 WorkBuddy H3 转写 Agent 调用失败：'+error+'；原文已保留，可直接生成。'}}finally{if(request===optimizeRevision){if(!applied&&context!==h3OptimizationContext())$('#optimizeH3Status').textContent='';button.disabled=false;button.textContent='优化提示词'}}
+};
+
+function updateReferenceUi(){
+  const h3=isH3(),mode=$('#generationMode').value;
+  const firstLabel=h3?'参考图1':'首帧',lastLabel=h3?'参考图2':'尾帧';
+  for(const [value,label] of [['first_last',h3?'双参考图':'首尾帧生成'],['first_frame',h3?'单参考图':'首帧生成'],['text','文生视频']])$('#generationMode option[value="'+value+'"]').textContent=label;
+  for(const [id,label] of [['referenceSource',firstLabel+'来源'],['characterReference',firstLabel+'素材'],['firstFrameFile',firstLabel+'素材'],['referenceUrl',firstLabel+'素材'],['lastFrameSource',lastLabel+'来源'],['lastFrameCharacter',lastLabel+'素材'],['lastFrameFile',lastLabel+'素材']])$('.reference-options label[for="'+id+'"]').textContent=label;
+  for(const [tileId,imageId,fileId,label,alt] of [['composerReferenceTile','composerReferenceImage','firstFrameFile',firstLabel,firstLabel+'角色预览'],['composerEndFrameTile','composerEndFrameImage','lastFrameFile',lastLabel,lastLabel+'预览']]){
+    const tile=$('#'+tileId);tile.setAttribute('aria-label','添加'+label+'图片');tile.querySelector('small').textContent=label;tile.querySelector('.reference-tile-caption').textContent='选择'+label;$('#'+imageId).alt=alt;$('#'+fileId).setAttribute('aria-label','选择'+label+'图片');
+  }
+  $('#characterReferenceField small').textContent='悬停预览；选择后作为'+firstLabel+'。';
+  $('#uploadReferenceField span').textContent='点击上方'+firstLabel+'卡片上传本地图片；图片仅在提交生成时发送。';
+  $('#uploadReference').textContent='保存当前'+firstLabel+'到本机素材库';
+  $('.last-frame-local-field small').textContent='点击上方'+lastLabel+'卡片上传本地图片。';
+  $('#referenceSource option[value="url"]').disabled=h3;
+  if(h3&&$('#referenceSource').value==='url'){$('#referenceSource').value='character';setStatus('H3 不支持图片 URL，已切换为角色素材；也可选择本地图片。')}
+  const source=$('#referenceSource').value;
+  $('#uploadReferenceField').classList.toggle('hidden',source!=='local'||mode==='text');$('#characterReferenceField').classList.toggle('hidden',source!=='character'||mode==='text');$('#urlReferenceField').classList.toggle('hidden',source!=='url'||mode==='text');$('.source-select-field').classList.toggle('hidden',mode==='text');
+  const ratio=$('#videoRatio'),adaptive=$('#videoRatio option[value="adaptive"]');ratio.disabled=mode==='first_last'&&!h3;adaptive.disabled=h3;adaptive.hidden=h3;
+  ratio.title=ratio.disabled?'Seedance 首尾帧按参考图自适应比例。':'';
+  if(ratio.disabled)ratio.value='adaptive';else ratio.value=savedVideoParams[h3?'h3':'seedance'].ratio;
+  updateResolutionOptions();
+  $('#referenceUploadNote').textContent=h3?'本地图片以 dataURL 交给服务器上传至 ComfyUI，不接受图片 URL。':'本地参考图以 Base64 发送至方舟，不上传到公开图床。';
+  const lastSource=$('#lastFrameSource').value,lastView=activeViews[$('#lastFrameCharacter').value];
+  $('#lastFrameSourceField').classList.toggle('hidden',mode!=='first_last');$('#lastFrameCharacterField').classList.toggle('hidden',mode!=='first_last'||lastSource!=='character');
+  $('#referenceStatus').textContent=h3?`${mode==='text'?'文生视频不传图':mode==='first_last'?'双参考图使用 ref0/ref1':'单参考图仅使用 ref0'}；ReferenceToVideo 为普通参考，非强制首尾条件。提示词原样写入 105:104.inputs.prompt，不自动包装；动作目标非空时由服务端追加。图像保持原始比例/像素，不自动补边。`:mode==='text'?'文生视频模式不使用首帧或尾帧参考图。':mode==='first_last'?`首帧与尾帧独立选择；尾帧${lastSource==='character'?'使用所选角色朝向':'请点击尾帧卡片上传'}。`:source==='character'?'引用的角色素材将作为首帧，以 Base64 随任务发送。':source==='local'?'本地图片将作为首帧；点击首帧卡片可更换图片。':'公网 HTTPS 图片将作为首帧。';
+  $('#composerReferenceTile').classList.toggle('hidden',mode==='text');$('#composerEndFrameTile').classList.toggle('hidden',mode!=='first_last');
+  const v=activeViews[$('#characterReference').value],url=source==='character'?(v?.[2]?viewUrl(v[0],v[2]):''):source==='url'?$('#referenceUrl').value.trim():selectedReferenceData;
+  const lastUrl=lastSource==='character'?(lastView?.[2]?viewUrl(lastView[0],lastView[2]):''):selectedLastFrameData;
+  $('#composerReferenceImage').src=url||'';$('#composerReferenceTile').classList.toggle('has-image',!!url);$('#composerEndFrameImage').src=lastUrl||'';$('#composerEndFrameTile').classList.toggle('has-image',!!lastUrl);updateEstimate();
+}
+function updateReferencePreview(){const v=activeViews[Number($('#characterReference').value||0)],url=v?.[2]?viewUrl(v[0],v[2]):'';$('#referenceHoverImage').src=url;$('#referenceHoverLabel').textContent=v?.[2]?`${v[1]} · ${v[2]}`:`${v?.[1]||'朝向'} · 未上传`;if($('#referenceSource').value==='character')updateReferenceUi()}
+const savedVideoParams={seedance:{duration:'5',resolution:'720p',ratio:'16:9'},h3:{duration:'4',resolution:'0.4',ratio:'16:9'}};
+const seedanceResolutionOptions=model=>model.includes('2-5')?[['480p','480P'],['720p','720P'],['1080p','1080P']]:model.includes('mini')||model.includes('fast')?[['480p','480P'],['720p','720P']]:[['480p','480P'],['720p','720P'],['1080p','1080P'],['4k','4K']];
+const h3Megapixels=['0.2','0.3','0.4','0.5','0.6','0.7','0.8','0.9','0.98'];
+function roundHalfEven(value){const lower=Math.floor(value),fraction=value-lower;return fraction===0.5?(lower%2===0?lower:lower+1):Math.round(value)}
+function h3ResolutionSize(mp,ratio){const [w,h]=ratio.split(':').map(Number),area=Number(mp)*1024*1024,aspect=w/h;return [Math.sqrt(area*aspect),Math.sqrt(area/aspect)].map(size=>roundHalfEven(size/32)*32).join('×')}
+function updateResolutionOptions(){
+  const h3=isH3(),model=$('#videoModel').value,ratio=$('#videoRatio').value,r=$('#videoResolution'),options=h3?h3Megapixels.map(mp=>[mp,`${h3ResolutionSize(mp,ratio)} · ${mp}MP`]):seedanceResolutionOptions(model);
+  const previous=r.value;r.replaceChildren();options.forEach(([value,label])=>{const o=document.createElement('option');o.value=value;o.textContent=label;r.append(o)});
+  const saved=savedVideoParams[h3?'h3':'seedance'];r.value=options.some(([value])=>value===saved.resolution)?saved.resolution:options.some(([value])=>value===previous)?previous:h3?'0.4':'720p';r.disabled=false;
+}
+function updateModelOptions(){
+  const model=$('#videoModel').value,h3=isH3(),d=$('#videoDuration'),durations=h3?[4,5,6,7,8,9,10,11,12,13,14,15]:model.includes('2-5')?[2,3,4,5,6,8,10,12,15,20,25,30]:[2,3,4,5,6,8,10,12,15];
+  const saved=savedVideoParams[h3?'h3':'seedance'];$('#videoRatio').value=saved.ratio;d.replaceChildren();durations.forEach(value=>{const o=document.createElement('option');o.value=String(value);o.textContent=String(value);d.append(o)});d.value=durations.includes(Number(saved.duration))?saved.duration:'5';
+  $('#h3OptimizeControl').classList.toggle('hidden',!h3);$('#submitVideo').title=h3?'直接提交本地 H3 任务':'生成视频';updateReferenceUi();
+}
+function estimatePrice(){const model=$('#videoModel').value,d=Number($('#videoDuration').value),res=$('#videoResolution').value,rates=model.includes('2-5')?{'480p':70,'720p':70,'1080p':77}:model.includes('mini')?{'480p':23,'720p':23}:model.includes('fast')?{'480p':37,'720p':37}:{'480p':46,'720p':46,'1080p':51,'4k':26},scale={'480p':.5625,'720p':1,'1080p':2.25,'4k':9}[res]||1;return (rates[res]||rates['720p'])*d*1280*720*24*scale/1024/1000000}
+function updateEstimate(){const h3=isH3();$('#priceEstimate').textContent=h3?'本地 GPU':`约 ¥${estimatePrice().toFixed(2)}`;$('#pricingNote').textContent=h3?'本地 GPU 生成；提示词优化可选，可直接生成。':'费用为估算值，最终以任务 usage 为准；单次生成 1 条。'}
+views.forEach((v,i)=>{for(const id of ['characterReference','lastFrameCharacter']){const o=document.createElement('option');o.value=String(i);o.textContent=v[1]+' · '+v[2];$('#'+id).append(o)}});
+$('#referenceSource').onchange=updateReferenceUi;$('#lastFrameSource').onchange=updateReferenceUi;$('#lastFrameCharacter').onchange=updateReferenceUi;
+$('#generationMode').onchange=()=>{resetH3Optimization();if($('#generationMode').value==='first_last'&&!isH3()){if($('#referenceSource').value==='url')$('#referenceSource').value='local';if($('#videoModel').value!=='doubao-seedance-2-5-260628'){$('#videoModel').value='doubao-seedance-2-5-260628';updateModelOptions()}}updateReferenceUi()};
+$('#characterReference').onchange=updateReferencePreview;$('#videoModel').onchange=()=>{resetH3Optimization();updateModelOptions()};$('#videoDuration').onchange=()=>{savedVideoParams[isH3()?'h3':'seedance'].duration=$('#videoDuration').value;resetH3Optimization();updateEstimate()};$('#videoResolution').onchange=()=>{savedVideoParams[isH3()?'h3':'seedance'].resolution=$('#videoResolution').value;resetH3Optimization();updateEstimate()};
+$('#videoRatio').onchange=()=>{savedVideoParams[isH3()?'h3':'seedance'].ratio=$('#videoRatio').value;resetH3Optimization();updateResolutionOptions();updateEstimate()};
+for(const id of ['videoPrompt','videoDirection']){for(const event of ['input','change'])$('#'+id).addEventListener(event,resetH3Optimization)}
+for(const id of ['characterReference','lastFrameCharacter'])$('#'+id).addEventListener('change',resetH3Optimization);
+$('#referenceUrl').addEventListener('input',updateReferenceUi);
+$('#viewButtons').addEventListener('click',()=>{resetH3Optimization();$('#characterReference').value=String(selected);updateReferencePreview()});$('#characterReference').addEventListener('mouseenter',updateReferencePreview);$('#characterReference').addEventListener('focus',updateReferencePreview);
+function readFrameFile(input,isLast){const file=input.files[0],characterId=activeCharacterId,revision=characterRevision;if(!file)return;if(file.size>10*1024*1024){$('#referenceStatus').textContent='图片超过 10 MB，请先压缩。';input.value='';return}const isCurrent=()=>characterId===activeCharacterId&&revision===characterRevision&&input.files[0]===file;const reader=new FileReader();reader.onload=()=>{if(!isCurrent())return;if(isLast){selectedLastFrameData=reader.result;$('#lastFrameSource').value='local'}else{selectedReferenceData=reader.result;$('#referenceSource').value='local'}updateReferenceUi();$('#referenceStatus').textContent=`已选择${isH3()?(isLast?'参考图2':'参考图1'):(isLast?'尾帧':'首帧')}：${file.name}（${(file.size/1024/1024).toFixed(2)} MB）`};reader.onerror=()=>{if(isCurrent())$('#referenceStatus').textContent='图片读取失败，请重试。'};reader.readAsDataURL(file)}
+$('#firstFrameFile').onchange=()=>readFrameFile($('#firstFrameFile'),false);$('#lastFrameFile').onchange=()=>readFrameFile($('#lastFrameFile'),true);
+$('#videoPrompt').addEventListener('input',()=>{$('#videoPrompt').style.height='auto'});
+$('#uploadReference').onclick=async()=>{if(!selectedReferenceData){$('#referenceStatus').textContent='请先选择本地参考图片。';return}$('#referenceStatus').textContent='正在保存到本机…';try{const r=await fetch('/api/reference/upload',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({data_url:selectedReferenceData})}),data=await r.json();if(!r.ok||!data.ok)throw new Error(data.error||`HTTP ${r.status}`);$('#referenceStatus').textContent=`已保存到本机素材库：${data.name}。${data.message||''}`}catch(e){$('#referenceStatus').textContent='本地保存失败：'+e.message}};
+async function readCharacterFrame(view,label){
+  if(!view?.[2])throw new Error(`当前角色未上传${label}朝向素材，请选择已上传方向。`);
+  const r=await fetch(viewUrl(view[0],view[2]));if(!r.ok)throw new Error('无法读取角色图：'+view[2]);const blob=await r.blob();
+  return new Promise((resolve,reject)=>{const fr=new FileReader();fr.onload=()=>resolve(fr.result);fr.onerror=()=>reject(new Error(label+'角色图读取失败'));fr.readAsDataURL(blob)});
+}
+$('#submitVideo').onclick=async()=>{
+  if($('#submitVideo').disabled)return;
+  const h3=isH3(),description=h3?$('#videoPrompt').value:$('#videoPrompt').value.trim(),direction=h3?$('#videoDirection').value:$('#videoDirection').value.trim(),mode=$('#generationMode').value,revision=characterRevision;
+  if(!description.trim()){setStatus('请先描述动作内容。');return}
+  const prompt=h3?description:direction?`动作目标：${direction}\n${description}`:description,source=$('#referenceSource').value,view=activeViews[$('#characterReference').value],lastSource=$('#lastFrameSource').value,lastView=activeViews[$('#lastFrameCharacter').value],referenceData=selectedReferenceData,lastFrameData=selectedLastFrameData;
+  const record={action:$('#videoAction').value,view:view?.[1]||views[selected][1],viewId:view?.[0]||views[selected][0],characterId:activeCharacterId,prompt,model:$('#videoModel').value,mode,direction,duration:Number($('#videoDuration').value),resolution:$('#videoResolution').value,ratio:$('#videoRatio').value,count:1,createdAt:new Date().toISOString()};
+  if(h3)record.original_prompt=description;
+  record.firstFrameSource=mode==='text'?null:source;record.firstFrameViewId=mode!=='text'&&source==='character'?view?.[0]||null:null;
+  record.lastFrameSource=mode==='first_last'?lastSource:null;record.lastFrameViewId=mode==='first_last'&&lastSource==='character'?lastView?.[0]||null:null;
+  let image_url='',image_data='',last_frame_data='';$('#submitVideo').disabled=true;
+  try{
+    if(h3&&source==='url')throw new Error('H3 不支持图片 URL，请使用角色素材或本地图片。');
+    if(mode!=='text'){
+      const firstLabel=h3?'参考图1':'首帧',lastLabel=h3?'参考图2':'尾帧';
+      if(mode==='first_last'&&lastSource==='character'&&!lastView?.[2])throw new Error('当前角色未上传'+lastLabel+'朝向素材，请选择已上传方向。');
+      if(source==='local'){image_data=referenceData;if(!image_data)throw new Error('请点击'+firstLabel+' + 上传本地图片。')}
+      else if(source==='character')image_data=await readCharacterFrame(view,firstLabel);
+      else{image_url=$('#referenceUrl').value.trim();if(!image_url)throw new Error('请填写公网 HTTPS 图片 URL。');const url=new URL(image_url);if(url.protocol!=='https:')throw new Error('参考图必须使用公网 HTTPS URL。');if(mode==='first_last')throw new Error('首尾帧模式暂不支持公网 URL；请改用角色素材或本地首帧图片。')}
+      if(record.characterId!==activeCharacterId||revision!==characterRevision)return;
+      if(mode==='first_last'){last_frame_data=lastSource==='character'?await readCharacterFrame(lastView,lastLabel):lastFrameData;if(!last_frame_data)throw new Error('请点击'+lastLabel+' + 上传'+lastLabel+'图片，或选择已上传的'+lastLabel+'角色朝向。')}
+    }
+    if(h3&&mode!=='text'&&(!/^data:image\//i.test(image_data)||(mode==='first_last'&&!/^data:image\//i.test(last_frame_data))))throw new Error('H3 参考图必须是角色素材或本地图片 dataURL。');
+    if(record.characterId!==activeCharacterId||revision!==characterRevision)return;
+    setStatus(h3?'正在直接提交本地 H3 任务…':'正在提交任务…');
+    if(h3)$('#submitVideo').title='正在直接提交本地 H3 任务';
+    const r=await fetch('/api/video/tasks',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:record.model,prompt,image_url,image_data,last_frame_data,duration:record.duration,mode,direction,ratio:record.ratio,resolution:h3?Number(record.resolution):record.resolution,count:1})}),data=await r.json();
+    if(!r.ok||!data.ok)throw new Error(data.error||`HTTP ${r.status}`);
+    const result=data.result||{};record.task_id=result.id||result.task_id||'';
+    if(h3&&typeof result.prompt==='string')record.prompt=result.prompt;
+    if(record.task_id)window.CottonHistory?.recordCreated(record,result);
+    if(record.characterId!==activeCharacterId||revision!==characterRevision||window.CottonHistory?.isDeleted?.(record.task_id))return;
+    if(record.task_id)localStorage.setItem('cotton_active_video_task',JSON.stringify(record));
+    stopStatusPolling();$('#videoTaskId').value=record.task_id;$('#videoAccepted').checked=false;$('#videoAcceptanceNotes').value='';$('#videoPlayer').pause();$('#videoPlayer').removeAttribute('src');$('#videoResult').classList.add('hidden');window.CottonHistory?.updateWorkflowState();
+    setStatus(`任务已创建：${record.task_id||'请查看返回结果'}；状态 ${result.status||'排队中'}；每 2 秒自动检查。`);
+    if(record.task_id){const url=result.content?.video_url||result.video_url;if(url)showVideoResult(url);else startStatusPolling()}else setStatus(JSON.stringify(result));
+  }catch(e){if(record.characterId===activeCharacterId&&revision===characterRevision)setStatus('提交失败：'+e.message)}finally{$('#submitVideo').disabled=false;$('#submitVideo').title=isH3()?'直接提交本地 H3 任务':'生成视频'}
+};
+$('#queryVideo').onclick=()=>{stopStatusPolling();const id=$('#videoTaskId').value.trim(),characterId=activeCharacterId,revision=characterRevision;queryVideoStatus().then(result=>{if(characterId===activeCharacterId&&revision===characterRevision&&id===$('#videoTaskId').value.trim()&&result&&!['succeeded','failed','cancelled','canceled','expired'].includes(String(result.status||'').toLowerCase())&&!result.content?.video_url&&!result.video_url)statusTimer=setInterval(queryVideoStatus,2000)})};
+$('#toSequence').onclick=()=>window.CottonHistory?.useCurrentVideo();
+$('#videoTaskId').addEventListener('change',()=>{stopStatusPolling();$('#videoPlayer').pause();$('#videoPlayer').removeAttribute('src');$('#videoResult').classList.add('hidden');$('#videoAccepted').checked=false;$('#videoAcceptanceNotes').value='';window.CottonHistory?.updateWorkflowState();if($('#videoTaskId').value.trim())startStatusPolling()});
+window.addEventListener('cotton-character-changed',()=>{characterRevision++;resetH3Optimization();stopStatusPolling();selectedReferenceData='';selectedLastFrameData='';$('#lastFrameSource').value='local';$('#firstFrameFile').value='';$('#lastFrameFile').value='';$('#referenceUrl').value='';$('#videoPrompt').value='';$('#videoDirection').value='';$('#videoAcceptanceNotes').value='';$('#composerReferenceImage').removeAttribute('src');$('#composerEndFrameImage').removeAttribute('src');$('#composerReferenceTile').classList.remove('has-image');$('#composerEndFrameTile').classList.remove('has-image');$('#videoPlayer').pause();$('#videoPlayer').removeAttribute('src');$('#videoResult').classList.add('hidden');$('#videoTaskId').value='';$('#videoAccepted').checked=false;const task=readSaved('cotton_active_video_task');if(task?.task_id&&(task.characterId||legacyCharacterId)===activeCharacterId&&!window.CottonHistory?.isDeleted?.(task.task_id)){$('#videoTaskId').value=task.task_id;startStatusPolling()}else setStatus('当前角色暂无活动任务，可生成或从历史中找回。');updateReferenceUi()});
+window.addEventListener('cotton-video-record-deleted',event=>{
+  const {taskId,characterId}=event.detail||{};if(!taskId)return;
+  const task=readSaved('cotton_active_video_task'),savedMatches=task?.task_id===taskId&&(!characterId||(task.characterId||legacyCharacterId)===characterId);
+  if(savedMatches)localStorage.removeItem('cotton_active_video_task');
+  if(characterId&&characterId!==activeCharacterId)return;
+  if($('#videoTaskId').value.trim()!==taskId&&!(savedMatches&&(task.characterId||legacyCharacterId)===activeCharacterId))return;
+  stopStatusPolling();$('#videoTaskId').value='';$('#videoPlayer').pause();$('#videoPlayer').removeAttribute('src');$('#videoPlayer').load();$('#videoResultLink').removeAttribute('href');$('#videoResult').classList.add('hidden');$('#videoAccepted').checked=false;$('#videoAcceptanceNotes').value='';
+  setStatus('当前活动任务已从历史删除，可重新生成或选择其他历史视频。');window.CottonHistory?.updateWorkflowState();
+});
+updateModelOptions();updateReferenceUi();renderThumbs();selectView(0);
+</script>
+<script>
+async function loadCharacterLibrary(){
+  const status=$('#characterLibraryStatus'),select=$('#characterSelect');
+  try{const r=await fetch('/api/characters'),data=await r.json();if(!r.ok||!data.ok)throw new Error(data.error||'角色库读取失败');characterRecords=data.characters||[];select.replaceChildren();const legacy=document.createElement('option');legacy.value=legacyCharacterId;legacy.textContent='默认六方向角色';select.append(legacy);characterRecords.forEach(c=>{const o=document.createElement('option');o.value=c.id;o.textContent=c.name;select.append(o)});const nextId=[legacyCharacterId,...characterRecords.map(c=>c.id)].includes(activeCharacterId)?activeCharacterId:legacyCharacterId;select.value=nextId;applyCharacter(nextId);status.textContent=`本地角色 ${characterRecords.length+1} 个。新增角色仅使用你本次选择的 PNG。`}catch(e){status.textContent='角色库读取失败：'+e.message}
+}
+function applyCharacter(id){
+  const changed=id!==activeCharacterId;activeCharacterId=id;window.activeCharacterId=id;localStorage.setItem('cotton_active_character',id);sourceImageUrls.clear();const entry=characterRecords.find(c=>c.id===id);
+  activeViews=views.map(v=>{const file=entry?.views?.[v[0]];if(file){sourceImageUrls.set(v[0],`/character-assets/${encodeURIComponent(id)}/${encodeURIComponent(file)}`);return [...v,file]}return id===legacyCharacterId?[...v]:[v[0],v[1],'']});
+  const first=activeViews.findIndex(v=>!!v[2]);if(first>=0&&(!activeViews[selected]?.[2]||(changed&&id!==legacyCharacterId)))selected=first;
+  renderThumbs();selectView(selected);for(const id of ['characterReference','lastFrameCharacter']){const ref=$('#'+id),previous=ref.value;ref.replaceChildren();activeViews.forEach((v,i)=>{const o=document.createElement('option');o.value=String(i);o.textContent=v[1]+(v[2]?'':'（未上传）');o.disabled=!v[2];ref.append(o)});ref.value=id==='lastFrameCharacter'&&!changed?previous:String(selected)}updateReferencePreview();updateReferenceUi();
+  if(changed)window.dispatchEvent(new CustomEvent('cotton-character-changed',{detail:{characterId:id}}));window.CottonHistory?.updateWorkflowState();
+}
+function guessCharacterView(name){const n=name.toLowerCase(),rules=[['right_front_3q',/(right[_ -]?front|右前)/],['right_back_3q',/(right[_ -]?back|右后)/],['left_front_3q',/(left[_ -]?front|左前)/],['left_back_3q',/(left[_ -]?back|左后)/],['front',/(^|[_ -])front([_. -]|$)|正面/],['back',/(^|[_ -])back([_. -]|$)|背面/]];return rules.find(([,re])=>re.test(n))?.[0]||''}
+$('#characterFiles').addEventListener('change',()=>{
+  const host=$('#characterUploadList');host.replaceChildren();const files=[...$('#characterFiles').files],mapped=new Map();files.forEach(file=>{const id=guessCharacterView(file.name);if(id&&!mapped.has(id))mapped.set(id,file)});
+  views.forEach(v=>{const row=document.createElement('label');row.className='character-upload-row';const title=document.createElement('span');title.textContent=v[1];const select=document.createElement('select');select.dataset.view=v[0];const empty=document.createElement('option');empty.value='';empty.textContent='不上传';select.append(empty);files.forEach((file,i)=>{const o=document.createElement('option');o.value=String(i);o.textContent=file.name;select.append(o)});const chosen=mapped.get(v[0]);if(chosen)select.value=String(files.indexOf(chosen));row.append(title,select);host.append(row)});
+});
+$('#saveCharacter').addEventListener('click',async()=>{
+  const name=$('#characterName').value.trim(),files=[...$('#characterFiles').files],rows=[...$('#characterUploadList').querySelectorAll('select')];if(!name){$('#characterLibraryStatus').textContent='请填写角色名称。';return}
+  const assigned=new Map();for(const row of rows){if(row.value){const file=files[Number(row.value)];if(assigned.has(file)){$('#characterLibraryStatus').textContent='同一张图片不能映射到多个方向。';return}assigned.set(file,row.dataset.view)}}if(!assigned.size){$('#characterLibraryStatus').textContent='至少为一个方向选择 PNG。';return}
+  try{const payload={name,views:{}};$('#saveCharacter').disabled=true;$('#characterLibraryStatus').textContent='正在保存角色素材…';await Promise.all([...assigned].map(([file,view])=>new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>{payload.views[view]=reader.result;resolve()};reader.onerror=()=>reject(new Error('读取 '+file.name+' 失败'));reader.readAsDataURL(file)})));const r=await fetch('/api/characters',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)}),data=await r.json();if(!r.ok||!data.ok)throw new Error(data.error||'上传失败');$('#characterName').value='';$('#characterFiles').value='';$('#characterUploadList').replaceChildren();await loadCharacterLibrary();$('#characterSelect').value=data.character.id;applyCharacter(data.character.id)}catch(e){$('#characterLibraryStatus').textContent='保存失败：'+e.message}finally{$('#saveCharacter').disabled=false}
+});
+$('#characterSelect').addEventListener('change',e=>applyCharacter(e.target.value));
+loadCharacterLibrary();
+</script>
+<script src="video-history.js?v=20261113-history10"></script>
+<script src="sequence-loop-analysis.js?v=20261118-local-phase2"></script>
+<script src="sequence-matting.js?v=20261118-contour4"></script>
+<script src="sequence-workflow.js?v=20261118-matte1600-r1"></script>
+<script src="rig-atlas-editor.js?v=20261115-stable-lan-sha-v4"></script>
+<script src="/runtime/spine-canvas.js"></script>
+<script src="video-guided-source.js?v=20261117-video-guided-v2"></script>
+<script src="rig-profile-editor.js?v=20261117-video-guided-v2b"></script>
+<link rel="stylesheet" href="rig-workbench.css?v=20261119-local2">
+<script src="rig-studio-model.js?v=20261119-local2"></script>
+<script src="rig-reference-config.js?v=20261119-local1"></script>
+<script src="rig-workbench.js?v=20261119-local2"></script>
+
+</body>
+</html>

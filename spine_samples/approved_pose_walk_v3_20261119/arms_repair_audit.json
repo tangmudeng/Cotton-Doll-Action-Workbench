@@ -1,0 +1,30 @@
+{
+  "arm_near": {
+    "source": "arms_completed.png",
+    "crop": [
+      110,
+      259,
+      492,
+      750
+    ],
+    "medianColorOffset": [
+      0.0,
+      0.0,
+      2.0
+    ]
+  },
+  "arm_far": {
+    "source": "arms_completed.png",
+    "crop": [
+      876,
+      280,
+      254,
+      611
+    ],
+    "medianColorOffset": [
+      -3.0,
+      -9.0,
+      -7.0
+    ]
+  }
+}

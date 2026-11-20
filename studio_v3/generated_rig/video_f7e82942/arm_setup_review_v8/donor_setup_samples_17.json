@@ -1,0 +1,496 @@
+{
+  "sampleCount": 17,
+  "flipsTriangleSamples": 65,
+  "collapseTriangleSamples": 0,
+  "samplesWithFlips": 10,
+  "minAreaRatio": -1.261226969585135,
+  "texturedFlipsTriangleSamples": 65,
+  "texturedCollapseTriangleSamples": 0,
+  "texturedMinAreaRatio": -1.261226969585135,
+  "texturedMinSingularValue": 0.0036543740359269595,
+  "texturedMaxSingularValue": 3.3781767112495933,
+  "maxAreaRatio": 2.648086361244246,
+  "minSingularValue": 0.0036543740359269595,
+  "maxSingularValue": 3.3781767112495933,
+  "worstAreaTime": 0.0,
+  "maxMaterialResidualPx": 13.504239547813201,
+  "rmsMaterialResidualPx": 5.8942305943202555,
+  "rows": [
+    {
+      "time": 0.0,
+      "flips": 8,
+      "collapse": 0,
+      "minAreaRatio": -1.261226969585135,
+      "maxAreaRatio": 2.648086361244246,
+      "texturedFlips": 8,
+      "texturedCollapse": 0,
+      "texturedMinAreaRatio": -1.261226969585135,
+      "texturedMinSingularValue": 0.0053400507576039195,
+      "texturedMaxSingularValue": 3.3781767112495933,
+      "minSingularValue": 0.0053400507576039195,
+      "maxSingularValue": 3.3781767112495933,
+      "mappedTarget": [
+        309.95,
+        522.4
+      ],
+      "materialHand": [
+        309.95113185685466,
+        522.4046406119041
+      ],
+      "materialResidualPx": 0.004776649326100869,
+      "boneEndpoint": [
+        309.95,
+        522.4
+      ],
+      "boneEndpointResidualPx": 0.0
+    },
+    {
+      "time": 0.041666666666666664,
+      "flips": 7,
+      "collapse": 0,
+      "minAreaRatio": -1.1586216064508956,
+      "maxAreaRatio": 2.63687120395203,
+      "texturedFlips": 7,
+      "texturedCollapse": 0,
+      "texturedMinAreaRatio": -1.1586216064508956,
+      "texturedMinSingularValue": 0.020010489794031337,
+      "texturedMaxSingularValue": 3.2406504202900135,
+      "minSingularValue": 0.020010489794031337,
+      "maxSingularValue": 3.2406504202900135,
+      "mappedTarget": [
+        331.7,
+        535.45
+      ],
+      "materialHand": [
+        331.7026804166768,
+        535.4539537001939
+      ],
+      "materialResidualPx": 0.0047766493260598415,
+      "boneEndpoint": [
+        331.7,
+        535.45
+      ],
+      "boneEndpointResidualPx": 0.0
+    },
+    {
+      "time": 0.08333333333333333,
+      "flips": 5,
+      "collapse": 0,
+      "minAreaRatio": -0.7887486907646475,
+      "maxAreaRatio": 2.4941366133208542,
+      "texturedFlips": 5,
+      "texturedCollapse": 0,
+      "texturedMinAreaRatio": -0.7887486907646475,
+      "texturedMinSingularValue": 0.0036543740359269595,
+      "texturedMaxSingularValue": 2.8152149287687855,
+      "minSingularValue": 0.0036543740359269595,
+      "maxSingularValue": 2.8152149287687855,
+      "mappedTarget": [
+        389.7,
+        519.5
+      ],
+      "materialHand": [
+        389.704739576105,
+        519.5005939672795
+      ],
+      "materialResidualPx": 0.004776649326080572,
+      "boneEndpoint": [
+        389.69999999999993,
+        519.5
+      ],
+      "boneEndpointResidualPx": 5.684341886080802e-14
+    },
+    {
+      "time": 0.125,
+      "flips": 0,
+      "collapse": 0,
+      "minAreaRatio": 0.011205579098535222,
+      "maxAreaRatio": 1.941606989437786,
+      "texturedFlips": 0,
+      "texturedCollapse": 0,
+      "texturedMinAreaRatio": 0.011205579098535222,
+      "texturedMinSingularValue": 0.011545199364047343,
+      "texturedMaxSingularValue": 2.008170521823851,
+      "minSingularValue": 0.011545199364047343,
+      "maxSingularValue": 2.008170521823851,
+      "mappedTarget": [
+        420.15,
+        503.55
+      ],
+      "materialHand": [
+        420.1542148090339,
+        503.54775238713484
+      ],
+      "materialResidualPx": 0.004776649326036405,
+      "boneEndpoint": [
+        420.15,
+        503.55
+      ],
+      "boneEndpointResidualPx": 0.0
+    },
+    {
+      "time": 0.16666666666666666,
+      "flips": 0,
+      "collapse": 0,
+      "minAreaRatio": 0.7131079351608018,
+      "maxAreaRatio": 1.299350488818287,
+      "texturedFlips": 0,
+      "texturedCollapse": 0,
+      "texturedMinAreaRatio": 0.7131079351608018,
+      "texturedMinSingularValue": 0.7146115021019491,
+      "texturedMaxSingularValue": 1.3040128555274604,
+      "minSingularValue": 0.7146115021019491,
+      "maxSingularValue": 1.3040128555274604,
+      "mappedTarget": [
+        436.1,
+        493.4
+      ],
+      "materialHand": [
+        433.1073962816581,
+        491.2666064173826
+      ],
+      "materialResidualPx": 3.6751932185106706,
+      "boneEndpoint": [
+        433.10430638993114,
+        491.2702490740916
+      ],
+      "boneEndpointResidualPx": 3.6755978033260157
+    },
+    {
+      "time": 0.20833333333333331,
+      "flips": 0,
+      "collapse": 0,
+      "minAreaRatio": 0.7131079351608064,
+      "maxAreaRatio": 1.299350488818293,
+      "texturedFlips": 0,
+      "texturedCollapse": 0,
+      "texturedMinAreaRatio": 0.7131079351608064,
+      "texturedMinSingularValue": 0.7146115021019513,
+      "texturedMaxSingularValue": 1.3040128555274697,
+      "minSingularValue": 0.7146115021019513,
+      "maxSingularValue": 1.3040128555274697,
+      "mappedTarget": [
+        452.05,
+        483.25
+      ],
+      "materialHand": [
+        440.08795571478674,
+        476.9831042546314
+      ],
+      "materialResidualPx": 13.504239547813201,
+      "boneEndpoint": [
+        440.08538741758605,
+        476.9871316890843
+      ],
+      "boneEndpointResidualPx": 13.504646375493522
+    },
+    {
+      "time": 0.25,
+      "flips": 0,
+      "collapse": 0,
+      "minAreaRatio": 0.7131079351608073,
+      "maxAreaRatio": 1.2993504888182974,
+      "texturedFlips": 0,
+      "texturedCollapse": 0,
+      "texturedMinAreaRatio": 0.7131079351608073,
+      "texturedMinSingularValue": 0.7146115021019537,
+      "texturedMaxSingularValue": 1.3040128555274684,
+      "minSingularValue": 0.7146115021019537,
+      "maxSingularValue": 1.3040128555274684,
+      "mappedTarget": [
+        453.5,
+        491.95
+      ],
+      "materialHand": [
+        441.8720844536117,
+        486.4486386654437
+      ],
+      "materialResidualPx": 12.863646313829122,
+      "boneEndpoint": [
+        441.86968211310807,
+        486.4527672413348
+      ],
+      "boneEndpointResidualPx": 12.864053099746593
+    },
+    {
+      "time": 0.29166666666666663,
+      "flips": 0,
+      "collapse": 0,
+      "minAreaRatio": 0.7131079351607909,
+      "maxAreaRatio": 1.2993504888182852,
+      "texturedFlips": 0,
+      "texturedCollapse": 0,
+      "texturedMinAreaRatio": 0.7131079351607909,
+      "texturedMinSingularValue": 0.7146115021019382,
+      "texturedMaxSingularValue": 1.304012855527458,
+      "minSingularValue": 0.7146115021019382,
+      "maxSingularValue": 1.304012855527458,
+      "mappedTarget": [
+        447.7,
+        506.45
+      ],
+      "materialHand": [
+        436.372193646081,
+        500.2589227018765
+      ],
+      "materialResidualPx": 12.90924610127285,
+      "boneEndpoint": [
+        436.3695549385858,
+        500.2629043600159
+      ],
+      "boneEndpointResidualPx": 12.909652890300162
+    },
+    {
+      "time": 0.3333333333333333,
+      "flips": 0,
+      "collapse": 0,
+      "minAreaRatio": 0.7131079351608162,
+      "maxAreaRatio": 1.299350488818291,
+      "texturedFlips": 0,
+      "texturedCollapse": 0,
+      "texturedMinAreaRatio": 0.7131079351608162,
+      "texturedMinSingularValue": 0.7146115021019634,
+      "texturedMaxSingularValue": 1.304012855527461,
+      "minSingularValue": 0.7146115021019634,
+      "maxSingularValue": 1.304012855527461,
+      "mappedTarget": [
+        436.1,
+        519.5
+      ],
+      "materialHand": [
+        429.6756196397,
+        515.3293084838322
+      ],
+      "materialResidualPx": 7.6594602118454,
+      "boneEndpoint": [
+        429.6726885844042,
+        515.3330801271925
+      ],
+      "boneEndpointResidualPx": 7.659866399582057
+    },
+    {
+      "time": 0.375,
+      "flips": 0,
+      "collapse": 0,
+      "minAreaRatio": 0.21126788443979894,
+      "maxAreaRatio": 1.77158653026528,
+      "texturedFlips": 0,
+      "texturedCollapse": 0,
+      "texturedMinAreaRatio": 0.21126788443979894,
+      "texturedMinSingularValue": 0.2152185898393181,
+      "texturedMaxSingularValue": 1.8106202701242746,
+      "minSingularValue": 0.2152185898393181,
+      "maxSingularValue": 1.8106202701242746,
+      "mappedTarget": [
+        415.8,
+        531.1
+      ],
+      "materialHand": [
+        415.80393570035534,
+        531.0972932230425
+      ],
+      "materialResidualPx": 0.004776649326134753,
+      "boneEndpoint": [
+        415.8,
+        531.1
+      ],
+      "boneEndpointResidualPx": 0.0
+    },
+    {
+      "time": 0.41666666666666663,
+      "flips": 5,
+      "collapse": 0,
+      "minAreaRatio": -0.8663476648884525,
+      "maxAreaRatio": 2.5329691800615537,
+      "texturedFlips": 5,
+      "texturedCollapse": 0,
+      "texturedMinAreaRatio": -0.8663476648884525,
+      "texturedMinSingularValue": 0.0602987102059022,
+      "texturedMaxSingularValue": 2.8990909224627726,
+      "minSingularValue": 0.0602987102059022,
+      "maxSingularValue": 2.8990909224627726,
+      "mappedTarget": [
+        366.5,
+        525.3
+      ],
+      "materialHand": [
+        366.5044940327087,
+        525.3016186564793
+      ],
+      "materialResidualPx": 0.004776649326128277,
+      "boneEndpoint": [
+        366.50000000000006,
+        525.3
+      ],
+      "boneEndpointResidualPx": 5.684341886080802e-14
+    },
+    {
+      "time": 0.4583333333333333,
+      "flips": 5,
+      "collapse": 0,
+      "minAreaRatio": -0.8283517867849376,
+      "maxAreaRatio": 2.5144115398594646,
+      "texturedFlips": 5,
+      "texturedCollapse": 0,
+      "texturedMinAreaRatio": -0.8283517867849376,
+      "texturedMinSingularValue": 0.032241331578417576,
+      "texturedMaxSingularValue": 2.857778925612974,
+      "minSingularValue": 0.032241331578417576,
+      "maxSingularValue": 2.857778925612974,
+      "mappedTarget": [
+        337.5,
+        519.5
+      ],
+      "materialHand": [
+        337.50379899203267,
+        519.5028955203885
+      ],
+      "materialResidualPx": 0.004776649326102092,
+      "boneEndpoint": [
+        337.5,
+        519.5
+      ],
+      "boneEndpointResidualPx": 0.0
+    },
+    {
+      "time": 0.5,
+      "flips": 6,
+      "collapse": 0,
+      "minAreaRatio": -1.0909276721011851,
+      "maxAreaRatio": 2.6204391182511815,
+      "texturedFlips": 6,
+      "texturedCollapse": 0,
+      "texturedMinAreaRatio": -1.0909276721011851,
+      "texturedMinSingularValue": 0.025584354590648273,
+      "texturedMaxSingularValue": 3.1565034541026935,
+      "minSingularValue": 0.025584354590648273,
+      "maxSingularValue": 3.1565034541026935,
+      "mappedTarget": [
+        318.65,
+        512.25
+      ],
+      "materialHand": [
+        318.65254922897,
+        512.2540395309682
+      ],
+      "materialResidualPx": 0.004776649326062335,
+      "boneEndpoint": [
+        318.65,
+        512.25
+      ],
+      "boneEndpointResidualPx": 0.0
+    },
+    {
+      "time": 0.5416666666666666,
+      "flips": 7,
+      "collapse": 0,
+      "minAreaRatio": -1.2267314787095769,
+      "maxAreaRatio": 2.6465532981653905,
+      "texturedFlips": 7,
+      "texturedCollapse": 0,
+      "texturedMinAreaRatio": -1.2267314787095769,
+      "texturedMinSingularValue": 0.014627986595419066,
+      "texturedMaxSingularValue": 3.3302601910995113,
+      "minSingularValue": 0.014627986595419066,
+      "maxSingularValue": 3.3302601910995113,
+      "mappedTarget": [
+        304.15,
+        503.55
+      ],
+      "materialHand": [
+        304.51381187355435,
+        503.55117627253156
+      ],
+      "materialResidualPx": 0.363813775105078,
+      "boneEndpoint": [
+        304.5125159640263,
+        503.5465787735072
+      ],
+      "boneEndpointResidualPx": 0.36253210749484527
+    },
+    {
+      "time": 0.5833333333333333,
+      "flips": 7,
+      "collapse": 0,
+      "minAreaRatio": -1.2417992835283163,
+      "maxAreaRatio": 2.647542469568162,
+      "texturedFlips": 7,
+      "texturedCollapse": 0,
+      "texturedMinAreaRatio": -1.2417992835283163,
+      "texturedMinSingularValue": 0.005947768897076417,
+      "texturedMaxSingularValue": 3.3509461064050496,
+      "minSingularValue": 0.005947768897076417,
+      "maxSingularValue": 3.3509461064050496,
+      "mappedTarget": [
+        291.1000000000001,
+        505.0
+      ],
+      "materialHand": [
+        291.8151724489078,
+        505.12636606641513
+      ],
+      "materialResidualPx": 0.7262506553648552,
+      "boneEndpoint": [
+        291.8147684281226,
+        505.1216065342964
+      ],
+      "boneEndpointResidualPx": 0.725039347224899
+    },
+    {
+      "time": 0.625,
+      "flips": 7,
+      "collapse": 0,
+      "minAreaRatio": -1.1689590598407942,
+      "maxAreaRatio": 2.638830647046883,
+      "texturedFlips": 7,
+      "texturedCollapse": 0,
+      "texturedMinAreaRatio": -1.1689590598407942,
+      "texturedMinSingularValue": 0.027201634465795186,
+      "texturedMaxSingularValue": 3.2538911339555976,
+      "minSingularValue": 0.027201634465795186,
+      "maxSingularValue": 3.2538911339555976,
+      "mappedTarget": [
+        294.0,
+        515.15
+      ],
+      "materialHand": [
+        295.0725424006199,
+        515.3402487505787
+      ],
+      "materialResidualPx": 1.089284989442281,
+      "boneEndpoint": [
+        295.071802242539,
+        515.3355297946773
+      ],
+      "boneEndpointResidualPx": 1.087741399333775
+    },
+    {
+      "time": 0.6666666666666666,
+      "flips": 8,
+      "collapse": 0,
+      "minAreaRatio": -1.261226969585135,
+      "maxAreaRatio": 2.648086361244246,
+      "texturedFlips": 8,
+      "texturedCollapse": 0,
+      "texturedMinAreaRatio": -1.261226969585135,
+      "texturedMinSingularValue": 0.0053400507576039195,
+      "texturedMaxSingularValue": 3.3781767112495933,
+      "minSingularValue": 0.0053400507576039195,
+      "maxSingularValue": 3.3781767112495933,
+      "mappedTarget": [
+        308.5,
+        522.4
+      ],
+      "materialHand": [
+        309.95113185685466,
+        522.4046406119041
+      ],
+      "materialResidualPx": 1.4511392770017957,
+      "boneEndpoint": [
+        309.95,
+        522.4
+      ],
+      "boneEndpointResidualPx": 1.4499999999999886
+    }
+  ]
+}

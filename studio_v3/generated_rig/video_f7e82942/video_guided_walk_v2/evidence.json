@@ -1,0 +1,5658 @@
+{
+  "schemaVersion": 1,
+  "taskId": "comfy_f7e82942-05e3-4c7e-8e30-e974e2a233fa",
+  "packageId": "video_guided_walk_v2",
+  "characterId": null,
+  "parts": [
+    {
+      "id": "leg_far",
+      "frames": [
+        {
+          "frame": 68,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_068.png",
+          "sha256": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 70,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_070.png",
+          "sha256": "9c2e989facc35d66e2b5163a6cac4815f68a8ebb4f6f2d15fa115467074e983e",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 72,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_072.png",
+          "sha256": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 74,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_074.png",
+          "sha256": "3200f67af977d20903f69f2109dc05385f18fbe2f3e54086fda34a3e7e32d912",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 76,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_076.png",
+          "sha256": "ca0676580e05720d1f927d733d944c930c776d7c33ac2f4a2a1fb325dfb9bae9",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 77,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_077.png",
+          "sha256": "c3d8a2bdfeec6a45f85650813bf63a52f899187dec62d1d77d9ec0e0f207842a",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 78,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_078.png",
+          "sha256": "63fed24423a2afbf759e8794c4c716609a85647154f070ad7efac0b42ff353ac",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 80,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_080.png",
+          "sha256": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 81,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_081.png",
+          "sha256": "b46b02660221465c152edd5274260066093216e1a6cc5da01137fae3d5c91b0f",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 82,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_082.png",
+          "sha256": "c1e35a74624862d33b2d484d1de836195fabc2c50e4749c995a9b740776e24e2",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 84,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_084.png",
+          "sha256": "3fe5ab53f1fa27ad7d2ad6a87429196ddae7fd06df45dbfce0e2ae64a6835a25",
+          "decodedPixelsExact": true
+        }
+      ],
+      "visibleBasis": "70–79两脚下部有可见外轮廓，81–82可见后脚残片。",
+      "occlusion": "68–69/80/83–84后脚大部分遮挡；目标是推断，不声称完整轮廓或接地。",
+      "limitations": [
+        "七件纹理均为稳定静态原图素材；body保留既有4095px AI供体搭接，本构建不新增纹理、不从视频裁片、不补全隐藏面。",
+        "肩、肘、髋、膝为语义双骨链推断，不是自动关节提取或直接观测；near/far不确立解剖左右或跨帧身份。",
+        "采用单一1.45倍映射，固定原图骨长和纹理比例，AI视频的转面/扁脚/逐帧比例变化没有照搬；误差逐点如实保留。",
+        "原侧臂可见纹理弯到胸前有隐藏轮廓缺失和切口外露风险；数值无翻转不能替代造型匹配。"
+      ]
+    },
+    {
+      "id": "leg_near",
+      "frames": [
+        {
+          "frame": 68,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_068.png",
+          "sha256": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 70,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_070.png",
+          "sha256": "9c2e989facc35d66e2b5163a6cac4815f68a8ebb4f6f2d15fa115467074e983e",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 72,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_072.png",
+          "sha256": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 74,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_074.png",
+          "sha256": "3200f67af977d20903f69f2109dc05385f18fbe2f3e54086fda34a3e7e32d912",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 76,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_076.png",
+          "sha256": "ca0676580e05720d1f927d733d944c930c776d7c33ac2f4a2a1fb325dfb9bae9",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 77,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_077.png",
+          "sha256": "c3d8a2bdfeec6a45f85650813bf63a52f899187dec62d1d77d9ec0e0f207842a",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 78,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_078.png",
+          "sha256": "63fed24423a2afbf759e8794c4c716609a85647154f070ad7efac0b42ff353ac",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 80,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_080.png",
+          "sha256": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 81,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_081.png",
+          "sha256": "b46b02660221465c152edd5274260066093216e1a6cc5da01137fae3d5c91b0f",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 82,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_082.png",
+          "sha256": "c1e35a74624862d33b2d484d1de836195fabc2c50e4749c995a9b740776e24e2",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 84,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_084.png",
+          "sha256": "3fe5ab53f1fa27ad7d2ad6a87429196ddae7fd06df45dbfce0e2ae64a6835a25",
+          "decodedPixelsExact": true
+        }
+      ],
+      "visibleBasis": "68/80/84前层脚，72两腿展开；74–77屏幕左脚变扁转面，78前腿抬起。",
+      "occlusion": "髋、膝隐藏，腿脚相接处有AI形变；材料点为脚下部中心近似，不是物理标记。",
+      "limitations": [
+        "七件纹理均为稳定静态原图素材；body保留既有4095px AI供体搭接，本构建不新增纹理、不从视频裁片、不补全隐藏面。",
+        "肩、肘、髋、膝为语义双骨链推断，不是自动关节提取或直接观测；near/far不确立解剖左右或跨帧身份。",
+        "采用单一1.45倍映射，固定原图骨长和纹理比例，AI视频的转面/扁脚/逐帧比例变化没有照搬；误差逐点如实保留。",
+        "原侧臂可见纹理弯到胸前有隐藏轮廓缺失和切口外露风险；数值无翻转不能替代造型匹配。"
+      ]
+    },
+    {
+      "id": "body",
+      "frames": [
+        {
+          "frame": 68,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_068.png",
+          "sha256": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 70,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_070.png",
+          "sha256": "9c2e989facc35d66e2b5163a6cac4815f68a8ebb4f6f2d15fa115467074e983e",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 72,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_072.png",
+          "sha256": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 74,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_074.png",
+          "sha256": "3200f67af977d20903f69f2109dc05385f18fbe2f3e54086fda34a3e7e32d912",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 76,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_076.png",
+          "sha256": "ca0676580e05720d1f927d733d944c930c776d7c33ac2f4a2a1fb325dfb9bae9",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 77,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_077.png",
+          "sha256": "c3d8a2bdfeec6a45f85650813bf63a52f899187dec62d1d77d9ec0e0f207842a",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 78,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_078.png",
+          "sha256": "63fed24423a2afbf759e8794c4c716609a85647154f070ad7efac0b42ff353ac",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 80,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_080.png",
+          "sha256": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 81,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_081.png",
+          "sha256": "b46b02660221465c152edd5274260066093216e1a6cc5da01137fae3d5c91b0f",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 82,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_082.png",
+          "sha256": "c1e35a74624862d33b2d484d1de836195fabc2c50e4749c995a9b740776e24e2",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 84,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_084.png",
+          "sha256": "3fe5ab53f1fa27ad7d2ad6a87429196ddae7fd06df45dbfce0e2ae64a6835a25",
+          "decodedPixelsExact": true
+        }
+      ],
+      "visibleBasis": "68/80/84两臂展开时胸腹外轮廓可见，70–77胸前臂覆盖身体。",
+      "occlusion": "弯臂下方、腋下及肩根被遮挡；隐藏身体不从其它帧替换。",
+      "limitations": [
+        "七件纹理均为稳定静态原图素材；body保留既有4095px AI供体搭接，本构建不新增纹理、不从视频裁片、不补全隐藏面。",
+        "肩、肘、髋、膝为语义双骨链推断，不是自动关节提取或直接观测；near/far不确立解剖左右或跨帧身份。",
+        "采用单一1.45倍映射，固定原图骨长和纹理比例，AI视频的转面/扁脚/逐帧比例变化没有照搬；误差逐点如实保留。",
+        "原侧臂可见纹理弯到胸前有隐藏轮廓缺失和切口外露风险；数值无翻转不能替代造型匹配。"
+      ]
+    },
+    {
+      "id": "shorts",
+      "frames": [
+        {
+          "frame": 68,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_068.png",
+          "sha256": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 70,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_070.png",
+          "sha256": "9c2e989facc35d66e2b5163a6cac4815f68a8ebb4f6f2d15fa115467074e983e",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 72,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_072.png",
+          "sha256": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 74,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_074.png",
+          "sha256": "3200f67af977d20903f69f2109dc05385f18fbe2f3e54086fda34a3e7e32d912",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 76,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_076.png",
+          "sha256": "ca0676580e05720d1f927d733d944c930c776d7c33ac2f4a2a1fb325dfb9bae9",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 77,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_077.png",
+          "sha256": "c3d8a2bdfeec6a45f85650813bf63a52f899187dec62d1d77d9ec0e0f207842a",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 78,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_078.png",
+          "sha256": "63fed24423a2afbf759e8794c4c716609a85647154f070ad7efac0b42ff353ac",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 80,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_080.png",
+          "sha256": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 81,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_081.png",
+          "sha256": "b46b02660221465c152edd5274260066093216e1a6cc5da01137fae3d5c91b0f",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 82,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_082.png",
+          "sha256": "c1e35a74624862d33b2d484d1de836195fabc2c50e4749c995a9b740776e24e2",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 84,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_084.png",
+          "sha256": "3fe5ab53f1fa27ad7d2ad6a87429196ddae7fd06df45dbfce0e2ae64a6835a25",
+          "decodedPixelsExact": true
+        }
+      ],
+      "visibleBasis": "各帧腰线、裤口及交叉腿上缘可见，用于独立region与腿根层次复核。",
+      "occlusion": "手臂和腿遮挡部分裤口，静态原图粗切边不声称逐帧准确。",
+      "limitations": [
+        "七件纹理均为稳定静态原图素材；body保留既有4095px AI供体搭接，本构建不新增纹理、不从视频裁片、不补全隐藏面。",
+        "肩、肘、髋、膝为语义双骨链推断，不是自动关节提取或直接观测；near/far不确立解剖左右或跨帧身份。",
+        "采用单一1.45倍映射，固定原图骨长和纹理比例，AI视频的转面/扁脚/逐帧比例变化没有照搬；误差逐点如实保留。",
+        "原侧臂可见纹理弯到胸前有隐藏轮廓缺失和切口外露风险；数值无翻转不能替代造型匹配。"
+      ]
+    },
+    {
+      "id": "arm_far",
+      "frames": [
+        {
+          "frame": 68,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_068.png",
+          "sha256": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 70,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_070.png",
+          "sha256": "9c2e989facc35d66e2b5163a6cac4815f68a8ebb4f6f2d15fa115467074e983e",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 72,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_072.png",
+          "sha256": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 74,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_074.png",
+          "sha256": "3200f67af977d20903f69f2109dc05385f18fbe2f3e54086fda34a3e7e32d912",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 76,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_076.png",
+          "sha256": "ca0676580e05720d1f927d733d944c930c776d7c33ac2f4a2a1fb325dfb9bae9",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 77,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_077.png",
+          "sha256": "c3d8a2bdfeec6a45f85650813bf63a52f899187dec62d1d77d9ec0e0f207842a",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 78,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_078.png",
+          "sha256": "63fed24423a2afbf759e8794c4c716609a85647154f070ad7efac0b42ff353ac",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 80,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_080.png",
+          "sha256": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 81,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_081.png",
+          "sha256": "b46b02660221465c152edd5274260066093216e1a6cc5da01137fae3d5c91b0f",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 82,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_082.png",
+          "sha256": "c1e35a74624862d33b2d484d1de836195fabc2c50e4749c995a9b740776e24e2",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 84,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_084.png",
+          "sha256": "3fe5ab53f1fa27ad7d2ad6a87429196ddae7fd06df45dbfce0e2ae64a6835a25",
+          "decodedPixelsExact": true
+        }
+      ],
+      "visibleBasis": "68–69与78–84屏幕右侧圆手可见；74后侧窄边可见。",
+      "occlusion": "70–73/75–77完整手部不可见，目标标为推断；不当作可见观测计入拟合结论。",
+      "limitations": [
+        "七件纹理均为稳定静态原图素材；body保留既有4095px AI供体搭接，本构建不新增纹理、不从视频裁片、不补全隐藏面。",
+        "肩、肘、髋、膝为语义双骨链推断，不是自动关节提取或直接观测；near/far不确立解剖左右或跨帧身份。",
+        "采用单一1.45倍映射，固定原图骨长和纹理比例，AI视频的转面/扁脚/逐帧比例变化没有照搬；误差逐点如实保留。",
+        "原侧臂可见纹理弯到胸前有隐藏轮廓缺失和切口外露风险；数值无翻转不能替代造型匹配。"
+      ]
+    },
+    {
+      "id": "arm_near",
+      "frames": [
+        {
+          "frame": 68,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_068.png",
+          "sha256": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 70,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_070.png",
+          "sha256": "9c2e989facc35d66e2b5163a6cac4815f68a8ebb4f6f2d15fa115467074e983e",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 72,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_072.png",
+          "sha256": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 74,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_074.png",
+          "sha256": "3200f67af977d20903f69f2109dc05385f18fbe2f3e54086fda34a3e7e32d912",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 76,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_076.png",
+          "sha256": "ca0676580e05720d1f927d733d944c930c776d7c33ac2f4a2a1fb325dfb9bae9",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 77,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_077.png",
+          "sha256": "c3d8a2bdfeec6a45f85650813bf63a52f899187dec62d1d77d9ec0e0f207842a",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 78,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_078.png",
+          "sha256": "63fed24423a2afbf759e8794c4c716609a85647154f070ad7efac0b42ff353ac",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 80,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_080.png",
+          "sha256": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 81,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_081.png",
+          "sha256": "b46b02660221465c152edd5274260066093216e1a6cc5da01137fae3d5c91b0f",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 82,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_082.png",
+          "sha256": "c1e35a74624862d33b2d484d1de836195fabc2c50e4749c995a9b740776e24e2",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 84,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_084.png",
+          "sha256": "3fe5ab53f1fa27ad7d2ad6a87429196ddae7fd06df45dbfce0e2ae64a6835a25",
+          "decodedPixelsExact": true
+        }
+      ],
+      "visibleBasis": "68–69外侧圆形末端；70–76胸前前臂/手掌可见轮廓向屏幕右收，77下降，78–84展开。",
+      "occlusion": "肩、肘内部位置不可确立；骨链关节是推断，材料点是圆形手部轮廓人工近似。",
+      "limitations": [
+        "七件纹理均为稳定静态原图素材；body保留既有4095px AI供体搭接，本构建不新增纹理、不从视频裁片、不补全隐藏面。",
+        "肩、肘、髋、膝为语义双骨链推断，不是自动关节提取或直接观测；near/far不确立解剖左右或跨帧身份。",
+        "采用单一1.45倍映射，固定原图骨长和纹理比例，AI视频的转面/扁脚/逐帧比例变化没有照搬；误差逐点如实保留。",
+        "原侧臂可见纹理弯到胸前有隐藏轮廓缺失和切口外露风险；数值无翻转不能替代造型匹配。"
+      ]
+    },
+    {
+      "id": "head",
+      "frames": [
+        {
+          "frame": 68,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_068.png",
+          "sha256": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 70,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_070.png",
+          "sha256": "9c2e989facc35d66e2b5163a6cac4815f68a8ebb4f6f2d15fa115467074e983e",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 72,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_072.png",
+          "sha256": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 74,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_074.png",
+          "sha256": "3200f67af977d20903f69f2109dc05385f18fbe2f3e54086fda34a3e7e32d912",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 76,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_076.png",
+          "sha256": "ca0676580e05720d1f927d733d944c930c776d7c33ac2f4a2a1fb325dfb9bae9",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 77,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_077.png",
+          "sha256": "c3d8a2bdfeec6a45f85650813bf63a52f899187dec62d1d77d9ec0e0f207842a",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 78,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_078.png",
+          "sha256": "63fed24423a2afbf759e8794c4c716609a85647154f070ad7efac0b42ff353ac",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 80,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_080.png",
+          "sha256": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 81,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_081.png",
+          "sha256": "b46b02660221465c152edd5274260066093216e1a6cc5da01137fae3d5c91b0f",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 82,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_082.png",
+          "sha256": "c1e35a74624862d33b2d484d1de836195fabc2c50e4749c995a9b740776e24e2",
+          "decodedPixelsExact": true
+        },
+        {
+          "frame": 84,
+          "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_084.png",
+          "sha256": "3fe5ab53f1fa27ad7d2ad6a87429196ddae7fd06df45dbfce0e2ae64a6835a25",
+          "decodedPixelsExact": true
+        }
+      ],
+      "visibleBasis": "68/72/76/80/84完整源PNG的头发、面部、耳朵外轮廓可见；保持原图头部比例，不匹配AI表情。",
+      "occlusion": "头颈连接/头部背面不可完整观测。",
+      "limitations": [
+        "七件纹理均为稳定静态原图素材；body保留既有4095px AI供体搭接，本构建不新增纹理、不从视频裁片、不补全隐藏面。",
+        "肩、肘、髋、膝为语义双骨链推断，不是自动关节提取或直接观测；near/far不确立解剖左右或跨帧身份。",
+        "采用单一1.45倍映射，固定原图骨长和纹理比例，AI视频的转面/扁脚/逐帧比例变化没有照搬；误差逐点如实保留。",
+        "原侧臂可见纹理弯到胸前有隐藏轮廓缺失和切口外露风险；数值无翻转不能替代造型匹配。"
+      ]
+    }
+  ],
+  "annotationMethod": "已用ViewImage实际查看两张contact及source_068..084全部17PNG后手工估计轮廓点，非自动关节提取。",
+  "reviewedContacts": [
+    {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/contact_068_075.jpg",
+      "sha256": "d185a3cb7164342ad33f57611615a9ae9018e5f97d1d945b773e5df1ac9506b2"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/contact_076_084.jpg",
+      "sha256": "c3daa3cf525bee645f7f58252d5a9d132141df59699c052715819eafd37d9769"
+    }
+  ],
+  "videoFrames": [
+    {
+      "frame": 68,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_068.png",
+      "sha256": "9d4aab1b35ba228d28856f31acdeb185933576f88368e0fc5bb7cac2a01aa871",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 69,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_069.png",
+      "sha256": "115df477d07ff9a3416690b06122db913e4fc0383baed5254ff53bbc15d854ee",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 70,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_070.png",
+      "sha256": "9c2e989facc35d66e2b5163a6cac4815f68a8ebb4f6f2d15fa115467074e983e",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 71,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_071.png",
+      "sha256": "434509573a59694e6b90b9927e14fd090777ca24c7cd2d52c0dcaeff5d16a99e",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 72,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_072.png",
+      "sha256": "5d46d7f7020ce75cc02c5c639196729709014d7196ecc338896c3359aa77aa93",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 73,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_073.png",
+      "sha256": "ea3c8193870a44d9a98b0a995e5cc2519b825dae961bc1e013f4a0fcb88994ca",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 74,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_074.png",
+      "sha256": "3200f67af977d20903f69f2109dc05385f18fbe2f3e54086fda34a3e7e32d912",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 75,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_075.png",
+      "sha256": "030f04baccecbbaa3a1351109e2733537e956c2968873c0c7e94ebc6ebec176a",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 76,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_076.png",
+      "sha256": "ca0676580e05720d1f927d733d944c930c776d7c33ac2f4a2a1fb325dfb9bae9",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 77,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_077.png",
+      "sha256": "c3d8a2bdfeec6a45f85650813bf63a52f899187dec62d1d77d9ec0e0f207842a",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 78,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_078.png",
+      "sha256": "63fed24423a2afbf759e8794c4c716609a85647154f070ad7efac0b42ff353ac",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 79,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_079.png",
+      "sha256": "c2e238fb4a36f536be0a78c1524590ee23a1f6ef7ab145616afb3914acfc1dfd",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 80,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_080.png",
+      "sha256": "7ecd0932818aa44b35f338209a76a8209e26415981869cee85c7c2d5bc924f02",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 81,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_081.png",
+      "sha256": "b46b02660221465c152edd5274260066093216e1a6cc5da01137fae3d5c91b0f",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 82,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_082.png",
+      "sha256": "c1e35a74624862d33b2d484d1de836195fabc2c50e4749c995a9b740776e24e2",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 83,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_083.png",
+      "sha256": "8d0a84da923ab2316c52bc0cb40616885eac163ea55e5873f72966a727fe50f2",
+      "decodedPixelsExact": true
+    },
+    {
+      "frame": 84,
+      "file": "generated_rig/video_f7e82942/video_parts_v1/cycle_review/source_084.png",
+      "sha256": "3fe5ab53f1fa27ad7d2ad6a87429196ddae7fd06df45dbfce0e2ae64a6835a25",
+      "decodedPixelsExact": true
+    }
+  ],
+  "mapping": {
+    "videoSize": [
+      864,
+      480
+    ],
+    "targetCanvas": [
+      768,
+      768
+    ],
+    "origin": "top-left y-down",
+    "rule": "p_target=[410,505]+1.45*(p_video-[443,340]); body位移=1.45*(每帧胸腹中心-[443,340]); 单一等比映射，骨长不变。",
+    "uniformScale": 1.45,
+    "videoAnchor": [
+      443,
+      340
+    ],
+    "sourceAnchor": [
+      410,
+      505
+    ],
+    "torsoCenterVideoPixels": [
+      [
+        443,
+        340
+      ],
+      [
+        444,
+        341
+      ],
+      [
+        445,
+        329
+      ],
+      [
+        445,
+        326
+      ],
+      [
+        445,
+        325
+      ],
+      [
+        445,
+        323
+      ],
+      [
+        445,
+        332
+      ],
+      [
+        443,
+        338
+      ],
+      [
+        441,
+        344
+      ],
+      [
+        439,
+        347
+      ],
+      [
+        440,
+        330
+      ],
+      [
+        439,
+        324
+      ],
+      [
+        439,
+        325
+      ],
+      [
+        439,
+        326
+      ],
+      [
+        438,
+        333
+      ],
+      [
+        440,
+        338
+      ],
+      [
+        443,
+        340
+      ]
+    ],
+    "manualVisiblePointUncertaintyVideoPx": [
+      4,
+      8
+    ],
+    "inferredHiddenPointUncertaintyVideoPx": [
+      12,
+      25
+    ],
+    "uncertaintyIsNotMeasuredAccuracy": true,
+    "materialDefinition": "静态原图末端材料中心以重心坐标绑定mesh；视频脚/手轮廓中心为代理，不宣称真实跨帧物理点。"
+  },
+  "pointAnnotations": [
+    {
+      "part": "arm_near",
+      "frame": 68,
+      "time": 0.0,
+      "visibleTarget": true,
+      "videoPoint": [
+        374,
+        352
+      ],
+      "mappedTarget": [
+        309.95,
+        522.4
+      ],
+      "inferredRoot": [
+        350.0,
+        456.0
+      ],
+      "inferredJoint": [
+        350.861750265513,
+        512.6414811465934
+      ],
+      "projectedBoneEndpoint": [
+        309.95,
+        522.4
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        309.95,
+        522.4
+      ],
+      "materialResidualPx": 0.0,
+      "videoEquivalentResidualPx": 0.0
+    },
+    {
+      "part": "arm_near",
+      "frame": 69,
+      "time": 0.041666666666666664,
+      "visibleTarget": true,
+      "videoPoint": [
+        389,
+        361
+      ],
+      "mappedTarget": [
+        331.7,
+        535.45
+      ],
+      "inferredRoot": [
+        351.45,
+        457.45
+      ],
+      "inferredJoint": [
+        366.63269337656834,
+        512.025505694708
+      ],
+      "projectedBoneEndpoint": [
+        331.7,
+        535.45
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        331.7,
+        535.45
+      ],
+      "materialResidualPx": 0.0,
+      "videoEquivalentResidualPx": 0.0
+    },
+    {
+      "part": "arm_near",
+      "frame": 70,
+      "time": 0.08333333333333333,
+      "visibleTarget": true,
+      "videoPoint": [
+        429,
+        350
+      ],
+      "mappedTarget": [
+        389.7,
+        519.5
+      ],
+      "inferredRoot": [
+        352.9,
+        440.05
+      ],
+      "inferredJoint": [
+        395.1419856995537,
+        477.7940676684257
+      ],
+      "projectedBoneEndpoint": [
+        389.7,
+        519.5
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        389.69999999999993,
+        519.5
+      ],
+      "materialResidualPx": 5.684341886080802e-14,
+      "videoEquivalentResidualPx": 3.920235783504001e-14
+    },
+    {
+      "part": "arm_near",
+      "frame": 71,
+      "time": 0.125,
+      "visibleTarget": true,
+      "videoPoint": [
+        450,
+        339
+      ],
+      "mappedTarget": [
+        420.15,
+        503.55
+      ],
+      "inferredRoot": [
+        352.9,
+        435.7
+      ],
+      "inferredJoint": [
+        400.54807366003485,
+        466.3375762175778
+      ],
+      "projectedBoneEndpoint": [
+        420.15,
+        503.55
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        420.15,
+        503.55000000000007
+      ],
+      "materialResidualPx": 5.684341886080802e-14,
+      "videoEquivalentResidualPx": 3.920235783504001e-14
+    },
+    {
+      "part": "arm_near",
+      "frame": 72,
+      "time": 0.16666666666666666,
+      "visibleTarget": true,
+      "videoPoint": [
+        461,
+        332
+      ],
+      "mappedTarget": [
+        436.1,
+        493.4
+      ],
+      "inferredRoot": [
+        352.9,
+        434.25
+      ],
+      "inferredJoint": [
+        401.16853494462146,
+        463.9004390237287
+      ],
+      "projectedBoneEndpoint": [
+        433.1043063899311,
+        491.2702490740916
+      ],
+      "fixedLengthProjectionResidualPx": 3.675597803326062,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        433.10430638993114,
+        491.2702490740916
+      ],
+      "materialResidualPx": 3.6755978033260157,
+      "videoEquivalentResidualPx": 2.534895036776563
+    },
+    {
+      "part": "arm_near",
+      "frame": 73,
+      "time": 0.20833333333333334,
+      "visibleTarget": true,
+      "videoPoint": [
+        472,
+        325
+      ],
+      "mappedTarget": [
+        452.05,
+        483.25
+      ],
+      "inferredRoot": [
+        352.9,
+        431.35
+      ],
+      "inferredJoint": [
+        404.7382695161706,
+        454.19280660446213
+      ],
+      "projectedBoneEndpoint": [
+        440.085387417586,
+        476.9871316890843
+      ],
+      "fixedLengthProjectionResidualPx": 13.504646375493573,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        440.08538741758605,
+        476.9871316890844
+      ],
+      "materialResidualPx": 13.504646375493495,
+      "videoEquivalentResidualPx": 9.313549224478272
+    },
+    {
+      "part": "arm_near",
+      "frame": 74,
+      "time": 0.25,
+      "visibleTarget": true,
+      "videoPoint": [
+        473,
+        331
+      ],
+      "mappedTarget": [
+        453.5,
+        491.95
+      ],
+      "inferredRoot": [
+        352.9,
+        444.4
+      ],
+      "inferredJoint": [
+        405.6245779063136,
+        465.11518487972205
+      ],
+      "projectedBoneEndpoint": [
+        441.86968211310807,
+        486.45276724133487
+      ],
+      "fixedLengthProjectionResidualPx": 12.864053099746569,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        441.869682113108,
+        486.4527672413348
+      ],
+      "materialResidualPx": 12.864053099746643,
+      "videoEquivalentResidualPx": 8.87176075844596
+    },
+    {
+      "part": "arm_near",
+      "frame": 75,
+      "time": 0.2916666666666667,
+      "visibleTarget": true,
+      "videoPoint": [
+        469,
+        341
+      ],
+      "mappedTarget": [
+        447.7,
+        506.45
+      ],
+      "inferredRoot": [
+        350.0,
+        453.1
+      ],
+      "inferredJoint": [
+        401.4286526433606,
+        476.85065656542076
+      ],
+      "projectedBoneEndpoint": [
+        436.3695549385858,
+        500.2629043600159
+      ],
+      "fixedLengthProjectionResidualPx": 12.909652890300162,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        436.36955493858585,
+        500.2629043600159
+      ],
+      "materialResidualPx": 12.909652890300112,
+      "videoEquivalentResidualPx": 8.903208889862146
+    },
+    {
+      "part": "arm_near",
+      "frame": 76,
+      "time": 0.3333333333333333,
+      "visibleTarget": true,
+      "videoPoint": [
+        461,
+        350
+      ],
+      "mappedTarget": [
+        436.1,
+        519.5
+      ],
+      "inferredRoot": [
+        347.1,
+        461.8
+      ],
+      "inferredJoint": [
+        396.59406911779337,
+        489.3560723283108
+      ],
+      "projectedBoneEndpoint": [
+        429.6726885844042,
+        515.3330801271924
+      ],
+      "fixedLengthProjectionResidualPx": 7.6598663995821195,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        429.6726885844042,
+        515.3330801271924
+      ],
+      "materialResidualPx": 7.6598663995821195,
+      "videoEquivalentResidualPx": 5.282666482470427
+    },
+    {
+      "part": "arm_near",
+      "frame": 77,
+      "time": 0.375,
+      "visibleTarget": true,
+      "videoPoint": [
+        447,
+        358
+      ],
+      "mappedTarget": [
+        415.8,
+        531.1
+      ],
+      "inferredRoot": [
+        344.2,
+        466.15
+      ],
+      "inferredJoint": [
+        392.1425951686304,
+        496.3246179511326
+      ],
+      "projectedBoneEndpoint": [
+        415.8,
+        531.1
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        415.80000000000007,
+        531.1
+      ],
+      "materialResidualPx": 5.684341886080802e-14,
+      "videoEquivalentResidualPx": 3.920235783504001e-14
+    },
+    {
+      "part": "arm_near",
+      "frame": 78,
+      "time": 0.4166666666666667,
+      "visibleTarget": true,
+      "videoPoint": [
+        413,
+        354
+      ],
+      "mappedTarget": [
+        366.5,
+        525.3
+      ],
+      "inferredRoot": [
+        345.65,
+        441.5
+      ],
+      "inferredJoint": [
+        380.95350528577336,
+        485.80194707388574
+      ],
+      "projectedBoneEndpoint": [
+        366.5,
+        525.3
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        366.5,
+        525.3
+      ],
+      "materialResidualPx": 0.0,
+      "videoEquivalentResidualPx": 0.0
+    },
+    {
+      "part": "arm_near",
+      "frame": 79,
+      "time": 0.4583333333333333,
+      "visibleTarget": true,
+      "videoPoint": [
+        393,
+        350
+      ],
+      "mappedTarget": [
+        337.5,
+        519.5
+      ],
+      "inferredRoot": [
+        344.2,
+        432.8
+      ],
+      "inferredJoint": [
+        363.1653424208804,
+        486.1789826322941
+      ],
+      "projectedBoneEndpoint": [
+        337.5,
+        519.5
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        337.50000000000006,
+        519.5
+      ],
+      "materialResidualPx": 5.684341886080802e-14,
+      "videoEquivalentResidualPx": 3.920235783504001e-14
+    },
+    {
+      "part": "arm_near",
+      "frame": 80,
+      "time": 0.5,
+      "visibleTarget": true,
+      "videoPoint": [
+        380,
+        345
+      ],
+      "mappedTarget": [
+        318.65,
+        512.25
+      ],
+      "inferredRoot": [
+        344.2,
+        434.25
+      ],
+      "inferredJoint": [
+        354.3325740734639,
+        489.98446817406415
+      ],
+      "projectedBoneEndpoint": [
+        318.65,
+        512.25
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        318.6499999999999,
+        512.25
+      ],
+      "materialResidualPx": 5.684341886080802e-14,
+      "videoEquivalentResidualPx": 3.920235783504001e-14
+    },
+    {
+      "part": "arm_near",
+      "frame": 81,
+      "time": 0.5416666666666666,
+      "visibleTarget": true,
+      "videoPoint": [
+        370,
+        339
+      ],
+      "mappedTarget": [
+        304.15,
+        503.55
+      ],
+      "inferredRoot": [
+        344.2,
+        435.7
+      ],
+      "inferredJoint": [
+        344.6897160403068,
+        492.34591934287823
+      ],
+      "projectedBoneEndpoint": [
+        304.15,
+        503.55
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        304.51251596402625,
+        503.54657877350724
+      ],
+      "materialResidualPx": 0.36253210749478787,
+      "videoEquivalentResidualPx": 0.2500221430998537
+    },
+    {
+      "part": "arm_near",
+      "frame": 82,
+      "time": 0.5833333333333334,
+      "visibleTarget": true,
+      "videoPoint": [
+        361,
+        340
+      ],
+      "mappedTarget": [
+        291.1,
+        505.0
+      ],
+      "inferredRoot": [
+        342.75,
+        445.85
+      ],
+      "inferredJoint": [
+        333.0264381222918,
+        501.6572785970646
+      ],
+      "projectedBoneEndpoint": [
+        291.1,
+        505.0
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        291.8147684281226,
+        505.12160653429646
+      ],
+      "materialResidualPx": 0.7250393472249647,
+      "videoEquivalentResidualPx": 0.500027136017217
+    },
+    {
+      "part": "arm_near",
+      "frame": 83,
+      "time": 0.625,
+      "visibleTarget": true,
+      "videoPoint": [
+        363,
+        347
+      ],
+      "mappedTarget": [
+        294.0,
+        515.15
+      ],
+      "inferredRoot": [
+        345.65,
+        453.1
+      ],
+      "inferredJoint": [
+        335.5844600464741,
+        508.8466133988781
+      ],
+      "projectedBoneEndpoint": [
+        294.0,
+        515.15
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        295.0718022425389,
+        515.3355297946773
+      ],
+      "materialResidualPx": 1.087741399333719,
+      "videoEquivalentResidualPx": 0.7501664822991166
+    },
+    {
+      "part": "arm_near",
+      "frame": 84,
+      "time": 0.6666666666666666,
+      "visibleTarget": true,
+      "videoPoint": [
+        373,
+        352
+      ],
+      "mappedTarget": [
+        308.5,
+        522.4
+      ],
+      "inferredRoot": [
+        350.0,
+        456.0
+      ],
+      "inferredJoint": [
+        349.4125871732847,
+        512.6449904772788
+      ],
+      "projectedBoneEndpoint": [
+        308.5,
+        522.4
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        309.95,
+        522.4
+      ],
+      "materialResidualPx": 1.4499999999999886,
+      "videoEquivalentResidualPx": 0.9999999999999922
+    },
+    {
+      "part": "arm_far",
+      "frame": 68,
+      "time": 0.0,
+      "visibleTarget": true,
+      "videoPoint": [
+        526,
+        330
+      ],
+      "mappedTarget": [
+        530.35,
+        490.5
+      ],
+      "inferredRoot": [
+        468.0,
+        463.0
+      ],
+      "inferredJoint": [
+        494.96711800057193,
+        493.508597915067
+      ],
+      "projectedBoneEndpoint": [
+        530.35,
+        490.5
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        530.35,
+        490.5
+      ],
+      "materialResidualPx": 0.0,
+      "videoEquivalentResidualPx": 0.0
+    },
+    {
+      "part": "arm_far",
+      "frame": 69,
+      "time": 0.041666666666666664,
+      "visibleTarget": true,
+      "videoPoint": [
+        519,
+        340
+      ],
+      "mappedTarget": [
+        520.2,
+        505.0
+      ],
+      "inferredRoot": [
+        469.45,
+        464.45
+      ],
+      "inferredJoint": [
+        484.80292769148963,
+        502.16322859819735
+      ],
+      "projectedBoneEndpoint": [
+        520.2,
+        505.0
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        520.2,
+        505.0
+      ],
+      "materialResidualPx": 0.0,
+      "videoEquivalentResidualPx": 0.0
+    },
+    {
+      "part": "arm_far",
+      "frame": 70,
+      "time": 0.08333333333333333,
+      "visibleTarget": false,
+      "videoPoint": [
+        504,
+        338
+      ],
+      "mappedTarget": [
+        498.45,
+        502.1
+      ],
+      "inferredRoot": [
+        470.9,
+        447.05
+      ],
+      "inferredJoint": [
+        466.08725997148923,
+        487.48312421045364
+      ],
+      "projectedBoneEndpoint": [
+        498.45,
+        502.1
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        498.45,
+        502.1
+      ],
+      "materialResidualPx": 0.0,
+      "videoEquivalentResidualPx": 0.0
+    },
+    {
+      "part": "arm_far",
+      "frame": 71,
+      "time": 0.125,
+      "visibleTarget": false,
+      "videoPoint": [
+        501,
+        333
+      ],
+      "mappedTarget": [
+        494.1,
+        494.85
+      ],
+      "inferredRoot": [
+        470.9,
+        442.7
+      ],
+      "inferredJoint": [
+        460.92726000523027,
+        482.1784049449407
+      ],
+      "projectedBoneEndpoint": [
+        494.1,
+        494.85
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        494.1,
+        494.85
+      ],
+      "materialResidualPx": 0.0,
+      "videoEquivalentResidualPx": 0.0
+    },
+    {
+      "part": "arm_far",
+      "frame": 72,
+      "time": 0.16666666666666666,
+      "visibleTarget": false,
+      "videoPoint": [
+        498,
+        329
+      ],
+      "mappedTarget": [
+        489.75,
+        489.05
+      ],
+      "inferredRoot": [
+        470.9,
+        441.25
+      ],
+      "inferredJoint": [
+        455.68557055504783,
+        479.0193147497353
+      ],
+      "projectedBoneEndpoint": [
+        489.75,
+        489.05
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        489.75,
+        489.05
+      ],
+      "materialResidualPx": 0.0,
+      "videoEquivalentResidualPx": 0.0
+    },
+    {
+      "part": "arm_far",
+      "frame": 73,
+      "time": 0.20833333333333334,
+      "visibleTarget": false,
+      "videoPoint": [
+        398,
+        316
+      ],
+      "mappedTarget": [
+        344.75,
+        470.2
+      ],
+      "inferredRoot": [
+        470.9,
+        438.35
+      ],
+      "inferredJoint": [
+        430.73078011838237,
+        445.01586634296376
+      ],
+      "projectedBoneEndpoint": [
+        397.2810558363506,
+        456.9371056013653
+      ],
+      "fixedLengthProjectionResidualPx": 54.17948131083502,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        397.28105583635056,
+        456.93710560136526
+      ],
+      "materialResidualPx": 54.17948131083498,
+      "videoEquivalentResidualPx": 37.36515952471378
+    },
+    {
+      "part": "arm_far",
+      "frame": 74,
+      "time": 0.25,
+      "visibleTarget": false,
+      "videoPoint": [
+        398,
+        324
+      ],
+      "mappedTarget": [
+        344.75,
+        481.8
+      ],
+      "inferredRoot": [
+        470.9,
+        451.4
+      ],
+      "inferredJoint": [
+        430.66091723536795,
+        457.63026630739773
+      ],
+      "projectedBoneEndpoint": [
+        397.08399694522745,
+        469.1883986751097
+      ],
+      "fixedLengthProjectionResidualPx": 53.83214396846044,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        397.08399694522745,
+        469.1883986751097
+      ],
+      "materialResidualPx": 53.83214396846044,
+      "videoEquivalentResidualPx": 37.12561652997272
+    },
+    {
+      "part": "arm_far",
+      "frame": 75,
+      "time": 0.2916666666666667,
+      "visibleTarget": false,
+      "videoPoint": [
+        398,
+        330
+      ],
+      "mappedTarget": [
+        344.75,
+        490.5
+      ],
+      "inferredRoot": [
+        468.0,
+        460.1
+      ],
+      "inferredJoint": [
+        427.79483785027,
+        466.54553616962306
+      ],
+      "projectedBoneEndpoint": [
+        394.28025743534556,
+        478.28320627963893
+      ],
+      "fixedLengthProjectionResidualPx": 51.01466897292834,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        394.28025743534556,
+        478.2832062796389
+      ],
+      "materialResidualPx": 51.014668972928355,
+      "videoEquivalentResidualPx": 35.18253032615749
+    },
+    {
+      "part": "arm_far",
+      "frame": 76,
+      "time": 0.3333333333333333,
+      "visibleTarget": false,
+      "videoPoint": [
+        398,
+        338
+      ],
+      "mappedTarget": [
+        344.75,
+        502.1
+      ],
+      "inferredRoot": [
+        465.1,
+        468.8
+      ],
+      "inferredJoint": [
+        425.0919062183449,
+        476.37313884451396
+      ],
+      "projectedBoneEndpoint": [
+        391.92050996122947,
+        489.0482510867558
+      ],
+      "fixedLengthProjectionResidualPx": 48.94287649593985,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        391.92050996122947,
+        489.04825108675584
+      ],
+      "materialResidualPx": 48.94287649593983,
+      "videoEquivalentResidualPx": 33.75370792823436
+    },
+    {
+      "part": "arm_far",
+      "frame": 77,
+      "time": 0.375,
+      "visibleTarget": false,
+      "videoPoint": [
+        399,
+        342
+      ],
+      "mappedTarget": [
+        346.2,
+        507.9
+      ],
+      "inferredRoot": [
+        462.2,
+        473.15
+      ],
+      "inferredJoint": [
+        422.36077694622094,
+        481.5664307441599
+      ],
+      "projectedBoneEndpoint": [
+        389.4644814199952,
+        494.93930405737206
+      ],
+      "fixedLengthProjectionResidualPx": 45.16408962725101,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        389.4644814199952,
+        494.93930405737206
+      ],
+      "materialResidualPx": 45.16408962725101,
+      "videoEquivalentResidualPx": 31.1476480187938
+    },
+    {
+      "part": "arm_far",
+      "frame": 78,
+      "time": 0.4166666666666667,
+      "visibleTarget": true,
+      "videoPoint": [
+        514,
+        342
+      ],
+      "mappedTarget": [
+        512.95,
+        507.9
+      ],
+      "inferredRoot": [
+        463.65,
+        448.5
+      ],
+      "inferredJoint": [
+        486.9724978576819,
+        481.8775537401773
+      ],
+      "projectedBoneEndpoint": [
+        512.1424347723473,
+        506.9269903747957
+      ],
+      "fixedLengthProjectionResidualPx": 1.2644798644715387,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        512.1424347723473,
+        506.92699037479565
+      ],
+      "materialResidualPx": 1.2644798644715824,
+      "videoEquivalentResidualPx": 0.8720550789459189
+    },
+    {
+      "part": "arm_far",
+      "frame": 79,
+      "time": 0.4583333333333333,
+      "visibleTarget": true,
+      "videoPoint": [
+        522,
+        331
+      ],
+      "mappedTarget": [
+        524.55,
+        491.95
+      ],
+      "inferredRoot": [
+        462.2,
+        439.8
+      ],
+      "inferredJoint": [
+        491.1641862449027,
+        468.4195023571443
+      ],
+      "projectedBoneEndpoint": [
+        520.4422087354242,
+        488.51421308023055
+      ],
+      "fixedLengthProjectionResidualPx": 5.35523863440126,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        520.4422087354243,
+        488.51421308023055
+      ],
+      "materialResidualPx": 5.355238634401172,
+      "videoEquivalentResidualPx": 3.6932680237249467
+    },
+    {
+      "part": "arm_far",
+      "frame": 80,
+      "time": 0.5,
+      "visibleTarget": true,
+      "videoPoint": [
+        528,
+        319
+      ],
+      "mappedTarget": [
+        533.25,
+        474.55
+      ],
+      "inferredRoot": [
+        462.2,
+        441.25
+      ],
+      "inferredJoint": [
+        497.51314243961394,
+        461.52269027631843
+      ],
+      "projectedBoneEndpoint": [
+        530.9524323814161,
+        473.4731667600445
+      ],
+      "fixedLengthProjectionResidualPx": 2.537397641016969,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        530.9524323814161,
+        473.4731667600444
+      ],
+      "materialResidualPx": 2.537397641016993,
+      "videoEquivalentResidualPx": 1.7499294075979264
+    },
+    {
+      "part": "arm_far",
+      "frame": 81,
+      "time": 0.5416666666666666,
+      "visibleTarget": true,
+      "videoPoint": [
+        532,
+        312
+      ],
+      "mappedTarget": [
+        539.05,
+        464.4
+      ],
+      "inferredRoot": [
+        462.2,
+        442.7
+      ],
+      "inferredJoint": [
+        500.3360261062218,
+        456.9703718530937
+      ],
+      "projectedBoneEndpoint": [
+        535.2718908841529,
+        463.3331819412637
+      ],
+      "fixedLengthProjectionResidualPx": 3.9258386698503878,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        535.2253113414665,
+        463.09488701477346
+      ],
+      "materialResidualPx": 4.041232886004113,
+      "videoEquivalentResidualPx": 2.787057162761457
+    },
+    {
+      "part": "arm_far",
+      "frame": 82,
+      "time": 0.5833333333333334,
+      "visibleTarget": true,
+      "videoPoint": [
+        533,
+        315
+      ],
+      "mappedTarget": [
+        540.5,
+        468.75
+      ],
+      "inferredRoot": [
+        460.75,
+        452.85
+      ],
+      "inferredJoint": [
+        499.8866560451527,
+        464.0893128617106
+      ],
+      "projectedBoneEndpoint": [
+        535.2135804536496,
+        467.69603046035144
+      ],
+      "fixedLengthProjectionResidualPx": 5.390462263159153,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        535.0660266222823,
+        467.22572775624195
+      ],
+      "materialResidualPx": 5.6437108840581365,
+      "videoEquivalentResidualPx": 3.892214402798715
+    },
+    {
+      "part": "arm_far",
+      "frame": 83,
+      "time": 0.625,
+      "visibleTarget": true,
+      "videoPoint": [
+        533,
+        322
+      ],
+      "mappedTarget": [
+        540.5,
+        478.9
+      ],
+      "inferredRoot": [
+        463.65,
+        460.1
+      ],
+      "inferredJoint": [
+        502.26568763898746,
+        473.0162172546047
+      ],
+      "projectedBoneEndpoint": [
+        537.404261302543,
+        478.14268201025124
+      ],
+      "fixedLengthProjectionResidualPx": 3.187025042344346,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        537.1877023563278,
+        477.4236952585812
+      ],
+      "materialResidualPx": 3.62640198679242,
+      "videoEquivalentResidualPx": 2.5009668874430484
+    },
+    {
+      "part": "arm_far",
+      "frame": 84,
+      "time": 0.6666666666666666,
+      "visibleTarget": true,
+      "videoPoint": [
+        527,
+        331
+      ],
+      "mappedTarget": [
+        531.8,
+        491.95
+      ],
+      "inferredRoot": [
+        468.0,
+        463.0
+      ],
+      "inferredJoint": [
+        496.2910195157905,
+        492.28511933998493
+      ],
+      "projectedBoneEndpoint": [
+        531.8,
+        491.94999999999993
+      ],
+      "fixedLengthProjectionResidualPx": 5.684341886080802e-14,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        530.35,
+        490.5
+      ],
+      "materialResidualPx": 2.0506096654409314,
+      "videoEquivalentResidualPx": 1.414213562373056
+    },
+    {
+      "part": "leg_near",
+      "frame": 68,
+      "time": 0.0,
+      "visibleTarget": true,
+      "videoPoint": [
+        434,
+        440
+      ],
+      "mappedTarget": [
+        396.95,
+        650.0
+      ],
+      "inferredRoot": [
+        359.0,
+        576.0
+      ],
+      "inferredJoint": [
+        379.2452719237826,
+        608.2510304445005
+      ],
+      "projectedBoneEndpoint": [
+        392.08018004657725,
+        640.5041718958292
+      ],
+      "fixedLengthProjectionResidualPx": 10.671733587506454,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        392.08018004657725,
+        640.5041718958292
+      ],
+      "materialResidualPx": 10.671733587506454,
+      "videoEquivalentResidualPx": 7.35981626724583
+    },
+    {
+      "part": "leg_near",
+      "frame": 69,
+      "time": 0.041666666666666664,
+      "visibleTarget": true,
+      "videoPoint": [
+        425,
+        440
+      ],
+      "mappedTarget": [
+        383.9,
+        650.0
+      ],
+      "inferredRoot": [
+        360.45,
+        577.45
+      ],
+      "inferredJoint": [
+        375.2550489390816,
+        612.5329093136729
+      ],
+      "projectedBoneEndpoint": [
+        382.74551414371086,
+        646.4282324574083
+      ],
+      "fixedLengthProjectionResidualPx": 3.7537129579502033,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        382.74551414371086,
+        646.4282324574083
+      ],
+      "materialResidualPx": 3.7537129579502033,
+      "videoEquivalentResidualPx": 2.5887675572070368
+    },
+    {
+      "part": "leg_near",
+      "frame": 70,
+      "time": 0.08333333333333333,
+      "visibleTarget": true,
+      "videoPoint": [
+        412,
+        438
+      ],
+      "mappedTarget": [
+        365.05,
+        647.1
+      ],
+      "inferredRoot": [
+        361.9,
+        560.05
+      ],
+      "inferredJoint": [
+        366.5670891325427,
+        597.841775282843
+      ],
+      "projectedBoneEndpoint": [
+        364.5214860986751,
+        632.4945602824332
+      ],
+      "fixedLengthProjectionResidualPx": 14.614999017699994,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        364.52148609867504,
+        632.4945602824333
+      ],
+      "materialResidualPx": 14.614999017699882,
+      "videoEquivalentResidualPx": 10.07930966737923
+    },
+    {
+      "part": "leg_near",
+      "frame": 71,
+      "time": 0.125,
+      "visibleTarget": true,
+      "videoPoint": [
+        400,
+        435
+      ],
+      "mappedTarget": [
+        347.65,
+        642.75
+      ],
+      "inferredRoot": [
+        361.9,
+        555.7
+      ],
+      "inferredJoint": [
+        359.0255943473355,
+        593.6702224400112
+      ],
+      "projectedBoneEndpoint": [
+        350.189008933441,
+        627.2397734978217
+      ],
+      "fixedLengthProjectionResidualPx": 15.71666925633313,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        350.189008933441,
+        627.2397734978217
+      ],
+      "materialResidualPx": 15.71666925633313,
+      "videoEquivalentResidualPx": 10.839082245746987
+    },
+    {
+      "part": "leg_near",
+      "frame": 72,
+      "time": 0.16666666666666666,
+      "visibleTarget": true,
+      "videoPoint": [
+        395,
+        432
+      ],
+      "mappedTarget": [
+        340.4,
+        638.4
+      ],
+      "inferredRoot": [
+        361.9,
+        554.25
+      ],
+      "inferredJoint": [
+        355.70397215886584,
+        591.821388568855
+      ],
+      "projectedBoneEndpoint": [
+        343.9550299076048,
+        624.4857782918627
+      ],
+      "fixedLengthProjectionResidualPx": 14.361190876357092,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        343.9550299076048,
+        624.4857782918627
+      ],
+      "materialResidualPx": 14.361190876357092,
+      "videoEquivalentResidualPx": 9.904269569901443
+    },
+    {
+      "part": "leg_near",
+      "frame": 73,
+      "time": 0.20833333333333334,
+      "visibleTarget": true,
+      "videoPoint": [
+        387,
+        422
+      ],
+      "mappedTarget": [
+        328.8,
+        623.9
+      ],
+      "inferredRoot": [
+        361.9,
+        551.35
+      ],
+      "inferredJoint": [
+        349.1535930237121,
+        587.232155860467
+      ],
+      "projectedBoneEndpoint": [
+        331.81017414028406,
+        617.3021711819455
+      ],
+      "fixedLengthProjectionResidualPx": 7.252068219975953,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        331.81017414028406,
+        617.3021711819454
+      ],
+      "materialResidualPx": 7.252068219976057,
+      "videoEquivalentResidualPx": 5.001426358604178
+    },
+    {
+      "part": "leg_near",
+      "frame": 74,
+      "time": 0.25,
+      "visibleTarget": true,
+      "videoPoint": [
+        391,
+        404
+      ],
+      "mappedTarget": [
+        334.6,
+        597.8
+      ],
+      "inferredRoot": [
+        361.9,
+        564.4
+      ],
+      "inferredJoint": [
+        369.0824173424586,
+        601.795359085303
+      ],
+      "projectedBoneEndpoint": [
+        334.6,
+        597.8
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        334.6,
+        597.8
+      ],
+      "materialResidualPx": 0.0,
+      "videoEquivalentResidualPx": 0.0
+    },
+    {
+      "part": "leg_near",
+      "frame": 75,
+      "time": 0.2916666666666667,
+      "visibleTarget": true,
+      "videoPoint": [
+        395,
+        409
+      ],
+      "mappedTarget": [
+        340.4,
+        605.05
+      ],
+      "inferredRoot": [
+        359.0,
+        573.1
+      ],
+      "inferredJoint": [
+        375.01583084144863,
+        607.6469703803112
+      ],
+      "projectedBoneEndpoint": [
+        340.40000000000003,
+        605.05
+      ],
+      "fixedLengthProjectionResidualPx": 5.684341886080802e-14,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        340.4,
+        605.05
+      ],
+      "materialResidualPx": 0.0,
+      "videoEquivalentResidualPx": 0.0
+    },
+    {
+      "part": "leg_near",
+      "frame": 76,
+      "time": 0.3333333333333333,
+      "visibleTarget": true,
+      "videoPoint": [
+        405,
+        414
+      ],
+      "mappedTarget": [
+        354.9,
+        612.3
+      ],
+      "inferredRoot": [
+        356.1,
+        581.8
+      ],
+      "inferredJoint": [
+        388.15691638414904,
+        602.3512557265894
+      ],
+      "projectedBoneEndpoint": [
+        354.9,
+        612.3
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        354.9,
+        612.3
+      ],
+      "materialResidualPx": 0.0,
+      "videoEquivalentResidualPx": 0.0
+    },
+    {
+      "part": "leg_near",
+      "frame": 77,
+      "time": 0.375,
+      "visibleTarget": true,
+      "videoPoint": [
+        414,
+        415
+      ],
+      "mappedTarget": [
+        367.95,
+        613.75
+      ],
+      "inferredRoot": [
+        353.2,
+        586.15
+      ],
+      "inferredJoint": [
+        391.2337159891727,
+        588.0037659115834
+      ],
+      "projectedBoneEndpoint": [
+        367.95,
+        613.75
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        367.95000000000005,
+        613.75
+      ],
+      "materialResidualPx": 5.684341886080802e-14,
+      "videoEquivalentResidualPx": 3.920235783504001e-14
+    },
+    {
+      "part": "leg_near",
+      "frame": 78,
+      "time": 0.4166666666666667,
+      "visibleTarget": true,
+      "videoPoint": [
+        410,
+        413
+      ],
+      "mappedTarget": [
+        362.15,
+        610.85
+      ],
+      "inferredRoot": [
+        354.65,
+        561.5
+      ],
+      "inferredJoint": [
+        384.8989635758701,
+        584.6300713917118
+      ],
+      "projectedBoneEndpoint": [
+        362.15,
+        610.85
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        362.15,
+        610.85
+      ],
+      "materialResidualPx": 0.0,
+      "videoEquivalentResidualPx": 0.0
+    },
+    {
+      "part": "leg_near",
+      "frame": 79,
+      "time": 0.4583333333333333,
+      "visibleTarget": true,
+      "videoPoint": [
+        422,
+        421
+      ],
+      "mappedTarget": [
+        379.55,
+        622.45
+      ],
+      "inferredRoot": [
+        353.2,
+        552.8
+      ],
+      "inferredJoint": [
+        369.70745053938606,
+        587.1147792749672
+      ],
+      "projectedBoneEndpoint": [
+        378.85088496751786,
+        620.6020545725852
+      ],
+      "fixedLengthProjectionResidualPx": 1.9757692505315496,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        378.85088496751786,
+        620.6020545725852
+      ],
+      "materialResidualPx": 1.9757692505315496,
+      "videoEquivalentResidualPx": 1.3625994831252066
+    },
+    {
+      "part": "leg_near",
+      "frame": 80,
+      "time": 0.5,
+      "visibleTarget": true,
+      "videoPoint": [
+        434,
+        422
+      ],
+      "mappedTarget": [
+        396.95,
+        623.9
+      ],
+      "inferredRoot": [
+        353.2,
+        554.25
+      ],
+      "inferredJoint": [
+        376.1706862906868,
+        584.6201756882448
+      ],
+      "projectedBoneEndpoint": [
+        391.75921229824064,
+        615.6362659787991
+      ],
+      "fixedLengthProjectionResidualPx": 9.758769232740834,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        391.75921229824064,
+        615.6362659787991
+      ],
+      "materialResidualPx": 9.758769232740834,
+      "videoEquivalentResidualPx": 6.730185677752299
+    },
+    {
+      "part": "leg_near",
+      "frame": 81,
+      "time": 0.5416666666666666,
+      "visibleTarget": true,
+      "videoPoint": [
+        443,
+        423
+      ],
+      "mappedTarget": [
+        410.0,
+        625.35
+      ],
+      "inferredRoot": [
+        353.2,
+        555.7
+      ],
+      "inferredJoint": [
+        379.73063960773743,
+        583.0152917246797
+      ],
+      "projectedBoneEndpoint": [
+        399.01455614843553,
+        611.8792928827207
+      ],
+      "fixedLengthProjectionResidualPx": 17.38217267361576,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        399.124503853406,
+        611.7894504314238
+      ],
+      "materialResidualPx": 17.38289161895666,
+      "videoEquivalentResidualPx": 11.988201116521834
+    },
+    {
+      "part": "leg_near",
+      "frame": 82,
+      "time": 0.5833333333333334,
+      "visibleTarget": true,
+      "videoPoint": [
+        447,
+        434
+      ],
+      "mappedTarget": [
+        415.8,
+        641.3
+      ],
+      "inferredRoot": [
+        351.75,
+        565.85
+      ],
+      "inferredJoint": [
+        378.8144867767747,
+        592.6364435024472
+      ],
+      "projectedBoneEndpoint": [
+        398.66422223909456,
+        621.1142945814158
+      ],
+      "fixedLengthProjectionResidualPx": 26.478247349796366,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        398.8803487145027,
+        620.93009380829
+      ],
+      "materialResidualPx": 26.48032624198373,
+      "videoEquivalentResidualPx": 18.262293959988778
+    },
+    {
+      "part": "leg_near",
+      "frame": 83,
+      "time": 0.625,
+      "visibleTarget": true,
+      "videoPoint": [
+        444,
+        439
+      ],
+      "mappedTarget": [
+        411.45,
+        648.55
+      ],
+      "inferredRoot": [
+        354.65,
+        573.1
+      ],
+      "inferredJoint": [
+        380.10044075613314,
+        601.4244605477061
+      ],
+      "projectedBoneEndpoint": [
+        398.24950798631863,
+        631.0151915064744
+      ],
+      "fixedLengthProjectionResidualPx": 21.948177562337204,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        398.5890603793083,
+        630.7580044474673
+      ],
+      "materialResidualPx": 21.95356175358381,
+      "videoEquivalentResidualPx": 15.140387416264696
+    },
+    {
+      "part": "leg_near",
+      "frame": 84,
+      "time": 0.6666666666666666,
+      "visibleTarget": true,
+      "videoPoint": [
+        434,
+        441
+      ],
+      "mappedTarget": [
+        396.95,
+        651.45
+      ],
+      "inferredRoot": [
+        359.0,
+        576.0
+      ],
+      "inferredJoint": [
+        378.9919790604854,
+        608.4086527527004
+      ],
+      "projectedBoneEndpoint": [
+        391.57380520803616,
+        640.7613597614317
+      ],
+      "fixedLengthProjectionResidualPx": 11.96455183409233,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        392.08018004657725,
+        640.5041718958292
+      ],
+      "materialResidualPx": 11.980246210525456,
+      "videoEquivalentResidualPx": 8.262238765879625
+    },
+    {
+      "part": "leg_far",
+      "frame": 68,
+      "time": 0.0,
+      "visibleTarget": false,
+      "videoPoint": [
+        458,
+        412
+      ],
+      "mappedTarget": [
+        431.75,
+        609.4
+      ],
+      "inferredRoot": [
+        437.0,
+        575.0
+      ],
+      "inferredJoint": [
+        454.88652801482414,
+        602.7141140138904
+      ],
+      "projectedBoneEndpoint": [
+        431.75,
+        609.4000000000001
+      ],
+      "fixedLengthProjectionResidualPx": 1.1368683772161603e-13,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        431.75,
+        609.4
+      ],
+      "materialResidualPx": 0.0,
+      "videoEquivalentResidualPx": 0.0
+    },
+    {
+      "part": "leg_far",
+      "frame": 69,
+      "time": 0.041666666666666664,
+      "visibleTarget": false,
+      "videoPoint": [
+        465,
+        415
+      ],
+      "mappedTarget": [
+        441.9,
+        613.75
+      ],
+      "inferredRoot": [
+        438.45,
+        576.45
+      ],
+      "inferredJoint": [
+        461.6205308160251,
+        599.9260836108502
+      ],
+      "projectedBoneEndpoint": [
+        441.9,
+        613.75
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        441.8999999999999,
+        613.7499999999999
+      ],
+      "materialResidualPx": 1.2710574864626038e-13,
+      "videoEquivalentResidualPx": 8.765913699742095e-14
+    },
+    {
+      "part": "leg_far",
+      "frame": 70,
+      "time": 0.08333333333333333,
+      "visibleTarget": true,
+      "videoPoint": [
+        470,
+        415
+      ],
+      "mappedTarget": [
+        449.15,
+        613.75
+      ],
+      "inferredRoot": [
+        439.9,
+        559.05
+      ],
+      "inferredJoint": [
+        451.800805465245,
+        589.8131407577054
+      ],
+      "projectedBoneEndpoint": [
+        449.15,
+        613.75
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        449.15,
+        613.7500000000001
+      ],
+      "materialResidualPx": 1.1368683772161603e-13,
+      "videoEquivalentResidualPx": 7.840471567008003e-14
+    },
+    {
+      "part": "leg_far",
+      "frame": 71,
+      "time": 0.125,
+      "visibleTarget": true,
+      "videoPoint": [
+        483,
+        417
+      ],
+      "mappedTarget": [
+        468.0,
+        616.65
+      ],
+      "inferredRoot": [
+        439.9,
+        554.7
+      ],
+      "inferredJoint": [
+        456.1012975756585,
+        583.4318282896331
+      ],
+      "projectedBoneEndpoint": [
+        463.34990390540014,
+        606.3982756917985
+      ],
+      "fixedLengthProjectionResidualPx": 11.257053121504828,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        463.3499039054001,
+        606.3982756917985
+      ],
+      "materialResidualPx": 11.257053121504851,
+      "videoEquivalentResidualPx": 7.7634849113826565
+    },
+    {
+      "part": "leg_far",
+      "frame": 72,
+      "time": 0.16666666666666666,
+      "visibleTarget": true,
+      "videoPoint": [
+        495,
+        418
+      ],
+      "mappedTarget": [
+        485.4,
+        618.1
+      ],
+      "inferredRoot": [
+        439.9,
+        553.25
+      ],
+      "inferredJoint": [
+        461.1345853363273,
+        578.4906890871512
+      ],
+      "projectedBoneEndpoint": [
+        472.50480866119466,
+        599.7208097072192
+      ],
+      "fixedLengthProjectionResidualPx": 22.451739252954255,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        472.5048086611946,
+        599.7208097072194
+      ],
+      "materialResidualPx": 22.451739252954194,
+      "videoEquivalentResidualPx": 15.483958105485652
+    },
+    {
+      "part": "leg_far",
+      "frame": 73,
+      "time": 0.20833333333333334,
+      "visibleTarget": true,
+      "videoPoint": [
+        504,
+        415
+      ],
+      "mappedTarget": [
+        498.45,
+        613.75
+      ],
+      "inferredRoot": [
+        439.9,
+        550.35
+      ],
+      "inferredJoint": [
+        464.31274870687696,
+        572.5314720110023
+      ],
+      "projectedBoneEndpoint": [
+        478.41418930020217,
+        592.0545192422344
+      ],
+      "fixedLengthProjectionResidualPx": 29.531806509401193,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        478.4141893002021,
+        592.0545192422344
+      ],
+      "materialResidualPx": 29.531806509401232,
+      "videoEquivalentResidualPx": 20.366763109931885
+    },
+    {
+      "part": "leg_far",
+      "frame": 74,
+      "time": 0.25,
+      "visibleTarget": true,
+      "videoPoint": [
+        509,
+        426
+      ],
+      "mappedTarget": [
+        505.7,
+        629.7
+      ],
+      "inferredRoot": [
+        439.9,
+        563.4
+      ],
+      "inferredJoint": [
+        465.09453478750015,
+        584.6893263595033
+      ],
+      "projectedBoneEndpoint": [
+        479.8888410905553,
+        603.6927076641917
+      ],
+      "fixedLengthProjectionResidualPx": 36.64144073161972,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        479.8888410905553,
+        603.6927076641919
+      ],
+      "materialResidualPx": 36.64144073161964,
+      "videoEquivalentResidualPx": 25.269959125254925
+    },
+    {
+      "part": "leg_far",
+      "frame": 75,
+      "time": 0.2916666666666667,
+      "visibleTarget": true,
+      "videoPoint": [
+        498,
+        433
+      ],
+      "mappedTarget": [
+        489.75,
+        639.85
+      ],
+      "inferredRoot": [
+        437.0,
+        572.1
+      ],
+      "inferredJoint": [
+        459.4633277687867,
+        596.25365201273
+      ],
+      "projectedBoneEndpoint": [
+        471.87508275745154,
+        616.8921679017506
+      ],
+      "fixedLengthProjectionResidualPx": 29.095957126023023,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        471.8750827574515,
+        616.8921679017506
+      ],
+      "materialResidualPx": 29.09595712602306,
+      "videoEquivalentResidualPx": 20.066177328291765
+    },
+    {
+      "part": "leg_far",
+      "frame": 76,
+      "time": 0.3333333333333333,
+      "visibleTarget": true,
+      "videoPoint": [
+        487,
+        435
+      ],
+      "mappedTarget": [
+        473.8,
+        642.75
+      ],
+      "inferredRoot": [
+        434.1,
+        580.8
+      ],
+      "inferredJoint": [
+        454.2585852311612,
+        606.9080723432046
+      ],
+      "projectedBoneEndpoint": [
+        464.7294746480364,
+        628.5958678701726
+      ],
+      "fixedLengthProjectionResidualPx": 16.81112389191239,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        464.72947464803633,
+        628.5958678701727
+      ],
+      "materialResidualPx": 16.811123891912327,
+      "videoEquivalentResidualPx": 11.593878546146433
+    },
+    {
+      "part": "leg_far",
+      "frame": 77,
+      "time": 0.375,
+      "visibleTarget": true,
+      "videoPoint": [
+        477,
+        435
+      ],
+      "mappedTarget": [
+        459.3,
+        642.75
+      ],
+      "inferredRoot": [
+        431.2,
+        585.15
+      ],
+      "inferredJoint": [
+        448.2005066472485,
+        613.416283337872
+      ],
+      "projectedBoneEndpoint": [
+        456.09019285953576,
+        636.1704665021089
+      ],
+      "fixedLengthProjectionResidualPx": 7.320732403854605,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        456.0901928595357,
+        636.1704665021089
+      ],
+      "materialResidualPx": 7.32073240385463,
+      "videoEquivalentResidualPx": 5.048780968175607
+    },
+    {
+      "part": "leg_far",
+      "frame": 78,
+      "time": 0.4166666666666667,
+      "visibleTarget": true,
+      "videoPoint": [
+        459,
+        432
+      ],
+      "mappedTarget": [
+        433.2,
+        638.4
+      ],
+      "inferredRoot": [
+        432.65,
+        560.5
+      ],
+      "inferredJoint": [
+        435.7677017572303,
+        593.3371730779762
+      ],
+      "projectedBoneEndpoint": [
+        433.05079127889644,
+        617.2666193200588
+      ],
+      "fixedLengthProjectionResidualPx": 21.133907405062715,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        433.05079127889644,
+        617.2666193200587
+      ],
+      "materialResidualPx": 21.13390740506283,
+      "videoEquivalentResidualPx": 14.575108555215744
+    },
+    {
+      "part": "leg_far",
+      "frame": 79,
+      "time": 0.4583333333333333,
+      "visibleTarget": true,
+      "videoPoint": [
+        453,
+        431
+      ],
+      "mappedTarget": [
+        424.5,
+        636.95
+      ],
+      "inferredRoot": [
+        431.2,
+        551.8
+      ],
+      "inferredJoint": [
+        431.49941315473404,
+        584.783486046244
+      ],
+      "projectedBoneEndpoint": [
+        426.74698937482856,
+        608.3931126467684
+      ],
+      "fixedLengthProjectionResidualPx": 28.645152758464313,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        426.74698937482856,
+        608.3931126467685
+      ],
+      "materialResidualPx": 28.6451527584642,
+      "videoEquivalentResidualPx": 19.755277764458068
+    },
+    {
+      "part": "leg_far",
+      "frame": 80,
+      "time": 0.5,
+      "visibleTarget": false,
+      "videoPoint": [
+        461,
+        416
+      ],
+      "mappedTarget": [
+        436.1,
+        615.2
+      ],
+      "inferredRoot": [
+        431.2,
+        553.25
+      ],
+      "inferredJoint": [
+        436.6676785083598,
+        585.7785181299305
+      ],
+      "projectedBoneEndpoint": [
+        435.6761470266069,
+        609.8412874078148
+      ],
+      "fixedLengthProjectionResidualPx": 5.375449003450705,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        435.6761470266068,
+        609.8412874078149
+      ],
+      "materialResidualPx": 5.375449003450597,
+      "videoEquivalentResidualPx": 3.707206209276274
+    },
+    {
+      "part": "leg_far",
+      "frame": 81,
+      "time": 0.5416666666666666,
+      "visibleTarget": true,
+      "videoPoint": [
+        409,
+        413
+      ],
+      "mappedTarget": [
+        360.7,
+        610.85
+      ],
+      "inferredRoot": [
+        431.2,
+        554.7
+      ],
+      "inferredJoint": [
+        407.29537929391216,
+        577.4281567422015
+      ],
+      "projectedBoneEndpoint": [
+        386.794904598236,
+        590.0666114441
+      ],
+      "fixedLengthProjectionResidualPx": 33.360055243607654,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        386.70896338045986,
+        589.8782678074087
+      ],
+      "materialResidualPx": 33.41077262327036,
+      "videoEquivalentResidualPx": 23.04191215397956
+    },
+    {
+      "part": "leg_far",
+      "frame": 82,
+      "time": 0.5833333333333334,
+      "visibleTarget": true,
+      "videoPoint": [
+        402,
+        408
+      ],
+      "mappedTarget": [
+        350.55,
+        603.6
+      ],
+      "inferredRoot": [
+        429.75,
+        564.85
+      ],
+      "inferredJoint": [
+        401.50323041767365,
+        581.8829095624607
+      ],
+      "projectedBoneEndpoint": [
+        378.75810963754384,
+        589.7986837316311
+      ],
+      "fixedLengthProjectionResidualPx": 31.40340395662927,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        378.67586147732334,
+        589.3922583394517
+      ],
+      "materialResidualPx": 31.510696706586174,
+      "videoEquivalentResidualPx": 21.731514970059433
+    },
+    {
+      "part": "leg_far",
+      "frame": 83,
+      "time": 0.625,
+      "visibleTarget": false,
+      "videoPoint": [
+        405,
+        410
+      ],
+      "mappedTarget": [
+        354.9,
+        606.5
+      ],
+      "inferredRoot": [
+        432.65,
+        572.1
+      ],
+      "inferredJoint": [
+        403.76899445512635,
+        588.0338482080438
+      ],
+      "projectedBoneEndpoint": [
+        380.736239603149,
+        595.0689177833012
+      ],
+      "fixedLengthProjectionResidualPx": 28.252095806793736,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        380.64292346980085,
+        594.4530082521392
+      ],
+      "materialResidualPx": 28.42231726909422,
+      "videoEquivalentResidualPx": 19.601598116616703
+    },
+    {
+      "part": "leg_far",
+      "frame": 84,
+      "time": 0.6666666666666666,
+      "visibleTarget": false,
+      "videoPoint": [
+        458,
+        413
+      ],
+      "mappedTarget": [
+        431.75,
+        610.85
+      ],
+      "inferredRoot": [
+        437.0,
+        575.0
+      ],
+      "inferredJoint": [
+        454.5032885032463,
+        602.9577340206986
+      ],
+      "projectedBoneEndpoint": [
+        431.75,
+        610.85
+      ],
+      "fixedLengthProjectionResidualPx": 0.0,
+      "jointObservation": false,
+      "exportedMaterialPoint": [
+        431.75,
+        609.4
+      ],
+      "materialResidualPx": 1.4500000000000455,
+      "videoEquivalentResidualPx": 1.0000000000000313
+    }
+  ],
+  "boneInference": {
+    "arm_near": {
+      "rows": [
+        {
+          "frame": 68,
+          "time": 0.0,
+          "visibleTarget": true,
+          "videoPoint": [
+            374,
+            352
+          ],
+          "mappedTarget": [
+            309.95,
+            522.4
+          ],
+          "inferredRoot": [
+            350.0,
+            456.0
+          ],
+          "inferredJoint": [
+            350.861750265513,
+            512.6414811465934
+          ],
+          "projectedBoneEndpoint": [
+            309.95,
+            522.4
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            309.95,
+            522.4
+          ],
+          "materialResidualPx": 0.0,
+          "videoEquivalentResidualPx": 0.0
+        },
+        {
+          "frame": 69,
+          "time": 0.041666666666666664,
+          "visibleTarget": true,
+          "videoPoint": [
+            389,
+            361
+          ],
+          "mappedTarget": [
+            331.7,
+            535.45
+          ],
+          "inferredRoot": [
+            351.45,
+            457.45
+          ],
+          "inferredJoint": [
+            366.63269337656834,
+            512.025505694708
+          ],
+          "projectedBoneEndpoint": [
+            331.7,
+            535.45
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            331.7,
+            535.45
+          ],
+          "materialResidualPx": 0.0,
+          "videoEquivalentResidualPx": 0.0
+        },
+        {
+          "frame": 70,
+          "time": 0.08333333333333333,
+          "visibleTarget": true,
+          "videoPoint": [
+            429,
+            350
+          ],
+          "mappedTarget": [
+            389.7,
+            519.5
+          ],
+          "inferredRoot": [
+            352.9,
+            440.05
+          ],
+          "inferredJoint": [
+            395.1419856995537,
+            477.7940676684257
+          ],
+          "projectedBoneEndpoint": [
+            389.7,
+            519.5
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            389.69999999999993,
+            519.5
+          ],
+          "materialResidualPx": 5.684341886080802e-14,
+          "videoEquivalentResidualPx": 3.920235783504001e-14
+        },
+        {
+          "frame": 71,
+          "time": 0.125,
+          "visibleTarget": true,
+          "videoPoint": [
+            450,
+            339
+          ],
+          "mappedTarget": [
+            420.15,
+            503.55
+          ],
+          "inferredRoot": [
+            352.9,
+            435.7
+          ],
+          "inferredJoint": [
+            400.54807366003485,
+            466.3375762175778
+          ],
+          "projectedBoneEndpoint": [
+            420.15,
+            503.55
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            420.15,
+            503.55000000000007
+          ],
+          "materialResidualPx": 5.684341886080802e-14,
+          "videoEquivalentResidualPx": 3.920235783504001e-14
+        },
+        {
+          "frame": 72,
+          "time": 0.16666666666666666,
+          "visibleTarget": true,
+          "videoPoint": [
+            461,
+            332
+          ],
+          "mappedTarget": [
+            436.1,
+            493.4
+          ],
+          "inferredRoot": [
+            352.9,
+            434.25
+          ],
+          "inferredJoint": [
+            401.16853494462146,
+            463.9004390237287
+          ],
+          "projectedBoneEndpoint": [
+            433.1043063899311,
+            491.2702490740916
+          ],
+          "fixedLengthProjectionResidualPx": 3.675597803326062,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            433.10430638993114,
+            491.2702490740916
+          ],
+          "materialResidualPx": 3.6755978033260157,
+          "videoEquivalentResidualPx": 2.534895036776563
+        },
+        {
+          "frame": 73,
+          "time": 0.20833333333333334,
+          "visibleTarget": true,
+          "videoPoint": [
+            472,
+            325
+          ],
+          "mappedTarget": [
+            452.05,
+            483.25
+          ],
+          "inferredRoot": [
+            352.9,
+            431.35
+          ],
+          "inferredJoint": [
+            404.7382695161706,
+            454.19280660446213
+          ],
+          "projectedBoneEndpoint": [
+            440.085387417586,
+            476.9871316890843
+          ],
+          "fixedLengthProjectionResidualPx": 13.504646375493573,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            440.08538741758605,
+            476.9871316890844
+          ],
+          "materialResidualPx": 13.504646375493495,
+          "videoEquivalentResidualPx": 9.313549224478272
+        },
+        {
+          "frame": 74,
+          "time": 0.25,
+          "visibleTarget": true,
+          "videoPoint": [
+            473,
+            331
+          ],
+          "mappedTarget": [
+            453.5,
+            491.95
+          ],
+          "inferredRoot": [
+            352.9,
+            444.4
+          ],
+          "inferredJoint": [
+            405.6245779063136,
+            465.11518487972205
+          ],
+          "projectedBoneEndpoint": [
+            441.86968211310807,
+            486.45276724133487
+          ],
+          "fixedLengthProjectionResidualPx": 12.864053099746569,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            441.869682113108,
+            486.4527672413348
+          ],
+          "materialResidualPx": 12.864053099746643,
+          "videoEquivalentResidualPx": 8.87176075844596
+        },
+        {
+          "frame": 75,
+          "time": 0.2916666666666667,
+          "visibleTarget": true,
+          "videoPoint": [
+            469,
+            341
+          ],
+          "mappedTarget": [
+            447.7,
+            506.45
+          ],
+          "inferredRoot": [
+            350.0,
+            453.1
+          ],
+          "inferredJoint": [
+            401.4286526433606,
+            476.85065656542076
+          ],
+          "projectedBoneEndpoint": [
+            436.3695549385858,
+            500.2629043600159
+          ],
+          "fixedLengthProjectionResidualPx": 12.909652890300162,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            436.36955493858585,
+            500.2629043600159
+          ],
+          "materialResidualPx": 12.909652890300112,
+          "videoEquivalentResidualPx": 8.903208889862146
+        },
+        {
+          "frame": 76,
+          "time": 0.3333333333333333,
+          "visibleTarget": true,
+          "videoPoint": [
+            461,
+            350
+          ],
+          "mappedTarget": [
+            436.1,
+            519.5
+          ],
+          "inferredRoot": [
+            347.1,
+            461.8
+          ],
+          "inferredJoint": [
+            396.59406911779337,
+            489.3560723283108
+          ],
+          "projectedBoneEndpoint": [
+            429.6726885844042,
+            515.3330801271924
+          ],
+          "fixedLengthProjectionResidualPx": 7.6598663995821195,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            429.6726885844042,
+            515.3330801271924
+          ],
+          "materialResidualPx": 7.6598663995821195,
+          "videoEquivalentResidualPx": 5.282666482470427
+        },
+        {
+          "frame": 77,
+          "time": 0.375,
+          "visibleTarget": true,
+          "videoPoint": [
+            447,
+            358
+          ],
+          "mappedTarget": [
+            415.8,
+            531.1
+          ],
+          "inferredRoot": [
+            344.2,
+            466.15
+          ],
+          "inferredJoint": [
+            392.1425951686304,
+            496.3246179511326
+          ],
+          "projectedBoneEndpoint": [
+            415.8,
+            531.1
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            415.80000000000007,
+            531.1
+          ],
+          "materialResidualPx": 5.684341886080802e-14,
+          "videoEquivalentResidualPx": 3.920235783504001e-14
+        },
+        {
+          "frame": 78,
+          "time": 0.4166666666666667,
+          "visibleTarget": true,
+          "videoPoint": [
+            413,
+            354
+          ],
+          "mappedTarget": [
+            366.5,
+            525.3
+          ],
+          "inferredRoot": [
+            345.65,
+            441.5
+          ],
+          "inferredJoint": [
+            380.95350528577336,
+            485.80194707388574
+          ],
+          "projectedBoneEndpoint": [
+            366.5,
+            525.3
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            366.5,
+            525.3
+          ],
+          "materialResidualPx": 0.0,
+          "videoEquivalentResidualPx": 0.0
+        },
+        {
+          "frame": 79,
+          "time": 0.4583333333333333,
+          "visibleTarget": true,
+          "videoPoint": [
+            393,
+            350
+          ],
+          "mappedTarget": [
+            337.5,
+            519.5
+          ],
+          "inferredRoot": [
+            344.2,
+            432.8
+          ],
+          "inferredJoint": [
+            363.1653424208804,
+            486.1789826322941
+          ],
+          "projectedBoneEndpoint": [
+            337.5,
+            519.5
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            337.50000000000006,
+            519.5
+          ],
+          "materialResidualPx": 5.684341886080802e-14,
+          "videoEquivalentResidualPx": 3.920235783504001e-14
+        },
+        {
+          "frame": 80,
+          "time": 0.5,
+          "visibleTarget": true,
+          "videoPoint": [
+            380,
+            345
+          ],
+          "mappedTarget": [
+            318.65,
+            512.25
+          ],
+          "inferredRoot": [
+            344.2,
+            434.25
+          ],
+          "inferredJoint": [
+            354.3325740734639,
+            489.98446817406415
+          ],
+          "projectedBoneEndpoint": [
+            318.65,
+            512.25
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            318.6499999999999,
+            512.25
+          ],
+          "materialResidualPx": 5.684341886080802e-14,
+          "videoEquivalentResidualPx": 3.920235783504001e-14
+        },
+        {
+          "frame": 81,
+          "time": 0.5416666666666666,
+          "visibleTarget": true,
+          "videoPoint": [
+            370,
+            339
+          ],
+          "mappedTarget": [
+            304.15,
+            503.55
+          ],
+          "inferredRoot": [
+            344.2,
+            435.7
+          ],
+          "inferredJoint": [
+            344.6897160403068,
+            492.34591934287823
+          ],
+          "projectedBoneEndpoint": [
+            304.15,
+            503.55
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            304.51251596402625,
+            503.54657877350724
+          ],
+          "materialResidualPx": 0.36253210749478787,
+          "videoEquivalentResidualPx": 0.2500221430998537
+        },
+        {
+          "frame": 82,
+          "time": 0.5833333333333334,
+          "visibleTarget": true,
+          "videoPoint": [
+            361,
+            340
+          ],
+          "mappedTarget": [
+            291.1,
+            505.0
+          ],
+          "inferredRoot": [
+            342.75,
+            445.85
+          ],
+          "inferredJoint": [
+            333.0264381222918,
+            501.6572785970646
+          ],
+          "projectedBoneEndpoint": [
+            291.1,
+            505.0
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            291.8147684281226,
+            505.12160653429646
+          ],
+          "materialResidualPx": 0.7250393472249647,
+          "videoEquivalentResidualPx": 0.500027136017217
+        },
+        {
+          "frame": 83,
+          "time": 0.625,
+          "visibleTarget": true,
+          "videoPoint": [
+            363,
+            347
+          ],
+          "mappedTarget": [
+            294.0,
+            515.15
+          ],
+          "inferredRoot": [
+            345.65,
+            453.1
+          ],
+          "inferredJoint": [
+            335.5844600464741,
+            508.8466133988781
+          ],
+          "projectedBoneEndpoint": [
+            294.0,
+            515.15
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            295.0718022425389,
+            515.3355297946773
+          ],
+          "materialResidualPx": 1.087741399333719,
+          "videoEquivalentResidualPx": 0.7501664822991166
+        },
+        {
+          "frame": 84,
+          "time": 0.6666666666666666,
+          "visibleTarget": true,
+          "videoPoint": [
+            373,
+            352
+          ],
+          "mappedTarget": [
+            308.5,
+            522.4
+          ],
+          "inferredRoot": [
+            350.0,
+            456.0
+          ],
+          "inferredJoint": [
+            349.4125871732847,
+            512.6449904772788
+          ],
+          "projectedBoneEndpoint": [
+            308.5,
+            522.4
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            309.95,
+            522.4
+          ],
+          "materialResidualPx": 1.4499999999999886,
+          "videoEquivalentResidualPx": 0.9999999999999922
+        }
+      ],
+      "rawAnglesDegrees": [
+        [
+          21.546062351618623,
+          -80.12604490986081
+        ],
+        [
+          36.220785064789155,
+          -74.3723681104044
+        ],
+        [
+          68.89299318125872,
+          -58.32305124117519
+        ],
+        [
+          77.93352220815466,
+          -32.15100165821445
+        ],
+        [
+          79.1128132423909,
+          -11.706110747596863
+        ],
+        [
+          86.89348331373047,
+          -11.706110747596863
+        ],
+        [
+          89.22484532975896,
+          -11.706110747596863
+        ],
+        [
+          85.88610108294453,
+          -11.706110747596863
+        ],
+        [
+          81.56733091985332,
+          -11.706110747596863
+        ],
+        [
+          78.48849996261724,
+          -26.25720798528044
+        ],
+        [
+          59.22519950594111,
+          -61.320104660939805
+        ],
+        [
+          40.2343503629613,
+          -59.835266416360255
+        ],
+        [
+          30.978310347198562,
+          -71.01044131858951
+        ],
+        [
+          21.16974664097031,
+          -77.716226307321
+        ],
+        [
+          10.790732837103414,
+          -78.22812160451322
+        ],
+        [
+          10.439443631497934,
+          -73.8159826602251
+        ],
+        [
+          20.08028449977015,
+          -78.66518172871704
+        ]
+      ],
+      "closureCorrectionDegrees": [
+        -1.4657778518484719,
+        1.4608631811437647
+      ],
+      "upperLength": 56.64803615307419,
+      "lowerLength": 42.05948168962618
+    },
+    "arm_far": {
+      "rows": [
+        {
+          "frame": 68,
+          "time": 0.0,
+          "visibleTarget": true,
+          "videoPoint": [
+            526,
+            330
+          ],
+          "mappedTarget": [
+            530.35,
+            490.5
+          ],
+          "inferredRoot": [
+            468.0,
+            463.0
+          ],
+          "inferredJoint": [
+            494.96711800057193,
+            493.508597915067
+          ],
+          "projectedBoneEndpoint": [
+            530.35,
+            490.5
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            530.35,
+            490.5
+          ],
+          "materialResidualPx": 0.0,
+          "videoEquivalentResidualPx": 0.0
+        },
+        {
+          "frame": 69,
+          "time": 0.041666666666666664,
+          "visibleTarget": true,
+          "videoPoint": [
+            519,
+            340
+          ],
+          "mappedTarget": [
+            520.2,
+            505.0
+          ],
+          "inferredRoot": [
+            469.45,
+            464.45
+          ],
+          "inferredJoint": [
+            484.80292769148963,
+            502.16322859819735
+          ],
+          "projectedBoneEndpoint": [
+            520.2,
+            505.0
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            520.2,
+            505.0
+          ],
+          "materialResidualPx": 0.0,
+          "videoEquivalentResidualPx": 0.0
+        },
+        {
+          "frame": 70,
+          "time": 0.08333333333333333,
+          "visibleTarget": false,
+          "videoPoint": [
+            504,
+            338
+          ],
+          "mappedTarget": [
+            498.45,
+            502.1
+          ],
+          "inferredRoot": [
+            470.9,
+            447.05
+          ],
+          "inferredJoint": [
+            466.08725997148923,
+            487.48312421045364
+          ],
+          "projectedBoneEndpoint": [
+            498.45,
+            502.1
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            498.45,
+            502.1
+          ],
+          "materialResidualPx": 0.0,
+          "videoEquivalentResidualPx": 0.0
+        },
+        {
+          "frame": 71,
+          "time": 0.125,
+          "visibleTarget": false,
+          "videoPoint": [
+            501,
+            333
+          ],
+          "mappedTarget": [
+            494.1,
+            494.85
+          ],
+          "inferredRoot": [
+            470.9,
+            442.7
+          ],
+          "inferredJoint": [
+            460.92726000523027,
+            482.1784049449407
+          ],
+          "projectedBoneEndpoint": [
+            494.1,
+            494.85
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            494.1,
+            494.85
+          ],
+          "materialResidualPx": 0.0,
+          "videoEquivalentResidualPx": 0.0
+        },
+        {
+          "frame": 72,
+          "time": 0.16666666666666666,
+          "visibleTarget": false,
+          "videoPoint": [
+            498,
+            329
+          ],
+          "mappedTarget": [
+            489.75,
+            489.05
+          ],
+          "inferredRoot": [
+            470.9,
+            441.25
+          ],
+          "inferredJoint": [
+            455.68557055504783,
+            479.0193147497353
+          ],
+          "projectedBoneEndpoint": [
+            489.75,
+            489.05
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            489.75,
+            489.05
+          ],
+          "materialResidualPx": 0.0,
+          "videoEquivalentResidualPx": 0.0
+        },
+        {
+          "frame": 73,
+          "time": 0.20833333333333334,
+          "visibleTarget": false,
+          "videoPoint": [
+            398,
+            316
+          ],
+          "mappedTarget": [
+            344.75,
+            470.2
+          ],
+          "inferredRoot": [
+            470.9,
+            438.35
+          ],
+          "inferredJoint": [
+            430.73078011838237,
+            445.01586634296376
+          ],
+          "projectedBoneEndpoint": [
+            397.2810558363506,
+            456.9371056013653
+          ],
+          "fixedLengthProjectionResidualPx": 54.17948131083502,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            397.28105583635056,
+            456.93710560136526
+          ],
+          "materialResidualPx": 54.17948131083498,
+          "videoEquivalentResidualPx": 37.36515952471378
+        },
+        {
+          "frame": 74,
+          "time": 0.25,
+          "visibleTarget": false,
+          "videoPoint": [
+            398,
+            324
+          ],
+          "mappedTarget": [
+            344.75,
+            481.8
+          ],
+          "inferredRoot": [
+            470.9,
+            451.4
+          ],
+          "inferredJoint": [
+            430.66091723536795,
+            457.63026630739773
+          ],
+          "projectedBoneEndpoint": [
+            397.08399694522745,
+            469.1883986751097
+          ],
+          "fixedLengthProjectionResidualPx": 53.83214396846044,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            397.08399694522745,
+            469.1883986751097
+          ],
+          "materialResidualPx": 53.83214396846044,
+          "videoEquivalentResidualPx": 37.12561652997272
+        },
+        {
+          "frame": 75,
+          "time": 0.2916666666666667,
+          "visibleTarget": false,
+          "videoPoint": [
+            398,
+            330
+          ],
+          "mappedTarget": [
+            344.75,
+            490.5
+          ],
+          "inferredRoot": [
+            468.0,
+            460.1
+          ],
+          "inferredJoint": [
+            427.79483785027,
+            466.54553616962306
+          ],
+          "projectedBoneEndpoint": [
+            394.28025743534556,
+            478.28320627963893
+          ],
+          "fixedLengthProjectionResidualPx": 51.01466897292834,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            394.28025743534556,
+            478.2832062796389
+          ],
+          "materialResidualPx": 51.014668972928355,
+          "videoEquivalentResidualPx": 35.18253032615749
+        },
+        {
+          "frame": 76,
+          "time": 0.3333333333333333,
+          "visibleTarget": false,
+          "videoPoint": [
+            398,
+            338
+          ],
+          "mappedTarget": [
+            344.75,
+            502.1
+          ],
+          "inferredRoot": [
+            465.1,
+            468.8
+          ],
+          "inferredJoint": [
+            425.0919062183449,
+            476.37313884451396
+          ],
+          "projectedBoneEndpoint": [
+            391.92050996122947,
+            489.0482510867558
+          ],
+          "fixedLengthProjectionResidualPx": 48.94287649593985,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            391.92050996122947,
+            489.04825108675584
+          ],
+          "materialResidualPx": 48.94287649593983,
+          "videoEquivalentResidualPx": 33.75370792823436
+        },
+        {
+          "frame": 77,
+          "time": 0.375,
+          "visibleTarget": false,
+          "videoPoint": [
+            399,
+            342
+          ],
+          "mappedTarget": [
+            346.2,
+            507.9
+          ],
+          "inferredRoot": [
+            462.2,
+            473.15
+          ],
+          "inferredJoint": [
+            422.36077694622094,
+            481.5664307441599
+          ],
+          "projectedBoneEndpoint": [
+            389.4644814199952,
+            494.93930405737206
+          ],
+          "fixedLengthProjectionResidualPx": 45.16408962725101,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            389.4644814199952,
+            494.93930405737206
+          ],
+          "materialResidualPx": 45.16408962725101,
+          "videoEquivalentResidualPx": 31.1476480187938
+        },
+        {
+          "frame": 78,
+          "time": 0.4166666666666667,
+          "visibleTarget": true,
+          "videoPoint": [
+            514,
+            342
+          ],
+          "mappedTarget": [
+            512.95,
+            507.9
+          ],
+          "inferredRoot": [
+            463.65,
+            448.5
+          ],
+          "inferredJoint": [
+            486.9724978576819,
+            481.8775537401773
+          ],
+          "projectedBoneEndpoint": [
+            512.1424347723473,
+            506.9269903747957
+          ],
+          "fixedLengthProjectionResidualPx": 1.2644798644715387,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            512.1424347723473,
+            506.92699037479565
+          ],
+          "materialResidualPx": 1.2644798644715824,
+          "videoEquivalentResidualPx": 0.8720550789459189
+        },
+        {
+          "frame": 79,
+          "time": 0.4583333333333333,
+          "visibleTarget": true,
+          "videoPoint": [
+            522,
+            331
+          ],
+          "mappedTarget": [
+            524.55,
+            491.95
+          ],
+          "inferredRoot": [
+            462.2,
+            439.8
+          ],
+          "inferredJoint": [
+            491.1641862449027,
+            468.4195023571443
+          ],
+          "projectedBoneEndpoint": [
+            520.4422087354242,
+            488.51421308023055
+          ],
+          "fixedLengthProjectionResidualPx": 5.35523863440126,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            520.4422087354243,
+            488.51421308023055
+          ],
+          "materialResidualPx": 5.355238634401172,
+          "videoEquivalentResidualPx": 3.6932680237249467
+        },
+        {
+          "frame": 80,
+          "time": 0.5,
+          "visibleTarget": true,
+          "videoPoint": [
+            528,
+            319
+          ],
+          "mappedTarget": [
+            533.25,
+            474.55
+          ],
+          "inferredRoot": [
+            462.2,
+            441.25
+          ],
+          "inferredJoint": [
+            497.51314243961394,
+            461.52269027631843
+          ],
+          "projectedBoneEndpoint": [
+            530.9524323814161,
+            473.4731667600445
+          ],
+          "fixedLengthProjectionResidualPx": 2.537397641016969,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            530.9524323814161,
+            473.4731667600444
+          ],
+          "materialResidualPx": 2.537397641016993,
+          "videoEquivalentResidualPx": 1.7499294075979264
+        },
+        {
+          "frame": 81,
+          "time": 0.5416666666666666,
+          "visibleTarget": true,
+          "videoPoint": [
+            532,
+            312
+          ],
+          "mappedTarget": [
+            539.05,
+            464.4
+          ],
+          "inferredRoot": [
+            462.2,
+            442.7
+          ],
+          "inferredJoint": [
+            500.3360261062218,
+            456.9703718530937
+          ],
+          "projectedBoneEndpoint": [
+            535.2718908841529,
+            463.3331819412637
+          ],
+          "fixedLengthProjectionResidualPx": 3.9258386698503878,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            535.2253113414665,
+            463.09488701477346
+          ],
+          "materialResidualPx": 4.041232886004113,
+          "videoEquivalentResidualPx": 2.787057162761457
+        },
+        {
+          "frame": 82,
+          "time": 0.5833333333333334,
+          "visibleTarget": true,
+          "videoPoint": [
+            533,
+            315
+          ],
+          "mappedTarget": [
+            540.5,
+            468.75
+          ],
+          "inferredRoot": [
+            460.75,
+            452.85
+          ],
+          "inferredJoint": [
+            499.8866560451527,
+            464.0893128617106
+          ],
+          "projectedBoneEndpoint": [
+            535.2135804536496,
+            467.69603046035144
+          ],
+          "fixedLengthProjectionResidualPx": 5.390462263159153,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            535.0660266222823,
+            467.22572775624195
+          ],
+          "materialResidualPx": 5.6437108840581365,
+          "videoEquivalentResidualPx": 3.892214402798715
+        },
+        {
+          "frame": 83,
+          "time": 0.625,
+          "visibleTarget": true,
+          "videoPoint": [
+            533,
+            322
+          ],
+          "mappedTarget": [
+            540.5,
+            478.9
+          ],
+          "inferredRoot": [
+            463.65,
+            460.1
+          ],
+          "inferredJoint": [
+            502.26568763898746,
+            473.0162172546047
+          ],
+          "projectedBoneEndpoint": [
+            537.404261302543,
+            478.14268201025124
+          ],
+          "fixedLengthProjectionResidualPx": 3.187025042344346,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            537.1877023563278,
+            477.4236952585812
+          ],
+          "materialResidualPx": 3.62640198679242,
+          "videoEquivalentResidualPx": 2.5009668874430484
+        },
+        {
+          "frame": 84,
+          "time": 0.6666666666666666,
+          "visibleTarget": true,
+          "videoPoint": [
+            527,
+            331
+          ],
+          "mappedTarget": [
+            531.8,
+            491.95
+          ],
+          "inferredRoot": [
+            468.0,
+            463.0
+          ],
+          "inferredJoint": [
+            496.2910195157905,
+            492.28511933998493
+          ],
+          "projectedBoneEndpoint": [
+            531.8,
+            491.94999999999993
+          ],
+          "fixedLengthProjectionResidualPx": 5.684341886080802e-14,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            530.35,
+            490.5
+          ],
+          "materialResidualPx": 2.0506096654409314,
+          "videoEquivalentResidualPx": 1.414213562373056
+        }
+      ],
+      "rawAnglesDegrees": [
+        [
+          16.797201793087453,
+          68.33537538204777
+        ],
+        [
+          -2.5257912227643513,
+          78.21624064175118
+        ],
+        [
+          -31.464821748380377,
+          87.43056936360699
+        ],
+        [
+          -38.85390196389812,
+          98.22005679657741
+        ],
+        [
+          -46.61767839524331,
+          110.48239399998828
+        ],
+        [
+          -105.25479720697841,
+          25.142917502161534
+        ],
+        [
+          -105.87557388358807,
+          25.142917502161534
+        ],
+        [
+          -105.56892608961475,
+          25.142917502161534
+        ],
+        [
+          -103.95815444767467,
+          25.142917502161534
+        ],
+        [
+          -102.7479629889019,
+          25.142917502161534
+        ],
+        [
+          10.266983642791363,
+          25.142917502161534
+        ],
+        [
+          20.666093258006,
+          25.142917502161534
+        ],
+        [
+          35.463717068849725,
+          25.142917502161534
+        ],
+        [
+          44.80745786674194,
+          25.142917502161534
+        ],
+        [
+          49.3000649495408,
+          25.142917502161534
+        ],
+        [
+          46.82902299897443,
+          25.142917502161534
+        ],
+        [
+          19.33397592695036,
+          61.479163771488274
+        ]
+      ],
+      "closureCorrectionDegrees": [
+        2.536774133862906,
+        -6.856211610559498
+      ],
+      "upperLength": 40.718546143004666,
+      "lowerLength": 35.510561809129406
+    },
+    "leg_near": {
+      "rows": [
+        {
+          "frame": 68,
+          "time": 0.0,
+          "visibleTarget": true,
+          "videoPoint": [
+            434,
+            440
+          ],
+          "mappedTarget": [
+            396.95,
+            650.0
+          ],
+          "inferredRoot": [
+            359.0,
+            576.0
+          ],
+          "inferredJoint": [
+            379.2452719237826,
+            608.2510304445005
+          ],
+          "projectedBoneEndpoint": [
+            392.08018004657725,
+            640.5041718958292
+          ],
+          "fixedLengthProjectionResidualPx": 10.671733587506454,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            392.08018004657725,
+            640.5041718958292
+          ],
+          "materialResidualPx": 10.671733587506454,
+          "videoEquivalentResidualPx": 7.35981626724583
+        },
+        {
+          "frame": 69,
+          "time": 0.041666666666666664,
+          "visibleTarget": true,
+          "videoPoint": [
+            425,
+            440
+          ],
+          "mappedTarget": [
+            383.9,
+            650.0
+          ],
+          "inferredRoot": [
+            360.45,
+            577.45
+          ],
+          "inferredJoint": [
+            375.2550489390816,
+            612.5329093136729
+          ],
+          "projectedBoneEndpoint": [
+            382.74551414371086,
+            646.4282324574083
+          ],
+          "fixedLengthProjectionResidualPx": 3.7537129579502033,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            382.74551414371086,
+            646.4282324574083
+          ],
+          "materialResidualPx": 3.7537129579502033,
+          "videoEquivalentResidualPx": 2.5887675572070368
+        },
+        {
+          "frame": 70,
+          "time": 0.08333333333333333,
+          "visibleTarget": true,
+          "videoPoint": [
+            412,
+            438
+          ],
+          "mappedTarget": [
+            365.05,
+            647.1
+          ],
+          "inferredRoot": [
+            361.9,
+            560.05
+          ],
+          "inferredJoint": [
+            366.5670891325427,
+            597.841775282843
+          ],
+          "projectedBoneEndpoint": [
+            364.5214860986751,
+            632.4945602824332
+          ],
+          "fixedLengthProjectionResidualPx": 14.614999017699994,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            364.52148609867504,
+            632.4945602824333
+          ],
+          "materialResidualPx": 14.614999017699882,
+          "videoEquivalentResidualPx": 10.07930966737923
+        },
+        {
+          "frame": 71,
+          "time": 0.125,
+          "visibleTarget": true,
+          "videoPoint": [
+            400,
+            435
+          ],
+          "mappedTarget": [
+            347.65,
+            642.75
+          ],
+          "inferredRoot": [
+            361.9,
+            555.7
+          ],
+          "inferredJoint": [
+            359.0255943473355,
+            593.6702224400112
+          ],
+          "projectedBoneEndpoint": [
+            350.189008933441,
+            627.2397734978217
+          ],
+          "fixedLengthProjectionResidualPx": 15.71666925633313,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            350.189008933441,
+            627.2397734978217
+          ],
+          "materialResidualPx": 15.71666925633313,
+          "videoEquivalentResidualPx": 10.839082245746987
+        },
+        {
+          "frame": 72,
+          "time": 0.16666666666666666,
+          "visibleTarget": true,
+          "videoPoint": [
+            395,
+            432
+          ],
+          "mappedTarget": [
+            340.4,
+            638.4
+          ],
+          "inferredRoot": [
+            361.9,
+            554.25
+          ],
+          "inferredJoint": [
+            355.70397215886584,
+            591.821388568855
+          ],
+          "projectedBoneEndpoint": [
+            343.9550299076048,
+            624.4857782918627
+          ],
+          "fixedLengthProjectionResidualPx": 14.361190876357092,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            343.9550299076048,
+            624.4857782918627
+          ],
+          "materialResidualPx": 14.361190876357092,
+          "videoEquivalentResidualPx": 9.904269569901443
+        },
+        {
+          "frame": 73,
+          "time": 0.20833333333333334,
+          "visibleTarget": true,
+          "videoPoint": [
+            387,
+            422
+          ],
+          "mappedTarget": [
+            328.8,
+            623.9
+          ],
+          "inferredRoot": [
+            361.9,
+            551.35
+          ],
+          "inferredJoint": [
+            349.1535930237121,
+            587.232155860467
+          ],
+          "projectedBoneEndpoint": [
+            331.81017414028406,
+            617.3021711819455
+          ],
+          "fixedLengthProjectionResidualPx": 7.252068219975953,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            331.81017414028406,
+            617.3021711819454
+          ],
+          "materialResidualPx": 7.252068219976057,
+          "videoEquivalentResidualPx": 5.001426358604178
+        },
+        {
+          "frame": 74,
+          "time": 0.25,
+          "visibleTarget": true,
+          "videoPoint": [
+            391,
+            404
+          ],
+          "mappedTarget": [
+            334.6,
+            597.8
+          ],
+          "inferredRoot": [
+            361.9,
+            564.4
+          ],
+          "inferredJoint": [
+            369.0824173424586,
+            601.795359085303
+          ],
+          "projectedBoneEndpoint": [
+            334.6,
+            597.8
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            334.6,
+            597.8
+          ],
+          "materialResidualPx": 0.0,
+          "videoEquivalentResidualPx": 0.0
+        },
+        {
+          "frame": 75,
+          "time": 0.2916666666666667,
+          "visibleTarget": true,
+          "videoPoint": [
+            395,
+            409
+          ],
+          "mappedTarget": [
+            340.4,
+            605.05
+          ],
+          "inferredRoot": [
+            359.0,
+            573.1
+          ],
+          "inferredJoint": [
+            375.01583084144863,
+            607.6469703803112
+          ],
+          "projectedBoneEndpoint": [
+            340.40000000000003,
+            605.05
+          ],
+          "fixedLengthProjectionResidualPx": 5.684341886080802e-14,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            340.4,
+            605.05
+          ],
+          "materialResidualPx": 0.0,
+          "videoEquivalentResidualPx": 0.0
+        },
+        {
+          "frame": 76,
+          "time": 0.3333333333333333,
+          "visibleTarget": true,
+          "videoPoint": [
+            405,
+            414
+          ],
+          "mappedTarget": [
+            354.9,
+            612.3
+          ],
+          "inferredRoot": [
+            356.1,
+            581.8
+          ],
+          "inferredJoint": [
+            388.15691638414904,
+            602.3512557265894
+          ],
+          "projectedBoneEndpoint": [
+            354.9,
+            612.3
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            354.9,
+            612.3
+          ],
+          "materialResidualPx": 0.0,
+          "videoEquivalentResidualPx": 0.0
+        },
+        {
+          "frame": 77,
+          "time": 0.375,
+          "visibleTarget": true,
+          "videoPoint": [
+            414,
+            415
+          ],
+          "mappedTarget": [
+            367.95,
+            613.75
+          ],
+          "inferredRoot": [
+            353.2,
+            586.15
+          ],
+          "inferredJoint": [
+            391.2337159891727,
+            588.0037659115834
+          ],
+          "projectedBoneEndpoint": [
+            367.95,
+            613.75
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            367.95000000000005,
+            613.75
+          ],
+          "materialResidualPx": 5.684341886080802e-14,
+          "videoEquivalentResidualPx": 3.920235783504001e-14
+        },
+        {
+          "frame": 78,
+          "time": 0.4166666666666667,
+          "visibleTarget": true,
+          "videoPoint": [
+            410,
+            413
+          ],
+          "mappedTarget": [
+            362.15,
+            610.85
+          ],
+          "inferredRoot": [
+            354.65,
+            561.5
+          ],
+          "inferredJoint": [
+            384.8989635758701,
+            584.6300713917118
+          ],
+          "projectedBoneEndpoint": [
+            362.15,
+            610.85
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            362.15,
+            610.85
+          ],
+          "materialResidualPx": 0.0,
+          "videoEquivalentResidualPx": 0.0
+        },
+        {
+          "frame": 79,
+          "time": 0.4583333333333333,
+          "visibleTarget": true,
+          "videoPoint": [
+            422,
+            421
+          ],
+          "mappedTarget": [
+            379.55,
+            622.45
+          ],
+          "inferredRoot": [
+            353.2,
+            552.8
+          ],
+          "inferredJoint": [
+            369.70745053938606,
+            587.1147792749672
+          ],
+          "projectedBoneEndpoint": [
+            378.85088496751786,
+            620.6020545725852
+          ],
+          "fixedLengthProjectionResidualPx": 1.9757692505315496,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            378.85088496751786,
+            620.6020545725852
+          ],
+          "materialResidualPx": 1.9757692505315496,
+          "videoEquivalentResidualPx": 1.3625994831252066
+        },
+        {
+          "frame": 80,
+          "time": 0.5,
+          "visibleTarget": true,
+          "videoPoint": [
+            434,
+            422
+          ],
+          "mappedTarget": [
+            396.95,
+            623.9
+          ],
+          "inferredRoot": [
+            353.2,
+            554.25
+          ],
+          "inferredJoint": [
+            376.1706862906868,
+            584.6201756882448
+          ],
+          "projectedBoneEndpoint": [
+            391.75921229824064,
+            615.6362659787991
+          ],
+          "fixedLengthProjectionResidualPx": 9.758769232740834,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            391.75921229824064,
+            615.6362659787991
+          ],
+          "materialResidualPx": 9.758769232740834,
+          "videoEquivalentResidualPx": 6.730185677752299
+        },
+        {
+          "frame": 81,
+          "time": 0.5416666666666666,
+          "visibleTarget": true,
+          "videoPoint": [
+            443,
+            423
+          ],
+          "mappedTarget": [
+            410.0,
+            625.35
+          ],
+          "inferredRoot": [
+            353.2,
+            555.7
+          ],
+          "inferredJoint": [
+            379.73063960773743,
+            583.0152917246797
+          ],
+          "projectedBoneEndpoint": [
+            399.01455614843553,
+            611.8792928827207
+          ],
+          "fixedLengthProjectionResidualPx": 17.38217267361576,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            399.124503853406,
+            611.7894504314238
+          ],
+          "materialResidualPx": 17.38289161895666,
+          "videoEquivalentResidualPx": 11.988201116521834
+        },
+        {
+          "frame": 82,
+          "time": 0.5833333333333334,
+          "visibleTarget": true,
+          "videoPoint": [
+            447,
+            434
+          ],
+          "mappedTarget": [
+            415.8,
+            641.3
+          ],
+          "inferredRoot": [
+            351.75,
+            565.85
+          ],
+          "inferredJoint": [
+            378.8144867767747,
+            592.6364435024472
+          ],
+          "projectedBoneEndpoint": [
+            398.66422223909456,
+            621.1142945814158
+          ],
+          "fixedLengthProjectionResidualPx": 26.478247349796366,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            398.8803487145027,
+            620.93009380829
+          ],
+          "materialResidualPx": 26.48032624198373,
+          "videoEquivalentResidualPx": 18.262293959988778
+        },
+        {
+          "frame": 83,
+          "time": 0.625,
+          "visibleTarget": true,
+          "videoPoint": [
+            444,
+            439
+          ],
+          "mappedTarget": [
+            411.45,
+            648.55
+          ],
+          "inferredRoot": [
+            354.65,
+            573.1
+          ],
+          "inferredJoint": [
+            380.10044075613314,
+            601.4244605477061
+          ],
+          "projectedBoneEndpoint": [
+            398.24950798631863,
+            631.0151915064744
+          ],
+          "fixedLengthProjectionResidualPx": 21.948177562337204,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            398.5890603793083,
+            630.7580044474673
+          ],
+          "materialResidualPx": 21.95356175358381,
+          "videoEquivalentResidualPx": 15.140387416264696
+        },
+        {
+          "frame": 84,
+          "time": 0.6666666666666666,
+          "visibleTarget": true,
+          "videoPoint": [
+            434,
+            441
+          ],
+          "mappedTarget": [
+            396.95,
+            651.45
+          ],
+          "inferredRoot": [
+            359.0,
+            576.0
+          ],
+          "inferredJoint": [
+            378.9919790604854,
+            608.4086527527004
+          ],
+          "projectedBoneEndpoint": [
+            391.57380520803616,
+            640.7613597614317
+          ],
+          "fixedLengthProjectionResidualPx": 11.96455183409233,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            392.08018004657725,
+            640.5041718958292
+          ],
+          "materialResidualPx": 11.980246210525456,
+          "videoEquivalentResidualPx": 8.262238765879625
+        }
+      ],
+      "rawAnglesDegrees": [
+        [
+          45.78945617872384,
+          -35.72335966980721
+        ],
+        [
+          36.55113678671205,
+          -35.72335966980721
+        ],
+        [
+          20.711395090239453,
+          -35.72335966980721
+        ],
+        [
+          9.342183443446443,
+          -35.72335966980721
+        ],
+        [
+          4.306748835025106,
+          -35.72335966980721
+        ],
+        [
+          -5.885241535713816,
+          -35.72335966980721
+        ],
+        [
+          24.543539059323017,
+          -132.7863668167735
+        ],
+        [
+          38.543548733595145,
+          -144.46762493431618
+        ],
+        [
+          71.0079238163665,
+          -155.98710267946726
+        ],
+        [
+          100.88091514561543,
+          -154.6392976503541
+        ],
+        [
+          66.26773019974856,
+          -118.84696175833886
+        ],
+        [
+          39.36163004627123,
+          -35.72335966980721
+        ],
+        [
+          50.773590688554265,
+          -35.72335966980721
+        ],
+        [
+          57.83644232843221,
+          -35.72335966980721
+        ],
+        [
+          58.967134232987895,
+          -35.72335966980721
+        ],
+        [
+          55.612023321691524,
+          -35.72335966980721
+        ],
+        [
+          45.34056632660077,
+          -35.72335966980721
+        ]
+      ],
+      "closureCorrectionDegrees": [
+        -0.44888985212306665,
+        0.0
+      ],
+      "upperLength": 38.07886552931954,
+      "lowerLength": 34.713109915419565
+    },
+    "leg_far": {
+      "rows": [
+        {
+          "frame": 68,
+          "time": 0.0,
+          "visibleTarget": false,
+          "videoPoint": [
+            458,
+            412
+          ],
+          "mappedTarget": [
+            431.75,
+            609.4
+          ],
+          "inferredRoot": [
+            437.0,
+            575.0
+          ],
+          "inferredJoint": [
+            454.88652801482414,
+            602.7141140138904
+          ],
+          "projectedBoneEndpoint": [
+            431.75,
+            609.4000000000001
+          ],
+          "fixedLengthProjectionResidualPx": 1.1368683772161603e-13,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            431.75,
+            609.4
+          ],
+          "materialResidualPx": 0.0,
+          "videoEquivalentResidualPx": 0.0
+        },
+        {
+          "frame": 69,
+          "time": 0.041666666666666664,
+          "visibleTarget": false,
+          "videoPoint": [
+            465,
+            415
+          ],
+          "mappedTarget": [
+            441.9,
+            613.75
+          ],
+          "inferredRoot": [
+            438.45,
+            576.45
+          ],
+          "inferredJoint": [
+            461.6205308160251,
+            599.9260836108502
+          ],
+          "projectedBoneEndpoint": [
+            441.9,
+            613.75
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            441.8999999999999,
+            613.7499999999999
+          ],
+          "materialResidualPx": 1.2710574864626038e-13,
+          "videoEquivalentResidualPx": 8.765913699742095e-14
+        },
+        {
+          "frame": 70,
+          "time": 0.08333333333333333,
+          "visibleTarget": true,
+          "videoPoint": [
+            470,
+            415
+          ],
+          "mappedTarget": [
+            449.15,
+            613.75
+          ],
+          "inferredRoot": [
+            439.9,
+            559.05
+          ],
+          "inferredJoint": [
+            451.800805465245,
+            589.8131407577054
+          ],
+          "projectedBoneEndpoint": [
+            449.15,
+            613.75
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            449.15,
+            613.7500000000001
+          ],
+          "materialResidualPx": 1.1368683772161603e-13,
+          "videoEquivalentResidualPx": 7.840471567008003e-14
+        },
+        {
+          "frame": 71,
+          "time": 0.125,
+          "visibleTarget": true,
+          "videoPoint": [
+            483,
+            417
+          ],
+          "mappedTarget": [
+            468.0,
+            616.65
+          ],
+          "inferredRoot": [
+            439.9,
+            554.7
+          ],
+          "inferredJoint": [
+            456.1012975756585,
+            583.4318282896331
+          ],
+          "projectedBoneEndpoint": [
+            463.34990390540014,
+            606.3982756917985
+          ],
+          "fixedLengthProjectionResidualPx": 11.257053121504828,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            463.3499039054001,
+            606.3982756917985
+          ],
+          "materialResidualPx": 11.257053121504851,
+          "videoEquivalentResidualPx": 7.7634849113826565
+        },
+        {
+          "frame": 72,
+          "time": 0.16666666666666666,
+          "visibleTarget": true,
+          "videoPoint": [
+            495,
+            418
+          ],
+          "mappedTarget": [
+            485.4,
+            618.1
+          ],
+          "inferredRoot": [
+            439.9,
+            553.25
+          ],
+          "inferredJoint": [
+            461.1345853363273,
+            578.4906890871512
+          ],
+          "projectedBoneEndpoint": [
+            472.50480866119466,
+            599.7208097072192
+          ],
+          "fixedLengthProjectionResidualPx": 22.451739252954255,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            472.5048086611946,
+            599.7208097072194
+          ],
+          "materialResidualPx": 22.451739252954194,
+          "videoEquivalentResidualPx": 15.483958105485652
+        },
+        {
+          "frame": 73,
+          "time": 0.20833333333333334,
+          "visibleTarget": true,
+          "videoPoint": [
+            504,
+            415
+          ],
+          "mappedTarget": [
+            498.45,
+            613.75
+          ],
+          "inferredRoot": [
+            439.9,
+            550.35
+          ],
+          "inferredJoint": [
+            464.31274870687696,
+            572.5314720110023
+          ],
+          "projectedBoneEndpoint": [
+            478.41418930020217,
+            592.0545192422344
+          ],
+          "fixedLengthProjectionResidualPx": 29.531806509401193,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            478.4141893002021,
+            592.0545192422344
+          ],
+          "materialResidualPx": 29.531806509401232,
+          "videoEquivalentResidualPx": 20.366763109931885
+        },
+        {
+          "frame": 74,
+          "time": 0.25,
+          "visibleTarget": true,
+          "videoPoint": [
+            509,
+            426
+          ],
+          "mappedTarget": [
+            505.7,
+            629.7
+          ],
+          "inferredRoot": [
+            439.9,
+            563.4
+          ],
+          "inferredJoint": [
+            465.09453478750015,
+            584.6893263595033
+          ],
+          "projectedBoneEndpoint": [
+            479.8888410905553,
+            603.6927076641917
+          ],
+          "fixedLengthProjectionResidualPx": 36.64144073161972,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            479.8888410905553,
+            603.6927076641919
+          ],
+          "materialResidualPx": 36.64144073161964,
+          "videoEquivalentResidualPx": 25.269959125254925
+        },
+        {
+          "frame": 75,
+          "time": 0.2916666666666667,
+          "visibleTarget": true,
+          "videoPoint": [
+            498,
+            433
+          ],
+          "mappedTarget": [
+            489.75,
+            639.85
+          ],
+          "inferredRoot": [
+            437.0,
+            572.1
+          ],
+          "inferredJoint": [
+            459.4633277687867,
+            596.25365201273
+          ],
+          "projectedBoneEndpoint": [
+            471.87508275745154,
+            616.8921679017506
+          ],
+          "fixedLengthProjectionResidualPx": 29.095957126023023,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            471.8750827574515,
+            616.8921679017506
+          ],
+          "materialResidualPx": 29.09595712602306,
+          "videoEquivalentResidualPx": 20.066177328291765
+        },
+        {
+          "frame": 76,
+          "time": 0.3333333333333333,
+          "visibleTarget": true,
+          "videoPoint": [
+            487,
+            435
+          ],
+          "mappedTarget": [
+            473.8,
+            642.75
+          ],
+          "inferredRoot": [
+            434.1,
+            580.8
+          ],
+          "inferredJoint": [
+            454.2585852311612,
+            606.9080723432046
+          ],
+          "projectedBoneEndpoint": [
+            464.7294746480364,
+            628.5958678701726
+          ],
+          "fixedLengthProjectionResidualPx": 16.81112389191239,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            464.72947464803633,
+            628.5958678701727
+          ],
+          "materialResidualPx": 16.811123891912327,
+          "videoEquivalentResidualPx": 11.593878546146433
+        },
+        {
+          "frame": 77,
+          "time": 0.375,
+          "visibleTarget": true,
+          "videoPoint": [
+            477,
+            435
+          ],
+          "mappedTarget": [
+            459.3,
+            642.75
+          ],
+          "inferredRoot": [
+            431.2,
+            585.15
+          ],
+          "inferredJoint": [
+            448.2005066472485,
+            613.416283337872
+          ],
+          "projectedBoneEndpoint": [
+            456.09019285953576,
+            636.1704665021089
+          ],
+          "fixedLengthProjectionResidualPx": 7.320732403854605,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            456.0901928595357,
+            636.1704665021089
+          ],
+          "materialResidualPx": 7.32073240385463,
+          "videoEquivalentResidualPx": 5.048780968175607
+        },
+        {
+          "frame": 78,
+          "time": 0.4166666666666667,
+          "visibleTarget": true,
+          "videoPoint": [
+            459,
+            432
+          ],
+          "mappedTarget": [
+            433.2,
+            638.4
+          ],
+          "inferredRoot": [
+            432.65,
+            560.5
+          ],
+          "inferredJoint": [
+            435.7677017572303,
+            593.3371730779762
+          ],
+          "projectedBoneEndpoint": [
+            433.05079127889644,
+            617.2666193200588
+          ],
+          "fixedLengthProjectionResidualPx": 21.133907405062715,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            433.05079127889644,
+            617.2666193200587
+          ],
+          "materialResidualPx": 21.13390740506283,
+          "videoEquivalentResidualPx": 14.575108555215744
+        },
+        {
+          "frame": 79,
+          "time": 0.4583333333333333,
+          "visibleTarget": true,
+          "videoPoint": [
+            453,
+            431
+          ],
+          "mappedTarget": [
+            424.5,
+            636.95
+          ],
+          "inferredRoot": [
+            431.2,
+            551.8
+          ],
+          "inferredJoint": [
+            431.49941315473404,
+            584.783486046244
+          ],
+          "projectedBoneEndpoint": [
+            426.74698937482856,
+            608.3931126467684
+          ],
+          "fixedLengthProjectionResidualPx": 28.645152758464313,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            426.74698937482856,
+            608.3931126467685
+          ],
+          "materialResidualPx": 28.6451527584642,
+          "videoEquivalentResidualPx": 19.755277764458068
+        },
+        {
+          "frame": 80,
+          "time": 0.5,
+          "visibleTarget": false,
+          "videoPoint": [
+            461,
+            416
+          ],
+          "mappedTarget": [
+            436.1,
+            615.2
+          ],
+          "inferredRoot": [
+            431.2,
+            553.25
+          ],
+          "inferredJoint": [
+            436.6676785083598,
+            585.7785181299305
+          ],
+          "projectedBoneEndpoint": [
+            435.6761470266069,
+            609.8412874078148
+          ],
+          "fixedLengthProjectionResidualPx": 5.375449003450705,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            435.6761470266068,
+            609.8412874078149
+          ],
+          "materialResidualPx": 5.375449003450597,
+          "videoEquivalentResidualPx": 3.707206209276274
+        },
+        {
+          "frame": 81,
+          "time": 0.5416666666666666,
+          "visibleTarget": true,
+          "videoPoint": [
+            409,
+            413
+          ],
+          "mappedTarget": [
+            360.7,
+            610.85
+          ],
+          "inferredRoot": [
+            431.2,
+            554.7
+          ],
+          "inferredJoint": [
+            407.29537929391216,
+            577.4281567422015
+          ],
+          "projectedBoneEndpoint": [
+            386.794904598236,
+            590.0666114441
+          ],
+          "fixedLengthProjectionResidualPx": 33.360055243607654,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            386.70896338045986,
+            589.8782678074087
+          ],
+          "materialResidualPx": 33.41077262327036,
+          "videoEquivalentResidualPx": 23.04191215397956
+        },
+        {
+          "frame": 82,
+          "time": 0.5833333333333334,
+          "visibleTarget": true,
+          "videoPoint": [
+            402,
+            408
+          ],
+          "mappedTarget": [
+            350.55,
+            603.6
+          ],
+          "inferredRoot": [
+            429.75,
+            564.85
+          ],
+          "inferredJoint": [
+            401.50323041767365,
+            581.8829095624607
+          ],
+          "projectedBoneEndpoint": [
+            378.75810963754384,
+            589.7986837316311
+          ],
+          "fixedLengthProjectionResidualPx": 31.40340395662927,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            378.67586147732334,
+            589.3922583394517
+          ],
+          "materialResidualPx": 31.510696706586174,
+          "videoEquivalentResidualPx": 21.731514970059433
+        },
+        {
+          "frame": 83,
+          "time": 0.625,
+          "visibleTarget": false,
+          "videoPoint": [
+            405,
+            410
+          ],
+          "mappedTarget": [
+            354.9,
+            606.5
+          ],
+          "inferredRoot": [
+            432.65,
+            572.1
+          ],
+          "inferredJoint": [
+            403.76899445512635,
+            588.0338482080438
+          ],
+          "projectedBoneEndpoint": [
+            380.736239603149,
+            595.0689177833012
+          ],
+          "fixedLengthProjectionResidualPx": 28.252095806793736,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            380.64292346980085,
+            594.4530082521392
+          ],
+          "materialResidualPx": 28.42231726909422,
+          "videoEquivalentResidualPx": 19.601598116616703
+        },
+        {
+          "frame": 84,
+          "time": 0.6666666666666666,
+          "visibleTarget": false,
+          "videoPoint": [
+            458,
+            413
+          ],
+          "mappedTarget": [
+            431.75,
+            610.85
+          ],
+          "inferredRoot": [
+            437.0,
+            575.0
+          ],
+          "inferredJoint": [
+            454.5032885032463,
+            602.9577340206986
+          ],
+          "projectedBoneEndpoint": [
+            431.75,
+            610.85
+          ],
+          "fixedLengthProjectionResidualPx": 0.0,
+          "jointObservation": false,
+          "exportedMaterialPoint": [
+            431.75,
+            609.4
+          ],
+          "materialResidualPx": 1.4500000000000455,
+          "videoEquivalentResidualPx": 1.0000000000000313
+        }
+      ],
+      "rawAnglesDegrees": [
+        [
+          18.801719400668237,
+          -87.9200879861594
+        ],
+        [
+          30.588453085258344,
+          -80.79469802178792
+        ],
+        [
+          7.112855605040449,
+          -8.668490093168025
+        ],
+        [
+          15.381529598838588,
+          6.898705679183482
+        ],
+        [
+          26.037118238634516,
+          6.898705679183482
+        ],
+        [
+          33.70540875197772,
+          6.898705679183482
+        ],
+        [
+          35.76602030621224,
+          6.898705679183482
+        ],
+        [
+          28.887130495361568,
+          6.898705679183482
+        ],
+        [
+          23.636232925276495,
+          6.898705679183482
+        ],
+        [
+          16.98819005923589,
+          6.898705679183482
+        ],
+        [
+          -8.612594948347123,
+          6.898705679183482
+        ],
+        [
+          -13.516145656577535,
+          6.898705679183482
+        ],
+        [
+          -4.494661406950237,
+          6.898705679183482
+        ],
+        [
+          -60.48140990260436,
+          6.898705679183482
+        ],
+        [
+          -72.94610653292504,
+          6.898705679183482
+        ],
+        [
+          -75.15042166634237,
+          6.898705679183482
+        ],
+        [
+          18.01289486935776,
+          -84.11950306528296
+        ]
+      ],
+      "closureCorrectionDegrees": [
+        -0.7888245313104782,
+        3.800584920876446
+      ],
+      "upperLength": 32.984845004941285,
+      "lowerLength": 24.08318915758459
+    }
+  },
+  "textureSource": "stable_parts_v1静态原图七件，并非视频裁片/隐藏补全。"
+}

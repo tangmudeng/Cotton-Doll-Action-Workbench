@@ -1,0 +1,169 @@
+{
+  "frames": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85
+  ],
+  "method": "exact source-frame silhouette cutout, root-bound quad, no IK deformation of visual reference",
+  "parts": [
+    {
+      "frame": 63,
+      "file": "parts/reference_63.png",
+      "source": "../frames/0063.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 64,
+      "file": "parts/reference_64.png",
+      "source": "../frames/0064.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 65,
+      "file": "parts/reference_65.png",
+      "source": "../frames/0065.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 66,
+      "file": "parts/reference_66.png",
+      "source": "../frames/0066.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 67,
+      "file": "parts/reference_67.png",
+      "source": "../frames/0067.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 68,
+      "file": "parts/reference_68.png",
+      "source": "../frames/0068.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 69,
+      "file": "parts/reference_69.png",
+      "source": "../frames/0069.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 70,
+      "file": "parts/reference_70.png",
+      "source": "../frames/0070.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 71,
+      "file": "parts/reference_71.png",
+      "source": "../frames/0071.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 72,
+      "file": "parts/reference_72.png",
+      "source": "../frames/0072.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 73,
+      "file": "parts/reference_73.png",
+      "source": "../frames/0073.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 74,
+      "file": "parts/reference_74.png",
+      "source": "../frames/0074.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 75,
+      "file": "parts/reference_75.png",
+      "source": "../frames/0075.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 76,
+      "file": "parts/reference_76.png",
+      "source": "../frames/0076.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 77,
+      "file": "parts/reference_77.png",
+      "source": "../frames/0077.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 78,
+      "file": "parts/reference_78.png",
+      "source": "../frames/0078.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 79,
+      "file": "parts/reference_79.png",
+      "source": "../frames/0079.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 80,
+      "file": "parts/reference_80.png",
+      "source": "../frames/0080.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 81,
+      "file": "parts/reference_81.png",
+      "source": "../frames/0081.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 82,
+      "file": "parts/reference_82.png",
+      "source": "../frames/0082.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 83,
+      "file": "parts/reference_83.png",
+      "source": "../frames/0083.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 84,
+      "file": "parts/reference_84.png",
+      "source": "../frames/0084.png",
+      "generatedPixels": false
+    },
+    {
+      "frame": 85,
+      "file": "parts/reference_85.png",
+      "source": "../frames/0085.png",
+      "generatedPixels": false
+    }
+  ],
+  "ikBonesPreserved": true
+}

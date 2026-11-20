@@ -1,0 +1,20 @@
+{
+  "version": "v4",
+  "base": "approved_pose_walk_v3_20261119",
+  "userClarification": {
+    "leftHand": "screen right / far arm",
+    "shorts": "unnatural shape and crotch"
+  },
+  "repaintReferences": [
+    "shorts_edit_reference.png",
+    "arm_far_edit_reference.png",
+    "reference/cycle_10.png",
+    "reference/walk_bind.png"
+  ],
+  "repaintSHA256": {
+    "shorts_repaint.png": "2db2521ae87296e9d6f9df26132ad291a581299cf027ebf513e74e921b777012",
+    "arm_far_repaint.png": "f66a77a8969b6f27dfc8f6a491b070675ebb47c6dc4472c9120833c607fadbef"
+  },
+  "visualApproved": false,
+  "guiPlaybackVerified": false
+}

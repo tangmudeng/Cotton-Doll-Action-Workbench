@@ -1,0 +1,14 @@
+{
+  "status": "video_directed_acceptance_candidate",
+  "sourceFrames": [
+    66,
+    88
+  ],
+  "boneCount": 12,
+  "partCount": 7,
+  "productionApproved": false,
+  "build": "build_acceptance_walk.py",
+  "export": "rig_export.py",
+  "latestExport": "/studio_v3/exports/rig_ba95ad9561ab4b7a/walulu_walk_spine_4.2.43.zip",
+  "motion": "manual video landmark directions with endpoint closure; no v1 motion reuse"
+}

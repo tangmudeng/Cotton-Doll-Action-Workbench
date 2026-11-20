@@ -1,0 +1,20 @@
+{
+  "status": "finite_in_memory_comparison_failed_not_exported_rig",
+  "sampleCount": 193,
+  "animationSource": "pose_walk_v3/profile_walk.json",
+  "topologySource": "joint_structure_v4/profile_walk.json",
+  "rule": "No body influence. s=dot(sourceVertex-sourceShoulder, normalizedShoulderToDistalAxis); L=length(ShoulderToDistalAxis); lower=clip((s-0.1*L)/(0.75*L),0,1); upper=1-lower. Pure lower beyond 0.85L. Same rule for all four limbs, fixed before evaluation.",
+  "method": "Read-only in-memory weighted transforms over all exported triangles. Original bones and animation unchanged. No parameters optimized; no texture changes. Results were not serialized as a second Spine runtime package and have no visual or foot-contact acceptance.",
+  "stretchThresholds": {"min": 0.35, "max": 1.8},
+  "results": {
+    "leg_far": {"flips": 804, "minAreaRatio": -0.27477280423028494, "minPrincipalStretch": 0.0001204097367647853, "maxPrincipalStretch": 2.0090873258538293},
+    "leg_near": {"flips": 0, "minAreaRatio": 0.263724070360887, "minPrincipalStretch": 0.27814872733094287, "maxPrincipalStretch": 1.4981035119923827},
+    "arm_far": {"flips": 0, "minAreaRatio": 0.42428757070371625, "minPrincipalStretch": 0.45304776873558755, "maxPrincipalStretch": 1.7436103970038483},
+    "arm_near": {"flips": 0, "minAreaRatio": 0.02811335828174362, "minPrincipalStretch": 0.03446104582972518, "maxPrincipalStretch": 2.0469729570338413}
+  },
+  "conclusion": "Zero near-arm flips does not establish acceptable deformation: minimum principal stretch is 0.03446. Far leg still flips. No rule passes the complete character. No further parameter scan performed.",
+  "numericalChecksPassed": false,
+  "prototypeAccepted": false,
+  "productionApproved": false,
+  "videoFitPassed": false
+}

@@ -1,0 +1,15 @@
+{
+  "frames": 23,
+  "chainsPerFrame": 4,
+  "maxIKReachError": 0.0,
+  "maxBoneLengthError": 5.684341886080802e-14,
+  "pixelExactCrops": 9,
+  "motionAccuracyValidated": false,
+  "groundContactsValidated": false,
+  "sourceLoopEndpointDifference": {
+    "hand_near": 2.0,
+    "hand_far": 2.23606797749979,
+    "foot_near": 1.0,
+    "foot_far": 1.0
+  }
+}

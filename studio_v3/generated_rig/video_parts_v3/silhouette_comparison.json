@@ -1,0 +1,32 @@
+[
+  {
+    "frame": 66,
+    "v2SilhouetteIoU": 0.8675718912169808,
+    "v3SilhouetteIoU": 0.8361858667863625
+  },
+  {
+    "frame": 70,
+    "v2SilhouetteIoU": 0.8401671772606464,
+    "v3SilhouetteIoU": 0.8258335898225095
+  },
+  {
+    "frame": 74,
+    "v2SilhouetteIoU": 0.8404263893926571,
+    "v3SilhouetteIoU": 0.8186771698536764
+  },
+  {
+    "frame": 78,
+    "v2SilhouetteIoU": 0.8708415971260711,
+    "v3SilhouetteIoU": 0.8830999287918347
+  },
+  {
+    "frame": 82,
+    "v2SilhouetteIoU": 0.8773671728434391,
+    "v3SilhouetteIoU": 0.9342141053040606
+  },
+  {
+    "frame": 86,
+    "v2SilhouetteIoU": 0.8729908603844941,
+    "v3SilhouetteIoU": 0.9096822815437706
+  }
+]

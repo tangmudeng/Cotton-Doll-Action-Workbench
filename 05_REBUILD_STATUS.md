@@ -1,0 +1,1 @@
+当前候选：spine_samples/video_motion_study_20261119/pixel_bound_controls_20261120/source_pixels_ik_controls.spine。修正头/躯干/裤衩仅绑定root的问题；16骨骼、4IK、7个固定附件控制测试。verified旧版已GUI播放，新版CLI重导出和浏览器验证，未GUI打开；全身联动层级及任意姿态仍未完成。未接入05工作台。

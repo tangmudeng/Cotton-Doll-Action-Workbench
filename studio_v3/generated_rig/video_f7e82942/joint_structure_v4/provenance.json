@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "profileId": "joint_structure_v4",
+  "prototypeAccepted": false,
+  "productionApproved": false,
+  "videoFit": false,
+  "videoFitPassed": false,
+  "videoLoopCandidateAccepted": false,
+  "wardrobeVerified": false,
+  "crossCharacterVerified": false,
+  "mobileVerified": false,
+  "visualReview": {
+    "status": "actually_reviewed_failed_candidate",
+    "passed": false,
+    "inspectedWith": "ViewImage",
+    "inspectedFiles": [
+      {
+        "file": "review_extremes.png",
+        "sha256": "b2b9b209b4d65950763c6174cb8a3e7439295f13f55eb438dd78d8e30d7aaf9b"
+      },
+      {
+        "file": "review_transitions.png",
+        "sha256": "15cf51bd983c685ec1280833a25bb6639e0607d5056798c06269ca43f118cdcd"
+      },
+      {
+        "file": "topology_weights.png",
+        "sha256": "49b3b6fe00629922a3362557f51504a522f4e5b2660ba9edf2eeb3ebdb43db0c"
+      },
+      {
+        "file": "cycle_inspection_1.png",
+        "sha256": "e4653833ce56409525f9a0bb7bc1da01c9b6cc67b6a4815b05878a30ade49251"
+      },
+      {
+        "file": "cycle_inspection_2.png",
+        "sha256": "17590fb63a685a5b08155defb55d220e31b55564f5276cfe50de44a3a30b8e4e"
+      },
+      {
+        "file": "cycle_inspection_3.png",
+        "sha256": "9ef3f67149b67904c29b8d5f49ffc0a4998e9904a9b5da5ddf65d7c94daab4cb"
+      },
+      {
+        "file": "cycle_inspection_4.png",
+        "sha256": "948b97174a1f5d72b946d4a582cdabedcc58ef41a20ab2e6952e0f0eccf7b57a"
+      }
+    ],
+    "scope": "实际查看6个极限、8个相邻过渡，以及4张局部审阅图完整覆盖相位0..31；GIF已生成但不声称连续播放审阅。",
+    "observations": [
+      "新v4在f70..76收胸时手臂外缘局部更圆、原大扁片略收，但肩部仍宽、手掌未独立清楚，未达到源视频造型。",
+      "近腿根在完整32相位仍有斜切口、缺口和弯折；部分近脚外缘更方，不能声称腿根修复通过。",
+      "近臂/腿源件是原始可见裁片，肩髋根隐藏面不完整；权重无法提供缺失像素。",
+      "短根混合带虽然与肘膝分开，但短粗截面在固定大转肩下局部强梯度仍造成翻转；四肢统一重做也使原本无翻转远侧出现失败。",
+      "整圈保持原v3动作幅度和节奏；无动画修改或逐帧补片；数值首尾相同不代表造型或视频拟合通过。",
+      "本候选不优于原v3的完整几何稳健性，保留为失败制作证据，不进入正式入口。"
+    ]
+  },
+  "sourceHashes": [
+    {
+      "file": "generated_rig/video_f7e82942/video_guided_walk_v2/profile.json",
+      "sha256": "37fe996cb7f0c98ec41fdd91716f428e776f953f051fa3c766bb390c188ddf52"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/video_guided_walk_v2/profile_walk.json",
+      "sha256": "c4520086b1e86047dac66ba0e0681d34228a28d6b73738ae08486112450c627f"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/pose_walk_v3/profile_walk.json",
+      "sha256": "071598df320dd2ae9693efa2d5c641367d90e719ef6d203f57ea0eb10ea8007b"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/pose_walk_v3/checks.json",
+      "sha256": "c04946b32799a504dd82f03e7c3c5b2b1b07dbb64677bea771fe821f1b577c40"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/stable_parts_v1/manifest.json",
+      "sha256": "c928c89c6f64864359a89e429bc80f5518a3e5149e4dbc5990478c60a243569b"
+    },
+    {
+      "file": "generated_rig/video_f7e82942/source.mp4",
+      "sha256": "8fc0f8406d6a258640b65d34c5ad7fb0e35f231131d7eec945781dd9d93343e5"
+    },
+    {
+      "file": "build_profile_walk.py",
+      "sha256": "31040f397e1f9a8790cc9ee56adfad00eff0006a74fedf03d2036c36923aad81"
+    },
+    {
+      "file": "build_video_guided_walk.py",
+      "sha256": "1e4d596169d711205071bcc5c6496c6ed5623de7fccdc121bd16d2f51458b4e9"
+    },
+    {
+      "file": "build_pose_walk_v3.py",
+      "sha256": "71d942f046ca483d5c020aca6efa7621e416823d5a8613b9ca0f1234202c7836"
+    },
+    {
+      "file": "build_joint_structure_v4.py",
+      "sha256": "47e6e47b96e33ebaeb9641f5d06fbdbeba88f21aa12a8c9a203472239b70ce39"
+    }
+  ],
+  "changeScope": [
+    "仅四肢静态mesh拓扑、UV顶点位置和对应静态weights；七逻辑件、12骨setup、slot和v3全部animation字典逐值相同。",
+    "近臂/腿为优先修复；远臂/腿同步清理旧全局优化带来的非局部body残留，使同规则对比不混入旧非语义权重。",
+    "沿肢轴矩形域裁切横向带，根锚-12..-2px；根带与肘膝带互不重叠；末端纯lower；不扇形扎肘心，不跨带长三角。",
+    "atlas及原纹理逐字节复制，不改原像素；参考17帧仅复制到候选内。"
+  ],
+  "rule": {
+    "id": "axis_strips_short_hidden_root",
+    "rootBandPx": [
+      -12.0,
+      -2.0
+    ],
+    "hingeHalfSpanArmPx": 12.0,
+    "hingeHalfSpanLegPx": 9.0,
+    "maxLongitudinalStepPx": 6.0,
+    "transverseSegments": 12
+  },
+  "oldInputsReadOnly": true,
+  "oldBuildMainCalled": false,
+  "limitations": [
+    "根部隐藏搭接像素有限，短根带不保证大转肩时轮廓完整；不能用weights补画肩髋缺失面。",
+    "二维短粗肢体在固定大转肩与弯肘中仍可能翻转、压缩、露缝；完整mesh指标不因透明像素而隐藏。",
+    "CPU safe_render_mesh仅显示失败，不以栅格绕序调整声称修复翻转。",
+    "脚底按原v3支撑区间测量真实材料点，改绑定可能破坏原IK材料补偿，不修改动画重新拟合。",
+    "非Spine官方运行时或生产、视频匹配、换装验收。"
+  ],
+  "numericalChecksPassed": false,
+  "selfContainedReview": true,
+  "status": "candidate_reviewed_not_accepted",
+  "implementationCorrection": {
+    "candidateRuleCount": 1,
+    "initialIncompleteExportPreserved": "initial_incomplete_export",
+    "reason": "首轮沿轴裁切未显式加入矩形内部角投影，真实近脚材料锚点落在覆盖域外；修正为所有矩形角投影都作为横带，补全原矩形域，不更改权重参数、骨或动画。"
+  }
+}

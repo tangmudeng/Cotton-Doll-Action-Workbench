@@ -1,0 +1,2210 @@
+[
+  {
+    "attachment": "arm_near_63",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 8.605025516891146
+  },
+  {
+    "attachment": "arm_near_63",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 8.94892531784851
+  },
+  {
+    "attachment": "arm_near_63",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 8.290013101589265
+  },
+  {
+    "attachment": "arm_near_63",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 11.450467236084416
+  },
+  {
+    "attachment": "arm_far_63",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 7.1472914775722325
+  },
+  {
+    "attachment": "arm_far_63",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.72579361681627
+  },
+  {
+    "attachment": "arm_far_63",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 8.39354106604884
+  },
+  {
+    "attachment": "arm_far_63",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 8.896580400691944
+  },
+  {
+    "attachment": "leg_near_63",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 11.246641018313289
+  },
+  {
+    "attachment": "leg_near_63",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.004928602216355
+  },
+  {
+    "attachment": "leg_near_63",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 13.553105389776718
+  },
+  {
+    "attachment": "leg_near_63",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 21.575959608871894
+  },
+  {
+    "attachment": "leg_far_63",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.348582122880538
+  },
+  {
+    "attachment": "leg_far_63",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.858921670866557
+  },
+  {
+    "attachment": "leg_far_63",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 7.787616337078801
+  },
+  {
+    "attachment": "leg_far_63",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 7.87877943541751
+  },
+  {
+    "attachment": "arm_near_64",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 8.284763126982002
+  },
+  {
+    "attachment": "arm_near_64",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 8.45444588607826
+  },
+  {
+    "attachment": "arm_near_64",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 8.069608978739458
+  },
+  {
+    "attachment": "arm_near_64",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 10.3632860045674
+  },
+  {
+    "attachment": "arm_far_64",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.175828139360592
+  },
+  {
+    "attachment": "arm_far_64",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 5.892031437725117
+  },
+  {
+    "attachment": "arm_far_64",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 7.7626899641154194
+  },
+  {
+    "attachment": "arm_far_64",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 8.052786358178167
+  },
+  {
+    "attachment": "leg_near_64",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 9.382006567363003
+  },
+  {
+    "attachment": "leg_near_64",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 8.151427674928852
+  },
+  {
+    "attachment": "leg_near_64",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 14.402278553372124
+  },
+  {
+    "attachment": "leg_near_64",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 23.79314937358324
+  },
+  {
+    "attachment": "leg_far_64",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 8.063207826980054
+  },
+  {
+    "attachment": "leg_far_64",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 8.241843186379942
+  },
+  {
+    "attachment": "leg_far_64",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 7.794180565020905
+  },
+  {
+    "attachment": "leg_far_64",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 7.858163346352589
+  },
+  {
+    "attachment": "arm_near_65",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 8.021228909611489
+  },
+  {
+    "attachment": "arm_near_65",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 8.176054259241605
+  },
+  {
+    "attachment": "arm_near_65",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 7.540192853390328
+  },
+  {
+    "attachment": "arm_near_65",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 10.187948655410901
+  },
+  {
+    "attachment": "arm_far_65",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 5.77171492400529
+  },
+  {
+    "attachment": "arm_far_65",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 5.668718214459986
+  },
+  {
+    "attachment": "arm_far_65",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 7.771543093607149
+  },
+  {
+    "attachment": "arm_far_65",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 7.853458331890377
+  },
+  {
+    "attachment": "leg_near_65",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 7.066630146870444
+  },
+  {
+    "attachment": "leg_near_65",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 7.509668077726467
+  },
+  {
+    "attachment": "leg_near_65",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 15.999161263961625
+  },
+  {
+    "attachment": "leg_near_65",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 35.891211836862475
+  },
+  {
+    "attachment": "leg_far_65",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 8.263720235505664
+  },
+  {
+    "attachment": "leg_far_65",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 7.972313169392174
+  },
+  {
+    "attachment": "leg_far_65",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 7.767084834894114
+  },
+  {
+    "attachment": "leg_far_65",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 8.06986396417347
+  },
+  {
+    "attachment": "arm_near_66",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 7.5737890471131495
+  },
+  {
+    "attachment": "arm_near_66",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 7.739845665896823
+  },
+  {
+    "attachment": "arm_near_66",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 6.1908603832403255
+  },
+  {
+    "attachment": "arm_near_66",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 8.180457799524216
+  },
+  {
+    "attachment": "arm_far_66",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 5.378769092401436
+  },
+  {
+    "attachment": "arm_far_66",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 5.755735337287651
+  },
+  {
+    "attachment": "arm_far_66",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 7.164820529131761
+  },
+  {
+    "attachment": "arm_far_66",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 7.189421064373808
+  },
+  {
+    "attachment": "leg_near_66",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 7.4022391408529495
+  },
+  {
+    "attachment": "leg_near_66",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 8.268240677386045
+  },
+  {
+    "attachment": "leg_near_66",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 11.758334592699146
+  },
+  {
+    "attachment": "leg_near_66",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 22.057583859329686
+  },
+  {
+    "attachment": "leg_far_66",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 7.645504365608115
+  },
+  {
+    "attachment": "leg_far_66",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 7.16597250045925
+  },
+  {
+    "attachment": "leg_far_66",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 7.408137037603355
+  },
+  {
+    "attachment": "leg_far_66",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 8.089604177859716
+  },
+  {
+    "attachment": "arm_near_67",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 7.0888382423325
+  },
+  {
+    "attachment": "arm_near_67",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 7.253096492306185
+  },
+  {
+    "attachment": "arm_near_67",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 5.749601066688834
+  },
+  {
+    "attachment": "arm_near_67",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 7.189731509690278
+  },
+  {
+    "attachment": "arm_far_67",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 5.729243577695809
+  },
+  {
+    "attachment": "arm_far_67",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.071949377453713
+  },
+  {
+    "attachment": "arm_far_67",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 7.066698582577654
+  },
+  {
+    "attachment": "arm_far_67",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 7.135620110616765
+  },
+  {
+    "attachment": "leg_near_67",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 9.05839005133139
+  },
+  {
+    "attachment": "leg_near_67",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.580374232424326
+  },
+  {
+    "attachment": "leg_near_67",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 12.054884291133137
+  },
+  {
+    "attachment": "leg_near_67",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 23.890144662571885
+  },
+  {
+    "attachment": "leg_far_67",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 8.750490428576203
+  },
+  {
+    "attachment": "leg_far_67",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 8.163780615753831
+  },
+  {
+    "attachment": "leg_far_67",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 7.719205063131833
+  },
+  {
+    "attachment": "leg_far_67",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 8.593638428189546
+  },
+  {
+    "attachment": "arm_near_68",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.592830327173064
+  },
+  {
+    "attachment": "arm_near_68",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.793263669420775
+  },
+  {
+    "attachment": "arm_near_68",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 5.312141236360559
+  },
+  {
+    "attachment": "arm_near_68",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 6.355764180447556
+  },
+  {
+    "attachment": "arm_far_68",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 5.799027653365446
+  },
+  {
+    "attachment": "arm_far_68",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.1520270214315795
+  },
+  {
+    "attachment": "arm_far_68",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 7.541295271767227
+  },
+  {
+    "attachment": "arm_far_68",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 7.892265767839234
+  },
+  {
+    "attachment": "leg_near_68",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 9.90658566481637
+  },
+  {
+    "attachment": "leg_near_68",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 11.225803770787087
+  },
+  {
+    "attachment": "leg_near_68",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 13.127566703098243
+  },
+  {
+    "attachment": "leg_near_68",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 17.691371485862764
+  },
+  {
+    "attachment": "leg_far_68",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.152966503135863
+  },
+  {
+    "attachment": "leg_far_68",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 9.416633627330565
+  },
+  {
+    "attachment": "leg_far_68",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 9.850544902133857
+  },
+  {
+    "attachment": "leg_far_68",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 10.897426758746846
+  },
+  {
+    "attachment": "arm_near_69",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.266535234357798
+  },
+  {
+    "attachment": "arm_near_69",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.532869437881834
+  },
+  {
+    "attachment": "arm_near_69",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 5.458015259653506
+  },
+  {
+    "attachment": "arm_near_69",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 5.6382880479993736
+  },
+  {
+    "attachment": "arm_far_69",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 5.914519794887494
+  },
+  {
+    "attachment": "arm_far_69",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.288281311381158
+  },
+  {
+    "attachment": "arm_far_69",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 8.15019541606516
+  },
+  {
+    "attachment": "arm_far_69",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 8.923915979756016
+  },
+  {
+    "attachment": "leg_near_69",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.635923175483468
+  },
+  {
+    "attachment": "leg_near_69",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 11.99858286845025
+  },
+  {
+    "attachment": "leg_near_69",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 12.59468659041251
+  },
+  {
+    "attachment": "leg_near_69",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 15.579412281571773
+  },
+  {
+    "attachment": "leg_far_69",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 11.04265668653941
+  },
+  {
+    "attachment": "leg_far_69",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.103710611353215
+  },
+  {
+    "attachment": "leg_far_69",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 9.465683483314807
+  },
+  {
+    "attachment": "leg_far_69",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 10.61505838740034
+  },
+  {
+    "attachment": "arm_near_70",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.1216509998633
+  },
+  {
+    "attachment": "arm_near_70",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.4150292415134675
+  },
+  {
+    "attachment": "arm_near_70",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 5.390383482082857
+  },
+  {
+    "attachment": "arm_near_70",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 5.541757648499221
+  },
+  {
+    "attachment": "arm_far_70",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.0072910387927365
+  },
+  {
+    "attachment": "arm_far_70",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.364870115952276
+  },
+  {
+    "attachment": "arm_far_70",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 8.133512448741685
+  },
+  {
+    "attachment": "arm_far_70",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 8.888499264929337
+  },
+  {
+    "attachment": "leg_near_70",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.152455500839162
+  },
+  {
+    "attachment": "leg_near_70",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.915620480305767
+  },
+  {
+    "attachment": "leg_near_70",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 11.520044214809806
+  },
+  {
+    "attachment": "leg_near_70",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 12.540446194654116
+  },
+  {
+    "attachment": "leg_far_70",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.927127766470385
+  },
+  {
+    "attachment": "leg_far_70",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.071355624805745
+  },
+  {
+    "attachment": "leg_far_70",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 10.105198369660064
+  },
+  {
+    "attachment": "leg_far_70",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 11.121558161766256
+  },
+  {
+    "attachment": "arm_near_71",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.145683721830913
+  },
+  {
+    "attachment": "arm_near_71",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.44316222679376
+  },
+  {
+    "attachment": "arm_near_71",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 5.2247128772849445
+  },
+  {
+    "attachment": "arm_near_71",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 5.313585773668249
+  },
+  {
+    "attachment": "arm_far_71",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.054412188673351
+  },
+  {
+    "attachment": "arm_far_71",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.405861049772354
+  },
+  {
+    "attachment": "arm_far_71",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 8.012705307306435
+  },
+  {
+    "attachment": "arm_far_71",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 8.587514842247161
+  },
+  {
+    "attachment": "leg_near_71",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.349197030633917
+  },
+  {
+    "attachment": "leg_near_71",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 11.050561140505856
+  },
+  {
+    "attachment": "leg_near_71",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 14.284063469852534
+  },
+  {
+    "attachment": "leg_near_71",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 15.208401262567845
+  },
+  {
+    "attachment": "leg_far_71",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.559416621049461
+  },
+  {
+    "attachment": "leg_far_71",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 9.61616367657438
+  },
+  {
+    "attachment": "leg_far_71",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 10.266013803377136
+  },
+  {
+    "attachment": "leg_far_71",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 11.80770130820519
+  },
+  {
+    "attachment": "arm_near_72",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.318698694086903
+  },
+  {
+    "attachment": "arm_near_72",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.586184947128703
+  },
+  {
+    "attachment": "arm_near_72",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 4.983268058162138
+  },
+  {
+    "attachment": "arm_near_72",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 5.129327673955925
+  },
+  {
+    "attachment": "arm_far_72",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.057038693071436
+  },
+  {
+    "attachment": "arm_far_72",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.407182565863118
+  },
+  {
+    "attachment": "arm_far_72",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 7.710169352081489
+  },
+  {
+    "attachment": "arm_far_72",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 8.020329514475875
+  },
+  {
+    "attachment": "leg_near_72",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.051531365267895
+  },
+  {
+    "attachment": "leg_near_72",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.677383211258492
+  },
+  {
+    "attachment": "leg_near_72",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 14.112134820037404
+  },
+  {
+    "attachment": "leg_near_72",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 14.893119820969678
+  },
+  {
+    "attachment": "leg_far_72",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.183881405396429
+  },
+  {
+    "attachment": "leg_far_72",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 9.222117708596206
+  },
+  {
+    "attachment": "leg_far_72",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 9.807175910962652
+  },
+  {
+    "attachment": "leg_far_72",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 11.691738690334171
+  },
+  {
+    "attachment": "arm_near_73",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.508870294628139
+  },
+  {
+    "attachment": "arm_near_73",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.722307152819104
+  },
+  {
+    "attachment": "arm_near_73",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 5.07550266806893
+  },
+  {
+    "attachment": "arm_near_73",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 5.2119075449064995
+  },
+  {
+    "attachment": "arm_far_73",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 5.887509808929537
+  },
+  {
+    "attachment": "arm_far_73",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.2204830273810705
+  },
+  {
+    "attachment": "arm_far_73",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 7.144289913153476
+  },
+  {
+    "attachment": "arm_far_73",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 7.273529764347861
+  },
+  {
+    "attachment": "leg_near_73",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 8.945135469528351
+  },
+  {
+    "attachment": "leg_near_73",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 9.63573182300078
+  },
+  {
+    "attachment": "leg_near_73",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 14.086379600301717
+  },
+  {
+    "attachment": "leg_near_73",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 15.518112934691995
+  },
+  {
+    "attachment": "leg_far_73",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.085366531107947
+  },
+  {
+    "attachment": "leg_far_73",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 8.876635800369598
+  },
+  {
+    "attachment": "leg_far_73",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 10.040740092546345
+  },
+  {
+    "attachment": "leg_far_73",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 14.320997201355025
+  },
+  {
+    "attachment": "arm_near_74",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.630874687627339
+  },
+  {
+    "attachment": "arm_near_74",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.82037690582595
+  },
+  {
+    "attachment": "arm_near_74",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 5.218028274675867
+  },
+  {
+    "attachment": "arm_near_74",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 6.015341826705605
+  },
+  {
+    "attachment": "arm_far_74",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 5.654910073693923
+  },
+  {
+    "attachment": "arm_far_74",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 5.9890906679074405
+  },
+  {
+    "attachment": "arm_far_74",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 6.483211734461988
+  },
+  {
+    "attachment": "arm_far_74",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 6.441504647719955
+  },
+  {
+    "attachment": "leg_near_74",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 8.303494880217205
+  },
+  {
+    "attachment": "leg_near_74",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 9.068813270156216
+  },
+  {
+    "attachment": "leg_near_74",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 11.404838312670273
+  },
+  {
+    "attachment": "leg_near_74",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 13.550675345167146
+  },
+  {
+    "attachment": "leg_far_74",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 8.62063145185322
+  },
+  {
+    "attachment": "leg_far_74",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 7.58964692203526
+  },
+  {
+    "attachment": "leg_far_74",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 10.291571729453338
+  },
+  {
+    "attachment": "leg_far_74",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 17.67871102089795
+  },
+  {
+    "attachment": "arm_near_75",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 7.129018222912534
+  },
+  {
+    "attachment": "arm_near_75",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 7.265009454472976
+  },
+  {
+    "attachment": "arm_near_75",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 5.4605233593905895
+  },
+  {
+    "attachment": "arm_near_75",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 6.309807889519276
+  },
+  {
+    "attachment": "arm_far_75",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 5.5709515840121
+  },
+  {
+    "attachment": "arm_far_75",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 5.91742902899991
+  },
+  {
+    "attachment": "arm_far_75",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 6.423710756256845
+  },
+  {
+    "attachment": "arm_far_75",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 6.264712379182952
+  },
+  {
+    "attachment": "leg_near_75",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 7.078955388435868
+  },
+  {
+    "attachment": "leg_near_75",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 7.747157219903061
+  },
+  {
+    "attachment": "leg_near_75",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 11.844989949416236
+  },
+  {
+    "attachment": "leg_near_75",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 15.227393285111678
+  },
+  {
+    "attachment": "leg_far_75",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 6.960158072305882
+  },
+  {
+    "attachment": "leg_far_75",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 6.256301155883604
+  },
+  {
+    "attachment": "leg_far_75",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 10.288597023077545
+  },
+  {
+    "attachment": "leg_far_75",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 17.553837680572144
+  },
+  {
+    "attachment": "arm_near_76",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 7.508420338199459
+  },
+  {
+    "attachment": "arm_near_76",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 7.628377788350232
+  },
+  {
+    "attachment": "arm_near_76",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 5.905980205350878
+  },
+  {
+    "attachment": "arm_near_76",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 6.92829248313671
+  },
+  {
+    "attachment": "arm_far_76",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 5.264272793598294
+  },
+  {
+    "attachment": "arm_far_76",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 5.645704389531595
+  },
+  {
+    "attachment": "arm_far_76",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 6.676516973257042
+  },
+  {
+    "attachment": "arm_far_76",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 6.758470011725462
+  },
+  {
+    "attachment": "leg_near_76",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 6.7025849811971225
+  },
+  {
+    "attachment": "leg_near_76",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 7.284508834279277
+  },
+  {
+    "attachment": "leg_near_76",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 10.375177271622398
+  },
+  {
+    "attachment": "leg_near_76",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 13.813106872819302
+  },
+  {
+    "attachment": "leg_far_76",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 6.364237645748209
+  },
+  {
+    "attachment": "leg_far_76",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 6.118142439434351
+  },
+  {
+    "attachment": "leg_far_76",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 8.283954840099096
+  },
+  {
+    "attachment": "leg_far_76",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 9.005523886578324
+  },
+  {
+    "attachment": "arm_near_77",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 7.926005787210502
+  },
+  {
+    "attachment": "arm_near_77",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 8.149846858300446
+  },
+  {
+    "attachment": "arm_near_77",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 7.002995386488407
+  },
+  {
+    "attachment": "arm_near_77",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 10.74405701796828
+  },
+  {
+    "attachment": "arm_far_77",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 5.3298007649929
+  },
+  {
+    "attachment": "arm_far_77",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 5.232860974233721
+  },
+  {
+    "attachment": "arm_far_77",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 6.829574318488754
+  },
+  {
+    "attachment": "arm_far_77",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 7.6235270296011155
+  },
+  {
+    "attachment": "leg_near_77",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 6.2796287561619915
+  },
+  {
+    "attachment": "leg_near_77",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 6.643031292897836
+  },
+  {
+    "attachment": "leg_near_77",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 10.663948199258542
+  },
+  {
+    "attachment": "leg_near_77",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 16.923713485182535
+  },
+  {
+    "attachment": "leg_far_77",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 7.023436777211027
+  },
+  {
+    "attachment": "leg_far_77",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 6.9180734377491815
+  },
+  {
+    "attachment": "leg_far_77",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 7.798081153186033
+  },
+  {
+    "attachment": "leg_far_77",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 7.945606134660655
+  },
+  {
+    "attachment": "arm_near_78",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 8.47533012354238
+  },
+  {
+    "attachment": "arm_near_78",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 8.85457699403461
+  },
+  {
+    "attachment": "arm_near_78",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 9.084698828591682
+  },
+  {
+    "attachment": "arm_near_78",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 14.427257241371608
+  },
+  {
+    "attachment": "arm_far_78",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 8.277601607241289
+  },
+  {
+    "attachment": "arm_far_78",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.917729392238524
+  },
+  {
+    "attachment": "arm_far_78",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 7.8271208064371836
+  },
+  {
+    "attachment": "arm_far_78",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 9.94626542017397
+  },
+  {
+    "attachment": "leg_near_78",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 9.749977396106269
+  },
+  {
+    "attachment": "leg_near_78",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 8.527919263308931
+  },
+  {
+    "attachment": "leg_near_78",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 13.882397117798106
+  },
+  {
+    "attachment": "leg_near_78",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 23.891759388002992
+  },
+  {
+    "attachment": "leg_far_78",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 9.94490541170354
+  },
+  {
+    "attachment": "leg_far_78",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.261867195122274
+  },
+  {
+    "attachment": "leg_far_78",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 8.093546904636643
+  },
+  {
+    "attachment": "leg_far_78",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 7.9606361498161275
+  },
+  {
+    "attachment": "arm_near_79",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 8.837292494114331
+  },
+  {
+    "attachment": "arm_near_79",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 9.728212582524574
+  },
+  {
+    "attachment": "arm_near_79",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 8.710091458330778
+  },
+  {
+    "attachment": "arm_near_79",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 14.609900754895701
+  },
+  {
+    "attachment": "arm_far_79",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 11.077770557949977
+  },
+  {
+    "attachment": "arm_far_79",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 8.265931217278265
+  },
+  {
+    "attachment": "arm_far_79",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 8.050479479710715
+  },
+  {
+    "attachment": "arm_far_79",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 15.374189277717466
+  },
+  {
+    "attachment": "leg_near_79",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 12.253792537386033
+  },
+  {
+    "attachment": "leg_near_79",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 11.122783155764628
+  },
+  {
+    "attachment": "leg_near_79",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 11.63995598906316
+  },
+  {
+    "attachment": "leg_near_79",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 17.079630211357358
+  },
+  {
+    "attachment": "leg_far_79",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 11.158106836011784
+  },
+  {
+    "attachment": "leg_far_79",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 11.514628514631513
+  },
+  {
+    "attachment": "leg_far_79",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 7.817130582675603
+  },
+  {
+    "attachment": "leg_far_79",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 7.65916213000668
+  },
+  {
+    "attachment": "arm_near_80",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 9.294002036098258
+  },
+  {
+    "attachment": "arm_near_80",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 11.384574713132293
+  },
+  {
+    "attachment": "arm_near_80",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 7.977264327885891
+  },
+  {
+    "attachment": "arm_near_80",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 13.357818294354578
+  },
+  {
+    "attachment": "arm_far_80",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 11.544697003876172
+  },
+  {
+    "attachment": "arm_far_80",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 8.158715004432796
+  },
+  {
+    "attachment": "arm_far_80",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 8.411427722783696
+  },
+  {
+    "attachment": "arm_far_80",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 14.570842184627576
+  },
+  {
+    "attachment": "leg_near_80",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 13.906691740050617
+  },
+  {
+    "attachment": "leg_near_80",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 12.809685542996352
+  },
+  {
+    "attachment": "leg_near_80",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 9.958611148643532
+  },
+  {
+    "attachment": "leg_near_80",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 13.744489454366157
+  },
+  {
+    "attachment": "leg_far_80",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 11.752382132613302
+  },
+  {
+    "attachment": "leg_far_80",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 12.191578599309958
+  },
+  {
+    "attachment": "leg_far_80",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 7.500814854985887
+  },
+  {
+    "attachment": "leg_far_80",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 7.358705080448026
+  },
+  {
+    "attachment": "arm_near_81",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 10.02005783705546
+  },
+  {
+    "attachment": "arm_near_81",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 14.383120999305183
+  },
+  {
+    "attachment": "arm_near_81",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 8.77045799210055
+  },
+  {
+    "attachment": "arm_near_81",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 14.352890354626279
+  },
+  {
+    "attachment": "arm_far_81",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 10.429268353705265
+  },
+  {
+    "attachment": "arm_far_81",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 7.6764061069829195
+  },
+  {
+    "attachment": "arm_far_81",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 9.388412917099663
+  },
+  {
+    "attachment": "arm_far_81",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 14.310034735660762
+  },
+  {
+    "attachment": "leg_near_81",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 15.095272051902016
+  },
+  {
+    "attachment": "leg_near_81",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 14.134920029433017
+  },
+  {
+    "attachment": "leg_near_81",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 9.48824445201647
+  },
+  {
+    "attachment": "leg_near_81",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 11.280732912004856
+  },
+  {
+    "attachment": "leg_far_81",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 12.186032882052084
+  },
+  {
+    "attachment": "leg_far_81",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 12.625292631679535
+  },
+  {
+    "attachment": "leg_far_81",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 7.43276124594025
+  },
+  {
+    "attachment": "leg_far_81",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 7.290060498018731
+  },
+  {
+    "attachment": "arm_near_82",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 10.073674216236348
+  },
+  {
+    "attachment": "arm_near_82",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 12.104605518392287
+  },
+  {
+    "attachment": "arm_near_82",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 9.319743239850071
+  },
+  {
+    "attachment": "arm_near_82",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 12.802037956678234
+  },
+  {
+    "attachment": "arm_far_82",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 8.978907598915296
+  },
+  {
+    "attachment": "arm_far_82",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 7.267576232808577
+  },
+  {
+    "attachment": "arm_far_82",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 9.474074681776038
+  },
+  {
+    "attachment": "arm_far_82",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 12.00164092577771
+  },
+  {
+    "attachment": "leg_near_82",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 17.176954020239158
+  },
+  {
+    "attachment": "leg_near_82",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 16.33407626027447
+  },
+  {
+    "attachment": "leg_near_82",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 9.092606457432176
+  },
+  {
+    "attachment": "leg_near_82",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 10.828084491808289
+  },
+  {
+    "attachment": "leg_far_82",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 12.676843323247722
+  },
+  {
+    "attachment": "leg_far_82",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 13.035122729212054
+  },
+  {
+    "attachment": "leg_far_82",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 7.46556279087347
+  },
+  {
+    "attachment": "leg_far_82",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 7.290499127007171
+  },
+  {
+    "attachment": "arm_near_83",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 10.125968839438903
+  },
+  {
+    "attachment": "arm_near_83",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 13.472151302228085
+  },
+  {
+    "attachment": "arm_near_83",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 9.238185296460713
+  },
+  {
+    "attachment": "arm_near_83",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 13.751109362361856
+  },
+  {
+    "attachment": "arm_far_83",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 8.09068247841225
+  },
+  {
+    "attachment": "arm_far_83",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 7.155995378096638
+  },
+  {
+    "attachment": "arm_far_83",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 9.31159294060721
+  },
+  {
+    "attachment": "arm_far_83",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 10.973768261296506
+  },
+  {
+    "attachment": "leg_near_83",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 16.58776436970023
+  },
+  {
+    "attachment": "leg_near_83",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 15.42936485298177
+  },
+  {
+    "attachment": "leg_near_83",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 10.634197823691627
+  },
+  {
+    "attachment": "leg_near_83",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 14.929100802495649
+  },
+  {
+    "attachment": "leg_far_83",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 12.6046325269193
+  },
+  {
+    "attachment": "leg_far_83",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 12.91470417353126
+  },
+  {
+    "attachment": "leg_far_83",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 7.618969689677597
+  },
+  {
+    "attachment": "leg_far_83",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 7.414868156361351
+  },
+  {
+    "attachment": "arm_near_84",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 9.546313546836949
+  },
+  {
+    "attachment": "arm_near_84",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 11.599936074984441
+  },
+  {
+    "attachment": "arm_near_84",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 8.854055383686493
+  },
+  {
+    "attachment": "arm_near_84",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 16.824822203983537
+  },
+  {
+    "attachment": "arm_far_84",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 7.740015000602048
+  },
+  {
+    "attachment": "arm_far_84",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 7.072049376952116
+  },
+  {
+    "attachment": "arm_far_84",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 8.924521062883878
+  },
+  {
+    "attachment": "arm_far_84",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 10.32184702975271
+  },
+  {
+    "attachment": "leg_near_84",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 15.9865191453359
+  },
+  {
+    "attachment": "leg_near_84",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 14.205846822028857
+  },
+  {
+    "attachment": "leg_near_84",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 15.31422049900703
+  },
+  {
+    "attachment": "leg_near_84",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 26.050967562961734
+  },
+  {
+    "attachment": "leg_far_84",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 11.337565137950161
+  },
+  {
+    "attachment": "leg_far_84",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 11.77814433120451
+  },
+  {
+    "attachment": "leg_far_84",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 7.610850280571603
+  },
+  {
+    "attachment": "leg_far_84",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 7.523452275919098
+  },
+  {
+    "attachment": "arm_near_85",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 8.888755653946303
+  },
+  {
+    "attachment": "arm_near_85",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 9.587181522557458
+  },
+  {
+    "attachment": "arm_near_85",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 9.165400953548907
+  },
+  {
+    "attachment": "arm_near_85",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 18.469711229456404
+  },
+  {
+    "attachment": "arm_far_85",
+    "dx": 5,
+    "dy": 0,
+    "maxMeshMovementPx": 7.497061579956376
+  },
+  {
+    "attachment": "arm_far_85",
+    "dx": -5,
+    "dy": 0,
+    "maxMeshMovementPx": 6.894969707129114
+  },
+  {
+    "attachment": "arm_far_85",
+    "dx": 0,
+    "dy": 5,
+    "maxMeshMovementPx": 8.426698125265233
+  },
+  {
+    "attachment": "arm_far_85",
+    "dx": 0,
+    "dy": -5,
+    "maxMeshMovementPx": 9.202000609063866
+  },
+  {
+    "attachment": "leg_near_85",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 11.588566870234484
+  },
+  {
+    "attachment": "leg_near_85",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.303727651137832
+  },
+  {
+    "attachment": "leg_near_85",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 13.54279817574193
+  },
+  {
+    "attachment": "leg_near_85",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 22.12399382689243
+  },
+  {
+    "attachment": "leg_far_85",
+    "dx": 4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.369971290258281
+  },
+  {
+    "attachment": "leg_far_85",
+    "dx": -4,
+    "dy": 0,
+    "maxMeshMovementPx": 10.844677100979629
+  },
+  {
+    "attachment": "leg_far_85",
+    "dx": 0,
+    "dy": 4,
+    "maxMeshMovementPx": 7.804951052020058
+  },
+  {
+    "attachment": "leg_far_85",
+    "dx": 0,
+    "dy": -4,
+    "maxMeshMovementPx": 7.78698667497098
+  }
+]
