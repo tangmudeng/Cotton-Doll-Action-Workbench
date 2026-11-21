@@ -11,6 +11,7 @@ import threading
 import h3_comfy
 import h3_prompt_agent
 import rig_export
+import pixel_workbench
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -278,6 +279,19 @@ class Handler(SimpleHTTPRequestHandler):
 
     def do_POST(self):
         path = urllib.parse.urlsplit(self.path).path
+        if path.startswith('/api/pixel/'):
+            self._h3_request = True
+            try:
+                h3_comfy.check_origin(self)
+                payload = h3_comfy.read_payload(self, 132_000_000 if path in {'/api/pixel/import','/api/pixel/analyze-video'} else 8_000_000)
+                self._json_response(200, {'ok': True, **pixel_workbench.dispatch(path.rsplit('/', 1)[-1], payload)})
+            except h3_comfy.H3Error as exc:
+                self._json_response(exc.status, {'ok': False, 'error': str(exc)})
+            except (ValueError, KeyError, OSError, TypeError, OverflowError) as exc:
+                self._json_response(422, {'ok': False, 'error': str(exc)})
+            except Exception as exc:
+                self._json_response(500, {'ok': False, 'error': '生成失败：' + str(exc)})
+            return
         if path == "/api/rig/export":
             self._h3_request = True
             try:

@@ -1,0 +1,52 @@
+{
+  "baselineHashFiles": 166,
+  "reference": {
+    "projectId": "px_768070e9aa69",
+    "frames": [
+      63,
+      85
+    ],
+    "accepted": true
+  },
+  "reuse": {
+    "projectId": "px_6c0212315017",
+    "revision": 8,
+    "frames": [
+      85,
+      90
+    ],
+    "sameVideo": true,
+    "newFrames": [
+      86,
+      90
+    ],
+    "humanAcceptance": false,
+    "annotationReview": "Agent manually corrected occluded shoulders/hips and hand/foot endpoints against source frames after optical-flow drift; not automatic anatomy recovery.",
+    "result": {
+      "zipUrl": "/studio_v3/pixel_projects/px_6c0212315017/export_8_d433bec4/walk_spine.zip",
+      "spineUrl": "/studio_v3/pixel_projects/px_6c0212315017/export_8_d433bec4/walk.spine",
+      "audit": {
+        "ok": true,
+        "frames": 6,
+        "attachments": 42,
+        "bones": 16,
+        "ik": 4,
+        "checks": 30,
+        "sourceError": 0.007648551830583956,
+        "intraFrameDrift": 0,
+        "jointError": 0.0059938370326777565,
+        "targetError": 2.918970085251922e-06,
+        "roundtripMaxDelta": 0.00695037841796875
+      },
+      "revision": 8
+    }
+  },
+  "regression": {
+    "pixelIntegrationTests": 3,
+    "pixelIntegrationPassed": true,
+    "sequenceCases": 73,
+    "sequenceAssertions": 1319,
+    "sequencePassed": true,
+    "loopAnalysisPassed": true
+  }
+}

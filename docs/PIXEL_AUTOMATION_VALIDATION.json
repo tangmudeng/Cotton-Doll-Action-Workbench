@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-20",
+  "project": "px_59f822440d98",
+  "revision": 4,
+  "scope": "same original video, frames 63-65; no baseline annotation or masks used",
+  "status": "candidate_not_accepted",
+  "report": {
+    "contract": "pixel_sync_20261120/1",
+    "model": "doubao-seed-2-1-pro-260915",
+    "sourceIdentity": "9c08a83ca165e9c86c8fa0559cb9495b90efca0f20980834ce3033560b44e8fc",
+    "inputFingerprint": "641520a6edc82a5e0fc18b06d725785bdefca2a9fad781010086e1a1881a7def",
+    "issues": [
+      {
+        "frame": 63,
+        "code": "ambiguous_boundary",
+        "part": "all",
+        "detail": "518 个边缘像素的部件归属不明确"
+      },
+      {
+        "frame": 63,
+        "code": "vision_uncertain",
+        "part": "unknown",
+        "detail": "far hand and far foot are partially occluded by the near limbs"
+      },
+      {
+        "frame": 63,
+        "code": "vision_uncertain",
+        "part": "unknown",
+        "detail": "shorts are represented by the character's visible underwear"
+      },
+      {
+        "frame": 64,
+        "code": "ambiguous_boundary",
+        "part": "all",
+        "detail": "822 个边缘像素的部件归属不明确"
+      },
+      {
+        "frame": 64,
+        "code": "vision_uncertain",
+        "part": "unknown",
+        "detail": "far arm and far leg are partially occluded by the body"
+      },
+      {
+        "frame": 64,
+        "code": "vision_uncertain",
+        "part": "unknown",
+        "detail": "hands are rounded plush limb ends without distinct fingers"
+      },
+      {
+        "frame": 64,
+        "code": "vision_uncertain",
+        "part": "unknown",
+        "detail": "feet are rounded plush limb ends without distinct toes"
+      },
+      {
+        "frame": 65,
+        "code": "ambiguous_boundary",
+        "part": "all",
+        "detail": "614 个边缘像素的部件归属不明确"
+      },
+      {
+        "frame": 65,
+        "code": "coverage_gap",
+        "part": "all",
+        "detail": "原像素覆盖率 98.16%，存在缺口"
+      },
+      {
+        "frame": 65,
+        "code": "vision_uncertain",
+        "part": "unknown",
+        "detail": "far hand is occluded against torso"
+      },
+      {
+        "frame": 65,
+        "code": "vision_uncertain",
+        "part": "unknown",
+        "detail": "far ear and hair overlap, boundary partly inferred"
+      },
+      {
+        "frame": 65,
+        "code": "fit_disagreement",
+        "part": "arm_far",
+        "detail": "时序 IK 拟合与视觉关节相差 13.4 px，需检查遮挡或重新识别"
+      },
+      {
+        "frame": 63,
+        "code": "fit_disagreement",
+        "part": "leg_far",
+        "detail": "时序 IK 拟合与视觉关节相差 12.1 px，需检查遮挡或重新识别"
+      },
+      {
+        "frame": 63,
+        "code": "fit_disagreement",
+        "part": "leg_near",
+        "detail": "时序 IK 拟合与视觉关节相差 9.5 px，需检查遮挡或重新识别"
+      }
+    ],
+    "frames": [
+      {
+        "frame": 63,
+        "sourceSha256": "99c16de6fc09ee1a8efa3fbc927c8a58a272bdd3022fb4c470755aa642be7fc9",
+        "initialUncoveredPixels": 7534,
+        "boundaryExtendedPixels": 7531,
+        "ambiguousBoundaryPixels": 518,
+        "foregroundPixels": 85197,
+        "uncoveredPixels": 3,
+        "coverage": 0.9999647874925174
+      },
+      {
+        "frame": 64,
+        "sourceSha256": "901e95da4ee1d1744a38c8f16683dd7f8107a57899a9f85c27a795754778b858",
+        "initialUncoveredPixels": 7574,
+        "boundaryExtendedPixels": 7516,
+        "ambiguousBoundaryPixels": 822,
+        "foregroundPixels": 84975,
+        "uncoveredPixels": 58,
+        "coverage": 0.9993174463077376
+      },
+      {
+        "frame": 65,
+        "sourceSha256": "8ecca446bd87b8c0d963d641a4e5d6b263592b694978ae30b74997105504154b",
+        "initialUncoveredPixels": 11990,
+        "boundaryExtendedPixels": 10426,
+        "ambiguousBoundaryPixels": 614,
+        "foregroundPixels": 85018,
+        "uncoveredPixels": 1564,
+        "coverage": 0.981603895645628
+      }
+    ],
+    "jointMethod": "sequence-median-length, fixed-bend 2D IK fit; raw vision in frame cache",
+    "semanticValidation": "candidate_requires_visual_acceptance",
+    "accepted": false
+  },
+  "runtime": {
+    "ok": true,
+    "frames": 3,
+    "attachments": 21,
+    "bones": 16,
+    "ik": 4,
+    "checks": 15,
+    "sourceError": 7.864199877963372e-06,
+    "intraFrameDrift": 0,
+    "jointError": 0.12195419658657469,
+    "targetError": 0.006002460296677602
+  },
+  "baselineFilesVerified": 166
+}

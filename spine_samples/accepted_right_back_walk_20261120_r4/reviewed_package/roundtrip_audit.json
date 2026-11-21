@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "frames": 23,
+  "attachments": 161,
+  "bones": 16,
+  "ik": 4,
+  "checks": 115,
+  "sourceError": 0.011541698648356122,
+  "intraFrameDrift": 0,
+  "jointError": 0.11888212850387304,
+  "targetError": 0.009861369499859335,
+  "roundtripMaxDelta": 0.011474609375
+}

@@ -1,0 +1,8489 @@
+{
+  "contract": "pixel_sync_20261120/1",
+  "model": "doubao-seed-2-1-pro-260915",
+  "sourceIdentity": "c7d1c609af7db2e0263a82a7de15cf4366c899b5174c776d5141e1ceb9a416df",
+  "inputFingerprint": "b6e4c6ba86fd384fef3356b0fdda10c6f0524fac21c4cdb02d35a1a529125420",
+  "issues": [
+    {
+      "frame": 63,
+      "code": "segmentation_uncertain",
+      "part": "arm_far",
+      "detail": "分割模型可信度不足，需重新定位部件"
+    },
+    {
+      "frame": 63,
+      "code": "segmentation_uncertain",
+      "part": "torso",
+      "detail": "分割模型可信度不足，需重新定位部件"
+    },
+    {
+      "frame": 63,
+      "code": "ambiguous_boundary",
+      "part": "all",
+      "detail": "81 个边缘像素的部件归属不明确"
+    },
+    {
+      "frame": 63,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far arm mostly occluded by torso"
+    },
+    {
+      "frame": 63,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far elbow and both knees inferred without visible articulation"
+    },
+    {
+      "frame": 63,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "neck and hip attachment roots partly inferred beneath hair or clothing"
+    },
+    {
+      "frame": 64,
+      "code": "segmentation_uncertain",
+      "part": "arm_far",
+      "detail": "分割模型可信度不足，需重新定位部件"
+    },
+    {
+      "frame": 64,
+      "code": "segmentation_uncertain",
+      "part": "head",
+      "detail": "分割模型可信度不足，需重新定位部件"
+    },
+    {
+      "frame": 64,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far arm mostly occluded by torso"
+    },
+    {
+      "frame": 64,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far hand mostly occluded by torso"
+    },
+    {
+      "frame": 64,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "elbows and knees inferred without visible articulation"
+    },
+    {
+      "frame": 65,
+      "code": "segmentation_uncertain",
+      "part": "arm_far",
+      "detail": "分割模型可信度不足，需重新定位部件"
+    },
+    {
+      "frame": 65,
+      "code": "ambiguous_boundary",
+      "part": "all",
+      "detail": "112 个边缘像素的部件归属不明确"
+    },
+    {
+      "frame": 65,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far arm mostly occluded by torso"
+    },
+    {
+      "frame": 65,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far hand partially occluded by torso"
+    },
+    {
+      "frame": 65,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "knee and elbow articulations inferred from rounded limb shape"
+    },
+    {
+      "frame": 66,
+      "code": "segmentation_uncertain",
+      "part": "arm_far",
+      "detail": "分割模型可信度不足，需重新定位部件"
+    },
+    {
+      "frame": 66,
+      "code": "ambiguous_boundary",
+      "part": "all",
+      "detail": "102 个边缘像素的部件归属不明确"
+    },
+    {
+      "frame": 67,
+      "code": "ambiguous_boundary",
+      "part": "all",
+      "detail": "162 个边缘像素的部件归属不明确"
+    },
+    {
+      "frame": 67,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far hand is partially occluded by torso"
+    },
+    {
+      "frame": 67,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "elbow and knee articulations are inferred from rounded limb curves"
+    },
+    {
+      "frame": 68,
+      "code": "ambiguous_boundary",
+      "part": "all",
+      "detail": "135 个边缘像素的部件归属不明确"
+    },
+    {
+      "frame": 68,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "Elbows and knees are inferred because the plush limbs have no visible articulation."
+    },
+    {
+      "frame": 69,
+      "code": "ambiguous_boundary",
+      "part": "all",
+      "detail": "107 个边缘像素的部件归属不明确"
+    },
+    {
+      "frame": 69,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far shoulder and hip are inferred from body contour"
+    },
+    {
+      "frame": 69,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "elbows and knees are inferred because the plush limbs have no visible articulation"
+    },
+    {
+      "frame": 70,
+      "code": "segmentation_uncertain",
+      "part": "head",
+      "detail": "分割模型可信度不足，需重新定位部件"
+    },
+    {
+      "frame": 70,
+      "code": "ambiguous_boundary",
+      "part": "all",
+      "detail": "84 个边缘像素的部件归属不明确"
+    },
+    {
+      "frame": 70,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "Elbows and knees are inferred because the plush limbs have no visible articulation."
+    },
+    {
+      "frame": 71,
+      "code": "ambiguous_boundary",
+      "part": "all",
+      "detail": "61 个边缘像素的部件归属不明确"
+    },
+    {
+      "frame": 71,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "Elbow and knee positions are inferred because the plush limbs have no visible articulation."
+    },
+    {
+      "frame": 72,
+      "code": "ambiguous_boundary",
+      "part": "all",
+      "detail": "74 个边缘像素的部件归属不明确"
+    },
+    {
+      "frame": 72,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far foot is partially occluded by near leg"
+    },
+    {
+      "frame": 72,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "elbows and knees inferred without visible articulation"
+    },
+    {
+      "frame": 73,
+      "code": "ambiguous_boundary",
+      "part": "all",
+      "detail": "69 个边缘像素的部件归属不明确"
+    },
+    {
+      "frame": 73,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far leg mostly occluded by near leg"
+    },
+    {
+      "frame": 73,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "elbow and knee articulations inferred from rounded limb curves"
+    },
+    {
+      "frame": 74,
+      "code": "ambiguous_boundary",
+      "part": "all",
+      "detail": "105 个边缘像素的部件归属不明确"
+    },
+    {
+      "frame": 74,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "elbow and knee positions inferred without visible articulation"
+    },
+    {
+      "frame": 74,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far leg partially occluded by near leg"
+    },
+    {
+      "frame": 75,
+      "code": "ambiguous_boundary",
+      "part": "all",
+      "detail": "109 个边缘像素的部件归属不明确"
+    },
+    {
+      "frame": 75,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "elbows and knees inferred without visible articulation"
+    },
+    {
+      "frame": 75,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far leg partially occluded by near leg"
+    },
+    {
+      "frame": 76,
+      "code": "ambiguous_boundary",
+      "part": "all",
+      "detail": "66 个边缘像素的部件归属不明确"
+    },
+    {
+      "frame": 76,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far hand is partially occluded by torso"
+    },
+    {
+      "frame": 76,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far foot is partially occluded by near leg"
+    },
+    {
+      "frame": 77,
+      "code": "ambiguous_boundary",
+      "part": "all",
+      "detail": "83 个边缘像素的部件归属不明确"
+    },
+    {
+      "frame": 77,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far arm hand is partially occluded by torso"
+    },
+    {
+      "frame": 77,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far leg foot is partially occluded by near leg"
+    },
+    {
+      "frame": 77,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "elbow and knee articulations inferred from limb curvature"
+    },
+    {
+      "frame": 78,
+      "code": "segmentation_uncertain",
+      "part": "arm_far",
+      "detail": "分割模型可信度不足，需重新定位部件"
+    },
+    {
+      "frame": 78,
+      "code": "ambiguous_boundary",
+      "part": "all",
+      "detail": "98 个边缘像素的部件归属不明确"
+    },
+    {
+      "frame": 78,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far hand is partially occluded by torso"
+    },
+    {
+      "frame": 78,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "elbow and knee articulations inferred from rounded limb curves"
+    },
+    {
+      "frame": 79,
+      "code": "segmentation_uncertain",
+      "part": "arm_far",
+      "detail": "分割模型可信度不足，需重新定位部件"
+    },
+    {
+      "frame": 79,
+      "code": "ambiguous_boundary",
+      "part": "all",
+      "detail": "104 个边缘像素的部件归属不明确"
+    },
+    {
+      "frame": 79,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far arm mostly occluded by torso"
+    },
+    {
+      "frame": 79,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far hand largely hidden behind torso and shorts"
+    },
+    {
+      "frame": 79,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "elbows and knees inferred without visible articulation"
+    },
+    {
+      "frame": 80,
+      "code": "segmentation_uncertain",
+      "part": "arm_far",
+      "detail": "分割模型可信度不足，需重新定位部件"
+    },
+    {
+      "frame": 80,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far arm mostly occluded by torso, only narrow outer edge visible"
+    },
+    {
+      "frame": 80,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "elbow and knee articulations inferred from plush limb curves"
+    },
+    {
+      "frame": 81,
+      "code": "segmentation_uncertain",
+      "part": "arm_far",
+      "detail": "分割模型可信度不足，需重新定位部件"
+    },
+    {
+      "frame": 81,
+      "code": "segmentation_uncertain",
+      "part": "torso",
+      "detail": "分割模型可信度不足，需重新定位部件"
+    },
+    {
+      "frame": 81,
+      "code": "ambiguous_boundary",
+      "part": "all",
+      "detail": "99 个边缘像素的部件归属不明确"
+    },
+    {
+      "frame": 81,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far arm mostly occluded by torso"
+    },
+    {
+      "frame": 81,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "elbows and knees inferred without visible articulation"
+    },
+    {
+      "frame": 82,
+      "code": "segmentation_uncertain",
+      "part": "arm_far",
+      "detail": "分割模型可信度不足，需重新定位部件"
+    },
+    {
+      "frame": 82,
+      "code": "ambiguous_boundary",
+      "part": "all",
+      "detail": "84 个边缘像素的部件归属不明确"
+    },
+    {
+      "frame": 82,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far arm mostly occluded behind torso, only a narrow side segment visible"
+    },
+    {
+      "frame": 82,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "elbow and knee articulations inferred from limb curvature without visible joint breaks"
+    },
+    {
+      "frame": 83,
+      "code": "segmentation_uncertain",
+      "part": "arm_far",
+      "detail": "分割模型可信度不足，需重新定位部件"
+    },
+    {
+      "frame": 83,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far arm mostly occluded by torso"
+    },
+    {
+      "frame": 83,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far shoulder and hip inferred from visible attachment"
+    },
+    {
+      "frame": 83,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "elbows and knees inferred without visible articulation"
+    },
+    {
+      "frame": 84,
+      "code": "segmentation_uncertain",
+      "part": "arm_far",
+      "detail": "分割模型可信度不足，需重新定位部件"
+    },
+    {
+      "frame": 84,
+      "code": "ambiguous_boundary",
+      "part": "all",
+      "detail": "85 个边缘像素的部件归属不明确"
+    },
+    {
+      "frame": 84,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far arm mostly occluded by torso"
+    },
+    {
+      "frame": 84,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far hand mostly hidden"
+    },
+    {
+      "frame": 84,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "elbows and knees inferred without visible articulation"
+    },
+    {
+      "frame": 85,
+      "code": "segmentation_uncertain",
+      "part": "arm_far",
+      "detail": "分割模型可信度不足，需重新定位部件"
+    },
+    {
+      "frame": 85,
+      "code": "ambiguous_boundary",
+      "part": "all",
+      "detail": "98 个边缘像素的部件归属不明确"
+    },
+    {
+      "frame": 85,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "far arm mostly occluded behind torso"
+    },
+    {
+      "frame": 85,
+      "code": "vision_uncertain",
+      "part": "unknown",
+      "detail": "elbows and knees inferred without visible articulation"
+    },
+    {
+      "frame": 68,
+      "code": "anchor_remeasurement",
+      "part": "pelvis",
+      "detail": "端点时序去噪偏移 22.6 px，需重新核查"
+    },
+    {
+      "frame": 74,
+      "code": "anchor_remeasurement",
+      "part": "pelvis",
+      "detail": "端点时序去噪偏移 14.0 px，需重新核查"
+    },
+    {
+      "frame": 66,
+      "code": "anchor_remeasurement",
+      "part": "hip_near",
+      "detail": "端点时序去噪偏移 20.3 px，需重新核查"
+    },
+    {
+      "frame": 67,
+      "code": "anchor_remeasurement",
+      "part": "hip_near",
+      "detail": "端点时序去噪偏移 25.9 px，需重新核查"
+    },
+    {
+      "frame": 68,
+      "code": "anchor_remeasurement",
+      "part": "hip_near",
+      "detail": "端点时序去噪偏移 10.8 px，需重新核查"
+    },
+    {
+      "frame": 69,
+      "code": "anchor_remeasurement",
+      "part": "hip_near",
+      "detail": "端点时序去噪偏移 36.6 px，需重新核查"
+    },
+    {
+      "frame": 70,
+      "code": "anchor_remeasurement",
+      "part": "hip_near",
+      "detail": "端点时序去噪偏移 9.8 px，需重新核查"
+    },
+    {
+      "frame": 73,
+      "code": "anchor_remeasurement",
+      "part": "hip_near",
+      "detail": "端点时序去噪偏移 49.3 px，需重新核查"
+    },
+    {
+      "frame": 79,
+      "code": "anchor_remeasurement",
+      "part": "hip_near",
+      "detail": "端点时序去噪偏移 19.8 px，需重新核查"
+    },
+    {
+      "frame": 65,
+      "code": "anchor_remeasurement",
+      "part": "hip_far",
+      "detail": "端点时序去噪偏移 9.9 px，需重新核查"
+    },
+    {
+      "frame": 66,
+      "code": "anchor_remeasurement",
+      "part": "hip_far",
+      "detail": "端点时序去噪偏移 28.8 px，需重新核查"
+    },
+    {
+      "frame": 67,
+      "code": "anchor_remeasurement",
+      "part": "hip_far",
+      "detail": "端点时序去噪偏移 30.3 px，需重新核查"
+    },
+    {
+      "frame": 68,
+      "code": "anchor_remeasurement",
+      "part": "hip_far",
+      "detail": "端点时序去噪偏移 9.7 px，需重新核查"
+    },
+    {
+      "frame": 69,
+      "code": "anchor_remeasurement",
+      "part": "hip_far",
+      "detail": "端点时序去噪偏移 32.7 px，需重新核查"
+    },
+    {
+      "frame": 73,
+      "code": "anchor_remeasurement",
+      "part": "hip_far",
+      "detail": "端点时序去噪偏移 91.2 px，需重新核查"
+    },
+    {
+      "frame": 79,
+      "code": "anchor_remeasurement",
+      "part": "hip_far",
+      "detail": "端点时序去噪偏移 35.4 px，需重新核查"
+    },
+    {
+      "frame": 80,
+      "code": "anchor_remeasurement",
+      "part": "hip_far",
+      "detail": "端点时序去噪偏移 8.7 px，需重新核查"
+    },
+    {
+      "frame": 81,
+      "code": "anchor_remeasurement",
+      "part": "hip_far",
+      "detail": "端点时序去噪偏移 13.0 px，需重新核查"
+    },
+    {
+      "frame": 82,
+      "code": "anchor_remeasurement",
+      "part": "hip_far",
+      "detail": "端点时序去噪偏移 19.4 px，需重新核查"
+    },
+    {
+      "frame": 85,
+      "code": "anchor_remeasurement",
+      "part": "hip_far",
+      "detail": "端点时序去噪偏移 15.0 px，需重新核查"
+    },
+    {
+      "frame": 72,
+      "code": "anchor_remeasurement",
+      "part": "hand_far",
+      "detail": "端点时序去噪偏移 10.4 px，需重新核查"
+    },
+    {
+      "frame": 82,
+      "code": "anchor_remeasurement",
+      "part": "hand_far",
+      "detail": "端点时序去噪偏移 18.0 px，需重新核查"
+    },
+    {
+      "frame": 85,
+      "code": "anchor_remeasurement",
+      "part": "hand_far",
+      "detail": "端点时序去噪偏移 10.2 px，需重新核查"
+    },
+    {
+      "frame": 70,
+      "code": "root_fit_disagreement",
+      "part": "hip_near",
+      "detail": "躯干约束与检测根关节相差 10.8 px，需核对隐藏关节"
+    },
+    {
+      "frame": 71,
+      "code": "root_fit_disagreement",
+      "part": "hip_near",
+      "detail": "躯干约束与检测根关节相差 13.5 px，需核对隐藏关节"
+    },
+    {
+      "frame": 72,
+      "code": "root_fit_disagreement",
+      "part": "hip_near",
+      "detail": "躯干约束与检测根关节相差 14.7 px，需核对隐藏关节"
+    },
+    {
+      "frame": 73,
+      "code": "root_fit_disagreement",
+      "part": "hip_near",
+      "detail": "躯干约束与检测根关节相差 14.6 px，需核对隐藏关节"
+    },
+    {
+      "frame": 74,
+      "code": "root_fit_disagreement",
+      "part": "hip_near",
+      "detail": "躯干约束与检测根关节相差 13.8 px，需核对隐藏关节"
+    },
+    {
+      "frame": 75,
+      "code": "root_fit_disagreement",
+      "part": "hip_near",
+      "detail": "躯干约束与检测根关节相差 12.2 px，需核对隐藏关节"
+    },
+    {
+      "frame": 76,
+      "code": "root_fit_disagreement",
+      "part": "hip_near",
+      "detail": "躯干约束与检测根关节相差 9.9 px，需核对隐藏关节"
+    },
+    {
+      "frame": 64,
+      "code": "fit_disagreement",
+      "part": "arm_far",
+      "detail": "原像素约束拟合与粗识别关节相差 8.9 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 81,
+      "code": "fit_disagreement",
+      "part": "arm_far",
+      "detail": "原像素约束拟合与粗识别关节相差 8.0 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 83,
+      "code": "fit_disagreement",
+      "part": "arm_far",
+      "detail": "原像素约束拟合与粗识别关节相差 7.4 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 85,
+      "code": "fit_disagreement",
+      "part": "arm_far",
+      "detail": "原像素约束拟合与粗识别关节相差 8.8 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 63,
+      "code": "fit_disagreement",
+      "part": "leg_far",
+      "detail": "原像素约束拟合与粗识别关节相差 11.0 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 66,
+      "code": "fit_disagreement",
+      "part": "leg_far",
+      "detail": "原像素约束拟合与粗识别关节相差 6.7 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 67,
+      "code": "fit_disagreement",
+      "part": "leg_far",
+      "detail": "原像素约束拟合与粗识别关节相差 10.9 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 69,
+      "code": "fit_disagreement",
+      "part": "leg_far",
+      "detail": "原像素约束拟合与粗识别关节相差 9.5 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 70,
+      "code": "fit_disagreement",
+      "part": "leg_far",
+      "detail": "原像素约束拟合与粗识别关节相差 12.2 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 71,
+      "code": "fit_disagreement",
+      "part": "leg_far",
+      "detail": "原像素约束拟合与粗识别关节相差 9.6 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 72,
+      "code": "fit_disagreement",
+      "part": "leg_far",
+      "detail": "原像素约束拟合与粗识别关节相差 9.6 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 73,
+      "code": "fit_disagreement",
+      "part": "leg_far",
+      "detail": "原像素约束拟合与粗识别关节相差 11.1 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 74,
+      "code": "fit_disagreement",
+      "part": "leg_far",
+      "detail": "原像素约束拟合与粗识别关节相差 8.9 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 75,
+      "code": "fit_disagreement",
+      "part": "leg_far",
+      "detail": "原像素约束拟合与粗识别关节相差 8.4 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 76,
+      "code": "fit_disagreement",
+      "part": "leg_far",
+      "detail": "原像素约束拟合与粗识别关节相差 6.6 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 78,
+      "code": "fit_disagreement",
+      "part": "leg_far",
+      "detail": "原像素约束拟合与粗识别关节相差 9.9 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 79,
+      "code": "fit_disagreement",
+      "part": "leg_far",
+      "detail": "原像素约束拟合与粗识别关节相差 9.5 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 80,
+      "code": "fit_disagreement",
+      "part": "leg_far",
+      "detail": "原像素约束拟合与粗识别关节相差 12.0 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 82,
+      "code": "fit_disagreement",
+      "part": "leg_far",
+      "detail": "原像素约束拟合与粗识别关节相差 13.9 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 85,
+      "code": "fit_disagreement",
+      "part": "leg_far",
+      "detail": "原像素约束拟合与粗识别关节相差 6.8 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 63,
+      "code": "fit_disagreement",
+      "part": "arm_near",
+      "detail": "原像素约束拟合与粗识别关节相差 12.6 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 64,
+      "code": "fit_disagreement",
+      "part": "arm_near",
+      "detail": "原像素约束拟合与粗识别关节相差 11.1 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 65,
+      "code": "fit_disagreement",
+      "part": "arm_near",
+      "detail": "原像素约束拟合与粗识别关节相差 9.5 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 69,
+      "code": "fit_disagreement",
+      "part": "arm_near",
+      "detail": "原像素约束拟合与粗识别关节相差 9.4 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 70,
+      "code": "fit_disagreement",
+      "part": "arm_near",
+      "detail": "原像素约束拟合与粗识别关节相差 11.3 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 71,
+      "code": "fit_disagreement",
+      "part": "arm_near",
+      "detail": "原像素约束拟合与粗识别关节相差 10.6 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 72,
+      "code": "fit_disagreement",
+      "part": "arm_near",
+      "detail": "原像素约束拟合与粗识别关节相差 11.3 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 77,
+      "code": "fit_disagreement",
+      "part": "arm_near",
+      "detail": "原像素约束拟合与粗识别关节相差 9.9 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 80,
+      "code": "fit_disagreement",
+      "part": "arm_near",
+      "detail": "原像素约束拟合与粗识别关节相差 9.3 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 82,
+      "code": "fit_disagreement",
+      "part": "arm_near",
+      "detail": "原像素约束拟合与粗识别关节相差 13.7 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 83,
+      "code": "fit_disagreement",
+      "part": "arm_near",
+      "detail": "原像素约束拟合与粗识别关节相差 11.6 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 85,
+      "code": "fit_disagreement",
+      "part": "arm_near",
+      "detail": "原像素约束拟合与粗识别关节相差 10.6 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 63,
+      "code": "fit_disagreement",
+      "part": "leg_near",
+      "detail": "原像素约束拟合与粗识别关节相差 10.5 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 66,
+      "code": "fit_disagreement",
+      "part": "leg_near",
+      "detail": "原像素约束拟合与粗识别关节相差 8.1 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 68,
+      "code": "fit_disagreement",
+      "part": "leg_near",
+      "detail": "原像素约束拟合与粗识别关节相差 6.2 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 71,
+      "code": "fit_disagreement",
+      "part": "leg_near",
+      "detail": "原像素约束拟合与粗识别关节相差 6.7 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 74,
+      "code": "fit_disagreement",
+      "part": "leg_near",
+      "detail": "原像素约束拟合与粗识别关节相差 7.0 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 79,
+      "code": "fit_disagreement",
+      "part": "leg_near",
+      "detail": "原像素约束拟合与粗识别关节相差 5.4 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 80,
+      "code": "fit_disagreement",
+      "part": "leg_near",
+      "detail": "原像素约束拟合与粗识别关节相差 5.4 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 81,
+      "code": "fit_disagreement",
+      "part": "leg_near",
+      "detail": "原像素约束拟合与粗识别关节相差 9.4 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 82,
+      "code": "fit_disagreement",
+      "part": "leg_near",
+      "detail": "原像素约束拟合与粗识别关节相差 6.7 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 83,
+      "code": "fit_disagreement",
+      "part": "leg_near",
+      "detail": "原像素约束拟合与粗识别关节相差 8.5 px；遮挡关节为推定，需视觉核对"
+    },
+    {
+      "frame": 84,
+      "code": "fit_disagreement",
+      "part": "leg_near",
+      "detail": "原像素约束拟合与粗识别关节相差 5.0 px；遮挡关节为推定，需视觉核对"
+    }
+  ],
+  "frames": [
+    {
+      "frame": 63,
+      "sourceSha256": "192ed7e4072b9a7b53506749721fa0df844443f81f9fc7ec920d604ce09dc936",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.3324727416038513,
+          "prompt": [
+            [
+              401,
+              291
+            ],
+            [
+              393,
+              326
+            ],
+            [
+              394,
+              308
+            ],
+            [
+              396,
+              299
+            ],
+            [
+              393,
+              321
+            ]
+          ],
+          "ranks": [
+            2.2416709874517777,
+            2.252111112341768,
+            2.3699905225426847
+          ],
+          "box": [
+            374,
+            268,
+            424,
+            345
+          ],
+          "candidate": 2
+        },
+        "leg_far": {
+          "modelIoU": 0.9112275838851929,
+          "prompt": [
+            [
+              389,
+              395
+            ],
+            [
+              384,
+              362
+            ],
+            [
+              420,
+              389
+            ],
+            [
+              405,
+              416
+            ],
+            [
+              386,
+              402
+            ]
+          ],
+          "ranks": [
+            2.9475453688575097,
+            3.2132324933913825,
+            3.3161084447614417
+          ],
+          "box": [
+            350,
+            336,
+            443,
+            437
+          ],
+          "candidate": 2
+        },
+        "leg_near": {
+          "modelIoU": 0.9097670316696167,
+          "prompt": [
+            [
+              474,
+              397
+            ],
+            [
+              489,
+              369
+            ],
+            [
+              447,
+              390
+            ],
+            [
+              499,
+              393
+            ],
+            [
+              475,
+              412
+            ]
+          ],
+          "ranks": [
+            2.9170629127858567,
+            3.3323987288908525,
+            3.350040069212279
+          ],
+          "box": [
+            427,
+            346,
+            519,
+            438
+          ],
+          "candidate": 2
+        },
+        "torso": {
+          "modelIoU": 0.7320677638053894,
+          "prompt": [
+            [
+              421,
+              348
+            ],
+            [
+              453,
+              288
+            ],
+            [
+              399,
+              297
+            ],
+            [
+              454,
+              370
+            ],
+            [
+              447,
+              323
+            ]
+          ],
+          "ranks": [
+            2.720750783481355,
+            2.5540062264650447,
+            3.0933461903573254
+          ],
+          "box": [
+            371,
+            265,
+            479,
+            402
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.9139463305473328,
+          "prompt": [
+            [
+              431,
+              365
+            ],
+            [
+              391,
+              341
+            ],
+            [
+              403,
+              366
+            ],
+            [
+              457,
+              368
+            ],
+            [
+              416,
+              347
+            ]
+          ],
+          "ranks": [
+            2.742088395632282,
+            3.360984839042962,
+            3.3715319749192743
+          ],
+          "box": [
+            371,
+            319,
+            477,
+            401
+          ],
+          "candidate": 2
+        },
+        "arm_near": {
+          "modelIoU": 0.8529165983200073,
+          "prompt": [
+            [
+              472,
+              342
+            ],
+            [
+              464,
+              285
+            ],
+            [
+              484,
+              311
+            ],
+            [
+              455,
+              317
+            ],
+            [
+              473,
+              362
+            ]
+          ],
+          "ranks": [
+            2.7675025308180583,
+            3.224468104267869,
+            3.1713611209797294
+          ],
+          "box": [
+            436,
+            266,
+            508,
+            388
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.8675809502601624,
+          "prompt": [
+            [
+              430,
+              191
+            ],
+            [
+              549,
+              196
+            ],
+            [
+              318,
+              181
+            ],
+            [
+              484,
+              263
+            ],
+            [
+              369,
+              253
+            ]
+          ],
+          "ranks": [
+            3.073849289418042,
+            2.2613687925022843,
+            3.3346168225780874
+          ],
+          "box": [
+            288,
+            83,
+            578,
+            300
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 2023,
+      "boundaryExtendedPixels": 6053,
+      "ambiguousBoundaryPixels": 81,
+      "foregroundPixels": 52320,
+      "uncoveredPixels": 9,
+      "coverage": 0.9998279816513761,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 46267,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 64,
+      "sourceSha256": "1667435ff4fc93f566e01adc59020be82f40ac33294260427dd37abcb0fde7c9",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.020719366148114204,
+          "prompt": [
+            [
+              392,
+              307
+            ],
+            [
+              390,
+              332
+            ],
+            [
+              389,
+              319
+            ],
+            [
+              390,
+              313
+            ],
+            [
+              391,
+              322
+            ]
+          ],
+          "ranks": [
+            2.029646598600952,
+            2.155750230345645,
+            2.1002316714367346
+          ],
+          "box": [
+            372,
+            286,
+            413,
+            351
+          ],
+          "candidate": 1
+        },
+        "leg_far": {
+          "modelIoU": 0.8961838483810425,
+          "prompt": [
+            [
+              391,
+              393
+            ],
+            [
+              385,
+              359
+            ],
+            [
+              423,
+              386
+            ],
+            [
+              398,
+              417
+            ],
+            [
+              386,
+              404
+            ]
+          ],
+          "ranks": [
+            2.899272905380167,
+            3.1967504143988528,
+            3.321466720015845
+          ],
+          "box": [
+            351,
+            337,
+            444,
+            436
+          ],
+          "candidate": 2
+        },
+        "leg_near": {
+          "modelIoU": 0.9072645306587219,
+          "prompt": [
+            [
+              470,
+              398
+            ],
+            [
+              486,
+              372
+            ],
+            [
+              496,
+              404
+            ],
+            [
+              445,
+              390
+            ],
+            [
+              473,
+              415
+            ]
+          ],
+          "ranks": [
+            2.8849451828062573,
+            3.316510845383711,
+            3.34404826448497
+          ],
+          "box": [
+            426,
+            352,
+            516,
+            439
+          ],
+          "candidate": 2
+        },
+        "torso": {
+          "modelIoU": 0.8641795516014099,
+          "prompt": [
+            [
+              423,
+              319
+            ],
+            [
+              460,
+              285
+            ],
+            [
+              409,
+              284
+            ],
+            [
+              450,
+              345
+            ],
+            [
+              396,
+              339
+            ]
+          ],
+          "ranks": [
+            2.891550046868079,
+            2.6474881060088817,
+            3.1227189347265694
+          ],
+          "box": [
+            374,
+            263,
+            483,
+            368
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.9197667241096497,
+          "prompt": [
+            [
+              432,
+              364
+            ],
+            [
+              390,
+              339
+            ],
+            [
+              402,
+              367
+            ],
+            [
+              460,
+              365
+            ],
+            [
+              415,
+              345
+            ]
+          ],
+          "ranks": [
+            2.7146689993341426,
+            3.358682947225138,
+            3.365490408320176
+          ],
+          "box": [
+            370,
+            317,
+            479,
+            401
+          ],
+          "candidate": 2
+        },
+        "arm_near": {
+          "modelIoU": 0.8878963589668274,
+          "prompt": [
+            [
+              473,
+              336
+            ],
+            [
+              463,
+              299
+            ],
+            [
+              477,
+              367
+            ],
+            [
+              484,
+              314
+            ],
+            [
+              477,
+              363
+            ]
+          ],
+          "ranks": [
+            2.7947981811822777,
+            3.2280568903811644,
+            3.1456623490928175
+          ],
+          "box": [
+            436,
+            280,
+            509,
+            386
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.7393651604652405,
+          "prompt": [
+            [
+              402,
+              189
+            ],
+            [
+              451,
+              78
+            ],
+            [
+              511,
+              238
+            ],
+            [
+              316,
+              180
+            ],
+            [
+              431,
+              269
+            ]
+          ],
+          "ranks": [
+            3.031520688435448,
+            2.881087680114522,
+            2.9808802284509692
+          ],
+          "box": [
+            288,
+            50,
+            543,
+            298
+          ],
+          "candidate": 0
+        }
+      },
+      "initialUncoveredPixels": 308,
+      "boundaryExtendedPixels": 11430,
+      "ambiguousBoundaryPixels": 40,
+      "foregroundPixels": 52350,
+      "uncoveredPixels": 2,
+      "coverage": 0.9999617956064948,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 40920,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 65,
+      "sourceSha256": "285d26664fe8cc4505661ba8bfc67aa86078b9d2f19ffd5253e3978d980d52dd",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.5634273886680603,
+          "prompt": [
+            [
+              388,
+              322
+            ],
+            [
+              401,
+              289
+            ],
+            [
+              388,
+              343
+            ],
+            [
+              393,
+              305
+            ],
+            [
+              387,
+              334
+            ]
+          ],
+          "ranks": [
+            2.389490367965707,
+            2.5478889763822283,
+            2.635454189338077
+          ],
+          "box": [
+            368,
+            270,
+            420,
+            362
+          ],
+          "candidate": 2
+        },
+        "leg_far": {
+          "modelIoU": 0.8957096338272095,
+          "prompt": [
+            [
+              394,
+              394
+            ],
+            [
+              385,
+              363
+            ],
+            [
+              424,
+              388
+            ],
+            [
+              402,
+              416
+            ],
+            [
+              389,
+              398
+            ]
+          ],
+          "ranks": [
+            2.872602282350993,
+            3.2147966462252695,
+            3.3044430775358187
+          ],
+          "box": [
+            354,
+            336,
+            445,
+            435
+          ],
+          "candidate": 2
+        },
+        "leg_near": {
+          "modelIoU": 0.901999294757843,
+          "prompt": [
+            [
+              466,
+              396
+            ],
+            [
+              487,
+              371
+            ],
+            [
+              491,
+              410
+            ],
+            [
+              463,
+              423
+            ],
+            [
+              469,
+              415
+            ]
+          ],
+          "ranks": [
+            2.88634415132913,
+            3.312551114790332,
+            3.349843522852419
+          ],
+          "box": [
+            425,
+            349,
+            513,
+            442
+          ],
+          "candidate": 2
+        },
+        "torso": {
+          "modelIoU": 0.8359975814819336,
+          "prompt": [
+            [
+              425,
+              319
+            ],
+            [
+              459,
+              284
+            ],
+            [
+              411,
+              282
+            ],
+            [
+              454,
+              344
+            ],
+            [
+              397,
+              342
+            ]
+          ],
+          "ranks": [
+            2.9157591437298254,
+            2.2485258416096148,
+            3.145864754157455
+          ],
+          "box": [
+            373,
+            261,
+            483,
+            370
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.9083671569824219,
+          "prompt": [
+            [
+              432,
+              362
+            ],
+            [
+              390,
+              337
+            ],
+            [
+              401,
+              366
+            ],
+            [
+              462,
+              356
+            ],
+            [
+              414,
+              344
+            ]
+          ],
+          "ranks": [
+            2.760735679953941,
+            3.371249253052291,
+            3.368562247274612
+          ],
+          "box": [
+            370,
+            315,
+            481,
+            399
+          ],
+          "candidate": 1
+        },
+        "arm_near": {
+          "modelIoU": 0.8613942861557007,
+          "prompt": [
+            [
+              479,
+              340
+            ],
+            [
+              459,
+              290
+            ],
+            [
+              484,
+              309
+            ],
+            [
+              459,
+              321
+            ],
+            [
+              482,
+              360
+            ]
+          ],
+          "ranks": [
+            2.784306435951197,
+            3.247187751733297,
+            3.1200701258656975
+          ],
+          "box": [
+            437,
+            271,
+            515,
+            384
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.9055216908454895,
+          "prompt": [
+            [
+              431,
+              186
+            ],
+            [
+              544,
+              200
+            ],
+            [
+              321,
+              176
+            ],
+            [
+              451,
+              79
+            ],
+            [
+              371,
+              253
+            ]
+          ],
+          "ranks": [
+            3.1698308582814625,
+            2.7336559351099274,
+            3.3662143642840023
+          ],
+          "box": [
+            291,
+            49,
+            574,
+            296
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 1335,
+      "boundaryExtendedPixels": 4950,
+      "ambiguousBoundaryPixels": 112,
+      "foregroundPixels": 52568,
+      "uncoveredPixels": 7,
+      "coverage": 0.9998668391416832,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 47618,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 66,
+      "sourceSha256": "5a78ddec6e56b47d13788681157d412314db9e9d8d890f3e1b7ef43a316f95db",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.6541917324066162,
+          "prompt": [
+            [
+              383,
+              319
+            ],
+            [
+              401,
+              281
+            ],
+            [
+              384,
+              349
+            ],
+            [
+              388,
+              298
+            ],
+            [
+              382,
+              343
+            ]
+          ],
+          "ranks": [
+            2.4752213896809807,
+            2.9863396698177116,
+            2.9061936552667067
+          ],
+          "box": [
+            358,
+            262,
+            419,
+            367
+          ],
+          "candidate": 1
+        },
+        "leg_far": {
+          "modelIoU": 0.9004884362220764,
+          "prompt": [
+            [
+              400,
+              391
+            ],
+            [
+              387,
+              360
+            ],
+            [
+              427,
+              383
+            ],
+            [
+              378,
+              383
+            ],
+            [
+              395,
+              397
+            ]
+          ],
+          "ranks": [
+            2.8464051004702258,
+            3.3217323523982687,
+            3.354157297934212
+          ],
+          "box": [
+            359,
+            338,
+            447,
+            431
+          ],
+          "candidate": 2
+        },
+        "leg_near": {
+          "modelIoU": 0.9374508261680603,
+          "prompt": [
+            [
+              461,
+              403
+            ],
+            [
+              487,
+              365
+            ],
+            [
+              456,
+              372
+            ],
+            [
+              487,
+              410
+            ],
+            [
+              464,
+              418
+            ]
+          ],
+          "ranks": [
+            2.9211468728651235,
+            3.377515850002581,
+            3.3977903323408998
+          ],
+          "box": [
+            420,
+            342,
+            507,
+            444
+          ],
+          "candidate": 2
+        },
+        "torso": {
+          "modelIoU": 0.863676130771637,
+          "prompt": [
+            [
+              427,
+              339
+            ],
+            [
+              450,
+              281
+            ],
+            [
+              402,
+              295
+            ],
+            [
+              465,
+              356
+            ],
+            [
+              392,
+              351
+            ]
+          ],
+          "ranks": [
+            2.883203280734312,
+            3.239557648754683,
+            3.285292425121177
+          ],
+          "box": [
+            371,
+            258,
+            487,
+            395
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.9144270420074463,
+          "prompt": [
+            [
+              430,
+              359
+            ],
+            [
+              391,
+              333
+            ],
+            [
+              468,
+              345
+            ],
+            [
+              400,
+              363
+            ],
+            [
+              415,
+              340
+            ]
+          ],
+          "ranks": [
+            2.7022710838829,
+            3.368211434500994,
+            3.3760699476422054
+          ],
+          "box": [
+            371,
+            312,
+            488,
+            396
+          ],
+          "candidate": 2
+        },
+        "arm_near": {
+          "modelIoU": 0.8633851408958435,
+          "prompt": [
+            [
+              489,
+              341
+            ],
+            [
+              462,
+              280
+            ],
+            [
+              463,
+              316
+            ],
+            [
+              492,
+              312
+            ],
+            [
+              491,
+              354
+            ]
+          ],
+          "ranks": [
+            2.7687232907118067,
+            3.2387376507661196,
+            3.130860719974286
+          ],
+          "box": [
+            440,
+            261,
+            524,
+            379
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.9421233534812927,
+          "prompt": [
+            [
+              405,
+              182
+            ],
+            [
+              493,
+              255
+            ],
+            [
+              485,
+              112
+            ],
+            [
+              321,
+              188
+            ],
+            [
+              412,
+              262
+            ]
+          ],
+          "ranks": [
+            3.062657921562827,
+            3.2840412751219974,
+            3.390039338562756
+          ],
+          "box": [
+            293,
+            47,
+            547,
+            292
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 4081,
+      "boundaryExtendedPixels": 10735,
+      "ambiguousBoundaryPixels": 102,
+      "foregroundPixels": 53347,
+      "uncoveredPixels": 5,
+      "coverage": 0.999906274017283,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 42612,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 67,
+      "sourceSha256": "20f577db82569a6e09bd0bef8584b67feef58519d4dcf23acf331b9db69f6329",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.8012349605560303,
+          "prompt": [
+            [
+              379,
+              333
+            ],
+            [
+              401,
+              281
+            ],
+            [
+              385,
+              305
+            ],
+            [
+              400,
+              298
+            ],
+            [
+              379,
+              343
+            ]
+          ],
+          "ranks": [
+            2.5137532586634235,
+            3.16716040202104,
+            3.088243500522304
+          ],
+          "box": [
+            354,
+            263,
+            420,
+            365
+          ],
+          "candidate": 1
+        },
+        "leg_far": {
+          "modelIoU": 0.9069699645042419,
+          "prompt": [
+            [
+              403,
+              392
+            ],
+            [
+              388,
+              362
+            ],
+            [
+              428,
+              383
+            ],
+            [
+              382,
+              384
+            ],
+            [
+              399,
+              395
+            ]
+          ],
+          "ranks": [
+            2.8072098275075623,
+            3.3333680282381053,
+            3.352362455971819
+          ],
+          "box": [
+            363,
+            338,
+            447,
+            430
+          ],
+          "candidate": 2
+        },
+        "leg_near": {
+          "modelIoU": 0.9370020031929016,
+          "prompt": [
+            [
+              458,
+              405
+            ],
+            [
+              485,
+              362
+            ],
+            [
+              456,
+              374
+            ],
+            [
+              482,
+              390
+            ],
+            [
+              461,
+              416
+            ]
+          ],
+          "ranks": [
+            2.936860260582368,
+            3.380670923862265,
+            3.3946291218369695
+          ],
+          "box": [
+            417,
+            340,
+            507,
+            445
+          ],
+          "candidate": 2
+        },
+        "torso": {
+          "modelIoU": 0.8395810723304749,
+          "prompt": [
+            [
+              433,
+              330
+            ],
+            [
+              412,
+              280
+            ],
+            [
+              460,
+              290
+            ],
+            [
+              401,
+              366
+            ],
+            [
+              470,
+              355
+            ]
+          ],
+          "ranks": [
+            2.9265096875976897,
+            3.113433321195146,
+            3.256027571669973
+          ],
+          "box": [
+            371,
+            257,
+            496,
+            395
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.9038270711898804,
+          "prompt": [
+            [
+              428,
+              358
+            ],
+            [
+              474,
+              352
+            ],
+            [
+              392,
+              333
+            ],
+            [
+              398,
+              364
+            ],
+            [
+              449,
+              341
+            ]
+          ],
+          "ranks": [
+            2.7105233267129183,
+            3.359905920377592,
+            3.368321234614005
+          ],
+          "box": [
+            370,
+            312,
+            493,
+            395
+          ],
+          "candidate": 2
+        },
+        "arm_near": {
+          "modelIoU": 0.8642423748970032,
+          "prompt": [
+            [
+              494,
+              341
+            ],
+            [
+              460,
+              283
+            ],
+            [
+              488,
+              305
+            ],
+            [
+              475,
+              325
+            ],
+            [
+              496,
+              353
+            ]
+          ],
+          "ranks": [
+            2.747939782855223,
+            3.207992374897003,
+            3.1020629796764174
+          ],
+          "box": [
+            441,
+            264,
+            528,
+            376
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.8807913064956665,
+          "prompt": [
+            [
+              424,
+              182
+            ],
+            [
+              544,
+              192
+            ],
+            [
+              322,
+              180
+            ],
+            [
+              478,
+              253
+            ],
+            [
+              375,
+              112
+            ]
+          ],
+          "ranks": [
+            3.0714582618538815,
+            3.160803029651203,
+            3.3183656886052124
+          ],
+          "box": [
+            293,
+            45,
+            573,
+            291
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 1646,
+      "boundaryExtendedPixels": 6273,
+      "ambiguousBoundaryPixels": 162,
+      "foregroundPixels": 53913,
+      "uncoveredPixels": 7,
+      "coverage": 0.9998701611856139,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 47640,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 68,
+      "sourceSha256": "b7cea27b9ad2e83bbaab88a40fdcae7a80457ac92df6757fab7a62fe3e20536f",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.7648152112960815,
+          "prompt": [
+            [
+              379,
+              324
+            ],
+            [
+              402,
+              281
+            ],
+            [
+              383,
+              298
+            ],
+            [
+              383,
+              349
+            ],
+            [
+              378,
+              343
+            ]
+          ],
+          "ranks": [
+            2.5337887396999332,
+            3.1587712552521254,
+            3.0805317305838997
+          ],
+          "box": [
+            350,
+            264,
+            421,
+            366
+          ],
+          "candidate": 1
+        },
+        "leg_far": {
+          "modelIoU": 0.8904972672462463,
+          "prompt": [
+            [
+              411,
+              392
+            ],
+            [
+              388,
+              360
+            ],
+            [
+              386,
+              386
+            ],
+            [
+              424,
+              409
+            ],
+            [
+              407,
+              396
+            ]
+          ],
+          "ranks": [
+            2.7606704165085723,
+            3.297553492174218,
+            3.3016734507503944
+          ],
+          "box": [
+            368,
+            338,
+            446,
+            428
+          ],
+          "candidate": 2
+        },
+        "leg_near": {
+          "modelIoU": 0.9356041550636292,
+          "prompt": [
+            [
+              456,
+              389
+            ],
+            [
+              488,
+              360
+            ],
+            [
+              465,
+              426
+            ],
+            [
+              433,
+              413
+            ],
+            [
+              458,
+              417
+            ]
+          ],
+          "ranks": [
+            2.8855966516952876,
+            3.3768921956565556,
+            3.3873550238153
+          ],
+          "box": [
+            414,
+            338,
+            507,
+            445
+          ],
+          "candidate": 2
+        },
+        "torso": {
+          "modelIoU": 0.8619769811630249,
+          "prompt": [
+            [
+              432,
+              330
+            ],
+            [
+              409,
+              280
+            ],
+            [
+              458,
+              288
+            ],
+            [
+              477,
+              343
+            ],
+            [
+              396,
+              356
+            ]
+          ],
+          "ranks": [
+            2.9202982541839706,
+            3.2159353883095934,
+            3.281938571764019
+          ],
+          "box": [
+            371,
+            257,
+            499,
+            394
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.9161162376403809,
+          "prompt": [
+            [
+              428,
+              358
+            ],
+            [
+              476,
+              345
+            ],
+            [
+              391,
+              332
+            ],
+            [
+              398,
+              362
+            ],
+            [
+              455,
+              363
+            ]
+          ],
+          "ranks": [
+            2.700115854354595,
+            3.384764180161609,
+            3.3814393877983093
+          ],
+          "box": [
+            370,
+            312,
+            495,
+            394
+          ],
+          "candidate": 1
+        },
+        "arm_near": {
+          "modelIoU": 0.8256374001502991,
+          "prompt": [
+            [
+              499,
+              340
+            ],
+            [
+              462,
+              279
+            ],
+            [
+              472,
+              315
+            ],
+            [
+              496,
+              316
+            ],
+            [
+              499,
+              349
+            ]
+          ],
+          "ranks": [
+            2.757235401004843,
+            3.1428747428485724,
+            3.062326494550906
+          ],
+          "box": [
+            442,
+            260,
+            534,
+            374
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.9448117017745972,
+          "prompt": [
+            [
+              397,
+              174
+            ],
+            [
+              497,
+              111
+            ],
+            [
+              425,
+              264
+            ],
+            [
+              420,
+              100
+            ],
+            [
+              353,
+              237
+            ]
+          ],
+          "ranks": [
+            3.0287663168377623,
+            3.284347608677795,
+            3.3241593412595756
+          ],
+          "box": [
+            301,
+            44,
+            531,
+            291
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 5246,
+      "boundaryExtendedPixels": 17417,
+      "ambiguousBoundaryPixels": 135,
+      "foregroundPixels": 54475,
+      "uncoveredPixels": 12,
+      "coverage": 0.99977971546581,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 37058,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 69,
+      "sourceSha256": "6abd52977125852c0854cf84212e8103e01734e234e5453db55f93ff2769b89b",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.8248162269592285,
+          "prompt": [
+            [
+              375,
+              331
+            ],
+            [
+              402,
+              284
+            ],
+            [
+              380,
+              303
+            ],
+            [
+              390,
+              319
+            ],
+            [
+              376,
+              343
+            ]
+          ],
+          "ranks": [
+            2.5718834539693654,
+            3.1724084400739825,
+            3.124454718607981
+          ],
+          "box": [
+            347,
+            266,
+            420,
+            363
+          ],
+          "candidate": 1
+        },
+        "leg_far": {
+          "modelIoU": 0.8593882918357849,
+          "prompt": [
+            [
+              413,
+              393
+            ],
+            [
+              396,
+              372
+            ],
+            [
+              391,
+              394
+            ],
+            [
+              422,
+              409
+            ],
+            [
+              409,
+              398
+            ]
+          ],
+          "ranks": [
+            2.7274600693208093,
+            3.279700791835785,
+            3.2729878045099903
+          ],
+          "box": [
+            371,
+            341,
+            445,
+            427
+          ],
+          "candidate": 1
+        },
+        "leg_near": {
+          "modelIoU": 0.936587929725647,
+          "prompt": [
+            [
+              453,
+              400
+            ],
+            [
+              483,
+              360
+            ],
+            [
+              456,
+              371
+            ],
+            [
+              472,
+              421
+            ],
+            [
+              456,
+              420
+            ]
+          ],
+          "ranks": [
+            2.946250837056786,
+            3.3634859735533693,
+            3.369903043144614
+          ],
+          "box": [
+            412,
+            340,
+            505,
+            445
+          ],
+          "candidate": 2
+        },
+        "torso": {
+          "modelIoU": 0.8534761667251587,
+          "prompt": [
+            [
+              431,
+              330
+            ],
+            [
+              455,
+              283
+            ],
+            [
+              403,
+              287
+            ],
+            [
+              478,
+              344
+            ],
+            [
+              397,
+              363
+            ]
+          ],
+          "ranks": [
+            2.916681601532736,
+            3.162922573910265,
+            3.274414432827231
+          ],
+          "box": [
+            371,
+            259,
+            500,
+            395
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.9123875498771667,
+          "prompt": [
+            [
+              422,
+              357
+            ],
+            [
+              483,
+              352
+            ],
+            [
+              390,
+              334
+            ],
+            [
+              451,
+              340
+            ],
+            [
+              395,
+              362
+            ]
+          ],
+          "ranks": [
+            2.7170507423202657,
+            3.3733250498771667,
+            3.373291468768848
+          ],
+          "box": [
+            371,
+            313,
+            503,
+            394
+          ],
+          "candidate": 1
+        },
+        "arm_near": {
+          "modelIoU": 0.8654708862304688,
+          "prompt": [
+            [
+              500,
+              332
+            ],
+            [
+              467,
+              282
+            ],
+            [
+              473,
+              314
+            ],
+            [
+              498,
+              305
+            ],
+            [
+              503,
+              347
+            ]
+          ],
+          "ranks": [
+            2.73773334456086,
+            3.2430954553310642,
+            3.10590801373509
+          ],
+          "box": [
+            445,
+            263,
+            536,
+            370
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.8990740180015564,
+          "prompt": [
+            [
+              438,
+              185
+            ],
+            [
+              320,
+              179
+            ],
+            [
+              546,
+              197
+            ],
+            [
+              383,
+              112
+            ],
+            [
+              376,
+              247
+            ]
+          ],
+          "ranks": [
+            3.1491444305642426,
+            3.2136671730842625,
+            3.346046843639617
+          ],
+          "box": [
+            291,
+            44,
+            575,
+            294
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 1341,
+      "boundaryExtendedPixels": 6595,
+      "ambiguousBoundaryPixels": 107,
+      "foregroundPixels": 54702,
+      "uncoveredPixels": 8,
+      "coverage": 0.9998537530620453,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 48107,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 70,
+      "sourceSha256": "c6231f69754c89febbca0868f774360552b9af9b8eb48a90e29c1b55f618fa29",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.8599188327789307,
+          "prompt": [
+            [
+              374,
+              327
+            ],
+            [
+              400,
+              288
+            ],
+            [
+              397,
+              314
+            ],
+            [
+              376,
+              304
+            ],
+            [
+              369,
+              338
+            ]
+          ],
+          "ranks": [
+            2.667836964461983,
+            3.231453793474007,
+            3.1926639067288205
+          ],
+          "box": [
+            338,
+            269,
+            420,
+            364
+          ],
+          "candidate": 1
+        },
+        "leg_far": {
+          "modelIoU": 0.8000880479812622,
+          "prompt": [
+            [
+              413,
+              392
+            ],
+            [
+              390,
+              365
+            ],
+            [
+              398,
+              381
+            ],
+            [
+              425,
+              383
+            ],
+            [
+              411,
+              396
+            ]
+          ],
+          "ranks": [
+            2.5604261615259216,
+            3.172684201827416,
+            3.1235403132100372
+          ],
+          "box": [
+            371,
+            342,
+            444,
+            424
+          ],
+          "candidate": 1
+        },
+        "leg_near": {
+          "modelIoU": 0.9216697812080383,
+          "prompt": [
+            [
+              451,
+              409
+            ],
+            [
+              486,
+              371
+            ],
+            [
+              423,
+              413
+            ],
+            [
+              473,
+              394
+            ],
+            [
+              451,
+              417
+            ]
+          ],
+          "ranks": [
+            2.856232191822728,
+            3.220515834184697,
+            3.1867163940638052
+          ],
+          "box": [
+            404,
+            344,
+            506,
+            446
+          ],
+          "candidate": 1
+        },
+        "torso": {
+          "modelIoU": 0.8571766018867493,
+          "prompt": [
+            [
+              434,
+              332
+            ],
+            [
+              407,
+              285
+            ],
+            [
+              482,
+              347
+            ],
+            [
+              458,
+              288
+            ],
+            [
+              395,
+              353
+            ]
+          ],
+          "ranks": [
+            2.932651701824911,
+            3.2029531927527777,
+            3.2575944291847994
+          ],
+          "box": [
+            370,
+            261,
+            505,
+            394
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.9146459102630615,
+          "prompt": [
+            [
+              420,
+              358
+            ],
+            [
+              487,
+              352
+            ],
+            [
+              390,
+              337
+            ],
+            [
+              452,
+              341
+            ],
+            [
+              394,
+              363
+            ]
+          ],
+          "ranks": [
+            2.6874381374988094,
+            2.940070668009689,
+            2.9423655146842367
+          ],
+          "box": [
+            370,
+            316,
+            506,
+            395
+          ],
+          "candidate": 2
+        },
+        "arm_near": {
+          "modelIoU": 0.8443289995193481,
+          "prompt": [
+            [
+              502,
+              328
+            ],
+            [
+              466,
+              284
+            ],
+            [
+              472,
+              316
+            ],
+            [
+              495,
+              302
+            ],
+            [
+              509,
+              342
+            ]
+          ],
+          "ranks": [
+            2.7614610984384846,
+            3.2305004971038893,
+            3.109866013789264
+          ],
+          "box": [
+            445,
+            265,
+            542,
+            367
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.0048217070288956165,
+          "prompt": [
+            [
+              449,
+              140
+            ],
+            [
+              336,
+              125
+            ],
+            [
+              429,
+              68
+            ],
+            [
+              387,
+              173
+            ],
+            [
+              512,
+              134
+            ]
+          ],
+          "ranks": [
+            1.7614499745327326,
+            1.9026683980831025,
+            1.898036306738066
+          ],
+          "box": [
+            313,
+            44,
+            535,
+            203
+          ],
+          "candidate": 1
+        }
+      },
+      "initialUncoveredPixels": 12052,
+      "boundaryExtendedPixels": 27473,
+      "ambiguousBoundaryPixels": 84,
+      "foregroundPixels": 55326,
+      "uncoveredPixels": 12,
+      "coverage": 0.9997831037848389,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 27853,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 71,
+      "sourceSha256": "051e325da476f102f7aeb71f69a71ebf3454d74fbb93c62c4add1d4832eda05b",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.8730143308639526,
+          "prompt": [
+            [
+              374,
+              325
+            ],
+            [
+              401,
+              285
+            ],
+            [
+              398,
+              312
+            ],
+            [
+              377,
+              300
+            ],
+            [
+              369,
+              334
+            ]
+          ],
+          "ranks": [
+            2.671302560969058,
+            3.2807317665519884,
+            3.235740912484599
+          ],
+          "box": [
+            336,
+            266,
+            420,
+            364
+          ],
+          "candidate": 1
+        },
+        "leg_far": {
+          "modelIoU": 0.7612910270690918,
+          "prompt": [
+            [
+              413,
+              390
+            ],
+            [
+              390,
+              365
+            ],
+            [
+              399,
+              380
+            ],
+            [
+              415,
+              406
+            ],
+            [
+              412,
+              395
+            ]
+          ],
+          "ranks": [
+            2.4933016249580486,
+            3.1228294886075534,
+            3.116221723023674
+          ],
+          "box": [
+            372,
+            343,
+            443,
+            423
+          ],
+          "candidate": 1
+        },
+        "leg_near": {
+          "modelIoU": 0.9255954027175903,
+          "prompt": [
+            [
+              445,
+              406
+            ],
+            [
+              486,
+              362
+            ],
+            [
+              449,
+              369
+            ],
+            [
+              472,
+              390
+            ],
+            [
+              448,
+              417
+            ]
+          ],
+          "ranks": [
+            2.923323295493236,
+            3.3622224073735656,
+            3.2870602921223266
+          ],
+          "box": [
+            401,
+            343,
+            506,
+            445
+          ],
+          "candidate": 1
+        },
+        "torso": {
+          "modelIoU": 0.8481796383857727,
+          "prompt": [
+            [
+              431,
+              326
+            ],
+            [
+              483,
+              347
+            ],
+            [
+              401,
+              287
+            ],
+            [
+              399,
+              363
+            ],
+            [
+              459,
+              286
+            ]
+          ],
+          "ranks": [
+            2.921488734493646,
+            3.1897554064744136,
+            3.262515302721437
+          ],
+          "box": [
+            369,
+            262,
+            506,
+            394
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.9041102528572083,
+          "prompt": [
+            [
+              421,
+              359
+            ],
+            [
+              487,
+              346
+            ],
+            [
+              389,
+              338
+            ],
+            [
+              452,
+              343
+            ],
+            [
+              395,
+              364
+            ]
+          ],
+          "ranks": [
+            2.716054185199963,
+            2.9348387709144936,
+            2.9329702359791794
+          ],
+          "box": [
+            370,
+            318,
+            506,
+            396
+          ],
+          "candidate": 1
+        },
+        "arm_near": {
+          "modelIoU": 0.8365544080734253,
+          "prompt": [
+            [
+              497,
+              322
+            ],
+            [
+              466,
+              283
+            ],
+            [
+              523,
+              341
+            ],
+            [
+              470,
+              312
+            ],
+            [
+              509,
+              338
+            ]
+          ],
+          "ranks": [
+            2.772993082343805,
+            3.232480664392188,
+            3.1322302279191554
+          ],
+          "box": [
+            446,
+            264,
+            544,
+            366
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.9128684401512146,
+          "prompt": [
+            [
+              443,
+              188
+            ],
+            [
+              317,
+              179
+            ],
+            [
+              436,
+              75
+            ],
+            [
+              551,
+              176
+            ],
+            [
+              375,
+              253
+            ]
+          ],
+          "ranks": [
+            3.1876037964829385,
+            3.202808799171005,
+            3.3699951696531705
+          ],
+          "box": [
+            287,
+            45,
+            580,
+            295
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 1053,
+      "boundaryExtendedPixels": 4876,
+      "ambiguousBoundaryPixels": 61,
+      "foregroundPixels": 55255,
+      "uncoveredPixels": 6,
+      "coverage": 0.9998914125418514,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 50379,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 72,
+      "sourceSha256": "ab7d6246bc20f9c7878a66c75e29347920971e1d3f0f755cb56b1d2b21372aff",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.8786841034889221,
+          "prompt": [
+            [
+              372,
+              327
+            ],
+            [
+              402,
+              285
+            ],
+            [
+              377,
+              299
+            ],
+            [
+              395,
+              317
+            ],
+            [
+              369,
+              329
+            ]
+          ],
+          "ranks": [
+            2.674501572457584,
+            3.3220531314955117,
+            3.296239137229006
+          ],
+          "box": [
+            335,
+            266,
+            421,
+            364
+          ],
+          "candidate": 1
+        },
+        "leg_far": {
+          "modelIoU": 0.8205709457397461,
+          "prompt": [
+            [
+              413,
+              387
+            ],
+            [
+              391,
+              368
+            ],
+            [
+              415,
+              404
+            ],
+            [
+              401,
+              379
+            ],
+            [
+              412,
+              391
+            ]
+          ],
+          "ranks": [
+            2.418609545107477,
+            3.0766481155259604,
+            3.08550457405833
+          ],
+          "box": [
+            372,
+            346,
+            441,
+            421
+          ],
+          "candidate": 2
+        },
+        "leg_near": {
+          "modelIoU": 0.9185155630111694,
+          "prompt": [
+            [
+              443,
+              403
+            ],
+            [
+              486,
+              365
+            ],
+            [
+              451,
+              369
+            ],
+            [
+              474,
+              394
+            ],
+            [
+              447,
+              414
+            ]
+          ],
+          "ranks": [
+            2.9216021409889845,
+            3.366647258856479,
+            3.346722493335254
+          ],
+          "box": [
+            401,
+            345,
+            506,
+            447
+          ],
+          "candidate": 1
+        },
+        "torso": {
+          "modelIoU": 0.8643171787261963,
+          "prompt": [
+            [
+              422,
+              313
+            ],
+            [
+              481,
+              330
+            ],
+            [
+              461,
+              288
+            ],
+            [
+              393,
+              338
+            ],
+            [
+              446,
+              340
+            ]
+          ],
+          "ranks": [
+            2.931508662058839,
+            2.796112414819249,
+            3.170624024106761
+          ],
+          "box": [
+            372,
+            264,
+            502,
+            361
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.9115167260169983,
+          "prompt": [
+            [
+              417,
+              361
+            ],
+            [
+              488,
+              347
+            ],
+            [
+              450,
+              344
+            ],
+            [
+              390,
+              340
+            ],
+            [
+              440,
+              365
+            ]
+          ],
+          "ranks": [
+            2.7319057710291976,
+            2.9422641002813616,
+            2.9461949200611866
+          ],
+          "box": [
+            371,
+            320,
+            507,
+            396
+          ],
+          "candidate": 2
+        },
+        "arm_near": {
+          "modelIoU": 0.8836907148361206,
+          "prompt": [
+            [
+              506,
+              328
+            ],
+            [
+              466,
+              284
+            ],
+            [
+              476,
+              315
+            ],
+            [
+              499,
+              303
+            ],
+            [
+              511,
+              332
+            ]
+          ],
+          "ranks": [
+            2.7408028247212304,
+            3.2686922837096697,
+            3.0884996102715183
+          ],
+          "box": [
+            445,
+            265,
+            546,
+            365
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.9312991499900818,
+          "prompt": [
+            [
+              402,
+              185
+            ],
+            [
+              519,
+              227
+            ],
+            [
+              441,
+              73
+            ],
+            [
+              437,
+              271
+            ],
+            [
+              315,
+              179
+            ]
+          ],
+          "ranks": [
+            3.046148534742961,
+            3.2647518439031806,
+            3.3730303833191813
+          ],
+          "box": [
+            287,
+            46,
+            548,
+            298
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 4352,
+      "boundaryExtendedPixels": 11370,
+      "ambiguousBoundaryPixels": 74,
+      "foregroundPixels": 55131,
+      "uncoveredPixels": 10,
+      "coverage": 0.9998186138470189,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 43761,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 73,
+      "sourceSha256": "7dcc117f6722df70474530b6d36b75ac18ee4edb822f3cfb589183b7d83b2b17",
+      "identityRepairs": [
+        {
+          "limb": "arm",
+          "method": "surrounding-frame consensus",
+          "neighbors": 6,
+          "medianRootSeparation": 63.25000000000003
+        }
+      ],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.8638498783111572,
+          "prompt": [
+            [
+              375,
+              324
+            ],
+            [
+              403,
+              286
+            ],
+            [
+              381,
+              299
+            ],
+            [
+              356,
+              340
+            ],
+            [
+              366,
+              339
+            ]
+          ],
+          "ranks": [
+            2.692212037334449,
+            3.280854748441027,
+            3.2287210105421065
+          ],
+          "box": [
+            335,
+            267,
+            423,
+            364
+          ],
+          "candidate": 1
+        },
+        "leg_far": {
+          "modelIoU": 0.7839937210083008,
+          "prompt": [
+            [
+              413,
+              390
+            ],
+            [
+              391,
+              369
+            ],
+            [
+              417,
+              408
+            ],
+            [
+              399,
+              383
+            ],
+            [
+              412,
+              392
+            ]
+          ],
+          "ranks": [
+            2.484807538307194,
+            3.02146288263264,
+            3.0474083551546425
+          ],
+          "box": [
+            372,
+            350,
+            441,
+            426
+          ],
+          "candidate": 2
+        },
+        "leg_near": {
+          "modelIoU": 0.8885230422019958,
+          "prompt": [
+            [
+              441,
+              403
+            ],
+            [
+              484,
+              367
+            ],
+            [
+              449,
+              369
+            ],
+            [
+              459,
+              427
+            ],
+            [
+              443,
+              416
+            ]
+          ],
+          "ranks": [
+            2.912391469440474,
+            3.3021921069501974,
+            3.2612721550483825
+          ],
+          "box": [
+            400,
+            346,
+            504,
+            447
+          ],
+          "candidate": 1
+        },
+        "torso": {
+          "modelIoU": 0.8575733304023743,
+          "prompt": [
+            [
+              433,
+              328
+            ],
+            [
+              484,
+              346
+            ],
+            [
+              400,
+              290
+            ],
+            [
+              399,
+              365
+            ],
+            [
+              457,
+              289
+            ]
+          ],
+          "ranks": [
+            2.938581308609538,
+            3.1797393710840023,
+            3.2683066495240967
+          ],
+          "box": [
+            370,
+            264,
+            506,
+            397
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.8964036107063293,
+          "prompt": [
+            [
+              419,
+              362
+            ],
+            [
+              489,
+              351
+            ],
+            [
+              456,
+              371
+            ],
+            [
+              389,
+              340
+            ],
+            [
+              442,
+              347
+            ]
+          ],
+          "ranks": [
+            2.718827403962786,
+            2.8714087340727756,
+            2.8819375113376773
+          ],
+          "box": [
+            370,
+            320,
+            507,
+            397
+          ],
+          "candidate": 2
+        },
+        "arm_near": {
+          "modelIoU": 0.872181236743927,
+          "prompt": [
+            [
+              504,
+              328
+            ],
+            [
+              466,
+              288
+            ],
+            [
+              474,
+              318
+            ],
+            [
+              496,
+              301
+            ],
+            [
+              511,
+              335
+            ]
+          ],
+          "ranks": [
+            2.760370133264308,
+            3.2516105249220395,
+            3.0979032278266936
+          ],
+          "box": [
+            447,
+            269,
+            545,
+            366
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.8582426905632019,
+          "prompt": [
+            [
+              430,
+              192
+            ],
+            [
+              550,
+              189
+            ],
+            [
+              318,
+              176
+            ],
+            [
+              365,
+              251
+            ],
+            [
+              489,
+              255
+            ]
+          ],
+          "ranks": [
+            3.0888427674112533,
+            3.128908043690724,
+            3.319366011007189
+          ],
+          "box": [
+            288,
+            86,
+            580,
+            300
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 2309,
+      "boundaryExtendedPixels": 6470,
+      "ambiguousBoundaryPixels": 69,
+      "foregroundPixels": 54806,
+      "uncoveredPixels": 7,
+      "coverage": 0.9998722767580192,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 48336,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 74,
+      "sourceSha256": "ce26547ca4d410813c951c743f43b4e44ae4bb23a850779e472f49348e75ba85",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.8529706597328186,
+          "prompt": [
+            [
+              373,
+              333
+            ],
+            [
+              400,
+              289
+            ],
+            [
+              380,
+              307
+            ],
+            [
+              390,
+              323
+            ],
+            [
+              371,
+              339
+            ]
+          ],
+          "ranks": [
+            2.60668826072247,
+            3.210758470116566,
+            3.153643327197809
+          ],
+          "box": [
+            340,
+            270,
+            419,
+            366
+          ],
+          "candidate": 1
+        },
+        "leg_far": {
+          "modelIoU": 0.8124532103538513,
+          "prompt": [
+            [
+              411,
+              390
+            ],
+            [
+              390,
+              363
+            ],
+            [
+              422,
+              412
+            ],
+            [
+              397,
+              379
+            ],
+            [
+              413,
+              399
+            ]
+          ],
+          "ranks": [
+            2.625889757047532,
+            3.1807851324537664,
+            3.091249772536637
+          ],
+          "box": [
+            372,
+            343,
+            441,
+            430
+          ],
+          "candidate": 1
+        },
+        "leg_near": {
+          "modelIoU": 0.9072406888008118,
+          "prompt": [
+            [
+              444,
+              400
+            ],
+            [
+              485,
+              364
+            ],
+            [
+              452,
+              368
+            ],
+            [
+              473,
+              392
+            ],
+            [
+              443,
+              412
+            ]
+          ],
+          "ranks": [
+            2.9180039602486962,
+            3.338203031897046,
+            3.240630033377994
+          ],
+          "box": [
+            402,
+            343,
+            505,
+            445
+          ],
+          "candidate": 1
+        },
+        "torso": {
+          "modelIoU": 0.8429083824157715,
+          "prompt": [
+            [
+              436,
+              312
+            ],
+            [
+              395,
+              331
+            ],
+            [
+              474,
+              332
+            ],
+            [
+              401,
+              290
+            ],
+            [
+              466,
+              298
+            ]
+          ],
+          "ranks": [
+            2.9027204516644542,
+            3.2224964263990454,
+            3.217200187838664
+          ],
+          "box": [
+            374,
+            264,
+            496,
+            360
+          ],
+          "candidate": 1
+        },
+        "shorts": {
+          "modelIoU": 0.7729136347770691,
+          "prompt": [
+            [
+              429,
+              363
+            ],
+            [
+              488,
+              352
+            ],
+            [
+              390,
+              338
+            ],
+            [
+              461,
+              373
+            ],
+            [
+              454,
+              344
+            ]
+          ],
+          "ranks": [
+            2.6509748465217973,
+            2.710456251744365,
+            3.1530150873940856
+          ],
+          "box": [
+            369,
+            319,
+            507,
+            398
+          ],
+          "candidate": 2
+        },
+        "arm_near": {
+          "modelIoU": 0.8656179308891296,
+          "prompt": [
+            [
+              502,
+              333
+            ],
+            [
+              464,
+              287
+            ],
+            [
+              472,
+              319
+            ],
+            [
+              495,
+              307
+            ],
+            [
+              507,
+              343
+            ]
+          ],
+          "ranks": [
+            2.7482766162604353,
+            3.232663734762477,
+            3.0794533034807947
+          ],
+          "box": [
+            444,
+            268,
+            542,
+            370
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.9103434085845947,
+          "prompt": [
+            [
+              438,
+              186
+            ],
+            [
+              320,
+              183
+            ],
+            [
+              547,
+              190
+            ],
+            [
+              377,
+              253
+            ],
+            [
+              487,
+              116
+            ]
+          ],
+          "ranks": [
+            3.0983887950403397,
+            3.238776427753927,
+            3.340358133715485
+          ],
+          "box": [
+            290,
+            49,
+            576,
+            297
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 1447,
+      "boundaryExtendedPixels": 6055,
+      "ambiguousBoundaryPixels": 105,
+      "foregroundPixels": 54151,
+      "uncoveredPixels": 14,
+      "coverage": 0.9997414636848811,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 48096,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 75,
+      "sourceSha256": "7b14cbd1f6d3a04b1a5dd4b792e97bb20e2ef462ecb28f974492b9ed052ab2ca",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.8136054277420044,
+          "prompt": [
+            [
+              374,
+              334
+            ],
+            [
+              402,
+              285
+            ],
+            [
+              378,
+              304
+            ],
+            [
+              391,
+              320
+            ],
+            [
+              375,
+              344
+            ]
+          ],
+          "ranks": [
+            2.6069881240455612,
+            3.1975767196080334,
+            3.133897940859391
+          ],
+          "box": [
+            345,
+            267,
+            422,
+            366
+          ],
+          "candidate": 1
+        },
+        "leg_far": {
+          "modelIoU": 0.8122259378433228,
+          "prompt": [
+            [
+              411,
+              392
+            ],
+            [
+              388,
+              362
+            ],
+            [
+              425,
+              411
+            ],
+            [
+              395,
+              381
+            ],
+            [
+              414,
+              404
+            ]
+          ],
+          "ranks": [
+            2.629407119496496,
+            3.240692014539488,
+            3.187150569897545
+          ],
+          "box": [
+            370,
+            342,
+            445,
+            430
+          ],
+          "candidate": 1
+        },
+        "leg_near": {
+          "modelIoU": 0.8440167307853699,
+          "prompt": [
+            [
+              446,
+              398
+            ],
+            [
+              487,
+              362
+            ],
+            [
+              475,
+              389
+            ],
+            [
+              461,
+              422
+            ],
+            [
+              448,
+              411
+            ]
+          ],
+          "ranks": [
+            2.8505771001950837,
+            3.22821649714051,
+            3.226609305639155
+          ],
+          "box": [
+            406,
+            341,
+            506,
+            443
+          ],
+          "candidate": 1
+        },
+        "torso": {
+          "modelIoU": 0.8386151790618896,
+          "prompt": [
+            [
+              434,
+              322
+            ],
+            [
+              401,
+              362
+            ],
+            [
+              404,
+              287
+            ],
+            [
+              464,
+              287
+            ],
+            [
+              476,
+              333
+            ]
+          ],
+          "ranks": [
+            2.89845068293657,
+            3.128336899821171,
+            3.2440234732046855
+          ],
+          "box": [
+            370,
+            260,
+            499,
+            393
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.9078725576400757,
+          "prompt": [
+            [
+              420,
+              359
+            ],
+            [
+              486,
+              356
+            ],
+            [
+              391,
+              336
+            ],
+            [
+              452,
+              342
+            ],
+            [
+              394,
+              362
+            ]
+          ],
+          "ranks": [
+            2.6614702945752438,
+            3.355550778699592,
+            2.9442856458922035
+          ],
+          "box": [
+            370,
+            316,
+            505,
+            395
+          ],
+          "candidate": 1
+        },
+        "arm_near": {
+          "modelIoU": 0.8591221570968628,
+          "prompt": [
+            [
+              500,
+              330
+            ],
+            [
+              465,
+              283
+            ],
+            [
+              492,
+              299
+            ],
+            [
+              477,
+              319
+            ],
+            [
+              504,
+              348
+            ]
+          ],
+          "ranks": [
+            2.750221854291654,
+            3.239330490430196,
+            3.0992968695157
+          ],
+          "box": [
+            444,
+            264,
+            538,
+            372
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.8713652491569519,
+          "prompt": [
+            [
+              434,
+              186
+            ],
+            [
+              323,
+              180
+            ],
+            [
+              542,
+              200
+            ],
+            [
+              497,
+              128
+            ],
+            [
+              376,
+              247
+            ]
+          ],
+          "ranks": [
+            3.0696353874842144,
+            3.1523162589459774,
+            3.323557611250304
+          ],
+          "box": [
+            293,
+            81,
+            571,
+            291
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 1599,
+      "boundaryExtendedPixels": 7683,
+      "ambiguousBoundaryPixels": 109,
+      "foregroundPixels": 53786,
+      "uncoveredPixels": 8,
+      "coverage": 0.9998512624102927,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 46103,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 76,
+      "sourceSha256": "63ef2ae8b16c14c9b73a64e3d770bd931487f70d69ff913f5c732a7d7300be07",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.7989014983177185,
+          "prompt": [
+            [
+              376,
+              333
+            ],
+            [
+              403,
+              283
+            ],
+            [
+              382,
+              304
+            ],
+            [
+              392,
+              321
+            ],
+            [
+              377,
+              343
+            ]
+          ],
+          "ranks": [
+            2.5839170427469664,
+            3.1557242074810654,
+            3.089171929516842
+          ],
+          "box": [
+            348,
+            265,
+            421,
+            366
+          ],
+          "candidate": 1
+        },
+        "leg_far": {
+          "modelIoU": 0.8148378133773804,
+          "prompt": [
+            [
+              410,
+              392
+            ],
+            [
+              389,
+              362
+            ],
+            [
+              428,
+              410
+            ],
+            [
+              406,
+              412
+            ],
+            [
+              414,
+              404
+            ]
+          ],
+          "ranks": [
+            2.669747065900923,
+            3.2493616229011897,
+            3.213845363039589
+          ],
+          "box": [
+            371,
+            339,
+            446,
+            431
+          ],
+          "candidate": 1
+        },
+        "leg_near": {
+          "modelIoU": 0.9049884676933289,
+          "prompt": [
+            [
+              449,
+              399
+            ],
+            [
+              486,
+              360
+            ],
+            [
+              478,
+              390
+            ],
+            [
+              466,
+              419
+            ],
+            [
+              451,
+              411
+            ]
+          ],
+          "ranks": [
+            2.8825229126265905,
+            3.2552314343923796,
+            3.286032099768801
+          ],
+          "box": [
+            408,
+            340,
+            507,
+            442
+          ],
+          "candidate": 2
+        },
+        "torso": {
+          "modelIoU": 0.8475499749183655,
+          "prompt": [
+            [
+              428,
+              334
+            ],
+            [
+              451,
+              283
+            ],
+            [
+              400,
+              290
+            ],
+            [
+              473,
+              343
+            ],
+            [
+              423,
+              373
+            ]
+          ],
+          "ranks": [
+            2.8936216060831033,
+            3.1700057857943316,
+            3.2542134909864187
+          ],
+          "box": [
+            372,
+            261,
+            495,
+            394
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.910854160785675,
+          "prompt": [
+            [
+              434,
+              360
+            ],
+            [
+              485,
+              356
+            ],
+            [
+              391,
+              334
+            ],
+            [
+              402,
+              365
+            ],
+            [
+              458,
+              341
+            ]
+          ],
+          "ranks": [
+            2.6718551083378284,
+            3.3082391958940907,
+            3.310738084175112
+          ],
+          "box": [
+            370,
+            314,
+            505,
+            395
+          ],
+          "candidate": 2
+        },
+        "arm_near": {
+          "modelIoU": 0.868672251701355,
+          "prompt": [
+            [
+              500,
+              339
+            ],
+            [
+              462,
+              282
+            ],
+            [
+              491,
+              304
+            ],
+            [
+              481,
+              325
+            ],
+            [
+              500,
+              349
+            ]
+          ],
+          "ranks": [
+            2.741783895379021,
+            3.202204293430118,
+            3.0881602122797274
+          ],
+          "box": [
+            444,
+            263,
+            535,
+            374
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.8663955330848694,
+          "prompt": [
+            [
+              430,
+              181
+            ],
+            [
+              545,
+              190
+            ],
+            [
+              323,
+              190
+            ],
+            [
+              488,
+              113
+            ],
+            [
+              379,
+              110
+            ]
+          ],
+          "ranks": [
+            3.058636596668512,
+            3.1702621172870473,
+            3.3003392962049665
+          ],
+          "box": [
+            293,
+            48,
+            575,
+            294
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 1467,
+      "boundaryExtendedPixels": 6609,
+      "ambiguousBoundaryPixels": 66,
+      "foregroundPixels": 53638,
+      "uncoveredPixels": 10,
+      "coverage": 0.9998135650098811,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 47029,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 77,
+      "sourceSha256": "cacfff10c6f23f74e65db798f4b79b45532daeb064f13b94d76ef1f6b16f9cc9",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.7770834565162659,
+          "prompt": [
+            [
+              378,
+              330
+            ],
+            [
+              400,
+              284
+            ],
+            [
+              382,
+              304
+            ],
+            [
+              382,
+              348
+            ],
+            [
+              379,
+              343
+            ]
+          ],
+          "ranks": [
+            2.4877422621923864,
+            3.1422929282831147,
+            3.0924945713219483
+          ],
+          "box": [
+            352,
+            266,
+            419,
+            365
+          ],
+          "candidate": 1
+        },
+        "leg_far": {
+          "modelIoU": 0.8859114646911621,
+          "prompt": [
+            [
+              410,
+              397
+            ],
+            [
+              389,
+              365
+            ],
+            [
+              429,
+              408
+            ],
+            [
+              426,
+              383
+            ],
+            [
+              410,
+              408
+            ]
+          ],
+          "ranks": [
+            2.709563427253953,
+            3.2836477094697782,
+            3.290878035846845
+          ],
+          "box": [
+            370,
+            339,
+            449,
+            434
+          ],
+          "candidate": 2
+        },
+        "leg_near": {
+          "modelIoU": 0.907683253288269,
+          "prompt": [
+            [
+              456,
+              397
+            ],
+            [
+              487,
+              362
+            ],
+            [
+              469,
+              421
+            ],
+            [
+              481,
+              388
+            ],
+            [
+              457,
+              411
+            ]
+          ],
+          "ranks": [
+            2.8909932434423835,
+            3.2767368251482645,
+            3.3130277478149917
+          ],
+          "box": [
+            413,
+            341,
+            508,
+            440
+          ],
+          "candidate": 2
+        },
+        "torso": {
+          "modelIoU": 0.8522413372993469,
+          "prompt": [
+            [
+              428,
+              337
+            ],
+            [
+              452,
+              280
+            ],
+            [
+              401,
+              292
+            ],
+            [
+              472,
+              348
+            ],
+            [
+              396,
+              363
+            ]
+          ],
+          "ranks": [
+            2.890417024154889,
+            3.1642052199995696,
+            3.2643701989413714
+          ],
+          "box": [
+            371,
+            257,
+            494,
+            395
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.9062035083770752,
+          "prompt": [
+            [
+              426,
+              357
+            ],
+            [
+              474,
+              351
+            ],
+            [
+              390,
+              333
+            ],
+            [
+              397,
+              362
+            ],
+            [
+              448,
+              340
+            ]
+          ],
+          "ranks": [
+            2.6919403923221505,
+            3.334561594331086,
+            3.3489639082480847
+          ],
+          "box": [
+            370,
+            313,
+            494,
+            394
+          ],
+          "candidate": 2
+        },
+        "arm_near": {
+          "modelIoU": 0.8670125007629395,
+          "prompt": [
+            [
+              497,
+              340
+            ],
+            [
+              464,
+              279
+            ],
+            [
+              491,
+              304
+            ],
+            [
+              467,
+              302
+            ],
+            [
+              494,
+              352
+            ]
+          ],
+          "ranks": [
+            2.721405050635142,
+            3.198280512290317,
+            3.104429114548993
+          ],
+          "box": [
+            442,
+            260,
+            530,
+            376
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.9470397233963013,
+          "prompt": [
+            [
+              412,
+              177
+            ],
+            [
+              492,
+              254
+            ],
+            [
+              495,
+              111
+            ],
+            [
+              322,
+              189
+            ],
+            [
+              405,
+              261
+            ]
+          ],
+          "ranks": [
+            3.062459721521366,
+            3.3019420632639553,
+            3.393026607114135
+          ],
+          "box": [
+            295,
+            47,
+            531,
+            292
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 4066,
+      "boundaryExtendedPixels": 12445,
+      "ambiguousBoundaryPixels": 83,
+      "foregroundPixels": 53421,
+      "uncoveredPixels": 9,
+      "coverage": 0.9998315269276128,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 40976,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 78,
+      "sourceSha256": "880384f1e004edbff2e6c6beba6abe96f11c0da4393d55164de92b951bd22e13",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.42477118968963623,
+          "prompt": [
+            [
+              381,
+              330
+            ],
+            [
+              400,
+              285
+            ],
+            [
+              385,
+              305
+            ],
+            [
+              384,
+              344
+            ],
+            [
+              383,
+              342
+            ]
+          ],
+          "ranks": [
+            2.3556211062120163,
+            2.7188188087372556,
+            2.6816674623190044
+          ],
+          "box": [
+            359,
+            266,
+            418,
+            362
+          ],
+          "candidate": 1
+        },
+        "leg_far": {
+          "modelIoU": 0.903648316860199,
+          "prompt": [
+            [
+              406,
+              398
+            ],
+            [
+              387,
+              363
+            ],
+            [
+              429,
+              407
+            ],
+            [
+              386,
+              386
+            ],
+            [
+              408,
+              410
+            ]
+          ],
+          "ranks": [
+            2.792155714577468,
+            3.299567909611865,
+            3.324318482383009
+          ],
+          "box": [
+            367,
+            338,
+            448,
+            436
+          ],
+          "candidate": 2
+        },
+        "leg_near": {
+          "modelIoU": 0.9026813507080078,
+          "prompt": [
+            [
+              461,
+              393
+            ],
+            [
+              488,
+              368
+            ],
+            [
+              478,
+              416
+            ],
+            [
+              462,
+              366
+            ],
+            [
+              466,
+              412
+            ]
+          ],
+          "ranks": [
+            2.9146505886755136,
+            3.3262473683267646,
+            3.3567354047620617
+          ],
+          "box": [
+            419,
+            342,
+            508,
+            437
+          ],
+          "candidate": 2
+        },
+        "torso": {
+          "modelIoU": 0.8625149130821228,
+          "prompt": [
+            [
+              427,
+              332
+            ],
+            [
+              456,
+              283
+            ],
+            [
+              403,
+              286
+            ],
+            [
+              463,
+              349
+            ],
+            [
+              425,
+              370
+            ]
+          ],
+          "ranks": [
+            2.883013349495527,
+            3.232028778017429,
+            3.286425169492379
+          ],
+          "box": [
+            371,
+            258,
+            485,
+            392
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.9189910292625427,
+          "prompt": [
+            [
+              430,
+              358
+            ],
+            [
+              391,
+              334
+            ],
+            [
+              463,
+              341
+            ],
+            [
+              401,
+              362
+            ],
+            [
+              414,
+              340
+            ]
+          ],
+          "ranks": [
+            2.712048663649934,
+            3.3592960610664147,
+            3.3734866432976305
+          ],
+          "box": [
+            371,
+            314,
+            483,
+            394
+          ],
+          "candidate": 2
+        },
+        "arm_near": {
+          "modelIoU": 0.8449426293373108,
+          "prompt": [
+            [
+              486,
+              343
+            ],
+            [
+              461,
+              283
+            ],
+            [
+              486,
+              308
+            ],
+            [
+              470,
+              325
+            ],
+            [
+              488,
+              357
+            ]
+          ],
+          "ranks": [
+            2.733175076184418,
+            3.208916493311175,
+            3.0942773625070426
+          ],
+          "box": [
+            440,
+            263,
+            522,
+            379
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.8798471689224243,
+          "prompt": [
+            [
+              428,
+              183
+            ],
+            [
+              546,
+              177
+            ],
+            [
+              321,
+              180
+            ],
+            [
+              482,
+              111
+            ],
+            [
+              490,
+              245
+            ]
+          ],
+          "ranks": [
+            3.081878747609367,
+            3.142474841027578,
+            3.3232254728871817
+          ],
+          "box": [
+            292,
+            45,
+            575,
+            291
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 1601,
+      "boundaryExtendedPixels": 5879,
+      "ambiguousBoundaryPixels": 98,
+      "foregroundPixels": 53369,
+      "uncoveredPixels": 9,
+      "coverage": 0.9998313627761435,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 47490,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 79,
+      "sourceSha256": "4d436dbcc525b2ce510a2c79e188dd74d97265f30ca9791b5579797831c25ffc",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.2865488529205322,
+          "prompt": [
+            [
+              384,
+              321
+            ],
+            [
+              384,
+              338
+            ],
+            [
+              388,
+              310
+            ],
+            [
+              381,
+              329
+            ],
+            [
+              384,
+              335
+            ]
+          ],
+          "ranks": [
+            2.1158347890444307,
+            2.3812221859585603,
+            2.4243266306983102
+          ],
+          "box": [
+            364,
+            291,
+            407,
+            357
+          ],
+          "candidate": 2
+        },
+        "leg_far": {
+          "modelIoU": 0.8989109396934509,
+          "prompt": [
+            [
+              403,
+              397
+            ],
+            [
+              386,
+              360
+            ],
+            [
+              427,
+              382
+            ],
+            [
+              425,
+              410
+            ],
+            [
+              404,
+              408
+            ]
+          ],
+          "ranks": [
+            2.7929396945363583,
+            3.309540862025062,
+            3.34608727469153
+          ],
+          "box": [
+            364,
+            336,
+            447,
+            436
+          ],
+          "candidate": 2
+        },
+        "leg_near": {
+          "modelIoU": 0.9008670449256897,
+          "prompt": [
+            [
+              468,
+              393
+            ],
+            [
+              488,
+              368
+            ],
+            [
+              486,
+              414
+            ],
+            [
+              444,
+              404
+            ],
+            [
+              468,
+              409
+            ]
+          ],
+          "ranks": [
+            2.9142809198742015,
+            3.314739811711195,
+            3.3613539363114575
+          ],
+          "box": [
+            425,
+            347,
+            509,
+            435
+          ],
+          "candidate": 2
+        },
+        "torso": {
+          "modelIoU": 0.8521912097930908,
+          "prompt": [
+            [
+              424,
+              335
+            ],
+            [
+              456,
+              281
+            ],
+            [
+              402,
+              286
+            ],
+            [
+              457,
+              361
+            ],
+            [
+              422,
+              371
+            ]
+          ],
+          "ranks": [
+            2.87553388409487,
+            3.2136718913639637,
+            3.2867926347157956
+          ],
+          "box": [
+            370,
+            258,
+            481,
+            395
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.9198781251907349,
+          "prompt": [
+            [
+              432,
+              359
+            ],
+            [
+              391,
+              333
+            ],
+            [
+              401,
+              364
+            ],
+            [
+              462,
+              355
+            ],
+            [
+              415,
+              341
+            ]
+          ],
+          "ranks": [
+            2.6985842265712128,
+            3.3833035538913174,
+            3.390389019255348
+          ],
+          "box": [
+            370,
+            313,
+            481,
+            395
+          ],
+          "candidate": 2
+        },
+        "arm_near": {
+          "modelIoU": 0.8694983720779419,
+          "prompt": [
+            [
+              481,
+              342
+            ],
+            [
+              459,
+              304
+            ],
+            [
+              486,
+              315
+            ],
+            [
+              462,
+              328
+            ],
+            [
+              481,
+              357
+            ]
+          ],
+          "ranks": [
+            2.7116896125493937,
+            3.2019040616264887,
+            3.067256739083509
+          ],
+          "box": [
+            438,
+            284,
+            517,
+            382
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.7848759293556213,
+          "prompt": [
+            [
+              435,
+              184
+            ],
+            [
+              321,
+              186
+            ],
+            [
+              546,
+              176
+            ],
+            [
+              484,
+              112
+            ],
+            [
+              376,
+              119
+            ]
+          ],
+          "ranks": [
+            2.988344428635216,
+            3.020428142689859,
+            3.244441759167536
+          ],
+          "box": [
+            292,
+            44,
+            575,
+            292
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 1711,
+      "boundaryExtendedPixels": 6497,
+      "ambiguousBoundaryPixels": 104,
+      "foregroundPixels": 53089,
+      "uncoveredPixels": 4,
+      "coverage": 0.9999246548249167,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 46592,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 80,
+      "sourceSha256": "80e1e17bd4c6a9c891ec025e9a7d905cced0adb52bd2472435c65616f9e39cac",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.18618883192539215,
+          "prompt": [
+            [
+              390,
+              311
+            ],
+            [
+              386,
+              331
+            ],
+            [
+              397,
+              298
+            ],
+            [
+              385,
+              320
+            ],
+            [
+              388,
+              331
+            ]
+          ],
+          "ranks": [
+            2.099351130605825,
+            2.2495213670970555,
+            2.2520456094189982
+          ],
+          "box": [
+            368,
+            277,
+            417,
+            350
+          ],
+          "candidate": 2
+        },
+        "leg_far": {
+          "modelIoU": 0.9013662934303284,
+          "prompt": [
+            [
+              399,
+              395
+            ],
+            [
+              385,
+              360
+            ],
+            [
+              423,
+              382
+            ],
+            [
+              419,
+              413
+            ],
+            [
+              401,
+              411
+            ]
+          ],
+          "ranks": [
+            2.835814202971637,
+            3.2893737780699204,
+            3.311898363401174
+          ],
+          "box": [
+            360,
+            335,
+            444,
+            435
+          ],
+          "candidate": 2
+        },
+        "leg_near": {
+          "modelIoU": 0.8835257887840271,
+          "prompt": [
+            [
+              470,
+              392
+            ],
+            [
+              488,
+              368
+            ],
+            [
+              444,
+              382
+            ],
+            [
+              492,
+              406
+            ],
+            [
+              472,
+              409
+            ]
+          ],
+          "ranks": [
+            2.914269433196665,
+            3.2619095862767775,
+            3.326869094692778
+          ],
+          "box": [
+            423,
+            348,
+            514,
+            433
+          ],
+          "candidate": 2
+        },
+        "torso": {
+          "modelIoU": 0.8548890352249146,
+          "prompt": [
+            [
+              422,
+              310
+            ],
+            [
+              454,
+              284
+            ],
+            [
+              452,
+              335
+            ],
+            [
+              392,
+              333
+            ],
+            [
+              411,
+              281
+            ]
+          ],
+          "ranks": [
+            2.837155589690575,
+            2.813950483512445,
+            3.211147875394646
+          ],
+          "box": [
+            371,
+            260,
+            475,
+            357
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.9186064004898071,
+          "prompt": [
+            [
+              433,
+              360
+            ],
+            [
+              392,
+              333
+            ],
+            [
+              402,
+              363
+            ],
+            [
+              460,
+              362
+            ],
+            [
+              416,
+              341
+            ]
+          ],
+          "ranks": [
+            2.7224265173446374,
+            3.380185538675727,
+            3.388648114558825
+          ],
+          "box": [
+            370,
+            314,
+            479,
+            396
+          ],
+          "candidate": 2
+        },
+        "arm_near": {
+          "modelIoU": 0.8846626877784729,
+          "prompt": [
+            [
+              475,
+              327
+            ],
+            [
+              458,
+              287
+            ],
+            [
+              479,
+              364
+            ],
+            [
+              481,
+              301
+            ],
+            [
+              477,
+              358
+            ]
+          ],
+          "ranks": [
+            2.8054391830752263,
+            3.2773513670237557,
+            3.1610632618198906
+          ],
+          "box": [
+            438,
+            267,
+            511,
+            382
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.8703354597091675,
+          "prompt": [
+            [
+              436,
+              187
+            ],
+            [
+              319,
+              168
+            ],
+            [
+              547,
+              195
+            ],
+            [
+              367,
+              243
+            ],
+            [
+              387,
+              118
+            ]
+          ],
+          "ranks": [
+            3.1148202801674447,
+            3.1818564795430984,
+            3.335019840420541
+          ],
+          "box": [
+            289,
+            80,
+            576,
+            295
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 1664,
+      "boundaryExtendedPixels": 7310,
+      "ambiguousBoundaryPixels": 35,
+      "foregroundPixels": 52912,
+      "uncoveredPixels": 7,
+      "coverage": 0.9998677048684609,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 45602,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 81,
+      "sourceSha256": "c03e12b9c30a728324218f0932c7364581479c0d35e73240f019e7b2cfe87bd7",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.22245822846889496,
+          "prompt": [
+            [
+              394,
+              308
+            ],
+            [
+              390,
+              330
+            ],
+            [
+              400,
+              296
+            ],
+            [
+              392,
+              319
+            ],
+            [
+              393,
+              323
+            ]
+          ],
+          "ranks": [
+            2.1485570770854445,
+            2.2100028479920772,
+            2.274852728231816
+          ],
+          "box": [
+            372,
+            277,
+            417,
+            348
+          ],
+          "candidate": 2
+        },
+        "leg_far": {
+          "modelIoU": 0.888875424861908,
+          "prompt": [
+            [
+              395,
+              399
+            ],
+            [
+              385,
+              357
+            ],
+            [
+              423,
+              385
+            ],
+            [
+              417,
+              413
+            ],
+            [
+              399,
+              403
+            ]
+          ],
+          "ranks": [
+            2.822493230096767,
+            3.2558229929150624,
+            3.2837648775621617
+          ],
+          "box": [
+            358,
+            334,
+            446,
+            437
+          ],
+          "candidate": 2
+        },
+        "leg_near": {
+          "modelIoU": 0.8942611813545227,
+          "prompt": [
+            [
+              473,
+              393
+            ],
+            [
+              489,
+              368
+            ],
+            [
+              446,
+              385
+            ],
+            [
+              497,
+              402
+            ],
+            [
+              477,
+              403
+            ]
+          ],
+          "ranks": [
+            2.9210119389845537,
+            3.2793482424874387,
+            3.3504015322317158
+          ],
+          "box": [
+            426,
+            347,
+            517,
+            434
+          ],
+          "candidate": 2
+        },
+        "torso": {
+          "modelIoU": 0.5615013241767883,
+          "prompt": [
+            [
+              453,
+              313
+            ],
+            [
+              396,
+              337
+            ],
+            [
+              476,
+              363
+            ],
+            [
+              408,
+              284
+            ],
+            [
+              487,
+              327
+            ]
+          ],
+          "ranks": [
+            2.589514571164784,
+            2.726036187737818,
+            2.9500019248101834
+          ],
+          "box": [
+            373,
+            262,
+            509,
+            384
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.9233715534210205,
+          "prompt": [
+            [
+              433,
+              362
+            ],
+            [
+              390,
+              335
+            ],
+            [
+              402,
+              363
+            ],
+            [
+              417,
+              344
+            ],
+            [
+              457,
+              362
+            ]
+          ],
+          "ranks": [
+            2.6646901268024568,
+            3.371838896699471,
+            3.379893292551455
+          ],
+          "box": [
+            370,
+            315,
+            476,
+            398
+          ],
+          "candidate": 2
+        },
+        "arm_near": {
+          "modelIoU": 0.841737687587738,
+          "prompt": [
+            [
+              472,
+              329
+            ],
+            [
+              477,
+              365
+            ],
+            [
+              454,
+              303
+            ],
+            [
+              481,
+              304
+            ],
+            [
+              474,
+              356
+            ]
+          ],
+          "ranks": [
+            2.7749629885799085,
+            3.1851775993848714,
+            3.130330372121599
+          ],
+          "box": [
+            434,
+            283,
+            509,
+            384
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.8851231932640076,
+          "prompt": [
+            [
+              409,
+              188
+            ],
+            [
+              548,
+              193
+            ],
+            [
+              481,
+              110
+            ],
+            [
+              476,
+              263
+            ],
+            [
+              316,
+              178
+            ]
+          ],
+          "ranks": [
+            3.1082939680916173,
+            2.549701327972346,
+            3.316013456846579
+          ],
+          "box": [
+            288,
+            44,
+            577,
+            295
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 924,
+      "boundaryExtendedPixels": 8102,
+      "ambiguousBoundaryPixels": 99,
+      "foregroundPixels": 52620,
+      "uncoveredPixels": 7,
+      "coverage": 0.9998669707335613,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 44518,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 82,
+      "sourceSha256": "015ec8ca6141834dec8b32548861c1290a49839c92c08104291f54a87e9dabcb",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.05112404376268387,
+          "prompt": [
+            [
+              395,
+              304
+            ],
+            [
+              393,
+              319
+            ],
+            [
+              393,
+              311
+            ],
+            [
+              394,
+              315
+            ],
+            [
+              396,
+              307
+            ]
+          ],
+          "ranks": [
+            2.0607398054787684,
+            2.1352664385846905,
+            2.128981128916193
+          ],
+          "box": [
+            376,
+            284,
+            415,
+            339
+          ],
+          "candidate": 1
+        },
+        "leg_far": {
+          "modelIoU": 0.9150744080543518,
+          "prompt": [
+            [
+              393,
+              398
+            ],
+            [
+              387,
+              356
+            ],
+            [
+              424,
+              384
+            ],
+            [
+              409,
+              416
+            ],
+            [
+              390,
+              410
+            ]
+          ],
+          "ranks": [
+            2.885463639853122,
+            3.2799056680653367,
+            3.354963219729126
+          ],
+          "box": [
+            351,
+            335,
+            444,
+            438
+          ],
+          "candidate": 2
+        },
+        "leg_near": {
+          "modelIoU": 0.8970280289649963,
+          "prompt": [
+            [
+              477,
+              394
+            ],
+            [
+              443,
+              383
+            ],
+            [
+              490,
+              362
+            ],
+            [
+              504,
+              393
+            ],
+            [
+              480,
+              410
+            ]
+          ],
+          "ranks": [
+            2.881013429473641,
+            2.9180249890609478,
+            2.9258060477647074
+          ],
+          "box": [
+            422,
+            339,
+            523,
+            435
+          ],
+          "candidate": 2
+        },
+        "torso": {
+          "modelIoU": 0.8075196743011475,
+          "prompt": [
+            [
+              420,
+              347
+            ],
+            [
+              455,
+              287
+            ],
+            [
+              402,
+              297
+            ],
+            [
+              452,
+              372
+            ],
+            [
+              445,
+              321
+            ]
+          ],
+          "ranks": [
+            2.8045926440976094,
+            3.0595506702008937,
+            3.1432237144637103
+          ],
+          "box": [
+            370,
+            266,
+            484,
+            401
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.9158098697662354,
+          "prompt": [
+            [
+              433,
+              365
+            ],
+            [
+              392,
+              338
+            ],
+            [
+              404,
+              365
+            ],
+            [
+              457,
+              368
+            ],
+            [
+              418,
+              346
+            ]
+          ],
+          "ranks": [
+            2.697206338981389,
+            3.363015780066807,
+            3.375252201832142
+          ],
+          "box": [
+            370,
+            317,
+            476,
+            401
+          ],
+          "candidate": 2
+        },
+        "arm_near": {
+          "modelIoU": 0.8234850764274597,
+          "prompt": [
+            [
+              469,
+              328
+            ],
+            [
+              467,
+              369
+            ],
+            [
+              463,
+              288
+            ],
+            [
+              486,
+              349
+            ],
+            [
+              471,
+              363
+            ]
+          ],
+          "ranks": [
+            2.805475360995805,
+            3.191704997531996,
+            3.171081108916584
+          ],
+          "box": [
+            433,
+            269,
+            505,
+            388
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.8809710144996643,
+          "prompt": [
+            [
+              436,
+              190
+            ],
+            [
+              317,
+              175
+            ],
+            [
+              551,
+              200
+            ],
+            [
+              369,
+              248
+            ],
+            [
+              385,
+              120
+            ]
+          ],
+          "ranks": [
+            3.1205612230086204,
+            3.2197377544085644,
+            3.3461630011440717
+          ],
+          "box": [
+            288,
+            83,
+            581,
+            297
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 2457,
+      "boundaryExtendedPixels": 5943,
+      "ambiguousBoundaryPixels": 84,
+      "foregroundPixels": 52538,
+      "uncoveredPixels": 11,
+      "coverage": 0.9997906277361148,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 46595,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 83,
+      "sourceSha256": "a7923e9a8e19345faed659cd6b913c26bed5183f4c94e4d55ec76587ee9835eb",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.005577057600021362,
+          "prompt": [
+            [
+              397,
+              301
+            ],
+            [
+              393,
+              326
+            ],
+            [
+              393,
+              313
+            ],
+            [
+              395,
+              307
+            ],
+            [
+              395,
+              322
+            ]
+          ],
+          "ranks": [
+            2.0207201907510335,
+            2.1331200935937615,
+            2.0607376712647096
+          ],
+          "box": [
+            376,
+            282,
+            417,
+            345
+          ],
+          "candidate": 1
+        },
+        "leg_far": {
+          "modelIoU": 0.9080641865730286,
+          "prompt": [
+            [
+              393,
+              396
+            ],
+            [
+              387,
+              356
+            ],
+            [
+              424,
+              386
+            ],
+            [
+              405,
+              418
+            ],
+            [
+              386,
+              407
+            ]
+          ],
+          "ranks": [
+            2.921243300396829,
+            3.246992138247542,
+            3.3491581557174888
+          ],
+          "box": [
+            351,
+            336,
+            444,
+            438
+          ],
+          "candidate": 2
+        },
+        "leg_near": {
+          "modelIoU": 0.9005064964294434,
+          "prompt": [
+            [
+              477,
+              394
+            ],
+            [
+              444,
+              387
+            ],
+            [
+              488,
+              363
+            ],
+            [
+              502,
+              390
+            ],
+            [
+              479,
+              409
+            ]
+          ],
+          "ranks": [
+            2.8670484128928884,
+            3.328566886282056,
+            3.342793247790605
+          ],
+          "box": [
+            423,
+            337,
+            522,
+            435
+          ],
+          "candidate": 2
+        },
+        "torso": {
+          "modelIoU": 0.8472297191619873,
+          "prompt": [
+            [
+              420,
+              338
+            ],
+            [
+              456,
+              286
+            ],
+            [
+              404,
+              289
+            ],
+            [
+              453,
+              370
+            ],
+            [
+              418,
+              371
+            ]
+          ],
+          "ranks": [
+            2.8681185896458783,
+            3.1751538217551825,
+            3.1889163748872744
+          ],
+          "box": [
+            371,
+            265,
+            479,
+            398
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.9228665828704834,
+          "prompt": [
+            [
+              433,
+              364
+            ],
+            [
+              391,
+              340
+            ],
+            [
+              404,
+              365
+            ],
+            [
+              418,
+              346
+            ],
+            [
+              455,
+              369
+            ]
+          ],
+          "ranks": [
+            2.707521461633278,
+            3.3629300742281085,
+            3.370932184216152
+          ],
+          "box": [
+            370,
+            318,
+            475,
+            401
+          ],
+          "candidate": 2
+        },
+        "arm_near": {
+          "modelIoU": 0.8397235870361328,
+          "prompt": [
+            [
+              469,
+              338
+            ],
+            [
+              453,
+              305
+            ],
+            [
+              464,
+              368
+            ],
+            [
+              482,
+              311
+            ],
+            [
+              471,
+              362
+            ]
+          ],
+          "ranks": [
+            2.7587221443158167,
+            3.1597134527569333,
+            3.1293801968223613
+          ],
+          "box": [
+            433,
+            286,
+            505,
+            387
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.8994147777557373,
+          "prompt": [
+            [
+              434,
+              188
+            ],
+            [
+              551,
+              182
+            ],
+            [
+              317,
+              183
+            ],
+            [
+              374,
+              256
+            ],
+            [
+              487,
+              119
+            ]
+          ],
+          "ranks": [
+            3.0927344805530743,
+            3.194384131429395,
+            3.3481709565651077
+          ],
+          "box": [
+            288,
+            47,
+            580,
+            299
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 1468,
+      "boundaryExtendedPixels": 5805,
+      "ambiguousBoundaryPixels": 39,
+      "foregroundPixels": 52458,
+      "uncoveredPixels": 19,
+      "coverage": 0.9996378054824813,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 46653,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 84,
+      "sourceSha256": "8568e782dbd3dcfbd573ae81de4ff29cf44b5ebff3ff546c8fad3f2e0671bc0d",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.03959197923541069,
+          "prompt": [
+            [
+              393,
+              314
+            ],
+            [
+              404,
+              287
+            ],
+            [
+              395,
+              299
+            ],
+            [
+              392,
+              325
+            ],
+            [
+              392,
+              323
+            ]
+          ],
+          "ranks": [
+            2.0752228743735093,
+            2.224314201457633,
+            2.157317090370407
+          ],
+          "box": [
+            374,
+            269,
+            421,
+            343
+          ],
+          "candidate": 1
+        },
+        "leg_far": {
+          "modelIoU": 0.9090739488601685,
+          "prompt": [
+            [
+              391,
+              394
+            ],
+            [
+              386,
+              359
+            ],
+            [
+              422,
+              388
+            ],
+            [
+              399,
+              418
+            ],
+            [
+              385,
+              402
+            ]
+          ],
+          "ranks": [
+            2.9513907388854173,
+            3.183573779549693,
+            3.3248398825165233
+          ],
+          "box": [
+            350,
+            337,
+            443,
+            437
+          ],
+          "candidate": 2
+        },
+        "leg_near": {
+          "modelIoU": 0.9017202854156494,
+          "prompt": [
+            [
+              474,
+              396
+            ],
+            [
+              486,
+              366
+            ],
+            [
+              445,
+              391
+            ],
+            [
+              500,
+              395
+            ],
+            [
+              477,
+              412
+            ]
+          ],
+          "ranks": [
+            2.8696717613201823,
+            3.326741203654402,
+            3.3396084841734135
+          ],
+          "box": [
+            424,
+            345,
+            519,
+            438
+          ],
+          "candidate": 2
+        },
+        "torso": {
+          "modelIoU": 0.8418614268302917,
+          "prompt": [
+            [
+              420,
+              339
+            ],
+            [
+              451,
+              289
+            ],
+            [
+              403,
+              294
+            ],
+            [
+              440,
+              380
+            ],
+            [
+              409,
+              370
+            ]
+          ],
+          "ranks": [
+            2.8780563488956776,
+            3.1849784390331224,
+            3.236917983177171
+          ],
+          "box": [
+            371,
+            265,
+            474,
+            402
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.9099790453910828,
+          "prompt": [
+            [
+              430,
+              365
+            ],
+            [
+              391,
+              340
+            ],
+            [
+              457,
+              371
+            ],
+            [
+              402,
+              365
+            ],
+            [
+              448,
+              348
+            ]
+          ],
+          "ranks": [
+            2.675727884965967,
+            3.3672422877666848,
+            3.3625076585601623
+          ],
+          "box": [
+            370,
+            320,
+            476,
+            402
+          ],
+          "candidate": 1
+        },
+        "arm_near": {
+          "modelIoU": 0.8524096012115479,
+          "prompt": [
+            [
+              470,
+              326
+            ],
+            [
+              476,
+              369
+            ],
+            [
+              459,
+              292
+            ],
+            [
+              455,
+              350
+            ],
+            [
+              473,
+              363
+            ]
+          ],
+          "ranks": [
+            2.785317104514404,
+            3.2155166378815183,
+            3.1771167266131317
+          ],
+          "box": [
+            434,
+            273,
+            507,
+            388
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.9227212071418762,
+          "prompt": [
+            [
+              410,
+              204
+            ],
+            [
+              446,
+              76
+            ],
+            [
+              515,
+              234
+            ],
+            [
+              382,
+              127
+            ],
+            [
+              468,
+              151
+            ]
+          ],
+          "ranks": [
+            2.979489598136446,
+            3.191172214534115,
+            3.3711765576454926
+          ],
+          "box": [
+            291,
+            49,
+            548,
+            301
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 5713,
+      "boundaryExtendedPixels": 13212,
+      "ambiguousBoundaryPixels": 85,
+      "foregroundPixels": 52247,
+      "uncoveredPixels": 4,
+      "coverage": 0.9999234405803205,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 39035,
+      "partitionIsNotSemanticValidation": true
+    },
+    {
+      "frame": 85,
+      "sourceSha256": "dbf877ae3ef3ce988d6c65b282de8f3e9d3556aef6babbc1ae4838b541f639dd",
+      "identityRepairs": [],
+      "segmentation": {
+        "arm_far": {
+          "modelIoU": 0.43555957078933716,
+          "prompt": [
+            [
+              404,
+              291
+            ],
+            [
+              389,
+              335
+            ],
+            [
+              390,
+              311
+            ],
+            [
+              397,
+              301
+            ],
+            [
+              388,
+              332
+            ]
+          ],
+          "ranks": [
+            2.2866076376343303,
+            2.5012265161801412,
+            2.5230169086732963
+          ],
+          "box": [
+            371,
+            266,
+            425,
+            353
+          ],
+          "candidate": 2
+        },
+        "leg_far": {
+          "modelIoU": 0.8916124105453491,
+          "prompt": [
+            [
+              393,
+              392
+            ],
+            [
+              386,
+              358
+            ],
+            [
+              424,
+              386
+            ],
+            [
+              403,
+              416
+            ],
+            [
+              388,
+              403
+            ]
+          ],
+          "ranks": [
+            2.9165887606974294,
+            3.178651904236049,
+            3.334025932557928
+          ],
+          "box": [
+            353,
+            336,
+            444,
+            436
+          ],
+          "candidate": 2
+        },
+        "leg_near": {
+          "modelIoU": 0.9119150638580322,
+          "prompt": [
+            [
+              470,
+              396
+            ],
+            [
+              489,
+              371
+            ],
+            [
+              497,
+              403
+            ],
+            [
+              444,
+              389
+            ],
+            [
+              473,
+              414
+            ]
+          ],
+          "ranks": [
+            2.905687287081799,
+            3.340778091138386,
+            3.3804801526154287
+          ],
+          "box": [
+            424,
+            351,
+            516,
+            440
+          ],
+          "candidate": 2
+        },
+        "torso": {
+          "modelIoU": 0.830487847328186,
+          "prompt": [
+            [
+              424,
+              328
+            ],
+            [
+              456,
+              287
+            ],
+            [
+              410,
+              285
+            ],
+            [
+              452,
+              350
+            ],
+            [
+              400,
+              350
+            ]
+          ],
+          "ranks": [
+            2.905163472691293,
+            3.0513700300355215,
+            3.177956201758566
+          ],
+          "box": [
+            374,
+            264,
+            479,
+            378
+          ],
+          "candidate": 2
+        },
+        "shorts": {
+          "modelIoU": 0.916220486164093,
+          "prompt": [
+            [
+              431,
+              365
+            ],
+            [
+              391,
+              339
+            ],
+            [
+              401,
+              367
+            ],
+            [
+              460,
+              359
+            ],
+            [
+              415,
+              346
+            ]
+          ],
+          "ranks": [
+            2.7275568792588603,
+            3.368435791912903,
+            3.357124514181283
+          ],
+          "box": [
+            369,
+            319,
+            479,
+            402
+          ],
+          "candidate": 1
+        },
+        "arm_near": {
+          "modelIoU": 0.8861024379730225,
+          "prompt": [
+            [
+              475,
+              337
+            ],
+            [
+              458,
+              289
+            ],
+            [
+              484,
+              307
+            ],
+            [
+              478,
+              367
+            ],
+            [
+              477,
+              362
+            ]
+          ],
+          "ranks": [
+            2.8282243825130964,
+            3.289045278946424,
+            3.1768472120229996
+          ],
+          "box": [
+            437,
+            270,
+            511,
+            386
+          ],
+          "candidate": 1
+        },
+        "head": {
+          "modelIoU": 0.8848623037338257,
+          "prompt": [
+            [
+              433,
+              191
+            ],
+            [
+              546,
+              199
+            ],
+            [
+              321,
+              179
+            ],
+            [
+              384,
+              120
+            ],
+            [
+              371,
+              249
+            ]
+          ],
+          "ranks": [
+            3.0891634301447812,
+            3.182508950985371,
+            3.348644538690846
+          ],
+          "box": [
+            291,
+            86,
+            575,
+            298
+          ],
+          "candidate": 2
+        }
+      },
+      "initialUncoveredPixels": 2017,
+      "boundaryExtendedPixels": 6943,
+      "ambiguousBoundaryPixels": 98,
+      "foregroundPixels": 52291,
+      "uncoveredPixels": 15,
+      "coverage": 0.9997131437532272,
+      "method": "SAM2/vision consensus seeds + source gradient watershed",
+      "seedPixels": 45348,
+      "partitionIsNotSemanticValidation": true
+    }
+  ],
+  "jointMethod": "segmented-source-support, fixed-bend sequence fit; occluded joints inferred",
+  "poseEvidence": [
+    {
+      "frame": 63,
+      "chain": "arm_far",
+      "rawJoint": [
+        393.94,
+        307.974
+      ],
+      "fittedJoint": [
+        392.5704022427162,
+        305.7644673312499
+      ],
+      "detectorResidual": 2.5995831648613854
+    },
+    {
+      "frame": 64,
+      "chain": "arm_far",
+      "rawJoint": [
+        391.96,
+        316.2
+      ],
+      "fittedJoint": [
+        390.4605162400926,
+        307.3953335299265
+      ],
+      "detectorResidual": 8.931439032734982
+    },
+    {
+      "frame": 65,
+      "chain": "arm_far",
+      "rawJoint": [
+        390.466,
+        314.834
+      ],
+      "fittedJoint": [
+        388.34060271348216,
+        309.0241026634062
+      ],
+      "detectorResidual": 6.1864546136941065
+    },
+    {
+      "frame": 66,
+      "chain": "arm_far",
+      "rawJoint": [
+        383.852,
+        315.602
+      ],
+      "fittedJoint": [
+        386.2049421233322,
+        310.4830227598526
+      ],
+      "detectorResidual": 5.6338498933587315
+    },
+    {
+      "frame": 67,
+      "chain": "arm_far",
+      "rawJoint": [
+        383.758,
+        314.058
+      ],
+      "fittedJoint": [
+        384.2319611180768,
+        311.37074163711486
+      ],
+      "detectorResidual": 2.728735357330336
+    },
+    {
+      "frame": 68,
+      "chain": "arm_far",
+      "rawJoint": [
+        384.878,
+        313.67
+      ],
+      "fittedJoint": [
+        382.51586569832057,
+        311.5570499415366
+      ],
+      "detectorResidual": 3.1692643324170753
+    },
+    {
+      "frame": 69,
+      "chain": "arm_far",
+      "rawJoint": [
+        379.642,
+        317.896
+      ],
+      "fittedJoint": [
+        380.9920383895227,
+        311.519503726714
+      ],
+      "detectorResidual": 6.517845378375861
+    },
+    {
+      "frame": 70,
+      "chain": "arm_far",
+      "rawJoint": [
+        375.73199999999997,
+        315.588
+      ],
+      "fittedJoint": [
+        379.66976197911185,
+        311.42510075922775
+      ],
+      "detectorResidual": 5.730244278646551
+    },
+    {
+      "frame": 71,
+      "chain": "arm_far",
+      "rawJoint": [
+        382.596,
+        305.986
+      ],
+      "fittedJoint": [
+        378.8387020446681,
+        311.4208072765304
+      ],
+      "detectorResidual": 6.607149011348953
+    },
+    {
+      "frame": 72,
+      "chain": "arm_far",
+      "rawJoint": [
+        377.98,
+        307.74
+      ],
+      "fittedJoint": [
+        378.56132800152636,
+        311.62931575408703
+      ],
+      "detectorResidual": 3.932520728533813
+    },
+    {
+      "frame": 73,
+      "chain": "arm_far",
+      "rawJoint": [
+        379.884,
+        310.006
+      ],
+      "fittedJoint": [
+        378.8582923060825,
+        312.02953380295725
+      ],
+      "detectorResidual": 2.268648347600909
+    },
+    {
+      "frame": 74,
+      "chain": "arm_far",
+      "rawJoint": [
+        384.12,
+        314.392
+      ],
+      "fittedJoint": [
+        379.80871079448747,
+        312.36590279141967
+      ],
+      "detectorResidual": 4.763641937864968
+    },
+    {
+      "frame": 75,
+      "chain": "arm_far",
+      "rawJoint": [
+        387.414,
+        316.222
+      ],
+      "fittedJoint": [
+        381.14061990598503,
+        312.4997911208545
+      ],
+      "detectorResidual": 7.294527862992391
+    },
+    {
+      "frame": 76,
+      "chain": "arm_far",
+      "rawJoint": [
+        383.33,
+        317.032
+      ],
+      "fittedJoint": [
+        382.701481525163,
+        312.27976053876085
+      ],
+      "detectorResidual": 4.793622364159465
+    },
+    {
+      "frame": 77,
+      "chain": "arm_far",
+      "rawJoint": [
+        384.73,
+        315.962
+      ],
+      "fittedJoint": [
+        384.43961865359597,
+        311.5348686684413
+      ],
+      "detectorResidual": 4.436644357305219
+    },
+    {
+      "frame": 78,
+      "chain": "arm_far",
+      "rawJoint": [
+        386.286,
+        315.636
+      ],
+      "fittedJoint": [
+        386.2488669538051,
+        310.32792041807045
+      ],
+      "detectorResidual": 5.3082094637662305
+    },
+    {
+      "frame": 79,
+      "chain": "arm_far",
+      "rawJoint": [
+        385.806,
+        315.31
+      ],
+      "fittedJoint": [
+        388.01219853599457,
+        309.01453753281544
+      ],
+      "detectorResidual": 6.670843998772136
+    },
+    {
+      "frame": 80,
+      "chain": "arm_far",
+      "rawJoint": [
+        391.356,
+        312.61
+      ],
+      "fittedJoint": [
+        389.6775157674739,
+        307.8776670176361
+      ],
+      "detectorResidual": 5.021183602977298
+    },
+    {
+      "frame": 81,
+      "chain": "arm_far",
+      "rawJoint": [
+        395.082,
+        313.916
+      ],
+      "fittedJoint": [
+        391.17496563522616,
+        306.95288356612593
+      ],
+      "detectorResidual": 7.984353950020673
+    },
+    {
+      "frame": 82,
+      "chain": "arm_far",
+      "rawJoint": [
+        395.452,
+        308.72
+      ],
+      "fittedJoint": [
+        392.2270360216169,
+        306.4094208690447
+      ],
+      "detectorResidual": 3.9672621015348373
+    },
+    {
+      "frame": 83,
+      "chain": "arm_far",
+      "rawJoint": [
+        395.94,
+        313.052
+      ],
+      "fittedJoint": [
+        392.6257005452898,
+        306.38412429688674
+      ],
+      "detectorResidual": 7.446149828445614
+    },
+    {
+      "frame": 84,
+      "chain": "arm_far",
+      "rawJoint": [
+        393.90999999999997,
+        308.72
+      ],
+      "fittedJoint": [
+        392.58352659816836,
+        306.6131884414816
+      ],
+      "detectorResidual": 2.489615759283651
+    },
+    {
+      "frame": 85,
+      "chain": "arm_far",
+      "rawJoint": [
+        390.614,
+        315.544
+      ],
+      "fittedJoint": [
+        392.41457280366285,
+        306.9138697262098
+      ],
+      "detectorResidual": 8.815963416659606
+    },
+    {
+      "frame": 63,
+      "chain": "leg_far",
+      "rawJoint": [
+        387.244,
+        376.754
+      ],
+      "fittedJoint": [
+        394.1064304395013,
+        385.3156327537383
+      ],
+      "detectorResidual": 10.972443071024719
+    },
+    {
+      "frame": 64,
+      "chain": "leg_far",
+      "rawJoint": [
+        395.6,
+        380.6
+      ],
+      "fittedJoint": [
+        396.22147522906386,
+        383.49326471894017
+      ],
+      "detectorResidual": 2.959258723769137
+    },
+    {
+      "frame": 65,
+      "chain": "leg_far",
+      "rawJoint": [
+        396.194,
+        379.094
+      ],
+      "fittedJoint": [
+        398.4216101841105,
+        381.5764535484283
+      ],
+      "detectorResidual": 3.335389445395666
+    },
+    {
+      "frame": 66,
+      "chain": "leg_far",
+      "rawJoint": [
+        407.148,
+        381.222
+      ],
+      "fittedJoint": [
+        400.65424385870665,
+        379.63022426369065
+      ],
+      "detectorResidual": 6.686001706348011
+    },
+    {
+      "frame": 67,
+      "chain": "leg_far",
+      "rawJoint": [
+        412.322,
+        385.082
+      ],
+      "fittedJoint": [
+        402.9232479078248,
+        379.6290314035206
+      ],
+      "detectorResidual": 10.866066786301177
+    },
+    {
+      "frame": 68,
+      "chain": "leg_far",
+      "rawJoint": [
+        406.802,
+        379.97
+      ],
+      "fittedJoint": [
+        405.2201291133158,
+        378.01745121614346
+      ],
+      "detectorResidual": 2.5129190706186457
+    },
+    {
+      "frame": 69,
+      "chain": "leg_far",
+      "rawJoint": [
+        408.622,
+        386.10400000000004
+      ],
+      "fittedJoint": [
+        407.1907878276119,
+        376.704528322561
+      ],
+      "detectorResidual": 9.507809216500455
+    },
+    {
+      "frame": 70,
+      "chain": "leg_far",
+      "rawJoint": [
+        408.58799999999997,
+        387.756
+      ],
+      "fittedJoint": [
+        408.7347575061281,
+        375.59606459484235
+      ],
+      "detectorResidual": 12.160820976529953
+    },
+    {
+      "frame": 71,
+      "chain": "leg_far",
+      "rawJoint": [
+        407.004,
+        383.914
+      ],
+      "fittedJoint": [
+        409.79351856029996,
+        374.7798262506843
+      ],
+      "detectorResidual": 9.550630548866668
+    },
+    {
+      "frame": 72,
+      "chain": "leg_far",
+      "rawJoint": [
+        407.88,
+        383.74
+      ],
+      "fittedJoint": [
+        410.41447670665013,
+        374.50369709311485
+      ],
+      "detectorResidual": 9.5777274738994
+    },
+    {
+      "frame": 73,
+      "chain": "leg_far",
+      "rawJoint": [
+        407.004,
+        385.606
+      ],
+      "fittedJoint": [
+        410.730759566445,
+        375.09725856198787
+      ],
+      "detectorResidual": 11.149994774755825
+    },
+    {
+      "frame": 74,
+      "chain": "leg_far",
+      "rawJoint": [
+        406.12,
+        383.952
+      ],
+      "fittedJoint": [
+        410.92632422136626,
+        376.4491343101943
+      ],
+      "detectorResidual": 8.910316833881671
+    },
+    {
+      "frame": 75,
+      "chain": "leg_far",
+      "rawJoint": [
+        405.806,
+        385.038
+      ],
+      "fittedJoint": [
+        410.8648171665582,
+        378.3499997270006
+      ],
+      "detectorResidual": 8.385760476921867
+    },
+    {
+      "frame": 76,
+      "chain": "leg_far",
+      "rawJoint": [
+        405.47,
+        384.712
+      ],
+      "fittedJoint": [
+        410.46882547109107,
+        380.4674440898341
+      ],
+      "detectorResidual": 6.557782473134711
+    },
+    {
+      "frame": 77,
+      "chain": "leg_far",
+      "rawJoint": [
+        404.23,
+        383.28200000000004
+      ],
+      "fittedJoint": [
+        408.9731958406816,
+        380.1230910376647
+      ],
+      "detectorResidual": 5.698825547021219
+    },
+    {
+      "frame": 78,
+      "chain": "leg_far",
+      "rawJoint": [
+        398.956,
+        386.31600000000003
+      ],
+      "fittedJoint": [
+        407.85709562353065,
+        381.98984105095064
+      ],
+      "detectorResidual": 9.896724435472393
+    },
+    {
+      "frame": 79,
+      "chain": "leg_far",
+      "rawJoint": [
+        397.43399999999997,
+        380.06
+      ],
+      "fittedJoint": [
+        406.38196553746553,
+        383.37966467438315
+      ],
+      "detectorResidual": 9.543912238176688
+    },
+    {
+      "frame": 80,
+      "chain": "leg_far",
+      "rawJoint": [
+        393.06600000000003,
+        381.06
+      ],
+      "fittedJoint": [
+        404.57266540058885,
+        384.3866703523604
+      ],
+      "detectorResidual": 11.97789982736462
+    },
+    {
+      "frame": 81,
+      "chain": "leg_far",
+      "rawJoint": [
+        402.162,
+        382.36400000000003
+      ],
+      "fittedJoint": [
+        402.4722967521605,
+        385.0649079345007
+      ],
+      "detectorResidual": 2.7186738945761784
+    },
+    {
+      "frame": 82,
+      "chain": "leg_far",
+      "rawJoint": [
+        414.052,
+        384.32
+      ],
+      "fittedJoint": [
+        400.25637970853785,
+        385.58902601243346
+      ],
+      "detectorResidual": 13.85386466825902
+    },
+    {
+      "frame": 83,
+      "chain": "leg_far",
+      "rawJoint": [
+        400.404,
+        383.668
+      ],
+      "fittedJoint": [
+        398.145156640261,
+        385.81077103604457
+      ],
+      "detectorResidual": 3.11349338151672
+    },
+    {
+      "frame": 84,
+      "chain": "leg_far",
+      "rawJoint": [
+        399.09000000000003,
+        384.32
+      ],
+      "fittedJoint": [
+        396.2551230099083,
+        385.72912474719925
+      ],
+      "detectorResidual": 3.1657795409852834
+    },
+    {
+      "frame": 85,
+      "chain": "leg_far",
+      "rawJoint": [
+        399.206,
+        380.644
+      ],
+      "fittedJoint": [
+        394.54417544168274,
+        385.55736798901074
+      ],
+      "detectorResidual": 6.773019504472544
+    },
+    {
+      "frame": 63,
+      "chain": "arm_near",
+      "rawJoint": [
+        471.31600000000003,
+        329.694
+      ],
+      "fittedJoint": [
+        458.97198142677973,
+        327.1214221042356
+      ],
+      "detectorResidual": 12.609240721224388
+    },
+    {
+      "frame": 64,
+      "chain": "arm_near",
+      "rawJoint": [
+        472.03999999999996,
+        330.92
+      ],
+      "fittedJoint": [
+        462.5148643634675,
+        325.2036301602499
+      ],
+      "detectorResidual": 11.108784498726486
+    },
+    {
+      "frame": 65,
+      "chain": "arm_near",
+      "rawJoint": [
+        472.806,
+        329.954
+      ],
+      "fittedJoint": [
+        466.08897726053954,
+        323.27041556083043
+      ],
+      "detectorResidual": 9.475689707770007
+    },
+    {
+      "frame": 66,
+      "chain": "arm_near",
+      "rawJoint": [
+        472.668,
+        327.182
+      ],
+      "fittedJoint": [
+        469.523728066678,
+        321.41574154615256
+      ],
+      "detectorResidual": 6.567814137690229
+    },
+    {
+      "frame": 67,
+      "chain": "arm_near",
+      "rawJoint": [
+        480.25800000000004,
+        323.322
+      ],
+      "fittedJoint": [
+        472.64147916884747,
+        319.8916080424353
+      ],
+      "detectorResidual": 8.35338126472782
+    },
+    {
+      "frame": 68,
+      "chain": "arm_near",
+      "rawJoint": [
+        482.318,
+        317.57
+      ],
+      "fittedJoint": [
+        475.4091706501751,
+        318.7710479012162
+      ],
+      "detectorResidual": 7.012448862274691
+    },
+    {
+      "frame": 69,
+      "chain": "arm_near",
+      "rawJoint": [
+        487.28200000000004,
+        317.896
+      ],
+      "fittedJoint": [
+        477.86620466289685,
+        318.0108881388059
+      ],
+      "detectorResidual": 9.416496222834292
+    },
+    {
+      "frame": 70,
+      "chain": "arm_near",
+      "rawJoint": [
+        491.172,
+        317.916
+      ],
+      "fittedJoint": [
+        479.8813810842986,
+        317.44900071119
+      ],
+      "detectorResidual": 11.300272732785874
+    },
+    {
+      "frame": 71,
+      "chain": "arm_near",
+      "rawJoint": [
+        486.10400000000004,
+        307.514
+      ],
+      "fittedJoint": [
+        481.2891882146198,
+        317.0032138437033
+      ],
+      "detectorResidual": 10.640845450440793
+    },
+    {
+      "frame": 72,
+      "chain": "arm_near",
+      "rawJoint": [
+        490.68,
+        309.64
+      ],
+      "fittedJoint": [
+        481.9957690267336,
+        316.8474472499595
+      ],
+      "detectorResidual": 11.285528940106792
+    },
+    {
+      "frame": 73,
+      "chain": "arm_near",
+      "rawJoint": [
+        486.55600000000004,
+        316.054
+      ],
+      "fittedJoint": [
+        481.54938749495835,
+        317.57563159082093
+      ],
+      "detectorResidual": 5.2327365186701424
+    },
+    {
+      "frame": 74,
+      "chain": "arm_near",
+      "rawJoint": [
+        487.08000000000004,
+        318.152
+      ],
+      "fittedJoint": [
+        480.04501623092733,
+        318.40282353369486
+      ],
+      "detectorResidual": 7.039453748421937
+    },
+    {
+      "frame": 75,
+      "chain": "arm_near",
+      "rawJoint": [
+        483.554,
+        317.718
+      ],
+      "fittedJoint": [
+        477.89109067729777,
+        319.0418727103435
+      ],
+      "detectorResidual": 5.815598073314539
+    },
+    {
+      "frame": 76,
+      "chain": "arm_near",
+      "rawJoint": [
+        483.37,
+        320.79200000000003
+      ],
+      "fittedJoint": [
+        475.2743645746867,
+        319.5260165606097
+      ],
+      "detectorResidual": 8.194023859398916
+    },
+    {
+      "frame": 77,
+      "chain": "arm_near",
+      "rawJoint": [
+        482.23,
+        321.198
+      ],
+      "fittedJoint": [
+        472.3722501344612,
+        319.96553966283375
+      ],
+      "detectorResidual": 9.934494999456128
+    },
+    {
+      "frame": 78,
+      "chain": "arm_near",
+      "rawJoint": [
+        476.786,
+        326.796
+      ],
+      "fittedJoint": [
+        470.4411979213691,
+        324.1797239852665
+      ],
+      "detectorResidual": 6.863046961974593
+    },
+    {
+      "frame": 79,
+      "chain": "arm_near",
+      "rawJoint": [
+        468.91200000000003,
+        325.67
+      ],
+      "fittedJoint": [
+        467.1552346831174,
+        325.04689020990384
+      ],
+      "detectorResidual": 1.8639984412856954
+    },
+    {
+      "frame": 80,
+      "chain": "arm_near",
+      "rawJoint": [
+        473.43600000000004,
+        327.40999999999997
+      ],
+      "fittedJoint": [
+        464.213712213663,
+        326.0597776558677
+      ],
+      "detectorResidual": 9.320605795366294
+    },
+    {
+      "frame": 81,
+      "chain": "arm_near",
+      "rawJoint": [
+        467.298,
+        328.796
+      ],
+      "fittedJoint": [
+        461.97966619770835,
+        327.1671165072942
+      ],
+      "detectorResidual": 5.562188046570097
+    },
+    {
+      "frame": 82,
+      "chain": "arm_near",
+      "rawJoint": [
+        468.36400000000003,
+        339.68
+      ],
+      "fittedJoint": [
+        460.60467708789156,
+        328.35187033848206
+      ],
+      "detectorResidual": 13.730754301295113
+    },
+    {
+      "frame": 83,
+      "chain": "arm_near",
+      "rawJoint": [
+        467.36400000000003,
+        338.532
+      ],
+      "fittedJoint": [
+        460.0965910720341,
+        329.43210065675504
+      ],
+      "detectorResidual": 11.645746029493734
+    },
+    {
+      "frame": 84,
+      "chain": "arm_near",
+      "rawJoint": [
+        465.69,
+        330.32
+      ],
+      "fittedJoint": [
+        460.071964125388,
+        330.3508143717422
+      ],
+      "detectorResidual": 5.61812038086881
+    },
+    {
+      "frame": 85,
+      "chain": "arm_near",
+      "rawJoint": [
+        470.806,
+        330.424
+      ],
+      "fittedJoint": [
+        460.26708789897225,
+        331.15206275682056
+      ],
+      "detectorResidual": 10.564030653640588
+    },
+    {
+      "frame": 63,
+      "chain": "leg_near",
+      "rawJoint": [
+        471.31600000000003,
+        385.804
+      ],
+      "fittedJoint": [
+        464.3278915364681,
+        393.5859172447222
+      ],
+      "detectorResidual": 10.459058079090696
+    },
+    {
+      "frame": 64,
+      "chain": "leg_near",
+      "rawJoint": [
+        464.76,
+        389.8
+      ],
+      "fittedJoint": [
+        462.73588492491,
+        393.0796341789264
+      ],
+      "detectorResidual": 3.8539644763267935
+    },
+    {
+      "frame": 65,
+      "chain": "leg_near",
+      "rawJoint": [
+        465.646,
+        390.43399999999997
+      ],
+      "fittedJoint": [
+        461.0802498698456,
+        392.4410893494442
+      ],
+      "detectorResidual": 4.987432396299478
+    },
+    {
+      "frame": 66,
+      "chain": "leg_near",
+      "rawJoint": [
+        454.468,
+        385.082
+      ],
+      "fittedJoint": [
+        459.2655459487399,
+        391.63178261111307
+      ],
+      "detectorResidual": 8.118873036518647
+    },
+    {
+      "frame": 67,
+      "chain": "leg_near",
+      "rawJoint": [
+        454.782,
+        391.25800000000004
+      ],
+      "fittedJoint": [
+        457.3713674757977,
+        390.6366630489632
+      ],
+      "detectorResidual": 2.6628712945695843
+    },
+    {
+      "frame": 68,
+      "chain": "leg_near",
+      "rawJoint": [
+        457.95799999999997,
+        383.87
+      ],
+      "fittedJoint": [
+        455.49217635237414,
+        389.50713386505083
+      ],
+      "detectorResidual": 6.152850109802254
+    },
+    {
+      "frame": 69,
+      "chain": "leg_near",
+      "rawJoint": [
+        455.818,
+        388.456
+      ],
+      "fittedJoint": [
+        453.7373264840057,
+        388.330124091723
+      ],
+      "detectorResidual": 2.0844776382692785
+    },
+    {
+      "frame": 70,
+      "chain": "leg_near",
+      "rawJoint": [
+        452.988,
+        390.084
+      ],
+      "fittedJoint": [
+        452.167285214189,
+        386.97343758577153
+      ],
+      "detectorResidual": 3.217012790223194
+    },
+    {
+      "frame": 71,
+      "chain": "leg_near",
+      "rawJoint": [
+        456.724,
+        382.38599999999997
+      ],
+      "fittedJoint": [
+        450.81209517862584,
+        385.5743206429951
+      ],
+      "detectorResidual": 6.716845028697303
+    },
+    {
+      "frame": 72,
+      "chain": "leg_near",
+      "rawJoint": [
+        451.58,
+        383.74
+      ],
+      "fittedJoint": [
+        449.72226064755597,
+        384.4092289499033
+      ],
+      "detectorResidual": 1.9746044892605146
+    },
+    {
+      "frame": 73,
+      "chain": "leg_near",
+      "rawJoint": [
+        447.68399999999997,
+        389.38599999999997
+      ],
+      "fittedJoint": [
+        449.0362829158006,
+        383.7187433738389
+      ],
+      "detectorResidual": 5.826359648282355
+    },
+    {
+      "frame": 74,
+      "chain": "leg_near",
+      "rawJoint": [
+        456.28,
+        383.952
+      ],
+      "fittedJoint": [
+        449.30007123497074,
+        383.4958866470381
+      ],
+      "detectorResidual": 6.99481557695645
+    },
+    {
+      "frame": 75,
+      "chain": "leg_near",
+      "rawJoint": [
+        451.786,
+        385.038
+      ],
+      "fittedJoint": [
+        450.8220760026054,
+        383.96578491205986
+      ],
+      "detectorResidual": 1.4418025757917394
+    },
+    {
+      "frame": 76,
+      "chain": "leg_near",
+      "rawJoint": [
+        454.67,
+        384.712
+      ],
+      "fittedJoint": [
+        453.075687201435,
+        384.808494792262
+      ],
+      "detectorResidual": 1.5972302728792283
+    },
+    {
+      "frame": 77,
+      "chain": "leg_near",
+      "rawJoint": [
+        457.27,
+        387.022
+      ],
+      "fittedJoint": [
+        455.72706285209983,
+        385.8567359018076
+      ],
+      "detectorResidual": 1.9335189321303126
+    },
+    {
+      "frame": 78,
+      "chain": "leg_near",
+      "rawJoint": [
+        462.306,
+        388.176
+      ],
+      "fittedJoint": [
+        458.5000183566252,
+        386.87827627821116
+      ],
+      "detectorResidual": 4.02114201785999
+    },
+    {
+      "frame": 79,
+      "chain": "leg_near",
+      "rawJoint": [
+        465.834,
+        385.24
+      ],
+      "fittedJoint": [
+        461.09134625887293,
+        387.74048953216266
+      ],
+      "detectorResidual": 5.361456183601763
+    },
+    {
+      "frame": 80,
+      "chain": "leg_near",
+      "rawJoint": [
+        468.306,
+        386.61
+      ],
+      "fittedJoint": [
+        463.2685384489039,
+        388.54699729577845
+      ],
+      "detectorResidual": 5.39703413020749
+    },
+    {
+      "frame": 81,
+      "chain": "leg_near",
+      "rawJoint": [
+        472.962,
+        384.596
+      ],
+      "fittedJoint": [
+        464.87332567643557,
+        389.41842325322114
+      ],
+      "detectorResidual": 9.41713429584065
+    },
+    {
+      "frame": 82,
+      "chain": "leg_near",
+      "rawJoint": [
+        468.36400000000003,
+        384.32
+      ],
+      "fittedJoint": [
+        465.74774854270225,
+        390.4524066521574
+      ],
+      "detectorResidual": 6.667172041820797
+    },
+    {
+      "frame": 83,
+      "chain": "leg_near",
+      "rawJoint": [
+        473.31600000000003,
+        387.308
+      ],
+      "fittedJoint": [
+        465.93838564762893,
+        391.4824398958624
+      ],
+      "detectorResidual": 8.476741235668324
+    },
+    {
+      "frame": 84,
+      "chain": "leg_near",
+      "rawJoint": [
+        467.90999999999997,
+        387.92
+      ],
+      "fittedJoint": [
+        465.737373434185,
+        392.46105356773535
+      ],
+      "detectorResidual": 5.034031555277226
+    },
+    {
+      "frame": 85,
+      "chain": "leg_near",
+      "rawJoint": [
+        465.794,
+        389.94399999999996
+      ],
+      "fittedJoint": [
+        465.4085865424523,
+        393.4141961311408
+      ],
+      "detectorResidual": 3.491533290954503
+    }
+  ],
+  "semanticValidation": "candidate_requires_visual_acceptance",
+  "accepted": false,
+  "segmentationMethod": "SAM2.1 tiny + semantic consensus seeds + source-edge watershed",
+  "segmentationVersion": 7,
+  "detailDetectorVersion": 1,
+  "qualityReview": "/studio_v3/pixel_projects/px_ae63ce6fcdd5/quality_r4/review.html"
+}

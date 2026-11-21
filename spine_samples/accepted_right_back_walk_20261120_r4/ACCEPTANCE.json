@@ -1,0 +1,26 @@
+{
+  "type": "human_visual_review",
+  "at": "2026-11-20T13:44:40.870827+00:00",
+  "revision": 4,
+  "inputFingerprint": "b6e4c6ba86fd384fef3356b0fdda10c6f0524fac21c4cdb02d35a1a529125420",
+  "diagnosticCount": 157,
+  "reviewedDiagnostics": true,
+  "note": "用户明确表示 Spine 检查候选包右后行走验收通过；对应 technical_review_r4_c77fdb。",
+  "projectId": "px_ae63ce6fcdd5",
+  "sourceIdentity": "c7d1c609af7db2e0263a82a7de15cf4366c899b5174c776d5141e1ceb9a416df",
+  "reviewedSpineSha256": "051c308cc6185617b5adbd94a445f54a4e3ff1db113ebf8385a82eb548231140",
+  "reviewedZipSha256": "143a3f4d356965ef20c0443b4882784bcb2ebbd0836782b7d5997cd0fecb4419",
+  "roundtrip": {
+    "ok": true,
+    "frames": 23,
+    "attachments": 161,
+    "bones": 16,
+    "ik": 4,
+    "checks": 115,
+    "sourceError": 0.011541698648356122,
+    "intraFrameDrift": 0,
+    "jointError": 0.11888212850387304,
+    "targetError": 0.009861369499859335,
+    "roundtripMaxDelta": 0.011474609375
+  }
+}

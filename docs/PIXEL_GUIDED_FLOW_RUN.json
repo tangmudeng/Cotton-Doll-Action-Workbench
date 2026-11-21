@@ -1,0 +1,116 @@
+{
+  "projectId": "px_a47fa41a5340",
+  "revision": 3,
+  "sourceIdentity": "c7d1c609af7db2e0263a82a7de15cf4366c899b5174c776d5141e1ceb9a416df",
+  "selectedRange": [
+    60,
+    80
+  ],
+  "frames": 21,
+  "automaticIssues": 140,
+  "accepted": false,
+  "reviewUrl": "/studio_v3/pixel_projects/px_a47fa41a5340/quality_r3/review.html",
+  "reviewPackage": "/studio_v3/pixel_projects/px_a47fa41a5340/technical_review_3_1c3cc047/walk_spine.zip",
+  "roundtrip": {
+    "ok": true,
+    "frames": 21,
+    "attachments": 147,
+    "bones": 16,
+    "ik": 4,
+    "checks": 105,
+    "sourceError": 0.012986986208018135,
+    "intraFrameDrift": 0,
+    "jointError": 0.11309303189056973,
+    "targetError": 0.010430282158738728,
+    "roundtripMaxDelta": 0.01239013671875
+  },
+  "changedRGBPixels": 0,
+  "loopBoundary": {
+    "status": "review_loop_boundary",
+    "sourcePixelRatio": 0.9332768013064113,
+    "joints": [
+      {
+        "point": "neck",
+        "pixels": 5.215399216146076,
+        "ratio": 5.215399216146076
+      },
+      {
+        "point": "pelvis",
+        "pixels": 2.3425222246609123,
+        "ratio": 1.6594027558657896
+      },
+      {
+        "point": "shoulder_near",
+        "pixels": 5.215399216146076,
+        "ratio": 5.215399216146076
+      },
+      {
+        "point": "shoulder_far",
+        "pixels": 5.215399216146076,
+        "ratio": 5.215399216146076
+      },
+      {
+        "point": "hip_near",
+        "pixels": 2.3425222246609123,
+        "ratio": 1.6594027558657896
+      },
+      {
+        "point": "hip_far",
+        "pixels": 2.3425222246609123,
+        "ratio": 1.6594027558657896
+      },
+      {
+        "point": "hand_near",
+        "pixels": 6.9015290910240825,
+        "ratio": 1.3901586756774014
+      },
+      {
+        "point": "hand_far",
+        "pixels": 18.43324896681666,
+        "ratio": 6.311787249552978
+      },
+      {
+        "point": "foot_near",
+        "pixels": 6.914461680659706,
+        "ratio": 2.0606522071915263
+      },
+      {
+        "point": "foot_far",
+        "pixels": 7.87420586507983,
+        "ratio": 2.6512311598036153
+      },
+      {
+        "point": "arm_far",
+        "pixels": 8.79599427304076,
+        "ratio": 4.833221510571622
+      },
+      {
+        "point": "leg_far",
+        "pixels": 5.1013892441468505,
+        "ratio": 2.6162814292779366
+      },
+      {
+        "point": "arm_near",
+        "pixels": 6.30341585984816,
+        "ratio": 2.635606611539352
+      },
+      {
+        "point": "leg_near",
+        "pixels": 2.0157397907539183,
+        "ratio": 1.0389597877220333
+      }
+    ],
+    "claim": "首尾跳变数值诊断；非循环动作无需闭环，数值正常也不代表语义通过"
+  },
+  "tests": {
+    "video": 4,
+    "automation": 11,
+    "pipeline": 6,
+    "frontend": 16
+  },
+  "notes": [
+    "来自工作台分析建议，独立工程；未继承既有验收。",
+    "首次复用18帧同源机器缓存，其余源帧由视觉模型新识别。",
+    "实际验证过服务重试、刷新恢复、失败重试和候选包导出。"
+  ]
+}

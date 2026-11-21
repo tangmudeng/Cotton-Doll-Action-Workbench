@@ -12,4 +12,7 @@ node_modules/
 .venv/
 .vscode/
 .DS_Store
+studio_v3/pixel_projects/
 studio_v3/generated_rig/video_f7e82942/arm_mesh_test_v7/study.json
+
+studio_v3/pixel_video_analysis/

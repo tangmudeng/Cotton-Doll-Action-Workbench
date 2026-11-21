@@ -1,5 +1,39 @@
 # Walulu V3 / 05 骨骼动画 Codex 接手说明
 
+## 2026-11-21 睡觉流程反馈（优先阅读）
+
+手动帧区间、结构化视觉输出、响应/事件日志、2帧并发识别、无损图集整理与六步骤UI已接入。读 docs/05_SELF_AUDIT_20261121.md；图集整理独立工程 px_aac4c49ac4f6 未验收，原用户睡觉工程 px_11c470a68934 未覆盖。不能宣称当前逐帧附件适合规模换装。
+
+## 当前开发入口（优先阅读）
+
+统一主流程与预览/导出版本保护已接入，见 `docs/05_AUTOMATION_ROADMAP.md`。视频动作区间候选分析、五帧对照、预览选段和待验收 Spine 检查包入口已接入。区间建议基于运动重复性，不代表语义或质量验收；操作见 docs/05_CURRENT_QUICKSTART.md。用户要求坚持原像素、独立姿态核查和同帧附件/骨骼/IK同步规范。
+
+## 全流程最新候选
+
+工作台自动推荐并制作的 `px_a47fa41a5340` r3（右后60–80帧）已生成待验收Spine包，尚未由用户验收；不要与已验收右后 `px_ae63ce6fcdd5` r4 混淆。详见 `docs/PIXEL_GUIDED_FLOW_RUN.json`。下一步由用户体验新入口和候选效果；睡觉完整骨骼流程尚未验证。
+
+## 当前接续任务
+
+用户指定“右后行走_.mp4”作为第二视频验证。最新独立工程 `px_ae63ce6fcdd5` r4，已完成真实 Spine 回导与像素检查，用户已明确在 Spine 中验收通过。已归档到 `spine_samples/accepted_right_back_walk_20261120_r4`，验收记录为 `docs/ACCEPTED_RIGHT_BACK_WALK_R4.json`。检查包与逐帧页见 `docs/PIXEL_SECOND_VIDEO_RUN.json`。不要将右前行走验收传播到此工程。
+
+## 最新验收状态
+
+用户已在 Spine 中验收通过自动完整周期 `px_faab40ab6ed4` r6（检查包 technical_review_r6_48596c）。已归档到 `spine_samples/accepted_automatic_cycle_20261120_r6`，验收记录见 `docs/ACCEPTED_AUTOMATIC_CYCLE_R6.json`。不要继续优化或覆盖这份已验收动画。此前“未验收”记录为历史状态。下一步验证独立新视频与流程复用；不得把 r6 验收传播到其他视频。
+
+## 2026-11-20 自动化开发更新（优先阅读）
+
+第二轮已扩展到完整 23 帧，并新增局部视觉重识别、SAM2 分割、原像素约束 IK 拟合和逐帧归属检查。最新候选 `px_faab40ab6ed4` r6，仍未验收；详情见 `docs/PIXEL_AUTOMATION_FULL_CYCLE_VALIDATION.json`、`docs/PIXEL_FULL_CYCLE_RUN.json` 和状态文档末尾。正常合格导出继续拦截；技术检查 ZIP 不等于合格交付。
+
+新增 `pixel_automation.py` 和 05 自动候选入口；已跑通原视频三帧视觉识别、时序拟合和动画候选，但仍有质量异常，未完成全自动验收目标。详见 `docs/PIXEL_AUTOMATION_STATUS.md` 与验证 JSON。不得将此状态描述为新视频全流程已验证。
+
+## 2026-11-20 更新
+
+用户已验收 `spine_samples/video_motion_study_20261119/pixel_sync_20261120`；原样板保持只读。05当前入口是 `studio_v3/pixel-workbench.js`，服务逻辑在 `pixel_workbench.py`，生成/核查在 `studio_v3/pixel_pipeline.cjs`。旧 `rig-workbench.js` / `rig-workflow.js` 不再是当前UI入口；旧导出禁用逻辑仍保留。
+
+工作台已接入源帧附件、16骨骼/4IK、同步动画和真实Spine导出。用户允许多帧来源附件，当前采用同源姿态逐帧同步；不要重新启用失败的连续骨骼/离散皮肤组合。新增结果和其他角色不自动继承验收。详见 `docs/PIXEL_WORKBENCH_WORKFLOW.md`。启动需 `requirements-pixel.txt` 中的依赖；Spine导出需要授权的4.2.43 CLI。
+
+以下保留原始ZIP交接记录，其“05当前状态”属于当时历史状态。
+
 ## 项目结构
 
 本包是从工作区复制出的独立开发副本，主要内容：

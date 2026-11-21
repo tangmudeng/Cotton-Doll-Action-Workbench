@@ -1,0 +1,13 @@
+{
+  "coverage": {
+    "foregroundPixels": 85197,
+    "uncoveredPixels": 7534,
+    "coverage": 0.9115696562085519
+  },
+  "geometry": [],
+  "uncertainties": [
+    "far hand and far foot are partially occluded by the near limbs",
+    "shorts are represented by the character's visible underwear"
+  ],
+  "status": "unaccepted_vision_candidate"
+}

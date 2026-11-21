@@ -1,0 +1,18 @@
+{
+  "frame": 71,
+  "coarseSeconds": 30.16,
+  "detailSeconds": 57.09,
+  "jsonValid": true,
+  "geometryFieldsValid": true,
+  "events": [
+    {
+      "event": "retry",
+      "frame": 71,
+      "attempt": 1,
+      "error": "坐标必须是有限数值"
+    },
+    {
+      "message": "源帧 71 识别暂未完成，正在重试 1/2"
+    }
+  ]
+}

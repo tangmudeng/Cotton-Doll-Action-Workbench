@@ -1,0 +1,58 @@
+{
+  "projectId": "px_aac4c49ac4f6",
+  "sourceProject": "px_11c470a68934",
+  "artifact": {
+    "base": "/studio_v3/pixel_projects/px_aac4c49ac4f6/build_1_5f08b3",
+    "audit": {
+      "ok": true,
+      "frames": 48,
+      "attachments": 335,
+      "bones": 16,
+      "ik": 4,
+      "checks": 240,
+      "sourceError": 3.0938530119251435e-05,
+      "intraFrameDrift": 0,
+      "jointError": 0.15388984809550907,
+      "targetError": 0.013438228155402156,
+      "atlas": {
+        "attachments": 335,
+        "uniqueImages": 335,
+        "exactDuplicates": 0,
+        "pages": [
+          {
+            "file": "skin_0.png",
+            "width": 4088,
+            "height": 1712,
+            "rgbaBytes": 27994624,
+            "pngBytes": 5707464
+          }
+        ],
+        "rgbaBytes": 27994624,
+        "pngBytes": 5707464,
+        "mode": "source_pixel_sequence",
+        "wardrobeReady": false,
+        "explanation": "逐帧源像素复现；仅完全相同可见RGBA去重，不代表可复用换装资产。"
+      }
+    },
+    "acceptedCopy": false
+  },
+  "export": {
+    "zipUrl": "/studio_v3/pixel_projects/px_aac4c49ac4f6/technical_review_1_262b0970/walk_spine.zip",
+    "spineUrl": "/studio_v3/pixel_projects/px_aac4c49ac4f6/technical_review_1_262b0970/walk.spine",
+    "audit": {
+      "ok": true,
+      "frames": 48,
+      "attachments": 335,
+      "bones": 16,
+      "ik": 4,
+      "checks": 240,
+      "sourceError": 0.009798004761846783,
+      "intraFrameDrift": 0,
+      "jointError": 0.15388984809550907,
+      "targetError": 0.013438228155402156,
+      "roundtripMaxDelta": 0.00952911376953125
+    },
+    "revision": 1,
+    "kind": "technical_review"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "human_visual_review",
+  "at": "2026-11-20T13:10:53.966939+00:00",
+  "revision": 6,
+  "inputFingerprint": "bc6bc2cff87d07fe24bacb62c86ac7fb345c81b0634524a45b21fe4fc32ae93d",
+  "diagnosticCount": 195,
+  "reviewedDiagnostics": true,
+  "note": "用户在 Spine 工具中验收 candidate_for_review.zip 后明确表示通过；对应 px_faab40ab6ed4 r6。",
+  "projectId": "px_faab40ab6ed4",
+  "reviewedSpineSha256": "71c7bf5f85728ace235ae759797b61bd1969f6e82699557c755f60da70f339f2",
+  "reviewedZipSha256": "b9cbe779f24c7009c190080dd519832b4b3adb24399ba44e77b17a8368d2b63b",
+  "sourceIdentity": "9c08a83ca165e9c86c8fa0559cb9495b90efca0f20980834ce3033560b44e8fc",
+  "roundtrip": {
+    "ok": true,
+    "frames": 23,
+    "attachments": 160,
+    "bones": 16,
+    "ik": 4,
+    "checks": 115,
+    "sourceError": 0.013361861734359222,
+    "intraFrameDrift": 0,
+    "jointError": 0.11711397858817614,
+    "targetError": 0.011802087979376808,
+    "roundtripMaxDelta": 0.01336050033569336
+  },
+  "diagnosticsRetained": true
+}
