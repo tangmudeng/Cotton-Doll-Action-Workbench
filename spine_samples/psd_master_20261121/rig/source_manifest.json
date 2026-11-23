@@ -1,0 +1,174 @@
+{
+  "source": "I:\\彩虹AI\\design\\AI玩具_design\\美术资源\\棉花娃娃\\右前¾侧.psd",
+  "sha256": "c75a2cf8e3f23ac6a1f4c44413cd85a886c5f7757ad6daf5e3135ed4a294d523",
+  "canvas": [
+    1024,
+    1024
+  ],
+  "parts": [
+    {
+      "key": "arm_far",
+      "layerName": "handwear-l",
+      "sourceLayerBox": [
+        559,
+        574,
+        673,
+        735
+      ],
+      "cropWithinLayer": [
+        0,
+        0,
+        114,
+        161
+      ],
+      "canvasBox": [
+        559,
+        574,
+        673,
+        735
+      ],
+      "sha256": "016b10c47a5306a3a54d1aac3723131096a754a80b68e4636dcfdbce668a5716",
+      "croppedAwayAlphaPixels": 0,
+      "croppedAwayMaxAlpha": 0,
+      "changedRetainedRGBA": 0,
+      "visible": true
+    },
+    {
+      "key": "legs_unsplit",
+      "layerName": "legwear",
+      "sourceLayerBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "cropWithinLayer": [
+        412,
+        704,
+        647,
+        893
+      ],
+      "canvasBox": [
+        412,
+        704,
+        647,
+        893
+      ],
+      "sha256": "689111c23252aa735dcc38f137912dd45d209e91738a3497a03ea37d93a7d434",
+      "croppedAwayAlphaPixels": 6598,
+      "croppedAwayMaxAlpha": 24,
+      "changedRetainedRGBA": 0,
+      "visible": true
+    },
+    {
+      "key": "torso",
+      "layerName": "topwear",
+      "sourceLayerBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "cropWithinLayer": [
+        439,
+        560,
+        636,
+        733
+      ],
+      "canvasBox": [
+        439,
+        560,
+        636,
+        733
+      ],
+      "sha256": "ce8aaa7196cdccb19ccdf8e841fc7a14393d8ebf0617c1c0d1181d10a4ab317a",
+      "croppedAwayAlphaPixels": 22749,
+      "croppedAwayMaxAlpha": 25,
+      "changedRetainedRGBA": 0,
+      "visible": true
+    },
+    {
+      "key": "shorts",
+      "layerName": "bottomwear",
+      "sourceLayerBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "cropWithinLayer": [
+        428,
+        680,
+        645,
+        800
+      ],
+      "canvasBox": [
+        428,
+        680,
+        645,
+        800
+      ],
+      "sha256": "148159f8d74a6fcc98792ca1aa5370f529a4459d8e7e45b24c2dbb0f29ce9287",
+      "croppedAwayAlphaPixels": 33474,
+      "croppedAwayMaxAlpha": 24,
+      "changedRetainedRGBA": 0,
+      "visible": true
+    },
+    {
+      "key": "arm_near",
+      "layerName": "handwear-r",
+      "sourceLayerBox": [
+        382,
+        578,
+        511,
+        767
+      ],
+      "cropWithinLayer": [
+        0,
+        0,
+        129,
+        189
+      ],
+      "canvasBox": [
+        382,
+        578,
+        511,
+        767
+      ],
+      "sha256": "2915fc922704e45c5b5001ab40d5800875b59b7d55dfbe83dfeb0d852128f520",
+      "croppedAwayAlphaPixels": 0,
+      "croppedAwayMaxAlpha": 0,
+      "changedRetainedRGBA": 0,
+      "visible": true
+    },
+    {
+      "key": "head",
+      "layerName": "headwear",
+      "sourceLayerBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "cropWithinLayer": [
+        246,
+        131,
+        759,
+        601
+      ],
+      "canvasBox": [
+        246,
+        131,
+        759,
+        601
+      ],
+      "sha256": "8eb46d5383950e5199507b1816493357489cd7b242c3eefa48bf8adbc2ee8f1e",
+      "croppedAwayAlphaPixels": 11902,
+      "croppedAwayMaxAlpha": 151,
+      "changedRetainedRGBA": 0,
+      "visible": true
+    }
+  ],
+  "noGeneratedPixels": true,
+  "legsIndependent": false
+}

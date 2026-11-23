@@ -1,0 +1,22 @@
+{
+  "acceptedRigEquivalent": true,
+  "roundtripChecked": true,
+  "technicalPass": true,
+  "sourceBoneDefinitionsUnchangedExceptRoot": true,
+  "sourceIKUnchanged": true,
+  "sourceBoneTimelinesUnchanged": true,
+  "bones": 16,
+  "ik": 4,
+  "textures": 7,
+  "samples": 93,
+  "sourcePoseError": 1.7112135109858138e-13,
+  "roundtripPoseError": 1.7112135109858138e-13,
+  "matrixError": 5.329070518200751e-15,
+  "maxRoundtripVertexDelta": 0.01141357421875,
+  "maxIKEndpointError": 0.0000015751358133876257,
+  "staticPSDVertexError": 0.00002751821729014209,
+  "maxLoopVertexDelta": 0,
+  "invertedTriangleObservations": 0,
+  "inversions": [],
+  "humanAccepted": false
+}

@@ -1,0 +1,136 @@
+{
+  "source": "I:\\彩虹AI\\design\\AI玩具_design\\美术资源\\棉花娃娃\\右前图层.psd",
+  "sha256": "6b4cc52ada9e3c71ab4c6e8ef53f2857ac72c82cb105907259d64a81e76b4f50",
+  "canvas": [
+    1024,
+    1024
+  ],
+  "layers": [
+    {
+      "index": 0,
+      "name": "handwear-l",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        559,
+        574,
+        673,
+        735
+      ],
+      "solidBounds": [
+        2,
+        1,
+        113,
+        160
+      ]
+    },
+    {
+      "index": 1,
+      "name": "legwear-l",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        521,
+        694,
+        655,
+        864
+      ],
+      "solidBounds": [
+        6,
+        0,
+        132,
+        168
+      ]
+    },
+    {
+      "index": 2,
+      "name": "legwear-r",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        417,
+        713,
+        546,
+        889
+      ],
+      "solidBounds": [
+        4,
+        4,
+        125,
+        174
+      ]
+    },
+    {
+      "index": 3,
+      "name": "topwear",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "solidBounds": [
+        447,
+        568,
+        628,
+        725
+      ]
+    },
+    {
+      "index": 4,
+      "name": "bottomwear",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "solidBounds": [
+        436,
+        688,
+        637,
+        792
+      ]
+    },
+    {
+      "index": 5,
+      "name": "handwear-r",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        382,
+        578,
+        511,
+        767
+      ],
+      "solidBounds": [
+        1,
+        0,
+        128,
+        189
+      ]
+    },
+    {
+      "index": 6,
+      "name": "headwear",
+      "kind": "pixel",
+      "visible": true,
+      "bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "solidBounds": [
+        0,
+        0,
+        1024,
+        1024
+      ]
+    }
+  ]
+}

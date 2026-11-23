@@ -1,0 +1,144 @@
+skin_0.png
+size: 2020,368
+filter: Linear,Linear
+repeat: none
+arm_far_79
+  rotate: false
+  xy: 4, 280
+  size: 37, 84
+  orig: 37, 84
+  offset: 0, 0
+  index: -1
+arm_far_85
+  rotate: false
+  xy: 45, 280
+  size: 37, 84
+  orig: 37, 84
+  offset: 0, 0
+  index: -1
+arm_near_63
+  rotate: false
+  xy: 1697, 4
+  size: 90, 105
+  orig: 90, 105
+  offset: 0, 0
+  index: -1
+arm_near_74
+  rotate: false
+  xy: 1791, 4
+  size: 53, 104
+  orig: 53, 104
+  offset: 0, 0
+  index: -1
+arm_near_83
+  rotate: false
+  xy: 1597, 4
+  size: 96, 106
+  orig: 96, 106
+  offset: 0, 0
+  index: -1
+head_72
+  rotate: false
+  xy: 4, 4
+  size: 339, 272
+  orig: 339, 272
+  offset: 0, 0
+  index: -1
+leg_far_67
+  rotate: false
+  xy: 1396, 4
+  size: 75, 123
+  orig: 75, 123
+  offset: 0, 0
+  index: -1
+leg_far_81
+  rotate: false
+  xy: 1109, 4
+  size: 98, 154
+  orig: 98, 154
+  offset: 0, 0
+  index: -1
+leg_far_85
+  rotate: false
+  xy: 1211, 4
+  size: 94, 152
+  orig: 94, 152
+  offset: 0, 0
+  index: -1
+leg_near_72
+  rotate: false
+  xy: 929, 4
+  size: 96, 176
+  orig: 96, 176
+  offset: 0, 0
+  index: -1
+leg_near_77
+  rotate: false
+  xy: 1309, 4
+  size: 83, 149
+  orig: 83, 149
+  offset: 0, 0
+  index: -1
+leg_near_84
+  rotate: false
+  xy: 803, 4
+  size: 122, 184
+  orig: 122, 184
+  offset: 0, 0
+  index: -1
+outfit_bib
+  rotate: false
+  xy: 347, 4
+  size: 302, 243
+  orig: 302, 243
+  offset: 0, 0
+  index: -1
+outfit_pants_far
+  rotate: false
+  xy: 86, 280
+  size: 115, 71
+  orig: 115, 71
+  offset: 0, 0
+  index: -1
+outfit_pants_near
+  rotate: false
+  xy: 1848, 4
+  size: 166, 87
+  orig: 166, 87
+  offset: 0, 0
+  index: -1
+outfit_sleeve_far
+  rotate: false
+  xy: 1029, 4
+  size: 76, 162
+  orig: 76, 162
+  offset: 0, 0
+  index: -1
+outfit_sleeve_near
+  rotate: false
+  xy: 653, 4
+  size: 146, 195
+  orig: 146, 195
+  offset: 0, 0
+  index: -1
+shorts_63
+  rotate: false
+  xy: 205, 280
+  size: 105, 60
+  orig: 105, 60
+  offset: 0, 0
+  index: -1
+shorts_75
+  rotate: false
+  xy: 314, 280
+  size: 88, 60
+  orig: 88, 60
+  offset: 0, 0
+  index: -1
+torso_observed
+  rotate: false
+  xy: 1475, 4
+  size: 118, 114
+  orig: 118, 114
+  offset: 0, 0
+  index: -1

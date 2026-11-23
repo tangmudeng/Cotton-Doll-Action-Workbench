@@ -1,0 +1,21 @@
+{
+  "status": "candidate_pending_visual_review",
+  "humanAccepted": false,
+  "roundtripChecked": true,
+  "bones": 16,
+  "ik": 4,
+  "attachments": 7,
+  "topologyMatchesAccepted": true,
+  "ikConfigMatchesAccepted": true,
+  "poseExtractionAutomatic": false,
+  "samples": 97,
+  "maxSetupError": 0.000016963365755091595,
+  "maxRoundtripVertexDelta": 0.09862899780273438,
+  "maxIKError": 0.00010392369906754636,
+  "maxObservedTargetError": 0.011399509638865851,
+  "maxFootDistanceChange": 0.000012812677599782774,
+  "maxLoopVertexDelta": 0,
+  "invertedTriangleObservations": 0,
+  "flips": [],
+  "technicalPass": true
+}

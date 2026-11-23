@@ -1,0 +1,2125 @@
+{
+  "roundtripPass": true,
+  "geometryPass": false,
+  "productionReady": false,
+  "checks": 230,
+  "frames": 23,
+  "phasesPerFrame": 5,
+  "skins": 2,
+  "bones": 17,
+  "ik": 4,
+  "finite": true,
+  "maxRoundtripVertexDelta": 0.055023193359375,
+  "maxIKEndpointError": 9.375803370802396e-7,
+  "invertedTriangleObservations": 7085,
+  "alphaSupportedInversionObservations": 4231,
+  "inversions": [
+    {
+      "skin": "body/base",
+      "frame": 74,
+      "phase": 0.999,
+      "slot": "arm_far",
+      "count": 2,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "body/base",
+      "frame": 75,
+      "phase": 0,
+      "slot": "arm_far",
+      "count": 2,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 63,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_far",
+      "count": 1,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 63,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_far",
+      "count": 5,
+      "alphaSupported": 5
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 63,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_far",
+      "count": 8,
+      "alphaSupported": 8
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 63,
+      "phase": 0.999,
+      "slot": "outfit_bib",
+      "count": 3,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 64,
+      "phase": 0,
+      "slot": "outfit_sleeve_far",
+      "count": 8,
+      "alphaSupported": 8
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 64,
+      "phase": 0,
+      "slot": "outfit_bib",
+      "count": 3,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 64,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_far",
+      "count": 10,
+      "alphaSupported": 10
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 64,
+      "phase": 0.25,
+      "slot": "outfit_bib",
+      "count": 4,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 64,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_far",
+      "count": 11,
+      "alphaSupported": 11
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 64,
+      "phase": 0.5,
+      "slot": "outfit_bib",
+      "count": 4,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 64,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_far",
+      "count": 11,
+      "alphaSupported": 11
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 64,
+      "phase": 0.75,
+      "slot": "outfit_bib",
+      "count": 5,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 64,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_near",
+      "count": 6,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 64,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_far",
+      "count": 11,
+      "alphaSupported": 11
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 64,
+      "phase": 0.999,
+      "slot": "outfit_bib",
+      "count": 6,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 64,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_near",
+      "count": 11,
+      "alphaSupported": 2
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 65,
+      "phase": 0,
+      "slot": "outfit_sleeve_far",
+      "count": 11,
+      "alphaSupported": 11
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 65,
+      "phase": 0,
+      "slot": "outfit_bib",
+      "count": 6,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 65,
+      "phase": 0,
+      "slot": "outfit_sleeve_near",
+      "count": 11,
+      "alphaSupported": 2
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 65,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_far",
+      "count": 12,
+      "alphaSupported": 12
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 65,
+      "phase": 0.25,
+      "slot": "outfit_bib",
+      "count": 11,
+      "alphaSupported": 3
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 65,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_near",
+      "count": 23,
+      "alphaSupported": 5
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 65,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_far",
+      "count": 13,
+      "alphaSupported": 13
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 65,
+      "phase": 0.5,
+      "slot": "outfit_bib",
+      "count": 15,
+      "alphaSupported": 5
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 65,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_near",
+      "count": 28,
+      "alphaSupported": 8
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 65,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_far",
+      "count": 14,
+      "alphaSupported": 14
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 65,
+      "phase": 0.75,
+      "slot": "outfit_bib",
+      "count": 22,
+      "alphaSupported": 9
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 65,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_near",
+      "count": 34,
+      "alphaSupported": 14
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 65,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_far",
+      "count": 16,
+      "alphaSupported": 16
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 65,
+      "phase": 0.999,
+      "slot": "outfit_bib",
+      "count": 29,
+      "alphaSupported": 13
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 65,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_near",
+      "count": 39,
+      "alphaSupported": 19
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 66,
+      "phase": 0,
+      "slot": "outfit_sleeve_far",
+      "count": 16,
+      "alphaSupported": 16
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 66,
+      "phase": 0,
+      "slot": "outfit_bib",
+      "count": 29,
+      "alphaSupported": 13
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 66,
+      "phase": 0,
+      "slot": "outfit_sleeve_near",
+      "count": 39,
+      "alphaSupported": 19
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 66,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_far",
+      "count": 18,
+      "alphaSupported": 18
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 66,
+      "phase": 0.25,
+      "slot": "outfit_bib",
+      "count": 32,
+      "alphaSupported": 16
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 66,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_near",
+      "count": 40,
+      "alphaSupported": 20
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 66,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_far",
+      "count": 21,
+      "alphaSupported": 21
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 66,
+      "phase": 0.5,
+      "slot": "outfit_bib",
+      "count": 35,
+      "alphaSupported": 18
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 66,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_near",
+      "count": 41,
+      "alphaSupported": 21
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 66,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_far",
+      "count": 23,
+      "alphaSupported": 23
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 66,
+      "phase": 0.75,
+      "slot": "outfit_bib",
+      "count": 35,
+      "alphaSupported": 18
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 66,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_near",
+      "count": 41,
+      "alphaSupported": 21
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 66,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_far",
+      "count": 26,
+      "alphaSupported": 26
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 66,
+      "phase": 0.999,
+      "slot": "outfit_bib",
+      "count": 37,
+      "alphaSupported": 19
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 66,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_near",
+      "count": 42,
+      "alphaSupported": 22
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 67,
+      "phase": 0,
+      "slot": "outfit_sleeve_far",
+      "count": 26,
+      "alphaSupported": 26
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 67,
+      "phase": 0,
+      "slot": "outfit_bib",
+      "count": 37,
+      "alphaSupported": 19
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 67,
+      "phase": 0,
+      "slot": "outfit_sleeve_near",
+      "count": 42,
+      "alphaSupported": 22
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 67,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_far",
+      "count": 27,
+      "alphaSupported": 27
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 67,
+      "phase": 0.25,
+      "slot": "outfit_bib",
+      "count": 41,
+      "alphaSupported": 20
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 67,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_near",
+      "count": 45,
+      "alphaSupported": 25
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 67,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_far",
+      "count": 28,
+      "alphaSupported": 28
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 67,
+      "phase": 0.5,
+      "slot": "outfit_bib",
+      "count": 43,
+      "alphaSupported": 21
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 67,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_near",
+      "count": 47,
+      "alphaSupported": 26
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 67,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_far",
+      "count": 28,
+      "alphaSupported": 28
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 67,
+      "phase": 0.75,
+      "slot": "outfit_bib",
+      "count": 45,
+      "alphaSupported": 23
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 67,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_near",
+      "count": 49,
+      "alphaSupported": 28
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 67,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_far",
+      "count": 28,
+      "alphaSupported": 28
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 67,
+      "phase": 0.999,
+      "slot": "outfit_bib",
+      "count": 46,
+      "alphaSupported": 24
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 67,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_near",
+      "count": 51,
+      "alphaSupported": 29
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 68,
+      "phase": 0,
+      "slot": "outfit_sleeve_far",
+      "count": 28,
+      "alphaSupported": 28
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 68,
+      "phase": 0,
+      "slot": "outfit_bib",
+      "count": 46,
+      "alphaSupported": 24
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 68,
+      "phase": 0,
+      "slot": "outfit_sleeve_near",
+      "count": 51,
+      "alphaSupported": 29
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 68,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_far",
+      "count": 28,
+      "alphaSupported": 28
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 68,
+      "phase": 0.25,
+      "slot": "outfit_bib",
+      "count": 46,
+      "alphaSupported": 24
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 68,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_near",
+      "count": 52,
+      "alphaSupported": 29
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 68,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_far",
+      "count": 28,
+      "alphaSupported": 28
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 68,
+      "phase": 0.5,
+      "slot": "outfit_bib",
+      "count": 48,
+      "alphaSupported": 26
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 68,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_near",
+      "count": 54,
+      "alphaSupported": 31
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 68,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_far",
+      "count": 28,
+      "alphaSupported": 28
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 68,
+      "phase": 0.75,
+      "slot": "outfit_bib",
+      "count": 49,
+      "alphaSupported": 27
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 68,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_near",
+      "count": 56,
+      "alphaSupported": 33
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 68,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_far",
+      "count": 28,
+      "alphaSupported": 28
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 68,
+      "phase": 0.999,
+      "slot": "outfit_bib",
+      "count": 49,
+      "alphaSupported": 27
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 68,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_near",
+      "count": 57,
+      "alphaSupported": 33
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 69,
+      "phase": 0,
+      "slot": "outfit_sleeve_far",
+      "count": 28,
+      "alphaSupported": 28
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 69,
+      "phase": 0,
+      "slot": "outfit_bib",
+      "count": 49,
+      "alphaSupported": 27
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 69,
+      "phase": 0,
+      "slot": "outfit_sleeve_near",
+      "count": 57,
+      "alphaSupported": 33
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 69,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_far",
+      "count": 28,
+      "alphaSupported": 28
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 69,
+      "phase": 0.25,
+      "slot": "outfit_bib",
+      "count": 49,
+      "alphaSupported": 27
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 69,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_near",
+      "count": 57,
+      "alphaSupported": 33
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 69,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_far",
+      "count": 28,
+      "alphaSupported": 28
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 69,
+      "phase": 0.5,
+      "slot": "outfit_bib",
+      "count": 49,
+      "alphaSupported": 27
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 69,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_near",
+      "count": 57,
+      "alphaSupported": 33
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 69,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_far",
+      "count": 28,
+      "alphaSupported": 28
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 69,
+      "phase": 0.75,
+      "slot": "outfit_bib",
+      "count": 49,
+      "alphaSupported": 27
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 69,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_near",
+      "count": 57,
+      "alphaSupported": 33
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 69,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_far",
+      "count": 29,
+      "alphaSupported": 29
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 69,
+      "phase": 0.999,
+      "slot": "outfit_bib",
+      "count": 50,
+      "alphaSupported": 27
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 69,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_near",
+      "count": 57,
+      "alphaSupported": 33
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 70,
+      "phase": 0,
+      "slot": "outfit_sleeve_far",
+      "count": 29,
+      "alphaSupported": 29
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 70,
+      "phase": 0,
+      "slot": "outfit_bib",
+      "count": 50,
+      "alphaSupported": 27
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 70,
+      "phase": 0,
+      "slot": "outfit_sleeve_near",
+      "count": 57,
+      "alphaSupported": 33
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 70,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_far",
+      "count": 29,
+      "alphaSupported": 29
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 70,
+      "phase": 0.25,
+      "slot": "outfit_bib",
+      "count": 50,
+      "alphaSupported": 27
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 70,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_near",
+      "count": 57,
+      "alphaSupported": 33
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 70,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_far",
+      "count": 29,
+      "alphaSupported": 29
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 70,
+      "phase": 0.5,
+      "slot": "outfit_bib",
+      "count": 50,
+      "alphaSupported": 27
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 70,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_near",
+      "count": 57,
+      "alphaSupported": 33
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 70,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_far",
+      "count": 30,
+      "alphaSupported": 30
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 70,
+      "phase": 0.75,
+      "slot": "outfit_bib",
+      "count": 50,
+      "alphaSupported": 27
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 70,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_near",
+      "count": 57,
+      "alphaSupported": 33
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 70,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_far",
+      "count": 30,
+      "alphaSupported": 30
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 70,
+      "phase": 0.999,
+      "slot": "outfit_bib",
+      "count": 50,
+      "alphaSupported": 27
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 70,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_near",
+      "count": 57,
+      "alphaSupported": 33
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 71,
+      "phase": 0,
+      "slot": "outfit_sleeve_far",
+      "count": 30,
+      "alphaSupported": 30
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 71,
+      "phase": 0,
+      "slot": "outfit_bib",
+      "count": 50,
+      "alphaSupported": 27
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 71,
+      "phase": 0,
+      "slot": "outfit_sleeve_near",
+      "count": 57,
+      "alphaSupported": 33
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 71,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_far",
+      "count": 31,
+      "alphaSupported": 31
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 71,
+      "phase": 0.25,
+      "slot": "outfit_bib",
+      "count": 50,
+      "alphaSupported": 26
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 71,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_near",
+      "count": 56,
+      "alphaSupported": 32
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 71,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_far",
+      "count": 31,
+      "alphaSupported": 31
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 71,
+      "phase": 0.5,
+      "slot": "outfit_bib",
+      "count": 50,
+      "alphaSupported": 26
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 71,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_near",
+      "count": 56,
+      "alphaSupported": 32
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 71,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_far",
+      "count": 31,
+      "alphaSupported": 31
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 71,
+      "phase": 0.75,
+      "slot": "outfit_bib",
+      "count": 49,
+      "alphaSupported": 25
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 71,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_near",
+      "count": 55,
+      "alphaSupported": 31
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 71,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_far",
+      "count": 31,
+      "alphaSupported": 31
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 71,
+      "phase": 0.999,
+      "slot": "outfit_bib",
+      "count": 49,
+      "alphaSupported": 25
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 71,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_near",
+      "count": 55,
+      "alphaSupported": 31
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 72,
+      "phase": 0,
+      "slot": "outfit_sleeve_far",
+      "count": 31,
+      "alphaSupported": 31
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 72,
+      "phase": 0,
+      "slot": "outfit_bib",
+      "count": 49,
+      "alphaSupported": 25
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 72,
+      "phase": 0,
+      "slot": "outfit_sleeve_near",
+      "count": 55,
+      "alphaSupported": 31
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 72,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_far",
+      "count": 31,
+      "alphaSupported": 31
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 72,
+      "phase": 0.25,
+      "slot": "outfit_bib",
+      "count": 49,
+      "alphaSupported": 25
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 72,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_near",
+      "count": 54,
+      "alphaSupported": 31
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 72,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_far",
+      "count": 30,
+      "alphaSupported": 30
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 72,
+      "phase": 0.5,
+      "slot": "outfit_bib",
+      "count": 47,
+      "alphaSupported": 24
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 72,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_near",
+      "count": 52,
+      "alphaSupported": 29
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 72,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_far",
+      "count": 30,
+      "alphaSupported": 30
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 72,
+      "phase": 0.75,
+      "slot": "outfit_bib",
+      "count": 46,
+      "alphaSupported": 23
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 72,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_near",
+      "count": 51,
+      "alphaSupported": 28
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 72,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_far",
+      "count": 29,
+      "alphaSupported": 29
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 72,
+      "phase": 0.999,
+      "slot": "outfit_bib",
+      "count": 46,
+      "alphaSupported": 23
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 72,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_near",
+      "count": 51,
+      "alphaSupported": 28
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 73,
+      "phase": 0,
+      "slot": "outfit_sleeve_far",
+      "count": 29,
+      "alphaSupported": 29
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 73,
+      "phase": 0,
+      "slot": "outfit_bib",
+      "count": 46,
+      "alphaSupported": 23
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 73,
+      "phase": 0,
+      "slot": "outfit_sleeve_near",
+      "count": 51,
+      "alphaSupported": 28
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 73,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_far",
+      "count": 28,
+      "alphaSupported": 28
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 73,
+      "phase": 0.25,
+      "slot": "outfit_bib",
+      "count": 44,
+      "alphaSupported": 22
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 73,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_near",
+      "count": 50,
+      "alphaSupported": 27
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 73,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_far",
+      "count": 28,
+      "alphaSupported": 28
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 73,
+      "phase": 0.5,
+      "slot": "outfit_bib",
+      "count": 44,
+      "alphaSupported": 22
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 73,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_near",
+      "count": 50,
+      "alphaSupported": 27
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 73,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_far",
+      "count": 26,
+      "alphaSupported": 26
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 73,
+      "phase": 0.75,
+      "slot": "outfit_bib",
+      "count": 42,
+      "alphaSupported": 22
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 73,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_near",
+      "count": 49,
+      "alphaSupported": 27
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 73,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_far",
+      "count": 24,
+      "alphaSupported": 24
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 73,
+      "phase": 0.999,
+      "slot": "outfit_bib",
+      "count": 42,
+      "alphaSupported": 23
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 73,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_near",
+      "count": 50,
+      "alphaSupported": 28
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 74,
+      "phase": 0,
+      "slot": "outfit_sleeve_far",
+      "count": 24,
+      "alphaSupported": 24
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 74,
+      "phase": 0,
+      "slot": "outfit_bib",
+      "count": 42,
+      "alphaSupported": 23
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 74,
+      "phase": 0,
+      "slot": "outfit_sleeve_near",
+      "count": 50,
+      "alphaSupported": 28
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 74,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_far",
+      "count": 23,
+      "alphaSupported": 23
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 74,
+      "phase": 0.25,
+      "slot": "outfit_bib",
+      "count": 40,
+      "alphaSupported": 21
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 74,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_near",
+      "count": 47,
+      "alphaSupported": 26
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 74,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_far",
+      "count": 22,
+      "alphaSupported": 22
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 74,
+      "phase": 0.5,
+      "slot": "outfit_bib",
+      "count": 39,
+      "alphaSupported": 20
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 74,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_near",
+      "count": 46,
+      "alphaSupported": 25
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 74,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_far",
+      "count": 22,
+      "alphaSupported": 22
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 74,
+      "phase": 0.75,
+      "slot": "outfit_bib",
+      "count": 35,
+      "alphaSupported": 18
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 74,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_near",
+      "count": 41,
+      "alphaSupported": 21
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 74,
+      "phase": 0.999,
+      "slot": "arm_far",
+      "count": 2,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 74,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_far",
+      "count": 21,
+      "alphaSupported": 21
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 74,
+      "phase": 0.999,
+      "slot": "outfit_bib",
+      "count": 34,
+      "alphaSupported": 17
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 74,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_near",
+      "count": 41,
+      "alphaSupported": 21
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 75,
+      "phase": 0,
+      "slot": "arm_far",
+      "count": 2,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 75,
+      "phase": 0,
+      "slot": "outfit_sleeve_far",
+      "count": 21,
+      "alphaSupported": 21
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 75,
+      "phase": 0,
+      "slot": "outfit_bib",
+      "count": 34,
+      "alphaSupported": 17
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 75,
+      "phase": 0,
+      "slot": "outfit_sleeve_near",
+      "count": 41,
+      "alphaSupported": 21
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 75,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_far",
+      "count": 20,
+      "alphaSupported": 20
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 75,
+      "phase": 0.25,
+      "slot": "outfit_bib",
+      "count": 33,
+      "alphaSupported": 17
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 75,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_near",
+      "count": 40,
+      "alphaSupported": 20
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 75,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_far",
+      "count": 18,
+      "alphaSupported": 18
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 75,
+      "phase": 0.5,
+      "slot": "outfit_bib",
+      "count": 30,
+      "alphaSupported": 14
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 75,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_near",
+      "count": 40,
+      "alphaSupported": 20
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 75,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_far",
+      "count": 14,
+      "alphaSupported": 14
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 75,
+      "phase": 0.75,
+      "slot": "outfit_bib",
+      "count": 24,
+      "alphaSupported": 11
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 75,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_near",
+      "count": 36,
+      "alphaSupported": 16
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 75,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_far",
+      "count": 11,
+      "alphaSupported": 11
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 75,
+      "phase": 0.999,
+      "slot": "outfit_bib",
+      "count": 16,
+      "alphaSupported": 5
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 75,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_near",
+      "count": 31,
+      "alphaSupported": 11
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 76,
+      "phase": 0,
+      "slot": "outfit_sleeve_far",
+      "count": 11,
+      "alphaSupported": 11
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 76,
+      "phase": 0,
+      "slot": "outfit_bib",
+      "count": 16,
+      "alphaSupported": 5
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 76,
+      "phase": 0,
+      "slot": "outfit_sleeve_near",
+      "count": 31,
+      "alphaSupported": 11
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 76,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_far",
+      "count": 9,
+      "alphaSupported": 9
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 76,
+      "phase": 0.25,
+      "slot": "outfit_bib",
+      "count": 14,
+      "alphaSupported": 4
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 76,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_near",
+      "count": 29,
+      "alphaSupported": 9
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 76,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_far",
+      "count": 5,
+      "alphaSupported": 5
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 76,
+      "phase": 0.5,
+      "slot": "outfit_bib",
+      "count": 12,
+      "alphaSupported": 4
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 76,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_near",
+      "count": 29,
+      "alphaSupported": 9
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 76,
+      "phase": 0.75,
+      "slot": "outfit_bib",
+      "count": 10,
+      "alphaSupported": 4
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 76,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_near",
+      "count": 29,
+      "alphaSupported": 9
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 76,
+      "phase": 0.999,
+      "slot": "outfit_bib",
+      "count": 10,
+      "alphaSupported": 4
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 76,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_near",
+      "count": 29,
+      "alphaSupported": 9
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 77,
+      "phase": 0,
+      "slot": "outfit_bib",
+      "count": 10,
+      "alphaSupported": 4
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 77,
+      "phase": 0,
+      "slot": "outfit_sleeve_near",
+      "count": 29,
+      "alphaSupported": 9
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 77,
+      "phase": 0.25,
+      "slot": "outfit_bib",
+      "count": 5,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 77,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_near",
+      "count": 21,
+      "alphaSupported": 4
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 77,
+      "phase": 0.5,
+      "slot": "outfit_bib",
+      "count": 2,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 77,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_near",
+      "count": 11,
+      "alphaSupported": 2
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 77,
+      "phase": 0.75,
+      "slot": "outfit_bib",
+      "count": 1,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 77,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_near",
+      "count": 6,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 79,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_far",
+      "count": 3,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 79,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_far",
+      "count": 4,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 79,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_far",
+      "count": 6,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 79,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_far",
+      "count": 10,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 80,
+      "phase": 0,
+      "slot": "outfit_sleeve_far",
+      "count": 10,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 80,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_far",
+      "count": 11,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 80,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_far",
+      "count": 11,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 80,
+      "phase": 0.5,
+      "slot": "outfit_pants_far",
+      "count": 2,
+      "alphaSupported": 2
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 80,
+      "phase": 0.5,
+      "slot": "outfit_pants_near",
+      "count": 2,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 80,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_far",
+      "count": 13,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 80,
+      "phase": 0.75,
+      "slot": "outfit_pants_far",
+      "count": 6,
+      "alphaSupported": 4
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 80,
+      "phase": 0.75,
+      "slot": "outfit_pants_near",
+      "count": 6,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 80,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_far",
+      "count": 13,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 80,
+      "phase": 0.999,
+      "slot": "outfit_pants_far",
+      "count": 8,
+      "alphaSupported": 5
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 80,
+      "phase": 0.999,
+      "slot": "outfit_pants_near",
+      "count": 8,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 81,
+      "phase": 0,
+      "slot": "outfit_sleeve_far",
+      "count": 13,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 81,
+      "phase": 0,
+      "slot": "outfit_pants_far",
+      "count": 8,
+      "alphaSupported": 5
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 81,
+      "phase": 0,
+      "slot": "outfit_pants_near",
+      "count": 8,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 81,
+      "phase": 0.25,
+      "slot": "outfit_sleeve_far",
+      "count": 10,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 81,
+      "phase": 0.25,
+      "slot": "outfit_pants_far",
+      "count": 8,
+      "alphaSupported": 5
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 81,
+      "phase": 0.25,
+      "slot": "outfit_pants_near",
+      "count": 8,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 81,
+      "phase": 0.5,
+      "slot": "outfit_sleeve_far",
+      "count": 6,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 81,
+      "phase": 0.5,
+      "slot": "outfit_pants_far",
+      "count": 8,
+      "alphaSupported": 5
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 81,
+      "phase": 0.5,
+      "slot": "outfit_pants_near",
+      "count": 8,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 81,
+      "phase": 0.75,
+      "slot": "outfit_sleeve_far",
+      "count": 4,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 81,
+      "phase": 0.75,
+      "slot": "outfit_pants_far",
+      "count": 8,
+      "alphaSupported": 5
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 81,
+      "phase": 0.75,
+      "slot": "outfit_pants_near",
+      "count": 8,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 81,
+      "phase": 0.999,
+      "slot": "outfit_sleeve_far",
+      "count": 3,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 81,
+      "phase": 0.999,
+      "slot": "outfit_pants_far",
+      "count": 9,
+      "alphaSupported": 5
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 81,
+      "phase": 0.999,
+      "slot": "outfit_pants_near",
+      "count": 9,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 82,
+      "phase": 0,
+      "slot": "outfit_sleeve_far",
+      "count": 3,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 82,
+      "phase": 0,
+      "slot": "outfit_pants_far",
+      "count": 9,
+      "alphaSupported": 5
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 82,
+      "phase": 0,
+      "slot": "outfit_pants_near",
+      "count": 9,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 82,
+      "phase": 0.25,
+      "slot": "outfit_pants_far",
+      "count": 8,
+      "alphaSupported": 5
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 82,
+      "phase": 0.25,
+      "slot": "outfit_pants_near",
+      "count": 8,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 82,
+      "phase": 0.5,
+      "slot": "outfit_pants_far",
+      "count": 8,
+      "alphaSupported": 5
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 82,
+      "phase": 0.5,
+      "slot": "outfit_pants_near",
+      "count": 8,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 82,
+      "phase": 0.75,
+      "slot": "outfit_pants_far",
+      "count": 6,
+      "alphaSupported": 4
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 82,
+      "phase": 0.75,
+      "slot": "outfit_pants_near",
+      "count": 6,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 82,
+      "phase": 0.999,
+      "slot": "outfit_pants_far",
+      "count": 6,
+      "alphaSupported": 4
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 82,
+      "phase": 0.999,
+      "slot": "outfit_pants_near",
+      "count": 6,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 83,
+      "phase": 0,
+      "slot": "outfit_pants_far",
+      "count": 6,
+      "alphaSupported": 4
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 83,
+      "phase": 0,
+      "slot": "outfit_pants_near",
+      "count": 6,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 83,
+      "phase": 0.25,
+      "slot": "outfit_pants_far",
+      "count": 6,
+      "alphaSupported": 4
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 83,
+      "phase": 0.25,
+      "slot": "outfit_pants_near",
+      "count": 6,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 83,
+      "phase": 0.5,
+      "slot": "outfit_pants_far",
+      "count": 8,
+      "alphaSupported": 5
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 83,
+      "phase": 0.5,
+      "slot": "outfit_pants_near",
+      "count": 8,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 83,
+      "phase": 0.75,
+      "slot": "outfit_pants_far",
+      "count": 9,
+      "alphaSupported": 5
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 83,
+      "phase": 0.75,
+      "slot": "outfit_pants_near",
+      "count": 9,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 83,
+      "phase": 0.999,
+      "slot": "outfit_pants_far",
+      "count": 10,
+      "alphaSupported": 5
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 83,
+      "phase": 0.999,
+      "slot": "outfit_pants_near",
+      "count": 10,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 84,
+      "phase": 0,
+      "slot": "outfit_pants_far",
+      "count": 10,
+      "alphaSupported": 5
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 84,
+      "phase": 0,
+      "slot": "outfit_pants_near",
+      "count": 10,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 84,
+      "phase": 0.25,
+      "slot": "outfit_pants_far",
+      "count": 9,
+      "alphaSupported": 5
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 84,
+      "phase": 0.25,
+      "slot": "outfit_pants_near",
+      "count": 9,
+      "alphaSupported": 1
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 84,
+      "phase": 0.5,
+      "slot": "outfit_pants_far",
+      "count": 6,
+      "alphaSupported": 4
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 84,
+      "phase": 0.5,
+      "slot": "outfit_pants_near",
+      "count": 6,
+      "alphaSupported": 1
+    }
+  ],
+  "visualAccepted": false,
+  "secondVideoValidated": false,
+  "meaning": "Roundtrip and endpoint consistency only. Alpha-supported inversions require review; diagnostic counts are observations, not unique visible defects."
+}

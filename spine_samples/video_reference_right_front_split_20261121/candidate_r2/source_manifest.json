@@ -1,0 +1,201 @@
+{
+  "source": "I:\\彩虹AI\\design\\AI玩具_design\\美术资源\\棉花娃娃\\右前图层.psd",
+  "sha256": "ba7c6d3b0b1bb1c5521184257c2f2f2592eda9f098ee4a2e04e1eb8a6ebbe8cd",
+  "canvas": [
+    1024,
+    1024
+  ],
+  "parts": [
+    {
+      "key": "arm_far",
+      "layerName": "handwear-l",
+      "sourceLayerBox": [
+        559,
+        574,
+        673,
+        735
+      ],
+      "cropWithinLayer": [
+        0,
+        0,
+        114,
+        161
+      ],
+      "canvasBox": [
+        559,
+        574,
+        673,
+        735
+      ],
+      "sha256": "e435af8c228bf8b2360f7105310b5ceba0804b5c718fc823a958beab32f0da31",
+      "croppedAwayAlphaPixels": 0,
+      "croppedAwayMaxAlpha": 0,
+      "changedRetainedRGBA": 0,
+      "visible": true
+    },
+    {
+      "key": "leg_near",
+      "layerName": "legwear-r",
+      "sourceLayerBox": [
+        390,
+        691,
+        565,
+        936
+      ],
+      "cropWithinLayer": [
+        23,
+        5,
+        159,
+        200
+      ],
+      "canvasBox": [
+        413,
+        696,
+        549,
+        891
+      ],
+      "sha256": "0461bb6aa38a102a065b0e156859b781edfca045f3cb7d08a228fc391d0af4c6",
+      "croppedAwayAlphaPixels": 78,
+      "croppedAwayMaxAlpha": 1,
+      "changedRetainedRGBA": 0,
+      "visible": true
+    },
+    {
+      "key": "leg_far",
+      "layerName": "legwear-l",
+      "sourceLayerBox": [
+        525,
+        689,
+        682,
+        888
+      ],
+      "cropWithinLayer": [
+        2,
+        7,
+        124,
+        183
+      ],
+      "canvasBox": [
+        527,
+        696,
+        649,
+        872
+      ],
+      "sha256": "fee4e4e148b7c895f03d7f874fbcfbdc1227de3c6b282edfa8e255f7af7b57dd",
+      "croppedAwayAlphaPixels": 33,
+      "croppedAwayMaxAlpha": 1,
+      "changedRetainedRGBA": 0,
+      "visible": true
+    },
+    {
+      "key": "torso",
+      "layerName": "topwear",
+      "sourceLayerBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "cropWithinLayer": [
+        439,
+        560,
+        636,
+        733
+      ],
+      "canvasBox": [
+        439,
+        560,
+        636,
+        733
+      ],
+      "sha256": "ce8aaa7196cdccb19ccdf8e841fc7a14393d8ebf0617c1c0d1181d10a4ab317a",
+      "croppedAwayAlphaPixels": 22749,
+      "croppedAwayMaxAlpha": 25,
+      "changedRetainedRGBA": 0,
+      "visible": true
+    },
+    {
+      "key": "shorts",
+      "layerName": "bottomwear",
+      "sourceLayerBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "cropWithinLayer": [
+        428,
+        680,
+        645,
+        800
+      ],
+      "canvasBox": [
+        428,
+        680,
+        645,
+        800
+      ],
+      "sha256": "148159f8d74a6fcc98792ca1aa5370f529a4459d8e7e45b24c2dbb0f29ce9287",
+      "croppedAwayAlphaPixels": 33474,
+      "croppedAwayMaxAlpha": 24,
+      "changedRetainedRGBA": 0,
+      "visible": true
+    },
+    {
+      "key": "arm_near",
+      "layerName": "handwear-r",
+      "sourceLayerBox": [
+        382,
+        578,
+        511,
+        767
+      ],
+      "cropWithinLayer": [
+        0,
+        0,
+        129,
+        189
+      ],
+      "canvasBox": [
+        382,
+        578,
+        511,
+        767
+      ],
+      "sha256": "2915fc922704e45c5b5001ab40d5800875b59b7d55dfbe83dfeb0d852128f520",
+      "croppedAwayAlphaPixels": 0,
+      "croppedAwayMaxAlpha": 0,
+      "changedRetainedRGBA": 0,
+      "visible": true
+    },
+    {
+      "key": "head",
+      "layerName": "headwear",
+      "sourceLayerBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "cropWithinLayer": [
+        246,
+        131,
+        759,
+        601
+      ],
+      "canvasBox": [
+        246,
+        131,
+        759,
+        601
+      ],
+      "sha256": "8eb46d5383950e5199507b1816493357489cd7b242c3eefa48bf8adbc2ee8f1e",
+      "croppedAwayAlphaPixels": 11902,
+      "croppedAwayMaxAlpha": 151,
+      "changedRetainedRGBA": 0,
+      "visible": true
+    }
+  ],
+  "noGeneratedPixels": true,
+  "legsIndependent": true
+}

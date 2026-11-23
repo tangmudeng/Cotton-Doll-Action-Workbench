@@ -1,0 +1,19 @@
+{
+  "attachments": 7,
+  "uniqueImages": 7,
+  "exactDuplicates": 0,
+  "pages": [
+    {
+      "file": "skin_0.png",
+      "width": 892,
+      "height": 280,
+      "rgbaBytes": 999040,
+      "pngBytes": 146407
+    }
+  ],
+  "rgbaBytes": 999040,
+  "pngBytes": 146407,
+  "mode": "bounded_reusable_mesh_experiment",
+  "wardrobeReady": false,
+  "explanation": "逐帧源像素复现；仅完全相同可见RGBA去重，不代表可复用换装资产。"
+}

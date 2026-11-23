@@ -1,0 +1,4 @@
+source_snapshot.psd
+__pycache__/
+video_fit/walk_geometry.json
+video_fit/walk_updated_feet_r*.spine

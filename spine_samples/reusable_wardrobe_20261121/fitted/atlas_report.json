@@ -1,0 +1,19 @@
+{
+  "attachments": 20,
+  "uniqueImages": 20,
+  "exactDuplicates": 0,
+  "pages": [
+    {
+      "file": "skin_0.png",
+      "width": 2020,
+      "height": 368,
+      "rgbaBytes": 2973440,
+      "pngBytes": 365868
+    }
+  ],
+  "rgbaBytes": 2973440,
+  "pngBytes": 365868,
+  "mode": "reusable_mesh_wardrobe_experiment",
+  "wardrobeReady": false,
+  "explanation": "Bounded source textures with continuous bone motion. Visual seams and missing views remain under review."
+}

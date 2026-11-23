@@ -1,0 +1,316 @@
+{
+  "source": "I:\\彩虹AI\\design\\AI玩具_design\\美术资源\\棉花娃娃\\右前¾侧.psd",
+  "sha256": "c75a2cf8e3f23ac6a1f4c44413cd85a886c5f7757ad6daf5e3135ed4a294d523",
+  "canvas": [
+    1024,
+    1024
+  ],
+  "layers": [
+    {
+      "index": 0,
+      "name": "handwear-l",
+      "kind": "pixel",
+      "visible": true,
+      "effectiveVisible": true,
+      "bbox": [
+        559,
+        574,
+        673,
+        735
+      ],
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "group": false,
+      "file": "layers/00.png",
+      "size": [
+        114,
+        161
+      ],
+      "alphaBBox": [
+        0,
+        0,
+        114,
+        161
+      ],
+      "solidBounds": [
+        1,
+        1,
+        113,
+        161
+      ],
+      "componentsAbove100Pixels": [
+        {
+          "area": 11161,
+          "bbox": [
+            1,
+            1,
+            112,
+            160
+          ]
+        }
+      ],
+      "alphaHistogram": {
+        "0": 6841,
+        "1": 15,
+        "2": 30,
+        "16": 11,
+        "255": 10052
+      }
+    },
+    {
+      "index": 1,
+      "name": "legwear",
+      "kind": "pixel",
+      "visible": true,
+      "effectiveVisible": true,
+      "bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "group": false,
+      "file": "layers/01.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "alphaBBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "solidBounds": [
+        420,
+        712,
+        639,
+        885
+      ],
+      "componentsAbove100Pixels": [
+        {
+          "area": 30069,
+          "bbox": [
+            420,
+            712,
+            219,
+            173
+          ]
+        }
+      ],
+      "alphaHistogram": {
+        "0": 1011003,
+        "1": 4108,
+        "2": 662,
+        "16": 14,
+        "255": 27976
+      }
+    },
+    {
+      "index": 2,
+      "name": "topwear",
+      "kind": "pixel",
+      "visible": true,
+      "effectiveVisible": true,
+      "bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "group": false,
+      "file": "layers/02.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "alphaBBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "solidBounds": [
+        447,
+        568,
+        628,
+        725
+      ],
+      "componentsAbove100Pixels": [
+        {
+          "area": 23354,
+          "bbox": [
+            447,
+            568,
+            181,
+            157
+          ]
+        }
+      ],
+      "alphaHistogram": {
+        "0": 1001942,
+        "1": 16810,
+        "2": 2606,
+        "16": 11,
+        "255": 22035
+      }
+    },
+    {
+      "index": 3,
+      "name": "bottomwear",
+      "kind": "pixel",
+      "visible": true,
+      "effectiveVisible": true,
+      "bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "group": false,
+      "file": "layers/03.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "alphaBBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "solidBounds": [
+        436,
+        688,
+        637,
+        792
+      ],
+      "componentsAbove100Pixels": [
+        {
+          "area": 10677,
+          "bbox": [
+            436,
+            688,
+            201,
+            104
+          ]
+        }
+      ],
+      "alphaHistogram": {
+        "0": 1003839,
+        "1": 29958,
+        "2": 1377,
+        "16": 12,
+        "255": 9439
+      }
+    },
+    {
+      "index": 4,
+      "name": "handwear-r",
+      "kind": "pixel",
+      "visible": true,
+      "effectiveVisible": true,
+      "bbox": [
+        382,
+        578,
+        511,
+        767
+      ],
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "group": false,
+      "file": "layers/04.png",
+      "size": [
+        129,
+        189
+      ],
+      "alphaBBox": [
+        0,
+        0,
+        129,
+        189
+      ],
+      "solidBounds": [
+        1,
+        0,
+        128,
+        189
+      ],
+      "componentsAbove100Pixels": [
+        {
+          "area": 14630,
+          "bbox": [
+            1,
+            0,
+            127,
+            189
+          ]
+        }
+      ],
+      "alphaHistogram": {
+        "0": 9230,
+        "1": 37,
+        "2": 44,
+        "16": 14,
+        "255": 13362
+      }
+    },
+    {
+      "index": 5,
+      "name": "headwear",
+      "kind": "pixel",
+      "visible": true,
+      "effectiveVisible": true,
+      "bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "opacity": 255,
+      "blend": "BlendMode.NORMAL",
+      "group": false,
+      "file": "layers/05.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "alphaBBox": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "solidBounds": [
+        254,
+        139,
+        751,
+        593
+      ],
+      "componentsAbove100Pixels": [
+        {
+          "area": 156478,
+          "bbox": [
+            254,
+            139,
+            497,
+            454
+          ]
+        }
+      ],
+      "alphaHistogram": {
+        "0": 877013,
+        "1": 9467,
+        "2": 394,
+        "16": 73,
+        "255": 149743
+      }
+    }
+  ]
+}

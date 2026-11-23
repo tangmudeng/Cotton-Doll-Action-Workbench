@@ -1,0 +1,30 @@
+{
+  "sourcePSD": "ba7c6d3b0b1bb1c5521184257c2f2f2592eda9f098ee4a2e04e1eb8a6ebbe8cd",
+  "acceptedSkeleton": "spine_samples/video_motion_study_20261119/pixel_sync_20261120",
+  "registration": {
+    "scale": 1.68,
+    "offset": [
+      -4.559999999999999,
+      121.12
+    ],
+    "sourceNeck": [
+      449,
+      289
+    ],
+    "psdNeck": [
+      536,
+      582
+    ]
+  },
+  "exactBoneDefinitionsExceptRoot": true,
+  "exactIK": true,
+  "exactBoneTimelines": true,
+  "additionalBones": 0,
+  "animation": "reference_cycle",
+  "newBoneScaleTimelines": false,
+  "newRotationKeys": false,
+  "newAttachmentTimelines": false,
+  "textureCount": 7,
+  "noRepaint": true,
+  "humanAccepted": false
+}

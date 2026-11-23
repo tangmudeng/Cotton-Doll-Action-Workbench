@@ -1,0 +1,242 @@
+[
+  {
+    "part": "arm_far",
+    "sourceFrame": 79,
+    "crop": [
+      497,
+      294,
+      534,
+      378
+    ],
+    "file": "parts/arm_far_79.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false,
+    "sha256": "19327c28ff1cac271f472f0db879604612a74351b00c9987c25ddacd60d0b2c5",
+    "repainted": false,
+    "exposedHiddenAreaComplete": false
+  },
+  {
+    "part": "arm_far",
+    "sourceFrame": 85,
+    "crop": [
+      497,
+      294,
+      534,
+      378
+    ],
+    "file": "parts/arm_far_85.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false,
+    "sha256": "0f0242ea8ddc417d5179eb0d753b5ee156b10e3866278b26eb2cf7185513e654",
+    "repainted": false,
+    "exposedHiddenAreaComplete": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 67,
+    "crop": [
+      443,
+      331,
+      518,
+      454
+    ],
+    "file": "parts/leg_far_67.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false,
+    "sha256": "d60cb1efee4b27a1a91087f2960d091c3d579fcb67bad2c6d520ee4da7b663d1",
+    "repainted": false,
+    "exposedHiddenAreaComplete": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 81,
+    "crop": [
+      444,
+      310,
+      542,
+      464
+    ],
+    "file": "parts/leg_far_81.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false,
+    "sha256": "196a69c8c9515578740f3e02260ef8b3ef05e3008b0189ac682927c8680a32f6",
+    "repainted": false,
+    "exposedHiddenAreaComplete": false
+  },
+  {
+    "part": "leg_far",
+    "sourceFrame": 85,
+    "crop": [
+      440,
+      314,
+      534,
+      466
+    ],
+    "file": "parts/leg_far_85.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false,
+    "sha256": "aa08ad794a567601626e626f27600a78e0a161c2891da5080ef26ae625232c85",
+    "repainted": false,
+    "exposedHiddenAreaComplete": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 72,
+    "crop": [
+      354,
+      288,
+      450,
+      464
+    ],
+    "file": "parts/leg_near_72.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false,
+    "sha256": "8e90c613ebf71e1251b02d903f564a75f3247424e3f6b943e2a09efd58a4231e",
+    "repainted": false,
+    "exposedHiddenAreaComplete": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 77,
+    "crop": [
+      366,
+      319,
+      449,
+      468
+    ],
+    "file": "parts/leg_near_77.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false,
+    "sha256": "5335a08a477adcbf273f0c647846d35fda64f4b1442eae2d64edb7f45d640150",
+    "repainted": false,
+    "exposedHiddenAreaComplete": false
+  },
+  {
+    "part": "leg_near",
+    "sourceFrame": 84,
+    "crop": [
+      342,
+      288,
+      464,
+      472
+    ],
+    "file": "parts/leg_near_84.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false,
+    "sha256": "d9a1c7bb2fae82b6b7b17aab1cf0b0b91e2ac13eba75b91eb9c3f22d08a4404a",
+    "repainted": false,
+    "exposedHiddenAreaComplete": false
+  },
+  {
+    "part": "torso",
+    "sourceFrame": 75,
+    "crop": [
+      378,
+      288,
+      504,
+      368
+    ],
+    "file": "parts/torso_75.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false,
+    "sha256": "a7d50dae0148aeeb02ec8798a1569b94d1317457f3a30a470b50a718de55008e",
+    "repainted": false,
+    "exposedHiddenAreaComplete": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 63,
+    "crop": [
+      398,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_63.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false,
+    "sha256": "7ced6835923b45f5793c2d56ab846d514cd2b65c268d48c7c067d1d84867d062",
+    "repainted": false,
+    "exposedHiddenAreaComplete": false
+  },
+  {
+    "part": "shorts",
+    "sourceFrame": 75,
+    "crop": [
+      415,
+      354,
+      503,
+      414
+    ],
+    "file": "parts/shorts_75.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false,
+    "sha256": "4b83972bc238c585d1c134575b0d26928451206a2d326aa169b5c7b88c2f0844",
+    "repainted": false,
+    "exposedHiddenAreaComplete": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 63,
+    "crop": [
+      347,
+      292,
+      437,
+      397
+    ],
+    "file": "parts/arm_near_63.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false,
+    "sha256": "798759af686c1ef64313e9752fa574b251a76c8f9bcbeef230e30e6c1e21f6d7",
+    "repainted": false,
+    "exposedHiddenAreaComplete": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 74,
+    "crop": [
+      389,
+      302,
+      442,
+      406
+    ],
+    "file": "parts/arm_near_74.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false,
+    "sha256": "2303f77e57f4c10eeea1415885425fad24875a452df87f5ac755e6b3900a520d",
+    "repainted": false,
+    "exposedHiddenAreaComplete": false
+  },
+  {
+    "part": "arm_near",
+    "sourceFrame": 83,
+    "crop": [
+      338,
+      291,
+      434,
+      397
+    ],
+    "file": "parts/arm_near_83.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false,
+    "sha256": "1feed018fc5bf082f9970c69da5af7b4769a3fc7a8bcbbe89604c59839d56384",
+    "repainted": false,
+    "exposedHiddenAreaComplete": false
+  },
+  {
+    "part": "head",
+    "sourceFrame": 72,
+    "crop": [
+      263,
+      22,
+      602,
+      294
+    ],
+    "file": "parts/head_72.png",
+    "rgbExact": true,
+    "hiddenPixelsCompleted": false,
+    "sha256": "00b36ff81f53e6ffdaf1077f0a9bce9cdda5831d22502b0ba05bf6a5b217c725",
+    "repainted": false,
+    "exposedHiddenAreaComplete": false
+  }
+]

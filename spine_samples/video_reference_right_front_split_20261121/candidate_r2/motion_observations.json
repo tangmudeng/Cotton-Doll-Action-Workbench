@@ -1,0 +1,1387 @@
+{
+  "sourceSha256": "93d00de73120801f73de8cd723973fb4ec1d5b4a887ba1a5fa5e63772ad6f3ff",
+  "coordinateSpace": "864x480 source pixels",
+  "automaticPoseExtraction": false,
+  "observedFrames": [
+    59,
+    62,
+    65,
+    68,
+    71,
+    74,
+    77,
+    80,
+    82
+  ],
+  "frames": [
+    {
+      "frame": 59,
+      "time": 0.0,
+      "points": {
+        "shoulder_near": [
+          421.0,
+          298.0
+        ],
+        "shoulder_far": [
+          477.0,
+          297.0
+        ],
+        "hand_near": [
+          444.0,
+          351.0
+        ],
+        "hand_far": [
+          478.0,
+          334.0
+        ],
+        "hip_near": [
+          416.0,
+          369.0
+        ],
+        "hip_far": [
+          474.0,
+          365.0
+        ],
+        "foot_near": [
+          391.0,
+          400.0
+        ],
+        "foot_far": [
+          485.0,
+          405.0
+        ]
+      },
+      "headMatrix": [
+        [
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "headInliers": 281,
+      "landmarkMethod": "visual observation",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface.",
+        "Far hand is mostly occluded."
+      ]
+    },
+    {
+      "frame": 60,
+      "time": 0.041666666666666664,
+      "points": {
+        "shoulder_near": [
+          420.4444,
+          294.6936
+        ],
+        "shoulder_far": [
+          477.0,
+          294.6296
+        ],
+        "hand_near": [
+          436.3333,
+          351.0
+        ],
+        "hand_far": [
+          480.3333,
+          333.8593
+        ],
+        "hip_near": [
+          416.6148,
+          367.7407
+        ],
+        "hip_far": [
+          472.963,
+          365.0
+        ],
+        "foot_near": [
+          398.3725,
+          401.0
+        ],
+        "foot_far": [
+          475.9791,
+          405.0
+        ]
+      },
+      "headMatrix": [
+        [
+          0.9988694576246576,
+          -0.003993124486484254,
+          1.7622354255420472
+        ],
+        [
+          0.003993124486484254,
+          0.9988694576246576,
+          -0.5939219829850155
+        ]
+      ],
+      "headInliers": 142,
+      "landmarkMethod": "PCHIP interpolation between observed key poses",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface.",
+        "Far hand is mostly occluded."
+      ]
+    },
+    {
+      "frame": 61,
+      "time": 0.08333333333333333,
+      "points": {
+        "shoulder_near": [
+          420.1111,
+          291.9428
+        ],
+        "shoulder_far": [
+          477.0,
+          292.5926
+        ],
+        "hand_near": [
+          428.6667,
+          351.0
+        ],
+        "hand_far": [
+          482.6667,
+          333.4963
+        ],
+        "hip_near": [
+          417.6741,
+          366.7037
+        ],
+        "hip_far": [
+          472.2593,
+          365.0
+        ],
+        "foot_near": [
+          405.0784,
+          402.0
+        ],
+        "foot_far": [
+          468.847,
+          405.0
+        ]
+      },
+      "headMatrix": [
+        [
+          0.9979468761104918,
+          -0.004085403361441644,
+          2.691533408526621
+        ],
+        [
+          0.004085403361441644,
+          0.9979468761104918,
+          -1.1082710077188467
+        ]
+      ],
+      "headInliers": 117,
+      "landmarkMethod": "PCHIP interpolation between observed key poses",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface.",
+        "Far hand is mostly occluded."
+      ]
+    },
+    {
+      "frame": 62,
+      "time": 0.125,
+      "points": {
+        "shoulder_near": [
+          420.0,
+          290.0
+        ],
+        "shoulder_far": [
+          477.0,
+          291.0
+        ],
+        "hand_near": [
+          421.0,
+          351.0
+        ],
+        "hand_far": [
+          485.0,
+          333.0
+        ],
+        "hip_near": [
+          419.0,
+          366.0
+        ],
+        "hip_far": [
+          472.0,
+          365.0
+        ],
+        "foot_near": [
+          411.0,
+          403.0
+        ],
+        "foot_far": [
+          465.0,
+          405.0
+        ]
+      },
+      "headMatrix": [
+        [
+          0.997846626793249,
+          -0.01029097131894823,
+          4.2430737196764925
+        ],
+        [
+          0.01029097131894823,
+          0.997846626793249,
+          -7.525975751974556
+        ]
+      ],
+      "headInliers": 81,
+      "landmarkMethod": "visual observation",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface.",
+        "Far hand is mostly occluded."
+      ]
+    },
+    {
+      "frame": 63,
+      "time": 0.16666666666666666,
+      "points": {
+        "shoulder_near": [
+          420.1481,
+          288.5758
+        ],
+        "shoulder_far": [
+          477.0,
+          289.6296
+        ],
+        "hand_near": [
+          413.1711,
+          348.9091
+        ],
+        "hand_far": [
+          487.1173,
+          331.7259
+        ],
+        "hip_near": [
+          421.0049,
+          365.5185
+        ],
+        "hip_far": [
+          472.2593,
+          363.963
+        ],
+        "foot_near": [
+          415.8756,
+          404.0444
+        ],
+        "foot_far": [
+          463.7985,
+          404.8765
+        ]
+      },
+      "headMatrix": [
+        [
+          0.9959570992891282,
+          -0.00971466578611091,
+          5.196984902995563
+        ],
+        [
+          0.00971466578611091,
+          0.9959570992891282,
+          -8.117113300626238
+        ]
+      ],
+      "headInliers": 66,
+      "landmarkMethod": "PCHIP interpolation between observed key poses",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface."
+      ]
+    },
+    {
+      "frame": 64,
+      "time": 0.20833333333333334,
+      "points": {
+        "shoulder_near": [
+          420.5185,
+          287.4545
+        ],
+        "shoulder_far": [
+          477.0,
+          288.4815
+        ],
+        "hand_near": [
+          405.3422,
+          344.8182
+        ],
+        "hand_far": [
+          489.2346,
+          329.9185
+        ],
+        "hip_near": [
+          423.6321,
+          365.1481
+        ],
+        "hip_far": [
+          472.7407,
+          362.037
+        ],
+        "foot_near": [
+          420.2021,
+          405.0889
+        ],
+        "foot_far": [
+          463.0897,
+          404.5309
+        ]
+      },
+      "headMatrix": [
+        [
+          0.9979073837601227,
+          -0.011186802562577687,
+          4.693577896594332
+        ],
+        [
+          0.011186802562577687,
+          0.9979073837601227,
+          -11.096285594146226
+        ]
+      ],
+      "headInliers": 60,
+      "landmarkMethod": "PCHIP interpolation between observed key poses",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface."
+      ]
+    },
+    {
+      "frame": 65,
+      "time": 0.25,
+      "points": {
+        "shoulder_near": [
+          421.0,
+          287.0
+        ],
+        "shoulder_far": [
+          477.0,
+          288.0
+        ],
+        "hand_near": [
+          398.0,
+          342.0
+        ],
+        "hand_far": [
+          492.0,
+          329.0
+        ],
+        "hip_near": [
+          426.0,
+          365.0
+        ],
+        "hip_far": [
+          473.0,
+          361.0
+        ],
+        "foot_near": [
+          425.0,
+          406.0
+        ],
+        "foot_far": [
+          462.0,
+          404.0
+        ]
+      },
+      "headMatrix": [
+        [
+          0.9944037089610386,
+          -0.004620663790962414,
+          4.7424556315043445
+        ],
+        [
+          0.004620663790962414,
+          0.9944037089610386,
+          -8.418105423028432
+        ]
+      ],
+      "headInliers": 41,
+      "landmarkMethod": "visual observation",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface.",
+        "Far foot is partly or fully occluded; its target is an uncertain continuity estimate, placed behind the visible near foot, not the visible pants tip."
+      ],
+      "inferredPoints": [
+        "foot_far"
+      ]
+    },
+    {
+      "frame": 66,
+      "time": 0.2916666666666667,
+      "points": {
+        "shoulder_near": [
+          422.0,
+          287.1296
+        ],
+        "shoulder_far": [
+          477.7778,
+          288.1296
+        ],
+        "hand_near": [
+          390.8252,
+          340.9966
+        ],
+        "hand_far": [
+          496.9438,
+          329.5556
+        ],
+        "hip_near": [
+          428.1605,
+          365.7407
+        ],
+        "hip_far": [
+          473.0,
+          361.3407
+        ],
+        "foot_near": [
+          432.3143,
+          406.8741
+        ],
+        "foot_far": [
+          458.4497,
+          400.8765
+        ]
+      },
+      "headMatrix": [
+        [
+          0.9990732836088508,
+          -0.004143546702194486,
+          2.544858398818313
+        ],
+        [
+          0.004143546702194486,
+          0.9990732836088508,
+          -10.528970910203123
+        ]
+      ],
+      "headInliers": 50,
+      "landmarkMethod": "PCHIP interpolation between observed key poses",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface.",
+        "Far foot is partly or fully occluded; its target is an uncertain continuity estimate, placed behind the visible near foot, not the visible pants tip."
+      ],
+      "inferredPoints": [
+        "foot_far"
+      ]
+    },
+    {
+      "frame": 67,
+      "time": 0.3333333333333333,
+      "points": {
+        "shoulder_near": [
+          423.3333,
+          287.4815
+        ],
+        "shoulder_far": [
+          479.2222,
+          288.4815
+        ],
+        "hand_near": [
+          384.0525,
+          340.2761
+        ],
+        "hand_far": [
+          503.4616,
+          330.7778
+        ],
+        "hip_near": [
+          430.1358,
+          367.3704
+        ],
+        "hip_far": [
+          473.0,
+          362.1259
+        ],
+        "foot_near": [
+          440.2682,
+          407.6593
+        ],
+        "foot_far": [
+          453.5026,
+          395.716
+        ]
+      },
+      "headMatrix": [
+        [
+          0.9981799997894493,
+          0.00500812166045794,
+          1.4313376477285753
+        ],
+        [
+          -0.00500812166045794,
+          0.9981799997894493,
+          -5.593205995910884
+        ]
+      ],
+      "headInliers": 55,
+      "landmarkMethod": "PCHIP interpolation between observed key poses",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface.",
+        "Far foot is partly or fully occluded; its target is an uncertain continuity estimate, placed behind the visible near foot, not the visible pants tip."
+      ],
+      "inferredPoints": [
+        "foot_far"
+      ]
+    },
+    {
+      "frame": 68,
+      "time": 0.375,
+      "points": {
+        "shoulder_near": [
+          424.0,
+          288.0
+        ],
+        "shoulder_far": [
+          480.0,
+          289.0
+        ],
+        "hand_near": [
+          379.0,
+          340.0
+        ],
+        "hand_far": [
+          509.0,
+          332.0
+        ],
+        "hip_near": [
+          431.0,
+          369.0
+        ],
+        "hip_far": [
+          473.0,
+          363.0
+        ],
+        "foot_near": [
+          444.0,
+          408.0
+        ],
+        "foot_far": [
+          451.0,
+          393.0
+        ]
+      },
+      "headMatrix": [
+        [
+          0.9974674661903364,
+          0.0050683810714126035,
+          1.0876663699661233
+        ],
+        [
+          -0.0050683810714126035,
+          0.9974674661903364,
+          -4.52667284331436
+        ]
+      ],
+      "headInliers": 59,
+      "landmarkMethod": "visual observation",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface.",
+        "Far foot is partly or fully occluded; its target is an uncertain continuity estimate, placed behind the visible near foot, not the visible pants tip."
+      ],
+      "inferredPoints": [
+        "foot_far"
+      ]
+    },
+    {
+      "frame": 69,
+      "time": 0.4166666666666667,
+      "points": {
+        "shoulder_near": [
+          423.8519,
+          290.0741
+        ],
+        "shoulder_far": [
+          479.7407,
+          291.0741
+        ],
+        "hand_near": [
+          375.2579,
+          340.7407
+        ],
+        "hand_far": [
+          513.4582,
+          333.0444
+        ],
+        "hip_near": [
+          429.8889,
+          370.6296
+        ],
+        "hip_far": [
+          472.7407,
+          364.1333
+        ],
+        "foot_near": [
+          443.4074,
+          407.7407
+        ],
+        "foot_far": [
+          451.0,
+          393.7407
+        ]
+      },
+      "headMatrix": [
+        [
+          0.9987971991522466,
+          0.0089241047668257,
+          -0.6908955143448047
+        ],
+        [
+          -0.0089241047668257,
+          0.9987971991522466,
+          -1.3464589372646065
+        ]
+      ],
+      "headInliers": 58,
+      "landmarkMethod": "PCHIP interpolation between observed key poses",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface.",
+        "Far foot is partly or fully occluded; its target is an uncertain continuity estimate, placed behind the visible near foot, not the visible pants tip."
+      ],
+      "inferredPoints": [
+        "foot_far"
+      ]
+    },
+    {
+      "frame": 70,
+      "time": 0.4583333333333333,
+      "points": {
+        "shoulder_near": [
+          423.4815,
+          293.3148
+        ],
+        "shoulder_far": [
+          479.2593,
+          294.3148
+        ],
+        "hand_near": [
+          372.2401,
+          342.3704
+        ],
+        "hand_far": [
+          517.3402,
+          334.0889
+        ],
+        "hip_near": [
+          427.4444,
+          372.2593
+        ],
+        "hip_far": [
+          472.2593,
+          365.4
+        ],
+        "foot_near": [
+          441.9259,
+          407.2593
+        ],
+        "foot_far": [
+          451.0,
+          395.3704
+        ]
+      },
+      "headMatrix": [
+        [
+          0.9999712188096135,
+          0.015188166825269222,
+          -3.4847758158845332
+        ],
+        [
+          -0.015188166825269222,
+          0.9999712188096135,
+          4.772986179832411
+        ]
+      ],
+      "headInliers": 65,
+      "landmarkMethod": "PCHIP interpolation between observed key poses",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface.",
+        "Far foot is partly or fully occluded; its target is an uncertain continuity estimate, placed behind the visible near foot, not the visible pants tip."
+      ],
+      "inferredPoints": [
+        "foot_far"
+      ]
+    },
+    {
+      "frame": 71,
+      "time": 0.5,
+      "points": {
+        "shoulder_near": [
+          423.0,
+          295.0
+        ],
+        "shoulder_far": [
+          479.0,
+          296.0
+        ],
+        "hand_near": [
+          371.0,
+          344.0
+        ],
+        "hand_far": [
+          519.0,
+          335.0
+        ],
+        "hip_near": [
+          425.0,
+          373.0
+        ],
+        "hip_far": [
+          472.0,
+          366.0
+        ],
+        "foot_near": [
+          440.0,
+          407.0
+        ],
+        "foot_far": [
+          451.0,
+          397.0
+        ]
+      },
+      "headMatrix": [
+        [
+          1.0005914974299197,
+          0.019526643716632937,
+          -5.080081430837765
+        ],
+        [
+          -0.019526643716632937,
+          1.0005914974299197,
+          8.302489347194498
+        ]
+      ],
+      "headInliers": 65,
+      "landmarkMethod": "visual observation",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface.",
+        "Far foot is partly or fully occluded; its target is an uncertain continuity estimate, placed behind the visible near foot, not the visible pants tip."
+      ],
+      "inferredPoints": [
+        "foot_far"
+      ]
+    },
+    {
+      "frame": 72,
+      "time": 0.5416666666666666,
+      "points": {
+        "shoulder_near": [
+          422.1111,
+          294.4444
+        ],
+        "shoulder_far": [
+          479.0,
+          295.2593
+        ],
+        "hand_near": [
+          375.0085,
+          345.6296
+        ],
+        "hand_far": [
+          514.2675,
+          335.8741
+        ],
+        "hip_near": [
+          422.9111,
+          372.3185
+        ],
+        "hip_far": [
+          472.7778,
+          365.679
+        ],
+        "foot_near": [
+          437.0667,
+          407.2593
+        ],
+        "foot_far": [
+          453.4074,
+          398.6296
+        ]
+      },
+      "headMatrix": [
+        [
+          0.9998349225904288,
+          0.019820639494088917,
+          -5.117829181631355
+        ],
+        [
+          -0.019820639494088917,
+          0.9998349225904288,
+          9.802313556275813
+        ]
+      ],
+      "headInliers": 51,
+      "landmarkMethod": "PCHIP interpolation between observed key poses",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface.",
+        "Far foot is partly or fully occluded; its target is an uncertain continuity estimate, placed behind the visible near foot, not the visible pants tip."
+      ],
+      "inferredPoints": [
+        "foot_far"
+      ]
+    },
+    {
+      "frame": 73,
+      "time": 0.5833333333333334,
+      "points": {
+        "shoulder_near": [
+          420.8889,
+          293.2222
+        ],
+        "shoulder_far": [
+          479.0,
+          293.6296
+        ],
+        "hand_near": [
+          383.6838,
+          347.2593
+        ],
+        "hand_far": [
+          504.4239,
+          336.6593
+        ],
+        "hip_near": [
+          420.8222,
+          370.7481
+        ],
+        "hip_far": [
+          474.2222,
+          364.9136
+        ],
+        "foot_near": [
+          432.8,
+          407.7407
+        ],
+        "foot_far": [
+          458.7037,
+          400.2593
+        ]
+      },
+      "headMatrix": [
+        [
+          1.0002618491035793,
+          0.028446347627348524,
+          -7.077290374348554
+        ],
+        [
+          -0.028446347627348524,
+          1.0002618491035793,
+          12.778622903284957
+        ]
+      ],
+      "headInliers": 55,
+      "landmarkMethod": "PCHIP interpolation between observed key poses",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface.",
+        "Far foot is partly or fully occluded; its target is an uncertain continuity estimate, placed behind the visible near foot, not the visible pants tip."
+      ],
+      "inferredPoints": [
+        "foot_far"
+      ]
+    },
+    {
+      "frame": 74,
+      "time": 0.625,
+      "points": {
+        "shoulder_near": [
+          420.0,
+          292.0
+        ],
+        "shoulder_far": [
+          479.0,
+          292.0
+        ],
+        "hand_near": [
+          392.0,
+          348.0
+        ],
+        "hand_far": [
+          496.0,
+          337.0
+        ],
+        "hip_near": [
+          419.0,
+          369.0
+        ],
+        "hip_far": [
+          475.0,
+          364.0
+        ],
+        "foot_near": [
+          428.0,
+          408.0
+        ],
+        "foot_far": [
+          464.0,
+          401.0
+        ]
+      },
+      "headMatrix": [
+        [
+          0.9930909974487142,
+          0.033014289895951586,
+          -5.3756787914182125
+        ],
+        [
+          -0.033014289895951586,
+          0.9930909974487142,
+          13.42355042969601
+        ]
+      ],
+      "headInliers": 55,
+      "landmarkMethod": "visual observation",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface.",
+        "Far foot is partly or fully occluded; its target is an uncertain continuity estimate, placed behind the visible near foot, not the visible pants tip."
+      ],
+      "inferredPoints": [
+        "foot_far"
+      ]
+    },
+    {
+      "frame": 75,
+      "time": 0.6666666666666666,
+      "points": {
+        "shoulder_near": [
+          419.5185,
+          290.7778
+        ],
+        "shoulder_far": [
+          478.5802,
+          290.3704
+        ],
+        "hand_near": [
+          397.9881,
+          347.3333
+        ],
+        "hand_far": [
+          490.7037,
+          335.163
+        ],
+        "hip_near": [
+          417.2519,
+          366.7333
+        ],
+        "hip_far": [
+          474.7407,
+          362.5679
+        ],
+        "foot_near": [
+          422.4121,
+          407.8593
+        ],
+        "foot_far": [
+          468.1528,
+          400.2169
+        ]
+      },
+      "headMatrix": [
+        [
+          0.9941727631547942,
+          0.0325483816342087,
+          -5.598063389946095
+        ],
+        [
+          -0.0325483816342087,
+          0.9941727631547942,
+          11.775084476133351
+        ]
+      ],
+      "headInliers": 43,
+      "landmarkMethod": "PCHIP interpolation between observed key poses",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface."
+      ]
+    },
+    {
+      "frame": 76,
+      "time": 0.7083333333333334,
+      "points": {
+        "shoulder_near": [
+          419.1481,
+          289.5556
+        ],
+        "shoulder_far": [
+          477.716,
+          288.7407
+        ],
+        "hand_near": [
+          403.6685,
+          346.0
+        ],
+        "hand_far": [
+          486.2099,
+          331.5481
+        ],
+        "hip_near": [
+          415.6815,
+          364.2
+        ],
+        "hip_far": [
+          474.2593,
+          360.8395
+        ],
+        "foot_near": [
+          416.0242,
+          407.4963
+        ],
+        "foot_far": [
+          472.3056,
+          398.545
+        ]
+      },
+      "headMatrix": [
+        [
+          0.995778817933503,
+          0.03761469698552975,
+          -7.141097255712995
+        ],
+        [
+          -0.03761469698552975,
+          0.995778817933503,
+          11.599481173299784
+        ]
+      ],
+      "headInliers": 52,
+      "landmarkMethod": "PCHIP interpolation between observed key poses",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface."
+      ]
+    },
+    {
+      "frame": 77,
+      "time": 0.75,
+      "points": {
+        "shoulder_near": [
+          419.0,
+          289.0
+        ],
+        "shoulder_far": [
+          477.0,
+          288.0
+        ],
+        "hand_near": [
+          410.0,
+          345.0
+        ],
+        "hand_far": [
+          483.0,
+          329.0
+        ],
+        "hip_near": [
+          415.0,
+          363.0
+        ],
+        "hip_far": [
+          474.0,
+          360.0
+        ],
+        "foot_near": [
+          410.0,
+          407.0
+        ],
+        "foot_far": [
+          477.0,
+          397.0
+        ]
+      },
+      "headMatrix": [
+        [
+          0.9905896685003706,
+          0.030134099037880696,
+          -3.5713391878383893
+        ],
+        [
+          -0.030134099037880696,
+          0.9905896685003706,
+          8.300265331001615
+        ]
+      ],
+      "headInliers": 56,
+      "landmarkMethod": "visual observation",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface."
+      ]
+    },
+    {
+      "frame": 78,
+      "time": 0.7916666666666666,
+      "points": {
+        "shoulder_near": [
+          419.1692,
+          289.0
+        ],
+        "shoulder_far": [
+          476.5432,
+          288.2752
+        ],
+        "hand_near": [
+          418.3089,
+          344.5185
+        ],
+        "hand_far": [
+          480.7988,
+          328.0074
+        ],
+        "hip_near": [
+          415.2593,
+          363.1259
+        ],
+        "hip_far": [
+          474.2593,
+          360.1327
+        ],
+        "foot_near": [
+          404.4115,
+          406.0863
+        ],
+        "foot_far": [
+          484.213,
+          395.7143
+        ]
+      },
+      "headMatrix": [
+        [
+          0.9921377785755856,
+          0.025561881225491696,
+          -2.708246631338494
+        ],
+        [
+          -0.025561881225491696,
+          0.9921377785755856,
+          5.28554489353568
+        ]
+      ],
+      "headInliers": 80,
+      "landmarkMethod": "PCHIP interpolation between observed key poses",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface.",
+        "Far hand is mostly occluded."
+      ]
+    },
+    {
+      "frame": 79,
+      "time": 0.8333333333333334,
+      "points": {
+        "shoulder_near": [
+          419.5606,
+          289.0
+        ],
+        "shoulder_far": [
+          476.1605,
+          288.9949
+        ],
+        "hand_near": [
+          427.5222,
+          344.1481
+        ],
+        "hand_far": [
+          479.0913,
+          327.2815
+        ],
+        "hip_near": [
+          415.7407,
+          363.4741
+        ],
+        "hip_far": [
+          474.7407,
+          360.4876
+        ],
+        "foot_near": [
+          399.126,
+          404.6392
+        ],
+        "foot_far": [
+          492.2176,
+          394.5238
+        ]
+      },
+      "headMatrix": [
+        [
+          0.9980689304379384,
+          0.015991897240242185,
+          -3.8405311618476605
+        ],
+        [
+          -0.015991897240242185,
+          0.9980689304379384,
+          0.04438580348901735
+        ]
+      ],
+      "headInliers": 71,
+      "landmarkMethod": "PCHIP interpolation between observed key poses",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface.",
+        "Far hand is mostly occluded."
+      ]
+    },
+    {
+      "frame": 80,
+      "time": 0.875,
+      "points": {
+        "shoulder_near": [
+          420.0,
+          289.0
+        ],
+        "shoulder_far": [
+          476.0,
+          290.0
+        ],
+        "hand_near": [
+          435.0,
+          344.0
+        ],
+        "hand_far": [
+          478.0,
+          327.0
+        ],
+        "hip_near": [
+          416.0,
+          364.0
+        ],
+        "hip_far": [
+          475.0,
+          361.0
+        ],
+        "foot_near": [
+          395.0,
+          403.0
+        ],
+        "foot_far": [
+          496.0,
+          394.0
+        ]
+      },
+      "headMatrix": [
+        [
+          0.9969339774703683,
+          0.016155951424693216,
+          -3.190703134583058
+        ],
+        [
+          -0.016155951424693216,
+          0.9969339774703683,
+          1.3881897352962145
+        ]
+      ],
+      "headInliers": 98,
+      "landmarkMethod": "visual observation",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface.",
+        "Far hand is mostly occluded."
+      ]
+    },
+    {
+      "frame": 81,
+      "time": 0.9166666666666666,
+      "points": {
+        "shoulder_near": [
+          420.4597,
+          290.95
+        ],
+        "shoulder_far": [
+          476.2917,
+          291.9654
+        ],
+        "hand_near": [
+          440.1908,
+          345.5917
+        ],
+        "hand_far": [
+          477.3227,
+          328.2333
+        ],
+        "hip_near": [
+          416.0,
+          365.4833
+        ],
+        "hip_far": [
+          474.7083,
+          362.1507
+        ],
+        "foot_near": [
+          392.0598,
+          401.1613
+        ],
+        "foot_far": [
+          493.7083,
+          396.175
+        ]
+      },
+      "headMatrix": [
+        [
+          0.9981801000703934,
+          0.009912437891021591,
+          -2.2676390320890913
+        ],
+        [
+          -0.009912437891021591,
+          0.9981801000703934,
+          0.036898519502799494
+        ]
+      ],
+      "headInliers": 94,
+      "landmarkMethod": "PCHIP interpolation between observed key poses",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface.",
+        "Far hand is mostly occluded."
+      ]
+    },
+    {
+      "frame": 82,
+      "time": 0.9583333333333334,
+      "points": {
+        "shoulder_near": [
+          421.0,
+          295.0
+        ],
+        "shoulder_far": [
+          477.0,
+          295.0
+        ],
+        "hand_near": [
+          444.0,
+          349.0
+        ],
+        "hand_far": [
+          477.0,
+          331.0
+        ],
+        "hip_near": [
+          416.0,
+          368.0
+        ],
+        "hip_far": [
+          474.0,
+          364.0
+        ],
+        "foot_near": [
+          390.0,
+          399.0
+        ],
+        "foot_far": [
+          487.0,
+          401.0
+        ]
+      },
+      "headMatrix": [
+        [
+          1.0004676476121317,
+          0.0046745377000001935,
+          -1.6542194084748707
+        ],
+        [
+          -0.0046745377000001935,
+          1.0004676476121317,
+          0.6870043287078884
+        ]
+      ],
+      "headInliers": 104,
+      "landmarkMethod": "visual observation",
+      "uncertainties": [
+        "All shoulder/hip centers and elbow/knee anatomy are inferred beneath the surface.",
+        "Far hand is mostly occluded."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+rig/sample_geometry.json
+rig/joint_probe_r*.spine
+__pycache__/
+video_fit/walk_fit_r*.spine
+video_fit/walk_geometry.json
+video_fit/audit_log.txt

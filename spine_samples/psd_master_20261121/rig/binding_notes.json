@@ -1,0 +1,37 @@
+{
+  "stage": "shoulder-only",
+  "manualAnchors": {
+    "arm_near": [
+      [
+        477,
+        604
+      ],
+      [
+        442,
+        670
+      ],
+      [
+        423,
+        737
+      ]
+    ],
+    "arm_far": [
+      [
+        591,
+        600
+      ],
+      [
+        622,
+        648
+      ],
+      [
+        646,
+        708
+      ]
+    ]
+  },
+  "coordinateSpace": "PSD canvas pixels; y down",
+  "legsIndependent": false,
+  "referenceVideoMotionFitted": false,
+  "visualAccepted": false
+}

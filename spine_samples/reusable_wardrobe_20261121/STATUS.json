@@ -1,0 +1,11 @@
+{
+  "status": "experimental_visual_review_required",
+  "productionReady": false,
+  "firstQualityGatePassed": false,
+  "userBodyArt": "I:/彩虹AI/design/AI玩具_design/美术资源/棉花娃娃/图层 10.png",
+  "initialGarmentArt": "I:/彩虹AI/design/AI玩具_design/美术资源/棉花娃娃/基础角色-正式/图层 69.png",
+  "currentGarmentSource": "图层 10.png",
+  "secondIndependentActionValidated": false,
+  "sourcePixelPolicy": "no inpainting; alpha-only cleanup and traceable observed pixels",
+  "next": "repair/review reusable base and garment seams before second action or workbench integration"
+}

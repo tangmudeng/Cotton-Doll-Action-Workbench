@@ -1,0 +1,19 @@
+{
+  "attachments": 6,
+  "uniqueImages": 6,
+  "exactDuplicates": 0,
+  "pages": [
+    {
+      "file": "skin_0.png",
+      "width": 1436,
+      "height": 480,
+      "rgbaBytes": 2757120,
+      "pngBytes": 407901
+    }
+  ],
+  "rgbaBytes": 2757120,
+  "pngBytes": 407901,
+  "mode": "psd_static_master",
+  "wardrobeReady": false,
+  "explanation": "Six PSD textures; legs remain unsplit. Shoulder experiment only."
+}
