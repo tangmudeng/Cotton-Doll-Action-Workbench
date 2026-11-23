@@ -1,0 +1,19 @@
+{
+  "technicalPass": true,
+  "roundtripChecked": true,
+  "samples": 93,
+  "sourceFrames": 23,
+  "textures": 7,
+  "texturesEqualPSDMaster": true,
+  "bones": 20,
+  "ik": 4,
+  "maxRoundtripVertexDelta": 0.046661376953125,
+  "maxIKEndpointError": 8.988339020288328e-7,
+  "maxLoopVertexDelta": 0,
+  "invertedTriangleObservations": 0,
+  "inversions": [],
+  "humanAccepted": false,
+  "groundContactValidated": false,
+  "appearance": "PSD master",
+  "motion": "retargeted accepted reference_cycle; not an automatic new-video pipeline"
+}

@@ -1,0 +1,53 @@
+{
+  "roundtripPass": true,
+  "geometryPass": true,
+  "productionReady": false,
+  "checks": 230,
+  "frames": 23,
+  "phasesPerFrame": 5,
+  "skins": 2,
+  "bones": 17,
+  "ik": 4,
+  "finite": true,
+  "maxRoundtripVertexDelta": 0.1074066162109375,
+  "maxIKEndpointError": 9.375803370802396e-7,
+  "invertedTriangleObservations": 8,
+  "alphaSupportedInversionObservations": 0,
+  "inversions": [
+    {
+      "skin": "body/base",
+      "frame": 74,
+      "phase": 0.999,
+      "slot": "arm_far",
+      "count": 2,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "body/base",
+      "frame": 75,
+      "phase": 0,
+      "slot": "arm_far",
+      "count": 2,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 74,
+      "phase": 0.999,
+      "slot": "arm_far",
+      "count": 2,
+      "alphaSupported": 0
+    },
+    {
+      "skin": "outfit/green_overalls",
+      "frame": 75,
+      "phase": 0,
+      "slot": "arm_far",
+      "count": 2,
+      "alphaSupported": 0
+    }
+  ],
+  "visualAccepted": false,
+  "secondVideoValidated": false,
+  "meaning": "Roundtrip and endpoint consistency only. Alpha-supported inversions require review; diagnostic counts are observations, not unique visible defects."
+}

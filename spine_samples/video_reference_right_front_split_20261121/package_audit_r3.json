@@ -1,0 +1,9 @@
+{
+  "files": 54,
+  "bytes": 9817011,
+  "sha256": "150e6077d06fc2083156d0695c3627a09a071460dde4fc189850c4144f2868be",
+  "crcPassed": true,
+  "fileHashesPassed": true,
+  "humanAccepted": true,
+  "acceptanceRecord": "acceptance.json"
+}

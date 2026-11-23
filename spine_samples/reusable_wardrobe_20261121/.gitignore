@@ -1,0 +1,11 @@
+probe.json
+clean_sources/
+frame_checks/
+**/evaluated.json
+**/roundtrip_evaluated.json
+**/wardrobe_review_r*.spine
+**/wardrobe_review_v*.spine
+*_inspection.png
+art_body_detail.png
+torso_compare.png
+source_contact.png

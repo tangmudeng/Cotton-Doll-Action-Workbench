@@ -1,0 +1,276 @@
+{
+  "library": {
+    "arm_far": {
+      "single": "arm_far_79",
+      "selected": [
+        "arm_far_79",
+        "arm_far_85"
+      ],
+      "sequence": [
+        "arm_far_85",
+        "arm_far_85",
+        "arm_far_85",
+        "arm_far_85",
+        "arm_far_85",
+        "arm_far_85",
+        "arm_far_85",
+        "arm_far_85",
+        "arm_far_85",
+        "arm_far_79",
+        "arm_far_79",
+        "arm_far_79",
+        "arm_far_79",
+        "arm_far_79",
+        "arm_far_79",
+        "arm_far_79",
+        "arm_far_79",
+        "arm_far_79",
+        "arm_far_79",
+        "arm_far_79",
+        "arm_far_85",
+        "arm_far_85",
+        "arm_far_85"
+      ]
+    },
+    "leg_far": {
+      "single": "leg_far_85",
+      "selected": [
+        "leg_far_67",
+        "leg_far_81",
+        "leg_far_85"
+      ],
+      "sequence": [
+        "leg_far_85",
+        "leg_far_85",
+        "leg_far_67",
+        "leg_far_67",
+        "leg_far_67",
+        "leg_far_67",
+        "leg_far_67",
+        "leg_far_67",
+        "leg_far_67",
+        "leg_far_67",
+        "leg_far_67",
+        "leg_far_67",
+        "leg_far_67",
+        "leg_far_67",
+        "leg_far_85",
+        "leg_far_85",
+        "leg_far_85",
+        "leg_far_81",
+        "leg_far_81",
+        "leg_far_81",
+        "leg_far_81",
+        "leg_far_81",
+        "leg_far_85"
+      ]
+    },
+    "leg_near": {
+      "single": "leg_near_77",
+      "selected": [
+        "leg_near_72",
+        "leg_near_77",
+        "leg_near_84"
+      ],
+      "sequence": [
+        "leg_near_84",
+        "leg_near_77",
+        "leg_near_77",
+        "leg_near_77",
+        "leg_near_77",
+        "leg_near_77",
+        "leg_near_77",
+        "leg_near_72",
+        "leg_near_72",
+        "leg_near_72",
+        "leg_near_72",
+        "leg_near_77",
+        "leg_near_77",
+        "leg_near_77",
+        "leg_near_77",
+        "leg_near_84",
+        "leg_near_84",
+        "leg_near_84",
+        "leg_near_84",
+        "leg_near_84",
+        "leg_near_84",
+        "leg_near_84",
+        "leg_near_84"
+      ]
+    },
+    "torso": {
+      "single": "torso_75",
+      "selected": [
+        "torso_75"
+      ],
+      "sequence": [
+        "torso_75",
+        "torso_75",
+        "torso_75",
+        "torso_75",
+        "torso_75",
+        "torso_75",
+        "torso_75",
+        "torso_75",
+        "torso_75",
+        "torso_75",
+        "torso_75",
+        "torso_75",
+        "torso_75",
+        "torso_75",
+        "torso_75",
+        "torso_75",
+        "torso_75",
+        "torso_75",
+        "torso_75",
+        "torso_75",
+        "torso_75",
+        "torso_75",
+        "torso_75"
+      ]
+    },
+    "shorts": {
+      "single": "shorts_75",
+      "selected": [
+        "shorts_63",
+        "shorts_75"
+      ],
+      "sequence": [
+        "shorts_63",
+        "shorts_63",
+        "shorts_63",
+        "shorts_75",
+        "shorts_75",
+        "shorts_75",
+        "shorts_75",
+        "shorts_75",
+        "shorts_75",
+        "shorts_75",
+        "shorts_75",
+        "shorts_75",
+        "shorts_75",
+        "shorts_75",
+        "shorts_63",
+        "shorts_63",
+        "shorts_63",
+        "shorts_63",
+        "shorts_63",
+        "shorts_63",
+        "shorts_63",
+        "shorts_63",
+        "shorts_63"
+      ]
+    },
+    "arm_near": {
+      "single": "arm_near_63",
+      "selected": [
+        "arm_near_63",
+        "arm_near_74",
+        "arm_near_83"
+      ],
+      "sequence": [
+        "arm_near_63",
+        "arm_near_63",
+        "arm_near_63",
+        "arm_near_63",
+        "arm_near_63",
+        "arm_near_74",
+        "arm_near_74",
+        "arm_near_74",
+        "arm_near_74",
+        "arm_near_74",
+        "arm_near_74",
+        "arm_near_74",
+        "arm_near_74",
+        "arm_near_74",
+        "arm_near_63",
+        "arm_near_63",
+        "arm_near_63",
+        "arm_near_63",
+        "arm_near_83",
+        "arm_near_83",
+        "arm_near_83",
+        "arm_near_83",
+        "arm_near_63"
+      ]
+    },
+    "head": {
+      "single": "head_72",
+      "selected": [
+        "head_72"
+      ],
+      "sequence": [
+        "head_72",
+        "head_72",
+        "head_72",
+        "head_72",
+        "head_72",
+        "head_72",
+        "head_72",
+        "head_72",
+        "head_72",
+        "head_72",
+        "head_72",
+        "head_72",
+        "head_72",
+        "head_72",
+        "head_72",
+        "head_72",
+        "head_72",
+        "head_72",
+        "head_72",
+        "head_72",
+        "head_72",
+        "head_72",
+        "head_72"
+      ]
+    }
+  },
+  "metrics": {
+    "arm_far": {
+      "singleMeanCost": 2.413338695104994,
+      "hybridMeanCost": 2.2897012781349404,
+      "switches": 2
+    },
+    "leg_far": {
+      "singleMeanCost": 0.5375195152308134,
+      "hybridMeanCost": 0.26732867999277227,
+      "switches": 4
+    },
+    "leg_near": {
+      "singleMeanCost": 0.3524132322189999,
+      "hybridMeanCost": 0.2139323494472063,
+      "switches": 4
+    },
+    "torso": {
+      "singleMeanCost": 0.39075265635889206,
+      "hybridMeanCost": 0.39075265635889206,
+      "switches": 0
+    },
+    "shorts": {
+      "singleMeanCost": 0.3308562097934928,
+      "hybridMeanCost": 0.20975521277911696,
+      "switches": 2
+    },
+    "arm_near": {
+      "singleMeanCost": 0.16277993292766021,
+      "hybridMeanCost": 0.08800064029948901,
+      "switches": 4
+    },
+    "head": {
+      "singleMeanCost": 0.06946375990571996,
+      "hybridMeanCost": 0.06946375990571996,
+      "switches": 0
+    }
+  },
+  "meaning": "relative raster mismatch, not anatomical or visual acceptance",
+  "budgets": {
+    "head": 1,
+    "torso": 1,
+    "shorts": 2,
+    "arm_near": 3,
+    "arm_far": 2,
+    "leg_near": 3,
+    "leg_far": 3
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "attachments": 7,
+  "uniqueImages": 7,
+  "exactDuplicates": 0,
+  "pages": [
+    {
+      "file": "skin_0.png",
+      "width": 1460,
+      "height": 480,
+      "rgbaBytes": 2803200,
+      "pngBytes": 422868
+    }
+  ],
+  "rgbaBytes": 2803200,
+  "pngBytes": 422868,
+  "mode": "psd_full_limb_master",
+  "wardrobeReady": false,
+  "explanation": "Seven PSD textures; independent arms and legs. Joint validation prototype."
+}

@@ -1,0 +1,38 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>右前行走 · 新视频 × PSD 候选</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#eef2ef;color:#243b32;font:15px system-ui,'Microsoft YaHei'}main{max-width:1440px;margin:20px auto;padding:0 22px}h1{font-size:25px;margin:8px 0}p{line-height:1.65}.notice{background:#fff4d9;padding:10px 14px;border-left:3px solid #b88d35}.controls{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin:15px 0}button,select{font:inherit;padding:7px 11px;background:white;border:1px solid #afbeb6;border-radius:5px;cursor:pointer}section{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}article{background:white;border-radius:9px;padding:12px;min-width:0}h2{font-size:16px;margin:0 0 8px}canvas{display:block;width:100%;height:480px;object-fit:contain;background:#fff}#clock{display:inline-block;width:255px;font-variant-numeric:tabular-nums}#seek{flex:1;min-width:180px}#status{height:125px;overflow:auto;background:white;padding:12px;white-space:pre-wrap;font-size:13px}#warning{height:46px;font-size:13px;color:#795525;margin:8px 0;overflow:auto}a{color:#176743}.tag{font-size:12px;color:#795525}footer{font-size:13px;color:#53675b;margin:16px 0}@media(max-width:850px){section{grid-template-columns:1fr}canvas{height:400px}}
+</style>
+<main><h1>右前行走 · 新视频 × PSD 蒙皮</h1><p>源帧 59–82 · 24 fps · 1 秒循环。7 张固定 PSD 附件，16 根骨骼、4 组 IK。</p>
+<div class="notice">待视觉验收候选。骨架层级及 IK 规则沿用 pixel_sync_20261120；静态比例按 PSD 校准，动作重新参考新视频。肢体轨迹含人工关键姿势标注，遮挡区域为估计，尚非全自动生产流程。</div>
+<div class="controls"><button id="play" disabled>播放</button><button id="prev" disabled>上一帧</button><button id="next" disabled>下一帧</button><label>速度 <select id="speed"><option value=".25">¼ 倍</option><option value=".5">½ 倍</option><option value="1" selected>正常</option></select></label><label><input id="bones" type="checkbox">皮肤上叠骨骼</label><label><input id="detail" type="checkbox">手脚局部</label><label><input id="setup" type="checkbox">PSD 绑定姿势</label></div>
+<section><article><h2>① 原视频</h2><canvas id="source" width="420" height="560"></canvas></article><article><h2>② 同帧骨骼与 IK <span class="tag">橙点＝遮挡估计</span></h2><canvas id="pose" width="420" height="560"></canvas></article><article><h2>③ PSD 固定附件蒙皮</h2><canvas id="skin" width="420" height="560"></canvas></article></section>
+<div class="controls"><input id="seek" type="range" aria-label="源视频帧" min="0" max="23" value="0"><span id="clock"></span></div>
+<div id="warning"></div><div id="status">正在载入 Spine 回导动画…</div>
+<p><a href="../right_front_split_psd_candidate.zip">下载 Spine 候选工程</a> · <a href="contact_sheet.jpg">24 帧整体对照</a> · <a href="body_contact_sheet.jpg">24 帧手脚对照</a> · <a href="README.md">制作差异与检查说明</a></p>
+<footer>播放区和日志使用固定高度。动作名：video_right_front_split_59_82；psd_bind_pose 仅用于查看绑定姿势。源视频原帧只用于参考栏，不进入角色图集。</footer></main>
+<script src="runtime/spine-canvas.js"></script><script src="runtime/pixel-renderer.js"></script>
+<script>
+(async()=>{
+ const $=id=>document.getElementById(id),assets=new spine.AssetManager();
+ await Promise.all([assets.loadJsonAsync('roundtrip/skin.json'),assets.loadTextureAtlasAsync('skin.atlas')]);
+ const data=new spine.SkeletonJson(new spine.AtlasAttachmentLoader(assets.get('skin.atlas'))).readSkeletonData(assets.get('roundtrip/skin.json')),sk=new spine.Skeleton(data),ctx=$('skin').getContext('2d'),renderer=new spine.SkeletonRenderer(ctx);renderer.triangleRendering=true;PixelTriangleRenderer(renderer);
+ const [audit,motion,cycle]=await Promise.all(['technical_audit.json','motion_observations.json','cycle_diagnostics.json'].map(f=>fetch(f).then(r=>{if(!r.ok)throw Error(f+' 无法读取');return r.json()})));
+ const frames=await Promise.all(Array.from({length:24},(_,i)=>new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve(im);im.onerror=()=>reject(Error('源帧未能载入'));im.src='reference_frames/'+String(i+59).padStart(4,'0')+'.png'})));
+ let time=0,playing=false,last=performance.now();
+ function camera(c){const box=$('detail').checked?[340,275,195,175]:[300,42,270,400],z=Math.min(420/box[2],560/box[3]);c.translate((420-box[2]*z)/2,(560-box[3]*z)/2);c.scale(z,z);c.translate(-box[0],-box[1]);return z}
+ function drawBones(c,frame,z){c.lineWidth=1.6/z;for(const b of sk.bones){if(b.data.name.endsWith('_upper')||b.data.name.endsWith('_lower')){c.strokeStyle=b.data.name.includes('near')?'#dc5d53':'#2589b6';c.beginPath();c.moveTo(b.worldX+432,480-b.worldY);c.lineTo(b.worldX+b.a*b.data.length+432,480-b.worldY-b.c*b.data.length);c.stroke()}if(b.data.name.endsWith('_target')){c.fillStyle=b.data.name==='leg_far_target'&&frame>=65&&frame<=74?'#e9a524':'#05a4a2';c.beginPath();c.arc(b.worldX+432,480-b.worldY,3/z,0,Math.PI*2);c.fill()}}}
+ function draw(){const i=Math.min(23,Math.floor(time*24+1e-7)),frame=59+i;sk.setToSetupPose();if(!$('setup').checked)data.findAnimation('video_right_front_split_59_82').apply(sk,0,time,false,[],1,spine.MixBlend.replace,spine.MixDirection.mixIn);sk.updateWorldTransform(spine.Physics.update);
+  for(const id of ['source','pose','skin']){const c=$(id).getContext('2d');c.clearRect(0,0,420,560);c.save();const z=camera(c);if(id!=='skin'){c.drawImage(frames[i],0,0);if(id==='pose')drawBones(c,frame,z)}else{c.save();c.translate(432,480);c.scale(1,-1);renderer.draw(sk);c.restore();if($('bones').checked)drawBones(c,frame,z)}c.restore()}
+  $('seek').value=i;$('clock').textContent=`源帧 ${frame} / 82 · ${time.toFixed(3)} 秒`;
+  $('warning').textContent=$('setup').checked?'右侧显示 PSD 绑定姿势，左侧仍为当前视频帧；此时不应逐点比较两者。':frame>=65&&frame<=74?'远侧脚被遮挡：橙点为连续运动估计，不能作为已恢复真实关节的证据。':'红线：近侧肢体；蓝线：远侧肢体；青点：手脚 IK 目标。';
+ }
+ function pause(){playing=false;$('play').textContent='播放'}
+ function step(n){pause();$('setup').checked=false;time=((Number($('seek').value)+n+24)%24)/24;draw()}
+ $('prev').onclick=()=>step(-1);$('next').onclick=()=>step(1);$('seek').oninput=()=>{pause();$('setup').checked=false;time=Number($('seek').value)/24;draw()};$('play').onclick=()=>{if($('setup').checked)$('setup').checked=false;playing=!playing;$('play').textContent=playing?'暂停':'播放'};
+ for(const id of ['bones','detail','setup'])$(id).onchange=()=>{if(id==='setup')pause();draw()};
+ $('status').textContent=`Spine 实际回导：${audit.technicalPass?'技术检查通过':'未通过'}；视觉验收：待用户确认。\n${audit.samples} 次采样；网格翻折 ${audit.invertedTriangleObservations}；回导顶点最大差 ${audit.maxRoundtripVertexDelta.toFixed(4)} px；脚掌内部距离最大变化 ${audit.maxFootDistanceChange.toFixed(4)} px。\n7 张固定附件 / 1 张 1460×480 图集。肢体带投影长度轨道，脚掌独立保形。\n原视频 82→59 接缝像素差 ${cycle.seam82to59.rgbMAE.toFixed(2)}；片内中位帧间差 ${cycle.adjacentMedianRGBMAE.toFixed(2)}。数值不能代替视觉验收。`;
+ for(const id of ['play','prev','next'])$(id).disabled=false;
+ function tick(t){if(playing){time=(time+(t-last)/1000*Number($('speed').value))%1;draw()}last=t;requestAnimationFrame(tick)}draw();requestAnimationFrame(tick);
+})().catch(e=>{document.getElementById('status').textContent='加载失败：'+e.message;console.error(e)});
+</script></html>

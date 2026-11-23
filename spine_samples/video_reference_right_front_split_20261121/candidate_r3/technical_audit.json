@@ -1,0 +1,49 @@
+{
+  "status": "accepted_by_user",
+  "humanAccepted": true,
+  "roundtripChecked": true,
+  "bones": 16,
+  "ik": 4,
+  "attachments": 7,
+  "topologyMatchesAccepted": true,
+  "ikConfigMatchesAccepted": true,
+  "poseExtractionAutomatic": false,
+  "samples": 193,
+  "maxSetupError": 1.377295168260206e-05,
+  "maxRoundtripVertexDelta": 0.0125579833984375,
+  "maxRoundtripVertexAt": {
+    "time": 0.041666666666666664,
+    "part": "leg_near",
+    "vertex": 12.5,
+    "a": 147.4993896484375,
+    "b": 147.48683166503906
+  },
+  "maxIKError": 1.7901857590212446e-07,
+  "oldEndpointDefinitionDifferencePx": 16.24751489803029,
+  "maxFittedTargetError": 0.011218881295635025,
+  "maxFittedJointError": 0.6709152396238703,
+  "maxMaterialAnchorError": 0.08615809408191732,
+  "fitChecksAreInternalConsistencyNotAnatomicalGroundTruth": true,
+  "footRigid": false,
+  "maxFootDistanceChange": 22.830946037120434,
+  "maxLoopVertexDelta": 0,
+  "invertedTriangleObservations": 0,
+  "flips": [],
+  "technicalPass": true,
+  "deformTimelines": [
+    "arm_far",
+    "arm_near",
+    "leg_far",
+    "leg_near",
+    "shorts",
+    "torso"
+  ],
+  "thresholds": {
+    "roundtripVertexPx": 0.25,
+    "setupVertexPx": 0.001,
+    "IKEndpointPx": 0.05,
+    "materialAnchorPx": 1,
+    "inferredJointPx": 1
+  },
+  "acceptanceRecord": "acceptance.json"
+}

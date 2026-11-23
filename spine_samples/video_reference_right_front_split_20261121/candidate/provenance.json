@@ -1,0 +1,460 @@
+{
+  "status": "candidate_pending_visual_review",
+  "humanAccepted": false,
+  "sourcePSD": "I:\\彩虹AI\\design\\AI玩具_design\\美术资源\\棉花娃娃\\右前图层.psd",
+  "sourcePSDSha256": "ba7c6d3b0b1bb1c5521184257c2f2f2592eda9f098ee4a2e04e1eb8a6ebbe8cd",
+  "sourceVideo": {
+    "sourceVideo": "I:\\彩虹AI\\design\\视频素材_design\\Walulu萌宠\\蘑菇秃秃方向\\基础角色-测试\\右前行走-拆图层.mp4",
+    "sourceSha256": "93d00de73120801f73de8cd723973fb4ec1d5b4a887ba1a5fa5e63772ad6f3ff",
+    "fps": 24.0,
+    "frameCount": 107,
+    "selectedStartSeconds": 2.4583333333333335,
+    "selectedEndSeconds": 3.458333333333333,
+    "selectedStartFrame": 59,
+    "selectedEndFrameExclusive": 83,
+    "selectedFrameCount": 24,
+    "selectionReason": "workbench selected loop interval from user-provided screenshot",
+    "frames": [
+      {
+        "frame": 59,
+        "time": 2.4583333333333335,
+        "file": "reference_frames/0059.png",
+        "sha256": "8ad405457c6338667e6e90f7de6fb785af9f6baa426bd73aa43f69630b82b536"
+      },
+      {
+        "frame": 60,
+        "time": 2.5,
+        "file": "reference_frames/0060.png",
+        "sha256": "079a96ccee725acbf7abee1843f17f7cae97e2a02ee08886bda1173aeb081645"
+      },
+      {
+        "frame": 61,
+        "time": 2.5416666666666665,
+        "file": "reference_frames/0061.png",
+        "sha256": "18a2d53b9c6f3bc415d0911974c6898cfdfd9776e6701b894f89b917ed603824"
+      },
+      {
+        "frame": 62,
+        "time": 2.5833333333333335,
+        "file": "reference_frames/0062.png",
+        "sha256": "6ee3c0d96402df858e5a66343191feb869e3529d2fc951b9ca72fc0b544ad4d4"
+      },
+      {
+        "frame": 63,
+        "time": 2.625,
+        "file": "reference_frames/0063.png",
+        "sha256": "8e45bf15f74bb7efa42ff29a3dfb35b0c3a3a608632d0d70d544aff35497f4a4"
+      },
+      {
+        "frame": 64,
+        "time": 2.6666666666666665,
+        "file": "reference_frames/0064.png",
+        "sha256": "5f59f129637b9cb332371e647b2c39b0f57914e1869957c0649c978cdfc09a1b"
+      },
+      {
+        "frame": 65,
+        "time": 2.7083333333333335,
+        "file": "reference_frames/0065.png",
+        "sha256": "905b1b53fa09be98da7891bf5fad202c88494735600573dfff086d59f72244c5"
+      },
+      {
+        "frame": 66,
+        "time": 2.75,
+        "file": "reference_frames/0066.png",
+        "sha256": "d297e00e012fba55f5014152a9aeff82a39356b145831cb53356071bd07b7162"
+      },
+      {
+        "frame": 67,
+        "time": 2.7916666666666665,
+        "file": "reference_frames/0067.png",
+        "sha256": "069e81317b4be7de0136899e4354d5a4852915aecf85bebd73413647496c7637"
+      },
+      {
+        "frame": 68,
+        "time": 2.8333333333333335,
+        "file": "reference_frames/0068.png",
+        "sha256": "303d717c548b25b1c0e234a0c155723dbdb6432c92315a9df1c21398796d2001"
+      },
+      {
+        "frame": 69,
+        "time": 2.875,
+        "file": "reference_frames/0069.png",
+        "sha256": "52a47829e33baedcad58701e70b9c382635444160893b896712bdebd92e4bae2"
+      },
+      {
+        "frame": 70,
+        "time": 2.9166666666666665,
+        "file": "reference_frames/0070.png",
+        "sha256": "b371d94792658fabb64bdd3adbf7f3de82091b2d5a9bca6a3bec99d41350b78c"
+      },
+      {
+        "frame": 71,
+        "time": 2.9583333333333335,
+        "file": "reference_frames/0071.png",
+        "sha256": "0194d30d00ab972de9cdb9a247b045f5e202456ade3f33f0cbda791c96281c92"
+      },
+      {
+        "frame": 72,
+        "time": 3.0,
+        "file": "reference_frames/0072.png",
+        "sha256": "d2dc0e624c78df3185fe6784d9872d0ee4e9c59bb57ff7a8e28df12d19610b11"
+      },
+      {
+        "frame": 73,
+        "time": 3.0416666666666665,
+        "file": "reference_frames/0073.png",
+        "sha256": "e1920d8f087b1261fbdad00d97a02ea08a32fed24b30ef0aea0752117798a1f1"
+      },
+      {
+        "frame": 74,
+        "time": 3.0833333333333335,
+        "file": "reference_frames/0074.png",
+        "sha256": "b085a51e26e9ef95fbc0e9c39fb15038e81e8fd8a0f852b7ea582fea39e11b6b"
+      },
+      {
+        "frame": 75,
+        "time": 3.125,
+        "file": "reference_frames/0075.png",
+        "sha256": "10dab13b895b374c5f2956b07c4bdf27400b4d2a78f60fbc889878a7807c5f57"
+      },
+      {
+        "frame": 76,
+        "time": 3.1666666666666665,
+        "file": "reference_frames/0076.png",
+        "sha256": "2764a583f414985d07251b2c716ce674b61e9d763e034e07c2b03f70f08cb08c"
+      },
+      {
+        "frame": 77,
+        "time": 3.2083333333333335,
+        "file": "reference_frames/0077.png",
+        "sha256": "75d91ab078414177f5e4a1555cae3106301a0ea857d838714e67eb7e10d75e37"
+      },
+      {
+        "frame": 78,
+        "time": 3.25,
+        "file": "reference_frames/0078.png",
+        "sha256": "085fc80d8983237a61b80fa92580864a52c79fd82c68c008bae042dc9ef680cb"
+      },
+      {
+        "frame": 79,
+        "time": 3.2916666666666665,
+        "file": "reference_frames/0079.png",
+        "sha256": "fe2c9726298a81875f6aa7c324914fb82fa753f8dae891258af3f9c5f15fd431"
+      },
+      {
+        "frame": 80,
+        "time": 3.3333333333333335,
+        "file": "reference_frames/0080.png",
+        "sha256": "8b49b6a7cb9b1c08bb96444f764a72934f95e70c83533756fb67ad64beb75b35"
+      },
+      {
+        "frame": 81,
+        "time": 3.375,
+        "file": "reference_frames/0081.png",
+        "sha256": "26a2f7181734dcb737b7eb7cffdd9d31cb54a0387393bac51bd8bc013a29129d"
+      },
+      {
+        "frame": 82,
+        "time": 3.4166666666666665,
+        "file": "reference_frames/0082.png",
+        "sha256": "e234619fef278316210e32e152bf816aed7a6523fb0f85e48863cfb25b4bb2dd"
+      }
+    ],
+    "loopEndpointPolicy": "end frame is excluded from extracted interval; verify seam against first frame"
+  },
+  "motionObservationFile": "motion_observations.json",
+  "acceptedRigReference": "spine_samples/video_motion_study_20261119/pixel_sync_20261120",
+  "topologyUnchanged": true,
+  "ikUnchanged": true,
+  "restPoseCalibratedToPSD": true,
+  "boneChanges": [
+    {
+      "name": "torso",
+      "accepted": {
+        "name": "torso",
+        "parent": "root",
+        "length": 95.01,
+        "rotation": -90.6,
+        "x": 14,
+        "y": 188
+      },
+      "calibrated": {
+        "name": "torso",
+        "parent": "root",
+        "length": 75.62743640110803,
+        "rotation": -90.6,
+        "x": 11.853315450157822,
+        "y": 195.0737965473828
+      }
+    },
+    {
+      "name": "pelvis",
+      "accepted": {
+        "name": "pelvis",
+        "parent": "root",
+        "length": 61.4,
+        "rotation": 6.55,
+        "x": -18,
+        "y": 85
+      },
+      "calibrated": {
+        "name": "pelvis",
+        "parent": "root",
+        "length": 29.65781819651295,
+        "rotation": 6.55,
+        "x": 10.53571610786031,
+        "y": 119.4578387833181
+      }
+    },
+    {
+      "name": "arm_far_upper",
+      "accepted": {
+        "name": "arm_far_upper",
+        "parent": "root",
+        "length": 35,
+        "rotation": -93.63,
+        "x": 53,
+        "y": 175
+      },
+      "calibrated": {
+        "name": "arm_far_upper",
+        "parent": "root",
+        "length": 30.565683308514842,
+        "rotation": -93.63,
+        "x": 38.88051080219833,
+        "y": 185.70415469392185
+      }
+    },
+    {
+      "name": "arm_far_lower",
+      "accepted": {
+        "name": "arm_far_lower",
+        "parent": "arm_far_upper",
+        "length": 36,
+        "rotation": 67.11,
+        "x": 35
+      },
+      "calibrated": {
+        "name": "arm_far_lower",
+        "parent": "arm_far_upper",
+        "length": 31.438988545900976,
+        "rotation": 67.11,
+        "x": 30.565683308514842
+      }
+    },
+    {
+      "name": "arm_far_target",
+      "accepted": {
+        "name": "arm_far_target",
+        "parent": "root",
+        "x": 83,
+        "y": 124,
+        "color": "ff3f00ff"
+      },
+      "calibrated": {
+        "name": "arm_far_target",
+        "parent": "root",
+        "x": 65.13264771759327,
+        "y": 131.85453768512872,
+        "color": "ff3f00ff"
+      }
+    },
+    {
+      "name": "leg_far_upper",
+      "accepted": {
+        "name": "leg_far_upper",
+        "parent": "root",
+        "length": 30,
+        "rotation": -58.55,
+        "x": 43,
+        "y": 92
+      },
+      "calibrated": {
+        "name": "leg_far_upper",
+        "parent": "root",
+        "length": 25.161784087798896,
+        "rotation": -58.55,
+        "x": 34.232534242815916,
+        "y": 117.56180844526273
+      }
+    },
+    {
+      "name": "leg_far_lower",
+      "accepted": {
+        "name": "leg_far_lower",
+        "parent": "leg_far_upper",
+        "length": 31,
+        "rotation": -87.29,
+        "x": 30
+      },
+      "calibrated": {
+        "name": "leg_far_lower",
+        "parent": "leg_far_upper",
+        "length": 26.00051022405886,
+        "rotation": -87.29,
+        "x": 25.161784087798896
+      }
+    },
+    {
+      "name": "leg_far_target",
+      "accepted": {
+        "name": "leg_far_target",
+        "parent": "root",
+        "x": 33,
+        "y": 49,
+        "color": "ff3f00ff"
+      },
+      "calibrated": {
+        "name": "leg_far_target",
+        "parent": "root",
+        "x": 33.86558014826892,
+        "y": 68.13100206781985,
+        "color": "ff3f00ff"
+      }
+    },
+    {
+      "name": "arm_near_upper",
+      "accepted": {
+        "name": "arm_near_upper",
+        "parent": "root",
+        "length": 42,
+        "rotation": -141.19,
+        "x": -20,
+        "y": 175
+      },
+      "calibrated": {
+        "name": "arm_near_upper",
+        "parent": "root",
+        "length": 36.286490944288495,
+        "rotation": -141.19,
+        "x": -17.49523810285109,
+        "y": 184.70900759565814
+      }
+    },
+    {
+      "name": "arm_near_lower",
+      "accepted": {
+        "name": "arm_near_lower",
+        "parent": "arm_near_upper",
+        "length": 43,
+        "rotation": 44.14,
+        "x": 42
+      },
+      "calibrated": {
+        "name": "arm_near_lower",
+        "parent": "arm_near_upper",
+        "length": 37.150455014390594,
+        "rotation": 44.14,
+        "x": 36.286490944288495
+      }
+    },
+    {
+      "name": "arm_near_target",
+      "accepted": {
+        "name": "arm_near_target",
+        "parent": "root",
+        "x": -58,
+        "y": 106,
+        "color": "ff3f00ff"
+      },
+      "calibrated": {
+        "name": "arm_near_target",
+        "parent": "root",
+        "x": -45.32858733020447,
+        "y": 119.442523816988,
+        "color": "ff3f00ff"
+      }
+    },
+    {
+      "name": "leg_near_upper",
+      "accepted": {
+        "name": "leg_near_upper",
+        "parent": "root",
+        "length": 30,
+        "rotation": -104.7,
+        "x": -18,
+        "y": 85
+      },
+      "calibrated": {
+        "name": "leg_near_upper",
+        "parent": "root",
+        "length": 27.911375627918417,
+        "rotation": -104.7,
+        "x": -19.21233002684005,
+        "y": 114.53810299987458
+      }
+    },
+    {
+      "name": "leg_near_lower",
+      "accepted": {
+        "name": "leg_near_lower",
+        "parent": "leg_near_upper",
+        "length": 30,
+        "rotation": 48.32,
+        "x": 30
+      },
+      "calibrated": {
+        "name": "leg_near_lower",
+        "parent": "leg_near_upper",
+        "length": 27.911375627918417,
+        "rotation": 48.32,
+        "x": 27.911375627918417
+      }
+    },
+    {
+      "name": "leg_near_target",
+      "accepted": {
+        "name": "leg_near_target",
+        "parent": "root",
+        "x": -9,
+        "y": 31,
+        "color": "ff3f00ff"
+      },
+      "calibrated": {
+        "name": "leg_near_target",
+        "parent": "root",
+        "x": -17.679902180370163,
+        "y": 60.62485206526975,
+        "color": "ff3f00ff"
+      }
+    }
+  ],
+  "oldAnimationReused": false,
+  "attachmentCount": 7,
+  "noRepaint": true,
+  "noVideoTextures": true,
+  "projectedLengthTracks": true,
+  "scalePolicy": "upper scaleX = observed endpoint distance / calibrated setup distance; arms scaleY=1, legs scaleY=scaleX; target bones do not inherit limb scaling",
+  "hipPolicy": "PSD hip attachments follow the pelvis/torso registration so pants and thigh roots remain connected; raw hip estimates are not treated as exact anatomy",
+  "footRegion": "PSD y >= 825: 100% rigid target bone; no multi-bone blending",
+  "registration": [
+    [
+      0.4942219461703574,
+      -0.008611760407173303,
+      183.96239685982107
+    ],
+    [
+      0.008611760407173303,
+      0.4942219461703574,
+      -7.326872796775726
+    ]
+  ],
+  "reachWarnings": [
+    {
+      "frame": 64,
+      "chain": "leg_far",
+      "excess": 0.03287426957438555
+    },
+    {
+      "frame": 65,
+      "chain": "leg_far",
+      "excess": 1.4842147899842857
+    },
+    {
+      "frame": 66,
+      "chain": "leg_far",
+      "excess": 0.8965273778494378
+    }
+  ],
+  "uncertainties": "Hidden far foot trajectory is inferred, not independently recovered anatomy."
+}

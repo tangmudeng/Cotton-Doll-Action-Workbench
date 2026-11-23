@@ -1,0 +1,53 @@
+skin_0.png
+size: 1460,480
+filter: Linear,Linear
+repeat: none
+arm_far
+  rotate: false
+  xy: 1121, 4
+  size: 114, 161
+  orig: 114, 161
+  offset: 0, 0
+  index: -1
+leg_near
+  rotate: false
+  xy: 521, 4
+  size: 136, 195
+  orig: 136, 195
+  offset: 0, 0
+  index: -1
+leg_far
+  rotate: false
+  xy: 794, 4
+  size: 122, 176
+  orig: 122, 176
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 920, 4
+  size: 197, 173
+  orig: 197, 173
+  offset: 0, 0
+  index: -1
+shorts
+  rotate: false
+  xy: 1239, 4
+  size: 217, 120
+  orig: 217, 120
+  offset: 0, 0
+  index: -1
+arm_near
+  rotate: false
+  xy: 661, 4
+  size: 129, 189
+  orig: 129, 189
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 4, 4
+  size: 513, 470
+  orig: 513, 470
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,4 @@
+# Rebuildable render geometry and temporary Spine CLI import/export stages.
+**/walk_geometry.json
+**/export_*/
+**/debug_exports/

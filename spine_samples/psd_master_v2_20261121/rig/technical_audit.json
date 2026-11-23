@@ -1,0 +1,12 @@
+{
+  "roundtripPass": true,
+  "checks": 582,
+  "maxSoleVertexDrift": 0,
+  "maxRoundtripVertexDelta": 0.16552734375,
+  "maxIKEndpointError": 0.000001211283411358817,
+  "invertedTriangleObservations": 0,
+  "inversions": [],
+  "legsTested": true,
+  "sourceVideoFitted": false,
+  "humanAccepted": false
+}

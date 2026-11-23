@@ -1,0 +1,65 @@
+{
+  "stage": "four-limb-joint-validation",
+  "manualAnchors": {
+    "arm_near": [
+      [
+        477,
+        604
+      ],
+      [
+        442,
+        670
+      ],
+      [
+        423,
+        737
+      ]
+    ],
+    "arm_far": [
+      [
+        591,
+        600
+      ],
+      [
+        622,
+        648
+      ],
+      [
+        646,
+        708
+      ]
+    ],
+    "leg_near": [
+      [
+        476,
+        746
+      ],
+      [
+        465,
+        803
+      ],
+      [
+        481,
+        855
+      ]
+    ],
+    "leg_far": [
+      [
+        584,
+        738
+      ],
+      [
+        574,
+        791
+      ],
+      [
+        585,
+        838
+      ]
+    ]
+  },
+  "coordinateSpace": "PSD canvas pixels; y down",
+  "legsIndependent": true,
+  "referenceVideoMotionFitted": false,
+  "visualAccepted": false
+}

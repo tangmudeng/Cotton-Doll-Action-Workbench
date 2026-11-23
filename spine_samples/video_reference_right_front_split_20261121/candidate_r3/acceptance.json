@@ -1,0 +1,33 @@
+{
+  "status": "accepted_by_user",
+  "humanAccepted": true,
+  "acceptedDate": "2026-11-21",
+  "acceptedBy": "user",
+  "userStatement": "这版我认为可以判断为验收通过了",
+  "revision": "r3",
+  "animation": "video_right_front_split_59_82",
+  "scope": "Exact candidate_r3 PSD right-front walk; no acceptance implied for workbench integration, wardrobe, other motions or directions.",
+  "artifactSha256": {
+    "right_front_split_psd.spine": "cc4b471c3e2b80a91628ea3a48ff624ef8d87cc74621e7582ef20444b81a2bf6",
+    "skin.json": "8170b7488e186405977d61e3f1bed29738e6dec4045aab6fad61f379c7212e05",
+    "skin.atlas": "4b16b62535a9356f9b9bf124659a1859c3a5a30dd8ab2cceac060d4dcea70f7d",
+    "skin_0.png": "0c554b512c41c858b8e0663a9111a73d8025031a65675a2ac1c2c405ed3b5a12",
+    "roundtrip/skin.json": "e6622363278403a31f9e0c83493083ac583585333aea442e5312c4013682152f",
+    "source_manifest.json": "61e814e1d85fc5675002a92102279a139e5b65fa551906ad624d12609af818ea",
+    "motion_observations.json": "2dea9d6ff47f3325cb3a435e1c7b144e8f7176e8b44c666fb0671a00181d8aab",
+    "surface_fit.json": "4ca580359e7a66f27a7e93f93188e750066975d1c5e03788d2840ba1a128dcd5",
+    "ik_fit.json": "b93fb0a662538ab0fc0a3f112e908a9d7d2e5fc9339bd90ec614d48efd6c322e",
+    "silhouette_audit.json": "c77419570c0a0496b5b0880a073830a88d9f505d7c547ef903ff5ce2ac095a63",
+    "spine_export_audit.json": "77d9cfdc7566a9e386d0bd834930264dfbfcfa1ab18ddb674c664a2743dd82a4",
+    "atlas_report.json": "b14de418ba6e2ed3aa711a07c752fd29d61f0d93a7472200944b31268e2cf884",
+    "parts/arm_far.png": "e435af8c228bf8b2360f7105310b5ceba0804b5c718fc823a958beab32f0da31",
+    "parts/arm_near.png": "2915fc922704e45c5b5001ab40d5800875b59b7d55dfbe83dfeb0d852128f520",
+    "parts/head.png": "8eb46d5383950e5199507b1816493357489cd7b242c3eefa48bf8adbc2ee8f1e",
+    "parts/leg_far.png": "fee4e4e148b7c895f03d7f874fbcfbdc1227de3c6b282edfa8e255f7af7b57dd",
+    "parts/leg_near.png": "0461bb6aa38a102a065b0e156859b781edfca045f3cb7d08a228fc391d0af4c6",
+    "parts/shorts.png": "148159f8d74a6fcc98792ca1aa5370f529a4459d8e7e45b24c2dbb0f29ce9287",
+    "parts/torso.png": "ce8aaa7196cdccb19ccdf8e841fc7a14393d8ebf0617c1c0d1181d10a4ab317a"
+  },
+  "technicalAuditSha256": "b82b4da8f1947623eb5c3df277cbfb8e2c13c3a41490e5e521fc5638532bfa5f",
+  "sourcePSDSha256": "ba7c6d3b0b1bb1c5521184257c2f2f2592eda9f098ee4a2e04e1eb8a6ebbe8cd"
+}

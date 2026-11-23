@@ -1,0 +1,56 @@
+{
+  "sourceFrames": [
+    63,
+    64,
+    70,
+    71,
+    72,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+  ],
+  "changedTexels": 0,
+  "mapping": "nearest original video pixel; full-frame source xy and frame maps included",
+  "sourceMasks": "torso plus visible waist pixels previously assigned above leg roots",
+  "hiddenPixelsInvented": 0,
+  "trimmedOutsideBodyPixels": 7873,
+  "authoringEnvelope": [
+    [
+      405,
+      288
+    ],
+    [
+      479,
+      288
+    ],
+    [
+      495,
+      316
+    ],
+    [
+      506,
+      361
+    ],
+    [
+      501,
+      399
+    ],
+    [
+      400,
+      403
+    ],
+    [
+      393,
+      380
+    ],
+    [
+      404,
+      326
+    ]
+  ],
+  "geometryComplete": false
+}

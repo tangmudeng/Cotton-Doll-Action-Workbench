@@ -1,0 +1,48 @@
+{
+  "scope": "end-effector trajectories in normalized source-video coordinates; same nominal PSD root, body bounce removed",
+  "reference": "previously accepted reference_cycle rig, not independent motion capture",
+  "notVisualAcceptance": true,
+  "sourceFrameCount": 23,
+  "results": {
+    "arm_near": {
+      "previous": {
+        "endpointPathRMSESourcePixels": 12.251138989537706,
+        "nearFarVerticalRangeSourcePixels": 25.614690091991633
+      },
+      "updated": {
+        "endpointPathRMSESourcePixels": 0.6068208938318526,
+        "nearFarVerticalRangeSourcePixels": 13.69939588892671
+      }
+    },
+    "arm_far": {
+      "previous": {
+        "endpointPathRMSESourcePixels": 5.920296615380312,
+        "nearFarVerticalRangeSourcePixels": 14.48781921110973
+      },
+      "updated": {
+        "endpointPathRMSESourcePixels": 0.39807447871834084,
+        "nearFarVerticalRangeSourcePixels": 11.400078665987536
+      }
+    },
+    "leg_near": {
+      "previous": {
+        "endpointPathRMSESourcePixels": 5.9200684449412115,
+        "nearFarVerticalRangeSourcePixels": 9.483360115622212
+      },
+      "updated": {
+        "endpointPathRMSESourcePixels": 0.5173676272808574,
+        "nearFarVerticalRangeSourcePixels": 14.404432625192406
+      }
+    },
+    "leg_far": {
+      "previous": {
+        "endpointPathRMSESourcePixels": 11.464570613385503,
+        "nearFarVerticalRangeSourcePixels": 11.313164258794181
+      },
+      "updated": {
+        "endpointPathRMSESourcePixels": 0.5400902230911799,
+        "nearFarVerticalRangeSourcePixels": 18.499178410146094
+      }
+    }
+  }
+}

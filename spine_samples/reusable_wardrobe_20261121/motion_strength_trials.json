@@ -1,0 +1,27 @@
+[
+  {
+    "strength": 0.6,
+    "alphaSupportedInversions": {
+      "outfit_bib": 218,
+      "outfit_sleeve_near": 154
+    }
+  },
+  {
+    "strength": 0.8,
+    "alphaSupportedInversions": {
+      "outfit_bib": 583,
+      "outfit_sleeve_near": 387,
+      "outfit_pants_far": 4,
+      "outfit_pants_near": 6
+    }
+  },
+  {
+    "strength": 1.0,
+    "alphaSupportedInversions": {
+      "outfit_bib": 794,
+      "outfit_sleeve_near": 651,
+      "outfit_pants_near": 40,
+      "outfit_pants_far": 17
+    }
+  }
+]

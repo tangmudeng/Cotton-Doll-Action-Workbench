@@ -1,0 +1,15 @@
+{
+  "acceptedBaselineFilesUnchanged": 166,
+  "garmentVisibleRGBChanges": 0,
+  "torsoVisibleRGBChanges": 0,
+  "baselineTextures": 161,
+  "baselineAtlasSize": [
+    2048,
+    2048
+  ],
+  "baselineBaseRGBABytes": 16777216,
+  "candidateTextures": 20,
+  "candidateBaseRGBABytes": 2973440,
+  "sourceReconstructionNotPixelIdentical": true,
+  "humanAccepted": false
+}
